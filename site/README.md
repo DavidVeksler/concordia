@@ -72,7 +72,7 @@ Written `{% name args %}`. Arguments are quoted strings (positional) or `key="va
 | `{% callout "In 2045" %} ...Markdown... {% endcallout %}` | Boxed aside (rare). Tag defaults to "In 2045". |
 | `{% chapter "key" %} ...Markdown... {% endchapter %}` | Journey chapter card: number and title from the sim, your body, a "Start the story here" button. The anchor is `#key`. |
 | `{% cards %}` lines `/path/ \| Title \| Blurb` `{% endcards %}` | Card grid. Title and blurb are optional for existing pages; add `compact` (`{% cards compact %}`) for small cards. | `{% cards discover %}` adds a fourth field (a shot id, default the page's `hero`) and shows the question (`question:` front matter) over a thumbnail; the home page and `/scenes/` use it. |
-| `{% whatsnew %}` | The home page "New aboard" block: newest three entries of `site/data/whats-new.json` younger than 120 days; nothing when none qualify. | `{% whatsnew %}` |
+| `{% whatsnew %}` | The home page "New aboard" block: newest four entries of `site/data/whats-new.json` younger than 120 days; nothing when none qualify. | `{% whatsnew %}` |
 | `{% predict "Question?" correct=2 %}` option lines, `---`, reveal `{% endpredict %}` | Predict-first block: no-JS list plus `<details>`; with JS radio buttons, Check, right/wrong, `sessionStorage`, a `predict` DOM event. Used on `/discover/*` and `/science/artificial-gravity/`. See `docs/content.md`. |
 
 Add `<!-- facts: section N -->` near dense numeric passages so reviewers can trace numbers to `docs/site/facts.md`.
