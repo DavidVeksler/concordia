@@ -121,8 +121,8 @@
   {"id":"aft-power-landing","href":"/explore/?viewpoint=aft-power-landing","section":"off","edge":"aft","xM":-12500,"radiusM":4031},
   {"id":"aft-reactor-mast","href":"/explore/?viewpoint=aft-reactor-mast","section":"off","edge":"aft","xM":-11310,"radiusM":4352},
   {"id":"aft-thruster-ring","href":"/explore/?viewpoint=aft-thruster-ring","section":"off","edge":"aft","xM":-10900,"radiusM":3050},
-  {"id":"aft-observatory-exterior","href":"/explore/?viewpoint=aft-observatory-exterior","section":"off","edge":"aft","xM":-11160,"radiusM":610},
-  {"id":"aft-observatory-interior","href":"/explore/?viewpoint=aft-observatory-interior","section":"off","edge":"aft","xM":-10874,"radiusM":560},
+  {"id":"aft-observatory-exterior","href":"/explore/?viewpoint=aft-observatory-exterior","section":"off","edge":"aft","xM":-11160,"radiusM":274},
+  {"id":"aft-observatory-interior","href":"/explore/?viewpoint=aft-observatory-interior","section":"off","edge":"aft","xM":-10874,"radiusM":210},
   {"id":"post-launch-home","href":"/explore/?viewpoint=post-launch-home","section":"off","edge":"out","xM":0,"radiusM":30806},
   {"id":"earth-moon-context","href":"/explore/?viewpoint=earth-moon-context","section":"off","edge":"out","xM":-8730,"radiusM":33889}
  ]

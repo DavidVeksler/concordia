@@ -4,7 +4,7 @@ description: 'Concordia''s passenger terminal is a zero-g nave 440 m long: three
 lead: 'Everyone who arrives from Earth or the Moon comes through the spaceport at the forward end. Passengers float through a zero-g terminal; freighters berth on long piers outside; propellant waits in a tank farm well clear of the station.'
 hero: pl-spaceport-terminal
 nav: places
-order: 8
+order: 9
 updated: 2026-10-13
 related:
   - /places/shipyard/

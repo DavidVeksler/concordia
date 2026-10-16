@@ -66,7 +66,7 @@ The cost is delay: 2.56 seconds for a round trip, so a live call to Earth feels 
 
 Industry needs hundreds of people, not a million. The fabrication lines, mines and yards run themselves, and robots maintain them. So the 400,000 people who live here today did not come for factory jobs. {% basis "fiction" %}
 
-They are owners, the people who direct fleets of AI systems for them, their families, and people who moved for the life. Every resident also holds a share: part of the energy revenue is paid to each of them as a dividend, the way Alaska shares its oil money. {% basis "fiction" %} Two rotors carry the money: Noordung (Rotor 2) is the capital quarter, with the Exchange, Charter Hall and the Court, and O'Neill (Rotor 4) holds the estates. On a habitat the scarcest luxury is open ground under the sky, so the richest districts are lakeside streets with large plots, while the megaframe carries density overhead.
+They are owners, the people who direct fleets of AI systems for them, their families, and people who moved for the life. Every resident also holds a share: part of the energy revenue is paid to each of them as a dividend, the way Alaska shares its oil money. {% basis "fiction" %} Two rotors carry the money: Noordung (Rotor 2) is the capital quarter, with the [Exchange, Charter Hall and the Court](/places/capital-quarter/), and O'Neill (Rotor 4) holds the estates. On a habitat the scarcest luxury is open ground under the sky, so the richest districts are lakeside streets with large plots, while the megaframe carries density overhead.
 
 {% shot "st-district-skyline" "A district of Tsiolkovsky (Rotor 1). Open ground is the scarce thing here; the megaframe carries the city's density overhead." %}
 

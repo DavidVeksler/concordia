@@ -4,7 +4,7 @@ description: 'Seen from outside, Concordia is a 21 km mountain of cassette-cover
 lead: 'From outside, Concordia is a grey cylinder 21 km long and 6.2 km wide. Its skin is a shielding truss, not a pressure vessel, and around it hang radiators, dishes, launch tracks, defence batteries and seven free-flying satellites.'
 hero: film-habitat-pullback
 nav: places
-order: 10
+order: 11
 updated: 2026-10-10
 related:
   - /places/aft-works/

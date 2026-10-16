@@ -4,7 +4,7 @@ description: 'A 3.5 km open-truss rotor turning against the city rotors at 0.45 
 lead: 'Ehricke, the industrial rotor, is the factory floor. It is a skeleton of rings and girders 3.5 km long, turning opposite the city rotors, with refineries, tank farms, container racks and robots in an open vacuum. People rarely go in.'
 hero: pl-industrial-wide
 nav: places
-order: 6
+order: 7
 updated: 2026-10-10
 related:
   - /places/shipyard/

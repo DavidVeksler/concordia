@@ -4,7 +4,7 @@ description: 'The aft end of Concordia is its power station: four HVDC landing m
 lead: 'The back of the station is where the electricity comes in. Eight tethers run 7 km aft to the solar farm, four masts land the power, two reactors can restart everything after a blackout, and a ring of thrusters keeps the station steady.'
 hero: pl-aft-far
 nav: places
-order: 9
+order: 10
 updated: 2026-10-10
 related:
   - /places/axis-and-spine/

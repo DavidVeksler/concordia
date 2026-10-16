@@ -4,7 +4,7 @@ description: 'In a vacuum yard 3.5 km long, spacecraft are built without gravity
 lead: 'The shipyard is a stationary vacuum yard about 3.5 km long, with no floor and no up. Ships are built here because a 700 m hull weighs nothing, so it needs no cradle and no crane, only soft hands and a lot of patience.'
 hero: pl-shipyard-hero
 nav: places
-order: 7
+order: 8
 updated: 2026-10-10
 related:
   - /places/industrial-rotor/

@@ -4,7 +4,7 @@ description: 'Above Concordia''s streets a prebuilt lattice carries a second cit
 lead: 'Above the streets, a lattice of piers and ring beams holds a second city on plates, bridges and terraces. The lattice is the {% term "megaframe" %}. It was built first, and the city grew inside it.'
 hero: pl-megaframe-plate
 nav: places
-order: 2
+order: 3
 updated: 2026-10-10
 related:
   - /places/arbor-quarter/

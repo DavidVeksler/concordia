@@ -4,7 +4,7 @@ description: 'Concordia grows its food at 0.6 g in pressurized grow halls high i
 lead: 'Food is grown high in each rotor, where gravity is 0.6 g and the air is the same air the city breathes. A grow hall of twelve decks, a process wing and a loading dock turn light and water into salad, bread and bottled drinks.'
 hero: pl-farm-grow-deck
 nav: places
-order: 4
+order: 5
 updated: 2026-10-10
 related:
   - /places/ascenders-and-sky/

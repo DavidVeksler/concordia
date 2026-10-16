@@ -4,7 +4,7 @@ description: 'A radial lift called the ascender climbs 2,380 m from the street t
 lead: 'The {% term "ascender" %} is a lift 2.4 km tall. It carries 150 people from the street through the artificial sky to the axis in about ten minutes, and on the way your weight drops to almost nothing.'
 hero: pl-sky-breakthrough
 nav: places
-order: 3
+order: 4
 updated: 2026-10-10
 related:
   - /places/axis-and-spine/

@@ -47,7 +47,7 @@ Tsiolkovsky was the first rotor to be spun up, and the first residents arrived i
 {% endmapsection %}
 
 {% mapsection "rotor-2" %}
-Noordung turns the same way as Tsiolkovsky and is locked in step with it. Its forward end wall faces Bernal's aft wall across the counter-rotating interface, where the two walls pass each other at about 313 m/s, so no bridge crosses that gap. Its sky runs a 14 hour day, the longest on the station.
+Noordung turns the same way as Tsiolkovsky and is locked in step with it. Its forward end wall faces Bernal's aft wall across the counter-rotating interface, where the two walls pass each other at about 313 m/s, so no bridge crosses that gap. Its sky runs a 14 hour day, the longest on the station. The Exchange, Charter Hall and the Court stand on its streets: see [the capital quarter](/places/capital-quarter/).
 
 {% shot "sc-rotor2-crowned-towers" "Noordung from 120 m up: copper-crowned towers and spires at arm's length, the megaframe and the far side of the world beyond." %}
 {% endmapsection %}

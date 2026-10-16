@@ -4,7 +4,7 @@ description: 'At the centre of Concordia the city stops weighing anything. A sta
 lead: 'At the centre of every rotor you weigh almost nothing, and a stationary tube 120 m wide runs the whole length of the station. Passengers change from the spinning city to the still spine here, then ride an express to wherever they are going.'
 hero: pl-axis-stationary
 nav: places
-order: 5
+order: 6
 updated: 2026-10-10
 related:
   - /places/ascenders-and-sky/

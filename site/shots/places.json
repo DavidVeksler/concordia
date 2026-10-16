@@ -337,5 +337,32 @@
     "ui": "clean",
     "settleMs": 4000,
     "note": "for /places/exterior/"
+  },
+  {
+    "id": "pl-capital-exchange",
+    "viewpoint": "capital-exchange",
+    "alt": "A domed stone market hall behind a columned portico with a name board, across a plaza in the dense civic quarter of Noordung.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/capital-quarter/ hero (needs -og.jpg)"
+  },
+  {
+    "id": "pl-capital-charter-hall",
+    "viewpoint": "capital-charter-hall",
+    "alt": "The front of Charter Hall: tall arched windows and a columned portico under a name board, with the towers of the quarter behind.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/capital-quarter/ section Charter Hall"
+  },
+  {
+    "id": "pl-capital-court",
+    "viewpoint": "capital-court",
+    "alt": "A columned portico with a pediment and a black name board on a street of stone civic frontages, with a resident on the steps.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/capital-quarter/ section The Court"
   }
 ]
