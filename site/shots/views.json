@@ -142,5 +142,23 @@
     "ui": "clean",
     "settleMs": 4000,
     "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "ms-lakeside-promenade",
+    "viewpoint": "rotor3-lakeside-promenade",
+    "alt": "A resident stands on a lakeside path beside reeds and open water while the upper city rises overhead, towers hanging over the far shore.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "money-shot candidate: Ultra capture of the atlas view, unplaced until David picks"
+  },
+  {
+    "id": "ms-lakeshore",
+    "viewpoint": "rotor2-lakeshore",
+    "alt": "Reeds and a shingle shore in the foreground, a calm lake beyond, and the curved upper city with its lift towers filling the sky overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "money-shot candidate: Ultra capture of the atlas view, unplaced until David picks"
   }
 ]

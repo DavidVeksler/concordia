@@ -4,7 +4,7 @@ description: Concordia is a speculative design built as an interactive simulatio
 lead: Concordia is a speculative design, built as an interactive simulation. The physics is real, the numbers come from the station's engineering specification, and the 2045 history is fiction.
 nav: station
 order: 98
-updated: 2026-10-14
+updated: 2026-10-16
 related:
   - /guide/
   - /glossary/
@@ -53,6 +53,20 @@ Every scene is listed in [the atlas](/scenes/), with a link straight into the si
 {% endfacts %}
 
 The scene runs on Three.js. The models are made in Blender, the sound effects are generated with Woosh from Sony AI, the rooms you see through the residential windows are sixteen images generated with Krea 2 Turbo and lit by the engine, and the launch film is finished in DaVinci Resolve. [The updates page](/updates/) lists every commit.
+
+## What is real and what is styled {#styled}
+
+The station is drawn at full scale: 21 km long, 100 m per scene unit, every street at its modelled width. Where looks or playability beat accuracy, this is the list. Like the note above, it is out of universe.
+
+<!-- facts: section 17 -->
+
+- **Space is compressed.** In the scene Earth is about 590 km away, not 384,400 km, about 650 times closer. Earth, Moon and Sun are shrunk by the same factor, so they keep their real apparent sizes: Earth 1.9 degrees across, Moon and Sun 0.5. The Sun sits 389 lunar distances out, the true ratio.
+- **Flight and orbit are not physical.** Exterior speed is capped at 100 km/s (500 km/s with boost far out), and orbit capture is a scripted six second burn, not a simulated trajectory.
+- **Story time is compressed.** The 15 day Earth transfer plays in about 15 seconds. The 10 hour fall to Earth keeps the real orbit shape (70,000 km to 400 km) and plays in 24 seconds. The landfall and the lighting on it are chosen.
+- **The sky is a display, and its sun is a patch.** A true size sun would give the city 7 lx, so the sky shows an 18 degree glow. One directional light lights the city, and filtering stands in for the soft shadow edge.
+- **The stars are not a catalogue.** Both star fields are seeded random points, so the constellations are not real. Exposure adapts as you look, and stars fade toward the Sun.
+- **The Sun's surface is illustrative artwork.** Earth and Moon use NASA and Solar System Scope maps.
+- **The street crowd is a sample.** About 18,000 to 21,000 pedestrians per rotor walk fixed loops, from four body types. The rooms behind residential windows are sixteen painted images.
 
 ## What the basis tags mean {#basis}
 

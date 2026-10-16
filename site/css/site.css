@@ -218,6 +218,7 @@ a.term:hover { color: var(--accent); }
 .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; margin: 2rem 0; background: var(--rule); border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; }
 .fact { background: var(--surface); padding: 1.1rem 1rem; display: flex; flex-direction: column; gap: 0.3rem; }
 .fact__value { font: 500 clamp(1.5rem, 3.4vw, 2.15rem)/1.1 var(--font-mono); color: var(--accent-2); letter-spacing: -0.02em; }
+.fact__num { white-space: nowrap; }
 .fact__label { font-size: 0.9rem; color: var(--muted); line-height: 1.35; }
 
 /* ------------------------------------------------------------------------------------------------ cards (hubs, scenes, home) */
