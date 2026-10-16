@@ -6,7 +6,7 @@ lead: "Inside a rotor, weight is not a pull. It is the push it takes to bend you
 nav: science
 order: 9
 hero: sci-sky-from-above
-ctaViewpoint: glider-take-off
+ctaViewpoint: glider-over-city
 ctaLabel: Fly the glider · 3D
 updated: 2026-10-15
 related:

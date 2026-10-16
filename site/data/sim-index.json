@@ -24,7 +24,7 @@
       "id": "glider-take-off",
       "name": "Glider: Take-off Run",
       "group": "Glider",
-      "purpose": "The hang glider waits on the residential street, with 400 m of clear road ahead. Hold W to roll, press Space to climb off, T for manual flight, R to drop a ball (docs/36 section 3.5).",
+      "purpose": "The hang glider waits on the residential street 16 m short of the lift plaza, facing back along the hero street with 470 m of clear road ahead. Hold W to roll, press Space to climb off, T for manual flight, R to drop a ball (docs/36 section 3.5).",
       "location": "inside",
       "chapter": "home",
       "science": "/science/gliding/#fly-it"
