@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fr-megaframe-grid",
+    "viewpoint": "mid-gravity-megaframe",
+    "alt": "Pale piers, ring beams and axial girders cross the mid levels of the city, with service decks and a lattice bridge between them.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /research/freight-system/ section 3: the frame the rail grid is built into"
+  },
+  {
+    "id": "fr-shaft-tower",
+    "viewpoint": "ascender-tower",
+    "alt": "Four bronze-latticed blade trusses carry cabins up and down on parallel tracks beside ring beams and service decks.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /research/freight-system/ section 1: paired cars on guided shafts, the closest thing the sim builds today"
+  }
+]

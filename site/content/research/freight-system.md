@@ -35,6 +35,8 @@ Consistency base (read from the repo, not redesigned): rotor radius 2,500 m, spi
 
 Cable suspension survives in one place: **short outboard drops (about 20 to 100 m) from a rail carriage to a platform below it**, where weight and tension are well understood. Winches are for those drops and for the shaft rope loop, not for a general-purpose "cargo cloud".
 
+{% shot "fr-shaft-tower" "The nearest thing the simulation builds to a freight shaft: cabins on parallel guided tracks inside a pier lattice. The study pairs freight cars so one rises as the other descends, and they pass near R = 1,750 m." %}
+
 **Why this and not the original:**
 
 - A cable can only pull toward its anchor. Cargo is held by a cable only when it sits **outboard** (higher radius, heavier) than the anchor. A load "inward of its supporting track" would need compression members (a post), not a cable. Suspension therefore never lowers apparent weight; it raises it (section 2.1). Low apparent weight comes only from where the cargo is, and a track at R_t holds cargo at R_t or higher, so it always feels at least the track's gravity.
@@ -161,6 +163,8 @@ Frontal areas and drag coefficients used: 100 kg tool 0.3 m² x Cd 1.0; 1 t pall
 | Rails plus limited robotic tugs | Hybrid | Prefer, as layer 3. |
 
 **Load budget.** The frame designs for 1e8 kg per developed 625 m slot at 0.75 g (about 735 MN). One 50 t module is 0.37 MN. Even a 20-carriage convoy of 50 t modules on one ring-beam span is under 1 % of a slot's load. What needs study is **fatigue** (a carriage crossing 489 m spans many times a day for centuries), **moving-load dynamics** (a 50 t mass at 5 m/s against the truss modes) and **thermal expansion** at rail joints, not strength.
+
+{% shot "fr-megaframe-grid" "The frame the rails would ride on: ring beams and axial girders cross the mid levels, with a service facility and its truss gallery. Freight rails and carriages are not modelled; this is the structure that would carry them." %}
 
 ### 3.2 Can a suspended carriage reach everywhere?
 
