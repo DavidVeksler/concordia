@@ -1,0 +1,695 @@
+[
+  {
+    "id": "sc-residential-street",
+    "viewpoint": "residential-street",
+    "alt": "A quiet residential street with low buildings, trees and paving, lit by an even daylight.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-groundside-park",
+    "viewpoint": "groundside-park",
+    "alt": "A grassy lakeside park with a path to the water, low housing on both sides and the distant city curving up.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-district-skyline",
+    "viewpoint": "district-skyline",
+    "alt": "A cluster of tall crowned towers and spires rising above a park lawn, with the curve of the city beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-megaframe-base",
+    "viewpoint": "megaframe-base",
+    "alt": "A massive structural rib rising out of a groundside neighborhood, with houses and streets at its feet.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-megaframe-plate-district",
+    "viewpoint": "megaframe-plate-district",
+    "alt": "A raised plate district with a balustrade, planters, block rows and a truss bridge, and the opposite city overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-low-g-atrium",
+    "viewpoint": "low-g-atrium",
+    "alt": "A tall open atrium of long-span steel framing with sparse process facilities and hazy air above a city below.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-end-wall-foot",
+    "viewpoint": "end-wall-foot",
+    "alt": "A planted cliff-like end wall with stepped ledges and struts above a train viaduct, rising toward the sky.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-end-wall-terrace",
+    "viewpoint": "end-wall-terrace",
+    "alt": "A terrace on a tall wall with a balustrade, trailing vines, a glazed hall and a train track above the city.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-end-wall-sky-balcony",
+    "viewpoint": "end-wall-sky-balcony",
+    "alt": "A garden balcony high on a tall wall with a handrail and benches, looking down over a city under the sky.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-end-wall-axis",
+    "viewpoint": "end-wall-axis",
+    "alt": "Concentric ledge rings with vaulted halls and gardens on a curved end wall, thinning toward the axis.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-axis-station-plaza",
+    "viewpoint": "axis-station-plaza",
+    "alt": "A broad plaza with a ring sculpture and the boarding lift entrance at the base of a tall tower.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-farm-grow-deck",
+    "viewpoint": "farm-grow-deck",
+    "alt": "Racks of leafy crops under LED rigs along a long grow deck, with nutrient channels and a gantry above.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-farm-harvest-line",
+    "viewpoint": "farm-harvest-line",
+    "alt": "A belt line of crop totes passing a wash tunnel, an optical sorter and a weigher in a bright process hall.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-farm-packaging-dispatch",
+    "viewpoint": "farm-packaging-dispatch",
+    "alt": "A loading dock with crates of salad, trays of bread, bottles and pallets being loaded onto freight pods.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-ascender-250m",
+    "viewpoint": "ascender-250m",
+    "alt": "A view from an ascender cabin at 250 m above a neighborhood, with the city horizon rising on all sides.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-artificial-sky-breakthrough",
+    "viewpoint": "artificial-sky-breakthrough",
+    "alt": "An ascender cabin rises through the open floor of the artificial sky, with a curved city and lit ceiling stretching away.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-ascender-cabin",
+    "viewpoint": "ascender-cabin",
+    "alt": "A panoramic cabin interior with window seats, rails and a glass floor gallery, and a city curving beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-ascender-tower",
+    "viewpoint": "ascender-tower",
+    "alt": "A tall lattice tower with cabins on three tracks, seen from 140 m beside it at 800 m altitude.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-ascender-hub",
+    "viewpoint": "ascender-hub",
+    "alt": "A large rotating drum behind a bearing collar, with four tower portals and spin-decoupling chambers.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spine-lock",
+    "viewpoint": "spine-lock",
+    "alt": "The inside of a cylindrical lock with viewing slots, door portals, a carousel and an amber indicator ring.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-stationary-axis",
+    "viewpoint": "stationary-axis",
+    "alt": "A slender stationary tube in the foreground with a rotating city turning around it in the distance.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spine-interior",
+    "viewpoint": "spine-interior",
+    "alt": "A long lit tube interior with ring frames, a guideway on stays, crew galleries and AXIS 01 signboards.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-inter-rotor-gap",
+    "viewpoint": "inter-rotor-gap",
+    "alt": "A vacuum gap between two huge rotor ends with bearings, service frames and connections visible.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-bridge-exterior",
+    "viewpoint": "bridge-exterior",
+    "alt": "A long truss bridge with window bands and X bracing spanning the gap between two rotor ends.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-bridge-interior",
+    "viewpoint": "bridge-interior",
+    "alt": "A bridge interior with a promenade, a guideway and shuttle, window bands and a distant pressure door.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-counter-rotating-interface",
+    "viewpoint": "counter-rotating-interface",
+    "alt": "The interface between two rotor ends spinning opposite ways, with a stationary frame and seals between them.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-express-interior",
+    "viewpoint": "express-interior",
+    "alt": "A car interior with restraint couches, grab rails, net lockers and a destination display above the door.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-express-exterior",
+    "viewpoint": "express-exterior",
+    "alt": "A five-car express on a guideway inside the spine, seen from ahead of the head car.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-aft-bay-gallery",
+    "viewpoint": "aft-bay-gallery",
+    "alt": "A glass-walled gallery at the end of a platform, looking aft along a long bore to a service port.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-aft-bearing-gallery",
+    "viewpoint": "aft-bearing-gallery",
+    "alt": "A huge bearing assembly with a turning sleeve and rim, catchers, alignment actuators and a seal labyrinth.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-aft-converter-hall",
+    "viewpoint": "aft-converter-hall",
+    "alt": "A hall of high-voltage valve buildings, capacitor banks and cooling headers seen through arched windows.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-counter-rotation-gallery",
+    "viewpoint": "counter-rotation-gallery",
+    "alt": "Two large hubs of opposed spin around a stationary spine, with bearing machinery between them.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-momentum-control-bay",
+    "viewpoint": "momentum-control-bay",
+    "alt": "A bay with four large ring housings, catwalks and bearing stacks along a stationary spine.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-momentum-ring-close",
+    "viewpoint": "momentum-ring-close",
+    "alt": "The underside of a massive spinning ring in its housing, with stators, bearings and coolant pipes.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-industrial-rotor-wide",
+    "viewpoint": "industrial-rotor-wide",
+    "alt": "A wide open truss frame with cargo racks, spherical tanks and robots in a rotating industrial structure.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-facility-1000m-exterior",
+    "viewpoint": "facility-1000m-exterior",
+    "alt": "Glass-faced grow galleries glowing white and magenta beside tanks, pipework and air handlers high in the city.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-zero-g-shipyard",
+    "viewpoint": "zero-g-shipyard",
+    "alt": "A large spacecraft hull held inside a vast construction volume by tension lines, rings and tugs.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-shipyard-open-section",
+    "viewpoint": "shipyard-open-section",
+    "alt": "A cutaway crew drum with stacked decks, capture arms, a robotic manipulator and a small capsule.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-shipyard-tank-bay",
+    "viewpoint": "shipyard-tank-bay",
+    "alt": "A large tank approaching a cradle on tension lines, with crawlers, tugs and umbilicals around it.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-metro-platform-arbor",
+    "viewpoint": "metro-platform-arbor",
+    "alt": "A raised metro platform with screen doors, a canopy and a train set standing at the platform.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-metro-viaduct-street",
+    "viewpoint": "metro-viaduct-street",
+    "alt": "A street at eye height with an elevated viaduct on portals overhead and the line running away along it.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-metro-lift-arbor",
+    "viewpoint": "metro-lift-arbor",
+    "alt": "A glass lift tower with a canopy at the street door and a long shaft rising to a viaduct above.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-passenger-terminal",
+    "viewpoint": "passenger-terminal",
+    "alt": "A large terminal hall in zero gravity with signage, public structure and docking bays beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-arrival",
+    "viewpoint": "spaceport-arrival",
+    "alt": "The arrival rotunda: a monumental arch under a lit WELCOME TO CONCORDIA sign at the head of the terminal nave.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-concourse",
+    "viewpoint": "spaceport-concourse",
+    "alt": "The concourse deck low in the nave: shop pods, travellers, a catch-net ring and handline riders overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-gate",
+    "viewpoint": "spaceport-gate",
+    "alt": "A gate with its boarding bridge and berth frame holding a docked passenger craft.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-lounge",
+    "viewpoint": "spaceport-lounge",
+    "alt": "Three rotating lounge wheels on stationary hubs, seen across a concourse.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-pier",
+    "viewpoint": "spaceport-pier",
+    "alt": "A long truss pier on the outside of the end face with a freighter and tugs alongside.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-passenger-launcher-interior",
+    "viewpoint": "passenger-launcher-interior",
+    "alt": "A long passenger cabin with rows of couches, a window band and aisle lighting.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-launcher-track-external",
+    "viewpoint": "launcher-track-external",
+    "alt": "A long straight track on a ridge with coil modules and gantries running along the station hull.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-shuttle-bay-external",
+    "viewpoint": "shuttle-bay-external",
+    "alt": "An ivory shuttle parked on the launch track beside blue edge lights, floodlight masts and a bay sign on the station hull.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-shuttle-bay-interior",
+    "viewpoint": "shuttle-bay-interior",
+    "alt": "The cabin of a parked shuttle with cream panelling, a bronze shelter door and the first rows of acceleration couches.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-shuttle-bay-2-interior",
+    "viewpoint": "shuttle-bay-2-interior",
+    "alt": "The cabin of the shuttle parked in bay 2 with cream panelling, a bronze shelter door and the first rows of couches.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-shuttle-bay-3-interior",
+    "viewpoint": "shuttle-bay-3-interior",
+    "alt": "The cabin of the shuttle parked in bay 3 with cream panelling, a bronze shelter door and the first rows of couches.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-complete-habitat",
+    "viewpoint": "complete-habitat",
+    "alt": "The full length of the station as a grey cylinder with radiators and structure against black space.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-exterior-industrial-open-bay",
+    "viewpoint": "exterior-industrial-open-bay",
+    "alt": "An open bay in a station shell revealing a rotating industrial truss with cargo and tanks.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-exterior-port-frame",
+    "viewpoint": "exterior-port-frame",
+    "alt": "A huge circular port frame with spokes, pier rings and a terminal structure at its centre.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-exterior-yard-through-cage",
+    "viewpoint": "exterior-yard-through-cage",
+    "alt": "A view through a gridded cage of frames and ribs to a large spacecraft in a yard.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-exterior-25km-silhouette",
+    "viewpoint": "exterior-25km-silhouette",
+    "alt": "A sunlit station silhouette from far off, with radiator banks and a port on the end against black space.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-exterior-propellant-farm",
+    "viewpoint": "exterior-propellant-farm",
+    "alt": "A cluster of foil-covered spherical tanks with sunshades, radiators and transfer lines on the outer face.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-radiator-field",
+    "viewpoint": "radiator-field",
+    "alt": "A field of huge flat radiator panels on pylons above the hull, with the habitat scale visible below.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-comms-dish-station",
+    "viewpoint": "comms-dish-station",
+    "alt": "A large dish on a lattice tower with a turntable, a hut and small arrays on the hull.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-defence-forward-battery",
+    "viewpoint": "defence-forward-battery",
+    "alt": "An armoured launcher housing with hazard apron, blast wall and a sensor group beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-solar-infrastructure",
+    "viewpoint": "solar-infrastructure",
+    "alt": "A tethered solar farm with a large photovoltaic field and the station's aft face beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-sat-night-side",
+    "viewpoint": "sat-night-side",
+    "alt": "A dark structure outlined by a dozen work lamps, a bus and a truss against black space.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-hauler-tow",
+    "viewpoint": "hauler-tow",
+    "alt": "A long truss with two solar wings and a thruster plate, towing a metal asteroid cinched in a net bag, against black space.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-hauler-stern",
+    "viewpoint": "hauler-stern",
+    "alt": "The hauler's thruster plate and propellant tanks in the foreground, the truss and solar wings running away toward the bag.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-aft-end-far",
+    "viewpoint": "aft-end-far",
+    "alt": "A ribbed station end face with red rim lights, a central tower and tall masts against black space.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-aft-power-landing",
+    "viewpoint": "aft-power-landing",
+    "alt": "Four tall masts with cables running aft from the end of a station.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-aft-reactor-mast",
+    "viewpoint": "aft-reactor-mast",
+    "alt": "A tall mast carrying a reactor behind a shield, with thin radiator petals edge-on to the light.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-aft-thruster-ring",
+    "viewpoint": "aft-thruster-ring",
+    "alt": "A ring of shielded thruster pods canted outward around a station's end face.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-aft-observatory-exterior",
+    "viewpoint": "aft-observatory-exterior",
+    "alt": "A pressure sphere of armour and window cells on the rim of the aft tower, with a tube running back to the drum edge.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-aft-observatory-interior",
+    "viewpoint": "aft-observatory-interior",
+    "alt": "Inside the aft observatory, looking aft through the pole window past the grab pole and the cocoons.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-post-launch-home",
+    "viewpoint": "post-launch-home",
+    "alt": "A huge armoured station receding behind a departing craft against black space.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-earth-moon-context",
+    "viewpoint": "earth-moon-context",
+    "alt": "The station in the foreground with Earth and the Moon as small discs at their true apparent size.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-overlay-momentum",
+    "viewpoint": "momentum-control-bay",
+    "alt": "The momentum control bay with engineering overlay labels beside four ring housings and the stationary spine.",
+    "overlay": "momentum",
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /guide/ overlay example"
+  },
+  {
+    "id": "sc-overlay-gravity",
+    "viewpoint": "complete-habitat",
+    "alt": "The whole station in space with gravity overlay labels marking 1 g at the ground and near zero at the axis.",
+    "overlay": "gravity",
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /guide/ overlay example"
+  }
+]

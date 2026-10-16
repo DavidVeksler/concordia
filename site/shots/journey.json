@@ -1,0 +1,137 @@
+[
+  {
+    "id": "jr-home",
+    "chapter": "home",
+    "alt": "A family of five seated at breakfast in a small apartment, with a window onto a sunlit residential street.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter home"
+  },
+  {
+    "id": "jr-neighborhood",
+    "chapter": "neighborhood",
+    "alt": "A tree-lined street in the Arbor Quarter with a tram shelter, and the city curving up into the distance overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter neighborhood"
+  },
+  {
+    "id": "jr-metro",
+    "chapter": "metro",
+    "alt": "A metro platform 46 m above the street, looking along an elevated viaduct with the train set waiting at the platform.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter metro"
+  },
+  {
+    "id": "jr-plaza",
+    "chapter": "plaza",
+    "alt": "A wide plaza at the foot of the ascender tower, with a ring sculpture and the boarding lift entrance.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter plaza"
+  },
+  {
+    "id": "jr-axis-station",
+    "chapter": "axisStation",
+    "alt": "The boarding deck of the Arbor ascender tower, with the family at the rail and a bronze lattice tower beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter axisStation"
+  },
+  {
+    "id": "jr-ascender",
+    "chapter": "ascender",
+    "alt": "An ascender cabin rises through the open floor of the artificial sky, with the opposite city and a lit ceiling stretching away.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter ascender"
+  },
+  {
+    "id": "jr-agriculture",
+    "chapter": "agriculture",
+    "alt": "A grow gallery with stacked racks of lettuce, basil and kale under white and magenta lights, and a harvest gantry overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter agriculture"
+  },
+  {
+    "id": "jr-axis-transfer",
+    "chapter": "axisTransfer",
+    "alt": "The rotating transfer hub at the top of the ascender, with the stationary spine beyond the glass and no floor in sight.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter axisTransfer"
+  },
+  {
+    "id": "jr-counter-rotation",
+    "chapter": "counterRotation",
+    "alt": "A bearing gallery where two large hubs face each other across a narrow gap, with momentum rings in the distance.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter counterRotation"
+  },
+  {
+    "id": "jr-shipyard",
+    "chapter": "shipyard",
+    "alt": "A 700 m spacecraft held by tension lines inside a vast dark construction volume, with robot arms and tugs at work.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter shipyard"
+  },
+  {
+    "id": "jr-spaceport",
+    "chapter": "spaceport",
+    "alt": "The terminal nave in zero g: travellers riding handline conveyors down a ribbed tube, with a catch-net ring ahead and the axial bay beyond the windows.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter spaceport"
+  },
+  {
+    "id": "jr-launch",
+    "chapter": "launch",
+    "alt": "The passenger cabin before launch, with rows of couches, a window band and the long launch track running ahead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter launch"
+  },
+  {
+    "id": "jr-lunar-swingby",
+    "chapter": "lunarSwingby",
+    "alt": "The Moon filling the window at true scale, with the carrier stack beside it and engines off.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter lunarSwingby"
+  },
+  {
+    "id": "jr-earth-transfer",
+    "chapter": "earthTransfer",
+    "alt": "Earth as a small blue disc against fixed stars, seen from the departing stack on its way home.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /journey/ chapter earthTransfer"
+  },
+  {
+    "id": "jr-earth-arrival",
+    "chapter": "earthArrival",
+    "alt": "Earth filling the window as the stack falls toward a low perigee, with clouds and coastlines below.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 15000,
+    "note": "for /journey/ chapter earthArrival"
+  }
+]

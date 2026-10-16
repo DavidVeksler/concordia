@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="ar-title ar-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
+  <title id="ar-title">What an ascender rider feels on the way up</title>
+  <desc id="ar-desc">A vertical track from the boarding deck at 50 m to the hub terminal at 2,430 m. Gravity falls from 0.98 g at the deck to about 0.8 g at the artificial sky, 0.60 g at 1,000 m, 0.40 g at 1,500 m and 0.028 g at the hub terminal. The cabin leans 4 degrees at 200 m, 6.7 degrees at 1,000 m and 15 degrees at 1,844 m, always toward the apparent vertical. A descending cabin on a second track returns the climbing energy.</desc>
+  <g stroke="currentColor" stroke-width="1" fill="none" opacity="0.35">
+    <line x1="260" y1="30" x2="260" y2="470"/>
+    <line x1="340" y1="30" x2="340" y2="470"/>
+  </g>
+  <g stroke="currentColor" stroke-width="1" stroke-dasharray="3 5" opacity="0.4">
+    <line x1="120" y1="440" x2="700" y2="440"/><line x1="120" y1="372" x2="700" y2="372"/>
+    <line x1="120" y1="230" x2="700" y2="230"/><line x1="120" y1="148" x2="700" y2="148"/><line x1="120" y1="88" x2="700" y2="88"/><line x1="120" y1="46" x2="700" y2="46"/>
+  </g>
+  <g fill="currentColor">
+    <text x="110" y="446" text-anchor="end">Deck, 50 m</text>
+    <text x="110" y="378" text-anchor="end">Sky, about 500 m</text>
+    <text x="110" y="236" text-anchor="end">1,000 m</text>
+    <text x="110" y="154" text-anchor="end">1,500 m</text>
+    <text x="110" y="94" text-anchor="end">1,844 m</text>
+    <text x="110" y="52" text-anchor="end">Hub, 2,430 m</text>
+    <text x="400" y="446">0.98 g, lean 0 degrees</text>
+    <text x="400" y="378">about 0.8 g</text>
+    <text x="400" y="236">0.60 g, lean 6.7 degrees</text>
+    <text x="400" y="154">0.40 g</text>
+    <text x="400" y="94">lean 15 degrees</text>
+    <text x="400" y="52">0.028 g</text>
+    <text x="400" y="330" opacity="0.85">lean 4 degrees at 200 m</text>
+    <text x="400" y="288" opacity="0.85">Climb stores 11.7 kJ per kg;</text>
+    <text x="400" y="310" opacity="0.85">the down cabin gives it back</text>
+    <text x="260" y="500" text-anchor="middle" font-size="15">Up track</text>
+    <text x="340" y="500" text-anchor="middle" font-size="15">Down track</text>
+  </g>
+  <g fill="var(--accent)" stroke="currentColor" stroke-width="1.5">
+    <rect x="236" y="403" width="48" height="26"/>
+    <rect x="236" y="324" width="48" height="26" transform="rotate(4 260 337)"/>
+    <rect x="236" y="198" width="48" height="26" transform="rotate(6.7 260 211)"/>
+    <rect x="236" y="76" width="48" height="26" transform="rotate(15 260 89)"/>
+  </g>
+  <g fill="var(--accent-2)" stroke="currentColor" stroke-width="1.5">
+    <rect x="316" y="260" width="48" height="26" transform="rotate(-6.7 340 273)"/>
+  </g>
+</svg>

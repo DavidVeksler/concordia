@@ -1,0 +1,548 @@
+[
+  {
+    "viewpoint": "residential-street",
+    "title": "A residential street",
+    "blurb": "An ordinary street in Tsiolkovsky (Rotor 1) at eye height. The ground is the rotor wall, so it feels like any street on Earth, and the lawns and buildings run on until they curve out of sight.",
+    "shot": "sc-residential-street"
+  },
+  {
+    "viewpoint": "groundside-park",
+    "title": "A park by the lake",
+    "blurb": "A lakeside park a short walk from the family apartment, framed by low-rise housing. The path leads to the water, and the far shore bends upward with the rest of the city.",
+    "shot": "sc-groundside-park"
+  },
+  {
+    "viewpoint": "district-skyline",
+    "title": "District skyline",
+    "blurb": "Crowned towers, spires and one signature landmark seen from a park lawn 1.1 km away. Every skyline here is a cluster of landmarks set against the curve of the world.",
+    "shot": "sc-district-skyline"
+  },
+  {
+    "viewpoint": "rotor2-civic-street",
+    "title": "A civic street in Noordung",
+    "blurb": "A paved street in Noordung (Rotor 2) with a stately civic frontage on one side and a green square ahead. Beyond the square a tower district climbs the curve of the rotor. The generator that drew Tsiolkovsky drew a different city here, from its own seed.",
+    "shot": "sc-rotor2-civic-street"
+  },
+  {
+    "viewpoint": "rotor2-lakeshore",
+    "title": "Lakeshore in Noordung",
+    "blurb": "A promenade on the shore of one of Noordung's lakes. The reeds are planted, the path is paved and the ground climbs away along the ring to a bright sky. Noordung runs a 14 hour day, the longest on the station.",
+    "shot": "sc-rotor2-lakeshore"
+  },
+  {
+    "viewpoint": "rotor2-crowned-towers",
+    "title": "Crowned towers at 120 m",
+    "blurb": "Copper-crowned towers and spires in Noordung from 120 m up, where the weight is about 0.95 g. Megaframe ribs rise between them and the ground climbs away along the ring in every direction.",
+    "shot": "sc-rotor2-crowned-towers"
+  },
+  {
+    "viewpoint": "rotor3-terrace-street",
+    "title": "A terrace street in Bernal",
+    "blurb": "A mid-rise street in Bernal (Rotor 3) at eye height: a bike lane, red-roofed terraces and a boulevard that runs on into the curve of the city. Bernal's day lasts 10 hours, the shortest on the station.",
+    "shot": "sc-rotor3-terrace-street"
+  },
+  {
+    "viewpoint": "rotor3-lakeside-promenade",
+    "title": "Lakeside in Bernal",
+    "blurb": "A lakeside path in Bernal, toward its forward end wall. A resident walks the shore, towers stand across the water and the upper city fills the sky.",
+    "shot": "sc-rotor3-lakeside-promenade"
+  },
+  {
+    "viewpoint": "rotor3-rooftop-panorama",
+    "title": "Bernal from 120 m",
+    "blurb": "Bernal from 120 m up, looking along the rotor. Parkland, lakes and mid-rise blocks lie below, and the megaframe towers carry the eye up to the sky membrane and across the curve of the world.",
+    "shot": "sc-rotor3-rooftop-panorama"
+  },
+  {
+    "viewpoint": "rotor4-core-canyon",
+    "title": "A core street in O'Neill",
+    "blurb": "A street through the urban core of O'Neill (Rotor 4). Tall arched frontages stand close on both sides and the street runs into the dense center of the district.",
+    "shot": "sc-rotor4-core-canyon"
+  },
+  {
+    "viewpoint": "rotor4-lakeside-plaza",
+    "title": "Lakeside plaza in O'Neill",
+    "blurb": "A paved plaza on the shore of a lake in O'Neill. A resident stands at the water's edge, reeds line the shore and the city rises across the lake and the ground climbs away along the ring.",
+    "shot": "sc-rotor4-lakeside-plaza"
+  },
+  {
+    "viewpoint": "rotor4-tower-field",
+    "title": "O'Neill from 120 m",
+    "blurb": "O'Neill's urban core from 120 m up: a field of crowned towers and spires with megaframe ribs climbing between them. O'Neill is the forward rotor, and it reached full spin in 2044.",
+    "shot": "sc-rotor4-tower-field"
+  },
+  {
+    "viewpoint": "capital-exchange",
+    "title": "The Exchange in Noordung",
+    "blurb": "The market hall of the capital quarter in Noordung (Rotor 2), a dome behind a portico on its own plaza. Energy and compute for the whole station are priced here, a few streets from the Charter Hall and the Court.",
+    "shot": "sc-capital-exchange"
+  },
+  {
+    "viewpoint": "capital-charter-hall",
+    "title": "Charter Hall",
+    "blurb": "The seat of the Concordia Charter Authority, seen from the street in front of its portico. Gate towers and a vaulted roof stand over the colonnade in the densest core on the station.",
+    "shot": "sc-capital-charter-hall"
+  },
+  {
+    "viewpoint": "capital-court",
+    "title": "The Court",
+    "blurb": "A columned portico and pediment on a street of civic frontages in Noordung. The arbitration courts sit here, in the same quarter as the Exchange and Charter Hall.",
+    "shot": "sc-capital-court"
+  },
+  {
+    "viewpoint": "estates-garden-villas",
+    "title": "Garden villas in O'Neill",
+    "blurb": "The estates of O'Neill (Rotor 4) from a raised walk: detached villas on lawns the size of a city block, with hedges and planted trees. The richest districts trade density for open ground, and the megaframe carries the density overhead.",
+    "shot": "sc-estates-garden-villas"
+  },
+  {
+    "viewpoint": "estates-lake-terrace",
+    "title": "Estates and lake from 60 m",
+    "blurb": "The estate district of O'Neill from 60 m up. Villas in their gardens line a curving street, with a lake and parkland beyond.",
+    "shot": "sc-estates-lake-terrace"
+  },
+  {
+    "viewpoint": "megaframe-base",
+    "title": "Foot of the megaframe",
+    "blurb": "A rib of the megaframe rises from a lived-in neighborhood. This lattice carries the elevated city up to 1,500 m on the wall of the rotor.",
+    "shot": "sc-megaframe-base"
+  },
+  {
+    "viewpoint": "megaframe-plate-district",
+    "title": "A plate district at 625 m",
+    "blurb": "A raised quarter at 625 m, where weight is about 0.75 g. Planters line the deck edge, an inhabited bridge crosses the ring beam and, above the sky layer, the opposite upper city hangs overhead.",
+    "shot": "sc-megaframe-plate-district"
+  },
+  {
+    "viewpoint": "low-g-atrium",
+    "title": "Low-gravity atrium",
+    "blurb": "High in the frame, near 0.32 g, long-span structure opens into sparse atmospheric process halls. Everything is lighter here, including the way people move through it.",
+    "shot": "sc-low-g-atrium"
+  },
+  {
+    "viewpoint": "end-wall-foot",
+    "title": "Foot of the end wall",
+    "blurb": "The end bay of Rotor 1 at the foot of its forward wall. Cantilevered ledges with coffered undersides step up, a train viaduct crosses the frame and a planted cliff rises to the sky seam.",
+    "shot": "sc-end-wall-foot"
+  },
+  {
+    "viewpoint": "end-wall-terrace",
+    "title": "Viaduct terrace on the end wall",
+    "blurb": "A 241 m ledge on the forward end wall, at about 0.9 g. A train runs along the track strip, vines trail from the planters and the city lies 240 m below.",
+    "shot": "sc-end-wall-terrace"
+  },
+  {
+    "viewpoint": "end-wall-sky-balcony",
+    "title": "Sky balcony on the end wall",
+    "blurb": "A garden balcony 342 m up the forward end wall of Rotor 1, about 50 m under the artificial sky. Walk out to the handrail and the whole city lies below you.",
+    "shot": "sc-end-wall-sky-balcony"
+  },
+  {
+    "viewpoint": "end-wall-axis",
+    "title": "Upper end wall from the axis side",
+    "blurb": "The upper end wall seen from about 2,150 m, at 0.14 g. Concentric ledge rings carry low-gravity halls, vaults and gardens, and the ribs thin toward the bore.",
+    "shot": "sc-end-wall-axis"
+  },
+  {
+    "viewpoint": "axis-station-plaza",
+    "title": "Axis Station plaza",
+    "blurb": "The plaza at the foot of the ascender, where the metro delivers commuters. The boarding lift entrance is the doorway to the sky and the axis above it.",
+    "shot": "sc-axis-station-plaza"
+  },
+  {
+    "viewpoint": "farm-grow-deck",
+    "title": "Grow deck",
+    "blurb": "A visitor gallery above a deck of the farm hall. Racks of lettuce, basil and kale stand in four stages of growth beneath LED rigs, with nutrient channels and a harvest gantry.",
+    "shot": "sc-farm-grow-deck"
+  },
+  {
+    "viewpoint": "farm-harvest-line",
+    "title": "Harvest line",
+    "blurb": "Totes arrive on a belt and pass the wash tunnel, the optical sorter and the weigher in the process wing. Most of what grows upstairs is on a city table soon after.",
+    "shot": "sc-farm-harvest-line"
+  },
+  {
+    "viewpoint": "farm-packaging-dispatch",
+    "title": "Packaging and dispatch",
+    "blurb": "Crates of salad, trays of loaves, bottles and wrapped pallets leave the process wing on freight pods. Ordinary food, moving the way ordinary food does.",
+    "shot": "sc-farm-packaging-dispatch"
+  },
+  {
+    "viewpoint": "ascender-250m",
+    "title": "Ascender at 250 m",
+    "blurb": "Early in the climb the neighborhood is still familiar, and the horizon begins to rise around the cabin. Weight has already dropped to about 0.90 g.",
+    "shot": "sc-ascender-250m"
+  },
+  {
+    "viewpoint": "artificial-sky-breakthrough",
+    "title": "Through the artificial sky",
+    "blurb": "The cabin passes the sky layer and the blue ceiling becomes a lit machine, with the opposite city overhead and the open interior beyond.",
+    "shot": "sc-artificial-sky-breakthrough"
+  },
+  {
+    "viewpoint": "ascender-cabin",
+    "title": "Inside the ascender cabin",
+    "blurb": "The panoramic cabin at 650 m, where weight is 0.74 g. Seats, rails and a glass floor gallery face the city curving up beyond the glass, with a live altitude and gravity readout.",
+    "shot": "sc-ascender-cabin"
+  },
+  {
+    "viewpoint": "ascender-tower",
+    "title": "Ascender tower from outside",
+    "blurb": "Four blade trusses with bronze lattice rise past 800 m. Three tracks carry cabins up and down, with the axis far above.",
+    "shot": "sc-ascender-tower"
+  },
+  {
+    "viewpoint": "ascender-hub",
+    "title": "Rotating transfer hub",
+    "blurb": "The hub drum turns behind its bearing collar, with four portals marked by bronze sunbursts. This is where the ascender cabins meet the stationary spine.",
+    "shot": "sc-ascender-hub"
+  },
+  {
+    "viewpoint": "spine-lock",
+    "title": "Spin-decoupling lock",
+    "blurb": "Inside the spine at the Rotor 1 hub, a carousel of eight chambers slows each carriage from rotor speed to rest in 96 seconds. An amber ring and a spin-rate display show the progress.",
+    "shot": "sc-spine-lock"
+  },
+  {
+    "viewpoint": "stationary-axis",
+    "title": "City turning around the viewer",
+    "blurb": "Stand on the spine and the city turns around you, once every 100 seconds. The spine is the only thing that holds still.",
+    "shot": "sc-stationary-axis"
+  },
+  {
+    "viewpoint": "spine-interior",
+    "title": "Inside the spine",
+    "blurb": "A 120 m tube that never turns, with ring lamps every 25 m, the express guideway on its stays, crew galleries and four utility trunks running its length.",
+    "shot": "sc-spine-interior"
+  },
+  {
+    "viewpoint": "inter-rotor-gap",
+    "title": "The gap between rotors",
+    "blurb": "A 300 m vacuum gap separates the rotors. Rotor ends, bearings and service connections are all exposed here.",
+    "shot": "sc-inter-rotor-gap"
+  },
+  {
+    "viewpoint": "bridge-exterior",
+    "title": "Inter-rotor bridge from outside",
+    "blurb": "A transit bridge joins Rotors 1 and 2, 45 m above the ground. X bracing, window bands and a lenticular truss carry people over the vacuum.",
+    "shot": "sc-bridge-exterior"
+  },
+  {
+    "viewpoint": "bridge-interior",
+    "title": "On the bridge deck",
+    "blurb": "A promenade and a transit lane run side by side, with window bands on both sides and a shuttle on its guideway. The far pressure door marks the next rotor.",
+    "shot": "sc-bridge-interior"
+  },
+  {
+    "viewpoint": "counter-rotating-interface",
+    "title": "Counter-rotating interface",
+    "blurb": "Rotors 2 and 3 turn opposite ways, so there is no bridge between them. A stationary service frame and slip seals fill the gap, and passengers cross through the spine.",
+    "shot": "sc-counter-rotating-interface"
+  },
+  {
+    "viewpoint": "express-interior",
+    "title": "Inside the express",
+    "blurb": "A car on the spine express, with restraint couches along the wall, grab rails, lockers and a destination display above the open end door.",
+    "shot": "sc-express-interior"
+  },
+  {
+    "viewpoint": "express-exterior",
+    "title": "The express on its guideway",
+    "blurb": "Five cars in a row run the spine at 140 m/s on levitation bogies. The cab nose carries a destination board and running lights.",
+    "shot": "sc-express-exterior"
+  },
+  {
+    "viewpoint": "aft-bay-gallery",
+    "title": "Aft gallery",
+    "blurb": "The aft terminus platform with an express standing at it. A glazed end wall looks out on the free run, the service port, the bore and the blast iris.",
+    "shot": "sc-aft-bay-gallery"
+  },
+  {
+    "viewpoint": "aft-bearing-gallery",
+    "title": "Rotor 1 aft bearing",
+    "blurb": "Where Rotor 1 meets the stationary structure: a sleeve and rim turn against the stator on magnetic bearings, with catchers that never touch in normal use.",
+    "shot": "sc-aft-bearing-gallery"
+  },
+  {
+    "viewpoint": "aft-converter-hall",
+    "title": "Converter hall",
+    "blurb": "Through arched windows of the spine: rows of HVDC valve halls, breaker bays, capacitor banks and cooling headers. This is where solar power becomes city power.",
+    "shot": "sc-aft-converter-hall"
+  },
+  {
+    "viewpoint": "counter-rotation-gallery",
+    "title": "Counter-rotation gallery",
+    "blurb": "O'Neill (Rotor 4) and Ehricke (the industrial rotor) turn in opposite directions around the stationary spine, their hubs facing each other across the bearings.",
+    "shot": "sc-counter-rotation-gallery"
+  },
+  {
+    "viewpoint": "momentum-control-bay",
+    "title": "Momentum control bay",
+    "blurb": "Ring machines spin in their housings in the stationary bay. They hold the station's net spin at zero by trading momentum with the rotors.",
+    "shot": "sc-momentum-control-bay"
+  },
+  {
+    "viewpoint": "momentum-ring-close",
+    "title": "Momentum ring close up",
+    "blurb": "Under ring 2: containment housing, motor-generator stators, bearing stacks and coolant loops, with the rim turning in the open side.",
+    "shot": "sc-momentum-ring-close"
+  },
+  {
+    "viewpoint": "industrial-rotor-wide",
+    "title": "Industrial rotor",
+    "blurb": "An open truss that is 70 to 80 percent vacuum, carrying cargo, tank farms and robotic logistics. Material from the Moon and the asteroids is stored and processed here.",
+    "shot": "sc-industrial-rotor-wide"
+  },
+  {
+    "viewpoint": "industrial-tank-farm",
+    "title": "A tank farm in Ehricke",
+    "blurb": "A tank farm on the outer band of Ehricke, the industrial rotor, at about 0.4 g. Six horizontal vessels and two spheres sit on a lattice deck in open vacuum. The view is from the middle band, looking outward.",
+    "shot": "sc-industrial-tank-farm"
+  },
+  {
+    "viewpoint": "industrial-cargo-tug",
+    "title": "A cargo tug on its rail",
+    "blurb": "A cargo tug carries a pod along one of the axial rails in Ehricke's outer band. Tugs move slowly and deliberately along these rails, hauling containers between the two ends of the rotor.",
+    "shot": "sc-industrial-cargo-tug"
+  },
+  {
+    "viewpoint": "facility-1000m-exterior",
+    "title": "Service facilities at 1,000 m",
+    "blurb": "A grow gallery and a utility plant of the 1,000 m service tier, seen from the open fringe. Glazed rack faces glow white and magenta beside vessels, air handlers and pipe racks.",
+    "shot": "sc-facility-1000m-exterior"
+  },
+  {
+    "viewpoint": "zero-g-shipyard",
+    "title": "The zero-g shipyard",
+    "blurb": "A spacecraft floats unsupported inside a construction volume much larger than itself. There is no floor, so frames, tanks and tugs hold it from all sides.",
+    "shot": "sc-zero-g-shipyard"
+  },
+  {
+    "viewpoint": "shipyard-open-section",
+    "title": "Open pressure section",
+    "blurb": "The open crew drum of a ship under construction, showing its deck stack, capture arms, a manipulator and an inspection capsule at working range.",
+    "shot": "sc-shipyard-open-section"
+  },
+  {
+    "viewpoint": "shipyard-tank-bay",
+    "title": "Tank bay",
+    "blurb": "A tank on approach with its mover, held by tension lines, with crawlers and umbilicals around the cradles. The ship's propellant is built and fitted here.",
+    "shot": "sc-shipyard-tank-bay"
+  },
+  {
+    "viewpoint": "metro-platform-arbor",
+    "title": "Arbor metro platform",
+    "blurb": "The 108 m platform on its hump at 55 m, with screen doors, a canopy and a train set waiting. This is the Arbor interchange.",
+    "shot": "sc-metro-platform-arbor"
+  },
+  {
+    "viewpoint": "metro-viaduct-street",
+    "title": "Viaduct over the avenue",
+    "blurb": "From the street, the metro runs 45 m overhead on portal piers and carries on along the avenue. The line stays above so the street stays free.",
+    "shot": "sc-metro-viaduct-street"
+  },
+  {
+    "viewpoint": "metro-lift-arbor",
+    "title": "Metro lift tower",
+    "blurb": "A glass lift tower at the Arbor crossing, with a street door and canopy at the foot and a shaft rising 46 m to the platform deck.",
+    "shot": "sc-metro-lift-arbor"
+  },
+  {
+    "viewpoint": "passenger-terminal",
+    "title": "Spaceport terminal",
+    "blurb": "The arrival hall of the port, in stationary zero g. Signage, public structure and docking views make up the first look at Concordia for visiting passengers.",
+    "shot": "sc-passenger-terminal"
+  },
+  {
+    "viewpoint": "spaceport-arrival",
+    "title": "Arrival face",
+    "blurb": "Passengers float down the processing ranks of health screening, customs and security, toward the WELCOME TO CONCORDIA sign over the entrance.",
+    "shot": "sc-spaceport-arrival"
+  },
+  {
+    "viewpoint": "spaceport-concourse",
+    "title": "Concourse A",
+    "blurb": "An open concourse with glide rails, travellers, shop pods and gate pods along the glass wall under a zone arch.",
+    "shot": "sc-spaceport-concourse"
+  },
+  {
+    "viewpoint": "spaceport-gate",
+    "title": "Gate A03",
+    "blurb": "A boarding bridge, a berth frame and a docked passenger craft, seen from the axial bay. Gates A01 to A05 open off the nave.",
+    "shot": "sc-spaceport-gate"
+  },
+  {
+    "viewpoint": "spaceport-lounge",
+    "title": "Rotating lounges",
+    "blurb": "Three slow wheels turn at 2 rpm, giving 0.13, 0.20 and 0.28 g. They are a gentle step between zero g and the full weight of the cities.",
+    "shot": "sc-spaceport-lounge"
+  },
+  {
+    "viewpoint": "spaceport-pier",
+    "title": "External pier",
+    "blurb": "Pier P1 on the outer face of the end bulkhead, with a freighter alongside, tugs working and the axial aperture beyond.",
+    "shot": "sc-spaceport-pier"
+  },
+  {
+    "viewpoint": "passenger-launcher-interior",
+    "title": "Launcher cabin",
+    "blurb": "The 98-couch passenger cabin, seen from the starboard aisle. A window band and aisle lighting run its length, with a shelter bulkhead behind.",
+    "shot": "sc-passenger-launcher-interior"
+  },
+  {
+    "viewpoint": "launcher-track-external",
+    "title": "Launcher track",
+    "blurb": "A 10 km electromagnetic track and its gantries along the hull. This is the road that sends passengers away from the station at 1.5 g.",
+    "shot": "sc-launcher-track-external"
+  },
+  {
+    "viewpoint": "shuttle-bay-external",
+    "title": "Hab to Earth shuttle",
+    "blurb": "A shuttle waits in its bay on the launch track between flights: ivory coach, stowed arrays, edge lights and floodlight masts.",
+    "shot": "sc-shuttle-bay-external"
+  },
+  {
+    "viewpoint": "shuttle-bay-interior",
+    "title": "Inside the shuttle",
+    "blurb": "The 98-couch cabin of the shuttle in bay 1, its window band and aisle lighting, empty between flights.",
+    "shot": "sc-shuttle-bay-interior"
+  },
+  {
+    "viewpoint": "shuttle-bay-2-interior",
+    "title": "Inside the shuttle, bay 2",
+    "blurb": "The cabin of the shuttle in bay 2, the same 98-couch layout as bay 1, empty between flights.",
+    "shot": "sc-shuttle-bay-2-interior"
+  },
+  {
+    "viewpoint": "shuttle-bay-3-interior",
+    "title": "Inside the shuttle, bay 3",
+    "blurb": "The cabin of the shuttle in bay 3, the same 98-couch layout as bay 1, empty between flights.",
+    "shot": "sc-shuttle-bay-3-interior"
+  },
+  {
+    "viewpoint": "complete-habitat",
+    "title": "The whole station",
+    "blurb": "The silhouette of Concordia: four rotors, the spine, the shipyard cage and the spaceport on one 21 km axis.",
+    "shot": "sc-complete-habitat"
+  },
+  {
+    "viewpoint": "exterior-industrial-open-bay",
+    "title": "Industrial rotor from outside",
+    "blurb": "An open-vacuum bay in the shell exposes the industrial rotor turning inside.",
+    "shot": "sc-exterior-industrial-open-bay"
+  },
+  {
+    "viewpoint": "exterior-port-frame",
+    "title": "The open port",
+    "blurb": "The port frame from 6 km off axis: spokes, pier rings, the terminal citadel and the cage running back toward the yard.",
+    "shot": "sc-exterior-port-frame"
+  },
+  {
+    "viewpoint": "exterior-yard-through-cage",
+    "title": "Shipyard through the cage",
+    "blurb": "Looking in from the shade side through the open forward cage, past yard ribs and frames to the hero ship.",
+    "shot": "sc-exterior-yard-through-cage"
+  },
+  {
+    "viewpoint": "exterior-25km-silhouette",
+    "title": "Sunlit silhouette at 25 km",
+    "blurb": "A three-quarter view of the station from 25 km, with radiator farms and the port against black sky.",
+    "shot": "sc-exterior-25km-silhouette"
+  },
+  {
+    "viewpoint": "exterior-propellant-farm",
+    "title": "Propellant farm",
+    "blurb": "Two hydrogen and two oxygen spheres, two storable tanks, sunshades, radiators and transfer lines, kept well away from the habitat.",
+    "shot": "sc-exterior-propellant-farm"
+  },
+  {
+    "viewpoint": "radiator-field",
+    "title": "Radiator field",
+    "blurb": "A bank of radiators on pylons rises above the hull. Each panel is 400 by 200 m and turns slowly with the Sun.",
+    "shot": "sc-radiator-field"
+  },
+  {
+    "viewpoint": "comms-dish-station",
+    "title": "Dish station",
+    "blurb": "A 170 m dish on its lattice tower, with an equipment hut, an optical terminal and phased arrays. Optical links carry most of the traffic.",
+    "shot": "sc-comms-dish-station"
+  },
+  {
+    "viewpoint": "defence-forward-battery",
+    "title": "Forward defence battery",
+    "blurb": "An armoured housing with a reload magazine, interceptor cells, a net launcher and a Whipple skirt guards the forward end against debris.",
+    "shot": "sc-defence-forward-battery"
+  },
+  {
+    "viewpoint": "solar-infrastructure",
+    "title": "Solar farm",
+    "blurb": "The tethered power platform at the aft hub, with the HVDC tethers running back toward the station. This is where the station's power begins.",
+    "shot": "sc-solar-infrastructure"
+  },
+  {
+    "viewpoint": "sat-night-side",
+    "title": "Power platform at night",
+    "blurb": "The power platform from the shade side, lit only by Earthlight and its own work lamps. More than a dozen lamps outline the bus and truss.",
+    "shot": "sc-sat-night-side"
+  },
+  {
+    "viewpoint": "hauler-tow",
+    "title": "Bag hauler under tow",
+    "blurb": "An asteroid hauler on approach: a 110 m truss, two 60 m solar wings and a thruster plate pushing a 22 m metal asteroid cinched in its net bag. Thrust is about 37 N, so a haul takes years.",
+    "shot": "sc-hauler-tow"
+  },
+  {
+    "viewpoint": "hauler-stern",
+    "title": "Bag hauler from astern",
+    "blurb": "The seven Hall thrusters and propellant tanks at the back of the hauler, with the station beyond. The hauler burns about 120 t of propellant per 30,000 t haul.",
+    "shot": "sc-hauler-stern"
+  },
+  {
+    "viewpoint": "aft-end-far",
+    "title": "Aft works from 25 km",
+    "blurb": "The aft face from far off: ribbed, red rim lights, a central tower, four landing masts with marker lights and two reactor masts.",
+    "shot": "sc-aft-end-far"
+  },
+  {
+    "viewpoint": "aft-power-landing",
+    "title": "Power landing",
+    "blurb": "Four HVDC landing masts take the power tethers from the solar farm, 7 km aft. The station's electricity arrives here.",
+    "shot": "sc-aft-power-landing"
+  },
+  {
+    "viewpoint": "aft-reactor-mast",
+    "title": "Reactor mast",
+    "blurb": "A black-start fission reactor on its 800 m mast behind a shadow shield, with radiator petals edge-on to the Sun.",
+    "shot": "sc-aft-reactor-mast"
+  },
+  {
+    "viewpoint": "aft-thruster-ring",
+    "title": "Thruster ring",
+    "blurb": "Twelve Whipple-shielded thruster pods, canted outward, ring the aft face. They help keep the station on its orbit.",
+    "shot": "sc-aft-thruster-ring"
+  },
+  {
+    "viewpoint": "aft-observatory-exterior",
+    "title": "Aft observatory",
+    "blurb": "A pressure sphere on the aft tower's rim, reached by a tube from the service bay. Outside, the iris, the tower and the stars.",
+    "shot": "sc-aft-observatory-exterior"
+  },
+  {
+    "viewpoint": "aft-observatory-interior",
+    "title": "Inside the observatory",
+    "blurb": "Looking aft through the pole window, past the grab pole and the cocoons, into the dark.",
+    "shot": "sc-aft-observatory-interior"
+  },
+  {
+    "viewpoint": "post-launch-home",
+    "title": "Looking back home",
+    "blurb": "After launch the whole armoured mountain recedes behind the cabin. It is the first time the passengers see how large their home is.",
+    "shot": "sc-post-launch-home"
+  },
+  {
+    "viewpoint": "earth-moon-context",
+    "title": "Earth and Moon",
+    "blurb": "The station sits at L5 with Earth and the Moon above it, shown at their true apparent sizes. Earth is 1.9 degrees across, the Moon half a degree.",
+    "shot": "sc-earth-moon-context"
+  }
+]

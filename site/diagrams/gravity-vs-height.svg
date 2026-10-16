@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="gvh-title gvh-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
+  <title id="gvh-title">Gravity versus height in a Concordia rotor</title>
+  <desc id="gvh-desc">A straight line falls from 1.0 g at the ground (height 0, radius 2,500 m) to 0 g at the axis (height 2,500 m, radius 0). Marked points: the artificial sky at 450 m, 0.82 g; crop galleries at 1,000 m, 0.60 g; 1,500 m, 0.40 g; and the upper frame at 2,000 m, 0.20 g.</desc>
+  <g stroke="currentColor" stroke-width="1" fill="none" opacity="0.35">
+    <line x1="110" y1="50" x2="110" y2="290"/>
+    <line x1="110" y1="290" x2="740" y2="290"/>
+    <line x1="110" y1="170" x2="740" y2="170" stroke-dasharray="3 6"/>
+    <line x1="236" y1="290" x2="236" y2="296"/><line x1="362" y1="290" x2="362" y2="296"/><line x1="488" y1="290" x2="488" y2="296"/><line x1="614" y1="290" x2="614" y2="296"/><line x1="740" y1="290" x2="740" y2="296"/>
+  </g>
+  <line x1="110" y1="50" x2="740" y2="290" stroke="var(--accent)" stroke-width="3"/>
+  <g fill="var(--accent-2)">
+    <circle cx="110" cy="50" r="6"/><circle cx="223" cy="93" r="6"/><circle cx="362" cy="146" r="6"/><circle cx="488" cy="194" r="6"/><circle cx="614" cy="242" r="6"/><circle cx="740" cy="290" r="6"/>
+  </g>
+  <g fill="currentColor">
+    <text x="100" y="55" text-anchor="end">1.0 g</text>
+    <text x="100" y="175" text-anchor="end">0.5 g</text>
+    <text x="100" y="295" text-anchor="end">0 g</text>
+    <text x="110" y="316" text-anchor="middle">0</text>
+    <text x="236" y="316" text-anchor="middle">500</text>
+    <text x="362" y="316" text-anchor="middle">1,000</text>
+    <text x="488" y="316" text-anchor="middle">1,500</text>
+    <text x="614" y="316" text-anchor="middle">2,000</text>
+    <text x="740" y="316" text-anchor="middle">2,500 m</text>
+    <text x="425" y="348" text-anchor="middle" opacity="0.8">Height above the ground. Ground on the left, axis on the right.</text>
+    <text x="425" y="372" text-anchor="middle" opacity="0.8" font-size="15">Radius from the axis = 2,500 m minus the height.</text>
+    <text x="122" y="40">Ground, 1.00 g</text>
+    <text x="236" y="86">Sky, 450 m, 0.82 g</text>
+    <text x="376" y="138">Crop galleries, 1,000 m, 0.60 g</text>
+    <text x="502" y="186">1,500 m, 0.40 g</text>
+    <text x="604" y="266" text-anchor="end">Upper frame, 2,000 m, 0.20 g</text>
+  </g>
+</svg>

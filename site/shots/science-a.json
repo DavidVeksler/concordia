@@ -1,0 +1,138 @@
+[
+  {
+    "id": "sky-breakthrough",
+    "viewpoint": "artificial-sky-breakthrough",
+    "alt": "An ascender cabin rises through the open floor of the artificial sky, with the curved city and a lit ceiling stretching away ahead.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "hero of /science/artificial-gravity/ (kept under its first id because the home stub still references it)"
+  },
+  {
+    "id": "sci-glider-over-city",
+    "viewpoint": "glider-over-city",
+    "alt": "A hang glider in flight above the rotor floor, with the city and lakes curving up ahead and overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/gliding/: the glider in flight 300 m above the floor"
+  },
+  {
+    "id": "sci-grav-park",
+    "viewpoint": "groundside-park",
+    "alt": "A lakeside park on the rotor floor, low housing around it and the curved city rising into the distance.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/artificial-gravity/: ground at 1 g, horizon curving up"
+  },
+  {
+    "id": "sci-grav-ascender-cabin",
+    "viewpoint": "ascender-cabin",
+    "alt": "Inside the panoramic ascender cabin with window seats, rails and a glass floor, tilted to the apparent vertical at 0.74 g.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/artificial-gravity/: cabin lean (distinct from sci-ascender-cabin in science-b)"
+  },
+  {
+    "id": "sci-cr-gallery",
+    "viewpoint": "counter-rotation-gallery",
+    "alt": "The bearing gallery between rotor 4 and the industrial rotor, two huge hubs turning in opposite directions about the stationary axis.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "hero of /science/counter-rotation/"
+  },
+  {
+    "id": "sci-cr-momentum-bay",
+    "viewpoint": "momentum-control-bay",
+    "alt": "Looking along the momentum control bay past the reaction ring machines in their vacuum housings toward the rotor 4 end wall.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/counter-rotation/"
+  },
+  {
+    "id": "sci-st-midg",
+    "viewpoint": "mid-gravity-megaframe",
+    "alt": "A mid-gravity view of the megaframe: bay infill, partial decks and bridges between great ribs, at about 0.55 g.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "hero of /science/structure/"
+  },
+  {
+    "id": "sci-st-megaframe",
+    "viewpoint": "megaframe-base",
+    "alt": "A foundational rib of the megaframe rising from a lived-in groundside neighbourhood toward the curved sky.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/structure/"
+  },
+  {
+    "id": "sci-st-end-wall",
+    "viewpoint": "end-wall-foot",
+    "alt": "The foot of a rotor end wall: a cliff of terraces and viaducts climbing out of the end bay into the sky.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/structure/"
+  },
+  {
+    "id": "sci-rad-hull",
+    "viewpoint": "exterior-hull-close",
+    "alt": "A close view of the station hull with shielding cassettes, repair seams, maintenance rails and a launch trench.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "hero of /science/radiation-and-debris/"
+  },
+  {
+    "id": "sci-rad-pier",
+    "viewpoint": "spaceport-pier",
+    "alt": "Pier 1 on the outer face of the end bulkhead with a freighter alongside and tugs working near the axial approach.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/radiation-and-debris/"
+  },
+  {
+    "id": "sci-rad-battery",
+    "viewpoint": "defence-forward-battery",
+    "alt": "The forward defence battery on the hull: an armoured housing, reload magazine and interceptor cells under a black sky.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/radiation-and-debris/"
+  },
+  {
+    "id": "sci-awf-farm",
+    "viewpoint": "farm-grow-deck",
+    "alt": "Racks of lettuce and basil stacked along a grow deck, seen from the visitor gallery of the upper city farm.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "hero of /science/air-water-food/"
+  },
+  {
+    "id": "sci-awf-pressure",
+    "viewpoint": "complete-habitat",
+    "alt": "The complete habitat with the pressure overlay labelling the one-atmosphere rotors and spine against the vacuum shell.",
+    "overlay": "pressure",
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/air-water-food/"
+  },
+  {
+    "id": "sci-hub-hero",
+    "viewpoint": "complete-habitat",
+    "alt": "The complete Concordia habitat in cislunar space, four rotors, industrial rotor, shipyard cage and spaceport along one axis, Earth and Moon beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "hero of /science/ hub"
+  }
+]

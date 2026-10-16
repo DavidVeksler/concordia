@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 550" role="img" aria-labelledby="cs-title cs-desc" font-family="DM Sans, system-ui, sans-serif">
+  <title id="cs-title">How Concordia was built: five steps, factory first</title>
+  <desc id="cs-desc">A vertical timeline of five steps. 1, mid 2030s: asteroids first, as metal-rich bodies are bagged and hauled to L5 for iron-nickel and carbon-rich ones follow for carbon, nitrogen and hydrogen; then lunar mining, refining and a mass driver bring the bulk. 2, the station starts as its own factory with a construction yard, power, radiators and an industrial plant, and workers live in small construction rings. 3, the 21 km superstructure and shielding go up around the yard. 4, rotor 1 is built stationary, tested, filled with air and spun up in small steps; first residents arrive in 2041. 5, rotors 2, 3 and 4 follow and the fourth rotor reaches full spin in 2044.</desc>
+  <line x1="44" y1="50" x2="44" y2="490" stroke="currentColor" stroke-width="3" opacity="0.45"/>
+  <g stroke="currentColor" stroke-width="2" fill="var(--accent)">
+    <circle cx="44" cy="50" r="20"/><circle cx="44" cy="150" r="20"/><circle cx="44" cy="250" r="20"/><circle cx="44" cy="360" r="20"/><circle cx="44" cy="470" r="20"/>
+  </g>
+  <g fill="#0b1216" font-size="20" font-weight="700" text-anchor="middle">
+    <text x="44" y="57">1</text><text x="44" y="157">2</text><text x="44" y="257">3</text><text x="44" y="367">4</text><text x="44" y="477">5</text>
+  </g>
+  <g fill="currentColor" font-size="18" font-weight="700">
+    <text x="88" y="40">Feedstock flows</text>
+    <text x="88" y="140">The station is its own factory</text>
+    <text x="88" y="240">Superstructure and shielding</text>
+    <text x="88" y="350">Rotor 1 spins up</text>
+    <text x="88" y="460">Rotors 2, 3 and 4</text>
+  </g>
+  <g fill="var(--accent-2)" font-size="16" font-weight="600">
+    <text x="88" y="62">Mid 2030s</text>
+    <text x="88" y="372">First residents, 2041</text>
+    <text x="88" y="482">Fourth rotor at full spin, 2044</text>
+  </g>
+  <g fill="currentColor" font-size="15">
+    <text x="88" y="84">Asteroids first: metal-rich bodies bagged and hauled to L5,</text>
+    <text x="88" y="103">then carbon-rich ones. Lunar mass drivers bring the bulk.</text>
+    <text x="88" y="166">Yard, power, radiators, industrial plant. Workers live in</text>
+    <text x="88" y="185">small construction rings.</text>
+    <text x="88" y="266">The 21 km truss goes up around the yard.</text>
+    <text x="88" y="285">Shielding cassettes are added as it grows.</text>
+    <text x="88" y="394">Built stationary, pressure-tested, filled with air, then</text>
+    <text x="88" y="413">spun up in small steps.</text>
+    <text x="88" y="504">The rings become spaceport lounges and spares.</text>
+  </g>
+</svg>

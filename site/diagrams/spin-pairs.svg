@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="sp-title sp-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
+  <title id="sp-title">Spin pairs and momentum along the station axis</title>
+  <desc id="sp-desc">Side view along the 21 km axis, aft on the left. Rotors 1 and 2 spin retrograde and together hold minus 50 percent of the four-rotor angular momentum. Rotors 3 and 4 spin prograde and hold plus 50 percent. The industrial rotor beyond the momentum bay spins retrograde and holds minus 4 percent, cancelled by the momentum rings in the bay. The net is zero.</desc>
+  <g stroke="currentColor" stroke-width="1.5" fill="none">
+    <line x1="30" y1="150" x2="770" y2="150" stroke-dasharray="6 5" opacity="0.4"/>
+  </g>
+  <!-- bracket labels -->
+  <g stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M52 78 v-10 h186 v10"/><path d="M262 78 v-10 h186 v10"/>
+  </g>
+  <g fill="currentColor">
+    <text x="145" y="56" text-anchor="middle" font-weight="600">Retrograde pair</text>
+    <text x="355" y="56" text-anchor="middle" font-weight="600">Prograde pair</text>
+    <text x="145" y="104" text-anchor="middle" opacity="0.8">Rotors 1 and 2</text>
+    <text x="355" y="104" text-anchor="middle" opacity="0.8">Rotors 3 and 4</text>
+  </g>
+  <!-- rotors -->
+  <g stroke="currentColor" stroke-width="1.5">
+    <rect x="52" y="112" width="88" height="76" fill="var(--accent-2)" />
+    <rect x="150" y="112" width="88" height="76" fill="var(--accent-2)" />
+    <rect x="262" y="112" width="88" height="76" fill="var(--accent)" />
+    <rect x="360" y="112" width="88" height="76" fill="var(--accent)" />
+    <rect x="456" y="124" width="32" height="52" fill="var(--surface-2)"/>
+    <rect x="496" y="118" width="228" height="64" fill="var(--surface-2)" stroke="var(--accent-2)" stroke-width="3"/>
+  </g>
+  <g fill="var(--on-accent)" font-weight="600" text-anchor="middle">
+    <text x="96" y="146">1</text><text x="194" y="146">2</text><text x="306" y="146">3</text><text x="404" y="146">4</text>
+  </g>
+  <g fill="var(--on-accent)" text-anchor="middle" font-size="15">
+    <text x="96" y="170">&#8722;25%</text><text x="194" y="170">&#8722;25%</text>
+    <text x="306" y="170">+25%</text><text x="404" y="170">+25%</text>
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="610" y="146">Industrial rotor</text>
+    <text x="610" y="170" font-size="15">&#8722;4%</text>
+  </g>
+  <!-- momentum bay -->
+  <g fill="currentColor" text-anchor="middle">
+    <text x="472" y="212">Momentum</text>
+    <text x="472" y="232">rings +4%</text>
+  </g>
+    <!-- bottom summary -->
+  <g stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M52 262 v10 h186 v-10"/><path d="M262 262 v10 h186 v-10"/><path d="M456 262 v10 h268 v-10"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="145" y="296" font-weight="600">&#8722;50%</text>
+    <text x="355" y="296" font-weight="600">+50%</text>
+    <text x="590" y="296" font-weight="600">Industrial plus rings: 0</text>
+    <text x="400" y="344" font-size="18" font-weight="600">Net angular momentum: zero</text>
+    <text x="400" y="368" opacity="0.7" font-size="14">Aft on the left. Percentages are shares of the four-rotor total, spin seen from the spaceport end.</text>
+  </g>
+</svg>

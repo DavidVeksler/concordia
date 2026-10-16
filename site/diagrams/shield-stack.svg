@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-labelledby="ss-title ss-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
+  <title id="ss-title">The shield stack above a Concordia rotor</title>
+  <desc id="ss-desc">Seven layers from outside to inside, not to scale. A thin sacrificial impact layer, a vacuum standoff, a thick layer of regolith and slag cassettes, the structural shell, a service vacuum, a hydrogen-rich water layer, and the rotating pressure vessel that holds the air. Debris and radiation arrive from the top.</desc>
+  <g stroke="var(--accent-2)" stroke-width="2.5" fill="var(--accent-2)">
+    <line x1="90" y1="40" x2="90" y2="84"/><path d="M84 80 L90 90 L96 80 Z" stroke="none"/>
+    <line x1="170" y1="40" x2="170" y2="84" stroke-dasharray="5 4"/><path d="M164 80 L170 90 L176 80 Z" stroke="none"/>
+    <line x1="250" y1="40" x2="250" y2="84"/><path d="M244 80 L250 90 L256 80 Z" stroke="none"/>
+    <line x1="330" y1="40" x2="330" y2="84" stroke-dasharray="5 4"/><path d="M324 80 L330 90 L336 80 Z" stroke="none"/>
+  </g>
+  <text x="40" y="26" fill="currentColor" font-size="15">Debris, cosmic rays and solar protons arrive from space</text>
+  <g stroke="currentColor" stroke-width="1.5">
+    <rect x="40" y="90" width="340" height="14" fill="var(--accent-2)"/>
+    <rect x="40" y="104" width="340" height="40" fill="none" stroke-dasharray="4 5" opacity="0.7"/>
+    <rect x="40" y="144" width="340" height="120" fill="var(--muted)" fill-opacity="0.6"/>
+    <rect x="40" y="264" width="340" height="16" fill="var(--accent)"/>
+    <rect x="40" y="280" width="340" height="40" fill="none" stroke-dasharray="4 5" opacity="0.7"/>
+    <rect x="40" y="320" width="340" height="60" fill="var(--accent)" fill-opacity="0.4"/>
+    <rect x="40" y="380" width="340" height="100" fill="var(--surface-2)"/>
+  </g>
+  <g fill="currentColor" font-size="15">
+    <text x="210" y="127" text-anchor="middle" opacity="0.8">vacuum</text>
+    <text x="210" y="208" text-anchor="middle" font-weight="600">1 m of regolith = 160 g/cm²</text>
+    <text x="210" y="228" text-anchor="middle" opacity="0.85">1.6 t per square metre</text>
+    <text x="210" y="304" text-anchor="middle" opacity="0.8">vacuum</text>
+    <text x="210" y="434" text-anchor="middle" font-weight="600">Air at Earth sea-level pressure</text>
+    <text x="210" y="454" text-anchor="middle" opacity="0.85">city, 1 g at the ground</text>
+  </g>
+  <g stroke="currentColor" stroke-width="1" opacity="0.6" fill="none">
+    <line x1="380" y1="97" x2="400" y2="97"/><line x1="380" y1="124" x2="400" y2="124"/><line x1="380" y1="204" x2="400" y2="204"/><line x1="380" y1="272" x2="400" y2="272"/><line x1="380" y1="300" x2="400" y2="300"/><line x1="380" y1="350" x2="400" y2="350"/><line x1="380" y1="430" x2="400" y2="430"/>
+  </g>
+  <g fill="currentColor">
+    <text x="410" y="95" font-weight="600">1. Sacrificial impact layer</text><text x="410" y="113" font-size="14" opacity="0.8">Breaks up small debris first</text>
+    <text x="410" y="132" font-weight="600">2. Standoff vacuum</text><text x="410" y="150" font-size="14" opacity="0.8">Lets fragments spread out</text>
+    <text x="410" y="204" font-weight="600">3. Regolith and slag cassettes</text><text x="410" y="222" font-size="14" opacity="0.8">Bulk mass: stops debris, thins radiation</text>
+    <text x="410" y="270" font-weight="600">4. Structural shell</text><text x="410" y="288" font-size="14" opacity="0.8">Carries the load</text>
+    <text x="410" y="318" font-weight="600">5. Service vacuum</text><text x="410" y="336" font-size="14" opacity="0.8">Room for robots and plumbing</text>
+    <text x="410" y="368" font-weight="600">6. Hydrogen-rich water</text><text x="410" y="386" font-size="14" opacity="0.8">Thickest over beds, clinics, shelters</text>
+    <text x="410" y="448" font-weight="600">7. Rotating pressure vessel</text><text x="410" y="466" font-size="14" opacity="0.8">Holds the air; hundreds of metres inward</text>
+    <text x="40" y="510" font-size="14" opacity="0.75">Not to scale. Thickness is set by particle-transport analysis; 1 m is the scale example.</text>
+  </g>
+</svg>

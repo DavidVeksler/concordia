@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1110" role="img" aria-labelledby="hs-title hs-desc" font-family="DM Sans, system-ui, sans-serif" font-size="17">
+  <title id="hs-title">Three habitats in cross-section: Island Three, the Stanford torus and Concordia</title>
+  <desc id="hs-desc">Three end-on cross-sections, one above the other, each drawn to its own scale and schematic. Top, O'Neill's Island Three of the 1970s: a cylinder whose wall alternates three land strips with three windows, with a hinged mirror outside each window, and one room of air. Middle, the 1975 NASA Stanford torus: a rotating tube with a separate shield that does not rotate, separated from it by only a meter or two (the gap is exaggerated here). Bottom, Concordia: a rotor of 2,500 m radius with an artificial sky 450 m up, inside a stationary polygonal shell at 3,100 m radius, with no windows. The shield stands still, hundreds of metres from the air, and each of the four rotors is sealed and split into districts.</desc>
+  <text x="310" y="100" font-weight="700" font-size="19" fill="currentColor">Island Three, 1970s</text>
+  <text x="310" y="124" font-size="15" fill="var(--muted)">O'Neill's cylinder</text>
+  <circle cx="150" cy="200" r="85" fill="var(--surface-2)"/>
+  <path d="M223.6 157.5 A85 85 0 0 1 223.6 242.5" fill="none" stroke="var(--accent-2)" stroke-width="12"/>
+  <path d="M223.6 242.5 A85 85 0 0 1 150.0 285.0" fill="none" stroke="currentColor" stroke-width="12" opacity="0.25"/>
+  <line x1="238.7" y1="289.7" x2="183.3" y2="321.7" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+  <line x1="206.0" y1="297.0" x2="199.0" y2="284.9" stroke="var(--accent)" stroke-width="3"/>
+  <path d="M150.0 285.0 A85 85 0 0 1 76.4 242.5" fill="none" stroke="var(--accent-2)" stroke-width="12"/>
+  <path d="M76.4 242.5 A85 85 0 0 1 76.4 157.5" fill="none" stroke="currentColor" stroke-width="12" opacity="0.25"/>
+  <line x1="28.0" y1="232.0" x2="28.0" y2="168.0" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+  <line x1="38.0" y1="200.0" x2="52.0" y2="200.0" stroke="var(--accent)" stroke-width="3"/>
+  <path d="M76.4 157.5 A85 85 0 0 1 150.0 115.0" fill="none" stroke="var(--accent-2)" stroke-width="12"/>
+  <path d="M150.0 115.0 A85 85 0 0 1 223.6 157.5" fill="none" stroke="currentColor" stroke-width="12" opacity="0.25"/>
+  <line x1="183.3" y1="78.3" x2="238.7" y2="110.3" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+  <line x1="206.0" y1="103.0" x2="199.0" y2="115.1" stroke="var(--accent)" stroke-width="3"/>
+<path d="M101.1 182.2 A52 52 0 0 1 195.0 174.0" fill="none" stroke="currentColor" stroke-width="2.5"/><polygon points="195.0,174.0 186.2,168.7 194.9,163.7" fill="currentColor"/>
+  <circle cx="150" cy="200" r="3" fill="currentColor"/>
+  <text x="310" y="170" fill="currentColor" font-weight="600">Half the wall is glass</text><text x="310" y="191" font-size="15" fill="var(--muted)">three windows, three land strips</text>
+  <text x="310" y="222" fill="currentColor" font-weight="600">Mirrors make the day</text><text x="310" y="243" font-size="15" fill="var(--muted)">hinged, outside the windows</text>
+  <text x="310" y="274" fill="currentColor" font-weight="600">One room of air</text><text x="310" y="295" font-size="15" fill="var(--muted)">the whole length of the cylinder</text>
+  <text x="310" y="470" font-weight="700" font-size="19" fill="currentColor">Stanford torus, 1975</text>
+  <text x="310" y="494" font-size="15" fill="var(--muted)">NASA summer study</text>
+  <circle cx="150" cy="570" r="82" fill="none" stroke="var(--muted)" stroke-width="9" stroke-dasharray="5 4"/>
+  <circle cx="150" cy="570" r="60" fill="var(--surface-2)" stroke="var(--accent-2)" stroke-width="7"/>
+<path d="M116.2 557.7 A36 36 0 0 1 181.2 552.0" fill="none" stroke="var(--accent)" stroke-width="2.5"/><polygon points="181.2,552.0 172.3,546.7 181.0,541.7" fill="var(--accent)"/>
+  <circle cx="150" cy="570" r="3" fill="currentColor"/>
+  <text x="310" y="540" fill="currentColor" font-weight="600">Shield stands still</text><text x="310" y="561" font-size="15" fill="var(--muted)">a separate ring, hatched here</text>
+  <text x="310" y="592" fill="currentColor" font-weight="600">1 to 2 m gap</text><text x="310" y="613" font-size="15" fill="var(--muted)">exaggerated in this drawing</text>
+  <text x="310" y="644" fill="currentColor" font-weight="600">4.5 t/m² shield, half sea-level air</text><text x="310" y="665" font-size="15" fill="var(--muted)">the study's own figures</text>
+  <text x="310" y="840" font-weight="700" font-size="19" fill="currentColor">Concordia, 2041</text>
+  <text x="310" y="864" font-size="15" fill="var(--muted)">radius to scale, 2,500 m rotor in a 3,100 m shell</text>
+  <polygon points="267.0,955.4 259.0,985.2 243.6,1011.8 221.8,1033.6 195.2,1049.0 165.4,1057.0 134.6,1057.0 104.8,1049.0 78.2,1033.6 56.4,1011.8 41.0,985.2 33.0,955.4 33.0,924.6 41.0,894.8 56.4,868.2 78.2,846.4 104.8,831.0 134.6,823.0 165.4,823.0 195.2,831.0 221.8,846.4 243.6,868.2 259.0,894.8 267.0,924.6" fill="var(--surface-2)" stroke="var(--muted)" stroke-width="9" stroke-linejoin="round"/>
+  <circle cx="150" cy="940" r="95" fill="var(--bg)" stroke="var(--accent-2)" stroke-width="6"/>
+  <circle cx="150" cy="940" r="78" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-dasharray="6 5"/>
+<path d="M116.2 927.7 A36 36 0 0 1 181.2 922.0" fill="none" stroke="var(--accent-2)" stroke-width="2.5"/><polygon points="181.2,922.0 172.3,916.7 181.0,911.7" fill="var(--accent-2)"/>
+  <circle cx="150" cy="940" r="3" fill="currentColor"/>
+  <text x="310" y="910" fill="currentColor" font-weight="600">No windows</text><text x="310" y="931" font-size="15" fill="var(--muted)">the sky is a display, 450 m up</text>
+  <text x="310" y="962" fill="currentColor" font-weight="600">Shield stands still</text><text x="310" y="983" font-size="15" fill="var(--muted)">hundreds of metres from the air</text>
+  <text x="310" y="1014" fill="currentColor" font-weight="600">Four sealed rotors</text><text x="310" y="1035" font-size="15" fill="var(--muted)">each split into districts</text>
+  <line x1="30" y1="385" x2="770" y2="385" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+  <line x1="30" y1="760" x2="770" y2="760" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+  <text x="400" y="1094" text-anchor="middle" font-size="15" fill="var(--muted)">Each section to its own scale. Island Three and the torus are schematic.</text>
+</svg>

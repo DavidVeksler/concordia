@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-labelledby="ct-title ct-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
+  <title id="ct-title">How far does one failure reach?</title>
+  <desc id="ct-desc">Two columns. Left, one room: a single long volume with one breach, and the whole volume is affected. Right, nested rooms: Concordia is a spine and four rotors, two spinning each way. One rotor is split into six pressure and fire districts divided by barriers. The district count is illustrative, because the engineering specification says only several. A breach in one district leaves the other districts untouched, and the district itself is divided into blocks, some with refuge halls. Refuge capsules sit along the spine.</desc>
+  <text x="150" y="30" text-anchor="middle" font-weight="700" font-size="19" fill="currentColor">One room</text>
+  <rect x="80" y="60" width="140" height="440" rx="44" fill="var(--accent)" fill-opacity="0.3" stroke="currentColor" stroke-width="2.5"/>
+  <polygon points="167.0,230.0 157.1,232.9 162.0,242.0 152.9,237.1 150.0,247.0 147.1,237.1 138.0,242.0 142.9,232.9 133.0,230.0 142.9,227.1 138.0,218.0 147.1,222.9 150.0,213.0 152.9,222.9 162.0,218.0 157.1,227.1" fill="var(--bg)" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="150" y="530" text-anchor="middle" fill="currentColor" font-weight="600">One breach</text>
+  <text x="150" y="552" text-anchor="middle" fill="currentColor" font-weight="600">reaches everyone</text>
+  <line x1="262" y1="50" x2="262" y2="560" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+  <text x="540" y="30" text-anchor="middle" font-weight="700" font-size="19" fill="currentColor">Nested rooms</text>
+  <rect x="300" y="52" width="480" height="104" rx="16" fill="var(--surface-2)" stroke="currentColor" stroke-width="2"/>
+  <line x1="316" y1="70" x2="764" y2="70" stroke="var(--muted)" stroke-width="4"/>
+  <circle cx="340" cy="70" r="4.5" fill="var(--accent-2)"/>
+  <circle cx="398" cy="70" r="4.5" fill="var(--accent-2)"/>
+  <circle cx="456" cy="70" r="4.5" fill="var(--accent-2)"/>
+  <circle cx="514" cy="70" r="4.5" fill="var(--accent-2)"/>
+  <circle cx="572" cy="70" r="4.5" fill="var(--accent-2)"/>
+  <circle cx="630" cy="70" r="4.5" fill="var(--accent-2)"/>
+  <circle cx="688" cy="70" r="4.5" fill="var(--accent-2)"/>
+  <circle cx="746" cy="70" r="4.5" fill="var(--accent-2)"/>
+  <rect x="318" y="86" width="100" height="56" rx="6" fill="var(--accent-2)" fill-opacity="0.85" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M354.8 109.2 A14 14 0 0 1 380.1 107.0" fill="none" stroke="var(--on-accent)" stroke-width="2"/><polygon points="380.1,107.0 372.2,102.3 380.0,97.8" fill="var(--on-accent)"/>
+  <rect x="434" y="86" width="100" height="56" rx="6" fill="var(--accent-2)" fill-opacity="0.85" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M470.8 109.2 A14 14 0 0 1 496.1 107.0" fill="none" stroke="var(--on-accent)" stroke-width="2"/><polygon points="496.1,107.0 488.2,102.3 496.0,97.8" fill="var(--on-accent)"/>
+  <rect x="550" y="86" width="100" height="56" rx="6" fill="var(--accent)" fill-opacity="0.85" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M612.1 107.0 A14 14 0 0 0 586.8 109.2" fill="none" stroke="var(--on-accent)" stroke-width="2"/><polygon points="586.8,109.2 585.4,100.2 593.8,103.2" fill="var(--on-accent)"/>
+  <rect x="666" y="86" width="100" height="56" rx="6" fill="var(--accent)" fill-opacity="0.85" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M728.1 107.0 A14 14 0 0 0 702.8 109.2" fill="none" stroke="var(--on-accent)" stroke-width="2"/><polygon points="702.8,109.2 701.4,100.2 709.8,103.2" fill="var(--on-accent)"/>
+  <g stroke="currentColor" stroke-width="1" opacity="0.5" stroke-dasharray="4 4" fill="none">
+    <line x1="550" y1="142" x2="316" y2="212"/><line x1="650" y1="142" x2="764" y2="212"/>
+  </g>
+  <rect x="316.0" y="212" width="74.7" height="64" fill="var(--surface-2)" fill-opacity="1"/>
+  <rect x="390.7" y="212" width="74.7" height="64" fill="var(--surface-2)" fill-opacity="1"/>
+  <rect x="465.3" y="212" width="74.7" height="64" fill="var(--surface-2)" fill-opacity="1"/>
+  <rect x="540.0" y="212" width="74.7" height="64" fill="var(--accent)" fill-opacity="0.4"/>
+  <rect x="614.7" y="212" width="74.7" height="64" fill="var(--surface-2)" fill-opacity="1"/>
+  <rect x="689.3" y="212" width="74.7" height="64" fill="var(--surface-2)" fill-opacity="1"/>
+  <rect x="316" y="212" width="448" height="64" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="390.7" y1="212" x2="390.7" y2="276" stroke="currentColor" stroke-width="5"/>
+  <line x1="465.3" y1="212" x2="465.3" y2="276" stroke="currentColor" stroke-width="5"/>
+  <line x1="540.0" y1="212" x2="540.0" y2="276" stroke="currentColor" stroke-width="5"/>
+  <line x1="614.7" y1="212" x2="614.7" y2="276" stroke="currentColor" stroke-width="5"/>
+  <line x1="689.3" y1="212" x2="689.3" y2="276" stroke="currentColor" stroke-width="5"/>
+  <polygon points="591.3,244.0 583.2,246.4 587.2,253.9 579.7,249.8 577.3,258.0 574.9,249.8 567.4,253.9 571.5,246.4 563.3,244.0 571.5,241.6 567.4,234.1 574.9,238.2 577.3,230.0 579.7,238.2 587.2,234.1 583.2,241.6" fill="var(--bg)" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+  <g stroke="currentColor" stroke-width="1" opacity="0.5" stroke-dasharray="4 4" fill="none">
+    <line x1="540.0" y1="276" x2="316" y2="346"/><line x1="614.7" y1="276" x2="764" y2="346"/>
+  </g>
+  <rect x="316" y="346" width="106" height="38" rx="4" fill="var(--accent)" fill-opacity="0.3" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="430" y="346" width="106" height="38" rx="4" fill="var(--accent)" fill-opacity="0.3" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="544" y="346" width="106" height="38" rx="4" fill="var(--accent-2)" fill-opacity="0.9" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M590.0 375.0 v-14 h14 v14 z M587.0 361.0 l10 -9 l10 9" fill="none" stroke="var(--on-accent)" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="658" y="346" width="106" height="38" rx="4" fill="var(--accent)" fill-opacity="0.3" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="316" y="392" width="106" height="38" rx="4" fill="var(--accent-2)" fill-opacity="0.9" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M362.0 421.0 v-14 h14 v14 z M359.0 407.0 l10 -9 l10 9" fill="none" stroke="var(--on-accent)" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="430" y="392" width="106" height="38" rx="4" fill="var(--accent)" fill-opacity="0.3" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="544" y="392" width="106" height="38" rx="4" fill="var(--accent)" fill-opacity="0.3" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="658" y="392" width="106" height="38" rx="4" fill="var(--accent-2)" fill-opacity="0.9" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M704.0 421.0 v-14 h14 v14 z M701.0 407.0 l10 -9 l10 9" fill="none" stroke="var(--on-accent)" stroke-width="2" stroke-linejoin="round"/>
+  <g fill="currentColor">
+    <text x="316" y="302" font-weight="600" paint-order="stroke" stroke="var(--surface)" stroke-width="6">Rotor: six districts</text><text x="316" y="322" font-size="15" fill="var(--muted)" paint-order="stroke" stroke="var(--surface)" stroke-width="6">(illustrative count)</text>
+    <text x="316" y="450" font-weight="600">District: blocks, some with a refuge hall</text>
+  </g>
+  <g fill="currentColor" font-size="15">
+    <rect x="316" y="478" width="26" height="16" fill="var(--accent)" fill-opacity="0.3" stroke="currentColor"/><text x="350" y="491">Affected by the breach</text>
+    <line x1="540" y1="476" x2="540" y2="496" stroke="currentColor" stroke-width="5"/><text x="552" y="491">Pressure barrier</text>
+    <rect x="316" y="506" width="26" height="16" rx="3" fill="var(--accent-2)" fill-opacity="0.9" stroke="currentColor"/><text x="350" y="519">Refuge hall</text>
+    <circle cx="553" cy="514" r="4.5" fill="var(--accent-2)"/><text x="566" y="519">Refuge capsule on the spine</text>
+  </g>
+  <text x="540" y="552" text-anchor="middle" fill="currentColor" font-weight="600">One breach stays in one district</text>
+  <text x="400" y="620" text-anchor="middle" font-size="15" fill="var(--muted)">Schematic. The engineering specification says "several" districts per rotor; six is illustrative.</text>
+</svg>

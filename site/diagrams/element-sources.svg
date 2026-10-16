@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 474" role="img" aria-labelledby="es-title es-desc" font-family="DM Sans, system-ui, sans-serif" font-size="15">
+  <title id="es-title">Where the elements are: Earth, Moon and asteroids</title>
+  <desc id="es-desc">A grid of eleven elements against four sources: Earth’s crust, lunar soil, carbon-rich (carbonaceous) asteroids and metal-rich asteroids. Darker cells hold more of the element. The Moon is rich in oxygen, silicon, aluminium, iron and titanium but poor in water, carbon and nitrogen. Carbon-rich asteroids hold about 10 percent water and a few percent carbon. Metal-rich asteroids are about 90 percent iron with nickel, cobalt and tens of parts per million of platinum-group metals. Earth has everything, but at the bottom of a deep gravity well.</desc>
+  <g fill="currentColor" font-weight="600" text-anchor="middle">
+    <text x="247" y="40">Earth’s</text>
+    <text x="247" y="58">crust</text>
+    <text x="405" y="49">Moon soil</text>
+    <text x="563" y="40">Carbon-rich</text>
+    <text x="563" y="58">asteroid</text>
+    <text x="721" y="40">Metal-rich</text>
+    <text x="721" y="58">asteroid</text>
+  </g>
+  <g fill="currentColor" font-size="13" opacity="0.75" text-anchor="middle">
+    <text x="247" y="72">62.7 MJ/kg to leave</text>
+    <text x="405" y="72">2.8 MJ/kg to leave</text>
+    <text x="563" y="72">almost free to leave</text>
+    <text x="721" y="72">almost free to leave</text>
+  </g>
+  <text x="16" y="102" fill="currentColor">Oxygen</text>
+  <rect x="171" y="82" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.68"/>
+  <text x="247" y="100" fill="currentColor" text-anchor="middle">46 %</text>
+  <rect x="329" y="82" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.68"/>
+  <text x="405" y="100" fill="currentColor" text-anchor="middle">42 to 45 %</text>
+  <rect x="487" y="82" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.68"/>
+  <text x="563" y="100" fill="currentColor" text-anchor="middle">46 %</text>
+  <rect x="645" y="82" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.42"/>
+  <text x="721" y="100" fill="currentColor" text-anchor="middle">trace</text>
+  <text x="16" y="132" fill="currentColor">Silicon</text>
+  <rect x="171" y="112" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.66"/>
+  <text x="247" y="130" fill="currentColor" text-anchor="middle">28 %</text>
+  <rect x="329" y="112" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.65"/>
+  <text x="405" y="130" fill="currentColor" text-anchor="middle">20 to 22 %</text>
+  <rect x="487" y="112" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.63"/>
+  <text x="563" y="130" fill="currentColor" text-anchor="middle">11 %</text>
+  <rect x="645" y="112" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.42"/>
+  <text x="721" y="130" fill="currentColor" text-anchor="middle">trace</text>
+  <text x="16" y="162" fill="currentColor">Aluminium</text>
+  <rect x="171" y="142" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.62"/>
+  <text x="247" y="160" fill="currentColor" text-anchor="middle">8 %</text>
+  <rect x="329" y="142" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.63"/>
+  <text x="405" y="160" fill="currentColor" text-anchor="middle">7 to 14 %</text>
+  <rect x="487" y="142" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.56"/>
+  <text x="563" y="160" fill="currentColor" text-anchor="middle">0.9 %</text>
+  <rect x="645" y="142" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.35"/>
+  <text x="721" y="160" fill="currentColor" text-anchor="middle">trace</text>
+  <text x="16" y="192" fill="currentColor">Iron</text>
+  <rect x="171" y="172" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.61"/>
+  <text x="247" y="190" fill="currentColor" text-anchor="middle">6 %</text>
+  <rect x="329" y="172" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.62"/>
+  <text x="405" y="190" fill="currentColor" text-anchor="middle">4 to 12 %</text>
+  <rect x="487" y="172" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.65"/>
+  <text x="563" y="190" fill="currentColor" text-anchor="middle">18 %</text>
+  <rect x="645" y="172" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.68"/>
+  <text x="721" y="190" fill="currentColor" text-anchor="middle">about 90 %</text>
+  <text x="16" y="222" fill="currentColor">Titanium</text>
+  <rect x="171" y="202" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.54"/>
+  <text x="247" y="220" fill="currentColor" text-anchor="middle">0.6 %</text>
+  <rect x="329" y="202" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.57"/>
+  <text x="405" y="220" fill="currentColor" text-anchor="middle">0.3 to 5 %</text>
+  <rect x="487" y="202" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.46"/>
+  <text x="563" y="220" fill="currentColor" text-anchor="middle">0.04 %</text>
+  <rect x="645" y="202" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.27"/>
+  <text x="721" y="220" fill="currentColor" text-anchor="middle">trace</text>
+  <text x="16" y="252" fill="currentColor">Nickel</text>
+  <rect x="171" y="232" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.41"/>
+  <text x="247" y="250" fill="currentColor" text-anchor="middle">84 ppm</text>
+  <rect x="329" y="232" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.35"/>
+  <text x="405" y="250" fill="currentColor" text-anchor="middle">trace</text>
+  <rect x="487" y="232" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.56"/>
+  <text x="563" y="250" fill="currentColor" text-anchor="middle">1.1 %</text>
+  <rect x="645" y="232" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.62"/>
+  <text x="721" y="250" fill="currentColor" text-anchor="middle">5 to 10 %</text>
+  <text x="16" y="282" fill="currentColor">Cobalt</text>
+  <rect x="171" y="262" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.37"/>
+  <text x="247" y="280" fill="currentColor" text-anchor="middle">25 ppm</text>
+  <rect x="329" y="262" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.31"/>
+  <text x="405" y="280" fill="currentColor" text-anchor="middle">trace</text>
+  <rect x="487" y="262" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.47"/>
+  <text x="563" y="280" fill="currentColor" text-anchor="middle">0.05 %</text>
+  <rect x="645" y="262" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.54"/>
+  <text x="721" y="280" fill="currentColor" text-anchor="middle">0.5 %</text>
+  <text x="16" y="312" fill="currentColor">Platinum group</text>
+  <rect x="171" y="292" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.11"/>
+  <text x="247" y="310" fill="currentColor" text-anchor="middle">5 ppb (Pt)</text>
+  <rect x="329" y="292" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.09"/>
+  <text x="405" y="310" fill="currentColor" text-anchor="middle">trace</text>
+  <rect x="487" y="292" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.27"/>
+  <text x="563" y="310" fill="currentColor" text-anchor="middle">1 ppm (Pt)</text>
+  <rect x="645" y="292" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.35"/>
+  <text x="721" y="310" fill="currentColor" text-anchor="middle">10 ppm</text>
+  <text x="16" y="342" fill="currentColor">Water (H₂O)</text>
+  <rect x="171" y="322" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.50"/>
+  <text x="247" y="340" fill="currentColor" text-anchor="middle">0.14 % H†</text>
+  <rect x="329" y="322" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.39"/>
+  <text x="405" y="340" fill="currentColor" text-anchor="middle">46 ppm H*</text>
+  <rect x="487" y="322" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.63"/>
+  <text x="563" y="340" fill="currentColor" text-anchor="middle">about 10 %</text>
+  <rect x="645" y="322" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.06"/>
+  <text x="721" y="340" fill="currentColor" text-anchor="middle">none</text>
+  <text x="16" y="372" fill="currentColor">Carbon</text>
+  <rect x="171" y="352" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.44"/>
+  <text x="247" y="370" fill="currentColor" text-anchor="middle">200 ppm</text>
+  <rect x="329" y="352" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.42"/>
+  <text x="405" y="370" fill="currentColor" text-anchor="middle">124 ppm</text>
+  <rect x="487" y="352" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.60"/>
+  <text x="563" y="370" fill="currentColor" text-anchor="middle">3.5 %</text>
+  <rect x="645" y="352" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.35"/>
+  <text x="721" y="370" fill="currentColor" text-anchor="middle">trace</text>
+  <text x="16" y="402" fill="currentColor">Nitrogen</text>
+  <rect x="171" y="382" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.36"/>
+  <text x="247" y="400" fill="currentColor" text-anchor="middle">19 ppm†</text>
+  <rect x="329" y="382" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.41"/>
+  <text x="405" y="400" fill="currentColor" text-anchor="middle">81 ppm</text>
+  <rect x="487" y="382" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.52"/>
+  <text x="563" y="400" fill="currentColor" text-anchor="middle">0.3 %</text>
+  <rect x="645" y="382" width="152" height="26" rx="4" fill="var(--accent)" fill-opacity="0.27"/>
+  <text x="721" y="400" fill="currentColor" text-anchor="middle">trace</text>
+  <text x="16" y="432" fill="currentColor" font-size="13" opacity="0.8">* Solar-wind hydrogen; shadowed polar soil holds a few percent ice.  † Crust only; oceans and air hold far more.</text>
+  <text x="16" y="466" fill="currentColor" font-size="13" opacity="0.8">Share by mass:</text>
+  <rect x="128" y="452" width="26" height="18" rx="3" fill="var(--accent)" fill-opacity="0.06"/>
+  <text x="160" y="466" fill="currentColor" font-size="13">1 ppb</text>
+  <rect x="220" y="452" width="26" height="18" rx="3" fill="var(--accent)" fill-opacity="0.27"/>
+  <text x="252" y="466" fill="currentColor" font-size="13">1 ppm</text>
+  <rect x="312" y="452" width="26" height="18" rx="3" fill="var(--accent)" fill-opacity="0.49"/>
+  <text x="344" y="466" fill="currentColor" font-size="13">0.1 %</text>
+  <rect x="404" y="452" width="26" height="18" rx="3" fill="var(--accent)" fill-opacity="0.63"/>
+  <text x="436" y="466" fill="currentColor" font-size="13">10 %</text>
+  <rect x="496" y="452" width="26" height="18" rx="3" fill="var(--accent)" fill-opacity="0.68"/>
+  <text x="528" y="466" fill="currentColor" font-size="13">50 %</text>
+</svg>

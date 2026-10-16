@@ -1,0 +1,58 @@
+{
+  "rotor-1-tex.webp": {
+    "svg": "rotor-1.svg",
+    "svgSha": "ffc86921aa7d",
+    "width": 4096,
+    "height": 652,
+    "bytes": 251596,
+    "quality": 86
+  },
+  "rotor-2-tex.webp": {
+    "svg": "rotor-2.svg",
+    "svgSha": "5d274f47eaec",
+    "width": 4096,
+    "height": 652,
+    "bytes": 243056,
+    "quality": 86
+  },
+  "rotor-3-tex.webp": {
+    "svg": "rotor-3.svg",
+    "svgSha": "31514f42ba7e",
+    "width": 4096,
+    "height": 652,
+    "bytes": 257802,
+    "quality": 86
+  },
+  "rotor-4-tex.webp": {
+    "svg": "rotor-4.svg",
+    "svgSha": "df470a1dd4c3",
+    "width": 4096,
+    "height": 652,
+    "bytes": 261834,
+    "quality": 86
+  },
+  "industrial-outer-tex.webp": {
+    "svg": "industrial-bands.svg",
+    "svgSha": "ab073e91e4e1",
+    "width": 4096,
+    "height": 1185,
+    "bytes": 29434,
+    "quality": 86
+  },
+  "industrial-middle-tex.webp": {
+    "svg": "industrial-bands.svg",
+    "svgSha": "ab073e91e4e1",
+    "width": 2660,
+    "height": 1185,
+    "bytes": 20470,
+    "quality": 86
+  },
+  "industrial-inner-tex.webp": {
+    "svg": "industrial-bands.svg",
+    "svgSha": "ab073e91e4e1",
+    "width": 1223,
+    "height": 1185,
+    "bytes": 15034,
+    "quality": 86
+  }
+}

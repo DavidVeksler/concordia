@@ -1,0 +1,38 @@
+[
+  {
+    "id": "film-cold-megaframe",
+    "static": true,
+    "alt": "Dense city of pale blocks, green rooftops and steel lattice under cool light, with a curved cream wall on the right.",
+    "note": "launch film still"
+  },
+  {
+    "id": "film-ascender-sky",
+    "static": true,
+    "alt": "Through a glass lift cabin window, a steel truss climbs the shaft, with city towers and walkways seen on either side.",
+    "note": "launch film still"
+  },
+  {
+    "id": "film-counter-rotation",
+    "static": true,
+    "alt": "Cutaway hub rings and bearings run across black space, with a grey rotor disc on the left and lattice trusses on the right.",
+    "note": "launch film still"
+  },
+  {
+    "id": "film-shipyard",
+    "static": true,
+    "alt": "A long ship with a tapered nose sits in gold cradles among steel trusses, with a large tube in the foreground.",
+    "note": "launch film still"
+  },
+  {
+    "id": "film-habitat-pullback",
+    "static": true,
+    "alt": "The grey four-rotor station in black space, rotor names painted on its hull, with the open forward cage and spoked end disc nearest.",
+    "note": "launch film still"
+  },
+  {
+    "id": "film-end-lookback",
+    "static": true,
+    "alt": "A grey cylindrical station shows its spoked end disc at left, with a caged ring section beyond it and a planet above.",
+    "note": "launch film still"
+  }
+]

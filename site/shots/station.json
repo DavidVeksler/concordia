@@ -1,0 +1,83 @@
+[
+  {
+    "id": "st-complete-habitat",
+    "viewpoint": "complete-habitat",
+    "alt": "The whole station from far off: a long grey cylinder with a caged forward section, radiator fields and a planet beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "home hero fallback, /station/ lead image, /station/by-the-numbers/"
+  },
+  {
+    "id": "st-district-skyline",
+    "viewpoint": "district-skyline",
+    "alt": "A city district seen from street level, with pale mid-rise blocks, trees and a steel lattice rising overhead under a lit artificial sky.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "home, /station/, /why-space/"
+  },
+  {
+    "id": "st-megaframe-base",
+    "viewpoint": "megaframe-base",
+    "alt": "The foot of the urban megaframe, with massive steel piers rising from the ground between buildings and parkland on the rotor floor.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "/station/generations/, /station/building-concordia/"
+  },
+  {
+    "id": "st-earth-moon-context",
+    "viewpoint": "earth-moon-context",
+    "alt": "Earth and the Moon hang in black space beside the long grey habitat, showing the station far from either world at L5.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "/station/ (where it sits), /why-space/"
+  },
+  {
+    "id": "st-industrial-rotor-wide",
+    "viewpoint": "industrial-rotor-wide",
+    "alt": "The open industrial rotor in vacuum: tank farms, rail yards and process modules hung on a ringed steel framework with few walls.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "/station/building-concordia/, /why-space/"
+  },
+  {
+    "id": "st-zero-g-shipyard",
+    "viewpoint": "zero-g-shipyard",
+    "alt": "A long spacecraft floats in a kilometre-scale steel cage, held by soft-capture rings while small tugs and manipulators work along its hull.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "/station/, /why-space/ (industry better in zero g)"
+  },
+  {
+    "id": "st-radiator-field",
+    "viewpoint": "radiator-field",
+    "alt": "A wide field of flat radiator panels held out from the hull on tall mounts, edge-lit against the dark.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "/station/by-the-numbers/ (power and heat)"
+  },
+  {
+    "id": "st-solar-infrastructure",
+    "viewpoint": "solar-infrastructure",
+    "alt": "Solar power platforms hang in space beyond the aft end, their dark panels tilted to the Sun and linked to the station by long tethers.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "/why-space/ (sunlight 24 hours), /station/by-the-numbers/"
+  },
+  {
+    "id": "st-spaceport-pier",
+    "viewpoint": "spaceport-pier",
+    "alt": "A passenger craft docked at an external spaceport pier, a deep truss running out from the station into open space.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "/station/ (spaceport), /why-space/"
+  }
+]

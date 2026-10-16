@@ -1,0 +1,12 @@
+{
+  "name": "concordia-site-source",
+  "private": true,
+  "type": "module",
+  "description": "Public source of the Concordia website; built and deployed from the private project repository.",
+  "scripts": {
+    "lint": "node scripts/public/lint.mjs"
+  },
+  "dependencies": {
+    "yaml": "2.9.1"
+  }
+}

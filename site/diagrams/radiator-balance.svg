@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="rb-title rb-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
+  <title id="rb-title">Radiator area needed to reject 40 GW at three temperatures</title>
+  <desc id="rb-desc">Three horizontal bars. At 380 kelvin a radiator needs about 38 square kilometres to reject 40 gigawatts. At 450 kelvin it needs about 19 square kilometres. At 500 kelvin it needs about 12.5 square kilometres. Hotter radiators need much less area because emitted power rises with the fourth power of temperature.</desc>
+  <text x="20" y="30" fill="currentColor" font-size="18" font-weight="600">Area to reject 40 GW from one face (emissivity 0.9)</text>
+  <text x="20" y="54" fill="currentColor" opacity="0.8">Concordia's banks run at 450 K, close to 20 km² of panel.</text>
+  <g stroke="currentColor" stroke-width="1" fill="none" opacity="0.35">
+    <line x1="150" y1="66" x2="150" y2="290"/>
+    <line x1="150" y1="290" x2="760" y2="290"/>
+  </g>
+  <g stroke="currentColor" stroke-width="1" opacity="0.2"><line x1="350" y1="66" x2="350" y2="290"/><line x1="550" y1="66" x2="550" y2="290"/></g>
+  <g fill="currentColor">
+    <text x="140" y="112" text-anchor="end">380 K</text>
+    <text x="140" y="188" text-anchor="end">450 K</text>
+    <text x="140" y="264" text-anchor="end">500 K</text>
+    <text x="150" y="314" text-anchor="middle">0</text>
+    <text x="350" y="314" text-anchor="middle">20 km²</text>
+    <text x="550" y="314" text-anchor="middle">40 km²</text>
+    <text x="455" y="346" text-anchor="middle" opacity="0.75">Radiator area</text>
+  </g>
+  <rect x="150" y="82" width="376" height="42" fill="var(--muted)" fill-opacity="0.55"/>
+  <rect x="150" y="158" width="191" height="42" fill="var(--accent)"/>
+  <rect x="150" y="234" width="125" height="42" fill="var(--accent-2)"/>
+  <g fill="currentColor">
+    <text x="536" y="108">38 km² (1.1 kW/m²)</text>
+    <text x="351" y="184" dx="8">19 km² (2.1 kW/m²)</text>
+    <text x="285" y="260" dx="8">12.5 km² (3.2 kW/m²)</text>
+  </g>
+</svg>

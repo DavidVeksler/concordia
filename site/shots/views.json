@@ -1,0 +1,146 @@
+[
+  {
+    "id": "sc-rotor2-civic-street",
+    "viewpoint": "rotor2-civic-street",
+    "alt": "A paved street with a stately stone frontage on the left, a green square ahead and a tower district on the horizon.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-rotor2-lakeshore",
+    "viewpoint": "rotor2-lakeshore",
+    "alt": "A lakeside promenade with reeds and a bench at the water and the plan of the upper city hanging overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-rotor2-crowned-towers",
+    "viewpoint": "rotor2-crowned-towers",
+    "alt": "Copper-crowned towers and spires seen from above, with megaframe ribs and the far side of the curved world beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-rotor3-terrace-street",
+    "viewpoint": "rotor3-terrace-street",
+    "alt": "A mid-rise street with a bike lane, terraced frontages and the city curving up into the distance.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-rotor3-lakeside-promenade",
+    "viewpoint": "rotor3-lakeside-promenade",
+    "alt": "A lakeside path with a resident walking, towers across the water and the upper city overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-rotor3-rooftop-panorama",
+    "viewpoint": "rotor3-rooftop-panorama",
+    "alt": "A wide aerial view along the rotor: parkland and blocks below, megaframe towers and the curved city rising ahead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-rotor4-core-canyon",
+    "viewpoint": "rotor4-core-canyon",
+    "alt": "A narrow street between tall arched stone frontages running into the dense center of a district.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-rotor4-lakeside-plaza",
+    "viewpoint": "rotor4-lakeside-plaza",
+    "alt": "A paved lakeside plaza with a resident at the water's edge, reeds, trees and the city rising across the lake.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-rotor4-tower-field",
+    "viewpoint": "rotor4-tower-field",
+    "alt": "A field of crowned towers and spires from above, with megaframe ribs climbing toward the sky.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-industrial-tank-farm",
+    "viewpoint": "industrial-tank-farm",
+    "alt": "A tank farm of horizontal white vessels and spheres on a lattice deck inside the open truss of the industrial rotor.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-industrial-cargo-tug",
+    "viewpoint": "industrial-cargo-tug",
+    "alt": "A cargo tug carrying a white pod with orange bands along a rail, with the lattice trusses of the industrial rotor around it.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-capital-exchange",
+    "viewpoint": "capital-exchange",
+    "alt": "A domed stone market hall behind a columned portico with a name board, across a plaza in a dense civic quarter.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-capital-charter-hall",
+    "viewpoint": "capital-charter-hall",
+    "alt": "A stone hall with a columned portico and name board seen from its side, with gate towers and a vaulted roof above.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-capital-court",
+    "viewpoint": "capital-court",
+    "alt": "A columned portico with a pediment and name board on a street of stone civic frontages, with people walking below.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-estates-garden-villas",
+    "viewpoint": "estates-garden-villas",
+    "alt": "Detached villas on wide lawns with hedges and flowering trees, with the megaframe curving overhead in the distance.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-estates-lake-terrace",
+    "viewpoint": "estates-lake-terrace",
+    "alt": "A district of villas in gardens along a curving street seen from above, with a lake and parkland beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  }
+]

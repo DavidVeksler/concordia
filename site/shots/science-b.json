@@ -1,0 +1,347 @@
+[
+  {
+    "id": "sci-sky-noon",
+    "viewpoint": "residential-street",
+    "alt": "A residential street at midday under a bright blue artificial sky, with low buildings, trees and the curved city rising ahead.",
+    "overlay": null,
+    "skytime": 12,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/light-and-sky/: noon sky from the street"
+  },
+  {
+    "id": "sci-sky-evening",
+    "viewpoint": "groundside-park",
+    "alt": "A lakeside park in warm evening light under a darkening artificial sky, with low-rise housing and the distant curved city.",
+    "overlay": null,
+    "skytime": 18,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/light-and-sky/: evening sky"
+  },
+  {
+    "id": "sci-sky-from-above",
+    "viewpoint": "upper-city-fringe",
+    "alt": "Looking down on the opaque back of the artificial sky from the upper city, with process vaults, nutrient vessels and grow galleries.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/light-and-sky/: the machinery above the sky"
+  },
+  {
+    "id": "sci-solar-farm",
+    "viewpoint": "sat-power-flagship",
+    "alt": "A square-kilometre solar platform seen from 4 km on the sunward side, with its photovoltaic field, truss and bus and the station beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/power-and-heat/: power platform"
+  },
+  {
+    "id": "sci-power-landing",
+    "viewpoint": "aft-power-landing",
+    "alt": "Four tall HVDC landing masts on the aft end of the station, with tethers running away toward the distant solar farm.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/power-and-heat/: HVDC landing masts"
+  },
+  {
+    "id": "sci-radiator-field",
+    "viewpoint": "complete-habitat",
+    "alt": "The whole station seen from space with thermal callouts: radiator banks standing off the hull reject about 40 GW.",
+    "overlay": "thermal",
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/power-and-heat/: radiator bank with thermal overlay"
+  },
+  {
+    "id": "sci-reactor-mast",
+    "viewpoint": "aft-reactor-mast",
+    "alt": "A black-start fission reactor on a tall mast behind its shadow shield, with radiator petals turned edge-on to the Sun.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/power-and-heat/: black-start reactor"
+  },
+  {
+    "id": "sci-metro-viaduct",
+    "viewpoint": "metro-viaduct-street",
+    "alt": "Street-level view of the elevated metro viaduct on its portals, with the line running away along the curving arterial.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/moving-around/: ring metro"
+  },
+  {
+    "id": "sci-ascender-cabin",
+    "viewpoint": "ascender-cabin",
+    "alt": "Inside the panoramic ascender cabin at 650 m, with window seats, rails, a glass floor gallery and the city curving up beyond the glass.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/moving-around/: ascender cabin"
+  },
+  {
+    "id": "sci-spine-lock",
+    "viewpoint": "spine-lock",
+    "alt": "Inside the stationary spine at the rotor hub: the spin-decoupling lock liner with viewing slots and door portals over a chamber carousel.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/moving-around/: spin lock"
+  },
+  {
+    "id": "sci-express",
+    "viewpoint": "express-exterior",
+    "alt": "The five-car axial express on its guideway inside the spine, seen three-quarter from ahead of the head car.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/moving-around/: spine express"
+  },
+  {
+    "id": "sci-bridge",
+    "viewpoint": "bridge-exterior",
+    "alt": "The transit bridge between two same-spin rotors seen from its sunlit flank, with window bands and X bracing across the gap.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/moving-around/: bridge within a spin pair"
+  },
+  {
+    "id": "sci-hull-cartridges",
+    "viewpoint": "exterior-25m-materials",
+    "alt": "Close view of the hull's cartridge frames of compacted regolith, with repairs, a service rail, plumbing and serial markings.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/materials/: regolith shielding cartridges"
+  },
+  {
+    "id": "sci-shipyard",
+    "viewpoint": "zero-g-shipyard",
+    "alt": "A large spacecraft floating unsupported inside the zero-g shipyard, surrounded by a much larger construction volume.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/materials/: where the stock is used"
+  },
+  {
+    "id": "sci-launch-track",
+    "viewpoint": "launcher-track-external",
+    "alt": "The electromagnetic launch track and its gantries running along the outside of the station hull.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/getting-there/: launcher"
+  },
+  {
+    "id": "sci-launcher-cabin",
+    "viewpoint": "passenger-launcher-interior",
+    "alt": "Inside the passenger launch cabin: rows of couches, a window band, aisle lighting and the shelter bulkhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/getting-there/: shuttle cabin"
+  },
+  {
+    "id": "sci-lunar-swingby",
+    "chapter": "lunarSwingby",
+    "alt": "The Moon filling much of the view at true scale as the shuttle passes it on the way home, with Earth small and far beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/getting-there/: swing-by"
+  },
+  {
+    "id": "sci-earth-arrival",
+    "chapter": "earthArrival",
+    "alt": "Earth filling the window as the shuttle falls toward its perigee, with the curve of the atmosphere lit along the limb.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/getting-there/: Earth arrival"
+  },
+  {
+    "id": "sci-ov-rotational",
+    "viewpoint": "complete-habitat",
+    "alt": "The whole station with the rotational frame overlay: spin direction labels for the four rotors and the 100 second turn.",
+    "overlay": "rotational-frame",
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: complete-habitat overlay: spin directions and the 100 second turn"
+  },
+  {
+    "id": "sci-ov-momentum-station",
+    "viewpoint": "complete-habitat",
+    "alt": "The whole station with the momentum overlay: minus 50 percent for the first two rotors, plus 50 percent for the second two, net zero.",
+    "overlay": "momentum",
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: complete-habitat overlay: spin pairs and net zero"
+  },
+  {
+    "id": "sci-ov-transport",
+    "viewpoint": "complete-habitat",
+    "alt": "The whole station with the transportation overlay: ascenders, the spine express, the metro ring and the 10 km launcher marked.",
+    "overlay": "transportation",
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: complete-habitat overlay: ascenders, express, metro ring, launcher"
+  },
+  {
+    "id": "sci-ov-shielding",
+    "viewpoint": "exterior-5km-systems",
+    "alt": "The hull up close with the shielding overlay naming regolith and slag cassettes, the standoff vacuum and the open industrial bay.",
+    "overlay": "shielding",
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: exterior-5km-systems overlay: shielding layers"
+  },
+  {
+    "id": "sci-ov-material-flow",
+    "viewpoint": "complete-habitat",
+    "alt": "The whole station with the material-flow overlay: lunar feedstock and asteroid volatiles flowing to the stores, the city and the yard.",
+    "overlay": "material-flow",
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: complete-habitat overlay: lunar and asteroid streams"
+  },
+  {
+    "id": "sci-spine-observation",
+    "viewpoint": "spine-observation",
+    "alt": "Looking out of the spine panoramic windows at the rotor wall turning past: ledges, plates and bronze window frames.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: spine-observation"
+  },
+  {
+    "id": "sci-exterior-intro",
+    "viewpoint": "exterior-intro",
+    "alt": "Concordia from a distance with the Moon at upper right and small satellites flying free of the hull.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: exterior-intro"
+  },
+  {
+    "id": "sci-depot-dock",
+    "viewpoint": "sat-depot-dock",
+    "alt": "A volatiles depot in free flight: spherical tanks, a tug-port collar and a gold dish antenna against black space.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: sat-depot-dock"
+  },
+  {
+    "id": "sci-ext-5km",
+    "viewpoint": "exterior-5km-systems",
+    "alt": "The stationary hull from 5 km: pale shielding plates, structural bands and the open truss of the industrial bay beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: exterior-5km-systems"
+  },
+  {
+    "id": "sci-ext-1km-patchwork",
+    "viewpoint": "exterior-1km-patchwork",
+    "alt": "Hull truss and shielding tiles seen from 1 km: a lattice frame around pale cassettes, with one darker replacement panel.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: exterior-1km-patchwork"
+  },
+  {
+    "id": "sci-radiator-spine",
+    "viewpoint": "radiator-spine-detail",
+    "alt": "Close under a radiator bank: a truss spine and hinge with parallel headers running across the dark panel backs.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: radiator-spine-detail"
+  },
+  {
+    "id": "sci-shipyard-close",
+    "viewpoint": "shipyard-close",
+    "alt": "Meridian 04 held in her capture rings inside the shipyard, with tension lines spread to the yard frame and a tank mover alongside.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: shipyard-close"
+  },
+  {
+    "id": "sci-park-noon",
+    "viewpoint": "groundside-park",
+    "alt": "A lakeside park at noon: bright grass, a pale path and the far side of the city overhead in full light.",
+    "overlay": null,
+    "skytime": 12,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "illustration pass: groundside-park at skytime 12; pair with sci-sky-evening"
+  },
+  {
+    "id": "sci-hauler-tow",
+    "static": true,
+    "alt": "A long solar-electric tug with wide blue solar wings pushes a net bag cinched around a dark metallic asteroid chunk, the Moon behind.",
+    "note": "for /science/mining/ (hero): Blender render, scripts/assets/build-hauler.ps1"
+  },
+  {
+    "id": "sci-hauler-capture",
+    "static": true,
+    "alt": "A tug's open cylindrical net bag, held by white inflatable ribs, closes over a metal-flecked boulder beside a grey rubble-pile asteroid.",
+    "note": "for /science/mining/: Blender render, scripts/assets/build-hauler.ps1"
+  },
+  {
+    "id": "sci-safe-hero",
+    "viewpoint": "counter-rotating-interface",
+    "alt": "Two curved end walls of Noordung and Bernal (Rotors 2 and 3) turning opposite ways, with a lattice service frame and mast between them.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "hero of /science/safety/: separate cities"
+  },
+  {
+    "id": "sci-safe-cassettes",
+    "viewpoint": "exterior-200m-engineering",
+    "alt": "The hull close up: a patchwork of shielding cassettes of several sizes between raised ribs, each one a replaceable tile.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/safety/: the shield as replaceable tiles"
+  },
+  {
+    "id": "sci-safe-catchers",
+    "viewpoint": "aft-bearing-gallery",
+    "alt": "The aft bearing gallery of Tsiolkovsky (Rotor 1): the spine tube passing through ringed bearing structure, trusses and lit bands.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/safety/: bearings and catchers"
+  },
+  {
+    "id": "sci-safe-interface",
+    "viewpoint": "inter-rotor-gap",
+    "alt": "Looking along the gap between two rotors: ringed end wall on the left, dark wall on the right and the spine tube crossing between.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/safety/: the gap nothing rotating crosses"
+  },
+  {
+    "id": "sci-safe-1975-interior",
+    "static": true,
+    "alt": "A 1975 NASA painting by Don Davis of the Stanford torus interior: a curved valley of houses, trees and a lake under glass panels.",
+    "note": "for /science/safety/: NASA Ames artwork ARC-1975-AC75-2621 (SP-413), public domain; credit in docs/licences.md"
+  },
+  {
+    "id": "sci-safe-concordia-interior",
+    "viewpoint": "groundside-park",
+    "alt": "Groundside Park inside Concordia: a lawn path past flowering trees, with the ground climbing away across the valley to a bright sky.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /science/safety/: Concordia ground view paired with the 1975 painting"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "note": "Shot list for the home hero loop (docs/specs/discovery-engagement-spec.md 3.2), read by scripts/site/build-hero-loop.mjs. Not a shot registry: build, check and capture-shots skip this file. Frames are the raw 60 fps launch-film renders in F:/HabitatVideo/<frames>/ (R9700, no captions). from and len are seconds into the clip. Each shot has one recognisable foreground object and one impossible background relationship; the last shot fades back into the first so the loop has no seam.",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "fade": 0.8,
+  "shots": [
+    { "id": "street-ring", "frames": "S05-street-neighbor", "from": 0, "len": 5.5, "foreground": "ascender tower beside the road", "background": "the street keeps climbing past the horizon into the sky" },
+    { "id": "ascender-sky", "frames": "S10-ascender-sky", "from": 1, "len": 6.5, "foreground": "the ascender cab frame", "background": "the sky is lit machinery, with the far side of the rotor behind it" },
+    { "id": "hull-pullback", "frames": "S19-habitat-pullback", "from": 3, "len": 7, "foreground": "the ring face", "background": "the whole station along its axis" }
+  ]
+}

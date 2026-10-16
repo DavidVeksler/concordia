@@ -1,0 +1,4537 @@
+{
+  "generated": "by scripts/site/export-sim-index.ts; do not edit",
+  "groups": [
+    "Residential",
+    "Upper Habitat",
+    "Glider",
+    "Ground to Axis",
+    "Infrastructure",
+    "Spaceport",
+    "Exterior"
+  ],
+  "viewpoints": [
+    {
+      "id": "residential-street",
+      "name": "Residential Street",
+      "group": "Residential",
+      "purpose": "Baseline human-scale realism and the primary texture/material QA view.",
+      "location": "inside",
+      "chapter": "home",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-residential-street"
+    },
+    {
+      "id": "glider-take-off",
+      "name": "Glider: Take-off Run",
+      "group": "Glider",
+      "purpose": "The hang glider waits on the residential street, with 400 m of clear road ahead. Hold W to roll, press Space to climb off, T for manual flight, R to drop a ball (docs/36 section 3.5).",
+      "location": "inside",
+      "chapter": "home",
+      "science": "/science/gliding/#fly-it"
+    },
+    {
+      "id": "glider-over-city",
+      "name": "Glider: Over the City",
+      "group": "Glider",
+      "purpose": "In flight 300 m above the floor of the first rotor, flying with the spin at 14 m/s: the pilot feels about 1.1 g at this height. W and S set speed, A and D turn, Space and C climb and descend, R drops a ball (docs/36 section 3.5).",
+      "location": "inside",
+      "chapter": "home",
+      "science": "/science/gliding/#fly-it"
+    },
+    {
+      "id": "groundside-park",
+      "name": "Groundside Park",
+      "group": "Residential",
+      "purpose": "A spacious lakeside park framed by low-rise housing and distant curved city: the family lake and its park, 220 m from the apartment (plan block 683), seen along the park path toward the water.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-groundside-park"
+    },
+    {
+      "id": "district-skyline",
+      "name": "District Skyline",
+      "group": "Residential",
+      "purpose": "The landmark skyline at eye height: a cluster of crowned towers, spires and a signature landmark seen from a park lawn 1.1 km away (docs/32 city landmarks; QA `city-landmarks:qa --mode capture`).",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-district-skyline"
+    },
+    {
+      "id": "civic-landmark",
+      "name": "Civic Landmark",
+      "group": "Residential",
+      "purpose": "A town hall with its clock tower and portico from the street in front of it: the close view of the civic landmark catalogue (docs/32).",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "megaframe-base",
+      "name": "Urban Megaframe Base",
+      "group": "Residential",
+      "purpose": "See a foundational rib rise from a lived-in groundside neighborhood.",
+      "location": "inside",
+      "chapter": "axisStation",
+      "learnMore": "/places/megaframe-city/#what-you-see",
+      "map": "/map/#vp-megaframe-base"
+    },
+    {
+      "id": "mid-gravity-megaframe",
+      "name": "Mid-Gravity Megaframe",
+      "group": "Upper Habitat",
+      "purpose": "Inspect bay infill, partial decks, bridges, and the frame at roughly 0.55 g.",
+      "location": "inside",
+      "chapter": "ascender"
+    },
+    {
+      "id": "low-g-atrium",
+      "name": "Low-G Atrium",
+      "group": "Upper Habitat",
+      "purpose": "Look across long-span structure and sparse atmospheric process facilities at roughly 0.32 g.",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/megaframe-city/#what-you-see",
+      "map": "/map/#vp-low-g-atrium"
+    },
+    {
+      "id": "megaframe-plate-district",
+      "name": "Megaframe Plate District",
+      "group": "Upper Habitat",
+      "purpose": "Stand on a raised 625 m plate quarter (about 0.73 g, rotor 1, bay 35): the balustrade and planters of the deck edge, an inhabited bridge with its truss crossing the ring beam, block rows on the next plate, and, because the plate stands above the 450 m sky, the opposite upper city overhead.",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/megaframe-city/#what-you-see",
+      "map": "/map/#vp-megaframe-plate-district"
+    },
+    {
+      "id": "end-wall-foot",
+      "name": "End Wall: Foot of the Cliff",
+      "group": "Upper Habitat",
+      "purpose": "Stand in the end bay of rotor 1 at the foot of its +X end wall (zone W, docs/27): the cantilevered ledges with their coffered undersides and struts, a train viaduct crossing the frame, the planted cliff face rising to the sky seam.",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#vp-end-wall-foot"
+    },
+    {
+      "id": "end-wall-terrace",
+      "name": "End Wall: Viaduct Terrace",
+      "group": "Upper Habitat",
+      "purpose": "Stand on the 241 m viaduct ledge of the +X end wall of rotor 1 (about 0.9 g): a train on the track strip, balustrade and planters with trailing vines, a glazed hall and terraced blocks on the ledge, the city 240 m below.",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#vp-end-wall-terrace"
+    },
+    {
+      "id": "end-wall-sky-balcony",
+      "name": "End Wall: Sky Balcony",
+      "group": "Upper Habitat",
+      "purpose": "Walk out along a timber boardwalk to an overlook on the +X end wall of rotor 1, 342 m up and about 50 m under the artificial sky (0.86 g): a glass handrail, benches, lamps, viewing scopes and a plaque, with the whole city laid out below and the sky membrane overhead.",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#vp-end-wall-sky-balcony"
+    },
+    {
+      "id": "end-wall-axis",
+      "name": "End Wall: Upper Wall from the Axis Side",
+      "group": "Upper Habitat",
+      "purpose": "Look at the upper end wall of rotor 1 from about 2,150 m (0.14 g): concentric ledge rings with low-gravity halls, vaults and gardens, the ribs thinning toward the bore, the ground city and megaframe below.",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#vp-end-wall-axis"
+    },
+    {
+      "id": "upper-city-fringe",
+      "name": "Upper City Fringe",
+      "group": "Upper Habitat",
+      "purpose": "Inspect atmospheric process vaults, nutrient vessels and grow galleries above the opaque sky backing.",
+      "location": "inside",
+      "chapter": "ascender"
+    },
+    {
+      "id": "axis-station-plaza",
+      "name": "Axis Station Plaza",
+      "group": "Residential",
+      "purpose": "Show the groundside neighborhood plaza and boarding lift entrance.",
+      "location": "inside",
+      "chapter": "plaza",
+      "learnMore": "/places/arbor-quarter/#how-it-works-in-brief",
+      "map": "/map/#vp-axis-station-plaza"
+    },
+    {
+      "id": "ascender-250m",
+      "name": "Ascender — 250 m",
+      "group": "Ground to Axis",
+      "purpose": "Early transition: the neighborhood remains familiar as the horizon rises.",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/ascenders-and-sky/#what-you-see",
+      "map": "/map/#vp-ascender-250m"
+    },
+    {
+      "id": "artificial-sky-breakthrough",
+      "name": "Ascender — Artificial Sky Breakthrough",
+      "group": "Ground to Axis",
+      "purpose": "Signature reveal of the engineered sky, opposite city, and open interior.",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/ascenders-and-sky/#what-you-see",
+      "map": "/map/#vp-artificial-sky-breakthrough"
+    },
+    {
+      "id": "ascender-cabin",
+      "name": "Ascender — Cabin Interior",
+      "group": "Ground to Axis",
+      "purpose": "Ride inside the panoramic cabin at 650 m (0.74 g): window seats, rails, the glass floor gallery and the live altitude, gravity and transfer display, with the city curving up beyond the glass (docs/21).",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/ascenders-and-sky/#what-you-see",
+      "map": "/map/#vp-ascender-cabin"
+    },
+    {
+      "id": "ascender-tower",
+      "name": "Ascender — Tower From Outside",
+      "group": "Ground to Axis",
+      "purpose": "Stand 140 m beside the tower at 800 m altitude: four blade trusses with bronze lattice, three tracks with cabins climbing and descending, belt-truss nodes and the axis far above (docs/21).",
+      "location": "inside",
+      "chapter": "ascender",
+      "learnMore": "/places/ascenders-and-sky/#what-you-see",
+      "map": "/map/#vp-ascender-tower"
+    },
+    {
+      "id": "ascender-hub",
+      "name": "Ascender — Rotating Transfer Hub",
+      "group": "Ground to Axis",
+      "purpose": "From the stationary spine: the rotor 1 transfer hub drum turning behind its bearing collar, the four tower portals with their bronze sunbursts, and the spin-decoupling chambers (docs/21 section 7).",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/ascenders-and-sky/#how-it-works-in-brief",
+      "map": "/map/#vp-ascender-hub"
+    },
+    {
+      "id": "spine-lock",
+      "name": "Spin-Decoupling Lock, Tsiolkovsky",
+      "group": "Ground to Axis",
+      "purpose": "Inside the spine at the rotor 1 hub, mid spin-down: the lock liner with its viewing slots and door portals over the eight-chamber carousel, the amber indicator ring and the spin-rate display (docs/28 section 5).",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/axis-and-spine/#changing-frames",
+      "map": "/map/#vp-spine-lock"
+    },
+    {
+      "id": "ascender-near-axis",
+      "name": "Ascender — Near Axis",
+      "group": "Ground to Axis",
+      "purpose": "Show the final transition from the distant city to zero-g infrastructure.",
+      "location": "inside",
+      "chapter": "axisTransfer"
+    },
+    {
+      "id": "stationary-axis",
+      "name": "Stationary Axis — City Rotating Around Viewer",
+      "group": "Ground to Axis",
+      "purpose": "Canonical reference-frame view with the city rotating around a slender spine.",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/axis-and-spine/#what-you-see",
+      "map": "/map/#vp-stationary-axis"
+    },
+    {
+      "id": "spine-interior",
+      "name": "Axial Spine — Interior",
+      "group": "Ground to Axis",
+      "purpose": "From the axis beside the rotor 1 hub, down the 120 m stationary tube: frames and ring lamps every 25 m, the express guideway on its stays, the crew galleries, the four trunks and the AXIS 01 boards (docs/28 section 3).",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/axis-and-spine/#what-you-see",
+      "map": "/map/#vp-spine-interior"
+    },
+    {
+      "id": "spine-observation",
+      "name": "Axial Spine — Observation Windows",
+      "group": "Ground to Axis",
+      "purpose": "From the +z crew gallery in a panoramic segment of rotor 1 (1 km before the hub): the arched windows with the rotating city turning past beyond the still spine.",
+      "location": "inside",
+      "chapter": "axisTransfer"
+    },
+    {
+      "id": "spine-shelter",
+      "name": "Axial Spine — Refuge Capsule",
+      "group": "Ground to Axis",
+      "purpose": "A pressure refuge in the rotor 2 stretch of the spine: hatch and handwheel, amber beacon, lit ports, tether rail down to the crew gallery, refuge boards.",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "science": "/science/safety/#four-cities-many-rooms"
+    },
+    {
+      "id": "inter-rotor-gap",
+      "name": "Inter-Rotor Service Gap",
+      "group": "Ground to Axis",
+      "purpose": "Expose the vacuum gap, rotor ends, bearings, and service connections.",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/axis-and-spine/#bridges-and-the-gap",
+      "map": "/map/#vp-inter-rotor-gap"
+    },
+    {
+      "id": "bridge-exterior",
+      "name": "Inter-Rotor Bridge 01, Outside",
+      "group": "Ground to Axis",
+      "purpose": "The transit bridge between rotors 01 and 02 from its sunlit flank, 2,300 m from the axis: window bands and X bracing, the lenticular lower truss on the hull side, the mid-span telescope and the gimbal ends at the port collars.",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/axis-and-spine/#bridges-and-the-gap",
+      "map": "/map/#vp-bridge-exterior"
+    },
+    {
+      "id": "bridge-interior",
+      "name": "Inter-Rotor Bridge 01, Deck",
+      "group": "Ground to Axis",
+      "purpose": "On the deck of bridge 01, 50 m from rotor 01: the promenade, the transit lane with its guideway and shuttle, window bands both sides, distance markers and the far pressure door.",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/axis-and-spine/#bridges-and-the-gap",
+      "map": "/map/#vp-bridge-interior"
+    },
+    {
+      "id": "bridge-port",
+      "name": "Bridge Port, Tsiolkovsky",
+      "group": "Ground to Axis",
+      "purpose": "The street side of rotor 01's bridge port: the lit ring, bronze bezel and sunburst architrave, the parked shielding leaves on their rails and, through the port, the bridge deck.",
+      "location": "inside",
+      "chapter": "axisTransfer"
+    },
+    {
+      "id": "counter-rotating-interface",
+      "name": "Counter-Rotating Interface, Noordung and Bernal",
+      "group": "Ground to Axis",
+      "purpose": "Show the gap between rotors that spin opposite ways: no rotating bridge, a stationary service frame and slip seals. Passengers cross through the spine.",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/science/safety/#parts-that-fail-one-at-a-time",
+      "map": "/map/#vp-counter-rotating-interface"
+    },
+    {
+      "id": "express-interior",
+      "name": "Axial Express · Interior",
+      "group": "Ground to Axis",
+      "purpose": "Inside car 02 on the centre line the story rides, down the aisle: restraint couches on the four wall quarters, grab rails and poles, net-door lockers, the live destination display over the open end door (docs/28 section 4).",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/axis-and-spine/#what-you-see",
+      "map": "/map/#vp-express-interior"
+    },
+    {
+      "id": "express-panorama",
+      "name": "Axial Express · Panoramic Bay",
+      "group": "Ground to Axis",
+      "purpose": "A panoramic bay of car 02 (bay 5): the full-height side window and the roof light looking out at the spine (tech spec 21: panoramic windows in selected sections).",
+      "location": "inside",
+      "chapter": "axisTransfer"
+    },
+    {
+      "id": "express-exterior",
+      "name": "Axial Express · On the Guideway",
+      "group": "Ground to Axis",
+      "purpose": "The five-car express on its guideway in the spine, three-quarter view from ahead of the head car: cab nose, destination board, gangways, levitation bogies, running lights.",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/axis-and-spine/#what-you-see",
+      "map": "/map/#vp-express-exterior"
+    },
+    {
+      "id": "aft-bay-gallery",
+      "name": "Aft Works · Panoramic Aft Gallery",
+      "group": "Ground to Axis",
+      "purpose": "The AFT TERMINUS platform with the express standing at it, looking aft through the glazed end wall: the free run, the 120 m service port, the 350 m bore and the blast iris (docs/38 section 11).",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/aft-works/#inside-the-aft-end",
+      "map": "/map/#vp-aft-bay-gallery"
+    },
+    {
+      "id": "aft-terminus",
+      "name": "Aft Works · Aft Terminus Platform",
+      "group": "Ground to Axis",
+      "purpose": "Along the AFT TERMINUS boarding platform toward the standing express: the gate frames at the car doors, hazard edge and lamp strip, the terminus boards and the transfer-lock hatches in the tube wall (docs/38 section 11).",
+      "location": "inside",
+      "chapter": "axisTransfer"
+    },
+    {
+      "id": "aft-service-bay",
+      "name": "Aft Works · Service Bay",
+      "group": "Ground to Axis",
+      "purpose": "Inside the vacuum service bay beside the tube: tug, servicing craft and tender on their cradles, the transfer gangways, a lifeboat, the shell with its work lights and the aft wall with the service port (docs/38 section 11).",
+      "location": "inside",
+      "chapter": "axisTransfer"
+    },
+    {
+      "id": "aft-bearing-gallery",
+      "name": "Aft Works · Tsiolkovsky Aft Bearing Gallery",
+      "group": "Infrastructure",
+      "purpose": "The aft hub bearing of rotor 1 (docs/15): sleeve and rim turning against the stator, catchers, alignment actuators, the slip-seal labyrinth and the service frame, the rotor 04 pattern mirrored (docs/38 section 11).",
+      "location": "inside",
+      "chapter": "counterRotation",
+      "learnMore": "/science/safety/#parts-that-fail-one-at-a-time",
+      "map": "/map/#vp-aft-bearing-gallery"
+    },
+    {
+      "id": "aft-converter-hall",
+      "name": "Aft Works · Converter Hall",
+      "group": "Infrastructure",
+      "purpose": "Through the arched windows of the spine: rows of HVDC valve halls, breaker bays, capacitor banks, cooling headers and the structural rings of the converter hall (docs/38 section 11).",
+      "location": "inside",
+      "chapter": "axisTransfer",
+      "learnMore": "/places/aft-works/#inside-the-aft-end",
+      "map": "/map/#vp-aft-converter-hall"
+    },
+    {
+      "id": "aft-operations",
+      "name": "Aft Works · Aft Operations",
+      "group": "Infrastructure",
+      "purpose": "The control blister and the black-start switchgear hall on the tube, with the reactor feed leaving for the masts (docs/38 section 11).",
+      "location": "inside",
+      "chapter": "axisTransfer"
+    },
+    {
+      "id": "counter-rotation-gallery",
+      "name": "Bearing Gallery · Counter-Rotation",
+      "group": "Infrastructure",
+      "purpose": "Show rotor 04 and the industrial rotor turning in opposite directions about the stationary spine and hub bearings.",
+      "location": "inside",
+      "chapter": "counterRotation",
+      "learnMore": "/places/industrial-rotor/#how-it-works-in-brief",
+      "map": "/map/#vp-counter-rotation-gallery"
+    },
+    {
+      "id": "momentum-control-bay",
+      "name": "Momentum Control Bay",
+      "group": "Infrastructure",
+      "purpose": "From above ring 1 near the rotor 04 end wall, look along the bay: the four reaction rings in their housings (catwalks, bearing stacks, struts to the spine clamps, ring boards), the stationary spine and the industrial frame beyond (docs/28 section 6; moved into the bay 2026-10-08, the old pose was inside rotor 04).",
+      "location": "inside",
+      "chapter": "counterRotation",
+      "learnMore": "/places/industrial-rotor/#how-it-works-in-brief",
+      "map": "/map/#vp-momentum-control-bay"
+    },
+    {
+      "id": "momentum-ring-close",
+      "name": "Momentum Ring 2 · Close",
+      "group": "Infrastructure",
+      "purpose": "Under ring 2 on the axis side: the containment housing and its ribs, motor-generator stators, a bearing stack, coolant loops, the catwalk edge and the rim turning in the open side (docs/28 section 6).",
+      "location": "inside",
+      "chapter": "counterRotation",
+      "learnMore": "/places/industrial-rotor/#how-it-works-in-brief",
+      "map": "/map/#vp-momentum-ring-close"
+    },
+    {
+      "id": "industrial-rotor-wide",
+      "name": "Ehricke Industrial Rotor, Wide",
+      "group": "Infrastructure",
+      "purpose": "Establish the open truss, vacuum volumes, cargo, and robotic logistics.",
+      "location": "inside",
+      "chapter": "counterRotation",
+      "learnMore": "/places/industrial-rotor/#what-you-see",
+      "map": "/map/#vp-industrial-rotor-wide"
+    },
+    {
+      "id": "upper-city-agriculture",
+      "name": "Upper City Agriculture",
+      "group": "Upper Habitat",
+      "purpose": "Inspect atmospheric stacked crops, nutrient equipment, and robotic harvesters.",
+      "location": "inside",
+      "chapter": "agriculture"
+    },
+    {
+      "id": "farm-grow-deck",
+      "name": "Farm Grow Deck",
+      "group": "Upper Habitat",
+      "purpose": "Stand in the visitor gallery of the grow hall and look along a deck: racks of lettuce, basil and kale in four growth stages, LED rigs, nutrient channels, a harvest gantry.",
+      "location": "inside",
+      "chapter": "agriculture",
+      "learnMore": "/places/upper-city-farms/#what-you-see",
+      "map": "/map/#vp-farm-grow-deck"
+    },
+    {
+      "id": "farm-harvest-line",
+      "name": "Farm Harvest Line",
+      "group": "Upper Habitat",
+      "purpose": "Watch totes arrive on the belt and pass the wash tunnel, the optical sorter and the weigher in the process wing.",
+      "location": "inside",
+      "chapter": "agriculture",
+      "learnMore": "/places/upper-city-farms/#what-you-see",
+      "map": "/map/#vp-farm-harvest-line"
+    },
+    {
+      "id": "farm-packaging-dispatch",
+      "name": "Farm Packaging and Dispatch",
+      "group": "Upper Habitat",
+      "purpose": "See ordinary food (crates of salad, trays of loaves, bottles, wrapped pallets) leave on freight pods from the process wing dock.",
+      "location": "inside",
+      "chapter": "agriculture",
+      "learnMore": "/places/upper-city-farms/#what-you-see",
+      "map": "/map/#vp-farm-packaging-dispatch"
+    },
+    {
+      "id": "facility-1000m-exterior",
+      "name": "Service Facilities at 1,000 m",
+      "group": "Infrastructure",
+      "purpose": "See a grow gallery and a utility plant of the 1,000 m service tier from the open fringe: glazed rack faces lit white and magenta, vessels, air handlers and pipe racks.",
+      "location": "inside",
+      "chapter": "agriculture",
+      "learnMore": "/places/upper-city-farms/#why-up-here",
+      "map": "/map/#vp-facility-1000m-exterior"
+    },
+    {
+      "id": "zero-g-shipyard",
+      "name": "Zero-G Shipyard — Hero View",
+      "group": "Infrastructure",
+      "purpose": "Reveal the unsupported spacecraft inside a much larger construction volume.",
+      "location": "inside",
+      "chapter": "shipyard",
+      "learnMore": "/places/shipyard/#what-you-see",
+      "map": "/map/#vp-zero-g-shipyard"
+    },
+    {
+      "id": "shipyard-close",
+      "name": "Shipyard — Close Construction View",
+      "group": "Infrastructure",
+      "purpose": "Material and robotics QA on framing, tankage, hull, and temporary fixtures.",
+      "location": "inside",
+      "chapter": "shipyard"
+    },
+    {
+      "id": "shipyard-open-section",
+      "name": "Shipyard — Open Pressure Section",
+      "group": "Infrastructure",
+      "purpose": "Inspect the open crew drum (deck stack), capture arms, a manipulator and an inspection capsule at working range.",
+      "location": "inside",
+      "chapter": "shipyard",
+      "learnMore": "/places/shipyard/#how-a-ship-is-held",
+      "map": "/map/#vp-shipyard-open-section"
+    },
+    {
+      "id": "shipyard-tank-bay",
+      "name": "Shipyard — Tank Bay and Delivery",
+      "group": "Infrastructure",
+      "purpose": "Inspect the tank cradles, a tank on approach with its mover, tension lines, crawlers and umbilicals.",
+      "location": "inside",
+      "chapter": "shipyard",
+      "learnMore": "/places/shipyard/#what-you-see",
+      "map": "/map/#vp-shipyard-tank-bay"
+    },
+    {
+      "id": "passenger-terminal",
+      "name": "Passenger Spaceport Terminal",
+      "group": "Spaceport",
+      "purpose": "Show Concordia passenger arrivals, terminal identity signage, zero-g public infrastructure, and docking views.",
+      "location": "inside",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#what-you-see",
+      "map": "/map/#vp-passenger-terminal"
+    },
+    {
+      "id": "spaceport-axial-bay",
+      "name": "Spaceport Axial Bay",
+      "group": "Spaceport",
+      "purpose": "Keep the axial approach clear while showing docked craft and approach lighting.",
+      "location": "inside",
+      "chapter": "spaceport"
+    },
+    {
+      "id": "spaceport-arrival",
+      "name": "Spaceport Arrival Face",
+      "group": "Spaceport",
+      "purpose": "Arrive through the link tube to the WELCOME TO CONCORDIA arch, then the health, customs and security rings of the processing zone.",
+      "location": "inside",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#what-you-see",
+      "map": "/map/#vp-spaceport-arrival"
+    },
+    {
+      "id": "spaceport-concourse",
+      "name": "Spaceport Concourse A",
+      "group": "Spaceport",
+      "purpose": "Show the nave: the deck with its shops, the handline conveyors with their riders, the catch-net rings and the gate arches along the bay windows.",
+      "location": "inside",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#what-you-see",
+      "map": "/map/#vp-spaceport-concourse"
+    },
+    {
+      "id": "spaceport-gate",
+      "name": "Spaceport Gate A03",
+      "group": "Spaceport",
+      "purpose": "A gate with its boarding bridge, berth frame and a docked passenger craft, seen from the axial bay.",
+      "location": "inside",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#what-you-see",
+      "map": "/map/#vp-spaceport-gate"
+    },
+    {
+      "id": "spaceport-lounge",
+      "name": "Spaceport Rotating Lounges",
+      "group": "Spaceport",
+      "purpose": "The three rotating comfort lounges (0.13, 0.20 and 0.28 g) on their stationary hubs, seen through the nave windows.",
+      "location": "inside",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#comfort-lounges",
+      "map": "/map/#vp-spaceport-lounge"
+    },
+    {
+      "id": "spaceport-pier",
+      "name": "Spaceport External Pier",
+      "group": "Spaceport",
+      "purpose": "Pier P1 on the outer face of the end bulkhead with a freighter alongside, tugs and the axial aperture.",
+      "location": "space",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#piers-and-the-propellant-farm",
+      "map": "/map/#vp-spaceport-pier"
+    },
+    {
+      "id": "passenger-launcher-interior",
+      "name": "Passenger Launcher Interior",
+      "group": "Spaceport",
+      "purpose": "Verify the 98-couch passenger cabin, its window band, aisle lighting and shelter bulkhead, seen standing in the starboard aisle.",
+      "location": "space",
+      "chapter": "launch",
+      "learnMore": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-passenger-launcher-interior"
+    },
+    {
+      "id": "launcher-track-external",
+      "name": "Launcher Track — External",
+      "group": "Spaceport",
+      "purpose": "Show the electromagnetic track and gantries as transport infrastructure.",
+      "location": "space",
+      "chapter": "launch",
+      "learnMore": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-launcher-track-external"
+    },
+    {
+      "id": "shuttle-bay-external",
+      "name": "Shuttle Bay — Hab to Earth Shuttle",
+      "group": "Spaceport",
+      "purpose": "Walk round a Hab to Earth shuttle parked on the launch track: ivory coach, stowed arrays and radiators, the keel in its guideway, edge lights, floodlight masts and bay signage.",
+      "location": "space",
+      "chapter": "launch",
+      "learnMore": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-shuttle-bay-external"
+    },
+    {
+      "id": "shuttle-bay-interior",
+      "name": "Shuttle Bay — Inside the Cabin",
+      "group": "Spaceport",
+      "purpose": "Step inside the shuttle parked in bay 1: the 98-couch cabin, window band and aisle lighting, empty between flights.",
+      "location": "space",
+      "chapter": "launch",
+      "learnMore": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-shuttle-bay-interior"
+    },
+    {
+      "id": "shuttle-bay-2-interior",
+      "name": "Shuttle Bay 2 — Inside the Cabin",
+      "group": "Spaceport",
+      "purpose": "The cabin of the shuttle parked in bay 2, identical to bay 1 and empty between flights.",
+      "location": "space",
+      "chapter": "launch",
+      "learnMore": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-shuttle-bay-2-interior"
+    },
+    {
+      "id": "shuttle-bay-3-interior",
+      "name": "Shuttle Bay 3 — Inside the Cabin",
+      "group": "Spaceport",
+      "purpose": "The cabin of the shuttle parked in bay 3, identical to bay 1 and empty between flights.",
+      "location": "space",
+      "chapter": "launch",
+      "learnMore": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-shuttle-bay-3-interior"
+    },
+    {
+      "id": "exterior-hull-close",
+      "name": "Exterior Hull — Close Inspection",
+      "group": "Exterior",
+      "purpose": "Inspect shielding, repair seams, maintenance rails, and nearby launch trench.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "aft-observatory-exterior",
+      "name": "Aft Observatory — Tower Crown",
+      "group": "Exterior",
+      "purpose": "The pressure sphere on the aft tower crown, with the iris and the tower behind it (docs/specs/aft-lounge-spec.md).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/aft-works/#what-you-see",
+      "map": "/map/#vp-aft-observatory-exterior"
+    },
+    {
+      "id": "aft-observatory-interior",
+      "name": "Aft Observatory — Inside, Pole Window",
+      "group": "Exterior",
+      "purpose": "Inside the aft observatory, looking down the axis through the pole window past the grab pole.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/aft-works/#what-you-see",
+      "map": "/map/#vp-aft-observatory-interior"
+    },
+    {
+      "id": "exterior-intro",
+      "name": "Exterior Hero — Complete Habitat",
+      "group": "Exterior",
+      "purpose": "Opening composition with the entire habitat, Earth, and Moon in view.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "complete-habitat",
+      "name": "Exterior Hero — Complete Habitat",
+      "group": "Exterior",
+      "purpose": "Canonical silhouette of the entire stationary habitat and attached utilities.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/exterior/#the-hull",
+      "map": "/map/#vp-complete-habitat"
+    },
+    {
+      "id": "exterior-industrial-open-bay",
+      "name": "Exterior QA — Industrial Open Bay",
+      "group": "Exterior",
+      "purpose": "Inspect the exposed counter-rotating industrial rotor through its open-vacuum shell bay.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/industrial-rotor/#what-you-see",
+      "map": "/map/#vp-exterior-industrial-open-bay"
+    },
+    {
+      "id": "exterior-aft-end",
+      "name": "Exterior QA — Aft End Lighting",
+      "group": "Exterior",
+      "purpose": "Inspect the shaded end cap and its mounted service floodlights.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "exterior-spaceport-approach",
+      "name": "Exterior QA — Spaceport Approach",
+      "group": "Exterior",
+      "purpose": "Inspect the Concordia arrival mark and look through the axial docking aperture at the berths and approaching craft.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "exterior-port-frame",
+      "name": "Exterior QA: Open Port Frame",
+      "group": "Exterior",
+      "purpose": "Look at the open port from 6 km off the axis: the port frame (spokes, mid and inner pier rings), the terminal citadel, the piers and the cage running back toward the yard (docs/specs/forward-port-spec.md).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/spaceport/#what-you-see",
+      "map": "/map/#vp-exterior-port-frame"
+    },
+    {
+      "id": "exterior-yard-through-cage",
+      "name": "Exterior QA: Shipyard Through the Cage",
+      "group": "Exterior",
+      "purpose": "Look from outside, off the sun-shade side, through the open forward cage at the hero ship, the yard ribs and the cage frames (docs/35).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/shipyard/#what-you-see",
+      "map": "/map/#vp-exterior-yard-through-cage"
+    },
+    {
+      "id": "exterior-25km-silhouette",
+      "name": "Exterior QA — 25 km Silhouette",
+      "group": "Exterior",
+      "purpose": "Check the sunlit three-quarter silhouette, radiator farms, and port against a black cislunar sky.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/exterior/#the-hull",
+      "map": "/map/#vp-exterior-25km-silhouette"
+    },
+    {
+      "id": "exterior-propellant-farm",
+      "name": "Exterior QA — Propellant Farm",
+      "group": "Exterior",
+      "purpose": "Check the tank farm (two LH2 and two LOX foil spheres, two storable cylinders), sunshades, radiators, transfer lines and exclusion posts from the outboard side.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/spaceport/#piers-and-the-propellant-farm",
+      "map": "/map/#vp-exterior-propellant-farm"
+    },
+    {
+      "id": "exterior-5km-systems",
+      "name": "Exterior QA — 5 km Systems",
+      "group": "Exterior",
+      "purpose": "Check major shielding zones, structural bands, utility trunks, and radiator scale.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "exterior-1km-patchwork",
+      "name": "Exterior QA — 1 km Patchwork",
+      "group": "Exterior",
+      "purpose": "Check shielding patchwork, access systems, port structures, and service infrastructure.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "exterior-200m-engineering",
+      "name": "Exterior QA — 200 m Engineering Detail",
+      "group": "Exterior",
+      "purpose": "Check the hull as layered infrastructure without introducing greeble noise.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "exterior-25m-materials",
+      "name": "Exterior QA — 25 m Materials",
+      "group": "Exterior",
+      "purpose": "Inspect cartridge frames, repairs, service rail, thermal plumbing, serial markings, and the crawler.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "radiator-field",
+      "name": "Radiator Field",
+      "group": "Exterior",
+      "purpose": "Show a radiator bank from the hull side: pylons, spine, ribs, panel backs, headers, and habitat scale.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/exterior/#radiators-dishes-and-arrays",
+      "map": "/map/#vp-radiator-field"
+    },
+    {
+      "id": "radiator-mount",
+      "name": "Radiator Mount",
+      "group": "Exterior",
+      "purpose": "Show how a radiator pylon stands on the hull: shoes on rib intersections, truss legs, hub, manifold house and risers.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "radiator-spine-detail",
+      "name": "Radiator Spine and Hinge",
+      "group": "Exterior",
+      "purpose": "Close view under a radiator bank: spine truss, hinge housing, supply and return headers, ribs and panel backs with edge headers and valves.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "solar-backup-collector",
+      "name": "Backup PV Collector",
+      "group": "Exterior",
+      "purpose": "Show the modest backup PV collector: four-leg mast on hull shoes, gimbal, bus truss and tracking wings.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "comms-dish-station",
+      "name": "RF Dish Station",
+      "group": "Exterior",
+      "purpose": "Show an RF dish station: shoe, lattice tower, turntable and yoke, Cassegrain reflector, equipment hut, optical terminal and phased arrays.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/exterior/#radiators-dishes-and-arrays",
+      "map": "/map/#vp-comms-dish-station"
+    },
+    {
+      "id": "defence-forward-battery",
+      "name": "Forward Defence Battery",
+      "group": "Exterior",
+      "purpose": "Show the forward launcher battery: armoured housing, reload magazine, rapid-interceptor cells, net launcher, blast wall, hazard apron, Whipple skirt and the sensor group beyond (docs/33).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/exterior/#defence-and-satellites",
+      "map": "/map/#vp-defence-forward-battery"
+    },
+    {
+      "id": "defence-aft-sensors",
+      "name": "Aft Sensor Cluster",
+      "group": "Exterior",
+      "purpose": "Show an aft sensor group: radar fence faces on their A-frame, tracking dish, survey telescopes, lidar masts and the fire-control hub (docs/33).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "defence-launcher-housing",
+      "name": "Launcher Housing (Readiness Drill)",
+      "group": "Exterior",
+      "purpose": "Close view of a launcher housing during its scheduled readiness drill: shutters open, interceptor rails slewed to the pinned drill sector, point-defence guns sweeping; nothing is fired (docs/33).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "metro-platform-arbor",
+      "name": "Metro Platform — Arbor",
+      "group": "Infrastructure",
+      "purpose": "Arbor ring station (docs/30): the 108 m platform on the hump at 55 m, screen doors, the canopy and the set at the platform.",
+      "location": "inside",
+      "chapter": "metro",
+      "learnMore": "/places/arbor-quarter/#how-it-works-in-brief",
+      "map": "/map/#vp-metro-platform-arbor"
+    },
+    {
+      "id": "metro-viaduct-street",
+      "name": "Metro Viaduct Over an Arterial",
+      "group": "Infrastructure",
+      "purpose": "Eye height on the circumferential arterial: the 45 m viaduct overhead on its portals, the line running away along the street (docs/30).",
+      "location": "inside",
+      "chapter": "plaza",
+      "learnMore": "/places/arbor-quarter/#how-it-works-in-brief",
+      "map": "/map/#vp-metro-viaduct-street"
+    },
+    {
+      "id": "metro-station-street",
+      "name": "Metro Station From the Street",
+      "group": "Infrastructure",
+      "purpose": "Looking up the arterial at an interchange: the pier with its street entrance, the viaduct climbing the hump to the station (docs/30).",
+      "location": "inside",
+      "chapter": "plaza"
+    },
+    {
+      "id": "metro-axis-west",
+      "name": "Metro Axis West Platform",
+      "group": "Infrastructure",
+      "purpose": "The Axis West platform beside the ascender keep-out, looking toward the ascender base along the axial viaduct (docs/30).",
+      "location": "inside",
+      "chapter": "metro"
+    },
+    {
+      "id": "metro-lift-arbor",
+      "name": "Metro Lift Tower — Arbor",
+      "group": "Infrastructure",
+      "purpose": "The glass lift tower of the hero story at the Arbor crossing (docs/30 section 14): the street door and canopy, the shaft rising 46 m to the platform deck, the viaduct above.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#how-it-works-in-brief",
+      "map": "/map/#vp-metro-lift-arbor"
+    },
+    {
+      "id": "metro-beam-625",
+      "name": "Metro Interchange — 625 m Beam Line",
+      "group": "Infrastructure",
+      "purpose": "The 625 m beam line interchange on the ring beam (docs/30): the platform at 0.75 g with the glazed bore side and the set at the platform.",
+      "location": "inside",
+      "chapter": "plaza"
+    },
+    {
+      "id": "solar-infrastructure",
+      "name": "Solar Infrastructure",
+      "group": "Exterior",
+      "purpose": "Show the tethered solar farm (power platform P1 at the docs/38 farm hub) with the aft face and its HVDC tethers beyond.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/exterior/#radiators-dishes-and-arrays",
+      "map": "/map/#vp-solar-infrastructure"
+    },
+    {
+      "id": "sat-power-flagship",
+      "name": "Power Platform — Flagship",
+      "group": "Exterior",
+      "purpose": "P1 from 4 km on the Sun side: the PV field, truss and bus at the docs/38 farm hub, with the aft face and its tethers as the reference.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "sat-power-bus",
+      "name": "Power Platform — Bus",
+      "group": "Exterior",
+      "purpose": "P1 from 200 m above the sunlit side of the bus: the P1 marking and the gold tanks, the tether boom with its eight HVDC reel houses on the front face, and the reel leads fanning out to the docs/38 tethers.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "sat-power-rear",
+      "name": "Power Platform — Rear",
+      "group": "Exterior",
+      "purpose": "P1 from 3.2 km behind and below the array plane, looking back toward the station: the unlit blanket backs framing the bus under its work lights, and the aft face beyond with the HVDC tethers running to the platform.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "sat-depot-dock",
+      "name": "Volatiles Depot — Tug Port",
+      "group": "Exterior",
+      "purpose": "V1 from 180 m off the +Z keel end: a tug-port collar on the keel side, a white water tank under the shade with the work-light pools on it, the gold mesh dish and a PV wing.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "sat-night-side",
+      "name": "Power Platform — Night Side",
+      "group": "Exterior",
+      "purpose": "P1 from the anti-Sun side with only Earth light and the lamps: the bus outline, the truss line and at least 12 lamps.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/exterior/#defence-and-satellites",
+      "map": "/map/#vp-sat-night-side"
+    },
+    {
+      "id": "sat-fleet-hero",
+      "name": "Satellite Fleet — Opening Shot",
+      "group": "Exterior",
+      "purpose": "The opening-shot camera (the exterior-intro pose) with the fleet around the station; V2 is in frame, P1 is not (see sat-fleet-hero-p1).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "sat-fleet-hero-p1",
+      "name": "Satellite Fleet — Opening Shot With P1",
+      "group": "Exterior",
+      "purpose": "The opening-shot position turned toward P1 so that the station and the power platform share the frame, at a flash of the P1 bus strobe (docs/37 SAT16).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "hauler-tow",
+      "name": "Bag Hauler — Under Tow",
+      "group": "Exterior",
+      "purpose": "The asteroid bag hauler 10.7 km out on its approach, from 155 m off its quarter: the 110 m truss, two 60 m solar wings, radiators and the bag cinched round a 22 m metal chunk (docs/site/facts.md section 11).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/science/mining/#first-metal-rich-asteroids-bagged-and-hauled-to-l5",
+      "map": "/map/#vp-hauler-tow"
+    },
+    {
+      "id": "hauler-stern",
+      "name": "Bag Hauler — Stern",
+      "group": "Exterior",
+      "purpose": "The hauler from behind and above its thruster plate: the seven Hall thrusters, propellant tanks, the truss running away toward the bag and the station beyond.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/science/mining/#first-metal-rich-asteroids-bagged-and-hauled-to-l5",
+      "map": "/map/#vp-hauler-stern"
+    },
+    {
+      "id": "compute-field",
+      "name": "Compute Field — The Band",
+      "group": "Exterior",
+      "purpose": "The compute field from 100 km behind the downlink raft, looking in along the band: rafts of ten dark-blue PV platforms stand in staggered groups across the dark, the station far off in the corner for scale (200 GW, 140 platforms in 14 rafts; economy-scene-spec section 2).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "compute-downlink",
+      "name": "Compute Field — Optical Downlink",
+      "group": "Exterior",
+      "purpose": "The optical downlink D1 at the field centre from 400 m behind it: sixteen 4 m telescopes on shelves at the front of a relay-class bus, all pointed at the Earth, two PV wings on the Sun-tracking joint. No beam is drawn: the watts leave as bits.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "next-station-yard",
+      "name": "The Next Station — Yard",
+      "group": "Exterior",
+      "purpose": "The second station under construction 200 km out: one rotor closed and bare, one in hoop frames, a third of the shield placed, three spinning construction rings, parked bagged asteroids and tugs (economy-scene-spec section 3).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "aft-end-far",
+      "name": "Aft Works — Far Read",
+      "group": "Exterior",
+      "purpose": "The aft end from 25 km, three-quarter on the face: ribbed face, red rim lights, central tower, four landing masts with marker lights, two reactor masts (docs/38).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/aft-works/#what-you-see",
+      "map": "/map/#vp-aft-end-far"
+    },
+    {
+      "id": "aft-port-approach",
+      "name": "Aft Works — Service Port Approach",
+      "group": "Exterior",
+      "purpose": "Look along the axis from 3 km at the service port, the blast iris and the tower (docs/38).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "aft-power-landing",
+      "name": "Aft Works — Power Landing",
+      "group": "Exterior",
+      "purpose": "The four HVDC landing masts and the tethers running aft to the solar farm hub (docs/38).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/aft-works/#what-you-see",
+      "map": "/map/#vp-aft-power-landing"
+    },
+    {
+      "id": "aft-reactor-mast",
+      "name": "Aft Works — Reactor Mast",
+      "group": "Exterior",
+      "purpose": "A black-start reactor on its 800 m mast behind its shadow shield, with the radiator petals edge-on to the Sun (docs/38).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/aft-works/#what-you-see",
+      "map": "/map/#vp-aft-reactor-mast"
+    },
+    {
+      "id": "aft-thruster-ring",
+      "name": "Aft Works — Thruster Ring",
+      "group": "Exterior",
+      "purpose": "The twelve Whipple-shielded thruster pods canted outward on the face ring (docs/38).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/aft-works/#what-you-see",
+      "map": "/map/#vp-aft-thruster-ring"
+    },
+    {
+      "id": "post-launch-home",
+      "name": "Post-Launch — Looking Back Home",
+      "group": "Exterior",
+      "purpose": "Reveal that the enormous armored machine receding behind was home.",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/places/exterior/#the-hull",
+      "map": "/map/#vp-post-launch-home"
+    },
+    {
+      "id": "earth-moon-context",
+      "name": "Earth / Moon / Habitat Context",
+      "group": "Exterior",
+      "purpose": "Place the habitat in cislunar space without oversized nearby worlds: Earth and Moon above it at their nominal sizes.",
+      "location": "space",
+      "chapter": "earthTransfer",
+      "learnMore": "/places/exterior/#the-hull",
+      "map": "/map/#vp-earth-moon-context"
+    },
+    {
+      "id": "rotor2-civic-street",
+      "name": "Noordung: Civic Street",
+      "group": "Residential",
+      "purpose": "A paved civic street in Noordung: a stately frontage on the left, a green square ahead and a tower district on the horizon. Same generator as the first rotor, a different seed and a different city.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-rotor2-civic-street"
+    },
+    {
+      "id": "rotor2-lakeshore",
+      "name": "Noordung: Lakeshore",
+      "group": "Residential",
+      "purpose": "A lakeshore promenade in Noordung: reeds and a path at the water, with the plan of the upper city hanging overhead. Each rotor has its own lakes.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-rotor2-lakeshore"
+    },
+    {
+      "id": "rotor2-crowned-towers",
+      "name": "Noordung: Crowned Towers From 120 m",
+      "group": "Residential",
+      "purpose": "The skyline of Noordung from 120 m up: copper-crowned towers and spires at arm's length, with the megaframe and the far side of the world beyond.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/megaframe-city/#what-you-see",
+      "map": "/map/#vp-rotor2-crowned-towers"
+    },
+    {
+      "id": "rotor3-terrace-street",
+      "name": "Bernal: Terrace Street",
+      "group": "Residential",
+      "purpose": "A mid-rise terrace street in Bernal at eye height: bike lane, red-roofed terraces and a boulevard running along the rotor into the curve of the city.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-rotor3-terrace-street"
+    },
+    {
+      "id": "rotor3-lakeside-promenade",
+      "name": "Bernal: Lakeside Promenade",
+      "group": "Residential",
+      "purpose": "A lakeside promenade in Bernal, near its forward end wall: a resident on the path, towers across the water and the upper city overhead.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-rotor3-lakeside-promenade"
+    },
+    {
+      "id": "rotor3-rooftop-panorama",
+      "name": "Bernal: Rooftop Panorama From 120 m",
+      "group": "Residential",
+      "purpose": "Bernal from 120 m up, looking along the axis: parkland, lakes and mid-rise blocks below, megaframe towers rising to the sky membrane and the curved world beyond.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/megaframe-city/#what-you-see",
+      "map": "/map/#vp-rotor3-rooftop-panorama"
+    },
+    {
+      "id": "rotor4-core-canyon",
+      "name": "O'Neill: Core Canyon",
+      "group": "Residential",
+      "purpose": "A street through the urban core of O'Neill: tall arched frontages close on both sides and the street runs on into the dense center of the district.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-rotor4-core-canyon"
+    },
+    {
+      "id": "rotor4-lakeside-plaza",
+      "name": "O'Neill: Lakeside Plaza",
+      "group": "Residential",
+      "purpose": "A lakeside plaza in O'Neill: a resident at the water's edge, reeds and trees on the shore and the city rising across the lake and overhead.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-rotor4-lakeside-plaza"
+    },
+    {
+      "id": "rotor4-tower-field",
+      "name": "O'Neill: Tower Field From 120 m",
+      "group": "Residential",
+      "purpose": "The urban core of O'Neill from 120 m up: a field of crowned towers and spires, and megaframe ribs climbing toward the sky.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/megaframe-city/#what-you-see",
+      "map": "/map/#vp-rotor4-tower-field"
+    },
+    {
+      "id": "capital-exchange",
+      "name": "Noordung: The Exchange",
+      "group": "Residential",
+      "purpose": "The Exchange in the capital quarter of Noordung: a domed market hall behind a portico, seen from 30 m across its plaza. This is where energy and compute are priced and traded for the whole station.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/station/economy/#who-lives-here",
+      "map": "/map/#vp-capital-exchange"
+    },
+    {
+      "id": "capital-charter-hall",
+      "name": "Noordung: Charter Hall",
+      "group": "Residential",
+      "purpose": "Charter Hall in the capital quarter of Noordung, from the street in front of its portico: the seat of the Concordia Charter Authority, with gate towers and a vaulted roof above the colonnade.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/station/economy/#who-lives-here",
+      "map": "/map/#vp-capital-charter-hall"
+    },
+    {
+      "id": "capital-court",
+      "name": "Noordung: The Court",
+      "group": "Residential",
+      "purpose": "The Court in the capital quarter of Noordung: a columned portico and a pediment on a street of civic frontages, where the station's arbitration courts sit.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/station/economy/#who-lives-here",
+      "map": "/map/#vp-capital-court"
+    },
+    {
+      "id": "estates-garden-villas",
+      "name": "O'Neill: Garden Villas",
+      "group": "Residential",
+      "purpose": "The estates of O'Neill from a raised walk: detached villas on lawns the size of a city block, hedges, planted trees and the megaframe beyond. The richest districts on the station trade density for open ground.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/station/economy/#who-lives-here",
+      "map": "/map/#vp-estates-garden-villas"
+    },
+    {
+      "id": "estates-lake-terrace",
+      "name": "O'Neill: Estates and Lake From 60 m",
+      "group": "Residential",
+      "purpose": "The estate district of O'Neill from 60 m up: villas in their gardens along a curving street, with a lake and parkland beyond.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/station/economy/#who-lives-here",
+      "map": "/map/#vp-estates-lake-terrace"
+    },
+    {
+      "id": "industrial-tank-farm",
+      "name": "Ehricke: Tank Farm",
+      "group": "Infrastructure",
+      "purpose": "A tank farm on the outer band of the industrial rotor (docs/07 section 43): horizontal vessels and spheres on a lattice deck, seen from inboard of the rail band.",
+      "location": "inside",
+      "chapter": "counterRotation",
+      "learnMore": "/places/industrial-rotor/#two-streams-of-material",
+      "map": "/map/#vp-industrial-tank-farm"
+    },
+    {
+      "id": "industrial-cargo-tug",
+      "name": "Ehricke: Cargo Tug on the Rail",
+      "group": "Infrastructure",
+      "purpose": "A cargo tug carrying a pod along an axial rail on the industrial rotor's outer band (docs/07 section 43), close enough to read the load and the lattice rails. The tug shuttles along the rail, so the framing is set for reference time 0.",
+      "location": "inside",
+      "chapter": "counterRotation",
+      "learnMore": "/places/industrial-rotor/#how-it-works-in-brief",
+      "map": "/map/#vp-industrial-cargo-tug"
+    }
+  ],
+  "chapters": [
+    {
+      "index": 0,
+      "key": "home",
+      "title": "A world in motion."
+    },
+    {
+      "index": 1,
+      "key": "neighborhood",
+      "title": "A city without an edge."
+    },
+    {
+      "index": 2,
+      "key": "metro",
+      "title": "A train along the axis."
+    },
+    {
+      "index": 3,
+      "key": "plaza",
+      "title": "A neighborhood meeting place."
+    },
+    {
+      "index": 4,
+      "key": "axisStation",
+      "title": "Where the spokes begin."
+    },
+    {
+      "index": 5,
+      "key": "ascender",
+      "title": "The sky is machinery."
+    },
+    {
+      "index": 6,
+      "key": "agriculture",
+      "title": "The work that feeds us."
+    },
+    {
+      "index": 7,
+      "key": "axisTransfer",
+      "title": "A first moment of weightlessness."
+    },
+    {
+      "index": 8,
+      "key": "counterRotation",
+      "title": "Two spins, one steady station."
+    },
+    {
+      "index": 9,
+      "key": "shipyard",
+      "title": "A different kind of world."
+    },
+    {
+      "index": 10,
+      "key": "spaceport",
+      "title": "The port between orbits."
+    },
+    {
+      "index": 11,
+      "key": "launch",
+      "title": "A departure made of momentum."
+    },
+    {
+      "index": 12,
+      "key": "exterior",
+      "title": "A mountain built by people."
+    },
+    {
+      "index": 13,
+      "key": "lunarSwingby",
+      "title": "The Moon turns us home."
+    },
+    {
+      "index": 14,
+      "key": "earthTransfer",
+      "title": "Home, seen from afar."
+    },
+    {
+      "index": 15,
+      "key": "earthArrival",
+      "title": "The old world fills the window."
+    }
+  ],
+  "overlays": [
+    {
+      "slug": "gravity",
+      "name": "Gravity",
+      "summary": "Gravity here is the push of the floor as the rotor turns. It is 1 g at the ground and falls in a straight line toward the axis, where you float. The artificial sky sits 450 m up at 0.82 g.",
+      "learnMore": "/science/artificial-gravity/",
+      "callouts": [
+        {
+          "text": "1.00 g ground",
+          "href": "/science/artificial-gravity/#weight-fades-with-height"
+        },
+        {
+          "text": "0.82 g sky (450 m)",
+          "href": "/science/artificial-gravity/#weight-fades-with-height"
+        },
+        {
+          "text": "0.60 g at 1,000 m",
+          "href": "/science/artificial-gravity/#weight-fades-with-height"
+        },
+        {
+          "text": "0.20 g at 2,000 m",
+          "href": "/science/artificial-gravity/#weight-fades-with-height"
+        },
+        {
+          "text": "about 0 g at the axis",
+          "href": "/science/artificial-gravity/#weight-fades-with-height"
+        },
+        {
+          "text": "Ehricke (industrial) 0.45 g",
+          "href": "/places/industrial-rotor/#how-it-works-in-brief"
+        }
+      ]
+    },
+    {
+      "slug": "rotational-frame",
+      "name": "Rotational frame",
+      "summary": "Tsiolkovsky and Noordung turn one way and Bernal and O'Neill turn the other, each once every 100 seconds. Inside a rotor the ground is still and the stars wheel past. Seen from the spine, the rim moves at 157 m/s.",
+      "learnMore": "/science/artificial-gravity/",
+      "callouts": [
+        {
+          "text": "Tsiolkovsky, Noordung: retrograde",
+          "href": "/science/artificial-gravity/#weight-from-motion"
+        },
+        {
+          "text": "Bernal, O'Neill: prograde",
+          "href": "/science/artificial-gravity/#weight-from-motion"
+        },
+        {
+          "text": "0.0626 rad/s, 100 s per turn, 157 m/s rim",
+          "href": "/science/artificial-gravity/#weight-from-motion"
+        }
+      ]
+    },
+    {
+      "slug": "pressure",
+      "name": "Pressure",
+      "summary": "The four rotors and the spine hold Earth sea-level air, 101 kPa. The outer shell and the industrial bay are open to vacuum, so each airtight boundary shown here is a wall between the two.",
+      "learnMore": "/science/structure/",
+      "callouts": [
+        {
+          "text": "Rotors: 1 atm",
+          "href": "/science/structure/#holding-in-the-air"
+        },
+        {
+          "text": "Spine: 1 atm",
+          "href": "/places/axis-and-spine/#what-you-see"
+        },
+        {
+          "text": "Shell: vacuum truss",
+          "href": "/science/structure/#the-stationary-shell"
+        },
+        {
+          "text": "Industrial bay: vacuum",
+          "href": "/places/industrial-rotor/#what-you-see"
+        }
+      ]
+    },
+    {
+      "slug": "shielding",
+      "name": "Shielding",
+      "summary": "A thick blanket of regolith and slag, packed in cassettes, stops radiation and small debris. A vacuum gap stands off from the hull to take impacts. The shipyard cage and the industrial bay are open, so they carry no blanket.",
+      "learnMore": "/science/radiation-and-debris/",
+      "callouts": [
+        {
+          "text": "Regolith and slag cassettes",
+          "href": "/science/radiation-and-debris/#mass-is-the-shield"
+        },
+        {
+          "text": "Standoff vacuum",
+          "href": "/science/radiation-and-debris/#mass-is-the-shield"
+        },
+        {
+          "text": "Open cage: shipyard",
+          "href": "/places/shipyard/#what-you-see"
+        },
+        {
+          "text": "Open bay: industry",
+          "href": "/places/industrial-rotor/#what-you-see"
+        }
+      ]
+    },
+    {
+      "slug": "thermal",
+      "name": "Thermal",
+      "summary": "Nearly all the power the station uses ends up as heat, and radiators are the only way to shed it in space. They reject about 40 GW at 380 to 500 K. Rotary couplings carry heat across the turning joints at the hubs.",
+      "learnMore": "/science/power-and-heat/",
+      "callouts": [
+        {
+          "text": "Radiators reject about 40 GW at 380 to 500 K",
+          "href": "/science/power-and-heat/#heat-out-of-a-spinning-city"
+        },
+        {
+          "text": "Eight radiator banks stand off the hull",
+          "href": "/science/power-and-heat/#heat-out-of-a-spinning-city"
+        },
+        {
+          "text": "Rotary heat couplings at the hubs",
+          "href": "/science/power-and-heat/#heat-out-of-a-spinning-city"
+        }
+      ]
+    },
+    {
+      "slug": "electrical",
+      "name": "Electrical",
+      "summary": "Solar platforms far aft supply about 40 GW, sent in over direct-current lines at plus and minus 1.2 MV. Two fission plants of 250 MWe each can restart the grid from nothing.",
+      "learnMore": "/science/power-and-heat/",
+      "callouts": [
+        {
+          "text": "40 GW from solar platforms",
+          "href": "/science/power-and-heat/#power-from-the-sun"
+        },
+        {
+          "text": "Aft power landing, +/-1.2 MV HVDC",
+          "href": "/science/power-and-heat/#hvdc-to-the-aft-end"
+        },
+        {
+          "text": "Fission black start 2 x 250 MWe",
+          "href": "/science/power-and-heat/#starting-from-nothing"
+        }
+      ]
+    },
+    {
+      "slug": "transportation",
+      "name": "Transportation",
+      "summary": "A metro ring runs 45 m above the ground in every rotor. Ascenders climb 2,380 m to the hub in about 10 minutes. The spine express covers the long way at 140 m/s, and the launcher on top throws craft toward Earth at 1.5 g.",
+      "learnMore": "/science/moving-around/",
+      "callouts": [
+        {
+          "text": "Metro ring 45 m up",
+          "href": "/science/moving-around/#on-foot-and-by-metro"
+        },
+        {
+          "text": "Ascenders: 2,380 m in 10 min",
+          "href": "/science/moving-around/#ascenders-gravity-as-a-height"
+        },
+        {
+          "text": "Spine express 140 m/s",
+          "href": "/science/moving-around/#the-spine-and-the-express"
+        },
+        {
+          "text": "Launcher 10 km, 1.5 g",
+          "href": "/science/getting-there/#the-launcher-first-leg-only"
+        }
+      ]
+    },
+    {
+      "slug": "material-flow",
+      "name": "Material flow",
+      "summary": "Regolith, metals, glass and oxygen arrive from the Moon. Iron-nickel, water, carbon and nitrogen arrive from asteroids bagged and hauled to L5, which came first. The industrial rotor stores both, then sends water, air and building stock to the city and hull and tank stock to the yard.",
+      "learnMore": "/science/materials/",
+      "callouts": [
+        {
+          "text": "LUNAR FEEDSTOCK: regolith, metals, glass, oxygen",
+          "href": "/science/materials/#what-the-moon-gives"
+        },
+        {
+          "text": "ASTEROID VOLATILES: water, carbon, nitrogen",
+          "href": "/science/materials/#what-asteroids-bring"
+        },
+        {
+          "text": "Semi-processed stores (Ehricke)",
+          "href": "/science/materials/#the-stores-in-the-industrial-rotor"
+        },
+        {
+          "text": "To the city: water, air, building stock",
+          "href": "/science/materials/#the-stores-in-the-industrial-rotor"
+        },
+        {
+          "text": "To the yard: hull and tank stock",
+          "href": "/places/shipyard/#what-you-see"
+        }
+      ]
+    },
+    {
+      "slug": "structural",
+      "name": "Structural",
+      "summary": "Each rotor is an airtight skin held round by tension bands that carry about 410 MN per metre: 253 from the air, the rest from the weight of the city. Inside, the megaframe rises to 1,500 m above the ground and carries the city. The stationary truss runs the full 21 km.",
+      "learnMore": "/science/structure/",
+      "callouts": [
+        {
+          "text": "Rotor tension bands, about 410 MN per metre",
+          "href": "/science/structure/#holding-in-the-air"
+        },
+        {
+          "text": "Megaframe to 1,500 m",
+          "href": "/science/structure/#the-megaframe"
+        },
+        {
+          "text": "Stationary 21 km truss",
+          "href": "/science/structure/#the-stationary-shell"
+        }
+      ]
+    },
+    {
+      "slug": "momentum",
+      "name": "Momentum",
+      "summary": "Tsiolkovsky and Noordung spin one way and Bernal and O'Neill the other, so the station carries no net spin. Ehricke, the industrial rotor, holds about 4 percent of the total, and the momentum rings cancel it. The net is zero.",
+      "learnMore": "/science/counter-rotation/",
+      "callouts": [
+        {
+          "text": "Tsiolkovsky + Noordung: -50%",
+          "href": "/science/counter-rotation/#spin-pairs"
+        },
+        {
+          "text": "Bernal + O'Neill: +50%",
+          "href": "/science/counter-rotation/#spin-pairs"
+        },
+        {
+          "text": "Ehricke about 4%, cancelled by momentum rings",
+          "href": "/science/counter-rotation/#the-industrial-rotor-and-the-momentum-rings"
+        },
+        {
+          "text": "Net: zero",
+          "href": "/science/counter-rotation/#the-gyroscope-problem"
+        }
+      ]
+    },
+    {
+      "slug": "defence",
+      "name": "Defence",
+      "summary": "Four defence sites on the hull, two at each end, watch the approaches. Red marks exclusion zones, amber marks fields of fire and blue marks sensor coverage.",
+      "learnMore": "/science/radiation-and-debris/",
+      "callouts": []
+    },
+    {
+      "slug": "satellites",
+      "name": "Satellites",
+      "summary": "Seven free-flying satellites work around the station. They are a tethered solar farm, two power platforms, two volatiles depots, an Earth relay and a forward sentinel.",
+      "learnMore": "/science/power-and-heat/",
+      "callouts": []
+    }
+  ],
+  "rotors": {
+    "habitation": [
+      {
+        "n": 1,
+        "name": "Tsiolkovsky"
+      },
+      {
+        "n": 2,
+        "name": "Noordung"
+      },
+      {
+        "n": 3,
+        "name": "Bernal"
+      },
+      {
+        "n": 4,
+        "name": "O'Neill"
+      }
+    ],
+    "industrial": {
+      "name": "Ehricke",
+      "slug": "ehricke"
+    }
+  },
+  "hotspots": [
+    {
+      "id": "arbor-lake",
+      "group": "arbor-lake",
+      "title": "Arbor lake and park",
+      "blurb": "A lake park on the Arbor Quarter ground. A rotor holds 72 to 114 lakes, and the far shore climbs away with the curve of the floor.",
+      "href": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-groundside-park",
+      "viewpoint": "groundside-park",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        60,
+        1500
+      ],
+      "priority": 2
+    },
+    {
+      "id": "ascender-tower-r1-1",
+      "group": "ascender-tower-r1",
+      "title": "Ascender tower, Tsiolkovsky",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-1",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "ascender-tower-r1-2",
+      "group": "ascender-tower-r1",
+      "title": "Ascender tower, Tsiolkovsky",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-1",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "ascender-tower-r1-3",
+      "group": "ascender-tower-r1",
+      "title": "Ascender tower, Tsiolkovsky",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-1",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "ascender-tower-r2-1",
+      "group": "ascender-tower-r2",
+      "title": "Ascender tower, Noordung",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-2",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "ascender-tower-r2-2",
+      "group": "ascender-tower-r2",
+      "title": "Ascender tower, Noordung",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-2",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "ascender-tower-r2-3",
+      "group": "ascender-tower-r2",
+      "title": "Ascender tower, Noordung",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-2",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "ascender-tower-r3-1",
+      "group": "ascender-tower-r3",
+      "title": "Ascender tower, Bernal",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-3",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "ascender-tower-r3-2",
+      "group": "ascender-tower-r3",
+      "title": "Ascender tower, Bernal",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-3",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "ascender-tower-r3-3",
+      "group": "ascender-tower-r3",
+      "title": "Ascender tower, Bernal",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-3",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "ascender-tower-r4-1",
+      "group": "ascender-tower-r4",
+      "title": "Ascender tower, O'Neill",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-4",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "ascender-tower-r4-2",
+      "group": "ascender-tower-r4",
+      "title": "Ascender tower, O'Neill",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-4",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "ascender-tower-r4-3",
+      "group": "ascender-tower-r4",
+      "title": "Ascender tower, O'Neill",
+      "blurb": "Four towers per rotor carry cabins from the street to the hub in about ten minutes. Weight fades with every hundred metres of the climb.",
+      "href": "/science/moving-around/#ascenders-gravity-as-a-height",
+      "map": "/map/#rotor-4",
+      "viewpoint": "ascender-tower",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        30,
+        2400
+      ],
+      "priority": 1,
+      "chapters": [
+        "plaza",
+        "axisStation",
+        "ascender"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "artificial-sky-r1-1",
+      "group": "artificial-sky-r1",
+      "title": "The artificial sky, Tsiolkovsky",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-1",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "artificial-sky-r1-2",
+      "group": "artificial-sky-r1",
+      "title": "The artificial sky, Tsiolkovsky",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-1",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "artificial-sky-r1-3",
+      "group": "artificial-sky-r1",
+      "title": "The artificial sky, Tsiolkovsky",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-1",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "artificial-sky-r2-1",
+      "group": "artificial-sky-r2",
+      "title": "The artificial sky, Noordung",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-2",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "artificial-sky-r2-2",
+      "group": "artificial-sky-r2",
+      "title": "The artificial sky, Noordung",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-2",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "artificial-sky-r2-3",
+      "group": "artificial-sky-r2",
+      "title": "The artificial sky, Noordung",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-2",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "artificial-sky-r3-1",
+      "group": "artificial-sky-r3",
+      "title": "The artificial sky, Bernal",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-3",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "artificial-sky-r3-2",
+      "group": "artificial-sky-r3",
+      "title": "The artificial sky, Bernal",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-3",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "artificial-sky-r3-3",
+      "group": "artificial-sky-r3",
+      "title": "The artificial sky, Bernal",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-3",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "artificial-sky-r4-1",
+      "group": "artificial-sky-r4",
+      "title": "The artificial sky, O'Neill",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-4",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "artificial-sky-r4-2",
+      "group": "artificial-sky-r4",
+      "title": "The artificial sky, O'Neill",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-4",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "artificial-sky-r4-3",
+      "group": "artificial-sky-r4",
+      "title": "The artificial sky, O'Neill",
+      "blurb": "The sky is a display of 8 m cassettes with a light emitter every 25 mm, so operators choose its colour, brightness and time of day.",
+      "href": "/science/light-and-sky/#a-ceiling-that-glows",
+      "map": "/map/#rotor-4",
+      "viewpoint": "artificial-sky-breakthrough",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        300,
+        6500
+      ],
+      "priority": 2,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "city-overhead-r1-fwd",
+      "group": "city-overhead-r1",
+      "title": "The city overhead, Tsiolkovsky",
+      "blurb": "Above the sky the far side of the rotor hangs across the interior, a second city upside down. The street never shows it. Spin: 0.6 turns a minute.",
+      "href": "/science/artificial-gravity/#why-the-rotor-is-so-big",
+      "map": "/map/#rotor-1",
+      "viewpoint": "megaframe-plate-district",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        1500,
+        6000
+      ],
+      "priority": 3,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "city-overhead-r1-aft",
+      "group": "city-overhead-r1",
+      "title": "The city overhead, Tsiolkovsky",
+      "blurb": "Above the sky the far side of the rotor hangs across the interior, a second city upside down. The street never shows it. Spin: 0.6 turns a minute.",
+      "href": "/science/artificial-gravity/#why-the-rotor-is-so-big",
+      "map": "/map/#rotor-1",
+      "viewpoint": "megaframe-plate-district",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        1500,
+        6000
+      ],
+      "priority": 3,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "city-overhead-r2-fwd",
+      "group": "city-overhead-r2",
+      "title": "The city overhead, Noordung",
+      "blurb": "Above the sky the far side of the rotor hangs across the interior, a second city upside down. The street never shows it. Spin: 0.6 turns a minute.",
+      "href": "/science/artificial-gravity/#why-the-rotor-is-so-big",
+      "map": "/map/#rotor-2",
+      "viewpoint": "megaframe-plate-district",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        1500,
+        6000
+      ],
+      "priority": 3,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "city-overhead-r2-aft",
+      "group": "city-overhead-r2",
+      "title": "The city overhead, Noordung",
+      "blurb": "Above the sky the far side of the rotor hangs across the interior, a second city upside down. The street never shows it. Spin: 0.6 turns a minute.",
+      "href": "/science/artificial-gravity/#why-the-rotor-is-so-big",
+      "map": "/map/#rotor-2",
+      "viewpoint": "megaframe-plate-district",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        1500,
+        6000
+      ],
+      "priority": 3,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "city-overhead-r3-fwd",
+      "group": "city-overhead-r3",
+      "title": "The city overhead, Bernal",
+      "blurb": "Above the sky the far side of the rotor hangs across the interior, a second city upside down. The street never shows it. Spin: 0.6 turns a minute.",
+      "href": "/science/artificial-gravity/#why-the-rotor-is-so-big",
+      "map": "/map/#rotor-3",
+      "viewpoint": "megaframe-plate-district",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        1500,
+        6000
+      ],
+      "priority": 3,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "city-overhead-r3-aft",
+      "group": "city-overhead-r3",
+      "title": "The city overhead, Bernal",
+      "blurb": "Above the sky the far side of the rotor hangs across the interior, a second city upside down. The street never shows it. Spin: 0.6 turns a minute.",
+      "href": "/science/artificial-gravity/#why-the-rotor-is-so-big",
+      "map": "/map/#rotor-3",
+      "viewpoint": "megaframe-plate-district",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        1500,
+        6000
+      ],
+      "priority": 3,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "city-overhead-r4-fwd",
+      "group": "city-overhead-r4",
+      "title": "The city overhead, O'Neill",
+      "blurb": "Above the sky the far side of the rotor hangs across the interior, a second city upside down. The street never shows it. Spin: 0.6 turns a minute.",
+      "href": "/science/artificial-gravity/#why-the-rotor-is-so-big",
+      "map": "/map/#rotor-4",
+      "viewpoint": "megaframe-plate-district",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        1500,
+        6000
+      ],
+      "priority": 3,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "city-overhead-r4-aft",
+      "group": "city-overhead-r4",
+      "title": "The city overhead, O'Neill",
+      "blurb": "Above the sky the far side of the rotor hangs across the interior, a second city upside down. The street never shows it. Spin: 0.6 turns a minute.",
+      "href": "/science/artificial-gravity/#why-the-rotor-is-so-big",
+      "map": "/map/#rotor-4",
+      "viewpoint": "megaframe-plate-district",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        1500,
+        6000
+      ],
+      "priority": 3,
+      "chapters": [
+        "ascender"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "megaframe-rib-r1",
+      "group": "megaframe-rib-r1",
+      "title": "Megaframe pier, Tsiolkovsky",
+      "blurb": "Piers 45 m square carry the city up the rotor wall. Ring beams at 625, 1,000 and 1,500 m hold the plates, atria and bridges.",
+      "href": "/science/structure/#the-megaframe",
+      "map": "/map/#rotor-1",
+      "viewpoint": "megaframe-base",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        80,
+        1600
+      ],
+      "priority": 2,
+      "rotor": 0
+    },
+    {
+      "id": "megaframe-rib-r2",
+      "group": "megaframe-rib-r2",
+      "title": "Megaframe pier, Noordung",
+      "blurb": "Piers 45 m square carry the city up the rotor wall. Ring beams at 625, 1,000 and 1,500 m hold the plates, atria and bridges.",
+      "href": "/science/structure/#the-megaframe",
+      "map": "/map/#rotor-2",
+      "viewpoint": "megaframe-base",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        80,
+        1600
+      ],
+      "priority": 2,
+      "rotor": 1
+    },
+    {
+      "id": "megaframe-rib-r3",
+      "group": "megaframe-rib-r3",
+      "title": "Megaframe pier, Bernal",
+      "blurb": "Piers 45 m square carry the city up the rotor wall. Ring beams at 625, 1,000 and 1,500 m hold the plates, atria and bridges.",
+      "href": "/science/structure/#the-megaframe",
+      "map": "/map/#rotor-3",
+      "viewpoint": "megaframe-base",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        80,
+        1600
+      ],
+      "priority": 2,
+      "rotor": 2
+    },
+    {
+      "id": "megaframe-rib-r4",
+      "group": "megaframe-rib-r4",
+      "title": "Megaframe pier, O'Neill",
+      "blurb": "Piers 45 m square carry the city up the rotor wall. Ring beams at 625, 1,000 and 1,500 m hold the plates, atria and bridges.",
+      "href": "/science/structure/#the-megaframe",
+      "map": "/map/#rotor-4",
+      "viewpoint": "megaframe-base",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        80,
+        1600
+      ],
+      "priority": 2,
+      "rotor": 3
+    },
+    {
+      "id": "end-wall-r1-fwd",
+      "group": "end-wall-r1",
+      "title": "End wall, Tsiolkovsky",
+      "blurb": "Each rotor ends in an inhabited cliff 2,436 m tall. Ledges, viaducts and trains step up the face from the street to the axis bore.",
+      "href": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#rotor-1",
+      "viewpoint": "end-wall-foot",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        60,
+        2600
+      ],
+      "priority": 2,
+      "rotor": 0
+    },
+    {
+      "id": "end-wall-r1-aft",
+      "group": "end-wall-r1",
+      "title": "End wall, Tsiolkovsky",
+      "blurb": "Each rotor ends in an inhabited cliff 2,436 m tall. Ledges, viaducts and trains step up the face from the street to the axis bore.",
+      "href": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#rotor-1",
+      "viewpoint": "end-wall-foot",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        60,
+        2600
+      ],
+      "priority": 2,
+      "rotor": 0
+    },
+    {
+      "id": "end-wall-r2-fwd",
+      "group": "end-wall-r2",
+      "title": "End wall, Noordung",
+      "blurb": "Each rotor ends in an inhabited cliff 2,436 m tall. Ledges, viaducts and trains step up the face from the street to the axis bore.",
+      "href": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#rotor-2",
+      "viewpoint": "end-wall-foot",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        60,
+        2600
+      ],
+      "priority": 2,
+      "rotor": 1
+    },
+    {
+      "id": "end-wall-r2-aft",
+      "group": "end-wall-r2",
+      "title": "End wall, Noordung",
+      "blurb": "Each rotor ends in an inhabited cliff 2,436 m tall. Ledges, viaducts and trains step up the face from the street to the axis bore.",
+      "href": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#rotor-2",
+      "viewpoint": "end-wall-foot",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        60,
+        2600
+      ],
+      "priority": 2,
+      "rotor": 1
+    },
+    {
+      "id": "end-wall-r3-fwd",
+      "group": "end-wall-r3",
+      "title": "End wall, Bernal",
+      "blurb": "Each rotor ends in an inhabited cliff 2,436 m tall. Ledges, viaducts and trains step up the face from the street to the axis bore.",
+      "href": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#rotor-3",
+      "viewpoint": "end-wall-foot",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        60,
+        2600
+      ],
+      "priority": 2,
+      "rotor": 2
+    },
+    {
+      "id": "end-wall-r3-aft",
+      "group": "end-wall-r3",
+      "title": "End wall, Bernal",
+      "blurb": "Each rotor ends in an inhabited cliff 2,436 m tall. Ledges, viaducts and trains step up the face from the street to the axis bore.",
+      "href": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#rotor-3",
+      "viewpoint": "end-wall-foot",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        60,
+        2600
+      ],
+      "priority": 2,
+      "rotor": 2
+    },
+    {
+      "id": "end-wall-r4-fwd",
+      "group": "end-wall-r4",
+      "title": "End wall, O'Neill",
+      "blurb": "Each rotor ends in an inhabited cliff 2,436 m tall. Ledges, viaducts and trains step up the face from the street to the axis bore.",
+      "href": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#rotor-4",
+      "viewpoint": "end-wall-foot",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        60,
+        2600
+      ],
+      "priority": 2,
+      "rotor": 3
+    },
+    {
+      "id": "end-wall-r4-aft",
+      "group": "end-wall-r4",
+      "title": "End wall, O'Neill",
+      "blurb": "Each rotor ends in an inhabited cliff 2,436 m tall. Ledges, viaducts and trains step up the face from the street to the axis bore.",
+      "href": "/places/megaframe-city/#the-end-walls",
+      "map": "/map/#rotor-4",
+      "viewpoint": "end-wall-foot",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        60,
+        2600
+      ],
+      "priority": 2,
+      "rotor": 3
+    },
+    {
+      "id": "metro-viaduct-r1-1",
+      "group": "metro-viaduct-r1",
+      "title": "Metro viaduct, Tsiolkovsky",
+      "blurb": "The metro runs on viaducts 45 m above the street. Against the spin at 100 km/h you weigh 0.66 g, and with it at 90 km/h you weigh 1.33 g.",
+      "href": "/science/moving-around/#on-foot-and-by-metro",
+      "map": "/map/#rotor-1",
+      "viewpoint": "metro-viaduct-street",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        40,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "neighborhood",
+        "metro",
+        "plaza"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "metro-viaduct-r1-2",
+      "group": "metro-viaduct-r1",
+      "title": "Metro viaduct, Tsiolkovsky",
+      "blurb": "The metro runs on viaducts 45 m above the street. Against the spin at 100 km/h you weigh 0.66 g, and with it at 90 km/h you weigh 1.33 g.",
+      "href": "/science/moving-around/#on-foot-and-by-metro",
+      "map": "/map/#rotor-1",
+      "viewpoint": "metro-viaduct-street",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        40,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "neighborhood",
+        "metro",
+        "plaza"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "metro-viaduct-r2-1",
+      "group": "metro-viaduct-r2",
+      "title": "Metro viaduct, Noordung",
+      "blurb": "The metro runs on viaducts 45 m above the street. Against the spin at 100 km/h you weigh 0.66 g, and with it at 90 km/h you weigh 1.33 g.",
+      "href": "/science/moving-around/#on-foot-and-by-metro",
+      "map": "/map/#rotor-2",
+      "viewpoint": "metro-viaduct-street",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        40,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "neighborhood",
+        "metro",
+        "plaza"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "metro-viaduct-r2-2",
+      "group": "metro-viaduct-r2",
+      "title": "Metro viaduct, Noordung",
+      "blurb": "The metro runs on viaducts 45 m above the street. Against the spin at 100 km/h you weigh 0.66 g, and with it at 90 km/h you weigh 1.33 g.",
+      "href": "/science/moving-around/#on-foot-and-by-metro",
+      "map": "/map/#rotor-2",
+      "viewpoint": "metro-viaduct-street",
+      "zones": [
+        "rotor-2"
+      ],
+      "rangeM": [
+        40,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "neighborhood",
+        "metro",
+        "plaza"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "metro-viaduct-r3-1",
+      "group": "metro-viaduct-r3",
+      "title": "Metro viaduct, Bernal",
+      "blurb": "The metro runs on viaducts 45 m above the street. Against the spin at 100 km/h you weigh 0.66 g, and with it at 90 km/h you weigh 1.33 g.",
+      "href": "/science/moving-around/#on-foot-and-by-metro",
+      "map": "/map/#rotor-3",
+      "viewpoint": "metro-viaduct-street",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        40,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "neighborhood",
+        "metro",
+        "plaza"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "metro-viaduct-r3-2",
+      "group": "metro-viaduct-r3",
+      "title": "Metro viaduct, Bernal",
+      "blurb": "The metro runs on viaducts 45 m above the street. Against the spin at 100 km/h you weigh 0.66 g, and with it at 90 km/h you weigh 1.33 g.",
+      "href": "/science/moving-around/#on-foot-and-by-metro",
+      "map": "/map/#rotor-3",
+      "viewpoint": "metro-viaduct-street",
+      "zones": [
+        "rotor-3"
+      ],
+      "rangeM": [
+        40,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "neighborhood",
+        "metro",
+        "plaza"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "metro-viaduct-r4-1",
+      "group": "metro-viaduct-r4",
+      "title": "Metro viaduct, O'Neill",
+      "blurb": "The metro runs on viaducts 45 m above the street. Against the spin at 100 km/h you weigh 0.66 g, and with it at 90 km/h you weigh 1.33 g.",
+      "href": "/science/moving-around/#on-foot-and-by-metro",
+      "map": "/map/#rotor-4",
+      "viewpoint": "metro-viaduct-street",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        40,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "neighborhood",
+        "metro",
+        "plaza"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "metro-viaduct-r4-2",
+      "group": "metro-viaduct-r4",
+      "title": "Metro viaduct, O'Neill",
+      "blurb": "The metro runs on viaducts 45 m above the street. Against the spin at 100 km/h you weigh 0.66 g, and with it at 90 km/h you weigh 1.33 g.",
+      "href": "/science/moving-around/#on-foot-and-by-metro",
+      "map": "/map/#rotor-4",
+      "viewpoint": "metro-viaduct-street",
+      "zones": [
+        "rotor-4"
+      ],
+      "rangeM": [
+        40,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "neighborhood",
+        "metro",
+        "plaza"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "grow-gallery",
+      "group": "grow-gallery",
+      "title": "Upper-city grow gallery",
+      "blurb": "Tsiolkovsky's farm sits at 0.60 g. A hall 288 m long and 12 decks tall grows lettuce, basil and kale under LEDs in the shared habitat air.",
+      "href": "/places/upper-city-farms/#why-up-here",
+      "map": "/map/#vp-farm-grow-deck",
+      "viewpoint": "farm-grow-deck",
+      "zones": [
+        "rotor-1"
+      ],
+      "rangeM": [
+        30,
+        1800
+      ],
+      "priority": 1,
+      "chapters": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "spin-lock-r1",
+      "group": "spin-lock-r1",
+      "title": "Spin lock, Tsiolkovsky",
+      "blurb": "Eight chambers on a magnetic-bearing carousel spin down over 96 seconds, latch to the spine and open into zero g. A cycle takes about ten minutes.",
+      "href": "/science/moving-around/#the-spin-lock-at-the-hub",
+      "map": "/map/#rotor-1",
+      "viewpoint": "spine-lock",
+      "zones": [
+        "spine",
+        "rotor-1"
+      ],
+      "rangeM": [
+        10,
+        600
+      ],
+      "priority": 1,
+      "chapters": [
+        "axisTransfer"
+      ],
+      "rotor": 0
+    },
+    {
+      "id": "spin-lock-r2",
+      "group": "spin-lock-r2",
+      "title": "Spin lock, Noordung",
+      "blurb": "Eight chambers on a magnetic-bearing carousel spin down over 96 seconds, latch to the spine and open into zero g. A cycle takes about ten minutes.",
+      "href": "/science/moving-around/#the-spin-lock-at-the-hub",
+      "map": "/map/#rotor-2",
+      "viewpoint": "spine-lock",
+      "zones": [
+        "spine",
+        "rotor-2"
+      ],
+      "rangeM": [
+        10,
+        600
+      ],
+      "priority": 1,
+      "chapters": [
+        "axisTransfer"
+      ],
+      "rotor": 1
+    },
+    {
+      "id": "spin-lock-r3",
+      "group": "spin-lock-r3",
+      "title": "Spin lock, Bernal",
+      "blurb": "Eight chambers on a magnetic-bearing carousel spin down over 96 seconds, latch to the spine and open into zero g. A cycle takes about ten minutes.",
+      "href": "/science/moving-around/#the-spin-lock-at-the-hub",
+      "map": "/map/#rotor-3",
+      "viewpoint": "spine-lock",
+      "zones": [
+        "spine",
+        "rotor-3"
+      ],
+      "rangeM": [
+        10,
+        600
+      ],
+      "priority": 1,
+      "chapters": [
+        "axisTransfer"
+      ],
+      "rotor": 2
+    },
+    {
+      "id": "spin-lock-r4",
+      "group": "spin-lock-r4",
+      "title": "Spin lock, O'Neill",
+      "blurb": "Eight chambers on a magnetic-bearing carousel spin down over 96 seconds, latch to the spine and open into zero g. A cycle takes about ten minutes.",
+      "href": "/science/moving-around/#the-spin-lock-at-the-hub",
+      "map": "/map/#rotor-4",
+      "viewpoint": "spine-lock",
+      "zones": [
+        "spine",
+        "rotor-4"
+      ],
+      "rangeM": [
+        10,
+        600
+      ],
+      "priority": 1,
+      "chapters": [
+        "axisTransfer"
+      ],
+      "rotor": 3
+    },
+    {
+      "id": "axial-express-1",
+      "group": "axial-express",
+      "title": "Axial express",
+      "blurb": "A five-car train on a magnetic guideway runs the spine at 140 m/s. Each 25 m car carries 24 passengers in restraint couches.",
+      "href": "/science/moving-around/#the-spine-and-the-express",
+      "map": "/map/#vp-express-interior",
+      "viewpoint": "express-interior",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard",
+        "spaceport"
+      ],
+      "rangeM": [
+        5,
+        900
+      ],
+      "priority": 2,
+      "chapters": [
+        "axisTransfer"
+      ]
+    },
+    {
+      "id": "axial-express-2",
+      "group": "axial-express",
+      "title": "Axial express",
+      "blurb": "A five-car train on a magnetic guideway runs the spine at 140 m/s. Each 25 m car carries 24 passengers in restraint couches.",
+      "href": "/science/moving-around/#the-spine-and-the-express",
+      "map": "/map/#vp-express-interior",
+      "viewpoint": "express-interior",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard",
+        "spaceport"
+      ],
+      "rangeM": [
+        5,
+        900
+      ],
+      "priority": 2,
+      "chapters": [
+        "axisTransfer"
+      ]
+    },
+    {
+      "id": "axial-express-3",
+      "group": "axial-express",
+      "title": "Axial express",
+      "blurb": "A five-car train on a magnetic guideway runs the spine at 140 m/s. Each 25 m car carries 24 passengers in restraint couches.",
+      "href": "/science/moving-around/#the-spine-and-the-express",
+      "map": "/map/#vp-express-interior",
+      "viewpoint": "express-interior",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard",
+        "spaceport"
+      ],
+      "rangeM": [
+        5,
+        900
+      ],
+      "priority": 2,
+      "chapters": [
+        "axisTransfer"
+      ]
+    },
+    {
+      "id": "axial-express-4",
+      "group": "axial-express",
+      "title": "Axial express",
+      "blurb": "A five-car train on a magnetic guideway runs the spine at 140 m/s. Each 25 m car carries 24 passengers in restraint couches.",
+      "href": "/science/moving-around/#the-spine-and-the-express",
+      "map": "/map/#vp-express-interior",
+      "viewpoint": "express-interior",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard",
+        "spaceport"
+      ],
+      "rangeM": [
+        5,
+        900
+      ],
+      "priority": 2,
+      "chapters": [
+        "axisTransfer"
+      ]
+    },
+    {
+      "id": "axial-express-5",
+      "group": "axial-express",
+      "title": "Axial express",
+      "blurb": "A five-car train on a magnetic guideway runs the spine at 140 m/s. Each 25 m car carries 24 passengers in restraint couches.",
+      "href": "/science/moving-around/#the-spine-and-the-express",
+      "map": "/map/#vp-express-interior",
+      "viewpoint": "express-interior",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard",
+        "spaceport"
+      ],
+      "rangeM": [
+        5,
+        900
+      ],
+      "priority": 2,
+      "chapters": [
+        "axisTransfer"
+      ]
+    },
+    {
+      "id": "axial-express-6",
+      "group": "axial-express",
+      "title": "Axial express",
+      "blurb": "A five-car train on a magnetic guideway runs the spine at 140 m/s. Each 25 m car carries 24 passengers in restraint couches.",
+      "href": "/science/moving-around/#the-spine-and-the-express",
+      "map": "/map/#vp-express-interior",
+      "viewpoint": "express-interior",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard",
+        "spaceport"
+      ],
+      "rangeM": [
+        5,
+        900
+      ],
+      "priority": 2,
+      "chapters": [
+        "axisTransfer"
+      ]
+    },
+    {
+      "id": "axial-express-7",
+      "group": "axial-express",
+      "title": "Axial express",
+      "blurb": "A five-car train on a magnetic guideway runs the spine at 140 m/s. Each 25 m car carries 24 passengers in restraint couches.",
+      "href": "/science/moving-around/#the-spine-and-the-express",
+      "map": "/map/#vp-express-interior",
+      "viewpoint": "express-interior",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard",
+        "spaceport"
+      ],
+      "rangeM": [
+        5,
+        900
+      ],
+      "priority": 2,
+      "chapters": [
+        "axisTransfer"
+      ]
+    },
+    {
+      "id": "axial-express-8",
+      "group": "axial-express",
+      "title": "Axial express",
+      "blurb": "A five-car train on a magnetic guideway runs the spine at 140 m/s. Each 25 m car carries 24 passengers in restraint couches.",
+      "href": "/science/moving-around/#the-spine-and-the-express",
+      "map": "/map/#vp-express-interior",
+      "viewpoint": "express-interior",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard",
+        "spaceport"
+      ],
+      "rangeM": [
+        5,
+        900
+      ],
+      "priority": 2,
+      "chapters": [
+        "axisTransfer"
+      ]
+    },
+    {
+      "id": "rotor-bridge-1",
+      "group": "rotor-bridge",
+      "title": "Inter-rotor bridge",
+      "blurb": "A rotating through-truss tube 25 m in radius crosses the 300 m gap between rotors that turn the same way. Its middle retracts before a speed change.",
+      "href": "/places/axis-and-spine/#bridges-and-the-gap",
+      "map": "/map/#vp-bridge-exterior",
+      "viewpoint": "bridge-exterior",
+      "zones": [
+        "gap",
+        "rotor-1",
+        "rotor-2",
+        "rotor-3",
+        "rotor-4"
+      ],
+      "rangeM": [
+        30,
+        1400
+      ],
+      "priority": 2
+    },
+    {
+      "id": "rotor-bridge-2",
+      "group": "rotor-bridge",
+      "title": "Inter-rotor bridge",
+      "blurb": "A rotating through-truss tube 25 m in radius crosses the 300 m gap between rotors that turn the same way. Its middle retracts before a speed change.",
+      "href": "/places/axis-and-spine/#bridges-and-the-gap",
+      "map": "/map/#vp-bridge-exterior",
+      "viewpoint": "bridge-exterior",
+      "zones": [
+        "gap",
+        "rotor-1",
+        "rotor-2",
+        "rotor-3",
+        "rotor-4"
+      ],
+      "rangeM": [
+        30,
+        1400
+      ],
+      "priority": 2
+    },
+    {
+      "id": "counter-rotating-gap",
+      "group": "counter-rotating-gap",
+      "title": "Noordung and Bernal gap",
+      "blurb": "Noordung and Bernal turn opposite ways, so their walls pass at 313 m/s. No bridge can cross; passengers go by the spine.",
+      "href": "/science/moving-around/#bridges-and-why-rotors-2-and-3-have-none",
+      "map": "/map/#vp-counter-rotating-interface",
+      "viewpoint": "counter-rotating-interface",
+      "zones": [
+        "gap",
+        "rotor-2",
+        "rotor-3"
+      ],
+      "rangeM": [
+        30,
+        1400
+      ],
+      "priority": 2
+    },
+    {
+      "id": "hub-bearing-1",
+      "group": "hub-bearing",
+      "title": "Hub bearing",
+      "blurb": "Rotors float on magnetic bearings at both ends, with emergency catchers that never touch in normal use. At this seam two hubs turn against each other.",
+      "href": "/science/counter-rotation/#bearings-at-the-seams",
+      "map": "/map/#vp-counter-rotation-gallery",
+      "viewpoint": "counter-rotation-gallery",
+      "zones": [
+        "momentum",
+        "aft",
+        "spine",
+        "rotor-1",
+        "rotor-4"
+      ],
+      "rangeM": [
+        20,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "counterRotation"
+      ]
+    },
+    {
+      "id": "hub-bearing-2",
+      "group": "hub-bearing",
+      "title": "Hub bearing",
+      "blurb": "Rotors float on magnetic bearings at both ends, with emergency catchers that never touch in normal use. At this seam two hubs turn against each other.",
+      "href": "/science/counter-rotation/#bearings-at-the-seams",
+      "map": "/map/#vp-counter-rotation-gallery",
+      "viewpoint": "counter-rotation-gallery",
+      "zones": [
+        "momentum",
+        "aft",
+        "spine",
+        "rotor-1",
+        "rotor-4"
+      ],
+      "rangeM": [
+        20,
+        1500
+      ],
+      "priority": 1,
+      "chapters": [
+        "counterRotation"
+      ]
+    },
+    {
+      "id": "momentum-rings",
+      "group": "momentum-rings",
+      "title": "Momentum rings",
+      "blurb": "Four rings in the momentum bay turn against the industrial rotor and hold its share of the spin, so the net angular momentum stays near zero.",
+      "href": "/science/counter-rotation/#the-industrial-rotor-and-the-momentum-rings",
+      "map": "/map/#vp-momentum-ring-close",
+      "viewpoint": "momentum-ring-close",
+      "zones": [
+        "momentum",
+        "spine"
+      ],
+      "rangeM": [
+        20,
+        1800
+      ],
+      "priority": 1,
+      "chapters": [
+        "counterRotation"
+      ]
+    },
+    {
+      "id": "pressure-refuge-1",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "pressure-refuge-2",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "pressure-refuge-3",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "pressure-refuge-4",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "pressure-refuge-5",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "pressure-refuge-6",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "pressure-refuge-7",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "pressure-refuge-8",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "pressure-refuge-9",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "pressure-refuge-10",
+      "group": "pressure-refuge",
+      "title": "Pressure refuge",
+      "blurb": "Refuge capsules along the spine cover a loss of air. Each has a hatch, a handwheel and an amber beacon, and one stands beside every hub lock.",
+      "href": "/science/radiation-and-debris/#storm-shelters",
+      "viewpoint": "spine-shelter",
+      "zones": [
+        "spine",
+        "gap",
+        "momentum",
+        "industrial",
+        "shipyard"
+      ],
+      "rangeM": [
+        5,
+        400
+      ],
+      "priority": 3
+    },
+    {
+      "id": "industrial-stores",
+      "group": "industrial-stores",
+      "title": "Industrial stores",
+      "blurb": "Semi-processed stock from the Moon and from captured asteroids waits in the industrial rotor. Heavy tanks sit at the rim, where it weighs 0.45 g.",
+      "href": "/places/industrial-rotor/#two-streams-of-material",
+      "map": "/map/#vp-industrial-rotor-wide",
+      "viewpoint": "industrial-rotor-wide",
+      "zones": [
+        "industrial",
+        "spine"
+      ],
+      "rangeM": [
+        60,
+        4500
+      ],
+      "priority": 2
+    },
+    {
+      "id": "cargo-tug",
+      "group": "cargo-tug",
+      "title": "Tug on a cargo rail",
+      "blurb": "Robotic tugs about 25 m long run on cargo rails at about 8 m/s. Nothing in the bay is crewed; a person goes in only in a pressurized capsule.",
+      "href": "/places/industrial-rotor/#how-it-works-in-brief",
+      "map": "/map/#vp-industrial-rotor-wide",
+      "viewpoint": "industrial-rotor-wide",
+      "zones": [
+        "industrial",
+        "spine"
+      ],
+      "rangeM": [
+        60,
+        4500
+      ],
+      "priority": 3
+    },
+    {
+      "id": "meridian-04",
+      "group": "meridian-04",
+      "title": "Meridian 04",
+      "blurb": "Meridian 04 is a 700 m crew and cargo ship under construction. Nothing carries her weight: three lattice rings hold her on pre-tensioned lines.",
+      "href": "/places/shipyard/#how-a-ship-is-held",
+      "map": "/map/#vp-zero-g-shipyard",
+      "viewpoint": "zero-g-shipyard",
+      "zones": [
+        "shipyard"
+      ],
+      "rangeM": [
+        100,
+        4000
+      ],
+      "priority": 1,
+      "chapters": [
+        "shipyard"
+      ]
+    },
+    {
+      "id": "shipyard-cage",
+      "group": "shipyard-cage",
+      "title": "The shipyard",
+      "blurb": "Eight rim rings 5 km across frame an open cage around the yard. Ships are built here because a 700 m hull weighs nothing in zero g.",
+      "href": "/places/shipyard/#why-zero-g",
+      "map": "/map/#vp-shipyard-open-section",
+      "viewpoint": "shipyard-open-section",
+      "zones": [
+        "shipyard"
+      ],
+      "rangeM": [
+        200,
+        6000
+      ],
+      "priority": 3,
+      "chapters": [
+        "shipyard"
+      ]
+    },
+    {
+      "id": "comfort-lounges-1",
+      "group": "comfort-lounges",
+      "title": "Comfort lounges",
+      "blurb": "Three rotating lounges at 0.13, 0.20 and 0.28 g rest travellers from weightlessness, with restaurants, sleeping rooms and a quiet deck.",
+      "href": "/places/spaceport/#how-it-works-in-brief",
+      "map": "/map/#vp-spaceport-lounge",
+      "viewpoint": "spaceport-lounge",
+      "zones": [
+        "spaceport"
+      ],
+      "rangeM": [
+        20,
+        700
+      ],
+      "priority": 1,
+      "chapters": [
+        "spaceport"
+      ]
+    },
+    {
+      "id": "comfort-lounges-2",
+      "group": "comfort-lounges",
+      "title": "Comfort lounges",
+      "blurb": "Three rotating lounges at 0.13, 0.20 and 0.28 g rest travellers from weightlessness, with restaurants, sleeping rooms and a quiet deck.",
+      "href": "/places/spaceport/#how-it-works-in-brief",
+      "map": "/map/#vp-spaceport-lounge",
+      "viewpoint": "spaceport-lounge",
+      "zones": [
+        "spaceport"
+      ],
+      "rangeM": [
+        20,
+        700
+      ],
+      "priority": 1,
+      "chapters": [
+        "spaceport"
+      ]
+    },
+    {
+      "id": "comfort-lounges-3",
+      "group": "comfort-lounges",
+      "title": "Comfort lounges",
+      "blurb": "Three rotating lounges at 0.13, 0.20 and 0.28 g rest travellers from weightlessness, with restaurants, sleeping rooms and a quiet deck.",
+      "href": "/places/spaceport/#how-it-works-in-brief",
+      "map": "/map/#vp-spaceport-lounge",
+      "viewpoint": "spaceport-lounge",
+      "zones": [
+        "spaceport"
+      ],
+      "rangeM": [
+        20,
+        700
+      ],
+      "priority": 1,
+      "chapters": [
+        "spaceport"
+      ]
+    },
+    {
+      "id": "arrival-face",
+      "group": "arrival-face",
+      "title": "Arrival face",
+      "blurb": "The arrival face reads WELCOME TO CONCORDIA. Beyond it are health screening, customs with eight lanes and security with eight arches.",
+      "href": "/places/spaceport/#what-you-see",
+      "map": "/map/#vp-spaceport-arrival",
+      "viewpoint": "spaceport-arrival",
+      "zones": [
+        "spaceport"
+      ],
+      "rangeM": [
+        20,
+        800
+      ],
+      "priority": 2
+    },
+    {
+      "id": "propellant-farm",
+      "group": "propellant-farm",
+      "title": "Propellant farm",
+      "blurb": "Two liquid hydrogen spheres, two liquid oxygen spheres and two storable-propellant cylinders sit under sunshades, clear of the approach lane.",
+      "href": "/places/spaceport/#piers-and-the-propellant-farm",
+      "map": "/map/#vp-exterior-propellant-farm",
+      "viewpoint": "exterior-propellant-farm",
+      "zones": [
+        "exterior",
+        "spaceport"
+      ],
+      "rangeM": [
+        200,
+        9000
+      ],
+      "priority": 2
+    },
+    {
+      "id": "converter-hall",
+      "group": "converter-hall",
+      "title": "Converter hall",
+      "blurb": "Twelve 50 m bays of HVDC valve halls, breaker bays and capacitor banks turn up to 40 GW of direct current into the supply that feeds the station.",
+      "href": "/science/power-and-heat/#hvdc-to-the-aft-end",
+      "map": "/map/#vp-aft-converter-hall",
+      "viewpoint": "aft-converter-hall",
+      "zones": [
+        "aft"
+      ],
+      "rangeM": [
+        20,
+        1200
+      ],
+      "priority": 2
+    },
+    {
+      "id": "aft-works",
+      "group": "aft-works",
+      "title": "Aft works",
+      "blurb": "The aft face is a shielded disc with a 350 m tower and blast iris at its centre, four 500 m landing masts and a ring of twelve thruster pods.",
+      "href": "/places/aft-works/#what-you-see",
+      "map": "/map/#vp-aft-end-far",
+      "viewpoint": "aft-end-far",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        300,
+        60000
+      ],
+      "priority": 2,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "radiators",
+      "group": "radiators",
+      "title": "Radiators",
+      "blurb": "Eight radiator banks stand off the hull on pylons and run at 380 to 500 K. Heat can leave a station only as light, so the panels are huge.",
+      "href": "/science/power-and-heat/#heat-out-of-a-spinning-city",
+      "map": "/map/#vp-radiator-field",
+      "viewpoint": "radiator-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        200,
+        40000
+      ],
+      "priority": 2,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "hull-shielding",
+      "group": "hull-shielding",
+      "title": "Hull and shielding",
+      "blurb": "The hull is an open truss under shielding cassettes of compacted regolith and slag in 32 m tiles. Mass is the shield.",
+      "href": "/science/radiation-and-debris/#mass-is-the-shield",
+      "viewpoint": "exterior-hull-close",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        20,
+        4000
+      ],
+      "priority": 3
+    },
+    {
+      "id": "defence-battery-1",
+      "group": "defence-battery",
+      "title": "Defence battery",
+      "blurb": "Four sites guard the station, two forward and two aft. Radar fences, an 85 m tracking dish and interceptor cells watch for debris and answer it.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "map": "/map/#vp-defence-forward-battery",
+      "viewpoint": "defence-forward-battery",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        100,
+        20000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "defence-battery-2",
+      "group": "defence-battery",
+      "title": "Defence battery",
+      "blurb": "Four sites guard the station, two forward and two aft. Radar fences, an 85 m tracking dish and interceptor cells watch for debris and answer it.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "map": "/map/#vp-defence-forward-battery",
+      "viewpoint": "defence-forward-battery",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        100,
+        20000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "defence-battery-3",
+      "group": "defence-battery",
+      "title": "Defence battery",
+      "blurb": "Four sites guard the station, two forward and two aft. Radar fences, an 85 m tracking dish and interceptor cells watch for debris and answer it.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "map": "/map/#vp-defence-forward-battery",
+      "viewpoint": "defence-forward-battery",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        100,
+        20000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "defence-battery-4",
+      "group": "defence-battery",
+      "title": "Defence battery",
+      "blurb": "Four sites guard the station, two forward and two aft. Radar fences, an 85 m tracking dish and interceptor cells watch for debris and answer it.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "map": "/map/#vp-defence-forward-battery",
+      "viewpoint": "defence-forward-battery",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        100,
+        20000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "satellites-1",
+      "group": "satellites",
+      "title": "Free-flying satellites",
+      "blurb": "Seven craft fly free of the hull. P1 is a tethered solar farm 7 km aft, held against its tethers by its own thrusters.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "viewpoint": "sat-power-flagship",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        300,
+        90000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "satellites-2",
+      "group": "satellites",
+      "title": "Free-flying satellites",
+      "blurb": "Seven craft fly free of the hull. P1 is a tethered solar farm 7 km aft, held against its tethers by its own thrusters.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "viewpoint": "sat-power-flagship",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        300,
+        90000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "satellites-3",
+      "group": "satellites",
+      "title": "Free-flying satellites",
+      "blurb": "Seven craft fly free of the hull. P1 is a tethered solar farm 7 km aft, held against its tethers by its own thrusters.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "viewpoint": "sat-power-flagship",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        300,
+        90000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "satellites-4",
+      "group": "satellites",
+      "title": "Free-flying satellites",
+      "blurb": "Seven craft fly free of the hull. P1 is a tethered solar farm 7 km aft, held against its tethers by its own thrusters.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "viewpoint": "sat-power-flagship",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        300,
+        90000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "satellites-5",
+      "group": "satellites",
+      "title": "Free-flying satellites",
+      "blurb": "Seven craft fly free of the hull. P1 is a tethered solar farm 7 km aft, held against its tethers by its own thrusters.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "viewpoint": "sat-power-flagship",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        300,
+        90000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "satellites-6",
+      "group": "satellites",
+      "title": "Free-flying satellites",
+      "blurb": "Seven craft fly free of the hull. P1 is a tethered solar farm 7 km aft, held against its tethers by its own thrusters.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "viewpoint": "sat-power-flagship",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        300,
+        90000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "satellites-7",
+      "group": "satellites",
+      "title": "Free-flying satellites",
+      "blurb": "Seven craft fly free of the hull. P1 is a tethered solar farm 7 km aft, held against its tethers by its own thrusters.",
+      "href": "/places/exterior/#defence-and-satellites",
+      "viewpoint": "sat-power-flagship",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        300,
+        90000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-1",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-2",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-3",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-4",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-5",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-6",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-7",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-8",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-9",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-10",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-11",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-12",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-13",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "compute-field-14",
+      "group": "compute-field",
+      "title": "The compute field",
+      "blurb": "140 solar platforms 60 to 115 km out draw about 200 GW and run computers behind the panels. The answers go to Earth by laser: watts leave as bits.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "compute-field",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        2000,
+        160000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "next-station",
+      "group": "next-station",
+      "title": "The next station",
+      "blurb": "Two hundred kilometres out, the yards are building the next city: a bare pressure vessel on a 10 km spine, the old construction rings and parked asteroid bags.",
+      "href": "/station/economy/#what-concordia-sells",
+      "viewpoint": "next-station-yard",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        3000,
+        260000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "asteroid-bags-1",
+      "group": "asteroid-bags",
+      "title": "Bagged asteroids",
+      "blurb": "Two metal-rich asteroids sit parked in net bags 5 to 10 km off the yard, each cinched round its chunk of iron-nickel, waiting for the tugs.",
+      "href": "/science/mining/#first-metal-rich-asteroids-bagged-and-hauled-to-l5",
+      "viewpoint": "next-station-yard",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        150,
+        15000
+      ],
+      "priority": 2,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "asteroid-bags-2",
+      "group": "asteroid-bags",
+      "title": "Bagged asteroids",
+      "blurb": "Two metal-rich asteroids sit parked in net bags 5 to 10 km off the yard, each cinched round its chunk of iron-nickel, waiting for the tugs.",
+      "href": "/science/mining/#first-metal-rich-asteroids-bagged-and-hauled-to-l5",
+      "viewpoint": "next-station-yard",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        150,
+        15000
+      ],
+      "priority": 2,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "launch-track",
+      "group": "launch-track",
+      "title": "Launch track",
+      "blurb": "A 10 km electromagnetic track along the top of the hull throws passenger craft toward Earth at 1.5 g, to 540 m/s in about 37 seconds.",
+      "href": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-launcher-track-external",
+      "viewpoint": "launcher-track-external",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        100,
+        30000
+      ],
+      "priority": 1,
+      "chapters": [
+        "launch",
+        "exterior"
+      ]
+    },
+    {
+      "id": "shuttle-bay-1",
+      "group": "shuttle-bay",
+      "title": "Hab to Earth shuttle",
+      "blurb": "Shuttles wait in bays on the launch track between flights: a 98-couch ivory coach on a carrier, arrays and radiators stowed, the keel sitting in its guideway.",
+      "href": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-shuttle-bay-external",
+      "viewpoint": "shuttle-bay-external",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        60,
+        6000
+      ],
+      "priority": 1,
+      "chapters": [
+        "launch",
+        "exterior"
+      ]
+    },
+    {
+      "id": "shuttle-bay-2",
+      "group": "shuttle-bay",
+      "title": "Hab to Earth shuttle",
+      "blurb": "Shuttles wait in bays on the launch track between flights: a 98-couch ivory coach on a carrier, arrays and radiators stowed, the keel sitting in its guideway.",
+      "href": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-shuttle-bay-external",
+      "viewpoint": "shuttle-bay-external",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        60,
+        6000
+      ],
+      "priority": 1,
+      "chapters": [
+        "launch",
+        "exterior"
+      ]
+    },
+    {
+      "id": "shuttle-bay-3",
+      "group": "shuttle-bay",
+      "title": "Hab to Earth shuttle",
+      "blurb": "Shuttles wait in bays on the launch track between flights: a 98-couch ivory coach on a carrier, arrays and radiators stowed, the keel sitting in its guideway.",
+      "href": "/science/getting-there/#the-launcher-first-leg-only",
+      "map": "/map/#vp-shuttle-bay-external",
+      "viewpoint": "shuttle-bay-external",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        60,
+        6000
+      ],
+      "priority": 1,
+      "chapters": [
+        "launch",
+        "exterior"
+      ]
+    },
+    {
+      "id": "industrial-open-bay",
+      "group": "industrial-open-bay",
+      "title": "The industrial rotor",
+      "blurb": "The industrial rotor has no shell and no roof. Seven rim rings, 24 girders and four spoke stations hold the equipment on lattice cradles.",
+      "href": "/places/industrial-rotor/#what-you-see",
+      "map": "/map/#vp-exterior-industrial-open-bay",
+      "viewpoint": "exterior-industrial-open-bay",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        500,
+        20000
+      ],
+      "priority": 3,
+      "chapters": [
+        "exterior"
+      ]
+    },
+    {
+      "id": "earth",
+      "group": "earth",
+      "title": "Earth",
+      "blurb": "Earth is 384,400 km away. L5 trails the Moon by 60 degrees, a spot where the pull of both bodies and the motion of the orbit balance.",
+      "href": "/science/getting-there/#why-l5",
+      "map": "/map/#vp-earth-moon-context",
+      "viewpoint": "earth-moon-context",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        0,
+        1000000000000
+      ],
+      "priority": 3,
+      "chapters": [
+        "earthTransfer",
+        "earthArrival"
+      ]
+    },
+    {
+      "id": "moon",
+      "group": "moon",
+      "title": "The Moon",
+      "blurb": "Lunar regolith is 43 percent oxygen by mass. A tonne holds over 400 kg of oxygen plus the metal and stone to build with.",
+      "href": "/science/materials/#what-the-moon-gives",
+      "map": "/map/#vp-earth-moon-context",
+      "viewpoint": "earth-moon-context",
+      "zones": [
+        "exterior"
+      ],
+      "rangeM": [
+        0,
+        1000000000000
+      ],
+      "priority": 3,
+      "chapters": [
+        "lunarSwingby"
+      ]
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "angular momentum",
+      "slug": "angular-momentum"
+    },
+    {
+      "term": "apparent weight",
+      "slug": "apparent-weight"
+    },
+    {
+      "term": "artificial gravity",
+      "slug": "artificial-gravity"
+    },
+    {
+      "term": "artificial sky",
+      "slug": "artificial-sky"
+    },
+    {
+      "term": "ascender",
+      "slug": "ascender"
+    },
+    {
+      "term": "axis station",
+      "slug": "axis-station"
+    },
+    {
+      "term": "black start",
+      "slug": "black-start"
+    },
+    {
+      "term": "carbonaceous asteroid",
+      "slug": "carbonaceous-asteroid"
+    },
+    {
+      "term": "centripetal acceleration",
+      "slug": "centripetal-acceleration"
+    },
+    {
+      "term": "cislunar space",
+      "slug": "cislunar-space"
+    },
+    {
+      "term": "closed-loop life support",
+      "slug": "closed-loop-life-support"
+    },
+    {
+      "term": "common-mode failure",
+      "slug": "common-mode-failure"
+    },
+    {
+      "term": "Coriolis effect",
+      "slug": "coriolis-effect"
+    },
+    {
+      "term": "delta-v",
+      "slug": "delta-v"
+    },
+    {
+      "term": "end wall",
+      "slug": "end-wall"
+    },
+    {
+      "term": "express",
+      "slug": "express"
+    },
+    {
+      "term": "galactic cosmic rays",
+      "slug": "galactic-cosmic-rays"
+    },
+    {
+      "term": "gravity assist",
+      "slug": "gravity-assist"
+    },
+    {
+      "term": "gravity gradient",
+      "slug": "gravity-gradient"
+    },
+    {
+      "term": "hoop stress",
+      "slug": "hoop-stress"
+    },
+    {
+      "term": "HVDC",
+      "slug": "hvdc"
+    },
+    {
+      "term": "hydroponics",
+      "slug": "hydroponics"
+    },
+    {
+      "term": "aeroponics",
+      "slug": "aeroponics"
+    },
+    {
+      "term": "in-situ resource utilization",
+      "slug": "in-situ-resource-utilization"
+    },
+    {
+      "term": "L5",
+      "slug": "l5"
+    },
+    {
+      "term": "Lagrange point",
+      "slug": "lagrange-point"
+    },
+    {
+      "term": "land value capture",
+      "slug": "land-value-capture"
+    },
+    {
+      "term": "magnetic bearing",
+      "slug": "magnetic-bearing"
+    },
+    {
+      "term": "mass driver",
+      "slug": "mass-driver"
+    },
+    {
+      "term": "megaframe",
+      "slug": "megaframe"
+    },
+    {
+      "term": "microgravity",
+      "slug": "microgravity"
+    },
+    {
+      "term": "momentum ring",
+      "slug": "momentum-ring"
+    },
+    {
+      "term": "near-Earth asteroid",
+      "slug": "near-earth-asteroid"
+    },
+    {
+      "term": "O'Neill cylinder",
+      "slug": "o-neill-cylinder"
+    },
+    {
+      "term": "perigee",
+      "slug": "perigee"
+    },
+    {
+      "term": "permanently shadowed region",
+      "slug": "permanently-shadowed-region"
+    },
+    {
+      "term": "pressure district",
+      "slug": "pressure-district"
+    },
+    {
+      "term": "pressure vessel",
+      "slug": "pressure-vessel"
+    },
+    {
+      "term": "prograde",
+      "slug": "prograde"
+    },
+    {
+      "term": "radiator",
+      "slug": "radiator"
+    },
+    {
+      "term": "regolith",
+      "slug": "regolith"
+    },
+    {
+      "term": "retrograde",
+      "slug": "retrograde"
+    },
+    {
+      "term": "rim speed",
+      "slug": "rim-speed"
+    },
+    {
+      "term": "rotating frame",
+      "slug": "rotating-frame"
+    },
+    {
+      "term": "self-replicating factory",
+      "slug": "self-replicating-factory"
+    },
+    {
+      "term": "sintered regolith",
+      "slug": "sintered-regolith"
+    },
+    {
+      "term": "solar furnace",
+      "slug": "solar-furnace"
+    },
+    {
+      "term": "solar particle event",
+      "slug": "solar-particle-event"
+    },
+    {
+      "term": "specific impulse",
+      "slug": "specific-impulse"
+    },
+    {
+      "term": "spin lock",
+      "slug": "spin-lock"
+    },
+    {
+      "term": "spin pair",
+      "slug": "spin-pair"
+    },
+    {
+      "term": "spine",
+      "slug": "spine"
+    },
+    {
+      "term": "Stanford torus",
+      "slug": "stanford-torus"
+    },
+    {
+      "term": "station-keeping",
+      "slug": "station-keeping"
+    },
+    {
+      "term": "Stefan-Boltzmann law",
+      "slug": "stefan-boltzmann-law"
+    },
+    {
+      "term": "transfer orbit",
+      "slug": "transfer-orbit"
+    },
+    {
+      "term": "volatiles",
+      "slug": "volatiles"
+    },
+    {
+      "term": "waste heat",
+      "slug": "waste-heat"
+    },
+    {
+      "term": "Whipple shield",
+      "slug": "whipple-shield"
+    }
+  ]
+}

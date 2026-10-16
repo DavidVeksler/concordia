@@ -1,0 +1,341 @@
+[
+  {
+    "id": "pl-arbor-street",
+    "viewpoint": "residential-street",
+    "alt": "A quiet residential street of mid-rise blocks lined with trees, with the curved city rising ahead under a bright artificial sky.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/arbor-quarter/ hero"
+  },
+  {
+    "id": "pl-arbor-park",
+    "viewpoint": "groundside-park",
+    "alt": "A lakeside park with a path to the water, low housing around it and the distant curved city beyond the far shore.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/arbor-quarter/"
+  },
+  {
+    "id": "pl-arbor-skyline",
+    "viewpoint": "district-skyline",
+    "alt": "A cluster of crowned towers and spires with a lit landmark, seen across a park lawn at eye height.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/arbor-quarter/"
+  },
+  {
+    "id": "pl-arbor-metro",
+    "viewpoint": "metro-viaduct-street",
+    "alt": "A metro viaduct on tall portals crosses a broad tree-lined street, with the line running away along the road.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/arbor-quarter/"
+  },
+  {
+    "id": "pl-megaframe-plate",
+    "viewpoint": "megaframe-plate-district",
+    "alt": "A raised plate district with balustrades and planters, an inhabited truss bridge and rows of blocks on the next plate.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/megaframe-city/ hero"
+  },
+  {
+    "id": "pl-megaframe-midg",
+    "viewpoint": "mid-gravity-megaframe",
+    "alt": "Pale structural piers and ring beams rise through the mid levels of the city, with partial decks, bridges and bay infill.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/megaframe-city/"
+  },
+  {
+    "id": "pl-end-wall-terrace",
+    "viewpoint": "end-wall-terrace",
+    "alt": "A viaduct terrace on the end wall cliff, with a train on its track strip, planters and terraced blocks above the city.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/megaframe-city/"
+  },
+  {
+    "id": "pl-sky-breakthrough",
+    "viewpoint": "artificial-sky-breakthrough",
+    "alt": "An ascender cabin rises through the open floor of the artificial sky, with the curved city and a lit ceiling ahead.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/ascenders-and-sky/ hero and /places/ hub"
+  },
+  {
+    "id": "pl-ascender-250m",
+    "viewpoint": "ascender-250m",
+    "alt": "From the first stretch of the climb, the neighbourhood below stays familiar while the horizon begins to curve upward.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/ascenders-and-sky/"
+  },
+  {
+    "id": "pl-ascender-cabin",
+    "viewpoint": "ascender-cabin",
+    "alt": "Inside the panoramic ascender cabin, window seats, rails and a glass floor gallery face a live altitude and gravity display.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/ascenders-and-sky/"
+  },
+  {
+    "id": "pl-ascender-tower",
+    "viewpoint": "ascender-tower",
+    "alt": "An ascender tower of four bronze-latticed blade trusses with cabins climbing and descending on three tracks toward the distant axis.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/ascenders-and-sky/"
+  },
+  {
+    "id": "pl-farm-grow-deck",
+    "viewpoint": "farm-grow-deck",
+    "alt": "Racks of lettuce, basil and kale in four growth stages line a grow hall deck under LED rigs, with a harvest gantry overhead.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/upper-city-farms/ hero"
+  },
+  {
+    "id": "pl-farm-harvest-line",
+    "viewpoint": "farm-harvest-line",
+    "alt": "Totes of fresh greens travel a belt through a wash tunnel, an optical sorter and a weigher in the farm process wing.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/upper-city-farms/"
+  },
+  {
+    "id": "pl-farm-fringe",
+    "viewpoint": "upper-city-agriculture",
+    "alt": "Stacked crop galleries, nutrient vessels and robotic harvesters fill the upper city above the artificial sky.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/upper-city-farms/"
+  },
+  {
+    "id": "pl-axis-stationary",
+    "viewpoint": "stationary-axis",
+    "alt": "A slender stationary spine runs through the centre of the rotor while the whole city turns around the viewer.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/axis-and-spine/ hero"
+  },
+  {
+    "id": "pl-spine-interior",
+    "viewpoint": "spine-interior",
+    "alt": "Inside the 120 m spine tube, ring lamps every 25 m frame the express guideway, crew galleries and four utility trunks.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/axis-and-spine/"
+  },
+  {
+    "id": "pl-express-exterior",
+    "viewpoint": "express-exterior",
+    "alt": "A five-car express on its guideway inside the spine, seen from ahead of the head car with its destination board lit.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/axis-and-spine/"
+  },
+  {
+    "id": "pl-bridge-exterior",
+    "viewpoint": "bridge-exterior",
+    "alt": "A transit bridge between two rotors, with window bands, X bracing and a lenticular lower truss, seen from its sunlit flank.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/axis-and-spine/"
+  },
+  {
+    "id": "pl-industrial-wide",
+    "viewpoint": "industrial-rotor-wide",
+    "alt": "The open truss of the industrial rotor holds tank farms, cargo racks and gantries around a large empty volume.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/industrial-rotor/ hero"
+  },
+  {
+    "id": "pl-industrial-material-flow",
+    "viewpoint": "industrial-rotor-wide",
+    "alt": "The industrial rotor with the material flow overlay showing where lunar feedstock and asteroid volatiles are stored and move.",
+    "overlay": "material-flow",
+    "ui": "clean",
+    "settleMs": 5000,
+    "note": "for /places/industrial-rotor/: material streams"
+  },
+  {
+    "id": "pl-momentum-bay",
+    "viewpoint": "momentum-control-bay",
+    "alt": "Four reaction rings sit in their housings along the momentum bay, with the stationary spine and industrial frame beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/industrial-rotor/"
+  },
+  {
+    "id": "pl-shipyard-hero",
+    "viewpoint": "zero-g-shipyard",
+    "alt": "A 700 m spacecraft floats unsupported inside a much larger construction volume of trusses and rings.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/shipyard/ hero"
+  },
+  {
+    "id": "pl-shipyard-open-section",
+    "viewpoint": "shipyard-open-section",
+    "alt": "An open crew drum with its deck stack, capture arms, a manipulator and an inspection capsule at working range.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/shipyard/"
+  },
+  {
+    "id": "pl-shipyard-tank-bay",
+    "viewpoint": "shipyard-tank-bay",
+    "alt": "A propellant tank on approach with its mover, tension lines and crawlers beside the cradles of the tank bay.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/shipyard/"
+  },
+  {
+    "id": "pl-spaceport-terminal",
+    "viewpoint": "passenger-terminal",
+    "alt": "The terminal nave seen down its 440 m length: ribbed walls, handline conveyors with riders, catch-net rings and gate signage.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/spaceport/ hero"
+  },
+  {
+    "id": "pl-spaceport-lounge",
+    "viewpoint": "spaceport-lounge",
+    "alt": "Rotating comfort lounges turn on their stationary hubs beyond the windows of the terminal nave.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/spaceport/"
+  },
+  {
+    "id": "pl-spaceport-pier",
+    "viewpoint": "spaceport-pier",
+    "alt": "A freighter berthed at a long truss pier on the outer face of the port, with tugs and the axial aperture nearby.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/spaceport/"
+  },
+  {
+    "id": "pl-propellant-farm",
+    "viewpoint": "exterior-propellant-farm",
+    "alt": "Foil spheres and storable tanks of the propellant farm sit under sunshades with radiators and transfer lines, outside the station body.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/spaceport/"
+  },
+  {
+    "id": "pl-aft-far",
+    "viewpoint": "aft-end-far",
+    "alt": "The aft face of the station from 25 km, with its ribbed shield, red rim lights, central tower and four landing masts.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/aft-works/ hero"
+  },
+  {
+    "id": "pl-aft-power-landing",
+    "viewpoint": "aft-power-landing",
+    "alt": "Four tall landing masts carry HVDC tethers that run aft toward the distant solar farm.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/aft-works/"
+  },
+  {
+    "id": "pl-aft-reactor-mast",
+    "viewpoint": "aft-reactor-mast",
+    "alt": "A black-start reactor on its tall mast sits behind a shadow shield with radiator petals edge-on to the Sun.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/aft-works/"
+  },
+  {
+    "id": "pl-aft-converter-hall",
+    "viewpoint": "aft-converter-hall",
+    "alt": "Through arched windows in the spine, rows of HVDC valve halls and capacitor banks fill the converter hall.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/aft-works/"
+  },
+  {
+    "id": "pl-exterior-hero",
+    "viewpoint": "complete-habitat",
+    "alt": "The whole station in space, a grey cylinder with a caged ring section, radiator banks and attached utilities.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/exterior/ hero"
+  },
+  {
+    "id": "pl-exterior-hull",
+    "viewpoint": "exterior-hull-close",
+    "alt": "Close on the hull: shielding cassettes, repair seams, maintenance rails and a launch trench.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/exterior/"
+  },
+  {
+    "id": "pl-exterior-radiators",
+    "viewpoint": "radiator-field",
+    "alt": "A bank of radiator panels on pylons and a spine, seen from the hull side against the scale of the habitat.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/exterior/"
+  },
+  {
+    "id": "pl-exterior-defence",
+    "viewpoint": "defence-forward-battery",
+    "alt": "A forward defence battery with armoured housing, reload magazine, interceptor cells and a blast wall.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/exterior/"
+  }
+]

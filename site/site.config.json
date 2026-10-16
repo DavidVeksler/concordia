@@ -1,0 +1,13 @@
+{
+  "origin": "https://concordia.davidveksler.com",
+  "name": "Concordia",
+  "tagline": "A city of a million, turning at L5",
+  "titleSuffix": " | Concordia",
+  "locale": "en",
+  "ogDefault": "/og.jpg",
+  "tourMinutes": 10,
+  "author": "David Veksler",
+  "repo": "https://github.com/DavidVeksler/concordia",
+  "feedback": { "enabled": true, "repo": "DavidVeksler/concordia" },
+  "summary": "Concordia is the first fifth-generation space habitat: four rotating cities, a partial-gravity industrial rotor, a shipyard and a spaceport strung along a 21 km axis at the Earth-Moon L5 region, home to about 400,000 people and built for a million. This site is its visitor guide and engineering primer, written as if it were 2045, with a live three-dimensional simulation you can walk through. The physics is real and the numbers come from the project's engineering specification; the 2045 history is a speculative design."
+}

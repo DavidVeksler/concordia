@@ -1,0 +1,34 @@
+name: Report a bug
+description: Something is broken in the guide or the simulation.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The page URL, or the simulation view or chapter you were in.
+      placeholder: https://concordia.davidveksler.com/explore/?viewpoint=...
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead. A screenshot helps.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Browser and graphics card
+      description: For example Chrome 130 on an RTX 3060, or Safari on an iPhone 15.
+    validations:
+      required: false
+  - type: textarea
+    id: report
+    attributes:
+      label: Debug report
+      description: In the simulation, press the backtick key to open the inspector and the tilde key to copy a report. Paste it here.
+    validations:
+      required: false

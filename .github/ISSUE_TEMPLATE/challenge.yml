@@ -1,0 +1,34 @@
+name: Challenge a claim
+description: Say what a page gets wrong, or where a number should be different.
+title: "Challenge: "
+labels: ["challenge"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The page URL, with the anchor of the claim if it has one. The "Challenge this" link on the site fills this in.
+      placeholder: https://concordia.davidveksler.com/science/artificial-gravity/#basis-3
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim
+      description: The sentence, number or chip you are challenging.
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Your reasoning
+      description: Why it is wrong, or what it should be. A short calculation is the best form.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Papers, data or standards that back your reasoning. Links are fine.
+    validations:
+      required: false

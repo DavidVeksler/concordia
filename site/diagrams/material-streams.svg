@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="ms-title ms-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
+  <title id="ms-title">Two material streams into the industrial rotor</title>
+  <desc id="ms-desc">Two streams run toward the industrial rotor. The lunar stream: mining and refining on the Moon, an electromagnetic mass driver, and a capture facility far from the station. The asteroid stream, which came first: small metal-rich and carbonaceous asteroids, bagged by haulers and hauled into the L5 region, then cut up and processed far from the station. Both end in the industrial rotor's stores of semi-processed stock, which feed shielding, city structure, air and water, propellant and ships.</desc>
+  <defs>
+    <marker id="ms-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="currentColor"/></marker>
+  </defs>
+  <g fill="currentColor" font-size="15" opacity="0.85">
+    <text x="20" y="28">The Moon: oxygen, metals, glass</text>
+    <text x="20" y="248">Asteroids (first): iron-nickel, water, carbon, nitrogen</text>
+  </g>
+  <g stroke="currentColor" stroke-width="1.5">
+    <rect x="20" y="44" width="150" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="200" y="44" width="150" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="380" y="44" width="150" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="20" y="264" width="150" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="200" y="264" width="150" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="380" y="264" width="150" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="380" y="144" width="150" height="90" rx="6" fill="var(--accent)" fill-opacity="0.35"/>
+    <rect x="590" y="44" width="190" height="290" rx="6" fill="var(--accent-2)" fill-opacity="0.3"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="95" y="76">Mine and</text><text x="95" y="98">refine</text>
+    <text x="275" y="76">Mass driver</text><text x="275" y="98">to capture</text>
+    <text x="455" y="76">Caught far</text><text x="455" y="98">from station</text>
+    <text x="95" y="296">Metal-rich or</text><text x="95" y="318">carbon-rich body</text>
+    <text x="275" y="296">Bagged and</text><text x="275" y="318">hauled to L5</text>
+    <text x="455" y="296">Cut up far</text><text x="455" y="318">from station</text>
+    <text x="455" y="176" font-weight="600">Industrial rotor</text>
+    <text x="455" y="198">stores of semi-</text><text x="455" y="218">processed stock</text>
+    <text x="685" y="76" font-weight="600">Products</text>
+    <text x="685" y="130">Shielding cassettes</text>
+    <text x="685" y="178">City structure</text>
+    <text x="685" y="226">Air and water</text>
+    <text x="685" y="274">Propellant</text>
+    <text x="685" y="322">Ships</text>
+  </g>
+  <g stroke="currentColor" stroke-width="2" fill="none" marker-end="url(#ms-arrow)">
+    <line x1="170" y1="79" x2="198" y2="79"/><line x1="350" y1="79" x2="378" y2="79"/>
+    <line x1="170" y1="299" x2="198" y2="299"/><line x1="350" y1="299" x2="378" y2="299"/>
+    <line x1="455" y1="114" x2="455" y2="142"/><line x1="455" y1="264" x2="455" y2="236"/>
+    <line x1="530" y1="189" x2="588" y2="189"/>
+  </g>
+  <g fill="currentColor" font-size="15">
+    <text x="20" y="372">Moon stock: sintered regolith billets,</text>
+    <text x="20" y="394">aluminium and iron ingots, glass,</text>
+    <text x="20" y="416">basalt fibre, oxygen.</text>
+    <text x="420" y="372">Asteroid stock: water ice, carbon</text>
+    <text x="420" y="394">feedstock, nitrogen compounds,</text>
+    <text x="420" y="416">metal concentrates.</text>
+  </g>
+</svg>

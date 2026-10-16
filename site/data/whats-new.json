@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-10-13",
+    "title": "Try the hull-breach calculator",
+    "blurb": "Hole a rotor wall and set the size. One square metre takes 27 days to lose 1 percent of the air.",
+    "href": "/discover/hull-breach/"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Read why Concordia is safer than the 1970s designs",
+    "blurb": "No windows, a shield that stands still, four sealed cities. What the 1970s cylinders got wrong and what changed.",
+    "href": "/science/safety/"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Fly the hang glider",
+    "blurb": "Take a small electric glider over the city and feel the same wing carry more weight with the spin than against it.",
+    "href": "/science/gliding/"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Follow the asteroid bag hauler",
+    "blurb": "Metal-rich asteroids, bagged whole and hauled to L5. See where the station's first metal came from.",
+    "href": "/science/mining/"
+  }
+]
