@@ -19,7 +19,7 @@ This is a research draft, not canon, and it changes nothing in the simulation. E
 
 Evidence tags used throughout: **[E]** established physics, **[X]** engineering extrapolation from existing industrial practice, **[S]** speculative future technology, **[F]** fictional design choice for Concordia.
 
-Consistency base (read from the repo, not redesigned): rotor radius 2,500 m, spin 0.0626 rad/s (100.4 s, 1.0 g at the floor) [physics.ts]; artificial sky about 450 m up (R = 2,050 m, 0.82 g), a non-pressure lightweight membrane hung from the structure, with pier penetrations ringed by a 49 m girdle and four ascender apertures [docs/13, 29]; megaframe piers 45 m wide to 625 m, then 28 m to 1,000 m, then 15 m to 1,500 m, each with an 8 m riser shaft; ring beams at 625, 1,000 and 1,500 m (R = 1,875 / 1,500 / 1,000) as 22 m box trusses with a 12 m maintenance gallery deck; axial girders on 654.5 m by 480 m bays; design pier load 2 GN, whole frame about 6 Mt per rotor [docs/25]; ascender towers to a hub at R = 140 m that de-spins into the stationary 120 m spine [docs/21, spec 23, 24]; the existing farm already moves freight pods on a rail deck at R = 1,500 m [docs/31]; rotor angular momentum about 1.2e17 N m s.
+Consistency base (taken from the Concordia design, not redesigned here): rotor radius 2,500 m, spin 0.0626 rad/s (100.4 s, 1.0 g at the floor) ([artificial gravity](/science/artificial-gravity/)); artificial sky about 450 m up (R = 2,050 m, 0.82 g), a non-pressure lightweight membrane hung from the structure, with pier penetrations ringed by a 49 m girdle and four ascender apertures ([light and the artificial sky](/science/light-and-sky/), [ascenders and the sky](/places/ascenders-and-sky/)); megaframe piers 45 m wide to 625 m, then 28 m to 1,000 m, then 15 m to 1,500 m, each with an 8 m riser shaft; ring beams at 625, 1,000 and 1,500 m (R = 1,875 / 1,500 / 1,000) as 22 m box trusses with a 12 m maintenance gallery deck; axial girders on 654.5 m by 480 m bays; design pier load 2 GN, whole frame about 6 Mt per rotor ([the megaframe city](/places/megaframe-city/), [structure and pressure](/science/structure/)); ascender towers to a hub at R = 140 m that de-spins into the stationary 120 m spine ([ascenders and the sky](/places/ascenders-and-sky/), [the axis and the spine](/places/axis-and-spine/)); the existing farm already moves freight pods on a rail deck at R = 1,500 m ([upper city farms](/places/upper-city-farms/)); rotor angular momentum about 1.2e17 N m s.
 
 ---
 
@@ -104,7 +104,7 @@ Pendulum of length L hung outboard from a pivot fixed in the rotating frame at r
 
 L = ½ m L² phidot² + m W (r_a L cos phi + L²) phidot + m W² r_a L cos phi + const,
 
-and the Coriolis cross terms cancel, leaving **phi'' = -(W² r_a / L) sin phi**, so w_p = W sqrt(r_a / L). The earlier intuition (T times y/L with T = m W² r_load) is wrong because it omits the inertial coupling.
+and the Coriolis cross terms cancel, leaving **phi'' = -(W² r_a / L) sin phi**, so w_p = W sqrt(r_a / L). A tension-only estimate (restoring force T y / L with T = m W² r_load) gives the wrong frequency because it omits the inertial coupling.
 
 **Independent validation.** A Cartesian inertial-frame simulation (pivot moving on a circle, stiff spring rope, RK4, no rotating-frame equation used):
 
@@ -138,7 +138,7 @@ Radial speed on an unguided cable is therefore limited to about 1 to 2 m/s. At 1
 
 **Inertial-frame bookkeeping (what the rotor sees).** A body moving from r1 to r2 changes angular momentum by m W (r2² - r1²). The rotor supplies it as a torque through the guideway (the Coriolis side force). The rotor's energy cost is W x delta L = m W² (r2² - r1²), exactly twice the potential. Half becomes the cargo's inertial kinetic energy, half is recoverable at the winch. Check: 1 t from R = 500 to 2,500 m, rotor gives 6.53 kWh, winch can recover 3.27 kWh, cargo gains 3.27 kWh of rotating-frame-invisible kinetic energy.
 
-**Energy per unit cargo, full height (R = 500 to 2,500 m):** 3.27 kWh/t. For comparison the same tonne lifted 2,000 m on Earth is 5.45 kWh. **Rotor ledger.** 1 t lowered 500 to 2,500 m takes 3.76e8 N m s from the rotor, 3.2e-9 of its angular momentum. For a 50 t module that is 1.6e-7. A sustained net flow of 1 Mt/yr to the floor changes the rotor by 0.32 % per year, which the counter-rotating pair and momentum rings absorb (docs/15). The freight system must therefore report its net radial mass flow to the ledger (section 7).
+**Energy per unit cargo, full height (R = 500 to 2,500 m):** 3.27 kWh/t. For comparison the same tonne lifted 2,000 m on Earth is 5.45 kWh. **Rotor ledger.** 1 t lowered 500 to 2,500 m takes 3.76e8 N m s from the rotor, 3.2e-9 of its angular momentum. For a 50 t module that is 1.6e-7. A sustained net flow of 1 Mt/yr to the floor changes the rotor by 0.32 % per year, which the counter-rotating pair and momentum rings absorb ([counter-rotation](/science/counter-rotation/)). The freight system must therefore report its net radial mass flow to the ledger (section 7).
 
 **Circumferential and axial moves.** Moving along the rotating frame at v needs only ½ m v² plus friction. The big inertial term m W r v is paid by the rotor through the wheel-rail reaction, and returns when braking. Net electricity is therefore small (section 4). Axial motion has zero Coriolis force because the velocity is parallel to the rotation axis.
 
@@ -155,7 +155,7 @@ Frontal areas and drag coefficients used: 100 kg tool 0.3 m² x Cd 1.0; 1 t pall
 | Option | Load path | Verdict |
 | --- | --- | --- |
 | Directly on the primary pressure shell | Shell membrane, bands, endcaps | **Reject.** The shell carries pressure and band tension; point loads and fatigue from rails are out of scale and out of maintenance reach. |
-| On the artificial sky framework | Sky hoops and stringers, cables to pier saddles | **Reject for load.** The sky is a lightweight, replaceable emitter membrane hung from the structure "never the other way" (docs/13). Allow only light inspection crawlers already on its rails. |
+| On the artificial sky framework | Sky hoops and stringers, cables to pier saddles | **Reject for load.** The sky is a lightweight, replaceable emitter membrane hung from the structure, never the other way round ([light and the artificial sky](/science/light-and-sky/)). Allow only light inspection crawlers already on its rails. |
 | Dedicated radial/axial freight trusses | New members to ring beams and piers | Credible but duplicates structure that exists. Use only for oversize (50 t) or short special spurs. |
 | **Ring-beam gallery decks and axial girders at F1/F2** | Gallery deck into the 22 m box truss, chords, node, pier lattice to floor | **Prefer.** Steel on a deep truss, already a walkable maintenance gallery 12 m wide, nodes every 489 m. The load path is the plate-level path the frame already carries. |
 | Multi-level networks | As above at 625, 1,000, 1,500 m | Prefer: F1 at R = 1,875 m (0.75 g, shortest drop to the sky), F2 at R = 1,500 m (0.6 g, farm and industry). F3 (R = 1,000 m) only where demand justifies. |
@@ -174,7 +174,7 @@ No, and it should not need to. A carriage hung from a rail reaches only the volu
 
 ## 4. Energy analysis
 
-Assumptions [X]: motoring efficiency eta_D = 0.90, regeneration to storage eta_G = 0.85, rolling resistance coefficient 0.003 (steel wheel on rail, typical range 0.001 to 0.005), acceleration 0.3 m/s² (0.15 for 50 t), speeds in the first column of each table. Peak power is traction power at the drive. Guide-wheel friction on the Coriolis side load is 1 %. Regeneration figures from vendors are 20 to 40 % of total energy for elevators in buildings; the efficiency pair used here is the physical return on the potential only.
+Assumptions [X]: motoring efficiency eta_D = 0.90, regeneration to storage eta_G = 0.85, rolling resistance coefficient 0.003 (steel wheel on rail; published railway values are 0.001 to 0.0024 and dirty tram rail about 0.005, so this allows for curves and dirty track), acceleration 0.3 m/s² (0.15 for 50 t), speeds in the first column of each table. Peak power is traction power at the drive. Guide-wheel friction on the Coriolis side load is 1 %. Regeneration figures from vendors are 20 to 40 % of total energy for elevators in buildings; the efficiency pair used here is the physical return on the potential only.
 
 **A. Circumferential, R = 1,875 m, 11.8 km, prograde (worst case)**
 
@@ -223,7 +223,7 @@ Peak regenerative power at the brake: 56 kW (1 t), 449 kW (10 t), 1.1 MW (50 t).
 
 The rotating-to-stationary transfer costs very little energy: tangential speed at the hub skin is 8.8 m/s. The de-spin energy, 0.1 kWh for a 10 t container, comes from the hub bearing and is a negligible heat load. The real cost is **operational** (docking a moving cabin to a stationary berth, sealing, a mass-flow entry in the angular-momentum ledger).
 
-### Questions the task asked to separate
+### Four distinctions that decide the design
 
 1. **Low apparent weight vs low inertial mass:** covered in 2.1. A 10 t module has the same inertia everywhere.
 2. **Reduced energy vs reduced peak power or structural load:** moving in the 0.2 g zone cuts rolling loss 3.7x, but horizontal energy is only 0.5 kWh per 2.5 km for 10 t. The real benefit of low g is **lower required motor and rail rating**, not energy. For radial moves the energy is the potential; the power is m g_max v.
@@ -326,7 +326,7 @@ Rope arrest in a shaft is the one design that must be proven by test. All other 
 
 - **Floor to upper volume:** vertical shafts in the pier risers. 10 t standard unit load plus pallets. Each shaft crosses the sky at the pier girdle in a sealed sleeve. The sleeve doubles as the sky hardening: no cargo ever shares an aperture with residents.
 - **Upper volume:** F1 and F2 carriages move cargo to the destination dock (factory, greenhouse, warehouse, repair shop) in cells of the bay grid. Crossovers are on ring-beam nodes (489 m apart) where an axial girder meets a ring beam; routing is by transfer switch at the node.
-- **To the spine:** via the ascender towers, using a freight guideway in the tower bay and a freight drum at the hub (a change request to docs/21, not a redesign of the ascender; the hub already de-spins at 8.8 m/s).
+- **To the spine:** via the ascender towers, using a freight guideway in the tower bay and a freight drum at the hub (a change to the ascender design, not a redesign; the hub already de-spins at 8.8 m/s).
 
 ### 7.2 Standard cargo interface [F]
 
@@ -358,7 +358,7 @@ Total time from the warehouse door to the depot door is about 8 to 12 minutes wi
 ### 7.5 Regeneration, ledger and growth
 
 - Net mass flow is downward in the 500 to 2,500 m band (food, goods) and upward in the return flow (waste, recycling, raw material). Pair the cars to move return freight on the up stroke.
-- Report net radial mass flow per rotor to the momentum controller (docs/15): 1 Mt/yr down is 0.32 % of rotor angular momentum per year.
+- Report net radial mass flow per rotor to the momentum controller ([counter-rotation](/science/counter-rotation/)): 1 Mt/yr down is 0.32 % of rotor angular momentum per year.
 - Growth: the grid adds branches at nodes, shafts are added in new piers. Rails are standardised so a segment can be replaced on one night.
 
 ---
@@ -375,7 +375,7 @@ What the freight system looks like if it expresses the physics rather than copyi
 - **Rope guide stations every 300 to 500 m** in the shafts: ring frames with grooved roller guides where the rope bundle is steadied, visible from the crown and under the sky. These stations make the Coriolis bow explicit.
 - **Counterweights are cars**, not blocks. Visible as a second row of cabins.
 - **Cranes and gantries** work inward of the rails in the farm and shipyards, stretching toward the axis with long outboard booms. A tall crane at the 0.2 g level has thin members: low weight allows slender structure (design cue).
-- **Freight marks the Coriolis lean.** Anything moving radially leans in its direction of travel: rope stays angled, loads canted. Spawn this as a rendered effect on moving carriers and as a plotted overlay in the physics page.
+- **Freight marks the Coriolis lean.** Anything moving radially leans in its direction of travel: rope stays angled, loads canted. Show this as a rendered effect on moving carriers and as a plotted overlay in the physics page.
 
 **The sky transfer port [F].** A tall sealed sleeve through the pier girdle with a freight collar below the emitter membrane: a boxy bronze-and-grey airlock gallery lined with shuttered doors, lit from above by the sky itself through a narrow glazed slot. From the street you see the underside of the pier (the plinth portal, a 12 m gate with stencilled hazard frames); the doors open for a few seconds each cycle with a low bell and a rolling, boom-like sound of a container leaving its car. No cargo is visible against the sky, only the portal. A dust lock exhales a visible puff when the door cycles.
 
@@ -402,12 +402,12 @@ Missing parameters and decisions, in priority order:
 1. **Rope guide stations in a shaft.** A rope bundle bows 5.2 m over 1,000 m at 4 m/s (section 6); can intermediate guides be built in an 8 m riser without creating snag or friction hot spots? Decision needed: roped pair with guides vs rack-and-pinion cars vs linear-motor cars. A test model with a scale rope on a rotating rig would settle this.
 2. **Shaft count and location.** 12 to 16 per rotor is a containment argument. Needs a risk model (probability times consequence of a shaft loss) and the megaframe's own placement rules.
 3. **Do the pier riser shafts have room?** Is the 8 m square riser free of passenger and utility use? A 10 t car needs about 3 x 7 m plus guide rails and rope space, two cars side by side. The riser is likely too small for a pair plus the container footprint without the pier lattice's cooperation.
-4. **Freight in the ascender towers.** The tower blades carry the cabin guideway; whether freight fits needs a docs/21 change request. The 50 t module may need a dedicated heavy shaft.
+4. **Freight in the ascender towers.** The tower blades carry the cabin guideway; whether freight fits needs a change to the ascender design. The 50 t module may need a dedicated heavy shaft.
 5. **Sky sleeve geometry.** Whether the pier girdle (49 m, 3 m tall) can become a freight collar without changing the cassette bays and hoops of the sky kit.
 6. **Net mass flow.** Per-rotor mass flows (upward and downward), seasonal swings and the momentum-ring response.
 7. **Atmosphere.** The assumption that the upper volume is at the cabin pressure and mix (docs say the vacuum wedges at the ends are closed off and the central bore remains open). Humidity, dust and fire load of the upper volume are not specified.
 8. **Moving-load fatigue and dynamics on the 22 m box truss** over 100 years of 5 to 20 m/s traffic. Needs a frame model.
-9. **Axial rail runs.** Axial girders at 625 m and 1,000 m exist only for u = 0 to 480 m in docs/21, and the axial spacing is 480 m. Confirm continuity across the 2.5 km rotor length.
+9. **Axial rail runs.** Axial girders at 625 m and 1,000 m are drawn only for u = 0 to 480 m in the ascender design notes, and the axial spacing is 480 m. Confirm continuity across the 2.5 km rotor length.
 10. **ISO footprint assumption.** Whether Concordia freight standardises on Earth intermodal dimensions.
 11. **Power.** A 1.1 MW brake for a 50 t descent needs an energy-storage design (flywheel, battery or resistor bank); the grid at the pier is unspecified.
 12. **Regulation.** There is no Earth standard for a rotating habitat; analogues (EN 81-20 elevators, ISO 4344 ropes, crane standards) apply with Coriolis and variable gravity as explicit extra load cases. Treat as an extrapolation [X].
@@ -418,9 +418,9 @@ What data would size the network: per-district goods and waste mass, peak-to-mea
 
 ## 10. Sources
 
-Verified in this session (search results read, not the primary text unless noted):
+Sources checked for this draft. Most are secondary or vendor sources; the note after each says which.
 
-- Elevator safety gear and the EN 81-20 numbers (progressive safety gear mean deceleration 0.2 to 1.0 g; governor trip at least 115 % of rated speed): [Firgelli explainer](https://www.firgelliauto.com/blogs/mechanisms/elevator-safety-gear), [PFB lift safety gear](https://pfb.it/en/news/325810/pws-leitoyrgei-to-alexiptwto), [Elevator World on progressive gear](https://elevatorworld.com/?p=77832). Secondary sources; **confirm against the current EN 81-20:2020 text** (clause numbers not checked).
+- Elevator safety gear and the EN 81-20 numbers (progressive safety gear mean deceleration 0.2 to 1.0 g; governor trip at least 115 % of rated speed): [Firgelli explainer](https://www.firgelliauto.com/blogs/mechanisms/elevator-safety-gear), [PFB lift safety gear](https://pfb.it/en/news/325810/pws-leitoyrgei-to-alexiptwto), [Elevator World on progressive gear](https://elevatorworld.com/?p=77832). Secondary sources; the figures have not been checked clause by clause against the EN 81-20:2020 text.
 - Regenerative elevator drives: [Otis ReGen](https://www.otis.com/documents/256045/6552829/Regen_Drive_UK.pdf), [KONE regenerative drives](https://architectureanddesign.com.au/suppliers/koneanz/introducing-kone-eco-efficient-regenerative-drives), [Green Elevators (Elevator World)](https://elevatorworld.com/?p=52670). Vendor claims of 20 to 40 % system energy recovery; not independent.
 - Carbon-fibre hoist rope for 1,000 m rise: [Exel Composites on KONE UltraRope](https://exelcomposites.com/case-studies/kone-ultrarope/), [The Register, 2013](https://www.theregister.com/2013/06/18/ultrarope_to_enable_1000_meter_buildings/). Manufacturer figures.
 - Cable-driven parallel robots: [CoGiRo and cable robots, LIRMM](https://hal-lirmm.ccsd.cnrs.fr/lirmm-03795204/document), [FASTKIT mobile CDPR for logistics](https://hal.archives-ouvertes.fr/hal-02296120), [adaptive preload control of CDPRs (arXiv)](https://arxiv.org/pdf/2403.19293). CoGiRo: payload above 300 kg, 15 x 11 x 6 m support structure.
@@ -428,7 +428,10 @@ Verified in this session (search results read, not the primary text unless noted
 - AS/RS regeneration: [Meneghetti and Monti on energy recovery](https://dl.ifip.org/hal-01472280v1), [Kasto DC-link gantry drives (computer-automation.de)](https://www.computer-automation.de/operate---monitor/electric--efficient--energy-saving.htm), [Hänel EcoDrive via PES Media](https://www.pesmedia.com/energy-efficient-storage-systems). Vendors claim up to 40 % recovery.
 - Steel rope: [ISO 4344:2022 preview](https://webstore.ansi.org/preview-pages/ISO/preview_ISO+4344-2022.pdf), [6x36WS data sheet (Pfeifer)](https://www.pfeifer.info/out/assets/6X36WS-WC_SDB_EN_1.PDF). The breaking-force formula in the script is a simplified fit (conservative by about 8 %); use the standard's tables for design.
 
-Not verified in this session (from engineering practice, links to be checked before publication): Landau and Lifshitz or Goldstein for the rotating-frame Lagrangian (section 2.3, which is also reproduced numerically here); Alimak and rack-and-pinion hoist data; linear synchronous motor and maglev freight practice; rolling-resistance range for steel wheels on rail.
+- Rotating-frame mechanics: [Cline, *Variational Principles in Classical Mechanics*, section 12.6, Lagrangian mechanics in a non-inertial frame](https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)/12%3A_Non-inertial_Reference_Frames/12.06%3A_Lagrangian_Mechanics_in_a_Non-Inertial_Frame) (open textbook, University of Rochester). The pendulum result in section 2.3 is derived here from the inertial-frame Lagrangian and checked by simulation, so it does not rest on this reference.
+- Rolling resistance: the [Wikipedia table of rolling resistance coefficients](https://en.wikipedia.org/wiki/Rolling_resistance) gives 0.0010 to 0.0024 for railway steel wheels on steel rail and 0.005 for dirty tram rail; [Engineering ToolBox](https://www.engineeringtoolbox.com/rolling-friction-resistance-d_1303.html) gives 0.001 to 0.002. Secondary sources. The study uses 0.003.
+
+Two items use no source and are treated as extrapolation [X]: rack-and-pinion or linear-motor self-climbing cars at 50 t (no vendor data at that payload are used), and linear synchronous motor or maglev freight (no operating system at this scale was found, so option E in section 5 is scored on reasoning, not field data).
 
 Independently reproducible: [`scripts/analysis/freight_trade_study.py`](https://github.com/DavidVeksler/concordia/blob/main/scripts/analysis/freight_trade_study.py) and its [saved output](https://github.com/DavidVeksler/concordia/blob/main/docs/specs/freight-trade-study-output.txt). The inertial-frame pendulum check and the rotating-frame fall integrator agree with the analytic results (0.02 % and 0.1 s respectively).
 
