@@ -17,7 +17,7 @@ The generator re-exports `site/data/sim-index.json` (viewpoints, chapters, overl
 ## Layout
 
 - `site/content/<path>.md` becomes `/<path>/`; `content/x/index.md` is the hub at `/x/` and gets an automatic card grid of its sibling pages.
-- `site/shots/<section>.json` shot requests (spec section 6); images live in `public/site/shots/<id>-1600.webp` and `-800.webp`
+- `site/shots/<section>.json` shot requests (spec section 6); images live in `public/site/shots/<id>-1600.avif` and `-800.avif`
   (`<id>-og.jpg` is used as the social image when the shot is the page `hero`).
 - `site/diagrams/<name>.svg` inline diagrams; `site/js/widgets/<name>.js` widgets (export `mount(el)` and `EXPLORE`, the view "See it in the simulation" opens; state in the URL hash through `bindState` in `ui.mjs`). `site/js/predict.js` runs `{% predict %}`.
 - `site/scenes.json` the scene atlas: `[{ "viewpoint": "id", "blurb": "...", "shot": "shot-id (optional)", "title": "optional" }]`, rendered on the
@@ -58,7 +58,7 @@ Written `{% name args %}`. Arguments are quoted strings (positional) or `key="va
 
 | Syntax | Result |
 | --- | --- |
-| `{% shot "id" %}` or `{% shot "id" "Caption" %}` | Figure from the shot registry (webp 800/1600, alt from the registry) with an "Open this view" link. Missing image: build error unless `--allow-missing`. |
+| `{% shot "id" %}` or `{% shot "id" "Caption" %}` | Figure from the shot registry (avif 800/1600, alt from the registry) with an "Open this view" link. Missing image: build error unless `--allow-missing`. |
 | `{% shots "id-a" "Caption a" "id-b" "Caption b" %}` (a third pair of arguments adds a third figure) | A deliberate comparison: two (or three) figures side by side, stacked on narrow screens, each with its own caption and "Open this view" link. Use only where the comparison is the point. |
 | `{% explore viewpoint="id" %}`, `chapter="key"`, `viewpoint="id" overlay="slug"`, `overlay="slug"`, optional `label="..."` | Inline pill "Open in the simulation: label". Label defaults to the viewpoint name, chapter title or overlay name. Links: `/explore/?viewpoint=id`, `/explore/?chapter=key`, overlay adds `&mode=engineer&overlay=slug`. |
 | `{% deeper "Title" %} ...Markdown... {% enddeeper %}` | Collapsible "Go deeper: Title" block (equations, tables, exact values). |
