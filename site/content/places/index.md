@@ -3,7 +3,7 @@ title: 'Places in Concordia'
 crumb: 'Places'
 description: 'A guided tour of Concordia from Arbor Quarter and the capital, up through the sky to the axis, then out to the factory, shipyard, spaceport, power works and hull. Each place opens in the sim.'
 lead: 'Concordia is a few dozen kilometres of streets, farms, factories and docks. Start on the ground at a full 1 g, climb toward the axis where weight vanishes, then follow the station out to its ports and its skin.'
-hero: pl-sky-breakthrough
+hero: st-complete-habitat
 nav: places
 order: 1
 updated: 2026-10-16
@@ -33,7 +33,7 @@ Gravity is the map. The farther you are from the axis, the more you weigh, so th
 
 {% shot "pl-exterior-hero" "The whole station in space, a grey cylinder with a caged ring section, radiator banks and attached utilities." %}
 
-Every place opens in the simulation, and each page links to the science behind it. For the numbers behind the whole station, see [Concordia at a glance](/station/). To follow one family through a day, start the [Journey](/journey/).
+Every place opens in the simulation, and each page links to the science behind it. For the numbers behind the whole station, see [Concordia at a glance](/station/). To follow one family through a day, start the [Journey](/journey/). To send someone to one spot, pick it from [Places to see](/see/); each has its own card picture.
 
 {% explore chapter="home" label="Start on the ground" %} {% explore viewpoint="complete-habitat" label="See the whole station" %}
 
