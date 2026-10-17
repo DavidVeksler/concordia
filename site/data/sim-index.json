@@ -8,7 +8,8 @@
     "Infrastructure",
     "Spaceport",
     "Exterior",
-    "Racer"
+    "Racer",
+    "Shuttle"
   ],
   "viewpoints": [
     {
@@ -1102,9 +1103,25 @@
     },
     {
       "id": "racer-pit",
-      "name": "Racer Pit",
+      "name": "Racer Dock (Tug Bay T4)",
       "group": "Racer",
-      "purpose": "The two-seat racer in its pit cradle on the hull, 2,400 m along the spine, with the umbilical arms, latches and spring pushers it launches from. B launches it; ?racer=launch starts the sequence on load (docs/specs/exo-racer-spec.md section 6).",
+      "purpose": "The two-seat racer in the fourth tug cradle of the spaceport bay, 10,060 m along the spine, with the umbilical arms, latches and spring pushers it launches from; it climbs out of the cradle and leaves through the forward port. B launches it; ?racer=launch starts the sequence on load (docs/specs/exo-racer-spec.md section 6).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "shuttle-a03",
+      "name": "Shuttle Dock (Gate A03)",
+      "group": "Shuttle",
+      "purpose": "The Earth shuttle at its berth on gate A03 of the passenger spaceport, nose to the terminal. B then 2 launches it: the arms open, the stack backs out onto the outbound lane and turns, and the controls are yours (docs/specs/flyable-shuttle-spec.md).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
+      "id": "shuttle-rail",
+      "name": "Shuttle Launch Rail (Sled)",
+      "group": "Shuttle",
+      "purpose": "The Earth shuttle on the mass-driver sled at the staging point of the launch rail. B then 3 launches it at 1.5 g to the release speed; the controls are yours at the end of the rail (docs/specs/flyable-shuttle-spec.md).",
       "location": "space",
       "chapter": "exterior"
     },
