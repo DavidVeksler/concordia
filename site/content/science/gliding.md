@@ -166,7 +166,7 @@ with R = 2,500 m, ω = 0.0626 rad/s, R_gas = 287 J/(kg K), T = 293 K and ρ_grou
 | Cargo parcel, 30 cm cube | 10 kg | 0.095 m² |
 | Person, spread flat | 80 kg | 0.5 m² |
 
-These are design values for the widgets, not measurements of real craft. {% basis "design" %} What the model leaves out: flight along the axis (no Coriolis effect there, the glider behaves as on Earth with less weight), turbulence, wind, buildings, ground effect, a tumbling body's changing drag, and any slowing of the rotor's air by what it pushes. The air is assumed to turn exactly with the floor; real air near the axis may lag slightly.
+These are design values for the widgets, not measurements of real craft. {% basis "design" %} What the model leaves out: flight along the axis (no Coriolis effect there, the glider behaves as on Earth with less weight), turbulence, wind, buildings, ground effect, a tumbling body's changing drag, and any slowing of the rotor's air by what it pushes. The air is assumed to turn exactly with the floor; real air near the axis lags the floor slightly.
 
 <!-- facts: section 2 (gravity versus height, atmosphere), section 13 (glider model, cancelling weight, release lab) -->
 {% enddeeper %}

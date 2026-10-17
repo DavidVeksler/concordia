@@ -10,7 +10,7 @@ related:
   - /guide/
 ---
 
-The family is a father, a mother, a teenager, a daughter and a son. They live in a ground-floor apartment seven metres by six, with five chairs around the table. Today a neighbor walks them to the Axis Station, and from there the route is the one every passenger takes: the metro, the ascender, the spine, the spaceport and the launcher.
+The family is a father, a mother, a teenager, a daughter and a son. They live in a ground-floor apartment seven metres by six, with five chairs around the table. Today a neighbor walks them to the Arbor metro station, and from there the route is the one every passenger takes: the metro, the ascender, the spine, the spaceport and the launcher.
 
 At a reading pace, the sixteen stops take about {{tourMinutes}} minutes. Linger at any of them as long as you like. Every stop has a button that starts the live simulation at that moment, so you can begin anywhere. {% explore chapter="home" label="Start at breakfast" %} {% explore chapter="ascender" label="Start at the sky" %} {% explore chapter="launch" label="Start at the launcher" %}
 
@@ -135,9 +135,9 @@ Earth is a small blue disc, about ten degrees wide, and it grows every hour. The
 {% endchapter %}
 
 {% chapter "earthArrival" %}
-The stack falls from 70,000 km toward a perigee 400 km above the surface. Speed climbs as the planet grows, from 1.1 km/s at the start to 10.4 km/s at the lowest point. Clouds, coasts and a thin blue edge fill the window. The coach readies to separate from the carrier, and the family looks down at the world they are about to land on.
+The stack falls from 70,000 km toward a perigee 400 km above the surface. Speed climbs as the planet grows, from 1.0 km/s at the start to 10.4 km/s at the lowest point. Clouds, coasts and a thin blue edge fill the window. The coach readies to separate from the carrier, and the family looks down at the world they are about to land on.
 
-**The idea:** vis-viva. Speed in an orbit depends on distance, so the stack speeds up from 1.1 to 10.4 km/s as it falls.
+**The idea:** vis-viva. Speed in an orbit depends on distance, so the stack speeds up from 1.0 to 10.4 km/s as it falls.
 
 {% shot "jr-earth-arrival" %}
 {% endchapter %}

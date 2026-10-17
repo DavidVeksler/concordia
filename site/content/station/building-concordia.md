@@ -16,7 +16,7 @@ related:
 
 ## Why you cannot launch a city
 
-The station's finished mass is about 2 x 10^12 kg, two billion tonnes: four rotors at 300 million tonnes each, Ehricke (the industrial rotor) at 100 million, and about 750 million tonnes of shielding. The International Space Station weighs 419,725 kg. Concordia is about 4.9 million of them. {% basis "design" %}
+The station's finished mass is about 2.05 x 10^12 kg, two billion tonnes: four rotors at 300 million tonnes each, Ehricke (the industrial rotor) at 100 million, and about 750 million tonnes of shielding. The International Space Station weighs 419,725 kg. Concordia is about 4.9 million of them. {% basis "design" %}
 
 Launch got cheap, and it was not enough. In 2018 NASA's Harry Jones put the Space Shuttle at $54,500 per kg to low Earth orbit and Falcon 9 at about $2,720. {% basis "physics" %} By the 2030s fully reusable heavy launchers carry more than 100 tonnes a flight for about $2 million, refuelled in orbit by tankers: about $20 per kg to low orbit and about $100 per kg delivered to L5. At that price two billion tonnes is 20 million full loads and about $200 trillion. {% basis "fiction" %}
 

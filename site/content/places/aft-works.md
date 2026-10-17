@@ -58,7 +58,7 @@ The thrusters trim the station's attitude and cancel the push of sunlight. They 
 {% deeper "Sizes and electrical values" %}
 The power landing carries four bipoles at ±1.2 MV, 4.2 kA per conductor. A 7 km conductor of 4,200 mm² aluminium weighs about 80 t, and the ohmic loss is about 0.02 percent.
 
-Each reactor delivers 250 MWe from about 700 MWt, and rejects about 470 MW through about 19,000 m² of radiator at 700 K. That is enough to restore the bearings, pumps, communications and the first converter blocks, not the full station demand.
+Each reactor delivers 250 MWe from about 700 MWt, and rejects about 450 MW through about 18,000 m² of radiator at 700 K. That is enough to restore the bearings, pumps, communications and the first converter blocks, not the full station demand.
 
 The twelve thruster pods each carry nine 1 MW units, 108 MW class in all. With a {% term "specific impulse" %} of 3,000 s, the ring makes about 4.4 kN. That cancels solar and thermal pressure of about 1 kN and trims attitude. Propellant is lunar metal vapour of the magnesium class, brought by tender.
 

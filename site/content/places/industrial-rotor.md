@@ -1,7 +1,7 @@
 ---
 title: 'The industrial rotor'
-description: 'A 3.5 km open-truss rotor turning against the city rotors at 0.45 g holds Concordia''s refining, fabrication and stores, including lunar feedstock and asteroid volatiles.'
-lead: 'Ehricke, the industrial rotor, is the factory floor. It is a skeleton of rings and girders 3.5 km long, turning opposite the city rotors, with refineries, tank farms, container racks and robots in an open vacuum. People rarely go in.'
+description: 'A 3.5 km open-truss rotor turning against its neighbour O''Neill at 0.45 g holds Concordia''s refining, fabrication and stores, including lunar feedstock and asteroid volatiles.'
+lead: 'Ehricke, the industrial rotor, is the factory floor. It is a skeleton of rings and girders 3.5 km long, turning opposite O''Neill (Rotor 4), the nearest city rotor, with refineries, tank farms, container racks and robots in an open vacuum. People rarely go in.'
 hero: pl-industrial-wide
 nav: places
 order: 7
@@ -50,7 +50,7 @@ The rotor turns at 0.044 rad/s, a turn every 143 seconds, in the direction oppos
 3,500 m | length of the rotor
 2,300 m | outer radius
 0.45 g | at the rim
-143 s | one turn, opposite the city rotors
+143 s | one turn, opposite O'Neill (Rotor 4)
 70 to 80 percent | open vacuum
 {% endfacts %}
 

@@ -24,11 +24,11 @@ The far side of the city, upside down. Above the sky the rotor opens out to its 
 
 ## Observe
 
-Open the breakthrough view. The cabin has just passed through a permanent opening in the sky, and the backs of the sky panels fill the window.
+Open the breakthrough view. The cabin has just passed through a permanent opening in the sky, and the sky panels, the open interior and the opposite city come into view.
 
 {% explore viewpoint="artificial-sky-breakthrough" %}
 
-{% shot "sci-sky-from-above" "Above the sky: frames, catwalks and the lit backs of the panels, with the city on the far side of the rotor beyond." %}
+{% shot "sci-sky-from-above" "Above the sky, from the upper city: the opaque back of the panels, with process vaults, nutrient vessels and grow galleries on the frame." %}
 
 ## Explain
 
@@ -36,7 +36,7 @@ The sky is a ceiling of lit panels at 450 m, built to look like open air from th
 
 Above the panels the picture changes. You see frames, maintenance paths and stay cables, then the rest of the cylinder. The air above the sky is the same air as the air below it, because the sky is a ceiling and not a seal. The far side of the rotor is 4,550 m from the sky and 2,500 m from the axis, a second city whose floor faces yours. It reads as upside down because its down points away from you, toward the outer wall behind it. {% basis "physics" %}
 
-Weight is already falling as you rise. At the sky you weigh 0.82 g, and it keeps draining until the axis, where you float. This is why the reveal comes from the ascender and not from the street: the sky hides the far side until you are above it. {% basis "design" %}
+Weight is already falling as you rise. At the sky you weigh 0.82 g, and it keeps draining until the axis, where you float. The reveal comes from the ascender and not from the street because the sky hides the far side until you are above it. {% basis "design" %}
 
 {% deeper "How far is the far side?" %}
 Distances along a diameter of the rotor, which is 5,000 m across at the ground.

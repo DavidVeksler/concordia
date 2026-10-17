@@ -24,7 +24,7 @@ At its centre floats **Meridian 04**, the fourth hull of a long-haul crew and ca
 
 ## How a ship is held
 
-Nothing carries her weight. Three open lattice rings, each with eight padded capture arms, touch the hull only at structural frames. Each ring hangs from the yard ribs on 8 to 12 pre-tensioned lines, 1.8 m thick and 2 to 2.5 km long, spread like a web. Nine small tugs fire short pulses to hold her still when a tank is delivered and shifts the centre of mass.
+Nothing carries her weight. Three open lattice rings, each with eight padded capture arms, touch the hull only at structural frames. Each ring hangs from the yard ribs on 8 to 12 pre-tensioned lines, 1.8 m thick and 2 to 2.5 km long, spread like a web. Nine small tugs fire short pulses to hold her still when a delivered tank shifts the centre of mass.
 
 Tanks, drums, truss lengths and cabin pods arrive from the industrial rotor's logistics end on cargo movers, then cross a straight lane to the ship at 20 to 40 m/s, braking over the last 200 m.
 

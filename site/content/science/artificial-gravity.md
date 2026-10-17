@@ -137,7 +137,7 @@ The radius for 1 g at a given rate is r = g / ω².
 | 2 | 224 m |
 | 4 | 56 m |
 
-Studies from the 1970s set the comfort limit at 1 to 2 turns per minute, which forces a radius near 225 to 900 m. Globus and Hall recommend up to 4 turns per minute with some training for visitors, which would allow a 56 m radius. Concordia chooses the slow end on purpose. A million people include children, the elderly and the unwell, so the design stays under the lowest published limit. {% basis "design" %}
+The 1975 NASA study set the comfort limit at 1 turn per minute, which forces a radius near 900 m. Globus and Hall recommend up to 2 turns per minute with little adaptation for visitors (a radius near 225 m) and up to 4 with some training for visitors, which would allow a 56 m radius. Concordia chooses the slow end on purpose. A million people include children, the elderly and the unwell, so the design stays under the lowest published limit. {% basis "design" %}
 {% enddeeper %}
 
 {% sources %}

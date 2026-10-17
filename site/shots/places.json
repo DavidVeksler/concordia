@@ -233,7 +233,7 @@
   {
     "id": "pl-spaceport-terminal",
     "viewpoint": "passenger-terminal",
-    "alt": "The terminal nave seen down its 440 m length: ribbed walls, handline conveyors with riders, catch-net rings and gate signage.",
+    "alt": "The terminal nave seen down its 460 m length: ribbed walls, handline conveyors with riders, catch-net rings and gate signage.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,

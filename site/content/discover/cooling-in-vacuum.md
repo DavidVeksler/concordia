@@ -53,6 +53,6 @@ area ratio, 500 K against 450 K = (450 / 500)⁴ = 0.66
 
 ## Change a parameter
 
-Set the temperature to 500 K and watch the area shrink by a third. Then drop it to 380 K and watch it more than double.
+Set the temperature to 500 K and watch the area shrink by a third. Then drop it to 380 K and watch it nearly double.
 
 {% widget "radiator-calculator" "A calculator for the radiator area needed to reject a given heat. For 40 GW at 450 K, one side, the area is about 19 km2; at 500 K it is about 12.5 km2." %}

@@ -57,7 +57,7 @@ The lunar stores hold sintered regolith billets, aluminium and iron ingots, glas
 {% shot "sci-shipyard" "A large vessel built unsupported in the zero-g shipyard from the industrial stores." %}
 
 {% deeper "Scale and arithmetic" basis="physics" %}
-Shielding is the biggest single use. One metre of regolith at 1.6 t/m³ over the 470 km² hull is roughly 750 million tonnes. The four atmospheres hold 150 to 200 million tonnes of gas, and the water inventory is tens of millions of tonnes spread over lakes, tanks, farms and shielding.
+Shielding is the biggest single use. One metre of regolith at 1.6 t/m³ over the 470 km² hull is roughly 750 million tonnes. The air of the four rotors is 150 to 200 million tonnes of gas, and the water inventory is tens of millions of tonnes spread over lakes, tanks, farms and shielding.
 
 If the water comes from asteroids that are 10 percent water by mass, every 10 million tonnes of water needs 100 million tonnes of carbonaceous rock. Lunar ice at 5.6 percent gives 56 kg of water per tonne of regolith, asteroids at 10 percent give 100 kg per tonne of rock.
 

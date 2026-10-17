@@ -7,7 +7,8 @@
     "Ground to Axis",
     "Infrastructure",
     "Spaceport",
-    "Exterior"
+    "Exterior",
+    "Racer"
   ],
   "viewpoints": [
     {
@@ -1098,6 +1099,14 @@
       "chapter": "earthTransfer",
       "learnMore": "/places/exterior/#the-hull",
       "map": "/map/#vp-earth-moon-context"
+    },
+    {
+      "id": "racer-pit",
+      "name": "Racer Pit",
+      "group": "Racer",
+      "purpose": "The two-seat racer in its pit cradle on the hull, 2,400 m along the spine, with the umbilical arms, latches and spring pushers it launches from. B launches it; ?racer=launch starts the sequence on load (docs/specs/exo-racer-spec.md section 6).",
+      "location": "space",
+      "chapter": "exterior"
     },
     {
       "id": "rotor2-civic-street",

@@ -47,7 +47,7 @@ NASA's rule of thumb gives the scale. A vehicle with 20 g/cm² of aluminium keep
 
 The numbers on the other side matter too. NASA limits an astronaut's whole career to 600 millisieverts and a single storm to 250. The 1975 NASA settlement study set a design target of 0.5 rem a year, 5 millisieverts, for the general population of a settlement. A city of children has a stricter standard than a mission. {% basis "design" %}
 
-{% shot "sci-rad-pier" "A freighter alongside a spaceport pier on the outer face of the end bulkhead. Storm shelters sit at the pier roots." %}
+{% shot "sci-rad-pier" "A freighter alongside a spaceport pier at the forward end of the station. Storm shelters sit at the pier roots." %}
 {% explore viewpoint="spaceport-pier" %}
 {% explore viewpoint="spine-shelter" label="A pressure refuge in the spine" %}
 

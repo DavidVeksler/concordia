@@ -38,7 +38,7 @@ Riding against the spin you are lighter, with the spin you are heavier. That is 
 
 Four ascender towers per rotor lift people from the ground to the axis. A cabin holds about 150 people, 64 seated and 86 standing, and the 2,380 m climb takes 595 seconds, cruising at 5.5 m/s. {% basis "design" %} Gravity falls steadily as you rise: 0.98 g at the boarding deck, about 0.8 g where the cabin passes through the sky, 0.60 g at 1,000 m and 0.40 g at 1,500 m. At the hub terminal it is 0.028 g. {% basis "physics" %}
 
-Two more things change as you climb. The cabin turns with the rotor all the way, so its sideways speed falls from 153 m/s at the deck to 4.4 m/s at the hub, and the guide rails supply the push that makes it slow down. And because the cabin moves toward the axis, the Coriolis effect shoves everything inside sideways, so the apparent vertical leans. The cabin rolls to follow it: 4 degrees at 200 m, 6.7 degrees at 1,000 m, 15 degrees close to the axis, in the opposite sense in the two spin pairs. {% basis "physics" %}
+Two more things change as you climb. The cabin turns with the rotor all the way, so its sideways speed falls from 153 m/s at the deck to 4.4 m/s at the hub, and the guide rails supply the push that makes it slow down. And because the cabin moves toward the axis, the Coriolis effect shoves everything inside sideways, so the apparent vertical leans. The cabin rolls to follow it: 4 degrees 150 m above the deck, 6.7 degrees at 1,000 m, 15 degrees close to the axis, in the opposite sense in the two spin pairs. {% basis "physics" %}
 
 {% diagram "ascender-ride" "Gravity falls and the cabin leans as it climbs. A second cabin descends on a parallel track." %}
 

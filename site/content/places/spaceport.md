@@ -1,6 +1,6 @@
 ---
 title: 'The spaceport'
-description: 'Concordia''s passenger terminal is a zero-g nave 440 m long: three processing rings, five gates, conveyors of handles to ride, rotating comfort lounges, freight piers and a propellant farm.'
+description: 'Concordia''s passenger terminal is a zero-g nave 460 m long: three processing rings, five gates, conveyors of handles to ride, rotating comfort lounges, freight piers and a propellant farm.'
 lead: 'Everyone who arrives from Earth or the Moon comes through the spaceport at the forward end. Passengers float through a zero-g terminal; freighters berth on long piers outside; propellant waits in a tank farm well clear of the station.'
 hero: pl-spaceport-terminal
 nav: places
@@ -16,7 +16,7 @@ map: "#vp-spaceport-concourse"
 
 ## What you see
 
-The terminal is one long tube, 440 m by 84 m across, in the same Art Deco language as the city: stone ribs every 20 m, warm light coves and bronze-framed windows. Only the space people use is pressurized, so it holds about 2 million cubic metres of air, not 55 million. One flank looks onto the axial bay, so berths and craft are always in view; the other looks out at the three lounge wheels turning in the open. It is stationary and in zero g. "Up" is where the lamps are, and a stone deck below carries the shops.
+The terminal is one long tube, 460 m by 84 m across, in the same Art Deco language as the city: stone ribs every 20 m, warm light coves and bronze-framed windows. Only the space people use is pressurized, so it holds about 2.3 million cubic metres of air, and nothing else is under pressure. One flank looks onto the axial bay, so berths and craft are always in view; the other looks out at the three lounge wheels turning in the open. It is stationary and in zero g. "Up" is where the lamps are, and a stone deck below carries the shops.
 
 Arrival follows one path. The express ends at the spine terminus. A walkway 56 m wide carries you to a monumental arch under a lit panel reading WELCOME TO CONCORDIA. Then three rings across the tube: health screening, customs with eight lanes, and security with eight arches. Then the concourse. Nobody is ever more than 15 m from something to hold: eight conveyor lines of grab handles carry travellers along the tube at walking pace (amber lines to the gates, blue to the lounges), a cable runs down the axis, and a catch net spans the tube every 60 m.
 
@@ -49,7 +49,7 @@ Passengers leaving for Earth do not use a gate. They take the express to the lau
 ## Key numbers
 
 {% facts %}
-440 m | terminal nave
+460 m | terminal nave
 5 | passenger gates
 3 | rotating lounges, 0.13 to 0.28 g
 3 | piers, each 900 m long

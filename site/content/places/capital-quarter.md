@@ -19,7 +19,7 @@ Noordung is the second rotor, paired with Tsiolkovsky and turning the same way, 
 
 {% shot "sc-rotor2-civic-street" "A paved civic street in Noordung with a stately frontage on one side and a green square ahead." %}
 
-Three halls stand out. Each has a name board over its portico, set in capitals, so a resident walking past always knows where they are. The Exchange and the Court are about 800 m apart, on neighbouring streets. Charter Hall stands about five kilometres around the ring from both, in another of Noordung's core districts.
+Three halls stand out. Each has a name board over its portico, set in capitals, so a resident walking past always knows where they are. The Exchange and the Court are about 800 m apart, on neighbouring streets. Charter Hall stands five to six kilometres around the ring from them, in another of Noordung's core districts.
 
 ## The Exchange
 
@@ -56,7 +56,7 @@ The station puts its money in one rotor and its estates in another. Noordung car
 {% facts %}
 1.0 g | weight at the street
 about 0.8 km | Exchange to Court
-about 5 km | Charter Hall to the Exchange, around the ring
+about 6 km | Charter Hall to the Exchange, around the ring
 14 hours | the length of Noordung's day, the longest on the station
 15.7 km | the ring that the three halls stand on
 {% endfacts %}

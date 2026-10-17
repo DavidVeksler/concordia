@@ -92,7 +92,7 @@
   {
     "id": "jr-spaceport",
     "chapter": "spaceport",
-    "alt": "The terminal nave in zero g: travellers riding handline conveyors down a ribbed tube, with a catch-net ring ahead and the axial bay beyond the windows.",
+    "alt": "The terminal nave in zero g: travellers ride handline conveyors down a ribbed tube toward a catch-net ring, with the axial bay beyond the windows.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,

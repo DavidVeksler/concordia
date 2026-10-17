@@ -210,16 +210,16 @@ Assumptions [X]: motoring efficiency eta_D = 0.90, regeneration to storage eta_G
 | D1: R = 1,500 to 2,500 (farm ring to floor) | -1.84 kWh | -18.5 | -92.5 | 263 s |
 | D2: R = 500 to 2,500 (full height) | -2.76 | -27.7 | -138.7 | 513 s |
 
-Peak regenerative power at the brake: 56 kW (1 t), 449 kW (10 t), 1.1 MW (50 t). **That brake must exist even if the grid cannot accept the power**: size a resistor bank and a flywheel or battery for 1.1 MW for 8.5 min per 50 t descent. Without regeneration the heat is 164 kWh per 50 t descent from R = 500 to 2,500 m (about 580 kW averaged over the 17-minute trip), a thermal design item rather than a catastrophe.
+Peak regenerative power at the brake: 56 kW (1 t), 449 kW (10 t), 1.1 MW (50 t). **That brake must exist even if the grid cannot accept the power**: size a resistor bank and a flywheel or battery for 1.1 MW for 8.5 min per 50 t descent. Without regeneration the heat is 163 kWh per 50 t descent from R = 500 to 2,500 m (about 580 kW averaged over the 17-minute trip), a thermal design item rather than a catastrophe.
 
 **E. Rotating habitat to the stationary spine** (R = 500 to 140 m inward, then the hub de-spin to zero tangential speed)
 
 | Cargo | Time | Potential | Net electric | Peak | De-spin KE | Rotor gains dL |
 | --- | --- | --- | --- | --- | --- | --- |
-| 100 kg | 89 s | 0.013 kWh | 0.014 | 1.3 kW | 0.001 | 1.4e6 N m s |
-| 1 t | 89 s | 0.125 | 0.138 | 12.6 kW | 0.011 | 1.4e7 |
-| 10 t | 103 s | 1.25 | 1.40 | 100 kW | 0.107 | 1.4e8 |
-| 50 t | 193 s | 6.27 | 6.98 | 234 kW | 0.533 | 7.2e8 |
+| 100 kg | 89 s | 0.013 kWh | 0.015 | 1.3 kW | 0.001 | 1.4e6 N m s |
+| 1 t | 89 s | 0.125 | 0.144 | 12.6 kW | 0.011 | 1.4e7 |
+| 10 t | 103 s | 1.25 | 1.41 | 100 kW | 0.107 | 1.4e8 |
+| 50 t | 193 s | 6.27 | 6.99 | 234 kW | 0.533 | 7.2e8 |
 
 The rotating-to-stationary transfer costs very little energy: tangential speed at the hub skin is 8.8 m/s. The de-spin energy, 0.1 kWh for a 10 t container, comes from the hub bearing and is a negligible heat load. The real cost is **operational** (docking a moving cabin to a stationary berth, sealing, a mass-flow entry in the angular-momentum ledger).
 
@@ -309,7 +309,7 @@ Drag cuts the energy by two thirds but leaves it in the "armour-piercing" class.
 | Loss of braking power | Unbalanced car accelerates | Fail-safe spring brakes, drum brakes on the rope sheave, rail clamps, regenerative resistor bank | Low |
 | Derailment | Carriage hangs off the truss | Captive wheels on both sides of the rail, anti-lift hooks, side guide rollers on the Coriolis side, check rails | Low |
 | Carriage or winch motor failure | Stuck load | Redundant motor sets, rescue carriage, manual brake release to creep to a berth | Low |
-| Excessive Coriolis motion | Rope contact, car wedging | Speed limits from section 2.3 (spans <= 500 m between rope guides at 4 m/s), tension sensing, slow-down on high bow | Medium until a rope-guide design is verified |
+| Excessive Coriolis motion | Rope contact, car wedging | Speed limits from section 1 (spans <= 500 m between rope guides at 4 m/s), tension sensing, slow-down on high bow | Medium until a rope-guide design is verified |
 | Load oscillation and collision | Impact with truss or neighbour | Input-shaped trajectories, swing sensors, outboard-drop limit of 100 m, clearance envelopes with 2 x the amplitude | Low to medium |
 | Sky aperture accident | Dropped freight, dust, noise, light spill into the city | **No open freight apertures.** Freight crosses the sky only inside a sealed pier sleeve with a catch, double doors and a dust lock. The four ascender apertures stay passenger-only | Low |
 | Fire and smoke | In a rotor, hot gas rises toward the axis (buoyancy points inward), so a shaft from the floor is a chimney into the upper volume, and a shaft from the upper volume is a chimney away from the fire | Fire-rated sleeves, door interlocks, smoke damper at the floor lobby and the crown, pressurised stair lobby, suppression in freight cars | Medium (handling lithium batteries and compounds in cargo) |
@@ -399,7 +399,7 @@ What the freight system looks like if it expresses the physics rather than copyi
 
 Missing parameters and decisions, in priority order:
 
-1. **Rope guide stations in a shaft.** A rope bundle bows 5.2 m over 1,000 m at 4 m/s (section 6); can intermediate guides be built in an 8 m riser without creating snag or friction hot spots? Decision needed: roped pair with guides vs rack-and-pinion cars vs linear-motor cars. A test model with a scale rope on a rotating rig would settle this.
+1. **Rope guide stations in a shaft.** A rope bundle bows 5.2 m over 1,000 m at 4 m/s (section 1); can intermediate guides be built in an 8 m riser without creating snag or friction hot spots? Decision needed: roped pair with guides vs rack-and-pinion cars vs linear-motor cars. A test model with a scale rope on a rotating rig would settle this.
 2. **Shaft count and location.** 12 to 16 per rotor is a containment argument. Needs a risk model (probability times consequence of a shaft loss) and the megaframe's own placement rules.
 3. **Do the pier riser shafts have room?** Is the 8 m square riser free of passenger and utility use? A 10 t car needs about 3 x 7 m plus guide rails and rope space, two cars side by side. The riser is likely too small for a pair plus the container footprint without the pier lattice's cooperation.
 4. **Freight in the ascender towers.** The tower blades carry the cabin guideway; whether freight fits needs a change to the ascender design. The 50 t module may need a dedicated heavy shaft.
@@ -421,7 +421,7 @@ What data would size the network: per-district goods and waste mass, peak-to-mea
 Sources checked for this draft. Most are secondary or vendor sources; the note after each says which.
 
 - Elevator safety gear and the EN 81-20 numbers (progressive safety gear mean deceleration 0.2 to 1.0 g; governor trip at least 115 % of rated speed): [Firgelli explainer](https://www.firgelliauto.com/blogs/mechanisms/elevator-safety-gear), [PFB lift safety gear](https://pfb.it/en/news/325810/pws-leitoyrgei-to-alexiptwto), [Elevator World on progressive gear](https://elevatorworld.com/?p=77832). Secondary sources; the figures have not been checked clause by clause against the EN 81-20:2020 text.
-- Regenerative elevator drives: [Otis ReGen](https://www.otis.com/documents/256045/6552829/Regen_Drive_UK.pdf), [KONE regenerative drives](https://architectureanddesign.com.au/suppliers/koneanz/introducing-kone-eco-efficient-regenerative-drives), [Green Elevators (Elevator World)](https://elevatorworld.com/?p=52670). Vendor claims of 20 to 40 % system energy recovery; not independent.
+- Regenerative elevator drives: [Otis energy efficiency and ReGen drives](https://www.otis.com/en/kw/products-services/modernization-upgrades/energy-efficiency), [KONE regenerative drives](https://architectureanddesign.com.au/suppliers/koneanz/introducing-kone-eco-efficient-regenerative-drives), [Green Elevators (Elevator World)](https://elevatorworld.com/?p=52670). Vendor claims of 20 to 40 % system energy recovery; not independent.
 - Carbon-fibre hoist rope for 1,000 m rise: [Exel Composites on KONE UltraRope](https://exelcomposites.com/case-studies/kone-ultrarope/), [The Register, 2013](https://www.theregister.com/2013/06/18/ultrarope_to_enable_1000_meter_buildings/). Manufacturer figures.
 - Cable-driven parallel robots: [CoGiRo and cable robots, LIRMM](https://hal-lirmm.ccsd.cnrs.fr/lirmm-03795204/document), [FASTKIT mobile CDPR for logistics](https://hal.archives-ouvertes.fr/hal-02296120), [adaptive preload control of CDPRs (arXiv)](https://arxiv.org/pdf/2403.19293). CoGiRo: payload above 300 kg, 15 x 11 x 6 m support structure.
 - Crane anti-sway and input shaping: [Mahidol University industrial crane study](https://repository.li.mahidol.ac.th/signposting/describedby/788c40ce-f0bb-4379-a79c-17d70a730fab), [rotary crane input shaping](https://journals.utm.my/jurnalteknologi/article/view/10297), [double-pendulum gantry crane](https://umpir.ump.edu.my/id/eprint/36471/). Sorensen, Singhose and Dickerson tested shaping on a 10 t bridge crane.

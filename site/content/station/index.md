@@ -19,7 +19,7 @@ related:
 
 Concordia is a stationary mountain with rotating cities inside it. The mountain carries the shielding, the radiators, the launcher and the docks. The cities turn so the people inside feel weight. About 400,000 people live here, in a station built for 1.0 to 1.2 million.
 
-It rides the Earth-Moon {% term "L5" %} region at lunar distance, 384,400 km from Earth, on a path kept in place by constant small corrections ({% term "station-keeping" %}). The Moon is the quarry and Earth is the market. L5 gives low-energy access to lunar material and room to build. A consortium of companies and cities runs the station, which earns its keep by selling energy and computation, structural materials, propellant and ships across {% term "cislunar space" %} ([who pays for it](/station/economy/)).
+It rides the Earth-Moon {% term "L5" %} region at lunar distance, 384,400 km from Earth, on a path kept in place by constant small corrections ({% term "station-keeping" %}). The Moon is the quarry and Earth is the market. L5 gives low-energy access to lunar material and room to build. A chartered consortium of companies runs the station, which earns its keep by selling energy and computation, structural materials, propellant and ships across {% term "cislunar space" %} ([who pays for it](/station/economy/)).
 
 {% shot "st-earth-moon-context" "Concordia at L5, with Earth and the Moon both in view." %}
 

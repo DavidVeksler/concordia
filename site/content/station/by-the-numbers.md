@@ -27,7 +27,7 @@ These are the station's design values, plus quantities worked out from them. Row
 | Hull surface | about 470 km2 | {% basis "design" %} | Sets the shielding and radiator areas | 2 pi r L + 2 pi r^2 = 469 km2 (derived) |
 | Population now | about 400,000 | {% basis "fiction" %} | Rotors fill one at a time |  |
 | Design population | 1.0 to 1.2 million | {% basis "design" %} | Four rotors with elevated building |  |
-| Finished mass | about 2 x 10^12 kg, two billion tonnes | {% basis "design" %} | Why Earth launch cannot supply it | sum of the mass budget below (derived) |
+| Finished mass | about 2.05 x 10^12 kg, two billion tonnes | {% basis "design" %} | Why Earth launch cannot supply it | sum of the mass budget below (derived) |
 
 <!-- facts: sections 1, 4 -->
 

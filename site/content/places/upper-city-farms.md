@@ -54,7 +54,7 @@ Water is the other loop. The farms recover it continuously, and what slips away 
 {% deeper "Facility levels and methods" %}
 Three levels of the frame carry service uses. At 625 m (0.75 g), one slot in four on the plate quarters is a utility plant for reclaimed water, nutrients and ventilation. At 1,000 m (0.60 g) are the crop galleries and process halls. At 1,500 m (0.40 g) are specialist process and crop research halls.
 
-The farms use {% term "hydroponics" %}, aeroponics, stacked crops, fungi, algae, precision fermentation and microbial protein. The grow hall's twelve decks give about 430,000 m² of growing area.
+The farms use {% term "hydroponics" %}, aeroponics, stacked crops, fungi, algae, precision fermentation and microbial protein. The grow hall's twelve decks give about 500,000 m² of growing area.
 
 Every flow is tracked by element. There is no landfill: water, carbon, nitrogen, phosphorus, metals, glass and polymers are all recovered.
 {% enddeeper %}

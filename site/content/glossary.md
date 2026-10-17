@@ -1,7 +1,7 @@
 ---
 title: Glossary
-description: 57 terms used across the Concordia guide, from angular momentum and artificial gravity to Whipple shield, each in one or two plain sentences and each linked to the page that explains it.
-lead: 57 terms from physics, space flight and station design, each in a sentence or two. Each entry links to the page that explains it best.
+description: 59 terms used across the Concordia guide, from aeroponics and angular momentum to Whipple shield, each in one or two plain sentences and each linked to the page that explains it.
+lead: 59 terms from physics, space flight and station design, each in a sentence or two. Each entry links to the page that explains it best.
 nav: station
 order: 99
 updated: 2026-10-10
@@ -9,6 +9,9 @@ related:
   - /science/
   - /station/by-the-numbers/
 ---
+
+### Aeroponics
+Growing plants with their roots in a nutrient mist. It uses far less water than soil. See [upper-city farms](/places/upper-city-farms/).
 
 ### Angular momentum
 The quantity of spin: mass times radius squared times spin rate. The total in a closed system never changes, so Concordia keeps its total at zero by turning two rotors each way. See [counter-rotation](/science/counter-rotation/).
@@ -75,9 +78,6 @@ High-voltage direct current, used for low-loss power transmission. Concordia's m
 
 ### Hydroponics
 Growing plants in nutrient water without soil. It is a main farm method in the upper city. See [upper-city farms](/places/upper-city-farms/).
-
-### Aeroponics
-Growing plants with their roots in a nutrient mist. It uses far less water than soil. See [upper-city farms](/places/upper-city-farms/).
 
 ### In-situ resource utilization
 Making what you need from materials found where you are, such as oxygen from lunar rock. It is the principle behind Concordia's construction. See [materials](/science/materials/).
@@ -167,7 +167,7 @@ Two rotors turning the same way, locked in step and joined by bridges. Tsiolkovs
 The stationary tube, 120 m across, that runs down the axis and carries transport, power and utilities. It never rotates. See [axis and spine](/places/axis-and-spine/).
 
 ### Stanford torus
-A wheel-shaped settlement for 10,000 people designed in the 1975 NASA and Stanford summer study. Its radiation shield was a separate ring that did not rotate. See [safety](/science/safety/).
+A wheel-shaped settlement for 10,000 people designed in the 1975 NASA and Stanford summer study. Its radiation shield was a separate ring that turned slowly or not at all. See [safety](/science/safety/).
 
 ### Station-keeping
 Small, continuous corrections that hold a station on its intended path. Concordia's thrusters sit at the aft ring. See [aft works](/places/aft-works/).

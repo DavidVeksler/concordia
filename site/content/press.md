@@ -47,7 +47,7 @@ Use any of these as written.
 
 Real: spin gravity, counter-rotation and angular momentum, radiation and debris shielding, air loss through a breach, orbital mechanics at L5, and the engineering limits on each. Invented: the 2045 history, the economy that pays for it, the families and the names. The [about page](/about/) says the same in more words, and every number on the site is labelled with which kind it is.
 
-The design started from Isaac Arthur's episode "The O'Neill Cylinder Space Habitat: Islands In The Sky" (2025-04-24), credited on the site. Concordia differs from the 1970s designs in using four sealed rotor cities instead of one and a shield that stands still.
+The design started from Isaac Arthur's episode "The O'Neill Cylinder Space Habitat: Islands In The Sky" (2025-04-24), credited on the site. Concordia differs from the 1970s designs in using four sealed rotor cities instead of one or two and a shield that stands still.
 
 ## How it was made {#made}
 
@@ -67,11 +67,11 @@ Six images from the simulation, free to use with the credit line below. Click an
 
 | File | Shows | Size |
 | --- | --- | --- |
-| [concordia-city-megaframe-2560.jpg](/press/concordia-city-megaframe-2560.jpg) | The city under the megaframe | 2560 x 1440, 1.5 MB |
+| [concordia-city-megaframe-2560.jpg](/press/concordia-city-megaframe-2560.jpg) | The city under the megaframe | 2560 x 1440, 1.6 MB |
 | [concordia-ascender-sky-2560.jpg](/press/concordia-ascender-sky-2560.jpg) | The lift to the axis | 2560 x 1440, 0.5 MB |
 | [concordia-counter-rotation-2560.jpg](/press/concordia-counter-rotation-2560.jpg) | The counter-rotating hub | 2560 x 1440, 1.1 MB |
 | [concordia-shipyard-2560.jpg](/press/concordia-shipyard-2560.jpg) | The shipyard | 2560 x 1440, 1.0 MB |
-| [concordia-station-pullback-1600.jpg](/press/concordia-station-pullback-1600.jpg) | The whole station (render enhanced with an image model) | 1600 x 900, 0.3 MB |
+| [concordia-station-pullback-1600.jpg](/press/concordia-station-pullback-1600.jpg) | The whole station (render enhanced with an image model) | 1600 x 900, 0.2 MB |
 | [concordia-end-lookback-2560.jpg](/press/concordia-end-lookback-2560.jpg) | The caged end and end disc | 2560 x 1440, 0.3 MB |
 
 ## Footage {#footage}

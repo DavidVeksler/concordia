@@ -32,7 +32,7 @@ Behind the masts the spine holds the converter hall, rows of valve halls, breake
 
 ## Starting from nothing
 
-If the solar link ever fails, the station needs a way to restart without it. Fission is the conservative baseline for this {% term "black start" %}. Two reactors stand on masts at the aft rim, 250 MWe each, behind shadow shields. Each makes about 700 MW of heat and rejects 470 MW of it through radiator petals held edge-on to the Sun. They are the lifeboat for the power system, not its main supply. {% basis "challenge" %}
+If the solar link ever fails, the station needs a way to restart without it. Fission is the conservative baseline for this {% term "black start" %}. Two reactors stand on masts at the aft rim, 250 MWe each, behind shadow shields. Each makes about 700 MW of heat and rejects 450 MW of it through radiator petals held edge-on to the Sun. They are the lifeboat for the power system, not its main supply. {% basis "challenge" %}
 
 {% shot "sci-reactor-mast" "A black-start reactor on its mast, behind the shadow shield." %}
 
@@ -81,7 +81,7 @@ Raising the temperature by 10 percent raises the emission by 1.1⁴ = 1.46 times
 | 450 K | 2.09 kW/m² | 19 km² |
 | 500 K | 3.19 kW/m² | 12.5 km² |
 
-Solar side: 40 GW ÷ 340 W/m² = 1.18 × 10⁸ m² = 118 km². HVDC side: each bipole carries 2.4 MV × 4.2 kA = 10.1 GW, so four carry 40 GW. Black start: 470 MW rejected at 700 K needs 470 MW ÷ (0.9 × σ × 700⁴) = about 38,000 m² of one-sided panel, and the reactor petals have two faces, so about 19,000 m².
+Solar side: 40 GW ÷ 340 W/m² = 1.18 × 10⁸ m² = 118 km². HVDC side: each bipole carries 2.4 MV × 4.2 kA = 10.1 GW, so four carry 40 GW. Black start: 450 MW rejected at 700 K needs 450 MW ÷ (0.9 × σ × 700⁴) = about 37,000 m² of one-sided panel, and the reactor petals have two faces, so about 18,000 m².
 {% enddeeper %}
 
 <!-- facts: section 6 (Power, Thermal and radiators), section 4 (sky heat) -->

@@ -45,7 +45,7 @@ A station that recovers 99 percent still loses 1 percent a cycle, so imports nev
 
 Food grows at the top of the city, in the upper fringe above about 800 m. Housing stops there. What sits above is an atmospheric service district: crop galleries, nutrient vessels, process halls and utility plants. The air is the shared air of the rotor, and the gravity is 0.6 g at 1,000 m, where rotor 1's farm stands.
 
-Crops grow without soil, in water ({% term "hydroponics" %}) or in a mist around bare roots ({% term "aeroponics" %}), stacked on decks. Its grow hall is 288 m long, 124 m wide and 96 m tall, with 12 decks in 24 bays, and four aeroponic towers 72 m tall stand beside it. Next to the crops sit fermentation vessels that make protein and other food from microbes, and a process wing: wash, sort, pack, bakery, bottling and cold store. A bridge joins the farm to the ascender tower, and ordinary freight carries the food down. {% basis "design" %}
+Crops grow without soil, in water ({% term "hydroponics" %}) or in a mist around bare roots ({% term "aeroponics" %}), stacked on decks. The farm hall is 288 m long, 124 m wide and 96 m tall, with 12 decks in 24 bays, and four aeroponic towers 72 m tall stand beside it. Next to the crops sit fermentation vessels that make protein and other food from microbes, and a process wing: wash, sort, pack, bakery, bottling and cold store. A bridge joins the farm to the ascender tower, and ordinary freight carries the food down. {% basis "design" %}
 
 {% shot "sci-awf-farm" "Racks of lettuce and basil on a grow deck, seen from the visitor gallery of the grow hall." %}
 {% explore viewpoint="farm-grow-deck" %}

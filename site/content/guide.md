@@ -15,7 +15,7 @@ related:
 Pick a mode at the lower right of the screen. You can switch at any time without losing your place.
 
 - **Story** follows one family from breakfast to a shuttle bound for Earth. Press **Continue** (or `Enter`) to ride to the next stop, or pick a chapter from the atlas. The route has 16 chapters, listed on [the journey page](/journey/).
-- **Explore** is free movement. Walk the streets, fly up the sky, float down the spine and leave the hull. Open the atlas with `M` to jump to any of more than 100 saved viewpoints, or browse them on the [scene atlas](/scenes/).
+- **Explore** is free movement. Walk the streets, fly up the sky, float down the spine and leave the hull. Open the atlas with `M` to jump to any of more than 100 saved viewpoints, or browse the illustrated ones on the [scene atlas](/scenes/).
 - **Engineer** adds system overlays, a quality setting, render resolution, simulation speed, free-camera speed and live renderer figures. Choose an overlay to see labels in the scene and a short explanation in the panel.
 
 {% shot "sc-ascender-cabin" "The panoramic ascender cabin in Story mode, with the live altitude and gravity readout." %}
@@ -55,11 +55,11 @@ Press `P` at any level to save the current frame as a PNG. The interface is neve
 
 ## Share a view
 
-The address bar always matches what you see. Use the **Copy link** button in the top bar to copy it, and anyone who opens the link lands in the same place. Every link starts at `/explore/`, and these are the parts you can combine:
+The address bar always matches what you see. Use the **Share** button in the top bar, then **Copy link**, to copy it, and anyone who opens the link lands in the same place. Every link starts at `/explore/`, and these are the parts you can combine:
 
 | Parameter | Values | Result |
 | --- | --- | --- |
-| `viewpoint` | an id such as `artificial-sky-breakthrough` | Opens that saved view. Every id is listed on the [scene atlas](/scenes/) |
+| `viewpoint` | an id such as `artificial-sky-breakthrough` | Opens that saved view. Each card on the [scene atlas](/scenes/) links to one |
 | `chapter` | a chapter key such as `ascender` | Starts the story at that chapter |
 | `mode` | `story`, `explore`, `engineer` | Sets the mode |
 | `overlay` | one of the twelve slugs below | Opens Engineer mode with that overlay selected |

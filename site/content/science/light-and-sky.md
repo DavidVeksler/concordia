@@ -1,7 +1,7 @@
 ---
 title: Light and the artificial sky
-description: Concordia has no giant windows. Its blue sky is a lit ceiling of panels 450 m up, bright enough for daylight at street level, running different day lengths in each rotor for 2.2 GW.
-lead: Concordia has no big windows. The sky is a ceiling of light panels hung 450 m above the ground, and it is bright enough that the street below sits in daylight. Each rotor runs its own clock, its own weather and its own length of day.
+description: Concordia has no giant windows. Its blue sky is a lit ceiling of panels 450 m up, bright enough for daylight at street level, running days of 10 to 14 hours for 2.2 GW.
+lead: Concordia has no big windows. The sky is a ceiling of light panels hung 450 m above the ground, and it is bright enough that the street below sits in daylight. Each rotor runs its own clock and its own weather, with days from 10 to 14 hours long.
 nav: science
 order: 6
 updated: 2026-10-10
