@@ -39,6 +39,20 @@ A spaceplane arriving from the station falls onto the upper terminal on an orbit
 
 This is conservation of momentum, nothing else. The two craft weigh about the same, so one gives and the other takes, and the hub's orbit barely moves.
 
+## Keeping the hub in its orbit {#reboost}
+
+Traffic is not always balanced. When more mass leaves Earth than arrives, the tether gives away more momentum than it takes in, and the hub sinks. When more arrives, the hub climbs. A 10 tonne mismatch in one swap moves 23 m/s into a 2,000 tonne facility and lowers the far side of the hub orbit by about 82 km. The skyhook corrects this two ways. {% basis "physics" %}
+
+**Electrodynamic thrust.** Aluminium conductors braided into the strands carry a current from the hub's solar arrays. A current through a long wire in Earth's magnetic field feels a push, so the tether itself becomes the engine, with no propellant. Run the current one way and the hub climbs; reverse it and the hub descends while the tether makes power. This is the slow, steady method, working between catches, and the one the HASTOL phase I report proposed (Bogar et al. 2000, PDF p. 8). {% basis "design" %}
+
+**Ion thrusters on the hub.** A cluster of electric thrusters at the hub, run on the same solar power, handles the faster corrections and the trims the magnetic field cannot give in every direction. At an exhaust speed of 30 km/s, making up that whole 23 m/s with ions alone would take about 1.5 tonnes of propellant, against 13 tonnes for a chemical rocket. In practice the electrodynamic push carries most of the load and the ion thrusters top it up. {% basis "design" %}
+
+## What the skyhook is for {#purpose}
+
+The skyhook is an orbital power bank. Every arriving craft deposits its extra speed in the tether, and every departing craft withdraws it, so the same momentum is spent again and again. Only the difference between what comes in and what goes out has to be paid for, and it is paid in sunlight and a little ion propellant. {% basis "design" %}
+
+That is the trade: expensive rocket propellant for cheap solar power. Giving or taking 4.6 km/s with a methane and oxygen rocket costs about 2.6 tonnes of propellant for every tonne of spaceplane, and all of it has to be lifted out of Earth's gravity first. The tether hands over the same 4.6 km/s with no propellant at all, and its solar arrays and ion thrusters cover the imbalance. {% basis "physics" %}
+
 {% facts basis="design" %}
 450 km | Hub orbit, 7.644 km/s
 150 to 750 km | Tips sweep this band
@@ -62,6 +76,8 @@ The catch itself is gentle by geometry. At contact the tip moves almost straight
 
 {% shot "sci-skyhook-capture" "Twenty seconds after capture, the spaceplane hangs under the upper terminal on a fan of strands, belly out. Near the craft the tether is drawn as an open net; farther away it merges into one line." %}
 
+{% shot "sci-skyhook-terminal" "Two seconds after the catch, the strands pull taut between the spaceplane's dorsal fixture and the terminal. The load has only begun to build." %}
+
 The real tether is thinner than any pixel the simulation can draw. At 2 to 12 cm equivalent diameter and 300 km an arm, its aspect ratio is about 6,000,000 to 1. The simulation draws it as a sunlit glint of constant screen width, the way you would see it from another spacecraft. {% basis "challenge" %}
 
 ## Why the entry is gentler {#entry}
@@ -74,6 +90,8 @@ The 150 km tip is chosen for this angle. A tip at 200 km gives a 9.4 degree entr
 
 The final burn in the story is not a deorbit burn, since the path already meets the air. It is an entry trim burn of about 30 m/s at 40 seconds after release, 0.5 g for 6 seconds, which moves the entry point downrange onto the runway's approach corridor. The tip rises off the spaceplane by itself, 9 m after one second and 15 km after forty, so no burn is needed for clearance. {% basis "design" %}
 
+{% shot "sci-skyhook-release-cine" "The release at the lower tip: the spaceplane lets go and the strands fall away behind it. From here it is on a suborbital path." %}
+
 {% shots "sci-skyhook-release" "Twelve seconds after release, the dashed amber arc is the family's path, falling away from the tether's lower end toward the atmosphere." "sci-skyhook-ignition" "The entry trim burn 40 seconds after release: two plumes on a small white spaceplane over a dusk Earth. This is where the story ends." %}
 
 ## What is not settled {#open}
@@ -82,7 +100,7 @@ The final burn in the story is not a deorbit burn, since the path already meets 
 
 **Simultaneous catches.** HASTOL does not propose catching a payload going up while another comes down; its authors handled the two on adjacent orbits (Grant et al. 2001, PDF p. 25). Concordia keeps the paired catch, because a symmetric tether makes the swap clean and the momentum exchange visible. If one catch is missed, the other is a single catch, which is the case HASTOL designed for. HASTOL also arranged its throw so that a craft that misses its catch still re-enters. {% basis "challenge" %}
 
-**How the station schedules pairs.** A swap of equal masses leaves the hub's orbit unchanged to first order. A 10 tonne mismatch moves 23 m/s into a 2,000 tonne facility, which lowers the far side of the hub orbit by about 82 km. Electrodynamic thrust on aluminium conductors braided into the tether restores it, the method in the HASTOL phase I report (Bogar et al. 2000, PDF p. 8). So the station books arrivals and departures in matched pairs when traffic allows, and reboosts the hub when it does not. The booking rules are not designed. {% basis "challenge" %}
+**How the station schedules pairs.** A swap of equal masses leaves the hub's orbit unchanged to first order, so the station books arrivals and departures in matched pairs when traffic allows and leaves the rest to the reboost described above. The booking rules and the reboost power budget are not designed. {% basis "challenge" %}
 
 **The tether's mass.** For a 60 tonne spaceplane, an ideal tapered arm weighs 478 tonnes in Zylon at a safety factor of 2, and 1,695 tonnes in Spectra at a safety factor of 3, 8 to 28 times the payload. The gravity gradient adds roughly 25 percent. HASTOL's 600 km case settled at a facility 26 times the payload. Concordia's tether is sized by the same method and is not a materials design. {% basis "challenge" %}
 

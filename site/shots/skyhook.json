@@ -22,5 +22,29 @@
     "static": true,
     "alt": "A small white spaceplane fires two blue-violet plumes against a dim brown Earth at dusk, with stars beyond the planet's dark edge.",
     "note": "for /science/skyhook/: the final ignition frame, probe camera 250 m ahead of the spaceplane at the entry trim burn (burn-front)"
+  },
+  {
+    "id": "sci-skyhook-station",
+    "static": true,
+    "alt": "A long bare truss with a shuttle docked at one end, a blue solar panel across its middle and white tank spheres.",
+    "note": "for /science/getting-there/: transfer station, probe camera 500 m out (cine-station-a in scripts/site/capture-skyhook.mjs), 5120 x 2880"
+  },
+  {
+    "id": "sci-skyhook-catch-cine",
+    "static": true,
+    "alt": "A spaceplane hangs under the tether's terminal on a net of fine strands, with Earth's bright limb and the Sun behind it.",
+    "note": "for /journey/ and /science/getting-there/: catch, tau +6 s, probe 110 m from the upper terminal (cine-catch-c)"
+  },
+  {
+    "id": "sci-skyhook-release-cine",
+    "static": true,
+    "alt": "The spaceplane leaves the tether's lower terminal at the release, strands trailing back toward the terminal over a cloud-covered Earth.",
+    "note": "for /science/skyhook/: release, tau 480 s, probe 120 m from the outbound spaceplane (cine-release-a)"
+  },
+  {
+    "id": "sci-skyhook-terminal",
+    "static": true,
+    "alt": "Close on the capture: a dark spaceplane seen from above, held by taut strands that run to a small terminal beside it.",
+    "note": "for /science/skyhook/: terminal and net two seconds after the catch, probe 70 m (cine-catch-a)"
   }
 ]

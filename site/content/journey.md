@@ -146,6 +146,8 @@ A tether 600 km long turns end over end above the atmosphere, its hub in a 450 k
 **The idea:** momentum exchange. The skyhook hands 4.6 km/s from one spaceplane to the other, and the family's speed falls from 9.9 to 5.3 km/s on the half-turn.
 
 {% shot "jr-earth-arrival" %}
+
+{% shot "sci-skyhook-catch-cine" "The catch at the tether's upper tip, from 110 m away." %}
 {% endchapter %}
 
 {% deeper "How the route is timed" %}

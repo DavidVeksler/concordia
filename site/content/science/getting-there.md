@@ -71,6 +71,8 @@ Its way down is a skyhook: a 600 km tether turning end over end, its centre in a
 
 The released spaceplane reaches the 120 km entry interface 110 seconds later at 5.4 km/s, 5.8 degrees below horizontal. Without the skyhook, the same trip from lunar distance meets the air at 11 km/s, almost Earth's escape speed, with about four times the heating. {% basis "physics" %}
 
+{% shots "sci-skyhook-station" "The transfer station: a bare truss about 420 m long, with the Concordia shuttle docked at one end." "sci-skyhook-catch-cine" "The catch: the spaceplane hangs from the tether's upper terminal on a net of strands, Earth's limb behind it." %}
+
 {% shot "sci-earth-arrival" "Earth filling the window on the way in." %}
 
 {% explore chapter="transferStation" label="Dock at the transfer station" %} {% explore chapter="earthArrival" label="Arrive at Earth" %}
