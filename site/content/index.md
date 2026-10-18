@@ -1,7 +1,7 @@
 ---
-title: "Concordia: a city for a million, turning at L5"
+title: "Concordia: a guide to a rotating space habitat"
 h1: Concordia
-description: Concordia is the first fifth-generation space habitat, a rotating city at Earth-Moon L5 built from lunar and asteroid material. Learn the science, then step inside the live simulation.
+description: "Concordia is a rotating space habitat at Earth-Moon L5: four spinning O'Neill-style cylinder cities built from lunar and asteroid material. Learn the science, then walk inside it in 3D."
 lead: Walk the streets of a city that spins at Earth-Moon L5, as far from Earth as the Moon, then ride from Earth-normal weight to weightlessness.
 hero: film-end-lookback
 nav: home

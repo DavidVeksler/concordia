@@ -1,5 +1,6 @@
 ---
-title: The station at a glance
+title: "Concordia at a glance: an O'Neill-style space city"
+h1: The station at a glance
 crumb: Station
 description: "Concordia in one page: where it sits, how its four rotor cities, industrial rotor, shipyard and spaceport line up along a 21 km axis, and the numbers that define it."
 lead: Concordia sits in the Earth-Moon L5 region, 384,400 km from Earth. Four rotor cities, the industrial rotor Ehricke, a shipyard and a spaceport are strung along one 21 km axis and share its shielding, power and heat rejection.

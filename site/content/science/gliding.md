@@ -76,7 +76,9 @@ Cut the motor and the headwind slows the glider through the air. It drifts spinw
 
 The glider is a light electric hang glider: 120 kg with its pilot, a 16 m² wing and a 4 kW motor. {% basis "design" %} Pick a height, a heading and an airspeed, press Fly, and the autopilot holds them. Try **Cancel your weight**, then **What happens if the motor stops?** The inset in the corner draws the three velocities: the air, the glider through the air, and their sum, the glider against the stars.
 
-The full simulation has the same glider in the city. Start with {% explore viewpoint="glider-take-off" label="a take-off run on the road" %} or {% explore viewpoint="glider-over-city" label="a flight 300 m above the city" %}; both are in the atlas under Glider. Or in Explore mode, inside a habitation rotor, press B to board it, fly it between the towers, and drop the ball over a street.
+The full simulation has the same glider in the city. Start with {% explore viewpoint="glider-take-off" label="a take-off run on the road" %} or {% explore viewpoint="glider-over-city" label="a flight 300 m above the city" %}; both are in the atlas under Glider. or in Explore mode, inside a habitation rotor, press B to board it, fly it between the towers, and drop the ball over a street.
+
+In the full simulation the glider flies like a small aircraft. The nose sits above the flight path by the angle of attack, so the horizon drops as you slow down, and close to the floor the wing floats on its own ground effect. Shift in the air is the airbrake, Q and E are the rudder, and a red yaw string on the windscreen shows when the air is coming from the side. Hold C below 60 m and the autopilot flies the approach, keeps the airbrakes out, rounds out and touches down at under half a metre a second. The air moves too: a drift of up to 3 m/s along the axis, with gusts, and some days none. Across it the glider crabs, 12 degrees at 14 m/s in a 3 m/s drift, and the autopilot straightens the nose just before the wheels touch. {% basis "design" %}
 
 {% widget "glider" "A glider flown inside the rotor, with a ball you can drop and a motor you can cut. At the ground, at 14 m/s, the glider needs 1.19 g of lift flying with the spin and 0.83 g against it. At 2,200 m, flying antispinward at 18.8 m/s, it needs none and hangs still against the stars." %}
 
@@ -100,6 +102,8 @@ Where do the spin and the energy come from? From the air, and the air gets them 
 ## Heading and height
 
 Direction matters even at ordinary speeds. At the ground at 14 m/s the glider moves against the stars at 157 + 14 = 171 m/s flying spinward and needs 1.19 g of lift, a lift coefficient of 0.74 and 2.4 kW. Antispinward it moves at 143 m/s and needs 0.83 g, 0.52 and 1.7 kW. The same sum runs the [ring metro](/science/moving-around/), where 100 km/h against the spin weighs 0.66 g.
+
+On final you can see the spin. A glider coming down with its wings level does not hold a straight line: the Coriolis effect on its sink bends the track antispinward by about 0.6 degrees a second, and the pilot feels nothing at all. {% basis "physics" %}
 
 Climb and both weight and air thin out: 0.82 g and 95 percent of ground density at the sky ([the table](/science/air-water-food/)). The least power the glider needs falls from about 2.0 kW at the ground to about 250 W 2,000 m up.
 
@@ -166,7 +170,7 @@ with R = 2,500 m, ω = 0.0626 rad/s, R_gas = 287 J/(kg K), T = 293 K and ρ_grou
 | Cargo parcel, 30 cm cube | 10 kg | 0.095 m² |
 | Person, spread flat | 80 kg | 0.5 m² |
 
-These are design values for the widgets, not measurements of real craft. {% basis "design" %} What the model leaves out: flight along the axis (no Coriolis effect there, the glider behaves as on Earth with less weight), turbulence, wind, buildings, ground effect, a tumbling body's changing drag, and any slowing of the rotor's air by what it pushes. The air is assumed to turn exactly with the floor; real air near the axis lags the floor slightly.
+These are design values for the widgets, not measurements of real craft. {% basis "design" %} What the widgets leave out: flight along the axis (no Coriolis effect there, the glider behaves as on Earth with less weight), turbulence, wind, buildings, ground effect, a tumbling body's changing drag, and any slowing of the rotor's air by what it pushes. The 3D simulation adds a light wind with gusts, ground effect, airbrakes, sideslip and a rudder; it still leaves out thermals and the wakes of buildings. The air is assumed to turn exactly with the floor; real air near the axis lags the floor slightly.
 
 <!-- facts: section 2 (gravity versus height, atmosphere), section 13 (glider model, cancelling weight, release lab) -->
 {% enddeeper %}
