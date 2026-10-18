@@ -376,6 +376,26 @@ ul.updates li { padding: 0.45rem 0; border-bottom: 1px solid var(--rule); margin
 .w-svg .w-curve--ref { stroke: var(--accent-2); stroke-width: 1.5; stroke-dasharray: 4 3; }
 .w-svg .w-dot { fill: var(--accent); stroke: var(--bg); stroke-width: 1.5; }
 
+/* skyhook half-turn widget (site/js/widgets/skyhook-half-turn.js): amber is the family's spaceplane, teal the one from Earth */
+.w-svg.sk-svg { max-width: 460px; }
+.w-svg .sk-bg { fill: var(--surface-2); }
+.w-svg .sk-earth { fill: var(--accent); fill-opacity: 0.2; stroke: var(--accent); stroke-width: 1; stroke-opacity: 0.6; }
+.w-svg .sk-ring { fill: none; stroke: var(--muted); stroke-width: 1; stroke-dasharray: 1 4; opacity: 0.7; }
+.w-svg .sk-tether { stroke: var(--text); stroke-width: 2; stroke-linecap: round; }
+.w-svg .sk-hub { fill: var(--text); stroke: var(--bg); stroke-width: 1.5; }
+.w-svg .sk-path { fill: none; stroke-width: 2.2; }
+.w-svg .sk-path--a { stroke: var(--accent-2); }
+.w-svg .sk-path--b { stroke: var(--accent); }
+.w-svg .sk-ghost { stroke-width: 1.2; stroke-dasharray: 3 4; opacity: 0.55; }
+.w-svg .sk-dot { stroke: var(--bg); stroke-width: 1.5; }
+.w-svg .sk-dot--a { fill: var(--accent-2); }
+.w-svg .sk-dot--b { fill: var(--accent); }
+.w-svg .sk-label { font-size: 10.5px; font-weight: 700; }
+.w-svg .sk-label--a { fill: var(--accent-2); }
+.w-svg .sk-label--b { fill: var(--accent); }
+.w-svg .sk-mark { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0.8; }
+.w-svg .sk-cursor { stroke: var(--text); stroke-width: 1; opacity: 0.8; }
+
 /* glider widget (site/js/widgets/glider.js): canvas stage, time and view toggles */
 .w-stage { margin: 0 0 0.8rem; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface-2); overflow: hidden; }
 .w-stage:focus-visible { outline-offset: 3px; }

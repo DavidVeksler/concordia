@@ -14,7 +14,7 @@ related:
 
 Pick a mode at the lower right of the screen. You can switch at any time without losing your place.
 
-- **Story** follows one family from breakfast to a shuttle bound for Earth. Press **Continue** (or `Enter`) to ride to the next stop, or pick a chapter from the atlas. The route has 16 chapters, listed on [the journey page](/journey/).
+- **Story** follows one family from breakfast to a shuttle bound for Earth. Press **Continue** (or `Enter`) to ride to the next stop, or pick a chapter from the atlas. The route has 17 chapters, listed on [the journey page](/journey/).
 - **Explore** is free movement. Walk the streets, fly up the sky, float down the spine and leave the hull. Open the atlas with `M` to jump to any of more than 100 saved viewpoints, or browse the illustrated ones on the [scene atlas](/scenes/).
 - **Engineer** adds system overlays, a quality setting, render resolution, simulation speed, free-camera speed and live renderer figures. Choose an overlay to see labels in the scene and a short explanation in the panel.
 

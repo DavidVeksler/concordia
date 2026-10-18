@@ -1,6 +1,6 @@
 ---
 title: A day aboard
-description: Follow a family of five from breakfast in Rotor 1 to a shuttle bound for Earth. Sixteen stops show gravity, the artificial sky, the spine and the launcher, each with a link into the live simulation.
+description: Follow a family of five from breakfast in Rotor 1 to a shuttle bound for Earth. Seventeen stops show gravity, the artificial sky, the spine and the launcher, each with a link into the live simulation.
 lead: A family of five lives in the Arbor Quarter of Tsiolkovsky (Rotor 1). Today they leave Concordia for Earth. The route takes them through a neighborhood, a metro, a sky, a farm, a spine, a shipyard and a launcher, and each stop teaches one idea.
 nav: journey
 hero: jr-ascender
@@ -12,7 +12,7 @@ related:
 
 The family is a father, a mother, a teenager, a daughter and a son. They live in a ground-floor apartment seven metres by six, with five chairs around the table. Today a neighbor walks them to the Arbor metro station, and from there the route is the one every passenger takes: the metro, the ascender, the spine, the spaceport and the launcher.
 
-At a reading pace, the sixteen stops take about {{tourMinutes}} minutes. Linger at any of them as long as you like. Every stop has a button that starts the live simulation at that moment, so you can begin anywhere. {% explore chapter="home" label="Start at breakfast" %} {% explore chapter="ascender" label="Start at the sky" %} {% explore chapter="launch" label="Start at the launcher" %}
+At a reading pace, the seventeen stops take about {{tourMinutes}} minutes. Linger at any of them as long as you like. Every stop has a button that starts the live simulation at that moment, so you can begin anywhere. {% explore chapter="home" label="Start at breakfast" %} {% explore chapter="ascender" label="Start at the sky" %} {% explore chapter="launch" label="Start at the launcher" %}
 
 {% chapter "home" %}
 Morning light comes through the window onto an ordinary street. The family sits at breakfast: bowls, a pot of tea, a teenager who would rather sleep. Nothing here feels unusual. The floor is firm, the cups sit flat and a dropped spoon falls straight down. Outside, the street runs away in both directions and the city rises gently as it goes. It is a normal morning in a place that turns once every hundred seconds.
@@ -134,10 +134,16 @@ Earth is a small blue disc, about ten degrees wide, and it grows every hour. The
 {% shot "jr-earth-transfer" %}
 {% endchapter %}
 
-{% chapter "earthArrival" %}
-The stack falls from 70,000 km toward a perigee 400 km above the surface. Speed climbs as the planet grows, from 1.0 km/s at the start to 10.4 km/s at the lowest point. Clouds, coasts and a thin blue edge fill the window. The coach readies to separate from the carrier, and the family looks down at the world they are about to land on.
+{% chapter "transferStation" %}
+The Concordia shuttle docks at a station in a high Earth orbit, 950 km at its lowest and 47,527 km at its highest, and goes no lower. It carries no heat shield and never enters an atmosphere. At the next port a spaceplane waits: a lifting body that never climbs to L5, with no long-haul engines. The passengers walk across, and each vehicle goes home. Earth hangs behind the truss.
 
-**The idea:** vis-viva. Speed in an orbit depends on distance, so the stack speeds up from 1.0 to 10.4 km/s as it falls.
+**The idea:** one vehicle for the vacuum, one for the air. Each is built for half the trip, so neither carries the other's weight.
+{% endchapter %}
+
+{% chapter "earthArrival" %}
+A tether 600 km long turns end over end above the atmosphere, its hub in a 450 km orbit. Its upper tip catches the family's spaceplane at 9.9 km/s while its lower tip catches another one rising from Earth. Eight minutes and half a turn later it lets go. Each spaceplane leaves at the speed the other arrived with: the family's is down to 5.3 km/s, and its engines light for a short burn that aims it at the runway.
+
+**The idea:** momentum exchange. The skyhook hands 4.6 km/s from one spaceplane to the other, and the family's speed falls from 9.9 to 5.3 km/s on the half-turn.
 
 {% shot "jr-earth-arrival" %}
 {% endchapter %}
@@ -152,6 +158,8 @@ The guided tour takes about {{tourMinutes}} minutes at a reading pace, with a sh
 | Spine express | 9 s | 140 m/s along the tube |
 | Launch | 43 s | 37 s at 1.5 g to 540 m/s |
 | Earth transfer | under a minute | 15 days, with a lunar swing-by at day 6 |
+| Dock at the transfer station | 14 s | the last 30 minutes of the approach |
+| Skyhook catch and release | 76 s | about 7.4 hours of fall, then the 8 minute half-turn |
 
 <!-- facts: section 5, section 7, section 8 -->
 

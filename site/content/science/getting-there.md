@@ -6,6 +6,7 @@ nav: science
 order: 12
 updated: 2026-10-10
 related:
+  - /science/skyhook/
   - /science/materials/
   - /science/moving-around/
   - /places/spaceport/
@@ -66,13 +67,13 @@ The Concordia shuttle never enters an atmosphere. It is a 64 m stack of two part
 
 The shuttle docks at a transfer station, a bare truss about 420 m long that does not spin, and the passengers cross to a spaceplane. The spaceplane is a lifting body that lands on a runway and never goes farther from Earth than the station. {% basis "design" %}
 
-Its way down is a skyhook: a 600 km tether turning end over end, its centre in a 450 km orbit, its tips sweeping from 150 to 750 km up. The upper tip catches the spaceplane at 9.9 km/s while the lower tip catches one coming up from Earth. Eight minutes later, half a turn on, the tether lets go. The Earth-bound spaceplane leaves the lower tip at 5.3 km/s, 4.6 km/s slower than it arrived, and the spaceplane going up leaves 4.6 km/s faster. What one loses the other gains. {% basis "design" %}
+Its way down is a skyhook: a 600 km tether turning end over end, its centre in a 450 km orbit, its tips sweeping from 150 to 750 km up. The upper tip catches the spaceplane at 9.9 km/s while the lower tip catches one coming up from Earth. Eight minutes later, half a turn on, the tether lets go. The Earth-bound spaceplane leaves the lower tip at 5.3 km/s, 4.6 km/s slower than it arrived, and the spaceplane going up leaves 4.6 km/s faster. What one loses the other gains. {% basis "design" %} The [skyhook page](/science/skyhook/) goes through the swap, what riders feel and what is not settled, with a half-turn you can scrub.
 
 The released spaceplane reaches the 120 km entry interface 110 seconds later at 5.4 km/s, 5.8 degrees below horizontal. Without the skyhook, the same trip from lunar distance meets the air at 11 km/s, almost Earth's escape speed, with about four times the heating. {% basis "physics" %}
 
 {% shot "sci-earth-arrival" "Earth filling the window on the way in." %}
 
-{% explore chapter="earthArrival" label="Arrive at Earth" %}
+{% explore chapter="transferStation" label="Dock at the transfer station" %} {% explore chapter="earthArrival" label="Arrive at Earth" %}
 
 {% deeper "Worked example: launch, capture and the skyhook" basis="physics" %}
 Launcher: a = 1.5 × 9.807 = 14.7 m/s². Over L = 10 km, v = √(2aL) = √(2 × 14.7 × 10,000) = 542 m/s, in t = v ÷ a = 36.9 s. The energy for a 165 t stack is ½mv² = 0.5 × 165,000 × 542² = 24.2 GJ, in line with 24 GJ over 37 s, an average of 0.65 GW.

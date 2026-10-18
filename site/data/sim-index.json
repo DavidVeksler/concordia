@@ -1364,8 +1364,13 @@
     },
     {
       "index": 15,
+      "key": "transferStation",
+      "title": "Two vehicles, two jobs."
+    },
+    {
+      "index": 16,
       "key": "earthArrival",
-      "title": "The old world fills the window."
+      "title": "A rope that trades speed."
     }
   ],
   "overlays": [
@@ -4298,6 +4303,7 @@
       "priority": 3,
       "chapters": [
         "earthTransfer",
+        "transferStation",
         "earthArrival"
       ]
     },

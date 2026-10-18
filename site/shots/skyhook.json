@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sci-skyhook-half-turn",
+    "static": true,
+    "alt": "A thin tether slants across black space above Earth's limb, with a teal bracket on its upper end and an amber one on its lower.",
+    "note": "for /science/skyhook/: S4 wide shot 70 percent through the half-turn (tau 337 s); captured by scripts/site/capture-skyhook.mjs through window.habitatQA.skyhook, 3200 x 1800"
+  },
+  {
+    "id": "sci-skyhook-capture",
+    "static": true,
+    "alt": "A white and black spaceplane hangs from a fan of fine cable strands over blue ocean and cloud, twenty seconds after the tether grabbed it.",
+    "note": "for /science/skyhook/: probe camera 90 m from the upper terminal at tau +20 s (grab-p20)"
+  },
+  {
+    "id": "sci-skyhook-release",
+    "static": true,
+    "alt": "After release, the tether runs from a dashed amber path near Earth up into black space, above the planet's thin blue atmosphere.",
+    "note": "for /science/skyhook/: S4 shot 12 s after release (tau 492 s, release-a)"
+  },
+  {
+    "id": "sci-skyhook-ignition",
+    "static": true,
+    "alt": "A small white spaceplane fires two blue-violet plumes against a dim brown Earth at dusk, with stars beyond the planet's dark edge.",
+    "note": "for /science/skyhook/: the final ignition frame, probe camera 250 m ahead of the spaceplane at the entry trim burn (burn-front)"
+  }
+]
