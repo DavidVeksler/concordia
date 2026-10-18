@@ -2,7 +2,7 @@
 
 The simulation at [/explore/]({{origin}}/explore/) runs in the browser (three.js, WebGL). One simulation clock drives every rotor, camera and story move, so motion stays consistent. Any view can be opened by link, for example /explore/?viewpoint=artificial-sky-breakthrough or /explore/?chapter=ascender.
 
-- Story: follow a family from their apartment through the city, the metro, the ascender, the spine, the shipyard, the spaceport and the launcher, out to cislunar space.
+- Story: follow a family from their home through the city, the metro, the ascender, the spine, the shipyard, the spaceport and the launcher, out to cislunar space.
 - Explore: free movement anywhere in the station and outside it.
 - Engineer: system overlays (gravity, rotational frame, pressure, shielding, thermal, electrical, transportation, material flow, structural, momentum, defence, satellites), rendering quality and live renderer metrics.
 

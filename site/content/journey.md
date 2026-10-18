@@ -10,12 +10,12 @@ related:
   - /guide/
 ---
 
-The family is a father, a mother, a teenager, a daughter and a son. They live in a ground-floor apartment seven metres by six, with five chairs around the table. Today a neighbor walks them to the Arbor metro station, and from there the route is the one every passenger takes: the metro, the ascender, the spine, the spaceport and the launcher.
+The family is a father, a mother, a teenager, a daughter and a son. They live in the end house of a two-storey row in the Arbor Quarter. A house on 1 g ground marks a well-off family: most people on Concordia live in apartments, and the city's 1 g ground goes to parks, civic buildings and premium housing. The room where they eat is seven metres by six, with a glass wall across the front and five chairs around the table. Today a neighbor walks them to the Arbor metro station, and from there the route is the one every passenger takes: the metro, the ascender, the spine, the spaceport and the launcher.
 
 At a reading pace, the seventeen stops take about {{tourMinutes}} minutes. Linger at any of them as long as you like. Every stop has a button that starts the live simulation at that moment, so you can begin anywhere. {% explore chapter="home" label="Start at breakfast" %} {% explore chapter="ascender" label="Start at the sky" %} {% explore chapter="launch" label="Start at the launcher" %}
 
 {% chapter "home" %}
-Morning light comes through the window onto an ordinary street. The family sits at breakfast: bowls, a pot of tea, a teenager who would rather sleep. Nothing here feels unusual. The floor is firm, the cups sit flat and a dropped spoon falls straight down. Outside, the street runs away in both directions and the city rises gently as it goes. It is a normal morning in a place that turns once every hundred seconds.
+Morning light comes through the glass wall onto an ordinary street. The family sits at breakfast: bowls, a pot of tea, a teenager who would rather sleep. Nothing here feels unusual. The floor is firm, the cups sit flat and a dropped spoon falls straight down. Outside, the street runs away in both directions and the city rises gently as it goes. It is a normal morning in a place that turns once every hundred seconds.
 
 **The idea:** the floor is the rotor wall, 2,500 m from the axis, and its turning supplies exactly 1 g.
 

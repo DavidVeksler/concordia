@@ -2,17 +2,17 @@
   "generated": "2026-10-18",
   "seed": 20261006,
   "cityHashes": {
-    "rotor0": "40e70fded125438b",
-    "rotor0_buildings": "80cab8ead1fdbdfb",
+    "rotor0": "6958502e25535ab7",
+    "rotor0_buildings": "923fb06690fbf66d",
     "rotor0_props": "72d048f2eafebee7",
-    "rotor0_frontage": "e2b65ef79ac8521b",
-    "rotor0_greenery": "87af196588fd8998",
+    "rotor0_frontage": "03aa884dd6d91679",
+    "rotor0_greenery": "f780da1f69d26899",
     "rotor0_water": "370373333a2bbe35",
-    "rotor0_planting": "4420b21772aed235",
+    "rotor0_planting": "f6bbcc1f962a6fbd",
     "rotor0_activityVerts": "ac0a90176c7866bc",
     "rotor0_activityRoutes": "0ab1fd899c7ef357",
     "rotor0_activity": "a15a533a13d8023e",
-    "rotor0_landmarks": "3f456c2c5f19db53",
+    "rotor0_landmarks": "0188ac026ac3baa7",
     "rotor0_transit": "5f313e2bcc715820",
     "rotor0_transitPiers": "9d815117cf8c09c7",
     "rotor0_transitStops": "87a32fcb994b9d07",
@@ -80,7 +80,7 @@
     "rotor3_elevatedTrees": "2e2dfed14489f895"
   },
   "buildings": 56970,
-  "groundTrees": 345438,
+  "groundTrees": 345416,
   "elevatedTrees": 70779,
-  "trees": 416217
+  "trees": 416195
 }
