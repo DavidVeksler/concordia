@@ -615,9 +615,9 @@
     },
     {
       "id": "shuttle-bay-external",
-      "name": "Shuttle Bay — Hab to Earth Shuttle",
+      "name": "Shuttle Bay — Concordia Shuttle",
       "group": "Spaceport",
-      "purpose": "Walk round a Hab to Earth shuttle parked on the launch track: ivory coach, stowed arrays and radiators, the keel in its guideway, edge lights, floodlight masts and bay signage.",
+      "purpose": "Walk round a Concordia shuttle parked on the launch track: ivory hull, stowed arrays and radiators, the keel in its guideway, edge lights, floodlight masts and bay signage.",
       "location": "space",
       "chapter": "launch",
       "learnMore": "/science/getting-there/#the-launcher-first-leg-only",
@@ -1113,7 +1113,7 @@
       "id": "shuttle-a03",
       "name": "Shuttle Dock (Gate A03)",
       "group": "Shuttle",
-      "purpose": "The Earth shuttle at its berth on gate A03 of the passenger spaceport, nose to the terminal. B then 2 launches it: the arms open, the stack backs out onto the outbound lane and turns, and the controls are yours (docs/specs/flyable-shuttle-spec.md).",
+      "purpose": "The Concordia shuttle at its berth on gate A03 of the passenger spaceport, nose to the terminal. B then 2 launches it: the arms open, the stack backs out onto the outbound lane and turns, and the controls are yours (docs/specs/flyable-shuttle-spec.md).",
       "location": "space",
       "chapter": "exterior"
     },
@@ -1121,7 +1121,7 @@
       "id": "shuttle-rail",
       "name": "Shuttle Launch Rail (Sled)",
       "group": "Shuttle",
-      "purpose": "The Earth shuttle on the mass-driver sled at the staging point of the launch rail. B then 3 launches it at 1.5 g to the release speed; the controls are yours at the end of the rail (docs/specs/flyable-shuttle-spec.md).",
+      "purpose": "The Concordia shuttle on the mass-driver sled at the staging point of the launch rail. B then 3 launches it at 1.5 g to the release speed; the controls are yours at the end of the rail (docs/specs/flyable-shuttle-spec.md).",
       "location": "space",
       "chapter": "exterior"
     },
@@ -4200,8 +4200,8 @@
     {
       "id": "shuttle-bay-1",
       "group": "shuttle-bay",
-      "title": "Hab to Earth shuttle",
-      "blurb": "Shuttles wait in bays on the launch track between flights: a 98-couch ivory coach on a carrier, arrays and radiators stowed, the keel sitting in its guideway.",
+      "title": "Concordia shuttle",
+      "blurb": "Shuttles wait in bays on the launch track between flights: a 98-couch ivory cabin on a carrier, arrays and radiators stowed, the keel sitting in its guideway.",
       "href": "/science/getting-there/#the-launcher-first-leg-only",
       "map": "/map/#vp-shuttle-bay-external",
       "viewpoint": "shuttle-bay-external",
@@ -4221,8 +4221,8 @@
     {
       "id": "shuttle-bay-2",
       "group": "shuttle-bay",
-      "title": "Hab to Earth shuttle",
-      "blurb": "Shuttles wait in bays on the launch track between flights: a 98-couch ivory coach on a carrier, arrays and radiators stowed, the keel sitting in its guideway.",
+      "title": "Concordia shuttle",
+      "blurb": "Shuttles wait in bays on the launch track between flights: a 98-couch ivory cabin on a carrier, arrays and radiators stowed, the keel sitting in its guideway.",
       "href": "/science/getting-there/#the-launcher-first-leg-only",
       "map": "/map/#vp-shuttle-bay-external",
       "viewpoint": "shuttle-bay-external",
@@ -4242,8 +4242,8 @@
     {
       "id": "shuttle-bay-3",
       "group": "shuttle-bay",
-      "title": "Hab to Earth shuttle",
-      "blurb": "Shuttles wait in bays on the launch track between flights: a 98-couch ivory coach on a carrier, arrays and radiators stowed, the keel sitting in its guideway.",
+      "title": "Concordia shuttle",
+      "blurb": "Shuttles wait in bays on the launch track between flights: a 98-couch ivory cabin on a carrier, arrays and radiators stowed, the keel sitting in its guideway.",
       "href": "/science/getting-there/#the-launcher-first-leg-only",
       "map": "/map/#vp-shuttle-bay-external",
       "viewpoint": "shuttle-bay-external",

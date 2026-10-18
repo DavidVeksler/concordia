@@ -29,7 +29,7 @@ export function mount(el) {
     { key: 'time', label: 'Time on the track', big: true },
     { key: 'speed', label: 'Exit speed' },
     { key: 'energy', label: 'Energy per tonne' },
-    { key: 'shuttle', label: 'A 196 t Earth shuttle' },
+    { key: 'shuttle', label: 'A 165 t Concordia shuttle' },
   ]);
 
   const refPath = s('path', { class: 'w-curve w-curve--ref', d: curve(CONCORDIA.launchAccelG, CONCORDIA.launchLengthM) });
@@ -61,7 +61,7 @@ export function mount(el) {
       time: `${fixed(r.timeS, 1)} s`,
       speed: `${fixed(r.exitSpeedMs, 0)} m/s (${fixed(r.exitSpeedMs * 3.6, 0)} km/h, Mach ${fixed(r.exitSpeedMs / 343, 1)})`,
       energy: `${fixed(mj, mj < 100 ? 1 : 0)} MJ (${fixed(mj / 3.6, 1)} kWh)`,
-      shuttle: `${fixed((196 * r.energyPerTonneJ) / 1e9, 1)} GJ`,
+      shuttle: `${fixed((165 * r.energyPerTonneJ) / 1e9, 1)} GJ`,
     });
     path.setAttribute('d', curve(g, dM));
     const x = cx(dM);

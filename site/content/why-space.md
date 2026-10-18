@@ -46,7 +46,7 @@ Real microgravity work is already under way. NASA reports that the International
 
 ## Propellant is a market
 
-Every ship in cislunar space needs fuel, and most of a chemical rocket's propellant is oxygen. The shuttle that carries 96 passengers to Earth burns methane and oxygen, 68 tonnes on a round trip: 53 tonnes of oxygen and 15 of methane. Oxygen is about 78 percent of that mass, and lunar rock is 43 percent oxygen. Only the carbon and hydrogen in the methane come from elsewhere, mostly from asteroids. Every tonne of oxygen a ship loads here is a tonne that did not climb out of Earth's gravity, which at 2018 Falcon 9 prices cost $2.7 million.
+Every ship in cislunar space needs fuel, and most of a chemical rocket's propellant is oxygen. The shuttle that carries 96 passengers to Earth orbit runs on methane and oxygen, 68 tonnes loaded for a round trip: 53 tonnes of oxygen and 15 of methane. Oxygen is about 78 percent of that mass, and lunar rock is 43 percent oxygen. Only the carbon and hydrogen in the methane come from elsewhere, mostly from asteroids. Every tonne of oxygen a ship loads here is a tonne that did not climb out of Earth's gravity, which at 2018 Falcon 9 prices cost $2.7 million.
 
 Water ice from the lunar poles and from asteroids is the other half. Split it and you have hydrogen and oxygen for engines. Concordia's tank farm sits beyond the forward end, and ships top up there without carrying fuel for the whole trip from Earth. The launch track cuts the propellant a departing ship must carry by about 30 tonnes.
 
