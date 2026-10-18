@@ -148,11 +148,11 @@
   {
     "id": "sci-lunar-swingby",
     "chapter": "lunarSwingby",
-    "alt": "The Moon filling much of the view at true scale as the shuttle passes it on the way home, with Earth small and far beyond.",
+    "alt": "The Concordia shuttle at midcourse, halfway through the 5 day fall to Earth.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
-    "note": "for /science/getting-there/: swing-by"
+    "note": "for /science/getting-there/: midcourse"
   },
   {
     "id": "sci-earth-arrival",

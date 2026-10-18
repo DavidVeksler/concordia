@@ -138,7 +138,7 @@ The finished station is about 2.05 x 10^12 kg, about two billion tonnes. The tab
 | Launch track | about 10 km at 1.5 g for about 37 s | {% basis "challenge" %} | Cuts the propellant for departure | v = a t = 544 m/s (derived) |
 | Exit speed | about 540 m/s | {% basis "design" %} | First leg of the trip |  |
 | Launch energy | about 146 MJ per tonne | {% basis "physics" %} | Kinetic energy at exit | 0.5 m v^2 (derived) |
-| Earth transfer | about 15 days | {% basis "physics" %} | Lunar swing-by on day 6 |  |
+| Earth transfer | about 5 days | {% basis "physics" %} | Direct fall, one midcourse trim on day 2 |  |
 | Capture burn | 395 m/s at 400 km perigee | {% basis "physics" %} | Into a 21 h orbit |  |
 
 <!-- facts: sections 5, 7 -->

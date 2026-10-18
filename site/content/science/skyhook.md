@@ -27,7 +27,7 @@ It gives up 4.6 km/s, and the spaceplane leaves the lower tip at 5.35 km/s. The 
 
 The Concordia shuttle never touches air. It is a carrier with four engines and a vacuum cabin module with 98 couches, 165 tonnes at launch. A shuttle built to land would haul wings, flaps and a heat shield to L5 and back on every trip. The cabin module weighs 27 tonnes dry, 0.28 tonnes per seat, against 0.6 for the old lifting-body coach. {% basis "design" %}
 
-So the trip is cut in two. The shuttle flies the 15 days from L5 and docks at a transfer station, a bare truss 420 m long in a 950 by 47,527 km orbit, one lap in 14.8 hours. Passengers cross to a spaceplane: a lifting body that lands on a runway and never goes farther from Earth than the station. The skyhook is the way down. {% basis "design" %}
+So the trip is cut in two. The shuttle falls for 5 days from L5 and docks at a transfer station, a bare truss 420 m long in a 950 by 47,527 km orbit, one lap in 14.8 hours. Passengers cross to a spaceplane: a lifting body that lands on a runway and never goes farther from Earth than the station. The skyhook is the way down. {% basis "design" %}
 
 {% explore chapter="transferStation" label="Dock at the transfer station" %} {% explore chapter="earthArrival" label="Ride the arrival" %}
 

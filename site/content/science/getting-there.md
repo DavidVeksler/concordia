@@ -1,10 +1,10 @@
 ---
 title: Getting there from L5
-description: Concordia sits at Earth-Moon L5. A 10 km launcher gives the first 540 m/s, then the shuttle takes 15 days and a lunar swing-by to a transfer station. A skyhook then cuts the entry to 5.4 km/s.
-lead: Concordia floats in the Earth-Moon L5 region, 384,400 km from Earth. A passenger leaves on a 10 km electromagnetic launcher, which gives the first push for free, flies a 15 day path past the Moon to a transfer station in Earth orbit, and rides a spaceplane down. The launcher is only the first leg.
+description: Concordia sits at Earth-Moon L5. A 10 km launcher gives the first 540 m/s, then the shuttle falls for 5 days to a transfer station. A skyhook then cuts the entry to 5.4 km/s.
+lead: Concordia floats in the Earth-Moon L5 region, 384,400 km from Earth. A passenger leaves on a 10 km electromagnetic launcher, which gives the first push for free, falls for 5 days to a transfer station in Earth orbit, and rides a spaceplane down. The launcher is only the first leg.
 nav: science
 order: 12
-updated: 2026-10-10
+updated: 2026-10-18
 related:
   - /science/skyhook/
   - /science/materials/
@@ -27,7 +27,7 @@ L5 was chosen for five reasons: low-energy access to lunar material, access to E
 
 The passenger launcher is a track about 10 km long on the outside of the hull. A carrier on a levitated keel accelerates at 1.5 g for 37 seconds and leaves the end at about 540 m/s. Nothing touches the track at speed. {% basis "challenge" %}
 
-It costs 24 GJ per launch, 0.65 GW on average and 1.31 GW at the peak, a few percent of the station's power. In return the shuttle saves about 28 tonnes of propellant. It does not reach Earth by itself. 540 m/s is a fraction of what the trip needs, and everything after it comes from the shuttle's own engines and the Moon. The station does not turn quickly, so launches go in scheduled windows. {% basis "design" %}
+It costs 24 GJ per launch, 0.65 GW on average and 1.31 GW at the peak, a few percent of the station's power. In return the shuttle saves about 28 tonnes of propellant. It does not reach Earth by itself. 540 m/s is two thirds of the push the trip needs, and the rest comes from the shuttle's own engines. The station does not turn quickly, so launches go in scheduled windows. {% basis "design" %}
 
 {% shots "sci-launch-track" "The track from outside: gantries and a levitated keel run 10 km along the hull. Nothing touches the track at speed." "sci-launcher-cabin" "The ride from inside: 98 couches, a window band and a shelter bulkhead, held at 1.5 g for 37 seconds." %}
 
@@ -37,29 +37,32 @@ It costs 24 GJ per launch, 0.65 GW on average and 1.31 GW at the peak, a few per
 
 ## The delta-v budget
 
-{% term "delta-v" "Delta-v" %} is the change in speed a ship can make, the standard currency of spaceflight. After the launcher, the shuttle spends about 816 m/s on a one-way trip to capture at the transfer station.
+{% term "delta-v" "Delta-v" %} is the change in speed a ship can make, the standard currency of spaceflight. After the launcher, the shuttle spends about 847 m/s on a one-way trip to capture at the transfer station.
 
-{% diagram "transfer-orbit" "The path from L5, past the Moon on day 6, to Earth capture on day 15. Not to scale." %}
+{% diagram "transfer-orbit" "Half an ellipse from L5 to capture on day 5, with the Moon far off the whole way. Not to scale." %}
 
 | Step | Delta-v | Where |
 | --- | --- | --- |
 | Launcher | 540 m/s | The track, no propellant |
-| Departure burn | about 250 m/s | Leaving L5 |
-| Lunar swing-by | 0 | The Moon bends the path |
+| Departure burn | 281 m/s | Leaving L5 |
 | Midcourse | about 20 m/s | Trim |
 | Station capture | 546 m/s | At 950 km perigee |
 
-The return leg is estimated at 926 m/s. With methane and oxygen engines at 380 s specific impulse, the shuttle needs 65 tonnes of propellant for a round trip and carries 68, 53 t of oxygen and 15 t of methane. The oxygen is the part that comes from the Moon. Only the carbon and hydrogen for the methane have to come from elsewhere (see [materials](/science/materials/)). {% basis "physics" %}
+The return leg is estimated at 926 m/s; it still loops past the Moon, because a direct return would cost 1,447 m/s. With methane and oxygen engines at 380 s specific impulse, the shuttle needs 66 tonnes of propellant for a round trip and carries 68, 53 t of oxygen and 15 t of methane. The oxygen is the part that comes from the Moon. Only the carbon and hydrogen for the methane have to come from elsewhere (see [materials](/science/materials/)). {% basis "physics" %}
 
-## Fifteen days and a Moon
+## Five days, straight down
 
-The path takes 15 days. A {% term "transfer orbit" %} is a path from one orbit to another. This one is slow on purpose: the shuttle spends time instead of propellant. At day 6, 42 percent of the way, the shuttle swings past the Moon with its engines off. A {% term "gravity assist" %} lets the Moon's gravity bend the path, at no cost in propellant. From the window the Moon is huge: at the closest approach it is about 50 degrees across, a hundred times wider than it looks from Earth. Earth starts at 1.9 degrees and grows to about 10 degrees later in the trip. {% basis "physics" %}
+The path takes 5 days. A {% term "transfer orbit" %} is a path from one orbit to another, and this one is the cheapest there is: half an ellipse whose top is at lunar distance and whose bottom grazes the transfer station's orbit, 950 km above Earth. The launcher and the departure burn together take 821 m/s off the station's 1,018 m/s around Earth, and the shuttle falls. Halfway, on day 2, a 20 m/s trim is the only burn until the capture. {% basis "physics" %}
+
+The Moon never comes closer than 372,000 km, so it looks the size it does from Earth the whole trip. {% basis "physics" %}
+
+A path past the Moon, a {% term "gravity assist" %}, saves 31 m/s but takes 15 days. Falling direct costs about 1.5 tonnes more propellant on a 165 tonne stack and saves 10 days. Faster gets expensive: 4 days costs another 2 tonnes, 3 days another 12. {% basis "design" %}
 
 Then comes the capture. At a {% term "perigee" %} of 950 km the shuttle fires its engines for 546 m/s and enters the transfer station's orbit, 950 by 47,527 km, one lap in about 14.8 hours. This burn is what turns a fly-by into an arrival. The perigee stays above 950 km because a skyhook sweeps everything below 750 km.
 
-{% shot "sci-lunar-swingby" "The Moon at true scale during the swing-by." %}
+{% shot "sci-lunar-swingby" "Midcourse, day 2: the stack coasting toward Earth, one short trim burn on the way." %}
 
-{% explore chapter="lunarSwingby" label="Fly past the Moon" %} {% explore chapter="earthTransfer" %} {% explore viewpoint="earth-moon-context" %}
+{% explore chapter="lunarSwingby" label="Ride the midcourse" %} {% explore chapter="earthTransfer" %} {% explore viewpoint="earth-moon-context" %}
 
 ## The station, the skyhook and the spaceplane
 
@@ -80,7 +83,9 @@ The released spaceplane reaches the 120 km entry interface 110 seconds later at 
 {% deeper "Worked example: launch, capture and the skyhook" basis="physics" %}
 Launcher: a = 1.5 × 9.807 = 14.7 m/s². Over L = 10 km, v = √(2aL) = √(2 × 14.7 × 10,000) = 542 m/s, in t = v ÷ a = 36.9 s. The energy for a 165 t stack is ½mv² = 0.5 × 165,000 × 542² = 24.2 GJ, in line with 24 GJ over 37 s, an average of 0.65 GW.
 
-Propellant: the exhaust speed of a 380 s engine is 380 × 9.807 = 3.73 km/s. By the rocket equation, Δv = vₑ ln(m₀ ÷ m₁), so 816 m/s needs m₀ ÷ m₁ = e^(0.816 ÷ 3.73) = 1.245, which is about 20 percent of the starting mass in propellant, one way, before the return.
+Departure: the station moves round Earth at √(μ ÷ 384,400) = 1.018 km/s. At the top of an ellipse from 384,400 km down to r = 7,321 km (a = 195,861 km) the speed is √(μ × (2 ÷ 384,400 − 1 ÷ 195,861)) = 0.197 km/s, so the launcher and the departure burn must take off 1.018 − 0.197 = 0.821 km/s: 540 m/s from the track, 281 m/s from the engines. Half the ellipse takes π × √(a³ ÷ μ) = 431,000 s, 4.99 days.
+
+Propellant: the exhaust speed of a 380 s engine is 380 × 9.807 = 3.73 km/s. By the rocket equation, Δv = vₑ ln(m₀ ÷ m₁), so 847 m/s needs m₀ ÷ m₁ = e^(0.847 ÷ 3.73) = 1.255, which is about 20 percent of the starting mass in propellant, one way, before the return.
 
 Capture: a body falling from the Moon's distance to a perigee 950 km above the surface (r = 7,321 km) reaches, by the vis-viva equation,
 

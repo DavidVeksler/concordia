@@ -56,7 +56,7 @@ Each orbit near Earth is best for something. Only one suits a city that keeps gr
 
 | Orbit | Good for | Why not the city |
 | --- | --- | --- |
-| Earth-Moon {% term "L5" %} region | Room for a station, power fields, depots, parked asteroids and the next build; a short haul from the Moon | 1.28 seconds to Earth, a 15-day trip home |
+| Earth-Moon {% term "L5" %} region | Room for a station, power fields, depots, parked asteroids and the next build; a short haul from the Moon | 1.28 seconds to Earth, a 5-day trip home |
 | Near the Moon | A single yard close to lunar material | Little room for a cluster of objects kilometres across |
 | Geostationary | A quarter-second round trip to Earth | Deeper in Earth's gravity for lunar material, crowded and regulated |
 | Low Earth orbit | The shortest delay for computing | Drag, debris, no material, and two billion tonnes over people's heads |

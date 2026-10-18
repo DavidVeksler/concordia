@@ -62,7 +62,7 @@ The station is drawn at full scale: 21 km long, 100 m per scene unit, every stre
 
 - **Space is compressed.** In the scene Earth is about 590 km away, not 384,400 km, about 650 times closer. Earth, Moon and Sun are shrunk by the same factor, so they keep their real apparent sizes: Earth 1.9 degrees across, Moon and Sun 0.5. The Sun sits 389 lunar distances out, the true ratio.
 - **Flight and orbit are not physical.** Exterior speed is capped at 100 km/s (500 km/s with boost far out), and orbit capture is a scripted six second burn, not a simulated trajectory.
-- **Story time is compressed.** The 15 day Earth transfer plays in about 15 seconds. The 10 hour fall to Earth keeps the real orbit shape (70,000 km to 400 km) and plays in 24 seconds. The landfall and the lighting on it are chosen.
+- **Story time is compressed.** The 5 day Earth transfer plays in about 15 seconds. The 10 hour fall to Earth keeps the real orbit shape (70,000 km to 400 km) and plays in 24 seconds. The landfall and the lighting on it are chosen.
 - **The sky is a display, and its sun is a patch.** A true size sun would give the city 7 lx, so the sky shows an 18 degree glow. One directional light lights the city, and filtering stands in for the soft shadow edge.
 - **The stars are not a catalogue.** Both star fields are seeded random points, so the constellations are not real. Exposure adapts as you look, and stars fade toward the Sun.
 - **The Sun's surface is illustrative artwork.** Earth and Moon use NASA and Solar System Scope maps.

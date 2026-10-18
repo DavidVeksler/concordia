@@ -119,15 +119,15 @@ From 29 km out the whole station fits in one window. It is a grey mountain 21 km
 {% endchapter %}
 
 {% chapter "lunarSwingby" %}
-Six days out, the Moon fills the window, about 50 degrees across, a hundred times wider than it looks from Earth. The engines are off. The carrier passes about 2,400 km above the surface and the craters slide by. The family floats at the glass. The Moon's gravity bends the path toward Earth at no cost in propellant, and the moment of the pass sets the length of the trip.
+Two days out, halfway down. The shuttle is falling straight toward Earth on the shortest path there is, and the Moon hangs far off, no bigger than it looks from home. A 20 m/s trim fires for a few seconds and the family feels the couches press, the only push between the launch and the capture.
 
-**The idea:** a gravity assist turns the path for free, and when you pass the Moon sets the 15 days.
+**The idea:** the cheapest way down is half an ellipse, and it takes 5 days.
 
 {% shot "jr-lunar-swingby" %}
 {% endchapter %}
 
 {% chapter "earthTransfer" %}
-Earth is a small blue disc, about ten degrees wide, and it grows every hour. The stars around it are fixed and sharp. The days are compressed, so the readout counts them off against the 15 of the trip. A midcourse burn trims the path and the family braces. For the first time, the old world looks like a place they can reach.
+Earth is a small blue disc, about ten degrees wide, and it grows every hour. The stars around it are fixed and sharp. The days are compressed, so the readout counts them off against the 5 of the trip. For the first time, the old world looks like a place they can reach.
 
 **The idea:** a transfer needs three burns: departure, a small midcourse correction and the capture burn at the far end.
 
@@ -159,7 +159,7 @@ The guided tour takes about {{tourMinutes}} minutes at a reading pace, with a sh
 | Ascender | 16 s | 595 s, average 4.0 m/s, cruise 5.5 m/s |
 | Spine express | 9 s | 140 m/s along the tube |
 | Launch | 43 s | 37 s at 1.5 g to 540 m/s |
-| Earth transfer | under a minute | 15 days, with a lunar swing-by at day 6 |
+| Earth transfer | under a minute | 5 days, one trim burn at day 2 |
 | Dock at the transfer station | 14 s | the last 30 minutes of the approach |
 | Skyhook catch and release | 76 s | about 7.4 hours of fall, then the 8 minute half-turn |
 

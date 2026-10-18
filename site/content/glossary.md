@@ -65,7 +65,7 @@ The train in the spine that runs the length of the station at 140 m/s in zero g.
 Fast atomic nuclei from outside the solar system. They are hard to stop, so the station relies on sheer mass: metres of regolith, plus water near where people sleep. See [radiation and debris](/science/radiation-and-debris/).
 
 ### Gravity assist
-Using a planet or moon's gravity to bend or speed a path for free. Concordia's Earth transfer swings past the Moon on day 6. See [getting there](/science/getting-there/).
+Using a planet or moon's gravity to bend or speed a path for free. Concordia's Earth transfer used to swing past the Moon; the return to L5 still does. See [getting there](/science/getting-there/).
 
 ### Gravity gradient
 How much gravity changes across a distance. Across a standing person in a Concordia rotor it is 0.07 percent of 1 g, too small to feel. See [artificial gravity](/science/artificial-gravity/).
@@ -176,7 +176,7 @@ Small, continuous corrections that hold a station on its intended path. Concordi
 Heat radiated per square metre grows with the fourth power of temperature. It sets how big the radiators must be. See [power and heat](/science/power-and-heat/).
 
 ### Transfer orbit
-The path a ship follows to move from one orbit to another. Concordia's Earth transfer takes about 15 days. See [getting there](/science/getting-there/).
+The path a ship follows to move from one orbit to another. Concordia's Earth transfer takes about 5 days. See [getting there](/science/getting-there/).
 
 ### Volatiles
 Light elements and compounds that boil off easily: water, carbon, nitrogen and hydrogen. They are scarce on the Moon and plentiful in carbonaceous asteroids. See [materials](/science/materials/).

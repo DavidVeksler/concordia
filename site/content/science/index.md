@@ -32,7 +32,7 @@ Nothing needs math to follow. The deeper blocks are there for students and engin
 - [Flying in a spinning world](/science/gliding/): fly a glider in a rotor, drop a ball and stand still in space.
 - [Materials](/science/materials/): regolith, asteroid volatiles and the stores.
 - [Mining the Moon and asteroids](/science/mining/): what still comes from Earth, the bag haulers, and lunar rock at scale.
-- [Getting there](/science/getting-there/): L5, the launcher, the 15 day Earth transfer and the transfer station.
+- [Getting there](/science/getting-there/): L5, the launcher, the 5 day Earth transfer and the transfer station.
 - [Skyhook](/science/skyhook/): a rotating tether that swaps speed between two spaceplanes and halves the entry speed.
 - [Safety](/science/safety/): what changed since the 1970s, and why no single failure reaches everyone.
 
