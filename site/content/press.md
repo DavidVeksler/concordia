@@ -6,7 +6,7 @@ lead: "Concordia is a 21 km rotating city at the Earth-Moon L5 region that anyon
 nav: station
 order: 99
 hero: film-habitat-pullback
-updated: 2026-10-14
+updated: 2026-10-19
 schema: WebPage
 related:
   - /about/
@@ -55,7 +55,7 @@ David Veksler designed it and directs the work. AI coding agents write much of t
 
 ## Film {#film}
 
-A 1 minute 44 second film of the guided tour, in 4K: [watch on YouTube](https://youtu.be/gvfHlFigOD4). There is no voice-over.
+A 2 minute 40 second film of the guided tour, in 4K: [watch on YouTube](https://www.youtube.com/watch?v=mm8N9qUu4BQ). There is no voice-over.
 
 ## Images {#images}
 
