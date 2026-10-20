@@ -1,5 +1,6 @@
 ---
-title: A day aboard
+title: "A day in a rotating space city"
+h1: "A day aboard"
 description: Follow a family of five from breakfast in Rotor 1 to a shuttle bound for Earth. Seventeen stops show gravity, the artificial sky, the spine and the launcher, each with a link into the live simulation.
 lead: A family of five lives in the Arbor Quarter of Tsiolkovsky (Rotor 1). Today they leave Concordia for Earth. The route takes them through a neighborhood, a metro, a sky, a farm, a spine, a shipyard and a launcher, and each stop teaches one idea.
 nav: journey

@@ -1,5 +1,6 @@
 ---
-title: Glossary
+title: "Space habitat glossary"
+h1: "Glossary"
 description: 59 terms used across the Concordia guide, from aeroponics and angular momentum to Whipple shield, each in one or two plain sentences and each linked to the page that explains it.
 lead: 59 terms from physics, space flight and station design, each in a sentence or two. Each entry links to the page that explains it best.
 nav: station

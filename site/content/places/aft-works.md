@@ -1,5 +1,6 @@
 ---
-title: 'Aft works'
+title: "Aft works: the power station of a space city"
+h1: "Aft works"
 description: 'The aft end of Concordia is its power station: four HVDC landing masts, two black-start reactors, twelve thruster pods, and inside the hull a converter hall and a service bay for tugs.'
 lead: 'The back of the station is where the electricity comes in. Eight tethers run 7 km aft to the solar farm, four masts land the power, two reactors can restart everything after a blackout, and a ring of thrusters keeps the station steady.'
 hero: pl-aft-far

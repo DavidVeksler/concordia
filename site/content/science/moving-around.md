@@ -1,5 +1,6 @@
 ---
-title: Moving around a spinning world
+title: "Metros, lifts and trains in a rotating habitat"
+h1: "Moving around a spinning world"
 description: Walking, metros, radial lifts and the zero-g express all behave differently inside a rotor. See why a train can weigh you 0.66 g or 1.33 g, and how you cross from a spinning city to a still spine.
 lead: In Concordia you walk, ride the metro, take a lift to the axis and cross to other rotors by train. Each trip feels a different piece of the spin. Going along the axis costs nothing, going around the circle changes your weight, and going up makes gravity fade.
 nav: science

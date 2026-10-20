@@ -1,8 +1,8 @@
 ---
-title: "Concordia: a guide to a rotating space habitat"
+title: "Concordia: a rotating space city you can walk in 3D"
 h1: Concordia
-description: "Concordia is a rotating space habitat at Earth-Moon L5: four spinning O'Neill-style cylinder cities built from lunar and asteroid material. Learn the science, then walk inside it in 3D."
-lead: Walk the streets of a city that spins at Earth-Moon L5, as far from Earth as the Moon, then ride from Earth-normal weight to weightlessness.
+description: "Concordia is a rotating space city at Earth-Moon L5, descended from the O'Neill cylinder: four rotor cities, a shipyard and a spaceport on a 21 km axis. Learn how it works, then walk its streets."
+lead: "Walk the streets of a space city that spins at Earth-Moon L5, as far from Earth as the Moon, then ride from Earth-normal weight to weightlessness."
 hero: film-end-lookback
 nav: home
 updated: 2026-10-13
@@ -26,6 +26,10 @@ Concordia sits in the Earth-Moon L5 region, 384,400 km from home. It was not lau
 {% endfacts %}
 
 {% shot "st-district-skyline" "A district of Tsiolkovsky (Rotor 1), with the megaframe overhead." %}
+
+## A space colony built as a city
+
+A space colony is a settlement in orbit that people live in for good, not a station they visit for a tour of duty. Gerard O'Neill proposed the rotating-cylinder version in the 1970s. Concordia carries that idea through: four O'Neill-style cylinder cities with a stationary shield around them, an industrial rotor, Ehricke, beside them and room for a million people. [How it differs from the 1970s design](/station/#oneill-cylinder) is on the station page.
 
 ## Start here
 

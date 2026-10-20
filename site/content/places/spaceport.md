@@ -1,5 +1,6 @@
 ---
-title: 'The spaceport'
+title: "Space habitat spaceport: a zero-g terminal"
+h1: "The spaceport"
 description: 'Concordia''s passenger terminal is a zero-g nave 460 m long: three processing rings, five gates, conveyors of handles to ride, rotating comfort lounges, freight piers and a propellant farm.'
 lead: 'Everyone who arrives from Earth or the Moon comes through the spaceport at the forward end. Passengers float through a zero-g terminal; freighters berth on long piers outside; propellant waits in a tank farm well clear of the station.'
 hero: pl-spaceport-terminal

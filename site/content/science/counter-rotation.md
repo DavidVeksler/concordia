@@ -1,6 +1,7 @@
 ---
-title: Counter-rotation and momentum
-description: "A spinning city is a giant gyroscope. See how Concordia turns its four rotors in opposite pairs so the total spin is zero, and how momentum rings absorb the small remainder."
+title: "Counter-rotating space habitats and momentum"
+h1: "Counter-rotation and momentum"
+description: "A spinning space station is a giant gyroscope. See how Concordia turns its four rotors in opposite pairs so the total spin is zero, and how momentum rings absorb the small remainder."
 lead: "A spinning city is a giant gyroscope, and a gyroscope fights every push that tries to tilt it. Concordia spins its four city rotors in opposite pairs, so the total spin is zero. Two momentum rings take care of the small remainder."
 hero: sci-cr-gallery
 nav: science

@@ -1,5 +1,6 @@
 ---
-title: 'The exterior'
+title: "Exterior of a 21 km space habitat"
+h1: "The exterior"
 description: 'Seen from outside, Concordia is a 21 km mountain of cassette-covered truss, radiator banks, launch tracks, defence batteries and a fleet of satellites.'
 lead: 'From outside, Concordia is a grey cylinder 21 km long and 6.2 km wide. Its skin is a shielding truss, not a pressure vessel, and around it hang radiators, dishes, launch tracks, defence batteries and seven free-flying satellites.'
 hero: film-habitat-pullback

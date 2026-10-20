@@ -1,6 +1,6 @@
 ---
-title: "Skyhook: a tether that swaps speed, not fuel"
-description: A 600 km tether turns half a revolution in 8 minutes, hands 4.6 km/s from an inbound spaceplane to an outbound one, and cuts Earth entry from 11 to 5.4 km/s. Scrub the half-turn and see why.
+title: "Rotating skyhook vs space elevator explained"
+description: "A 600 km orbiting tether, not a space elevator, turns half a revolution in 8 minutes and hands 4.6 km/s between spaceplanes, cutting Earth entry from 11 to 5.4 km/s. Scrub the half-turn."
 lead: A spinning tether 600 km long catches one spaceplane as it arrives and another as it leaves, turns half a revolution in 8 minutes, and lets both go. What the arriving craft loses, the departing craft gains. No propellant buys the speed, and the family's entry into the air starts at 5.4 km/s instead of 11.
 h1: The rotating skyhook
 crumb: Skyhook
@@ -22,6 +22,10 @@ About 7.6 km/s
 ---
 It gives up 4.6 km/s, and the spaceplane leaves the lower tip at 5.35 km/s. The same tether hands the other spaceplane the same 4.6 km/s, so the pair swaps speeds. {% basis "physics" %}
 {% endpredict %}
+
+## Skyhook or space elevator? {#not-an-elevator}
+
+A space elevator is a fixed cable from the ground up to geostationary orbit, about 35,786 km above the equator, with riders climbing it. The skyhook is a different machine. It is 600 km long, it orbits Earth at the hub's 450 km and turns end over end, and it never touches the ground. Spaceplanes fly up to it and are caught, so nobody climbs anything. It trades a 35,786 km cable for a 600 km one that moves, and the price is a tether heavy enough to need a facility many times the payload. {% basis "design" %}
 
 ## Why the arrival splits across two vehicles {#two-vehicles}
 

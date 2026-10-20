@@ -1,5 +1,6 @@
 ---
-title: Concordia by the numbers
+title: "Concordia by the numbers: size, spin, air and power"
+h1: "Concordia by the numbers"
 crumb: By the numbers
 description: Every key Concordia value in one place, grouped by system. Each row gives the number, why it is that number, and the formula where one applies. Size, spin, air, power, heat and travel.
 lead: The values that define Concordia, grouped by system. Each row says what the number is, why it is that number, and where a formula gives it. Rounded values are in the body of the site. These are the exact ones.

@@ -1,5 +1,6 @@
 ---
-title: 'The axis and the spine'
+title: "The axis and spine: zero gravity at the center"
+h1: "The axis and the spine"
 description: 'At the centre of Concordia the city stops weighing anything. A stationary 120 m spine, spin-decoupling locks, an express train and bridges tie four rotors and the ports together.'
 lead: 'At the centre of every rotor you weigh almost nothing, and a stationary tube 120 m wide runs the whole length of the station. Passengers change from the spinning city to the still spine here, then ride an express to wherever they are going.'
 hero: pl-axis-stationary

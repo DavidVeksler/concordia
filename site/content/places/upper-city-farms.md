@@ -1,6 +1,7 @@
 ---
-title: 'Upper city farms'
-description: 'Concordia grows its food at 0.6 g in pressurized grow halls high in the rotor: twelve decks of racks, aeroponic towers, a process wing and freight pods that carry salad and bread down to the city.'
+title: "Farming in space: Concordia's upper-city farms"
+h1: "Upper city farms"
+description: "Space farming in practice: Concordia grows its food at 0.6 g in pressurized grow halls, with twelve decks of racks, aeroponic towers, a process wing and freight pods that carry salad and bread down."
 lead: 'Food is grown high in each rotor, where gravity is 0.6 g and the air is the same air the city breathes. A grow hall of twelve decks, a process wing and a loading dock turn light and water into salad, bread and bottled drinks.'
 hero: pl-farm-grow-deck
 nav: places
@@ -13,7 +14,7 @@ related:
 map: "#vp-farm-grow-deck"
 ---
 
-## What you see
+## Inside a space farm: the grow hall {#what-you-see}
 
 The farm of Tsiolkovsky (Rotor 1) sits on the 1,000 m ring level. The floor is 1,500 m from the axis, so gravity is 0.60 g. A link bridge connects it to the ascender, and the visitor gallery looks along a deck of the grow hall.
 
@@ -27,7 +28,7 @@ Next to the hall is the process wing. Totes arrive on a belt and pass the wash t
 
 Ordinary food leaves on freight pods from the dock: crates of salad, trays of loaves, bottles and wrapped pallets. The fermenters are about 50 m tall and make roughly 2 t of product an hour. Fermentation supplies protein and other ingredients alongside the crops.
 
-## Why up here
+## Why farm at 0.6 g {#why-up-here}
 
 Partial gravity is preferred to none for growing, and a food factory does not need to be near the streets. Putting farms at 0.4 to 0.6 g keeps the 1 g ground for parks, schools and homes. Above about 800 m the frame is an atmospheric service district, not housing: utilities, crop galleries and process halls.
 

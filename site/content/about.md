@@ -1,5 +1,6 @@
 ---
-title: About this site
+title: "About Concordia: a speculative space habitat"
+h1: "About this site"
 description: Concordia is a speculative design built as an interactive simulation. The physics is real, the numbers come from its engineering specification, and the 2045 history is fiction. Credits and licence.
 lead: Concordia is a speculative design, built as an interactive simulation. The physics is real, the numbers come from the station's engineering specification, and the 2045 history is fiction.
 nav: station

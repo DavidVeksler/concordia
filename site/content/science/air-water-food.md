@@ -1,6 +1,7 @@
 ---
-title: Air, water and food
-description: "Concordia breathes sea-level air, drinks recycled water and eats food grown in the upper city. See how the loops close, what leaks, and how the Moon and asteroids top them up."
+title: "Air, water and food in a space habitat"
+h1: "Air, water and food"
+description: "A space habitat breathes sea-level air, drinks recycled water and eats food grown in the upper city. See how the loops close, what leaks, and how the Moon and asteroids top them up."
 lead: "Concordia breathes air at Earth sea-level pressure, drinks water it has used many times and eats food grown in the upper city. The loops are almost closed. What leaks out is replaced from the Moon and the asteroids."
 hero: sci-awf-farm
 nav: science

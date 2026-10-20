@@ -1,5 +1,6 @@
 ---
-title: 'Arbor Quarter'
+title: "Arbor Quarter: a neighbourhood in a space city"
+h1: "Arbor Quarter"
 description: 'Arbor Quarter is a groundside neighbourhood in rotor 1 at a full 1 g: mid-rise streets, a lake park, civic landmarks and a metro on viaducts, all under an artificial sky 450 m up.'
 lead: 'Arbor Quarter is a neighbourhood on the floor of Tsiolkovsky (Rotor 1), where the ground weighs what it does on Earth. It has streets, schools, a lake park and a metro line, and a sky 450 metres overhead.'
 hero: pl-arbor-street

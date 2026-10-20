@@ -1103,9 +1103,9 @@
     },
     {
       "id": "racer-pit",
-      "name": "Racer Dock (Tug Bay T4)",
+      "name": "Racer Dock (R1)",
       "group": "Racer",
-      "purpose": "The two-seat racer in the fourth tug cradle of the spaceport bay, 10,060 m along the spine, with the umbilical arms, latches and spring pushers it launches from; it climbs out of the cradle and leaves through the forward port. B launches it; ?racer=launch starts the sequence on load (docs/specs/exo-racer-spec.md section 6).",
+      "purpose": "The two-seat racer on its level launch table atop the spaceport jacket, 10,205 m along the spine, with the ready room, lock tower, boarding gangway, umbilical arms and latches it launches from; it lifts off the dock and leaves through the forward port. B launches it; ?racer=launch starts the sequence on load (docs/specs/exo-racer-spec.md section 6).",
       "location": "space",
       "chapter": "exterior"
     },

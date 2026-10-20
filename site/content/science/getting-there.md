@@ -1,5 +1,6 @@
 ---
-title: Getting there from L5
+title: "Earth to L5 travel: launcher, shuttle, skyhook"
+h1: "Getting there from L5"
 description: Concordia sits at Earth-Moon L5. A 10 km launcher gives the first 540 m/s, then the shuttle falls for 5 days to a transfer station. A skyhook then cuts the entry to 5.4 km/s.
 lead: Concordia floats in the Earth-Moon L5 region, 384,400 km from Earth. A passenger leaves on a 10 km electromagnetic launcher, which gives the first push for free, falls for 5 days to a transfer station in Earth orbit, and rides a spaceplane down. The launcher is only the first leg.
 nav: science

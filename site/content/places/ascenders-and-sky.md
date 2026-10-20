@@ -1,5 +1,6 @@
 ---
-title: 'Ascenders and the sky'
+title: "Ascender lift to the axis of a space habitat"
+h1: "Ascenders and the sky"
 description: 'A radial lift called the ascender climbs 2,380 m from the street to the axis in about ten minutes, passing through the artificial sky and watching gravity fall away.'
 lead: 'The {% term "ascender" %} is a lift 2.4 km tall. It carries 150 people from the street through the artificial sky to the axis in about ten minutes, and on the way your weight drops to almost nothing.'
 hero: pl-sky-breakthrough

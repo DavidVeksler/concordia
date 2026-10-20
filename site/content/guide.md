@@ -1,5 +1,6 @@
 ---
-title: How to explore Concordia
+title: "Concordia simulation guide: modes and controls"
+h1: "How to explore Concordia"
 description: "A guide to the live simulation: Story, Explore and Engineer modes, keyboard and mouse controls, interface levels, shareable links, the twelve engineering overlays and settings for slower machines."
 lead: The simulation has three modes, one key map and a link format that opens any view you find. This page covers all of it, from the first step through the front door to the twelve engineering overlays.
 nav: journey

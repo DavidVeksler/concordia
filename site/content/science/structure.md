@@ -1,5 +1,6 @@
 ---
-title: Structure and pressure
+title: "Structure and pressure of a rotating habitat"
+h1: "Structure and pressure"
 description: "How a 5 km wide rotor holds in sea-level air while spinning, why a prebuilt megaframe lattice carries the city, and why the end walls are inhabited cliffs 2.4 km tall."
 lead: "A rotor is a pressure vessel 5 km across and 2.5 km long. It holds in a full atmosphere while spinning under the weight of a city. A lattice of ribs carries the buildings, and a separate stationary truss carries the shielding."
 hero: sci-st-midg

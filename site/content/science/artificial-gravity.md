@@ -1,6 +1,7 @@
 ---
-title: Artificial gravity
-description: "Spin makes weight. See why a rotor 5 km wide gives Concordia a full 1 g at the ground, how weight fades to zero at the axis, and what the Coriolis effect does to a dropped coin."
+title: "Artificial gravity: how spin makes 1 g in space"
+h1: "Artificial gravity"
+description: "Spin makes weight. See how a rotor 5 km wide gives a space habitat a full 1 g at the ground, how weight fades to zero at the axis, and what the Coriolis effect does to a dropped coin."
 lead: "Concordia makes gravity by turning. Each city rotor is a cylinder 5 km wide that spins once every 100 seconds, and the floor is the inside of its outer wall. Climb toward the axis and your weight drains away until you float."
 hero: sky-breakthrough
 nav: science
@@ -23,7 +24,7 @@ Once every 100 seconds, 0.6 turns a minute. The ground then moves at 157 m/s, an
 
 Want the numbers first? [Jump to the calculators](#try-it).
 
-## Weight from motion
+## How artificial gravity works: weight from motion {#weight-from-motion}
 
 Ride in a car through a sharp bend and you slide toward the door. Nothing pulled you sideways. The car turned, you tried to go straight, and the door pushed you back into the curve. That push is all weight is. On Earth the ground pushes up against gravity. In a rotor the floor pushes you around the circle, and the push feels the same.
 

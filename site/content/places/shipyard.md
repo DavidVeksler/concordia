@@ -1,5 +1,6 @@
 ---
-title: 'The zero-g shipyard'
+title: "Zero-g shipyard: building ships in space"
+h1: "The zero-g shipyard"
 description: 'In a vacuum yard 3.5 km long, spacecraft are built without gravity. Meridian 04, a 700 m crew and cargo ship, floats on tension lines among robots, tugs and tanks.'
 lead: 'The shipyard is a stationary vacuum yard about 3.5 km long, with no floor and no up. Ships are built here because a 700 m hull weighs nothing, so it needs no cradle and no crane, only soft hands and a lot of patience.'
 hero: pl-shipyard-hero

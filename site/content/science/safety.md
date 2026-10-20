@@ -1,5 +1,6 @@
 ---
-title: "Safety: what changed since the 1970s"
+title: "Space habitat safety since the 1970s"
+h1: "Safety: what changed since the 1970s"
 crumb: Safety
 description: "Concordia keeps the 1970s O'Neill cylinder and redesigns it for failure: no windows, a shield that stands still, four sealed cities, and no single part whose failure reaches everyone."
 lead: "Gerard O'Neill and NASA's 1975 summer study showed that a city in space could be built. Concordia asks a second question: what happens when part of it breaks? The answer changed the shape of the station. There are no windows, the shield stands still, the city is four sealed cities, and no single failure can reach everyone."

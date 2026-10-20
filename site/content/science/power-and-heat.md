@@ -1,5 +1,6 @@
 ---
-title: Power and heat
+title: "Power and heat in a space habitat"
+h1: "Power and heat"
 description: Concordia draws 20 to 25 GW from solar platforms parked far from the hull, sized toward 40 GW and delivered by HVDC at the aft end. Every watt ends as heat, which radiators shed.
 lead: Concordia gets its power from the Sun, through solar platforms kilometres behind the station, and sheds all of it as heat through radiators. In space there is no air or water to carry heat away, so the radiator area sets how much power a city can use.
 nav: science

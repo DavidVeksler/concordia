@@ -1,7 +1,8 @@
 ---
-title: Five generations of space habitats
+title: "Space habitats from Salyut 1 to a space city"
+h1: "Five generations of space habitats"
 crumb: Generations
-description: From Salyut 1 in 1971 to Concordia in 2041, five generations of space habitat each proved one thing. See what each one added and why the fifth is the first built as a city.
+description: "From Salyut 1 in 1971 to Concordia in 2041, five generations of space habitat each proved one thing. See how the Stanford torus and O'Neill cylinder led to the first space city built from the Moon."
 lead: Every space habitat has proved one new thing. The first showed people can live in orbit. The second showed someone will pay for it. Concordia, the fifth, is the first built as a city from material that was never on Earth.
 nav: station
 order: 2
@@ -64,6 +65,10 @@ Three things make the fifth generation different.
 
 {% shot "st-megaframe-base" "The foot of the megaframe, the prebuilt lattice that holds the elevated city." %}
 
+## Stanford torus, Bernal sphere and O'Neill cylinder {#1975-designs}
+
+Three shapes anchor the design history of the space colony. The {% term "Stanford torus" %}, from the 1975 NASA and Stanford summer study, is a wheel for 10,000 people. The Bernal sphere, which O'Neill called Island One, takes its shape from J. D. Bernal's 1929 sketch of a spherical habitat. The O'Neill cylinder, Island Three, is the largest of the three and the one Concordia is built on: a tube whose big radius gives 1 g at a slow, comfortable spin.
+
 {% deeper "Where the shape comes from" %}
 Concordia descends from the {% term "O'Neill cylinder" %}, the rotating-cylinder settlement that Gerard O'Neill proposed in the 1970s and that NASA's 1975 summer study worked up as a design in 1977. The cylinder fixes a simple rule: a big radius gives gravity at a slow, comfortable spin. A radius of 2,500 m needs only 0.6 rpm for 1 g.
 
@@ -73,6 +78,7 @@ Concordia keeps the cylinder and changes the rest. It has four rotors instead of
 <!-- facts: sections 2, 3, 6, 10 -->
 
 {% sources %}
+- Wikipedia, "Bernal sphere" (Island One, J. D. Bernal's 1929 spherical habitat): [en.wikipedia.org/wiki/Bernal_sphere](https://en.wikipedia.org/wiki/Bernal_sphere).
 - NASA, "International Space Station facts and figures" (mass 419,725 kg, pressurized volume 1,005 m3, continuously occupied since November 2000): [nasa.gov](https://www.nasa.gov/international-space-station/space-station-facts-and-figures/).
 - Wikipedia, "Salyut 1" (launched 19 April 1971): [en.wikipedia.org/wiki/Salyut_1](https://en.wikipedia.org/wiki/Salyut_1).
 - Wikipedia, "Skylab" (launched 14 May 1973, three crews, 171 days): [en.wikipedia.org/wiki/Skylab](https://en.wikipedia.org/wiki/Skylab).

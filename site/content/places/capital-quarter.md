@@ -1,5 +1,6 @@
 ---
-title: 'The capital quarter'
+title: "Capital quarter: law and money in a space city"
+h1: "The capital quarter"
 description: 'Noordung (Rotor 2) is the capital of Concordia: the Exchange prices the station''s energy and compute, Charter Hall seats the Charter Authority and the Court settles disputes.'
 lead: 'Three stone halls on the streets of Noordung (Rotor 2) run the station''s money and its law: the Exchange, Charter Hall and the Court. They stand on the ground at a full 1 g, under the same artificial sky as the houses around them.'
 hero: pl-capital-exchange

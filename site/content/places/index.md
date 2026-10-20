@@ -1,5 +1,6 @@
 ---
-title: 'Places in Concordia'
+title: "Places in a rotating space city"
+h1: "Places in Concordia"
 crumb: 'Places'
 description: 'A guided tour of Concordia from Arbor Quarter and the capital, up through the sky to the axis, then out to the factory, shipyard, spaceport, power works and hull. Each place opens in the sim.'
 lead: 'Concordia is a 21 km station of streets, farms, factories and docks. Start on the ground at a full 1 g, climb toward the axis where weight vanishes, then follow the station out to its ports and its skin.'

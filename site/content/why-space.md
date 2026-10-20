@@ -1,5 +1,6 @@
 ---
-title: Why we build in space
+title: "Why build a space city? The commercial case"
+h1: "Why we build in space"
 crumb: Why space
 description: "The commercial case for a city at L5: continuous sunlight, a shallow gravity well on the Moon, room to grow, factories that work better in zero g, and a propellant market. With the numbers."
 lead: Concordia exists because it pays. Sunlight is steady, the Moon is easy to leave, and some industries work better without a floor. A city follows once the industry is there.

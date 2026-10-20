@@ -1,5 +1,6 @@
 ---
-title: Who pays for Concordia
+title: "Who pays for a space city? Concordia's economy"
+h1: "Who pays for Concordia"
 crumb: Economy
 description: "No trend line from the 2020s builds a two-billion-tonne city by 2045. Here is what changed, who paid, what Concordia sells, why it sits at L5 and who lives here."
 lead: "Nothing in the old trend lines builds a city of two billion tonnes in ten years. Two breaks did: machines that build more machines, and the wealth that followed when most work on Earth was automated. Concordia is not a company town. Its industry needs few hands, and the wealth it makes stays in orbit."

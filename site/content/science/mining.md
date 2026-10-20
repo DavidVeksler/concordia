@@ -1,5 +1,6 @@
 ---
-title: Mining the Moon and asteroids
+title: "Mining the Moon and asteroids with mass drivers"
+h1: "Mining the Moon and asteroids"
 crumb: Mining
 description: What Concordia still buys from Earth and what it digs up instead. Metal-rich asteroids bagged and hauled to L5 first, then lunar mass drivers, and lunar dust melted into brick.
 lead: "Concordia buys almost nothing heavy from Earth. Its first metal came from small asteroids, bagged whole and hauled to L5. The bulk came later from the Moon, thrown off the surface by mass drivers. This page follows the rock from where it lies to the stores in Ehricke (the industrial rotor)."

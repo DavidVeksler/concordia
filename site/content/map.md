@@ -1,5 +1,6 @@
 ---
-title: Station map
+title: "Space station map: a 21 km rotating city"
+h1: "Station map"
 description: Concordia as a map, with the whole 21 km station from the side, each rotor's city unrolled into a flat plan, the industrial rotor in three bands and a pin for every public view.
 lead: A rotor's floor is the inside of a cylinder. Cut it along one street and lay it flat and you get a strip 15.7 km long and 2.5 km wide, and its left and right edges are the same street. This page maps all of Concordia that way, with a pin for every view you can open in the simulation.
 nav: map

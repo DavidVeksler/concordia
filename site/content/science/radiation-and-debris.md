@@ -1,6 +1,7 @@
 ---
-title: Radiation and debris
-description: "Space sends fast particles and small rocks at every habitat. See how Concordia answers with mass, a layered shield stack, storm shelters and a watch for anything bigger than a fist."
+title: "Radiation shielding and debris in space habitats"
+h1: "Radiation and debris"
+description: "Space sends fast particles and small rocks at every habitat. See how Concordia answers with mass: a layered shield stack, storm shelters and a watch for anything bigger than a fist."
 lead: "Space is full of fast particles and drifting rocks. Concordia answers with mass: a thick layered shell of regolith and water, shelters for solar storms, and a layered watch for anything big enough to matter."
 hero: sci-rad-hull
 nav: science

@@ -1,5 +1,6 @@
 ---
-title: How Concordia was built
+title: "How Concordia was built from the Moon and asteroids"
+h1: "How Concordia was built"
 crumb: Building Concordia
 description: Why a city of a million could not be launched from Earth, and how the Moon and captured asteroids supplied it. Factory first, then the shell, then four rotors spun up in small steps.
 lead: "A city weighs about two billion tonnes. No rocket fleet carries that. Concordia was built the other way round: first a factory at L5, fed by lunar rock and captured asteroids, then the city that the factory made."

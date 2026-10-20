@@ -1,5 +1,6 @@
 ---
-title: 'The industrial rotor'
+title: "Industrial rotor: factories in partial gravity"
+h1: "The industrial rotor"
 description: 'A 3.5 km open-truss rotor turning against its neighbour O''Neill at 0.45 g holds Concordia''s refining, fabrication and stores, including lunar feedstock and asteroid volatiles.'
 lead: 'Ehricke, the industrial rotor, is the factory floor. It is a skeleton of rings and girders 3.5 km long, turning opposite O''Neill (Rotor 4), the nearest city rotor, with refineries, tank farms, container racks and robots in an open vacuum. People rarely go in.'
 hero: pl-industrial-wide

@@ -1,5 +1,6 @@
 ---
-title: Flying in a spinning world
+title: "Flying inside a rotating space habitat"
+h1: "Flying in a spinning world"
 crumb: Flying
 description: Fly backward fast enough inside a Concordia rotor and your wing needs no lift at all. Test it, see why it happens, and watch what a released object really does near the axis.
 lead: "Inside a rotor, weight is not a pull. It is the push it takes to bend your path into a circle. Fly against the spin at the speed the floor turns and there is no circle left to bend: your wing needs no lift, and you hang still against the stars while the city turns around you."
