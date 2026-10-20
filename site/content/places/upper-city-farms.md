@@ -6,7 +6,7 @@ lead: 'Food is grown high in each rotor, where gravity is 0.6 g and the air is t
 hero: pl-farm-grow-deck
 nav: places
 order: 5
-updated: 2026-10-10
+updated: 2026-10-20
 related:
   - /places/ascenders-and-sky/
   - /places/megaframe-city/
@@ -42,6 +42,12 @@ Children and routine healthcare stay near 1 g, so the farms are workplaces first
 
 Water is the other loop. The farms recover it continuously, and what slips away is topped up from the asteroid ice held in Ehricke, [the industrial rotor](/places/industrial-rotor/).
 
+## The food loop {#food-loop}
+
+The grow hall is one end of the city's food loop. Nitrate from the sewer lane and from the fish tanks feeds the decks. What the crops leave, stalks, roots and trimmings, feeds black soldier fly larvae, and larval meal and air protein feed the tilapia and the hens in the halls beside the grow hall. Their sludge and manure go back to the digesters. Power is cheap enough here that protein can be grown from hydrogen and carbon dioxide, and only about 2 percent of the city's food comes from Earth, most of it wine, coffee and other luxuries. The full chain is in [from sewer to supper](/science/air-water-food/#from-sewer-to-supper). {% basis "design" %}
+
+{% diagram "food-loop" "The food loop: the sewer lane ends in nitrate, salts and CO2 for the crop decks, and the food lane turns crops, residue, larvae and air protein into meals." %}
+
 ## Key numbers
 
 {% facts %}
@@ -55,7 +61,7 @@ Water is the other loop. The farms recover it continuously, and what slips away 
 {% deeper "Facility levels and methods" %}
 Three levels of the frame carry service uses. At 625 m (0.75 g), one slot in four on the plate quarters is a utility plant for reclaimed water, nutrients and ventilation. At 1,000 m (0.60 g) are the crop galleries and process halls. At 1,500 m (0.40 g) are specialist process and crop research halls.
 
-The farms use {% term "hydroponics" %}, aeroponics, stacked crops, fungi, algae, precision fermentation and microbial protein. The grow hall's twelve decks give about 500,000 m² of growing area.
+The farms use {% term "hydroponics" %}, aeroponics, stacked crops, fungi, algae, precision fermentation, microbial protein, insect larvae, fish tanks and hen barns. The grow hall's twelve decks give about 500,000 m² of growing area.
 
 Every flow is tracked by element. There is no landfill: water, carbon, nitrogen, phosphorus, metals, glass and polymers are all recovered.
 {% enddeeper %}
