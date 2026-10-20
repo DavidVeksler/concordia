@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-labelledby="fl-title fl-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
+  <title id="fl-title">The waste and protein loop</title>
+  <desc id="fl-desc">Two lanes. The sewer lane: sewage from people is split into urine and solids, digested at 55 degrees Celsius, burned to sterile ash, and comes out as nitrate, mineral salts and carbon dioxide, which go down to the crop decks and the air-protein vats. The food lane: crop decks and air-protein vats feed people directly; inedible crop residue feeds black soldier fly larvae; larval meal and air protein feed tilapia and hens, which feed people. Earth imports, about 2 percent of food, also go to people.</desc>
+  <defs>
+    <marker id="fl-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="currentColor"/></marker>
+  </defs>
+  <g fill="currentColor" font-size="15" opacity="0.85">
+    <text x="20" y="28">Sewer lane: heat first, so nothing raw reaches a plant or an animal</text>
+    <text x="430" y="292">Food lane</text>
+  </g>
+  <g stroke="currentColor" stroke-width="1.5">
+    <rect x="20" y="44" width="155" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="225" y="44" width="155" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="430" y="44" width="155" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="635" y="44" width="155" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="20" y="174" width="155" height="70" rx="6" fill="var(--accent-2)" fill-opacity="0.3"/>
+    <rect x="20" y="304" width="155" height="70" rx="6" fill="var(--surface-2)" stroke-dasharray="5 4"/>
+    <rect x="225" y="304" width="155" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="430" y="304" width="155" height="70" rx="6" fill="var(--surface-2)"/>
+    <rect x="635" y="304" width="155" height="70" rx="6" fill="var(--accent)" fill-opacity="0.35"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="97" y="76" font-weight="600">Sewer</text><text x="97" y="98">urine, solids</text>
+    <text x="302" y="76">Digesters</text><text x="302" y="98">55 °C, biogas</text>
+    <text x="507" y="76">Burned to</text><text x="507" y="98">sterile ash</text>
+    <text x="712" y="76">Nitrate, salts</text><text x="712" y="98">and CO2</text>
+    <text x="97" y="215" font-weight="600">People</text>
+    <text x="97" y="336">Earth imports</text><text x="97" y="358">2%, luxuries</text>
+    <text x="302" y="336">Tilapia</text><text x="302" y="358">and hens</text>
+    <text x="507" y="336">Larvae on</text><text x="507" y="358">crop residue</text>
+    <text x="712" y="336" font-weight="600">Crop decks</text><text x="712" y="358">air protein</text>
+  </g>
+  <g stroke="currentColor" stroke-width="2" fill="none" marker-end="url(#fl-arrow)">
+    <line x1="97" y1="174" x2="97" y2="116"/>
+    <line x1="175" y1="79" x2="223" y2="79"/><line x1="380" y1="79" x2="428" y2="79"/><line x1="585" y1="79" x2="633" y2="79"/>
+    <line x1="750" y1="114" x2="750" y2="302"/>
+    <polyline points="670,304 670,209 177,209"/>
+    <line x1="635" y1="339" x2="587" y2="339"/>
+    <line x1="430" y1="339" x2="382" y2="339"/>
+    <polyline points="712,374 712,410 302,410 302,376"/>
+    <line x1="260" y1="304" x2="150" y2="246"/>
+    <line x1="97" y1="304" x2="97" y2="246"/>
+  </g>
+  <g fill="currentColor" font-size="13" text-anchor="middle">
+    <text x="420" y="200">food</text>
+    <text x="611" y="330">residue</text>
+    <text x="406" y="330">meal</text>
+    <text x="507" y="430">air protein as feed</text>
+  </g>
+  <g fill="currentColor" font-size="14" opacity="0.85">
+    <text x="20" y="458">Frass from the larvae goes to the parks. Fish water goes through nitrifying filters to the crops.</text>
+  </g>
+</svg>
