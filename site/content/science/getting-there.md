@@ -96,7 +96,7 @@ v = √( μ × (2 ÷ r - 1 ÷ a) )
 
 with μ = 398,600 km³/s² and a = (7,321 + 384,400) ÷ 2 = 195,861 km, v = 10.34 km/s. The station's orbit has a = (7,321 + 53,898) ÷ 2 = 30,610 km, so the speed at its perigee is 9.79 km/s. The capture burn is the difference, 0.546 km/s.
 
-Skyhook: the tether's upper tip moves at 9.94 km/s at the top of its swing and the lower tip at 5.35 km/s at the bottom. A spaceplane caught at one tip and released at the other changes speed by 9.94 − 5.35 = 4.60 km/s.
+Skyhook: the tether's upper tip moves at 9.94 km/s at the top of its swing and the lower tip at 5.34 km/s at the bottom. A spaceplane caught at one tip and released at the other changes speed by 9.94 − 5.34 = 4.60 km/s.
 {% enddeeper %}
 
 <!-- facts: section 7 (Transport outward), section 1 (Orbit), section 8 (chapters 12 to 17) -->

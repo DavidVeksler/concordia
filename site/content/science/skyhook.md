@@ -20,7 +20,7 @@ About 1 km/s
 About 4.6 km/s
 About 7.6 km/s
 ---
-It gives up 4.6 km/s, and the spaceplane leaves the lower tip at 5.35 km/s. The same tether hands the other spaceplane the same 4.6 km/s, so the pair swaps speeds. {% basis "physics" %}
+It gives up 4.6 km/s, and the spaceplane leaves the lower tip at 5.34 km/s. The same tether hands the other spaceplane the same 4.6 km/s, so the pair swaps speeds. {% basis "physics" %}
 {% endpredict %}
 
 ## Skyhook or space elevator? {#not-an-elevator}
@@ -37,9 +37,9 @@ So the trip is cut in two. The shuttle falls for 5 days from L5 and docks at a t
 
 ## One tether, two craft {#swap}
 
-A tether turning end over end is a lever in orbit. The hub sits in a circular orbit 450 km up, moving at 7.644 km/s. Two arms of 300 km each carry a terminal at the end. At the top of its swing the upper terminal is at 750 km and moves at 9.94 km/s, 2.30 km/s faster than the hub. Half a turn later the same terminal is at the bottom, at 150 km, moving at 5.35 km/s, 2.30 km/s slower. {% basis "design" %}
+A tether turning end over end is a lever in orbit. The hub sits in a circular orbit 450 km up, moving at 7.644 km/s. Two arms of 300 km each carry a terminal at the end. At the top of its swing the upper terminal is at 750 km and moves at 9.94 km/s, 2.30 km/s faster than the hub. Half a turn later the same terminal is at the bottom, at 150 km, moving at 5.34 km/s, 2.30 km/s slower. {% basis "design" %}
 
-A spaceplane arriving from the station falls onto the upper terminal on an orbit whose lowest point is exactly that tip, so it meets the tip tangentially. A spaceplane climbing from Earth coasts up onto the lower terminal the same way. Both are caught at the same moment, one at each end. Eight minutes and half a turn later the tether lets go. The family's craft leaves the bottom at 5.35 km/s, 4.60 km/s slower than it arrived. The other leaves the top at 9.94 km/s, 4.60 km/s faster. {% basis "physics" %}
+A spaceplane arriving from the station falls onto the upper terminal on an orbit whose lowest point is exactly that tip, so it meets the tip tangentially. A spaceplane climbing from Earth coasts up onto the lower terminal the same way. Both are caught at the same moment, one at each end. Eight minutes and half a turn later the tether lets go. The family's craft leaves the bottom at 5.34 km/s, 4.60 km/s slower than it arrived. The other leaves the top at 9.94 km/s, 4.60 km/s faster. {% basis "physics" %}
 
 This is conservation of momentum, nothing else. The two craft weigh about the same, so one gives and the other takes, and the hub's orbit barely moves.
 
@@ -62,11 +62,11 @@ That is the trade: expensive rocket propellant for cheap solar power. Giving or 
 150 to 750 km | Tips sweep this band
 480 s | One half-turn
 9.94 km/s | Upper tip at the top
-5.35 km/s | Lower tip at the bottom
+5.34 km/s | Lower tip at the bottom
 4.60 km/s | Handed across, each way
 {% endfacts %}
 
-{% widget "skyhook-half-turn" "At capture the family's spaceplane is at the top at 9.94 km/s and the spaceplane from Earth is at the bottom at 5.35 km/s. Eight minutes later they have swapped: 5.35 and 9.94 km/s." %}
+{% widget "skyhook-half-turn" "At capture the family's spaceplane is at the top at 9.94 km/s and the spaceplane from Earth is at the bottom at 5.34 km/s. Eight minutes later they have swapped: 5.34 and 9.94 km/s." %}
 
 In the widget, the family's craft is amber and the one from Earth is teal. Drag to the left of capture to see them approach, one from behind and above and one from ahead and below. Drag to the right of release and the family's craft drops away behind and below, the other climbs away ahead. That is what losing and gaining speed looks like from the hub. {% basis "physics" %}
 
@@ -86,7 +86,7 @@ The real tether is thinner than any pixel the simulation can draw. At 2 to 12 cm
 
 ## Why the entry is gentler {#entry}
 
-Released at the bottom, the family's spaceplane is on a suborbital path: 5.35 km/s at 150 km, 2.47 km/s below the speed that would keep it in orbit there. It reaches the 120 km entry interface 110 seconds later at 5.40 km/s, 5.8 degrees below horizontal. {% basis "physics" %}
+Released at the bottom, the family's spaceplane is on a suborbital path: 5.34 km/s at 150 km, 2.47 km/s below the speed that would keep it in orbit there. It reaches the 120 km entry interface 110 seconds later at 5.40 km/s, 5.8 degrees below horizontal. {% basis "physics" %}
 
 Without the skyhook, a craft from lunar distance meets the air at 11.0 km/s. The kinetic energy to shed per kilogram goes with the square of speed, and (5.4 ÷ 11)² is 0.24: about a quarter. The ballistic upper bound on peak deceleration is 7.7 g, and lift brings it lower. {% basis "physics" %}
 
@@ -100,7 +100,7 @@ The final burn in the story is not a deorbit burn, since the path already meets 
 
 ## What is not settled {#open}
 
-**The ascent from the ground.** The spaceplane from Earth must reach the lower tip at 5.35 km/s and 150 km. That needs a booster stage or a hypersonic carrier aircraft of the kind HASTOL proposed, and Concordia does not choose between them. This page covers the arrival, not the climb. {% basis "challenge" %}
+**The ascent from the ground.** The spaceplane from Earth must reach the lower tip at 5.34 km/s and 150 km. That needs a booster stage or a hypersonic carrier aircraft of the kind HASTOL proposed, and Concordia does not choose between them. This page covers the arrival, not the climb. {% basis "challenge" %}
 
 **Simultaneous catches.** HASTOL does not propose catching a payload going up while another comes down; its authors handled the two on adjacent orbits (Grant et al. 2001, PDF p. 25). Concordia keeps the paired catch, because a symmetric tether makes the swap clean and the momentum exchange visible. If one catch is missed, the other is a single catch, which is the case HASTOL designed for. HASTOL also arranged its throw so that a craft that misses its catch still re-enters. {% basis "challenge" %}
 
