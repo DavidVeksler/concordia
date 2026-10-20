@@ -36,6 +36,10 @@
  "pins": [
   {"id":"residential-street","href":"/explore/?viewpoint=residential-street","section":"rotor-1","x":1500,"y":2035,"s":0,"u":15,"heightM":2,"g":0.998},
   {"id":"groundside-park","href":"/explore/?viewpoint=groundside-park","section":"rotor-1","x":1589,"y":2285,"s":89,"u":-235,"heightM":2,"g":0.998},
+  {"id":"brook-spring","href":"/explore/?viewpoint=brook-spring","section":"rotor-1","x":10083,"y":1947,"s":8583,"u":103,"heightM":8,"g":0.996},
+  {"id":"brook-stones","href":"/explore/?viewpoint=brook-stones","section":"rotor-1","x":10149,"y":1932,"s":8649,"u":118,"heightM":7,"g":0.996},
+  {"id":"brook-glen","href":"/explore/?viewpoint=brook-glen","section":"rotor-1","x":10264,"y":1940,"s":8764,"u":110,"heightM":6,"g":0.997},
+  {"id":"brook-falls","href":"/explore/?viewpoint=brook-falls","section":"rotor-1","x":10307,"y":1946,"s":8807,"u":105,"heightM":3,"g":0.998},
   {"id":"district-skyline","href":"/explore/?viewpoint=district-skyline","section":"rotor-1","x":11318,"y":2770,"s":9818,"u":-720,"heightM":2,"g":0.998},
   {"id":"rotor2-civic-street","href":"/explore/?viewpoint=rotor2-civic-street","section":"rotor-2","x":2181,"y":1307,"s":681,"u":743,"heightM":2,"g":0.998},
   {"id":"rotor2-lakeshore","href":"/explore/?viewpoint=rotor2-lakeshore","section":"rotor-2","x":13731,"y":2948,"s":12231,"u":-898,"heightM":2,"g":0.998},

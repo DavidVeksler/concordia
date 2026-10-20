@@ -51,6 +51,54 @@
       "map": "/map/#vp-groundside-park"
     },
     {
+      "id": "brook-spring",
+      "name": "Arbor Brook: The Spring",
+      "group": "Residential",
+      "purpose": "The knoll top above the spring pool of Arbor Brook, the axis of the park running away to the end wall over the meadow and the planted belt.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-brook-spring"
+    },
+    {
+      "id": "brook-stones",
+      "name": "Arbor Brook: Stepping Stones",
+      "group": "Residential",
+      "purpose": "The meadow run of Arbor Brook from the bank by the stepping stones, looking upstream to the knoll along a shallow stream between soft banks.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-brook-stones"
+    },
+    {
+      "id": "brook-glen",
+      "name": "Arbor Brook: The Glen",
+      "group": "Residential",
+      "purpose": "The glen path at the second pool of Arbor Brook, looking downstream where the stream drops through small steps under the canopy.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-brook-glen"
+    },
+    {
+      "id": "brook-falls",
+      "name": "Arbor Brook: The Falls",
+      "group": "Residential",
+      "purpose": "The falls terrace at the lower end of Arbor Brook: the stream leaves the glen over a drop of 2.4 m into a plunge pool, with the city climbing the curve of the rotor behind.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-brook-falls"
+    },
+    {
+      "id": "brook-overfly-start",
+      "name": "Arbor Brook: Overfly Start (QA)",
+      "group": "Residential",
+      "purpose": "First key of the S38 brook overfly: 0.4 m over the water of the glen reach, facing downstream. Capture view with no site page.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
       "id": "district-skyline",
       "name": "District Skyline",
       "group": "Residential",

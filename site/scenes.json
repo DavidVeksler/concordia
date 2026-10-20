@@ -12,6 +12,30 @@
     "shot": "sc-groundside-park"
   },
   {
+    "viewpoint": "brook-spring",
+    "title": "Arbor Brook: the spring",
+    "blurb": "The top of the knoll in Arbor Brook, a park stream built on made ground. The spring pool sits at your feet and the park runs away along its axis toward the end wall.",
+    "shot": "sc-brook-spring"
+  },
+  {
+    "viewpoint": "brook-stones",
+    "title": "Arbor Brook: stepping stones",
+    "blurb": "A shallow stretch of Arbor Brook where a line of stepping stones crosses the stream. Upstream the bank rises to the knoll.",
+    "shot": "sc-brook-stones"
+  },
+  {
+    "viewpoint": "brook-glen",
+    "title": "Arbor Brook: the glen",
+    "blurb": "The glen reach of Arbor Brook, where the stream drops through small steps and pools under the canopy, with the path running alongside.",
+    "shot": "sc-brook-glen"
+  },
+  {
+    "viewpoint": "brook-falls",
+    "title": "Arbor Brook: the falls",
+    "blurb": "The lower end of Arbor Brook. The stream leaves the glen over a drop of 2.4 m into a plunge pool, and the city climbs the curve of the rotor above the berm.",
+    "shot": "sc-brook-falls"
+  },
+  {
     "viewpoint": "district-skyline",
     "title": "District skyline",
     "blurb": "Crowned towers, spires and one signature landmark seen from a park lawn 1.1 km away. Every skyline here is a cluster of landmarks set against the curve of the world.",

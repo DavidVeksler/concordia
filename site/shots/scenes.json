@@ -18,6 +18,42 @@
     "note": "scene atlas"
   },
   {
+    "id": "sc-brook-spring",
+    "viewpoint": "brook-spring",
+    "alt": "A knoll top above a round spring pool, with meadow and trees running away toward the end wall of the rotor.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-brook-stones",
+    "viewpoint": "brook-stones",
+    "alt": "A shallow stream between grassy banks with a line of stepping stones, the knoll rising upstream and the city beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-brook-glen",
+    "viewpoint": "brook-glen",
+    "alt": "A narrow stream stepping down between mossy banks and a stone path under trees.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
+    "id": "sc-brook-falls",
+    "viewpoint": "brook-falls",
+    "alt": "A small waterfall dropping into a plunge pool beside a grassed berm, with towers and the curve of the city rising behind.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas, station map pin"
+  },
+  {
     "id": "sc-district-skyline",
     "viewpoint": "district-skyline",
     "alt": "A cluster of tall crowned towers and spires rising above a park lawn, with the curve of the city beyond.",
