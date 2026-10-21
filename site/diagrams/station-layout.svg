@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 348" role="group" aria-labelledby="sl-title sl-desc" font-family="DM Sans, system-ui, sans-serif">
 <title id="sl-title">Concordia seen from the side along its 21 km axis</title>
-<desc id="sl-desc">Side view to scale from the aft end at minus 10.5 km to the propellant farm at about plus 12 km. From aft: aft works, Tsiolkovsky and Noordung (Rotors 1 and 2) turning one way, Bernal and O'Neill (Rotors 3 and 4) turning the other, the momentum bay, Ehricke (the industrial rotor) in an open bay, the shipyard cage with a ship floating above the spine, the spaceport and piers, and the propellant farm beyond. A stationary spine runs down the middle and the launch track runs along the top between minus 5 and plus 5 km. Arrows show which way the near surface of each rotor moves. Each part links to its map section or place page.</desc>
-<metadata id="sl-meta">{"kind":"side-view","mapLinks":true,"generator":"a51fa8fd11a9","source":{"hullR":3100,"rotorCenters":[-7800,-5000,-2200,600],"zones":{"momentumBay":[1850,2750],"industrial":[2750,6250],"shipyard":[6250,9400],"rotorHalfLength":1250}}}</metadata>
+<desc id="sl-desc">Side view to scale from the aft end at minus 10.5 km to the propellant farm at about plus 12 km. From aft: aft works, Tsiolkovsky and Noordung (Rotors 1 and 2) turning one way, Bernal and O'Neill (Rotors 3 and 4) turning the other, the momentum bay, Ehricke (the industrial rotor) in an open bay, the shipyard cage with a ship floating above the spine, the spaceport and piers, and the propellant farm beyond. A stationary spine runs down the middle and the launch track runs along the top from minus 5 km to plus 9.7 km, the last 4.7 km of it a staging guideway to the spaceport. Arrows show which way the near surface of each rotor moves. Each part links to its map section or place page.</desc>
+<metadata id="sl-meta">{"kind":"side-view","mapLinks":true,"generator":"f6dc6569ed3e","source":{"hullR":3100,"rotorCenters":[-7800,-5000,-2200,600],"zones":{"momentumBay":[1850,2750],"industrial":[2750,6250],"shipyard":[6250,9400],"rotorHalfLength":1250}}}</metadata>
 <!-- Coordinates: x = 20 + (station x + 10500) * 0.033480, y = 170 - station y * 0.033480 (metres). See scripts/site/map/plan-coords.mjs sideToSvg. -->
 <g stroke="currentColor" stroke-width="1.5" fill="none"><rect x="20" y="66.2" width="443.6" height="207.6" fill="var(--surface-2)"/></g>
 <g stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 4" fill="none" opacity="0.7"><line x1="463.6" y1="66.2" x2="580.8" y2="66.2"/><line x1="463.6" y1="273.8" x2="580.8" y2="273.8"/></g>
@@ -23,7 +23,7 @@
 <a href="/places/axis-and-spine/" aria-label="Momentum bay: open the axis and spine page"><rect x="433.5" y="149.9" width="30.1" height="40.2" fill="var(--muted)" fill-opacity="0.35"/></a>
 <a href="/places/spaceport/" aria-label="Spaceport and piers: open the place page"><rect x="686.3" y="119.8" width="35.8" height="100.4" fill="var(--accent)" fill-opacity="0.35"/><rect x="722.7" y="169.4" width="29.8" height="1.2" fill="currentColor"/><rect x="722.7" y="156" width="29.8" height="1.2" fill="currentColor"/><rect x="722.7" y="182.8" width="29.8" height="1.2" fill="currentColor"/></a>
 </g>
-<a href="/places/exterior/" aria-label="Launch track: open the exterior page"><line x1="204.1" y1="64.4" x2="538.9" y2="64.4" stroke="var(--accent-2)" stroke-width="3"/></a>
+<a href="/places/exterior/" aria-label="Launch track: open the exterior page"><line x1="204.1" y1="64.4" x2="697.2" y2="64.4" stroke="var(--accent-2)" stroke-width="3"/></a>
 <a href="/places/axis-and-spine/" aria-label="Stationary spine: open the axis and spine page"><line x1="23.3" y1="170" x2="686.3" y2="170" stroke="var(--accent-2)" stroke-width="3"/></a>
 <a href="/places/spaceport/" aria-label="Propellant farm: open the spaceport page"><rect x="754.6" y="224.2" width="24.1" height="22.1" fill="var(--accent-2)" stroke="currentColor"/></a>
 <g fill="currentColor" font-size="15">
@@ -32,7 +32,7 @@
 <text x="522.2" y="22" text-anchor="middle">Industrial rotor</text><line x1="522.2" y1="28" x2="522.2" y2="93" stroke="currentColor" stroke-width="1" opacity="0.5"/>
 <text x="643.4" y="22" text-anchor="middle">Shipyard cage</text><line x1="643.4" y1="28" x2="643.4" y2="70.2" stroke="currentColor" stroke-width="1" opacity="0.5"/>
 <text x="790" y="22" text-anchor="end">Spaceport</text><line x1="704.2" y1="28" x2="704.2" y2="119.8" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-<text x="371.5" y="50" text-anchor="middle">Launch track, 10 km</text><line x1="371.5" y1="53" x2="371.5" y2="63.400000000000006" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+<text x="450.7" y="50" text-anchor="middle">Launch track, 14.7 km</text><line x1="450.7" y1="53" x2="450.7" y2="63.400000000000006" stroke="currentColor" stroke-width="1" opacity="0.5"/>
 <text x="20" y="297" text-anchor="start">Stationary spine, 120 m wide</text><line x1="100.4" y1="280" x2="100.4" y2="173" stroke="currentColor" stroke-width="1" opacity="0.5"/>
 <text x="448.5" y="297" text-anchor="middle">Momentum bay</text><line x1="448.5" y1="280" x2="448.5" y2="190.1" stroke="currentColor" stroke-width="1" opacity="0.5"/>
 <text x="790" y="297" text-anchor="end">Propellant farm</text><line x1="766.6" y1="280" x2="766.6" y2="246.3" stroke="currentColor" stroke-width="1" opacity="0.5"/>
