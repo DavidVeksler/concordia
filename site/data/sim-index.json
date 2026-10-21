@@ -1334,6 +1334,32 @@
       "map": "/map/#vp-industrial-cargo-tug"
     }
   ],
+  "anchoredViewpoints": [
+    {
+      "id": "earth-transfer-station",
+      "name": "Transfer Station"
+    },
+    {
+      "id": "earth-station-berth",
+      "name": "Station: Spaceplane Berth"
+    },
+    {
+      "id": "earth-skyhook-hub",
+      "name": "Skyhook: Hub"
+    },
+    {
+      "id": "earth-skyhook-lower",
+      "name": "Skyhook: Lower Terminal"
+    },
+    {
+      "id": "earth-skyhook-upper",
+      "name": "Skyhook: Upper Terminal"
+    },
+    {
+      "id": "skyhook-wide",
+      "name": "Skyhook: Wide View"
+    }
+  ],
   "chapters": [
     {
       "index": 0,
