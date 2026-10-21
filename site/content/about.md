@@ -53,7 +53,7 @@ Every scene is listed in [the atlas](/scenes/), with a link straight into the si
 {{stat:commits}} | commits since the first line of code
 {% endfacts %}
 
-The scene runs on Three.js. The models are made in Blender, the sound effects are generated with Woosh from Sony AI, the rooms you see through the residential windows are sixteen images generated with Krea 2 Turbo and lit by the engine, and the launch film is finished in DaVinci Resolve. [The updates page](/updates/) lists every commit.
+The scene runs on Three.js. The models are made in Blender, the sound effects are generated with Woosh from Sony AI, the rooms you see through the residential and shop windows are forty-two images generated with Krea 2 Turbo and lit by the engine, and the launch film is finished in DaVinci Resolve. [The updates page](/updates/) lists every commit.
 
 ## What is real and what is styled {#styled}
 
@@ -67,7 +67,7 @@ The station is drawn at full scale: 21 km long, 100 m per scene unit, every stre
 - **The sky is a display, and its sun is a patch.** A true size sun would give the city 7 lx, so the sky shows an 18 degree glow. One directional light lights the city, and filtering stands in for the soft shadow edge.
 - **The stars are not a catalogue.** Both star fields are seeded random points, so the constellations are not real. Exposure adapts as you look, and stars fade toward the Sun.
 - **The Sun's surface is illustrative artwork.** Earth and Moon use NASA and Solar System Scope maps.
-- **The street crowd is a sample.** About 18,000 to 21,000 pedestrians per rotor walk fixed loops, from four body types. The rooms behind residential windows are sixteen painted images.
+- **The street crowd is a sample.** About 18,000 to 21,000 pedestrians per rotor walk fixed loops, from four body types. The rooms behind residential and shop windows are forty-two painted images.
 
 ## What the basis tags mean {#basis}
 
