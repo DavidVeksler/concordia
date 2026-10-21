@@ -79,5 +79,14 @@
     "ui": "clean",
     "settleMs": 4000,
     "note": "/station/ (spaceport), /why-space/"
+  },
+  {
+    "id": "st-next-station-yard",
+    "viewpoint": "next-station-yard",
+    "alt": "The next station under construction: a bare closed rotor on an open spine, hoop frames beside it, a part-placed shield, spinning construction rings and tugs.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "/station/building-concordia/ (Concordia at the same stage)"
   }
 ]

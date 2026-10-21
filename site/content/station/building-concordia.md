@@ -7,7 +7,7 @@ lead: "A city weighs about two billion tonnes. No rocket fleet carries that. Con
 nav: station
 order: 3
 hero: st-industrial-rotor-wide
-updated: 2026-10-10
+updated: 2026-10-21
 related:
   - /station/generations/
   - /science/materials/
@@ -72,6 +72,12 @@ The air for one rotor is about 45 million tonnes. Most of its nitrogen comes fro
 Rotors fill one at a time, so a defect found in rotor 1 can be corrected before the others take people. Rotors 2, 3 and 4 (Noordung, Bernal and O'Neill) follow. The fourth rotor reaches full spin in 2044. The construction rings are not taken apart: they are towed 200 km out to the next build site, where the yards have started the next station ([who pays](/station/economy/)).
 
 {% shots "sc-rotor2-civic-street" "Noordung: a civic street with a stately frontage and a green square." "sc-rotor3-terrace-street" "Bernal: a mid-rise terrace street, red roofs and a bike lane." "sc-rotor4-core-canyon" "O'Neill: the dense core, with arched frontages closing in." %}
+
+## What the build looked like
+
+You can still see the stage Concordia went through. The next station is going up 200 km away in the same order: an open spine, one bare rotor closed, hoop frames for the second, about a third of the shield placed, and the old construction rings turning at the yard. {% basis "fiction" %} {% explore viewpoint="next-station-yard" label="See it in the sim" %}
+
+{% shot "st-next-station-yard" "The next station under construction, 200 km from Concordia: a closed rotor with a part-placed shield, hoop frames for the next rotor, and three construction rings. Concordia passed through this stage." %}
 
 {% deeper "The numbers behind the build" %}
 - Finished station: about 2.05 x 10^12 kg. Four rotors at 3 x 10^11 kg each (about 45 Mt of air included in each) make 1.2 x 10^12 kg, the industrial rotor 1 x 10^11 kg, and the shielding example 7.5 x 10^11 kg. The full table is on [Concordia by the numbers](/station/by-the-numbers/).
