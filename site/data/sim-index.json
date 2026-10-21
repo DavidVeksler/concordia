@@ -16,7 +16,7 @@
       "id": "residential-street",
       "name": "Residential Street",
       "group": "Residential",
-      "purpose": "A peaceful residential street near the family home.",
+      "purpose": "A peaceful residential street near the family home",
       "location": "inside",
       "chapter": "home",
       "learnMore": "/places/arbor-quarter/#what-you-see",
