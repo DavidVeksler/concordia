@@ -364,5 +364,15 @@
     "ui": "clean",
     "settleMs": 4000,
     "note": "for /places/capital-quarter/ section The Court"
+  },
+  {
+    "id": "pl-arbor-brook",
+    "viewpoint": "brook-falls",
+    "alt": "A small waterfall drops from a stone lip into a plunge pool beside a grassed berm, with the curved city climbing the sky behind.",
+    "overlay": null,
+    "skytime": 15.5,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/arbor-quarter/ section Arbor Brook and the /see/brook-falls/ share page; skytime 15.5, at 17.5 the low sun burns out the left third of this view"
   }
 ]

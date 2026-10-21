@@ -6,6 +6,7 @@ lead: 'At the centre of every rotor you weigh almost nothing, and a stationary t
 hero: pl-axis-stationary
 nav: places
 order: 6
+group: climb
 updated: 2026-10-10
 related:
   - /places/ascenders-and-sky/

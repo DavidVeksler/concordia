@@ -6,6 +6,7 @@ lead: 'Above the streets, a lattice of piers and ring beams holds a second city 
 hero: pl-megaframe-plate
 nav: places
 order: 3
+group: ground
 updated: 2026-10-10
 related:
   - /places/arbor-quarter/

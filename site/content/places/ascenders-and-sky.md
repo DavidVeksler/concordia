@@ -6,6 +6,7 @@ lead: 'The {% term "ascender" %} is a lift 2.4 km tall. It carries 150 people fr
 hero: pl-sky-breakthrough
 nav: places
 order: 4
+group: climb
 updated: 2026-10-10
 related:
   - /places/axis-and-spine/

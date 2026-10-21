@@ -6,7 +6,8 @@ lead: 'Arbor Quarter is a neighbourhood on the floor of Tsiolkovsky (Rotor 1), w
 hero: pl-arbor-street
 nav: places
 order: 1
-updated: 2026-10-10
+group: ground
+updated: 2026-10-20
 related:
   - /places/megaframe-city/
   - /places/ascenders-and-sky/
@@ -39,6 +40,20 @@ The metro is the best place to feel the spin. It runs on viaducts 45 m above the
 {% shot "pl-arbor-metro" "The metro viaduct crossing an arterial street on its portals." %}
 
 {% explore viewpoint="metro-platform-arbor" %} {% explore viewpoint="metro-lift-arbor" %}
+
+## Arbor Brook
+
+A stream runs through the park beside the lake. It is 356 m of channel carrying 120 litres a second of the lake's own water, lifted 5.9 m by a pump in a vault at the shore and let go from a spring pool on top of a made-ground knoll. It crosses a meadow on stepping stones and a plank bridge, drops through mossy steps and mirror pools in a glen under the trees, goes over a 2.4 m falls into a plunge pool, and ends in a pond at the level of the lake. A buried pipe returns the water. Willows stand at the pool and the pond.
+
+{% shot "pl-arbor-brook" "The falls from the terrace: a 2.4 m drop into the plunge pool, a stone bridge across the lip, and the city climbing the curve of the rotor behind." %}
+
+The falls show the spin. Water takes 0.7 seconds to fall 2.4 m, and in that time the floor, which turns with the rotor, moves on. The water lands 7 cm antispinward of where it would land on Earth, where it lands plumb. Water moving along the ring weighs 1.3 percent more or less for every metre per second, spinward heavier and antispinward lighter. The brook flows antispinward at 0.3 to 0.6 m/s, so its water weighs 0.4 to 0.8 percent less than standing water. Flow along the axis feels nothing.
+
+The brook also runs downhill toward a horizon that climbs. It falls 5.9 m over 356 m of channel, and the floor under that stretch of ground turns 6.5 degrees upward. Look along the ring from the terrace and ground 1,500 m away hangs 437 m up. The shallow reaches can be waded at half speed. You hear the brook from 60 m away and the falls from 120 m.
+
+{% explore viewpoint="brook-spring" %} {% explore viewpoint="brook-stones" %} {% explore viewpoint="brook-glen" %} {% explore viewpoint="brook-falls" %}
+
+<!-- facts: section 5, Arbor Brook -->
 
 ## Key numbers
 

@@ -6,6 +6,7 @@ lead: 'Food is grown high in each rotor, where gravity is 0.6 g and the air is t
 hero: pl-farm-grow-deck
 nav: places
 order: 5
+group: climb
 updated: 2026-10-20
 related:
   - /places/ascenders-and-sky/

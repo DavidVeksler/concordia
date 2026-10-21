@@ -6,6 +6,7 @@ lead: 'Everyone who arrives from Earth or the Moon comes through the spaceport a
 hero: pl-spaceport-terminal
 nav: places
 order: 9
+group: works
 updated: 2026-10-13
 related:
   - /places/shipyard/

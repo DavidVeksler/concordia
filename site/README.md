@@ -45,6 +45,7 @@ titleSuffix: false                 # skip the " | Concordia" suffix
 stub: true                         # marks placeholder pages (the build reports their count)
 question: Why ...?                 # discovery pages only (with discover: true): the card title; see docs/content.md "Add a discovery"
 hubGrid: discover                  # hub only: render the child pages as discovery cards (shot thumbnail + question)
+hubGrid: gallery                   # hub only: child pages as picture cards (their hero) under category headings; needs hub groups: [{ id, title, blurb }] and group: <id> on every child (build fails otherwise). Used by /places/
 ---
 ```
 

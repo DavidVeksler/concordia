@@ -6,6 +6,7 @@ lead: 'The shipyard is a stationary vacuum yard about 3.5 km long, with no floor
 hero: pl-shipyard-hero
 nav: places
 order: 8
+group: works
 updated: 2026-10-10
 related:
   - /places/industrial-rotor/

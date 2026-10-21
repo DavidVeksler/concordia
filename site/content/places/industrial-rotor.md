@@ -6,6 +6,7 @@ lead: 'Ehricke, the industrial rotor, is the factory floor. It is a skeleton of 
 hero: pl-industrial-wide
 nav: places
 order: 7
+group: works
 updated: 2026-10-10
 related:
   - /places/shipyard/

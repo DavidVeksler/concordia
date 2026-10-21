@@ -6,6 +6,7 @@ lead: 'The back of the station is where the electricity comes in. Eight tethers 
 hero: pl-aft-far
 nav: places
 order: 10
+group: outside
 updated: 2026-10-10
 related:
   - /places/axis-and-spine/

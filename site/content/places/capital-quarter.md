@@ -6,6 +6,7 @@ lead: 'Three stone halls on the streets of Noordung (Rotor 2) run the station''s
 hero: pl-capital-exchange
 nav: places
 order: 2
+group: ground
 updated: 2026-10-16
 related:
   - /station/economy/

@@ -6,6 +6,7 @@ lead: 'From outside, Concordia is a grey cylinder 21 km long and 6.2 km wide. It
 hero: film-habitat-pullback
 nav: places
 order: 11
+group: outside
 updated: 2026-10-10
 related:
   - /places/aft-works/
