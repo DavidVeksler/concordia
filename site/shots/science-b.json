@@ -284,8 +284,8 @@
   {
     "id": "sci-hauler-tow",
     "static": true,
-    "alt": "A long solar-electric tug with wide blue solar wings pushes a net bag cinched around a dark metallic asteroid chunk, the Moon behind.",
-    "note": "for /science/mining/ (hero): Blender render, scripts/assets/build-hauler.ps1"
+    "alt": "A solar-electric tug with wide blue wings pushes a net bag around a metal asteroid chunk, plume blazing, the Moon and Earth beyond.",
+    "note": "for /science/mining/ (hero): cinematic Blender render, scripts/assets/build-hauler.ps1, docs/cinematic-render.md"
   },
   {
     "id": "sci-hauler-capture",
