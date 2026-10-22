@@ -23,6 +23,14 @@
       "map": "/map/#vp-residential-street"
     },
     {
+      "id": "walk-in-lobby",
+      "name": "Walk-in: Apartment Lobby",
+      "group": "Residential",
+      "purpose": "Eight metres from the street door of an apartment building, facing it. Hold W to walk up: the door opens, and inside are a lobby with a stair, mailboxes and a bench and a corridor behind doors that open. Almost every other door on the street opens onto a bare hall.",
+      "location": "inside",
+      "chapter": "home"
+    },
+    {
       "id": "glider-take-off",
       "name": "Glider: Take-off Run",
       "group": "Glider",
