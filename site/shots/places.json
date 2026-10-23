@@ -314,7 +314,7 @@
   {
     "id": "pl-exterior-hull",
     "viewpoint": "exterior-hull-close",
-    "alt": "Close on the hull: shielding cassettes, repair seams, maintenance rails and a launch trench.",
+    "alt": "Close on the hull: shielding cassettes, repair seams, a maintenance rail and the service robot at an open slot.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,

@@ -247,7 +247,7 @@
   {
     "id": "sci-ext-1km-patchwork",
     "viewpoint": "exterior-1km-patchwork",
-    "alt": "Hull truss and shielding tiles seen from 1 km: a lattice frame around pale cassettes, with one darker replacement panel.",
+    "alt": "Hull truss and shielding tiles seen from 1 km: a lattice frame around pale cassettes.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
@@ -286,6 +286,12 @@
     "static": true,
     "alt": "A solar-electric tug with wide blue wings pushes a net bag around a metal asteroid chunk, plume blazing, the Moon and Earth beyond.",
     "note": "for /science/mining/ (hero): cinematic Blender render, scripts/assets/build-hauler.ps1, docs/cinematic-render.md"
+  },
+  {
+    "id": "sci-racer-hull",
+    "static": true,
+    "alt": "A small white two-seat rocket racer burns an orange plume low over the grey station hull, the painted name NOORDUNG beside it.",
+    "note": "for /science/racing/ (hero): cinematic Blender still from the racer trailer scene (scripts/assets/blender/racer_trailer.py --stills 44 --override 150,20,32 --width 3200 --samples 128, graded by racer-trailer-post.py), docs/cinematic-render.md"
   },
   {
     "id": "sci-hauler-capture",

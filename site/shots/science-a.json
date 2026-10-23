@@ -84,7 +84,7 @@
   {
     "id": "sci-rad-hull",
     "viewpoint": "exterior-hull-close",
-    "alt": "A close view of the station hull with shielding cassettes, repair seams, maintenance rails and a launch trench.",
+    "alt": "A close view of the station hull with shielding cassettes, repair seams, a maintenance rail and the service robot at an open slot.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,

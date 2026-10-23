@@ -182,6 +182,8 @@ code { background: var(--surface-2); padding: 0.1em 0.35em; border-radius: 4px; 
 .figure-pair--trio figcaption { font-size: 0.88rem; }
 .figure__open { font-weight: 600; white-space: nowrap; }
 .figure__open::after { content: ' \2192'; }
+.video-embed { position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius); overflow: hidden; background: #000; }
+.video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .figure--diagram svg { padding: 1rem; border: 1px solid var(--rule); background: var(--surface); color: var(--text); }
 .diagram-scroll { overflow-x: auto; border-radius: var(--radius); }
 @media (max-width: 700px) { .figure--diagram svg { min-width: 640px; } }

@@ -36,6 +36,8 @@ Air that escapes into vacuum leaves at the speed of sound, and the speed does no
 
 Real losses are smaller still. Each rotor is split into pressure districts, with barriers that close when the pressure falls, so a breach empties one district and not the rotor. The calculator treats the whole rotor as one room. The 1975 NASA study, whose torus for 10,000 people held far less air, put a 1 m hole at once in 10 million years and reckoned at least a day to lose 60 percent of its atmosphere through it. [Safety](/science/safety/) covers how Concordia contains a failure.
 
+A meteoroid hits the shield before it reaches the air. Up close the shield is cassettes of packed regolith set between ribs, with repair seams and a service rail where a robot swaps a cassette for a fresh one. [Fly down to the hull and watch it work](/explore/?viewpoint=exterior-hull-close).
+
 The calculator leaves out local wind and cold at the hole, a hole that grows, and which compartment it opens into. Those decide how a breach feels, and only a test on real hardware settles them. {% basis "challenge" %}
 
 {% deeper "The flow law" %}

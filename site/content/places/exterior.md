@@ -20,7 +20,7 @@ map: "#vp-exterior-industrial-open-bay"
 
 The outer shell is a deep open truss with removable shielding cassettes on its surface. It is not the pressure vessel: the habitat's air is held hundreds of metres inward, so a punctured panel does not open a home to space. The cassettes are compacted regolith and slag in 32 m tiles, 609 around the ring, between ribs every 128 m along the axis and every 96 m around it.
 
-{% shot "pl-exterior-hull" "Close on the hull: shielding cassettes, repair seams, maintenance rails and a launch trench." %}
+{% shot "pl-exterior-hull" "Close on the hull: shielding cassettes, repair seams, a maintenance rail and the service robot at an open slot." %}
 
 The skin looks patched because it is. Cassettes come in four types, fitted over the years and replaced as they wear, so some panels are years older than others. Rails run along the hull for crawlers that swap them. The shielding is broken in two places: over the open industrial bay, and from the shipyard to the port, where an open cage lets finished ships leave. See [Radiation and debris](/science/radiation-and-debris/) for how the stack works.
 

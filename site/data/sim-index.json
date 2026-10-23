@@ -713,7 +713,7 @@
       "id": "exterior-hull-close",
       "name": "Exterior Hull — Close Inspection",
       "group": "Exterior",
-      "purpose": "Inspect shielding, repair seams, maintenance rails, and nearby launch trench.",
+      "purpose": "Inspect shielding cassettes, repair seams, the maintenance rail and the service robot at an open slot.",
       "location": "space",
       "chapter": "exterior"
     },
@@ -4466,6 +4466,10 @@
     {
       "term": "delta-v",
       "slug": "delta-v"
+    },
+    {
+      "term": "Dzhanibekov effect",
+      "slug": "dzhanibekov-effect"
     },
     {
       "term": "end wall",

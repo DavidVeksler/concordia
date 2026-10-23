@@ -67,6 +67,7 @@ Written `{% name args %}`. Arguments are quoted strings (positional) or `key="va
 | `{% eq %} g = w² × r {% endeq %}` | Display equation, monospace, plain Unicode math (no TeX). |
 | `{% diagram "name" %}` or `{% diagram "name" "Caption" %}` | Inlines `site/diagrams/name.svg` (use `currentColor` and CSS vars; include `<title>` and `<desc>`). |
 | `{% widget "name" %}` or `{% widget "name" "fallback text" %}` | Mount point for `site/js/widgets/name.js` with a no-JS fallback paragraph. |
+| `{% video "youtube-id" "Title" %}` or `{% video "youtube-id" "Title" "Caption" %}` | Wide 16:9 YouTube embed in privacy mode (`youtube-nocookie.com`, lazy-loaded) with a "Watch on YouTube" link; llms-full.txt gets the watch URL. |
 | `{% term "word" %}` or `{% term "word" "link text" %}` | Inline link to `/glossary/#word`. |
 | `{% sources %} - list items {% endsources %}` | "Sources and further reading" list. Items citing the engineering specification, the fact sheet or a design note are split into "Concordia design documents"; the rest are "Real-world sources". |
 | `{% basis "design" %}` (tags `physics`, `design`, `challenge`, `fiction`) | Inline basis chip linking to `/about/#basis`. Also `basis="tag"` on `{% deeper %}` and `{% facts %}` (or a third `\| tag` field per fact row). Unknown tags fail the build. See docs/content.md "Basis chips". |

@@ -14,7 +14,7 @@ related:
   - /science/artificial-gravity/
   - /science/moving-around/
   - /science/air-water-food/
-  - /science/light-and-sky/
+  - /science/racing/
 ---
 
 {% facts %}

@@ -1,8 +1,8 @@
 ---
 title: "Space habitat glossary"
 h1: "Glossary"
-description: 59 terms used across the Concordia guide, from aeroponics and angular momentum to Whipple shield, each in one or two plain sentences and each linked to the page that explains it.
-lead: 59 terms from physics, space flight and station design, each in a sentence or two. Each entry links to the page that explains it best.
+description: 60 terms used across the Concordia guide, from aeroponics and angular momentum to Whipple shield, each in one or two plain sentences and each linked to the page that explains it.
+lead: 60 terms from physics, space flight and station design, each in a sentence or two. Each entry links to the page that explains it best.
 nav: station
 order: 99
 updated: 2026-10-10
@@ -55,6 +55,9 @@ The sideways push felt when you move inside a rotating frame. Walking is barely 
 
 ### Delta-v
 The change in speed a ship can make, the real budget of any trip. Concordia's Earth transfer spends it on a launch, a departure burn and a capture burn. See [getting there](/science/getting-there/).
+
+### Dzhanibekov effect
+A spinning body turning about its middle axis, the one between its easiest and hardest to spin, does not stay put: it flips end over end on its own, again and again. It is named for Vladimir Dzhanibekov, who saw it on Salyut 7 in 1985. The racer's assisted flight never lets it start. See [racing](/science/racing/).
 
 ### End wall
 The disc that closes each end of a rotor. Its inner face is an inhabited cliff 2,436 m tall. See [structure](/science/structure/).
