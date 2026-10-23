@@ -294,6 +294,18 @@
     "note": "for /science/racing/ (hero): cinematic Blender still from the racer trailer scene (scripts/assets/blender/racer_trailer.py --stills 44 --override 150,20,32 --width 3200 --samples 128, graded by racer-trailer-post.py), docs/cinematic-render.md"
   },
   {
+    "id": "sci-racer-closeup",
+    "static": true,
+    "alt": "Close rear view of the cream racer: two long tank pods, a bubble canopy with two crew and the engine burning orange above the hull.",
+    "note": "for /science/racing/ (The machine): Blender still from the racer trailer scene, t 44 s, orbit override (125, 20, 11.5), rendered at 3600 px, 112 samples, graded by racer-trailer-post.py, then cropped to x 1170 to 3330, y 375 to 1890; docs/cinematic-render.md"
+  },
+  {
+    "id": "sci-racer-plan",
+    "static": true,
+    "alt": "The racer from above: two lattice pods with bronze and cream tanks beside the crew bubble, engine at the tail, over a painted 02.",
+    "note": "for /science/racing/ (The machine): Blender still, t 44 s, orbit override (30, 58, 13), 2400 px, 96 samples, graded by racer-trailer-post.py"
+  },
+  {
     "id": "sci-hauler-capture",
     "static": true,
     "alt": "A tug's open cylindrical net bag, held by white inflatable ribs, closes over a metal-flecked boulder beside a grey rubble-pile asteroid.",

@@ -68,9 +68,21 @@ Stopping is not instant either. From 100 m/s the racer needs 440 m to flip and b
 
 ## The machine
 
+{% shot "sci-racer-closeup" "The racer from behind and to the side, 11 m off, engine lit. The long cream pods carry the tanks, the bubble canopy sits between them and the engine bell is in the middle of the tail." %}
+
 The racer is a wide, flat craft 5.4 m long, 4.4 m wide and 1.9 m tall, with two seats side by side under a large canopy. The pilot sits on the left and flies. The navigator sits on the right, as in a rally, and runs the budget: which kick, how big, how much margin to the stop. {% basis "design" %}
 
 Its shape comes from where the mass sits, not from air. The oxygen tanks sit in the two side pods, level with the crew, and the methane tanks sit in pairs fore and aft of them. As the tanks drain the centre of mass stays put to within 3 cm, so a pitch command never drags a yaw with it. Racing near structure is flown by eye, so the canopy is big. {% basis "design" %}
+
+{% shot "sci-racer-plan" "The same moment from above: two pods, the crew bubble between them and the engine at the tail, over the number 02 painted on the hull." %}
+
+Walk round it, nose first: {% basis "design" %}
+
+- **Nose:** a blunt block of thrusters, a short cap and a strobe. The class number is painted on top and again on both pods.
+- **Canopy:** one bubble over two seats side by side, with a bronze frame, a centre bow between the crew and a panel with two displays and an attitude ball. The seats recline, because the push is from behind.
+- **Pods:** each is a closed nose and tail fairing joined by an open lattice, so the methane, oxygen and methane tanks show in a row from every side. The outer face carries CONCORDIA, the Concordia ring-and-dot mark and the race number, lit from inside.
+- **Engine:** a black bell with a bronze collar at the chamber, the gimbal block behind it and a ring of four thruster pairs on struts around the nozzle. A short fin above carries the tail strobe.
+- **Lights:** red and green running lights on the pod tips, white strobes, and a crown light on the canopy bow.
 
 - **Engine:** 80 kN, liquid oxygen and methane, electric pumps, a 10 to 1 throttle and at least 100 restarts a race. Full thrust gives 3 g full and 5.9 g nearly empty, so the assisted cap throttles back as the tanks drain.
 - **Steering:** the engine swings 6 degrees each way, and 24 small thrusters of 445 N, fed from the same tanks, turn and nudge the craft. A 180 degree flip takes 2.7 s.
