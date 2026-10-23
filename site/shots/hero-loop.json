@@ -7,6 +7,6 @@
   "shots": [
     { "id": "street-ring", "frames": "S05-street-neighbor", "from": 0, "len": 5.5, "foreground": "ascender tower beside the road", "background": "the street keeps climbing past the horizon into the sky" },
     { "id": "ascender-sky", "frames": "S10-ascender-sky", "from": 1, "len": 6.5, "foreground": "the ascender cab frame", "background": "the sky is lit machinery, with the far side of the rotor behind it" },
-    { "id": "hull-pullback", "frames": "S19-habitat-pullback", "from": 3, "len": 7, "foreground": "the ring face", "background": "the whole station along its axis" }
+    { "id": "hull-pullback", "clip": ".visual-qa/launch-exterior/launch-exterior.mp4", "from": 3.5, "len": 7, "foreground": "the ring face", "background": "the whole station along its axis" }
   ]
 }
