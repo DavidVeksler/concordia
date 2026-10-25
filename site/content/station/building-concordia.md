@@ -25,6 +25,10 @@ So cheap launch carried the start, not the bulk. The haulers, the first mining m
 
 {% shot "sc-exterior-25km-silhouette" "The finished station: about two billion tonnes, 4.9 million International Space Stations, and 21 km long. Almost all of it was made from material already in space." %}
 
+## Watch the city grow
+
+{% diagram "construction-illustrated" "A consistent drawing scale shows the factory becoming the infrastructure for a city." %}
+
 ## Step 1: feedstock flows, mid 2030s
 
 {% diagram "construction-sequence" "Five steps, factory first." %}

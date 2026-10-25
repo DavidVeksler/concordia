@@ -23,6 +23,10 @@ The platforms do not sit on the station. They track the Sun on their own structu
 
 {% shot "sci-solar-farm" "Power platform P1 from 4 km, on the sunward side." %}
 
+## Follow the energy
+
+{% diagram "energy-path" "The city and the external compute field have separate power and cooling budgets." %}
+
 ## HVDC to the aft end
 
 Power arrives at the aft end on four landing masts, each 500 m tall, standing 1,900 m from the axis. Eight tethers carry it from the farm hub. The line is {% term "HVDC" "high-voltage direct current" %}: four bipoles at plus and minus 1.2 MV, each conductor carrying 4.2 kA. At that voltage the line loses about 0.02 percent of the power in resistance. {% basis "design" %}

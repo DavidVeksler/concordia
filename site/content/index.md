@@ -27,6 +27,10 @@ Concordia sits in the Earth-Moon L5 region, 384,400 km from home. It was not lau
 
 {% shot "st-district-skyline" "A district of Tsiolkovsky (Rotor 1), with the megaframe overhead." %}
 
+## Inside the station
+
+{% diagram "station-anatomy" "The stationary shield is peeled away to show the rotating cities and their shared spine." %}
+
 ## A space colony built as a city
 
 A space colony is a settlement in orbit that people live in for good, not a station they visit for a tour of duty. Gerard O'Neill proposed the rotating-cylinder version in the 1970s. Concordia carries that idea through: four O'Neill-style cylinder cities with a stationary shield around them, an industrial rotor, Ehricke, beside them and room for a million people. [How it differs from the 1970s design](/station/#oneill-cylinder) is on the station page.

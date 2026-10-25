@@ -16,6 +16,10 @@ related:
 map: "#vp-zero-g-shipyard"
 ---
 
+## Work without a floor
+
+{% diagram "destination-shipyard" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+
 ## What you see
 
 The yard sits at the forward end of the station, between Ehricke (the industrial rotor) and the spaceport. A frame of eight huge rim rings, each a 16-sided lattice 5 km across and 100 m deep, joined by eight longerons, encloses the work. The shell here is an open cage, so the yard is visible from outside and the Sun shines in.

@@ -51,6 +51,10 @@ The frame thins as it climbs because weight does. A tonne at the ground weighs 9
 
 {% shot "sci-st-megaframe" "A rib of the megaframe rising out of a lived-in groundside neighbourhood into the curved sky." %}
 
+## From building to tension band
+
+{% diagram "structural-load-path" "Follow one bay’s outward loads through the rotating structure. The stationary shield is separate." %}
+
 ## End walls
 
 Each rotor ends in a wall that is also a place to live. From the ground at 2,500 m radius to the 64 m bore at the axis, an end wall is an inhabited {% term "end wall" "cliff" %} 2,436 m tall. Gravity on the wall follows the same line as everywhere else: 1 g at the foot, 0.6 g at 1,000 m, almost nothing at the top. The 24 cells are 654 m wide at the rim and 131 m wide at 2,000 m up. Most of the wall is near the ground: 64 percent of its area lies in the first 1,000 m. {% basis "design" %}

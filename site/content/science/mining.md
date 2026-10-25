@@ -69,6 +69,10 @@ At L5 the bagged rocks are parked well away from the station and cut up in vacuu
 
 {% explore viewpoint="hauler-tow" %} {% explore viewpoint="hauler-stern" %} {% explore viewpoint="exterior-25m-materials" %} {% explore viewpoint="zero-g-shipyard" %}
 
+## How a bag capture works
+
+{% diagram "hauler-capture" "The bag closes around the selected rock before the long electric tow. Intervals are not to time scale." %}
+
 ## Then: the Moon, at industrial scale
 
 Haulers cannot build a city. One metre of regolith shielding over the 470 km² hull weighs about 750 million tonnes. At 30,000 tonnes a trip that is 25,000 hauls. The bulk had to come from the Moon, days away instead of years, where the rock is already crushed and lying on the surface. {% basis "design" %}
@@ -76,6 +80,10 @@ Haulers cannot build a city. One metre of regolith shielding over the 470 km² h
 Lunar {% term "regolith" %} needs no blasting. Refuelled heavy landers set down the first excavators, furnaces and power plants. Scrapers skim the top metres. Magnets pull out the grains of native iron that meteorite impacts have scattered through the soil, and electrostatic sorters separate the minerals. Plants on the surface split oxygen out of the rock, about 43 percent of it by mass, and leave metals and slag behind. Then an electromagnetic {% term "mass driver" %} throws the packaged product off the Moon at the 2.4 km/s escape speed, using only electricity. The idea is old: a 1977 NASA Ames summer study sketched a lunar launcher throwing 10.5 kg loads four times a second, 650,000 tonnes a year. {% basis "challenge" %} Capture facilities far from Concordia catch each load and hand it to tugs (see [materials](/science/materials/)).
 
 {% explore viewpoint="industrial-rotor-wide" overlay="material-flow" label="Follow both streams in the material-flow overlay" %}
+
+## Follow the lunar cargo
+
+{% diagram "lunar-process" "Solid products leave the Moon, reach remote capture facilities, and travel by tug to the station." %}
 
 ## Lunar dust, melted into brick
 

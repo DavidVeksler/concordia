@@ -15,6 +15,10 @@ The family is a father, a mother, a teenager, a daughter and a son. They live in
 
 At a reading pace, the seventeen stops take about {{tourMinutes}} minutes. Linger at any of them as long as you like. Every stop has a button that starts the live simulation at that moment, so you can begin anywhere. {% explore chapter="home" label="Start at breakfast" %} {% explore chapter="ascender" label="Start at the sky" %} {% explore chapter="launch" label="Start at the launcher" %}
 
+## The route aboard
+
+{% diagram "passenger-routes" "Use the route map to connect the city, the lifts and the shared spine. Distances are simplified." %}
+
 {% chapter "home" %}
 Morning light comes through the glass wall onto an ordinary street. The family sits at breakfast: bowls, a pot of tea, a teenager who would rather sleep. Nothing here feels unusual. The floor is firm, the cups sit flat and a dropped spoon falls straight down. Outside, the street runs away in both directions and the city rises gently as it goes. It is a normal morning in a place that turns once every hundred seconds.
 

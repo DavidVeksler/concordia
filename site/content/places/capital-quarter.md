@@ -15,6 +15,10 @@ related:
 map: "#vp-capital-exchange"
 ---
 
+## Three halls on the square
+
+{% diagram "destination-capital" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+
 ## What you see
 
 Noordung is the second rotor, paired with Tsiolkovsky and turning the same way, and it is the station's capital quarter. Its city was drawn by the same generator as [Arbor Quarter](/places/arbor-quarter/) from its own seed, then weighted toward dense urban cores and civic land. The streets are paved and stately, with green squares between the towers.

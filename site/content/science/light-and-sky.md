@@ -39,6 +39,10 @@ The Sun is the hard part. A true-size Sun, half a degree wide, drawn at the memb
 
 {% explore viewpoint="artificial-sky-breakthrough" %} {% explore viewpoint="residential-street" %} {% explore chapter="ascender" label="Ride up through the sky" %}
 
+## Through the sky
+
+{% diagram "sky-section" "The illuminated face lights the street. Above its opaque backing, farms and services share the same air." %}
+
 ## Days, weather and the clock
 
 Each rotor runs its own local clock, offset 6 hours from its neighbours. Daylight lasts 12 hours in Tsiolkovsky, 14 in Noordung, 10 in Bernal and 12 in O'Neill, so a long summer-like day and a short winter-like one are always somewhere on the station. The station clock itself keeps a 24 hour day of 86,400 seconds. {% basis "fiction" %}
@@ -46,6 +50,10 @@ Each rotor runs its own local clock, offset 6 hours from its neighbours. Dayligh
 The sky has five weather types: clear, fair-weather cumulus, broken cloud, overcast and hazy cirrus. There is no rain. Clouds are drawn on the membrane. Along a street the sky is visible only above about 35 degrees of elevation, because buildings fill the rest.
 
 {% shot "sci-sky-from-above" "The other side of the sky: process vaults and grow galleries above the opaque backing." %}
+
+## Four local days
+
+{% diagram "rotor-daylight" "Relative daylight schedules spread the demand for lighting. Dawn placement is illustrative." %}
 
 ## What it costs
 

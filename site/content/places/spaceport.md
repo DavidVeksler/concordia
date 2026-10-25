@@ -16,6 +16,10 @@ related:
 map: "#vp-spaceport-concourse"
 ---
 
+## A passenger’s next stop
+
+{% diagram "destination-spaceport" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+
 ## What you see
 
 The terminal is one long tube, 460 m by 84 m across, in the same Art Deco language as the city: stone ribs every 20 m, warm light coves and bronze-framed windows. Only the space people use is pressurized, so it holds about 2.3 million cubic metres of air, and nothing else is under pressure. One flank looks onto the axial bay, so berths and craft are always in view; the other looks out at the three lounge wheels turning in the open. It is stationary and in zero g. "Up" is where the lamps are, and a stone deck below carries the shops.

@@ -64,6 +64,10 @@ Each orbit near Earth is best for something. Only one suits a city that keeps gr
 
 The cost is delay: 2.56 seconds for a round trip, so a live call to Earth feels like a bad satellite phone.
 
+## Follow the revenue
+
+{% diagram "economy-flows" "The story’s business model: customers fund maintenance, expansion and resident dividends. Arrow widths do not show financial shares." %}
+
 ## Who lives here
 
 Industry needs hundreds of people, not a million. The fabrication lines, mines and yards run themselves, and robots maintain them. So the 400,000 people who live here today did not come for factory jobs. {% basis "fiction" %}

@@ -39,6 +39,10 @@ Half the standing weight
 None. Against the stars the glider is not moving: the floor goes one way at 18.8 m/s and the glider goes the other way through the air at 18.8 m/s. With no motion there is no circle to bend, so the wing has nothing to do. The glider hangs still while the rotor turns around it.
 {% endpredict %}
 
+## One release, two frames
+
+{% diagram "release-two-frames" "The outside observer sees straight motion. The passenger sees a curved path relative to the turning floor. Sideways lag is enlarged." %}
+
 ## Try it
 
 Pick a height, then slide the airspeed. The dot is the lift your wing needs, the dashed line is the same speed flown spinward.

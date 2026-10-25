@@ -27,6 +27,10 @@ Each generation stands on the one before it. None replaced the last overnight, a
 | 4 | First rotating stations | Late 2030s | Spin gravity at small scale |
 | 5 | Concordia | 2041 on | A city built from space materials, not launched from Earth |
 
+## Five generations in silhouette
+
+{% diagram "habitat-generations" "The outposts are historical. The later generations are the setting of Concordia’s 2045 story." %}
+
 ## Generation 1: government outposts
 
 The first space station, Salyut 1, launched on 19 April 1971. Skylab followed in 1973 and was crewed for 171 days across three visits. Mir flew from 1986 to 2001 and weighed about 130 tonnes. The International Space Station, at 419,725 kg and 1,005 m3 of pressurized volume, has been continuously occupied since November 2000. China's Tiangong was complete in November 2022.

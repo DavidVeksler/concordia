@@ -36,6 +36,10 @@ The recovery rate matters more than the volume. The first benchmark was set in 2
 
 {% shot "sc-rotor3-lakeside-promenade" "A lake in Bernal. Each rotor holds 72 to 114 of them, and the water is also ballast, shielding and fire protection." %}
 
+## Follow the water
+
+{% diagram "water-journey" "Water circulates through daily life and infrastructure. Recovery reduces imports without eliminating them." %}
+
 ## Waste is inventory
 
 There is no landfill. Every kind of waste is a stock of elements, tracked by inventory: water, carbon, nitrogen, phosphorus, metals, glass, polymers and biological nutrients. Recycling lines in Ehricke (the industrial rotor) sort and refine what households and factories send back. This is {% term "closed-loop life support" %} on the scale of a city, and the books balance the way a company's do, element by element. {% basis "challenge" %}

@@ -59,11 +59,19 @@ Eight chambers, each 90 m long, sit on a magnetic-bearing carousel in the hub. A
 
 {% explore viewpoint="spine-lock" %} {% explore chapter="axisTransfer" label="First weightlessness" %}
 
+## Changing frames
+
+{% diagram "spin-lock-sequence" "The chamber changes spin with both doors shut before it connects to the stationary spine." %}
+
 ## The spine and the express
 
 The {% term "spine" %} is a stationary pressure tube about 120 m across, at 1 atmosphere, with no spin and no gravity. It carries power, data, heat transfer and the transport line between all rotors, Ehricke (the industrial rotor) and the spaceport. Its express runs five 25 m cars at 140 m/s, with restraint couches, handholds and panoramic windows. At cruise the spine's full length, almost 20 km, takes about two and a half minutes. {% basis "design" %}
 
 {% shot "sci-express" "The five-car express on its guideway in the spine." %}
+
+## Plan your transfer
+
+{% diagram "passenger-routes" "Bridges join each same-spin pair. Crossing between opposing pairs requires the spine." %}
 
 ## Bridges, and why rotors 2 and 3 have none
 

@@ -15,6 +15,10 @@ related:
 map: "#vp-farm-grow-deck"
 ---
 
+## An illustrated grow deck
+
+{% diagram "destination-farms" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+
 ## Inside a space farm: the grow hall {#what-you-see}
 
 The farm of Tsiolkovsky (Rotor 1) sits on the 1,000 m ring level. The floor is 1,500 m from the axis, so gravity is 0.60 g. A link bridge connects it to the ascender, and the visitor gallery looks along a deck of the grow hall.

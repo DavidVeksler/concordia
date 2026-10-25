@@ -51,6 +51,10 @@ Traffic is not always balanced. When more mass leaves Earth than arrives, the te
 
 **Ion thrusters on the hub.** A cluster of electric thrusters at the hub, run on the same solar power, handles the faster corrections and the trims the magnetic field cannot give in every direction. At an exhaust speed of 30 km/s, making up that whole 23 m/s with ions alone would take about 1.5 tonnes of propellant, against 13 tonnes for a chemical rocket. In practice the electrodynamic push carries most of the load and the ion thrusters top it up. {% basis "design" %}
 
+## Your journey through the system
+
+{% diagram "skyhook-journey" "From transfer station to lower-tip release: where the tether fits in the trip home." %}
+
 ## What the skyhook is for {#purpose}
 
 The skyhook is an orbital power bank. Every arriving craft deposits its extra speed in the tether, and every departing craft withdraws it, so the same momentum is spent again and again. Only the difference between what comes in and what goes out has to be paid for, and it is paid in sunlight and a little ion propellant. {% basis "design" %}

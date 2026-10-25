@@ -17,6 +17,10 @@ related:
 
 These are the station's design values, plus quantities worked out from them. Rows marked "derived" are computed from other rows with the formula shown. The Basis column says what kind of number each row is: established physics, a design value, an engineering challenge or story. [What the tags mean](/about/#basis).
 
+## Five scales of life aboard
+
+{% diagram "scale-ladder" "Each panel changes scale, from a person to the whole 21 km station." %}
+
 ## Size and position
 
 | Quantity | Value | Basis | Why | Formula |

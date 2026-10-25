@@ -15,6 +15,10 @@ related:
 map: "#vp-residential-street"
 ---
 
+## Life at street level
+
+{% diagram "destination-arbor" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+
 ## What you see
 
 Ground level in a rotor is ordinary city. Mid-rise blocks of about five floors line streets with plane trees, columnar limes and cherry trees. Arterials are 36 m wide, with a metro or tram surface line, two cycle tracks and two rows of trees. Side streets are 12 m, quiet and walkable.

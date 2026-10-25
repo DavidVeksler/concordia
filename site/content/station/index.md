@@ -35,6 +35,10 @@ The design lineage runs through [five generations of space habitats](/station/ge
 
 {% shot "st-earth-moon-context" "Concordia at L5, with Earth and the Moon both in view." %}
 
+## The view from L5
+
+{% diagram "l5-orientation" "L5 trails the Moon. Concordia follows a controlled trajectory in the region, rather than sitting motionless at a point." %}
+
 ## The layout along the axis
 
 Everything lines up on one axis, 21 km long and 6.2 km across at its widest. The aft end holds the power landing and thrusters. Forward of it are four rotors, a momentum bay, the industrial rotor, the zero-g shipyard and the spaceport. The rotors are named Tsiolkovsky, Noordung, Bernal and O'Neill from aft to forward, and the industrial rotor is Ehricke; the [station map](/map/#names) says who they honour.
@@ -46,6 +50,10 @@ Everything lines up on one axis, 21 km long and 6.2 km across at its widest. The
 Distances run from -10.5 km at the aft face to +10.5 km at the forward port frame. The propellant farm sits beyond the forward end, so a tank failure cannot reach a rotor.
 
 {% explore viewpoint="complete-habitat" %} {% explore viewpoint="exterior-5km-systems" label="Systems at 5 km" %}
+
+## Inside the shield
+
+{% diagram "station-anatomy" "City rotors turn inside the stationary mountain. Axial positions follow the model; internal details are schematic." %}
 
 ## Five coupled systems
 
