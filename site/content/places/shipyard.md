@@ -18,7 +18,7 @@ map: "#vp-zero-g-shipyard"
 
 ## Work without a floor
 
-{% diagram "destination-shipyard" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+{% shot "art-shipyard-scene" "The zero-g shipyard, captured from the complete Three.js scene. The spacecraft, cage and service equipment come from the simulation." %}
 
 ## What you see
 

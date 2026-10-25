@@ -1,0 +1,54 @@
+[
+  {
+    "id": "art-station-exterior",
+    "viewpoint": "complete-habitat",
+    "alt": "The complete Concordia station captured in Three.js, with its stationary shielding, four habitation rotor bays, industrial region and forward harbor.",
+    "ui": "clean",
+    "settleMs": 6000,
+    "note": "Actual Three.js geometry for the technical station overview; no Blender interior or generated geometry."
+  },
+  {
+    "id": "art-station-city",
+    "static": true,
+    "alt": "Artistic study of a sunlit park beneath the habitat’s rising city, steel megaframe and pale civic buildings.",
+    "note": "Artistic reinterpretation with reworked foreground planting and background detail; not an exact geometry record. ChatGPT Images image-to-image from district-skyline. Prompts: assets/site-art-briefs.json."
+  },
+  {
+    "id": "art-shipyard-scene",
+    "viewpoint": "zero-g-shipyard",
+    "alt": "The actual Three.js shipyard, with a spacecraft within its open cage, service structures and zero-gravity industrial equipment.",
+    "ui": "clean",
+    "settleMs": 6000,
+    "note": "Actual Three.js scene, selected instead of a generated candidate with implausible vacuum details."
+  },
+  {
+    "id": "art-arbor",
+    "static": true,
+    "alt": "Reference-driven lighting study of Arbor’s tree-lined street, overhead metro, lift tower and pale buildings beneath the artificial sky.",
+    "note": "Built-in ChatGPT Images image-to-image edit of .visual-qa/site-shots/pl-arbor-street.png. Source geometry is authoritative. Prompt and provenance: assets/site-art-briefs.json."
+  },
+  {
+    "id": "art-capital",
+    "static": true,
+    "alt": "Reference-driven lighting study of the Exchange facade and dome, elevated viaduct, megaframe and curved city beyond.",
+    "note": "Built-in ChatGPT Images image-to-image edit of .visual-qa/site-shots/pl-capital-exchange.png. Source geometry is authoritative. Prompt and provenance: assets/site-art-briefs.json."
+  },
+  {
+    "id": "art-farms",
+    "static": true,
+    "alt": "Reference-driven lighting study of the grow deck, yellow harvest gantry, leafy crop racks and overhead magenta light panels.",
+    "note": "Built-in ChatGPT Images image-to-image edit of .visual-qa/site-shots/pl-farm-grow-deck.png. Source geometry is authoritative. Prompt and provenance: assets/site-art-briefs.json."
+  },
+  {
+    "id": "art-spaceport",
+    "static": true,
+    "alt": "Reference-driven lighting study of the cylindrical passenger nave, ribs, handholds, central rail, kiosks and floating travelers.",
+    "note": "Built-in ChatGPT Images image-to-image edit of .visual-qa/site-shots/pl-spaceport-terminal.png. Source geometry is authoritative. Prompt and provenance: assets/site-art-briefs.json."
+  },
+  {
+    "id": "art-station-cutaway",
+    "static": true,
+    "alt": "Labeled longitudinal cutaway of Concordia showing upper habitats, ground cities, axial spine and stationary shielding, with an enlarged habitation section.",
+    "note": "Approved 2026-10-24. Direct Three.js section render with deterministic labels; no AI-generated structure. Source: docs/img/editorial-cutaway/threejs-labeled.webp."
+  }
+]

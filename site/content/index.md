@@ -29,7 +29,7 @@ Concordia sits in the Earth-Moon L5 region, 384,400 km from home. It was not lau
 
 ## Inside the station
 
-{% diagram "station-anatomy" "The stationary shield is peeled away to show the rotating cities and their shared spine." %}
+{% shots "art-station-exterior" "Outside: the stationary shield, radiator fields and harbor, captured in the complete Three.js scene." "art-station-city" "Inside: an image-to-image artistic study of the Three.js city, opening the foreground planting to emphasize the rising urban landscape and megaframe." %}
 
 ## A space colony built as a city
 

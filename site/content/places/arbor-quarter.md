@@ -17,7 +17,7 @@ map: "#vp-residential-street"
 
 ## Life at street level
 
-{% diagram "destination-arbor" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+{% shot "art-arbor" "An image-to-image lighting and material study based on the Three.js Arbor street. The simulation remains the reference for signage and details." %}
 
 ## What you see
 

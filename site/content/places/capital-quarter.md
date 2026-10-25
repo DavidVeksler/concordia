@@ -15,9 +15,9 @@ related:
 map: "#vp-capital-exchange"
 ---
 
-## Three halls on the square
+## The Exchange and its plaza
 
-{% diagram "destination-capital" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+{% shot "art-capital" "An image-to-image material and lighting study of the Exchange, using its actual Three.js view as the reference. Charter Hall and the Court occupy separate sites." %}
 
 ## What you see
 

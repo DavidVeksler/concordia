@@ -18,7 +18,7 @@ map: "#vp-spaceport-concourse"
 
 ## A passenger’s next stop
 
-{% diagram "destination-spaceport" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+{% shot "art-spaceport" "An image-to-image material and lighting study of the actual Three.js passenger nave, retaining its cylindrical structure, handholds and central rail." %}
 
 ## What you see
 

@@ -55,6 +55,8 @@ Every scene is listed in [the atlas](/scenes/), with a link straight into the si
 
 The scene runs on Three.js. The models are made in Blender, the sound effects are generated with Woosh from Sony AI, the rooms you see through the residential and shop windows are forty-two images generated with Krea 2 Turbo and lit by the engine, and the launch film is finished in DaVinci Resolve. [The updates page](/updates/) lists every commit.
 
+Five editorial images are image-to-image artistic studies made with ChatGPT Images, using actual Three.js captures as references. Their captions identify the process. The exterior station and shipyard images are unmodified Three.js captures. The city panorama reworks foreground planting and distant detail for its composition.
+
 ## What is real and what is styled {#styled}
 
 The station is drawn at full scale: 21 km long, 100 m per scene unit, every street at its modelled width. Where looks or playability beat accuracy, this is the list. Like the note above, it is out of universe.

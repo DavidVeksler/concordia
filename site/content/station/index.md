@@ -51,9 +51,11 @@ Distances run from -10.5 km at the aft face to +10.5 km at the forward port fram
 
 {% explore viewpoint="complete-habitat" %} {% explore viewpoint="exterior-5km-systems" label="Systems at 5 km" %}
 
-## Inside the shield
+## Outside and inside {#inside-the-shield}
 
-{% diagram "station-anatomy" "City rotors turn inside the stationary mountain. Axial positions follow the model; internal details are schematic." %}
+{% shot "art-station-cutaway" "A labeled section through the modeled station, with the near half of the shield and the artificial-sky membranes removed to reveal ground cities, upper habitats and the axial spine." %}
+
+[Open the full-size labeled cutaway](/site/shots/art-station-cutaway-full.webp)
 
 ## Five coupled systems
 

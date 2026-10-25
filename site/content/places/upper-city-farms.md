@@ -17,7 +17,7 @@ map: "#vp-farm-grow-deck"
 
 ## An illustrated grow deck
 
-{% diagram "destination-farms" "An original editorial illustration. Architecture is schematic; the simulation views below show the model." %}
+{% shot "art-farms" "An image-to-image material and lighting study of the farm’s actual Three.js grow deck, retaining its harvest gantry, racks and controlled-light setting." %}
 
 ## Inside a space farm: the grow hall {#what-you-see}
 
