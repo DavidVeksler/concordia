@@ -163,6 +163,24 @@ code { background: var(--surface-2); padding: 0.1em 0.35em; border-radius: 4px; 
 .content > * { grid-column: prose; min-width: 0; }
 .content > .figure--wide, .content > .figure-pair, .content > .facts, .content > .cards, .content > .table-wrap, .content > .scenes, .content > .widget, .content > .chapter { grid-column: wide; }
 .content > h2:first-child { margin-top: 1em; }
+
+/* /art/: full-width paintings with quiet, readable captions. */
+.content > .art-section, .content > .art-feature, .content > .art-index { grid-column: wide; }
+.art-index { display: flex; flex-wrap: wrap; gap: 0.65rem 1.5rem; padding-block: 0.75rem; border-block: 1px solid var(--rule); }
+.art-index a { font-size: 0.9rem; }
+.art-section { margin-top: 2rem; scroll-margin-top: 5rem; }
+.art-section > h2 { font-family: Georgia, serif; font-weight: 400; font-size: clamp(1.7rem, 3vw, 2.5rem); }
+.art-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 1.5rem; }
+.art-grid .art-card { margin: 0; min-width: 0; }
+.art-card { scroll-margin-top: 5rem; }
+.art-card .figure__frame { overflow: hidden; border: 1px solid var(--rule); border-radius: var(--radius); }
+.art-card figcaption { display: block; padding: 0.35rem 0.15rem 0.75rem; line-height: 1.55; }
+.art-card figcaption strong { display: block; color: var(--text); font-family: Georgia, serif; font-weight: 400; font-size: 1.35rem; }
+.art-caption { display: block; margin-top: 0.25rem; }
+.art-links { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 0.5rem; font-size: 0.8rem; }
+.art-feature { margin-block: 1.5rem 0.5rem; }
+.art-feature figcaption strong { font-size: 1.6rem; }
+@media (max-width: 760px) { .art-grid { grid-template-columns: 1fr; gap: 1.5rem; } }
 .content ul:not(.updates), .content ol { padding-left: 1.25em; }
 .content ul li::marker { color: var(--accent); }
 .content img { border-radius: var(--radius); }

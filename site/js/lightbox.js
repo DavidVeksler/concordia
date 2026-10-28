@@ -3,9 +3,10 @@
 // Plain script; without it the figures are ordinary images.
 (function () {
   'use strict';
-  var SEL = 'img[src*="/site/shots/"]';
+  var SEL = 'img[src*="/site/shots/"], img[data-art-image]';
   var figs = Array.prototype.filter.call(document.querySelectorAll('figure.figure'), function (f) { return f.querySelector(SEL); });
   if (!figs.length || typeof HTMLDialogElement === 'undefined') return;
+  var paintingPage = document.body.getAttribute('data-page') === '/art/';
   var dlg = null, imgEl, capEl, countEl, openEl, stage, prevBtn, nextBtn, index = 0, opener = null, touchX = null;
 
   function make(tag, cls, attrs) {
@@ -15,9 +16,10 @@
     return el;
   }
   function srcOf(fig) { return fig && fig.querySelector(SEL); }
+  function fullSrc(img) { return img.getAttribute('data-full') || img.getAttribute('src'); }
 
   function build() {
-    dlg = make('dialog', 'lightbox', { 'aria-label': 'Screenshot viewer' });
+    dlg = make('dialog', 'lightbox', { 'aria-label': paintingPage ? 'Painting viewer' : 'Screenshot viewer' });
     var bar = make('div', 'lightbox__bar');
     countEl = make('span', 'lightbox__count', { 'aria-live': 'polite' });
     var close = make('button', 'lightbox__btn', { type: 'button', 'aria-label': 'Close viewer' });
@@ -32,9 +34,9 @@
     stage.appendChild(imgEl);
     stage.addEventListener('click', function (e) { if (e.target === stage) dlg.close(); });
 
-    prevBtn = make('button', 'lightbox__btn lightbox__nav lightbox__nav--prev', { type: 'button', 'aria-label': 'Previous screenshot' });
+    prevBtn = make('button', 'lightbox__btn lightbox__nav lightbox__nav--prev', { type: 'button', 'aria-label': paintingPage ? 'Previous painting' : 'Previous screenshot' });
     prevBtn.textContent = '‹';
-    nextBtn = make('button', 'lightbox__btn lightbox__nav lightbox__nav--next', { type: 'button', 'aria-label': 'Next screenshot' });
+    nextBtn = make('button', 'lightbox__btn lightbox__nav lightbox__nav--next', { type: 'button', 'aria-label': paintingPage ? 'Next painting' : 'Next screenshot' });
     nextBtn.textContent = '›';
     prevBtn.addEventListener('click', function () { show(index - 1); });
     nextBtn.addEventListener('click', function () { show(index + 1); });
@@ -87,12 +89,12 @@
     var fig = figs[i], src = srcOf(fig);
     stage.classList.remove('is-actual');
     imgEl.setAttribute('title', 'Click for actual size');
-    imgEl.src = src.getAttribute('src');
+    imgEl.src = fullSrc(src);
     imgEl.alt = src.getAttribute('alt') || '';
     var cap = fig.querySelector('figcaption > span');
-    capEl.textContent = cap ? cap.textContent : (src.getAttribute('alt') || '');
+    capEl.textContent = cap ? (src.hasAttribute('data-art-image') ? Array.prototype.map.call(cap.children, function (part) { return part.textContent.trim(); }).join(': ') : cap.textContent) : (src.getAttribute('alt') || '');
     var link = fig.querySelector('.figure__open');
-    if (link) { openEl.href = link.getAttribute('href'); openEl.hidden = false; } else { openEl.removeAttribute('href'); openEl.hidden = true; }
+    if (link) { openEl.href = link.getAttribute('href'); openEl.textContent = src.hasAttribute('data-art-image') ? 'Explore the place' : 'Open this view in the simulation'; openEl.hidden = false; } else { openEl.removeAttribute('href'); openEl.hidden = true; }
     countEl.textContent = figs.length > 1 ? (i + 1) + ' / ' + figs.length : '';
     prevBtn.hidden = nextBtn.hidden = figs.length < 2;
     prevBtn.disabled = i === 0;
@@ -101,7 +103,7 @@
     stage.scrollLeft = 0;
     [i - 1, i + 1].forEach(function (j) {
       var n = srcOf(figs[j]);
-      if (n) new Image().src = n.getAttribute('src');
+      if (n) new Image().src = fullSrc(n);
     });
   }
 
@@ -121,7 +123,7 @@
       img.parentNode.insertBefore(frame, img);
       frame.appendChild(img);
     }
-    var btn = make('button', 'figure__zoom', { type: 'button', 'aria-label': 'Enlarge screenshot: ' + (img.getAttribute('alt') || '') });
+    var btn = make('button', 'figure__zoom', { type: 'button', 'aria-label': (img.hasAttribute('data-art-image') ? 'Enlarge painting: ' : 'Enlarge screenshot: ') + (img.getAttribute('alt') || '') });
     btn.addEventListener('click', function () { open(i, btn); });
     frame.appendChild(btn);
   });
