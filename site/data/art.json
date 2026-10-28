@@ -105,8 +105,8 @@
       "place": "/places/megaframe-city/",
       "caption": "A gardener tends roses on the planted ledge of the inhabited end wall.",
       "alt": "A gardener tends roses on the planted ledge of the inhabited end wall.",
-      "full": "/site/art/the-inhabited-cliff-d30e4017fe-1536.avif",
-      "preview": "/site/art/the-inhabited-cliff-d30e4017fe-800.avif",
+      "full": "/site/art/the-inhabited-cliff-c769577ff3-1536.avif",
+      "preview": "/site/art/the-inhabited-cliff-c769577ff3-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -118,8 +118,8 @@
       "place": "/places/ascenders-and-sky/",
       "caption": "A family watches the city fall away as the ascender climbs.",
       "alt": "A family watches the city fall away as the ascender climbs.",
-      "full": "/site/art/above-the-blue-b3e738af7f-1536.avif",
-      "preview": "/site/art/above-the-blue-b3e738af7f-800.avif",
+      "full": "/site/art/above-the-blue-e80cf8c1f6-1536.avif",
+      "preview": "/site/art/above-the-blue-e80cf8c1f6-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -183,8 +183,8 @@
       "place": "/places/aft-works/",
       "caption": "A reader rests in the observation dome while spacecraft pass beyond the glass.",
       "alt": "A reader rests in the observation dome while spacecraft pass beyond the glass.",
-      "full": "/site/art/the-city-turns-she-reads-e20e68aa6e-1536.avif",
-      "preview": "/site/art/the-city-turns-she-reads-e20e68aa6e-800.avif",
+      "full": "/site/art/the-city-turns-she-reads-f82b64dc11-1536.avif",
+      "preview": "/site/art/the-city-turns-she-reads-f82b64dc11-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -313,8 +313,8 @@
       "place": "/places/exterior/",
       "caption": "A technician directs the replacement of a damaged shielding cartridge.",
       "alt": "A technician directs the replacement of a damaged shielding cartridge.",
-      "full": "/site/art/a-seam-in-the-mountain-58db53769c-1536.avif",
-      "preview": "/site/art/a-seam-in-the-mountain-58db53769c-800.avif",
+      "full": "/site/art/a-seam-in-the-mountain-6bf8ea6d67-1536.avif",
+      "preview": "/site/art/a-seam-in-the-mountain-6bf8ea6d67-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -358,5 +358,5 @@
       "height": 1024
     }
   ],
-  "social": "/site/art/the-city-turns-she-reads-e20e68aa6e-social.avif"
+  "social": "/site/art/the-city-turns-she-reads-f82b64dc11-social.avif"
 }
