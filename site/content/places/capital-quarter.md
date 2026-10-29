@@ -10,6 +10,7 @@ group: ground
 updated: 2026-10-16
 related:
   - /station/economy/
+  - /station/governance/
   - /places/arbor-quarter/
   - /places/megaframe-city/
 map: "#vp-capital-exchange"
@@ -37,7 +38,7 @@ A domed market hall behind a portico, with a colonnade on its own plaza. Energy 
 
 ## Charter Hall
 
-A vaulted hall behind a portico, with two gate towers on its lawn. It is the seat of the Concordia Charter Authority, the body that holds the station's charter. Why the station has a charter at all, and who it answers to, is set out under [Charter and law](/station/economy/#charter-and-law).
+A vaulted hall behind a portico, with two gate towers on its lawn. It is the seat of the Concordia Charter Authority, the body that holds the station's charter. Why the station has a charter at all, who it answers to and how the owners decide are set out on the [governance page](/station/governance/#owners-not-voters).
 
 {% shot "pl-capital-charter-hall" "Charter Hall from the street: tall arched windows and a columned portico, under the name board." %}
 
@@ -45,7 +46,7 @@ A vaulted hall behind a portico, with two gate towers on its lawn. It is the sea
 
 ## The Court
 
-A clock-roofed hall with a columned portico and pediment, and a monument column on its plaza. The arbitration courts sit here, in the same quarter as the Exchange. They stand a short walk from the market because deals struck there are settled here. The law they work within is set out under [Charter and law](/station/economy/#charter-and-law): markets inside, on top of a strict physical constitution.
+A clock-roofed hall with a columned portico and pediment, and a monument column on its plaza. The Court hosts competing arbitration providers, chosen by the parties in their contracts, and a sitting division of the Supreme Court of Bermuda for crimes and anything no contract covers. They stand a short walk from the market because deals struck there are settled here. The law they work within is set out under [courts and security by contract](/station/governance/#courts-and-security-by-contract), on top of a strict physical constitution.
 
 {% shot "pl-capital-court" "The Court: a columned portico and pediment on a street of civic frontages, with its name board over the steps." %}
 

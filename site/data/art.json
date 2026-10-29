@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "groups": [
     {
       "id": "city",
@@ -27,8 +27,8 @@
       "place": "/places/arbor-quarter/",
       "caption": "A cyclist greets a neighbour beneath the neighbourhood viaduct.",
       "alt": "A cyclist greets a neighbour beneath the neighbourhood viaduct.",
-      "full": "/site/art/a-city-made-for-mornings-0b2e21916c-1536.avif",
-      "preview": "/site/art/a-city-made-for-mornings-0b2e21916c-800.avif",
+      "full": "/site/art/a-city-made-for-mornings-327a7bd67b-1536.avif",
+      "preview": "/site/art/a-city-made-for-mornings-327a7bd67b-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -46,6 +46,19 @@
       "height": 1024
     },
     {
+      "id": "P02b",
+      "title": "Stepping stones",
+      "slug": "stepping-stones",
+      "group": "city",
+      "place": "/places/arbor-quarter/",
+      "caption": "A boy crosses the brook alone for the first time while his father waits barefoot on the bank.",
+      "alt": "A boy crosses the brook alone for the first time while his father waits barefoot on the bank.",
+      "full": "/site/art/stepping-stones-58ce255e39-1536.avif",
+      "preview": "/site/art/stepping-stones-58ce255e39-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P03",
       "title": "Young builders",
       "slug": "young-builders",
@@ -53,8 +66,8 @@
       "place": "/places/arbor-quarter/",
       "caption": "Young builders test their own structure beneath the full-size viaduct.",
       "alt": "Young builders test their own structure beneath the full-size viaduct.",
-      "full": "/site/art/young-builders-4e71f1cf56-1536.avif",
-      "preview": "/site/art/young-builders-4e71f1cf56-800.avif",
+      "full": "/site/art/young-builders-cddb56f7c7-1536.avif",
+      "preview": "/site/art/young-builders-cddb56f7c7-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -85,6 +98,19 @@
       "height": 1024
     },
     {
+      "id": "P05b",
+      "title": "Reading the lintel",
+      "slug": "reading-the-lintel",
+      "group": "city",
+      "place": "/places/capital-quarter/",
+      "caption": "An architect shows her younger colleague where the portico's lintel meets its column.",
+      "alt": "An architect shows her younger colleague where the portico's lintel meets its column.",
+      "full": "/site/art/reading-the-lintel-f05cf93b36-1536.avif",
+      "preview": "/site/art/reading-the-lintel-f05cf93b36-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P06",
       "title": "Between two cities",
       "slug": "between-two-cities",
@@ -94,6 +120,19 @@
       "alt": "Finding a route between the levels of the upper city.",
       "full": "/site/art/between-two-cities-fc4dd626c7-1536.avif",
       "preview": "/site/art/between-two-cities-fc4dd626c7-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "P06b",
+      "title": "Bolt by bolt",
+      "slug": "bolt-by-bolt",
+      "group": "city",
+      "place": "/places/megaframe-city/",
+      "caption": "A structural inspector checks the bolted joints of a truss bridge in the megaframe city.",
+      "alt": "A structural inspector checks the bolted joints of a truss bridge in the megaframe city.",
+      "full": "/site/art/bolt-by-bolt-d8b6716889-1536.avif",
+      "preview": "/site/art/bolt-by-bolt-d8b6716889-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -111,6 +150,19 @@
       "height": 1024
     },
     {
+      "id": "P07b",
+      "title": "Rehearsal on the cliff",
+      "slug": "rehearsal-on-the-cliff",
+      "group": "city",
+      "place": "/places/megaframe-city/",
+      "caption": "A dancer rehearses alone at dawn on an end-wall terrace, the city curving away below.",
+      "alt": "A dancer rehearses alone at dawn on an end-wall terrace, the city curving away below.",
+      "full": "/site/art/rehearsal-on-the-cliff-02fbbe1748-1536.avif",
+      "preview": "/site/art/rehearsal-on-the-cliff-02fbbe1748-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P08",
       "title": "Above the blue",
       "slug": "above-the-blue",
@@ -118,8 +170,8 @@
       "place": "/places/ascenders-and-sky/",
       "caption": "A family watches the city fall away as the ascender climbs.",
       "alt": "A family watches the city fall away as the ascender climbs.",
-      "full": "/site/art/above-the-blue-e80cf8c1f6-1536.avif",
-      "preview": "/site/art/above-the-blue-e80cf8c1f6-800.avif",
+      "full": "/site/art/above-the-blue-a7aa75aaee-1536.avif",
+      "preview": "/site/art/above-the-blue-a7aa75aaee-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -131,8 +183,8 @@
       "place": "/places/ascenders-and-sky/",
       "caption": "A small lift from the floor marks the approach to weightlessness.",
       "alt": "A small lift from the floor marks the approach to weightlessness.",
-      "full": "/site/art/lightness-59d27c7ce1-1536.avif",
-      "preview": "/site/art/lightness-59d27c7ce1-800.avif",
+      "full": "/site/art/lightness-fffad26abe-1536.avif",
+      "preview": "/site/art/lightness-fffad26abe-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -150,6 +202,19 @@
       "height": 1024
     },
     {
+      "id": "P10b",
+      "title": "The basil check",
+      "slug": "the-basil-check",
+      "group": "food",
+      "place": "/places/upper-city-farms/",
+      "caption": "A horticulturist holds a basil leaf to a lamp to check it for blight.",
+      "alt": "A horticulturist holds a basil leaf to a lamp to check it for blight.",
+      "full": "/site/art/the-basil-check-638046f464-1536.avif",
+      "preview": "/site/art/the-basil-check-638046f464-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P11",
       "title": "The harvest handoff",
       "slug": "the-harvest-handoff",
@@ -163,6 +228,19 @@
       "height": 1024
     },
     {
+      "id": "P11b",
+      "title": "The line runs itself",
+      "slug": "the-line-runs-itself",
+      "group": "food",
+      "place": "/places/upper-city-farms/",
+      "caption": "A technician watches totes of greens ride the wash tunnel and sorter without a hand on them.",
+      "alt": "A technician watches totes of greens ride the wash tunnel and sorter without a hand on them.",
+      "full": "/site/art/the-line-runs-itself-2878e0c94a-1536.avif",
+      "preview": "/site/art/the-line-runs-itself-2878e0c94a-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P12",
       "title": "The first push",
       "slug": "the-first-push",
@@ -170,8 +248,8 @@
       "place": "/places/axis-and-spine/",
       "caption": "The first push turns an unfamiliar space into a place to move through.",
       "alt": "The first push turns an unfamiliar space into a place to move through.",
-      "full": "/site/art/the-first-push-2b18b992e7-1536.avif",
-      "preview": "/site/art/the-first-push-2b18b992e7-800.avif",
+      "full": "/site/art/the-first-push-7d2515e50e-1536.avif",
+      "preview": "/site/art/the-first-push-7d2515e50e-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -202,6 +280,19 @@
       "height": 1024
     },
     {
+      "id": "P14b",
+      "title": "A valve in the tank field",
+      "slug": "a-valve-in-the-tank-field",
+      "group": "engineering",
+      "place": "/places/industrial-rotor/",
+      "caption": "A process engineer reaches between two tanks to check a valve cap in the industrial tank farm.",
+      "alt": "A process engineer reaches between two tanks to check a valve cap in the industrial tank farm.",
+      "full": "/site/art/a-valve-in-the-tank-field-cc05dbf1d6-1536.avif",
+      "preview": "/site/art/a-valve-in-the-tank-field-cc05dbf1d6-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P15",
       "title": "Keeping the balance",
       "slug": "keeping-the-balance",
@@ -211,6 +302,19 @@
       "alt": "A steady hand controls machinery built to keep the station in balance.",
       "full": "/site/art/keeping-the-balance-17c06ca884-1536.avif",
       "preview": "/site/art/keeping-the-balance-17c06ca884-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "P15b",
+      "title": "Listening to the machine",
+      "slug": "listening-to-the-machine",
+      "group": "engineering",
+      "place": "/places/industrial-rotor/",
+      "caption": "An engineer presses a sensor to a bearing housing on the momentum ring.",
+      "alt": "An engineer presses a sensor to a bearing housing on the momentum ring.",
+      "full": "/site/art/listening-to-the-machine-884303e035-1536.avif",
+      "preview": "/site/art/listening-to-the-machine-884303e035-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -233,10 +337,10 @@
       "slug": "the-last-metre",
       "group": "engineering",
       "place": "/places/shipyard/",
-      "caption": "A technician guides the last metre of a careful alignment.",
-      "alt": "A technician guides the last metre of a careful alignment.",
-      "full": "/site/art/the-last-metre-ec6b271b1a-1536.avif",
-      "preview": "/site/art/the-last-metre-ec6b271b1a-800.avif",
+      "caption": "An inspector sweeps a light along the ribs of an open crew drum beside the shipyard gantry.",
+      "alt": "An inspector sweeps a light along the ribs of an open crew drum beside the shipyard gantry.",
+      "full": "/site/art/the-last-metre-8f2f90a66d-1536.avif",
+      "preview": "/site/art/the-last-metre-8f2f90a66d-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -254,6 +358,19 @@
       "height": 1024
     },
     {
+      "id": "P18b",
+      "title": "Catching the handle",
+      "slug": "catching-the-handle",
+      "group": "travel",
+      "place": "/places/spaceport/",
+      "caption": "A terminal attendant steers an arrival's hand to the next handle while his bag drifts away.",
+      "alt": "A terminal attendant steers an arrival's hand to the next handle while his bag drifts away.",
+      "full": "/site/art/catching-the-handle-9467d40e4e-1536.avif",
+      "preview": "/site/art/catching-the-handle-9467d40e4e-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P19",
       "title": "Between departures",
       "slug": "between-departures",
@@ -263,6 +380,19 @@
       "alt": "Between departures, a traveller watches orbital traffic from a rotating lounge.",
       "full": "/site/art/between-departures-e93bc7984b-1536.avif",
       "preview": "/site/art/between-departures-e93bc7984b-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "P19b",
+      "title": "The wheels from the promenade",
+      "slug": "the-wheels-from-the-promenade",
+      "group": "travel",
+      "place": "/places/spaceport/",
+      "caption": "A traveller drifts at the rail of the glazed promenade and watches the spaceport wheels turn.",
+      "alt": "A traveller drifts at the rail of the glazed promenade and watches the spaceport wheels turn.",
+      "full": "/site/art/the-wheels-from-the-promenade-ba229c990a-1536.avif",
+      "preview": "/site/art/the-wheels-from-the-promenade-ba229c990a-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -280,6 +410,19 @@
       "height": 1024
     },
     {
+      "id": "P20b",
+      "title": "Reaching for the berth",
+      "slug": "reaching-for-the-berth",
+      "group": "engineering",
+      "place": "/places/spaceport/",
+      "caption": "A docking officer hangs from the pier truss and reaches toward the berth.",
+      "alt": "A docking officer hangs from the pier truss and reaches toward the berth.",
+      "full": "/site/art/reaching-for-the-berth-ffd9ebdce5-1536.avif",
+      "preview": "/site/art/reaching-for-the-berth-ffd9ebdce5-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P21",
       "title": "Forty gigawatts, one steady hand",
       "slug": "forty-gigawatts-one-steady-hand",
@@ -293,15 +436,28 @@
       "height": 1024
     },
     {
+      "id": "P21b",
+      "title": "Down the shaft",
+      "slug": "down-the-shaft",
+      "group": "engineering",
+      "place": "/places/aft-works/",
+      "caption": "A technician floats along the converter hall walkway and looks toward the far light.",
+      "alt": "A technician floats along the converter hall walkway and looks toward the far light.",
+      "full": "/site/art/down-the-shaft-7237722493-1536.avif",
+      "preview": "/site/art/down-the-shaft-7237722493-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P22",
       "title": "The long connection",
       "slug": "the-long-connection",
       "group": "engineering",
       "place": "/places/aft-works/",
-      "caption": "An inspector follows the connections that carry power beyond the station.",
-      "alt": "An inspector follows the connections that carry power beyond the station.",
-      "full": "/site/art/the-long-connection-4c7572f8e0-1536.avif",
-      "preview": "/site/art/the-long-connection-4c7572f8e0-800.avif",
+      "caption": "An inspector drives a bolt home at the aft power landing.",
+      "alt": "An inspector drives a bolt home at the aft power landing.",
+      "full": "/site/art/the-long-connection-c694a72ece-1536.avif",
+      "preview": "/site/art/the-long-connection-c694a72ece-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -319,15 +475,41 @@
       "height": 1024
     },
     {
+      "id": "P23b",
+      "title": "Tracing the seam",
+      "slug": "tracing-the-seam",
+      "group": "engineering",
+      "place": "/places/exterior/",
+      "caption": "A technician traces a shielding-panel seam with a fingertip, a few metres above the hull.",
+      "alt": "A technician traces a shielding-panel seam with a fingertip, a few metres above the hull.",
+      "full": "/site/art/tracing-the-seam-8f1dd3400f-1536.avif",
+      "preview": "/site/art/tracing-the-seam-8f1dd3400f-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "P24",
       "title": "In the radiator's shadow",
       "slug": "in-the-radiator-s-shadow",
       "group": "engineering",
       "place": "/places/exterior/",
-      "caption": "A floating inspector works beneath the dark span of a radiator.",
-      "alt": "A floating inspector works beneath the dark span of a radiator.",
-      "full": "/site/art/in-the-radiator-s-shadow-2483cefca2-1536.avif",
-      "preview": "/site/art/in-the-radiator-s-shadow-2483cefca2-800.avif",
+      "caption": "An inspector floats at the hull-edge rail and looks up the radiator tower.",
+      "alt": "An inspector floats at the hull-edge rail and looks up the radiator tower.",
+      "full": "/site/art/in-the-radiator-s-shadow-e5bbb2458f-1536.avif",
+      "preview": "/site/art/in-the-radiator-s-shadow-e5bbb2458f-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "P24b",
+      "title": "Clipping on",
+      "slug": "clipping-on",
+      "group": "engineering",
+      "place": "/places/exterior/",
+      "caption": "An inspector clips her tether to a hull anchor beneath the radiator tower.",
+      "alt": "An inspector clips her tether to a hull anchor beneath the radiator tower.",
+      "full": "/site/art/clipping-on-d58be57d52-1536.avif",
+      "preview": "/site/art/clipping-on-d58be57d52-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -341,6 +523,19 @@
       "alt": "A pilot sees the whole inhabited world through the glass.",
       "full": "/site/art/a-whole-world-through-the-glass-4c9721733b-1536.avif",
       "preview": "/site/art/a-whole-world-through-the-glass-4c9721733b-800.avif",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "P25b",
+      "title": "The survey window",
+      "slug": "the-survey-window",
+      "group": "travel",
+      "place": "/places/exterior/",
+      "caption": "A survey pilot floats at the window of her craft and watches the habitat in the dark.",
+      "alt": "A survey pilot floats at the window of her craft and watches the habitat in the dark.",
+      "full": "/site/art/the-survey-window-6c8e03ef75-1536.avif",
+      "preview": "/site/art/the-survey-window-6c8e03ef75-800.avif",
       "width": 1536,
       "height": 1024
     },

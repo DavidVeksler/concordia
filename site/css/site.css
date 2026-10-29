@@ -613,6 +613,7 @@ html.lightbox-open { overflow: hidden; }
 .basis--design::before { background: var(--accent-2); }
 .basis--challenge::before { background: transparent; border: 1.5px solid var(--accent-2); }
 .basis--fiction::before { border-radius: 1px; }
+.basis--law::before { background: var(--text); border-radius: 1px; transform: rotate(45deg); }
 .basis:hover { color: var(--text); border-color: var(--muted); }
 .basis__challenge { font: 500 0.72rem/1.55 var(--font-mono); color: var(--muted); margin-left: 0.2em; white-space: nowrap; }
 .basis__challenge:hover { color: var(--text); }

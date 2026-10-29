@@ -13,6 +13,7 @@ related:
   - /station/building-concordia/
   - /station/by-the-numbers/
   - /station/economy/
+  - /station/governance/
   - /science/
 ---
 

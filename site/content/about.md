@@ -81,6 +81,7 @@ Numbers and claims across the site carry a small tag that says what kind of clai
 | {% basis "design" %} | A number chosen for Concordia, from the project's specifications |
 | {% basis "challenge" %} | Needs development beyond today's demonstrated capability |
 | {% basis "fiction" %} | The 2045 setting: history, people and events |
+| {% basis "law" %} | Real treaties, statutes and court decisions in force in 2026, with a source |
 
 ## Author
 
