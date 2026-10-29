@@ -15,6 +15,8 @@ related:
   - /station/building-concordia/
 ---
 
+This page mixes two kinds of claim, and each is tagged. Treaties, statutes and court decisions are real and in force today; they carry the {% basis "law" %} tag and a source. How Concordia itself is run is the 2045 story; it carries the {% basis "fiction" %} tag. [What the tags mean](/about/#basis).
+
 ## Nobody owns the sky
 
 The Outer Space Treaty of 1967 says space "is not subject to national appropriation by claim of sovereignty, by means of use or occupation, or by any other means". {% basis "law" %} So no flag can be planted at L5, and the station cannot be anyone's territory. It can be someone's property. The same treaty says that a state keeps jurisdiction over objects on its registry and over the people aboard, and that ownership of an object is not affected by being in space. {% basis "law" %}
@@ -43,7 +45,7 @@ The floor is short: a licence, a registry, criminal law and a final court of app
 
 {% shot "sc-rotor2-civic-street" "A paved civic street in Noordung, where the owners' institutions stand." %}
 
-Concordia is governed the way a company is, not the way a country is. {% basis "fiction" %} There are two share classes. Founders' shares are the consortium's capital and vote by stake. Resident shares are one per resident: they are never diluted, never sold to an outsider, and they carry the energy dividend. A resident qualifies after a full year living aboard under a residence contract, and the same test gives the share, its vote and its dividend.
+From here the page leaves real law and describes the story. In Concordia's 2045, the station is governed the way a company is, not the way a country is. {% basis "fiction" %} There are two share classes. Founders' shares are the consortium's capital and vote by stake. Resident shares are one per resident: they are never diluted, never sold to an outsider, and they carry the energy dividend. A resident qualifies after a full year living aboard under a residence contract, and the same test gives the share, its vote and its dividend.
 
 The **Proprietors' Council** is the board, elected by all shares. It runs industry, leases, the compute and energy sold through the Exchange, and the next station. It cannot change the Covenant alone. Residents, meeting as a class, elect the **residents' authority** that runs air, water, pressure, heat, fire and spin on separate verified controllers ([safety](/science/safety/)). The **Concordia Charter Authority** in Charter Hall holds the licence and acts as the owners' agent for common services: the register of plots and volumes, the rulebook of the Exchange, the text of the Covenant. It levies no taxes.
 
@@ -55,7 +57,7 @@ There is no one-person-one-vote assembly over the business. A resident who disli
 
 ## What nobody can sign away {#what-nobody-can-sign-away}
 
-Canon says markets run on top of a strict {% term "physical constitution" %}. These are its seven clauses. They are terms of the {% term "covenant" "Covenant" %} that every resident, proprietor and business aboard signs, and each changes only by two thirds of **each** share class voting separately, plus the Governor's assent. They are also conditions of the licence. {% basis "fiction" %}
+Everything in this section is the story. Concordia's markets run on top of a strict {% term "physical constitution" %}, and these are its seven clauses. They are terms of the {% term "covenant" "Covenant" %} that every resident, proprietor and business aboard signs, and each changes only by two thirds of **each** share class voting separately, plus the Governor's assent. They are also conditions of the licence. {% basis "fiction" %}
 
 | Clause | Rule |
 | --- | --- |
@@ -73,27 +75,27 @@ On Concordia, breath is not collateral. In an emergency over pressure, fire or s
 
 {% shot "pl-capital-court" "The Court: a columned portico and pediment on a street of civic frontages in Noordung." %}
 
-Civil life runs on contract. Every lease, job and sale names its arbitration provider, and several providers compete for that business inside the Court. {% basis "fiction" %} Awards are enforceable in more than 170 states through the New York Convention, which the UK extended to Bermuda in 1980. {% basis "law" %} Special jurisdictions already sell courts as a product: Abu Dhabi's market applies English common law directly, and Dubai's financial centre runs its own common-law courts. {% basis "law" %}
+In the story, civil life runs on contract. Every lease, job and sale names its arbitration provider, and several providers compete for that business inside the Court. {% basis "fiction" %} Awards are enforceable in more than 170 states through the New York Convention, which the UK extended to Bermuda in 1980. {% basis "law" %} Special jurisdictions already sell courts as a product: Abu Dhabi's market applies English common law directly, and Dubai's financial centre runs its own common-law courts. {% basis "law" %}
 
 Day-to-day security comes from private firms under contract with the Charter Authority and with building owners, liable in contract and tort for what they do. {% basis "fiction" %} Contracted guards already outnumber sworn police in the United States. {% basis "law" %}
 
-The floor shows here. Bermuda's criminal law applies aboard, and a sitting division of the Supreme Court of Bermuda tries crimes and hears anything no contract covers. Appeals go to the Court of Appeal for Bermuda and finally the Privy Council. The Governor is responsible for the police under Bermuda's constitution, so a small detachment holds the arrest and charging powers private guards lack. {% basis "law" %} Home states keep concurrent jurisdiction over their own nationals, as the partners of the International Space Station do. {% basis "law" %} Earth courts already handle claims about conduct in orbit: in 2019 an astronaut's estranged spouse claimed an account had been accessed from the station, and the accuser was later convicted of false statements. {% basis "law" %}
+The floor is real law. Bermuda's criminal law applies aboard, and a sitting division of the Supreme Court of Bermuda tries crimes and hears anything no contract covers. Appeals go to the Court of Appeal for Bermuda and finally the Privy Council. The Governor is responsible for the police under Bermuda's constitution, so a small detachment holds the arrest and charging powers private guards lack. {% basis "law" %} Home states keep concurrent jurisdiction over their own nationals, as the partners of the International Space Station do. {% basis "law" %} Earth courts already handle claims about conduct in orbit: in 2019 an astronaut's estranged spouse claimed an account had been accessed from the station, and the accuser was later convicted of false statements. {% basis "law" %}
 
 {% explore viewpoint="capital-court" label="Stand outside the Court" %}
 
 ## Owning a home in a space object
 
-Homes are long leases of plots and volumes inside a registered object, recorded in the Charter Authority's register and held under the Covenant. Millions of people on Earth already live under recorded covenants and service charges in owners' associations and condominiums, so private covenant government is ordinary. {% basis "law" %} Mortgages work like ship mortgages. The builder owns the ground and floor space it created and leases it, the {% term "land value capture" %} model, which is why ground rent is enough to run a city. {% basis "fiction" %}
+In the story, homes are long leases of plots and volumes inside a registered object, recorded in the Charter Authority's register and held under the Covenant. Millions of people on Earth already live under recorded covenants and service charges in owners' associations and condominiums, so private covenant government is ordinary. {% basis "law" %} Mortgages work like ship mortgages. The builder owns the ground and floor space it created and leases it, the {% term "land value capture" %} model, which is why ground rent is enough to run a city. {% basis "fiction" %}
 
 ## Rent, not taxes; passports; the way home
 
-Concordia levies no taxes inside. The Charter Authority is paid by ground rent and by fees for services people choose to buy, and life support by the service charge in every lease. {% basis "fiction" %} The taxes that apply come from Earth. Bermuda charges no personal income tax and, from 2025, taxes the Bermuda entities of multinational groups with revenue of at least EUR 750 million at 15 percent. {% basis "law" %} A United States citizen is taxed wherever they live, and income from space activity is US-source. {% basis "law" %}
+In the story, Concordia levies no taxes inside. The Charter Authority is paid by ground rent and by fees for services people choose to buy, and life support by the service charge in every lease. {% basis "fiction" %} The taxes that do apply are real, and come from Earth. Bermuda charges no personal income tax and, from 2025, taxes the Bermuda entities of multinational groups with revenue of at least EUR 750 million at 15 percent. {% basis "law" %} A United States citizen is taxed wherever they live, and income from space activity is US-source. {% basis "law" %}
 
 Residents keep their own nationality. Living aboard does not make anyone Bermudian: status takes about ten years of residence, or ten years of marriage plus ties. {% basis "law" %} Every resident holds a funded passage home, a bond held off the station on the model of the repatriation guarantee that seafarers have. {% basis "law" %} It is a right for one person at a time. It is not a promise to evacuate the city, which the design rules out ([safety](/science/safety/)). {% basis "fiction" %}
 
 ## The questions science fiction asked
 
-Most stories about governing a settlement are failure stories, and most failures are failures of power. The design answers each with property, contract and exit.
+Most stories about governing a settlement are failure stories, and most failures are failures of power. The story's design answers each with property, contract and exit.
 
 | Failure | The story | Concordia's answer |
 | --- | --- | --- |
@@ -117,7 +119,7 @@ A state needs a permanent population, a defined territory, a government and the 
 
 One company has tried the other route. Starlink's 2020 beta terms said Earth governments had no authority on Mars, and space lawyers called the clause void under the treaty. {% basis "law" %} Concordia is the opposite design: inside the law, with contract doing the rest.
 
-Instead of secession, both share classes, each by two thirds, may ask to move the station's registry to another treaty state that accepts it, as ships change flag. {% basis "fiction" %} Open registries compete for ships, and that competition keeps a licensing state's demands modest. {% basis "law" %} Distance helps too. At 1.28 seconds each way, an Earth court is practical in a way it would not be at Mars, where the delay runs to many minutes.
+In the story, instead of secession, both share classes, each by two thirds, may ask to move the station's registry to another treaty state that accepts it, as ships change flag. {% basis "fiction" %} Open registries compete for ships, and that competition keeps a licensing state's demands modest. {% basis "law" %} Distance helps too. At 1.28 seconds each way, an Earth court is practical in a way it would not be at Mars, where the delay runs to many minutes.
 
 {% deeper "The chain of authority, clause by clause" %}
 1. **No sovereignty.** Nothing at L5 can be national territory (Outer Space Treaty, Art. II). Concordia is property, not land (Art. VIII).
@@ -164,4 +166,4 @@ Fiction is cited for the failures it dramatised, not as evidence. The books belo
 
 **Stories.** Robert A. Heinlein, *The Moon Is a Harsh Mistress* (1966); *Outland* (1981); James S. A. Corey, *The Expanse* (2011 on); *Elysium* (2013); Kim Stanley Robinson, *Red Mars* (1993).
 
-**Ideas.** Murray Rothbard, *For a New Liberty* (1973), self-ownership, property and contract as the basis of order. David Friedman, *The Machinery of Freedom* (1973), courts and protection supplied by competing firms. Spencer Heath MacCallum, *The Art of Community* (1970), an owner supplying common services under lease. Albert O. Hirschman, *Exit, Voice, and Loyalty* (1970), exit as a check on an organisation. Bruce L. Benson, *The Enterprise of Law* (1990), law produced outside the state. Hans-Hermann Hoppe, *Democracy: The God That Failed* (2001), covenant communities. Ayn Rand, "The Nature of Government" (1963), force confined to a narrow floor. Elinor Ostrom, *Governing the Commons* (1990), shared resources run by their users.
+**Ideas.** Murray Rothbard, [*For a New Liberty*](https://freecapitalists.org/books/for-a-new-liberty-the-libertarian-manifesto/) (1973), self-ownership, property and contract as the basis of order. David Friedman, [*The Machinery of Freedom*](https://freecapitalists.org/books/the-machinery-of-freedom/) (1973), courts and protection supplied by competing firms. Spencer Heath MacCallum, *The Art of Community* (1970), an owner supplying common services under lease. Albert O. Hirschman, *Exit, Voice, and Loyalty* (1970), exit as a check on an organisation. Bruce L. Benson, *The Enterprise of Law* (1990), law produced outside the state. Hans-Hermann Hoppe, *Democracy: The God That Failed* (2001), covenant communities. Ayn Rand, "The Nature of Government" (1963), force confined to a narrow floor. Elinor Ostrom, *Governing the Commons* (1990), shared resources run by their users.
