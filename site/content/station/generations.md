@@ -71,7 +71,7 @@ Three things make the fifth generation different.
 
 ## Stanford torus, Bernal sphere and O'Neill cylinder {#1975-designs}
 
-Three shapes anchor the design history of the space colony. The {% term "Stanford torus" %}, from the 1975 NASA and Stanford summer study, is a wheel for 10,000 people. The Bernal sphere, which O'Neill called Island One, takes its shape from J. D. Bernal's 1929 sketch of a spherical habitat. The O'Neill cylinder, Island Three, is the largest of the three and the one Concordia is built on: a tube whose big radius gives 1 g at a slow, comfortable spin.
+Three shapes anchor the design history of the space colony. The {% term "Stanford torus" %}, from the 1975 NASA and Stanford summer study, is a wheel for 10,000 people. The Bernal sphere, which O'Neill called Island One, takes its shape from J. D. Bernal's 1929 sketch of a spherical habitat. The O'Neill cylinder, Island Three, is the largest of the three and the one Concordia is built on: a tube whose big radius gives 1 g at a slow, comfortable spin. The [side-by-side spin figures for the Stanford torus, O'Neill cylinder, Island One and Kalpana One](https://cheatsheets.davidveksler.com/artificial-gravity-calculator.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=station-generations#designs) are on the CheatSheets artificial gravity calculator.
 
 {% deeper "Where the shape comes from" %}
 Concordia descends from the {% term "O'Neill cylinder" %}, the rotating-cylinder settlement that Gerard O'Neill proposed in the 1970s and that NASA's 1975 summer study worked up as a design in 1977. The cylinder fixes a simple rule: a big radius gives gravity at a slow, comfortable spin. A radius of 2,500 m needs only 0.6 rpm for 1 g.

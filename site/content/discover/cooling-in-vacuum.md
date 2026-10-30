@@ -36,7 +36,7 @@ In vacuum there is no air to carry heat away and no ground to conduct it into. A
 
 The temperature is a choice. Hotter panels shed more per square metre and need fewer square metres, but the heat has to be carried to them at that temperature. Concordia lifts heat from the 300 K city to the radiators with heat pumps and runs the panels at 380 to 500 K. {% basis "design" %} For 40 GW at 450 K that comes to 19 km² of panel on one side. The scene carries 248 modules of 400 by 200 m, 19.8 km² in all, in eight banks standing off the hull.
 
-The calculator leaves out sunlight on the panels, the work the heat pumps do, and the rotary joints that pass heat out of the spinning rotors. Each of those needs development work before anyone builds it at this scale. {% basis "challenge" %}
+How radiators are sized, saturate and get dust-covered on real stations and surface bases is in the [thermal section of the CheatSheets space habitat guide](https://cheatsheets.davidveksler.com/space-habitats-life-support.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=discover-cooling-in-vacuum#thermal-power). The calculator leaves out sunlight on the panels, the work the heat pumps do, and the rotary joints that pass heat out of the spinning rotors. Each of those needs development work before anyone builds it at this scale. {% basis "challenge" %}
 
 {% deeper "The radiator equation" %}
 Radiated power per square metre is set by temperature alone.
