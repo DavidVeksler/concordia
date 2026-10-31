@@ -51,11 +51,11 @@ Generation 3 proved that the Moon is a place you can work, and that its material
 
 By the late 2030s the first stations spun. They are small rings a few hundred metres across, built to house the workers of the construction yard at L5. Generation 4 proved that spin gravity works at small scale, and it gave builders years of data on how people live in {% term "artificial gravity" %}.
 
-{% shot "pl-spaceport-lounge" "A descendant of generation 4: three lounges at the spaceport turn at 0.13, 0.20 and 0.28 g to ease visitors out of weightlessness." %}
+{% shot "pl-spaceport-lounge" "A descendant of generation 4: at the spaceport a wheel turns at 2 rpm and gives waiting passengers a full 1 g street." %}
 
 {% explore viewpoint="spaceport-lounge" %}
 
-Their descendants still turn at the spaceport, where three small comfort lounges spin at 2 rpm to give arriving visitors 0.13 to 0.28 g while they adjust. The construction rings themselves were towed 200 km out after the fourth rotor reached full spin in 2044, and they now turn at the next build site, where the yards have started the next station.
+Their descendants still turn at the spaceport, where two counter-rotating wheels spin at 2 rpm and give waiting passengers lunar, Mars and Earth gravity (0.166, 0.38 and 1.00 g) at three radii. The construction rings themselves were towed 200 km out after the fourth rotor reached full spin in 2044, and they now turn at the next build site, where the yards have started the next station.
 
 ## Generation 5: Concordia
 

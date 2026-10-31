@@ -231,18 +231,27 @@
     "note": "for /places/shipyard/"
   },
   {
-    "id": "pl-spaceport-terminal",
-    "viewpoint": "passenger-terminal",
-    "alt": "The terminal nave seen down its 460 m length: ribbed walls, handline conveyors with riders, catch-net rings and gate signage.",
+    "id": "pl-spaceport-hero",
+    "viewpoint": "spaceport-hero",
+    "alt": "The spaceport from outside: a lounge wheel on its axle, the gate hall in its berth frames before it, the P1 trunk running off right.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
     "note": "for /places/spaceport/ hero"
   },
   {
+    "id": "pl-spaceport-terminal",
+    "viewpoint": "passenger-terminal",
+    "alt": "The axis hall looking forward: ribbed walls, shops on the deck, handline riders overhead and the spindle opening at the far end.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/spaceport/"
+  },
+  {
     "id": "pl-spaceport-lounge",
     "viewpoint": "spaceport-lounge",
-    "alt": "Rotating comfort lounges turn on their stationary hubs beyond the windows of the terminal nave.",
+    "alt": "The departures lounge on the 1 g deck of wheel D: tables, lamps and travellers along a street that rises into the vault.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,

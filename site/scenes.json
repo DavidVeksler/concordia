@@ -373,32 +373,32 @@
   },
   {
     "viewpoint": "passenger-terminal",
-    "title": "Spaceport terminal",
-    "blurb": "The arrival hall of the port, in stationary zero g. Signage, public structure and docking views make up the first look at Concordia for visiting passengers.",
+    "title": "Spaceport axis hall",
+    "blurb": "The zero-g arrival hall on the station axis. Shops on the deck, riders on the handlines and the spindle opening at the far end are the first look at Concordia for visiting passengers.",
     "shot": "sc-passenger-terminal"
   },
   {
     "viewpoint": "spaceport-arrival",
-    "title": "Arrival face",
-    "blurb": "Passengers float down the processing ranks of health screening, customs and security, toward the WELCOME TO CONCORDIA sign over the entrance.",
+    "title": "Head of the axis hall",
+    "blurb": "Looking back along the axis hall to the arch where the express arrives: the WELCOME TO CONCORDIA board, ribs, handline lamps and net rings, with the first shops on the deck.",
     "shot": "sc-spaceport-arrival"
   },
   {
     "viewpoint": "spaceport-concourse",
-    "title": "Concourse A",
-    "blurb": "An open concourse with glide rails, travellers, shop pods and gate pods along the glass wall under a zone arch.",
+    "title": "Axis hall, east end",
+    "blurb": "The far end of the axis hall, where handline riders drift toward the spindle and the two lounge wheels beyond it.",
     "shot": "sc-spaceport-concourse"
   },
   {
     "viewpoint": "spaceport-gate",
     "title": "Gate A03",
-    "blurb": "A boarding bridge, a berth frame and a docked passenger craft, seen from the axial bay. Gates A01 to A05 open off the nave.",
+    "blurb": "Gate A03 in the gate hall: the boarding board and plate beside the arch, travellers waiting in zero g, and the neck running out to the docked coach. Coach berths A01 to A04 sit at the points of a cross.",
     "shot": "sc-spaceport-gate"
   },
   {
     "viewpoint": "spaceport-lounge",
-    "title": "Rotating lounges",
-    "blurb": "Three slow wheels turn at 2 rpm, giving 0.13, 0.20 and 0.28 g. They are a gentle step between zero g and the full weight of the cities.",
+    "title": "Wheel D lounge",
+    "blurb": "The departures lounge on the 1 g deck of wheel D: restaurants and shops along a street that climbs into the vault.",
     "shot": "sc-spaceport-lounge"
   },
   {
@@ -406,6 +406,36 @@
     "title": "External pier",
     "blurb": "Pier P1 on the outer face of the end bulkhead, with a freighter alongside, tugs working and the axial aperture beyond.",
     "shot": "sc-spaceport-pier"
+  },
+  {
+    "viewpoint": "spaceport-hero",
+    "title": "The gate flower",
+    "blurb": "The spaceport from outside, ahead of the gate hall: the hall in its berth frames, a lounge wheel turning on its axle behind it and the lit end of the habitat inside the wheel.",
+    "shot": "sc-spaceport-hero"
+  },
+  {
+    "viewpoint": "spaceport-rim-street",
+    "title": "The rising street",
+    "blurb": "The deck of wheel D at 1 g. The street does not run away from you, it rises into the vault ahead, 22 m up a hundred metres on.",
+    "shot": "sc-spaceport-rim-street"
+  },
+  {
+    "viewpoint": "spaceport-star-floor",
+    "title": "The Star Floor",
+    "blurb": "A glazed bay in the deck of wheel D. Look down through the bronze mullions into space; the wheel turns once every 30 seconds, so the view keeps moving.",
+    "shot": "sc-spaceport-star-floor"
+  },
+  {
+    "viewpoint": "spaceport-luna-ring",
+    "title": "The lunar ring",
+    "blurb": "The hub ring at 0.166 g. The floor curves up on both sides, a stair leads down toward the deck, and a dropped coin lands 29.7 cm from where you let go.",
+    "shot": "sc-spaceport-luna-ring"
+  },
+  {
+    "viewpoint": "spaceport-wheel-gap",
+    "title": "Between the wheels",
+    "blurb": "A stationary catwalk in the 50 m gap between the lounge wheels. The two hub drums face each other, and chevrons on their end plates show the opposite ways they turn.",
+    "shot": "sc-spaceport-wheel-gap"
   },
   {
     "viewpoint": "passenger-launcher-interior",
@@ -458,7 +488,7 @@
   {
     "viewpoint": "exterior-port-frame",
     "title": "The open port",
-    "blurb": "The port frame from 6 km off axis: spokes, pier rings, the terminal citadel and the cage running back toward the yard.",
+    "blurb": "The port frame from 6 km off axis: spokes, pier rings, the lounge wheels on the axis and the cage running back toward the yard.",
     "shot": "sc-exterior-port-frame"
   },
   {

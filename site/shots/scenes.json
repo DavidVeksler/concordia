@@ -416,7 +416,7 @@
   {
     "id": "sc-passenger-terminal",
     "viewpoint": "passenger-terminal",
-    "alt": "A large terminal hall in zero gravity with signage, public structure and docking bays beyond.",
+    "alt": "The axis hall of the spaceport in zero g: shops on the deck, riders on the handlines and the spindle opening ahead.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
@@ -425,7 +425,7 @@
   {
     "id": "sc-spaceport-arrival",
     "viewpoint": "spaceport-arrival",
-    "alt": "The arrival rotunda: a monumental arch under a lit WELCOME TO CONCORDIA sign at the head of the terminal nave.",
+    "alt": "The axis hall looking back at the WELCOME TO CONCORDIA board over the arch, past handlines, net rings and riders.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
@@ -434,7 +434,7 @@
   {
     "id": "sc-spaceport-concourse",
     "viewpoint": "spaceport-concourse",
-    "alt": "The concourse deck low in the nave: shop pods, travellers, a catch-net ring and handline riders overhead.",
+    "alt": "The east end of the axis hall: ribs, handline riders and the round opening that leads to the lounge wheels.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
@@ -443,7 +443,7 @@
   {
     "id": "sc-spaceport-gate",
     "viewpoint": "spaceport-gate",
-    "alt": "A gate with its boarding bridge and berth frame holding a docked passenger craft.",
+    "alt": "Gate A03 through its arch: the boarding board and plate, travellers waiting beneath them and the neck to the docked coach.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
@@ -452,7 +452,7 @@
   {
     "id": "sc-spaceport-lounge",
     "viewpoint": "spaceport-lounge",
-    "alt": "Three rotating lounge wheels on stationary hubs, seen across a concourse.",
+    "alt": "The departures lounge on the 1 g deck of wheel D: tables, lamps and travellers along a street that rises into the vault.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
@@ -462,6 +462,51 @@
     "id": "sc-spaceport-pier",
     "viewpoint": "spaceport-pier",
     "alt": "A long truss pier on the outside of the end face with a freighter and tugs alongside.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-hero",
+    "viewpoint": "spaceport-hero",
+    "alt": "The spaceport from outside: a lounge wheel on its axle, the spindle and gate hall running off to the right, coaches at their berths.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-rim-street",
+    "viewpoint": "spaceport-rim-street",
+    "alt": "Wheel D deck looking spinward: the street rises into the vault ahead, with travellers walking in 1 g.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-star-floor",
+    "viewpoint": "spaceport-star-floor",
+    "alt": "Looking down through a glazed Star Floor bay in the deck of wheel D: bronze mullions over a drop into space, with trusswork far below.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-luna-ring",
+    "viewpoint": "spaceport-luna-ring",
+    "alt": "The lunar hub ring at 0.166 g: a floor that curves up on both sides, a stair and a few travellers.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "scene atlas"
+  },
+  {
+    "id": "sc-spaceport-wheel-gap",
+    "viewpoint": "spaceport-wheel-gap",
+    "alt": "The 50 m gap between the lounge wheels from a catwalk: two hub drums face each other, end plates marked with chevrons.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,

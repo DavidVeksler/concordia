@@ -42,7 +42,7 @@ The shield has gaps by design. The open industrial bay and the shipyard cage are
 
 ## Storm shelters
 
-A solar storm is stopped by shelter, not by thickness everywhere. People who are away from the thickest shielding go to a dedicated storm shelter when the alert sounds. Concordia has them in the terminal citadel and at the roots of the piers. Pressure refuges along the stationary spine cover a different emergency, a loss of air. [Safety](/science/safety/) shows how the refuges, pressure districts and shield fit together. {% basis "design" %}
+A solar storm is stopped by shelter, not by thickness everywhere. People who are away from the thickest shielding go to a dedicated storm shelter when the alert sounds. Concordia has them in the shielded lounge wheels and at the roots of the piers. Pressure refuges along the stationary spine cover a different emergency, a loss of air. [Safety](/science/safety/) shows how the refuges, pressure districts and shield fit together. {% basis "design" %}
 
 NASA's rule of thumb gives the scale. A vehicle with 20 g/cm² of aluminium keeps a once-in-a-decade storm under the limit. For a storm that comes once in a century, add a shelter with 10 cm of water or its equivalent. For one in a thousand years, add 20 cm. About 95 percent of storms never approach dose limits. {% basis "physics" %}
 

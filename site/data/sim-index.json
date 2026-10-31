@@ -592,10 +592,30 @@
       "map": "/map/#vp-passenger-terminal"
     },
     {
+      "id": "spaceport-hero",
+      "name": "Spaceport: the Gate Flower",
+      "group": "Spaceport",
+      "purpose": "The whole port from outside, ahead of the gate hall: the flower of docked coaches in sun, the two lounge wheels turning opposite ways behind it, the spine and the city beyond.",
+      "location": "space",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#what-you-see",
+      "map": "/map/#vp-spaceport-hero"
+    },
+    {
+      "id": "spaceport-wheel-gap",
+      "name": "Spaceport: Between the Wheels",
+      "group": "Spaceport",
+      "purpose": "Looking down on the 50 m gap between the lounge wheels: the two hub drums face to face, their chevrons pointing opposite ways as they turn against each other at a relative 96 m/s at the rims.",
+      "location": "inside",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#the-gap",
+      "map": "/map/#vp-spaceport-wheel-gap"
+    },
+    {
       "id": "spaceport-axial-bay",
       "name": "Spaceport Axial Bay",
       "group": "Spaceport",
-      "purpose": "Keep the axial approach clear while showing docked craft and approach lighting.",
+      "purpose": "The lounge wheels from the end window of the axis hall, with the spindle beyond; keeps the axial approach clear.",
       "location": "inside",
       "chapter": "spaceport"
     },
@@ -603,7 +623,7 @@
       "id": "spaceport-arrival",
       "name": "Spaceport Arrival Face",
       "group": "Spaceport",
-      "purpose": "Arrive through the link tube to the WELCOME TO CONCORDIA arch, then the health, customs and security rings of the processing zone.",
+      "purpose": "Arrive from the terminus drum to the WELCOME TO CONCORDIA arch, then down the axis hall toward the lounge wheels.",
       "location": "inside",
       "chapter": "spaceport",
       "learnMore": "/places/spaceport/#what-you-see",
@@ -613,7 +633,7 @@
       "id": "spaceport-concourse",
       "name": "Spaceport Concourse A",
       "group": "Spaceport",
-      "purpose": "Show the nave: the deck with its shops, the handline conveyors with their riders, the catch-net rings and the gate arches along the bay windows.",
+      "purpose": "Show the axis hall: the deck with its shops, the handline conveyors with their riders and the catch-net rings.",
       "location": "inside",
       "chapter": "spaceport",
       "learnMore": "/places/spaceport/#what-you-see",
@@ -623,7 +643,7 @@
       "id": "spaceport-gate",
       "name": "Spaceport Gate A03",
       "group": "Spaceport",
-      "purpose": "A gate with its boarding bridge, berth frame and a docked passenger craft, seen from the axial bay.",
+      "purpose": "A gate with its arch, neck, boarding bridge and a docked passenger craft, seen from the gate hall.",
       "location": "inside",
       "chapter": "spaceport",
       "learnMore": "/places/spaceport/#what-you-see",
@@ -633,17 +653,103 @@
       "id": "spaceport-lounge",
       "name": "Spaceport Rotating Lounges",
       "group": "Spaceport",
-      "purpose": "The three rotating comfort lounges (0.13, 0.20 and 0.28 g) on their stationary hubs, seen through the nave windows.",
+      "purpose": "Stand in the departures lounge of wheel D at full gravity: the deck, the tables and planters, the vault and the windows on the gap, the street rising ahead.",
       "location": "inside",
       "chapter": "spaceport",
-      "learnMore": "/places/spaceport/#comfort-lounges",
+      "learnMore": "/places/spaceport/#the-street-that-curves-up",
       "map": "/map/#vp-spaceport-lounge"
+    },
+    {
+      "id": "spaceport-rim-street",
+      "name": "Spaceport: the Rising Street",
+      "group": "Spaceport",
+      "purpose": "The deck of wheel D looking spinward: the floor rises ahead into the vault (22 m in the first 100 m), the crown band, a spoke foot far down the street.",
+      "location": "inside",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#the-street-that-curves-up",
+      "map": "/map/#vp-spaceport-rim-street"
+    },
+    {
+      "id": "spaceport-star-floor",
+      "name": "Spaceport: the Star Floor",
+      "group": "Spaceport",
+      "purpose": "A glazed bay in the deck of wheel D: look straight down through the glass at the trusswork of the port and the sun wheeling past under your feet.",
+      "location": "inside",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#the-star-floor",
+      "map": "/map/#vp-spaceport-star-floor"
+    },
+    {
+      "id": "spaceport-spoke-lift",
+      "name": "Spaceport: the Spoke Lift",
+      "group": "Spaceport",
+      "purpose": "Inside a spoke of wheel D, mid-way between the hub and the rim: the glazed lift shafts, the truss and the other wheel turning the other way outside. G at a lift door rides it.",
+      "location": "inside",
+      "chapter": "spaceport"
+    },
+    {
+      "id": "spaceport-mars-landing",
+      "name": "Spaceport: the Mars Landing",
+      "group": "Spaceport",
+      "purpose": "The glazed Mars landing on a spoke of wheel D (0.38 g): the two lift shafts, the truss and the bench where the local lift waits 30 s.",
+      "location": "inside",
+      "chapter": "spaceport"
+    },
+    {
+      "id": "spaceport-luna-ring",
+      "name": "Spaceport: the Luna Ring",
+      "group": "Spaceport",
+      "purpose": "The hub ring of wheel D at 0.166 g (lunar gravity): the floor curving up ahead like a bowl, the windows on both sides, the stair to the carousel door overhead.",
+      "location": "inside",
+      "chapter": "spaceport",
+      "learnMore": "/places/spaceport/#two-wheels-one-gravity-ladder",
+      "map": "/map/#vp-spaceport-luna-ring"
+    },
+    {
+      "id": "spaceport-carousel",
+      "name": "Spaceport: the Carousel Chamber",
+      "group": "Spaceport",
+      "purpose": "Inside a carousel chamber at wheel D, where a visitor is spun up or down between the stationary spindle and the wheel in 60 s at under 0.01 g. G in the green passage boards it.",
+      "location": "inside",
+      "chapter": "spaceport"
+    },
+    {
+      "id": "spaceport-terminus",
+      "name": "Spaceport: the Terminus Drum",
+      "group": "Spaceport",
+      "purpose": "Inside the spine terminus drum, a short flight from where the axial express stops: the welcome arch ahead at the head of the axis hall. G on the express platform rides back to the city.",
+      "location": "inside",
+      "chapter": "spaceport"
+    },
+    {
+      "id": "spaceport-rim-street-a",
+      "name": "Spaceport: the Rising Street, Wheel A",
+      "group": "Spaceport",
+      "purpose": "The deck of wheel A, the arrivals wheel, at 1 g looking spinward: the same street as wheel D, spinning the other way.",
+      "location": "inside",
+      "chapter": "spaceport"
+    },
+    {
+      "id": "spaceport-gate-hall",
+      "name": "Spaceport: the Gate Hall",
+      "group": "Spaceport",
+      "purpose": "The gate hall from its west cap: the handlines and net rings, the checkpoint ring, the gate arches round the cross cells and the trunk door at the far end, then the apron.",
+      "location": "inside",
+      "chapter": "spaceport"
+    },
+    {
+      "id": "spaceport-apron",
+      "name": "Spaceport: the Tug Apron",
+      "group": "Spaceport",
+      "purpose": "Outside, aft of the gate hall: the tug cradles of the apron and the racer dock R1 above them. B opens the vehicle picker near R1.",
+      "location": "space",
+      "chapter": "spaceport"
     },
     {
       "id": "spaceport-pier",
       "name": "Spaceport External Pier",
       "group": "Spaceport",
-      "purpose": "Pier P1 on the outer face of the end bulkhead with a freighter alongside, tugs and the axial aperture.",
+      "purpose": "Pier P1 on the station axis with a freighter alongside, tugs and the passenger trunk behind it.",
       "location": "space",
       "chapter": "spaceport",
       "learnMore": "/places/spaceport/#piers-and-the-propellant-farm",
@@ -785,7 +891,7 @@
       "id": "exterior-port-frame",
       "name": "Exterior QA: Open Port Frame",
       "group": "Exterior",
-      "purpose": "Look at the open port from 6 km off the axis: the port frame (spokes, mid and inner pier rings), the terminal citadel, the piers and the cage running back toward the yard (docs/specs/forward-port-spec.md).",
+      "purpose": "Look at the open port from 6 km off the axis: the port frame (spokes, mid and inner pier rings), the coaxial port, the piers and the cage running back toward the yard (docs/specs/forward-port-spec.md).",
       "location": "space",
       "chapter": "exterior",
       "learnMore": "/places/spaceport/#what-you-see",
@@ -1161,7 +1267,7 @@
       "id": "racer-pit",
       "name": "Racer Dock (R1)",
       "group": "Racer",
-      "purpose": "The two-seat racer on its level launch table atop the spaceport jacket, 10,205 m along the spine, with the ready room, lock tower, boarding gangway, umbilical arms and latches it launches from; it lifts off the dock and leaves through the forward port. B launches it; ?racer=launch starts the sequence on load (docs/specs/exo-racer-spec.md section 6).",
+      "purpose": "The two-seat racer on its level launch table on the spaceport apron (about 10,285 m along the spine, 205 m above the axis), with the ready room, lock tower, boarding gangway, umbilical arms and latches it launches from; it lifts off the dock and leaves through the forward port. B launches it; ?racer=launch starts the sequence on load (docs/specs/exo-racer-spec.md section 6).",
       "location": "space",
       "chapter": "exterior"
     },
@@ -3563,7 +3669,7 @@
       "id": "comfort-lounges-1",
       "group": "comfort-lounges",
       "title": "Comfort lounges",
-      "blurb": "Three rotating lounges at 0.13, 0.20 and 0.28 g rest travellers from weightlessness, with restaurants, sleeping rooms and a quiet deck.",
+      "blurb": "Two counter-rotating wheels turn at 2 rpm, 460 m across. Their decks give full Earth gravity for restaurants and quiet rooms; the hubs give lunar gravity.",
       "href": "/places/spaceport/#how-it-works-in-brief",
       "map": "/map/#vp-spaceport-lounge",
       "viewpoint": "spaceport-lounge",
@@ -3572,7 +3678,7 @@
       ],
       "rangeM": [
         20,
-        700
+        2500
       ],
       "priority": 1,
       "chapters": [
@@ -3583,7 +3689,7 @@
       "id": "comfort-lounges-2",
       "group": "comfort-lounges",
       "title": "Comfort lounges",
-      "blurb": "Three rotating lounges at 0.13, 0.20 and 0.28 g rest travellers from weightlessness, with restaurants, sleeping rooms and a quiet deck.",
+      "blurb": "Two counter-rotating wheels turn at 2 rpm, 460 m across. Their decks give full Earth gravity for restaurants and quiet rooms; the hubs give lunar gravity.",
       "href": "/places/spaceport/#how-it-works-in-brief",
       "map": "/map/#vp-spaceport-lounge",
       "viewpoint": "spaceport-lounge",
@@ -3592,27 +3698,7 @@
       ],
       "rangeM": [
         20,
-        700
-      ],
-      "priority": 1,
-      "chapters": [
-        "spaceport"
-      ]
-    },
-    {
-      "id": "comfort-lounges-3",
-      "group": "comfort-lounges",
-      "title": "Comfort lounges",
-      "blurb": "Three rotating lounges at 0.13, 0.20 and 0.28 g rest travellers from weightlessness, with restaurants, sleeping rooms and a quiet deck.",
-      "href": "/places/spaceport/#how-it-works-in-brief",
-      "map": "/map/#vp-spaceport-lounge",
-      "viewpoint": "spaceport-lounge",
-      "zones": [
-        "spaceport"
-      ],
-      "rangeM": [
-        20,
-        700
+        2500
       ],
       "priority": 1,
       "chapters": [
@@ -3623,7 +3709,7 @@
       "id": "arrival-face",
       "group": "arrival-face",
       "title": "Arrival face",
-      "blurb": "The arrival face reads WELCOME TO CONCORDIA. Beyond it are health screening, customs with eight lanes and security with eight arches.",
+      "blurb": "The arrival face reads WELCOME TO CONCORDIA. Beyond it the axis hall runs to the wheels, where health, customs and security stand in full gravity.",
       "href": "/places/spaceport/#what-you-see",
       "map": "/map/#vp-spaceport-arrival",
       "viewpoint": "spaceport-arrival",
