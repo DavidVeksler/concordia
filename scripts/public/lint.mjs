@@ -71,7 +71,7 @@ for (const [path, file] of pages) {
   const desc = String(fm.description ?? '').replace(/\s+/g, ' ').trim();
   if (!desc) err(rel, 'front matter needs a description (150 to 200 characters)');
   else if (!desc.includes('{{') && (desc.length < 150 || desc.length > 200)) err(rel, `description is ${desc.length} characters; the range is 150 to 200`);
-  if (fm.title && !/concordia/i.test(fm.title) && fm.titleSuffix !== false && `${fm.title}${config.titleSuffix}`.length > 60) err(rel, `title plus suffix is over 60 characters`);
+  if (fm.title && !/concordia/i.test(fm.title) && fm.titleSuffix !== false && `${fm.title}${config.titleSuffixShort ?? config.titleSuffix}`.length > 60) err(rel, `title plus suffix is over 60 characters`);
   if (fm.hero && !shots.has(fm.hero)) err(rel, `hero shot "${fm.hero}" is not in site/shots/*.json`);
   for (const r of fm.related ?? []) if (!pages.has(r)) err(rel, `related page ${r} does not exist`);
   if (/^#\s/m.test(body.replace(/```[\s\S]*?```/g, ''))) err(rel, 'the body must not contain an H1 (the template renders it)');

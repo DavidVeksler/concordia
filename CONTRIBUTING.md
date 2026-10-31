@@ -19,7 +19,7 @@ A merged pull request is imported into the private repository, built in full, an
 - No hedges or disclaimers. State the claim, cite the source if it needs one, and stop.
 - Present tense, 2045. The station exists; the history is told as fact inside the fiction.
 - Every number carries a basis: physics, design value, engineering challenge or story. Use `{% basis "design" %}` and friends. The legend is at [/about/#basis](https://concordia.davidveksler.com/about/#basis).
-- Front matter: description 150 to 200 characters; title no longer than 60 characters with the " | Concordia" suffix; no H1 in the body.
+- Front matter: description 150 to 200 characters; title no longer than 60 characters with the " | Concordia 2045" suffix (or " | Concordia" when the long one would pass 60); no H1 in the body.
 - Alt text for every shot: 8 to 25 words, says what is in the picture.
 
 ## What this repository cannot change

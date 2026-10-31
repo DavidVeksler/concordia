@@ -1,6 +1,6 @@
 ---
-title: "Concordia: a rotating space city you can walk in 3D"
-h1: Concordia
+title: "Concordia 2045: a rotating space city you can walk in 3D"
+h1: Concordia 2045
 description: "Concordia is a rotating space city at Earth-Moon L5, descended from the O'Neill cylinder: four rotor cities, a shipyard and a spaceport on a 21 km axis. Learn how it works, then walk its streets."
 lead: "Walk the streets of a space city that spins at Earth-Moon L5, as far from Earth as the Moon, then ride from Earth-normal weight to weightlessness."
 hero: film-end-lookback

@@ -1,8 +1,9 @@
 {
   "origin": "https://concordia.davidveksler.com",
-  "name": "Concordia",
+  "name": "Concordia 2045",
   "tagline": "A city of a million, turning at L5",
-  "titleSuffix": " | Concordia",
+  "titleSuffix": " | Concordia 2045",
+  "titleSuffixShort": " | Concordia",
   "locale": "en",
   "ogDefault": "/og.jpg",
   "tourMinutes": 11,
