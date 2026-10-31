@@ -1,0 +1,12 @@
+{
+  "_": "Atlas rows with no site scene: viewpoint -> shot id (site/shots/views.json). make-atlas-thumbs.mjs cuts public/site/atlas/<viewpoint>.avif from the shot; src/main.ts shows a thumbnail for these rows instead of the glyph tile.",
+  "thumbs": {
+    "spaceport-terminus": "th-spaceport-terminus",
+    "spaceport-rim-street-a": "th-spaceport-rim-street-a",
+    "spaceport-apron": "th-spaceport-apron",
+    "racer-pit": "th-racer-pit",
+    "spaceport-spoke-lift": "th-spaceport-spoke-lift",
+    "spaceport-mars-landing": "th-spaceport-mars-landing",
+    "spaceport-carousel": "th-spaceport-carousel"
+  }
+}

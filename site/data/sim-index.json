@@ -643,7 +643,7 @@
       "id": "spaceport-gate",
       "name": "Spaceport Gate A03",
       "group": "Spaceport",
-      "purpose": "A gate with its arch, neck, boarding bridge and a docked passenger craft, seen from the gate hall.",
+      "purpose": "A gate seen from inside the gate hall: the gate board and the queue, then the round neck out to the collar, the boarding bridge and a docked passenger craft.",
       "location": "inside",
       "chapter": "spaceport",
       "learnMore": "/places/spaceport/#what-you-see",
@@ -733,7 +733,7 @@
       "id": "spaceport-gate-hall",
       "name": "Spaceport: the Gate Hall",
       "group": "Spaceport",
-      "purpose": "The gate hall from its west cap: the handlines and net rings, the checkpoint ring, the gate arches round the cross cells and the trunk door at the far end, then the apron.",
+      "purpose": "The gate hall from its west cap: the handlines and net rings, the checkpoint ring, the round necks to the gates at the cross cells and the trunk door at the far end, then the apron.",
       "location": "inside",
       "chapter": "spaceport"
     },

@@ -160,5 +160,68 @@
     "ui": "clean",
     "settleMs": 4000,
     "note": "money-shot candidate: Ultra capture of the atlas view, unplaced until David picks"
+  },
+  {
+    "id": "th-spaceport-terminus",
+    "viewpoint": "spaceport-terminus",
+    "alt": "The axis hall from the terminus drum: a long bronze-ribbed tunnel with the WELCOME TO CONCORDIA board at its far end, inside a truss cage.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-spaceport-rim-street-a",
+    "viewpoint": "spaceport-rim-street-a",
+    "alt": "Wheel A's arrivals street: rope-lined queues and a few people on a broad street that curves up into the vault overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-spaceport-apron",
+    "viewpoint": "spaceport-apron",
+    "alt": "The tug apron beside pier P1: a white mast, tug cradles in yellow frames and open truss under a black sky.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-racer-pit",
+    "viewpoint": "racer-pit",
+    "alt": "The racer dock R1 on the apron: a white lock tower carrying the ready room above the cage trusswork, with a freighter below.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 12000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-spaceport-spoke-lift",
+    "viewpoint": "spaceport-spoke-lift",
+    "alt": "Inside a spoke of the lounge wheel: glazed lift shaft walls and truss ribs around a deep well that opens onto the hub drum.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-spaceport-mars-landing",
+    "viewpoint": "spaceport-mars-landing",
+    "alt": "The Mars landing, a glass lobby on a wheel spoke at 0.38 g, with open lift shafts in its floor and the station beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-spaceport-carousel",
+    "viewpoint": "spaceport-carousel",
+    "alt": "Inside a carousel chamber: a white curved floor, a bench and a pole, with windowed bulkheads on either side.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
   }
 ]

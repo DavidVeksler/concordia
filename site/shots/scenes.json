@@ -443,7 +443,7 @@
   {
     "id": "sc-spaceport-gate",
     "viewpoint": "spaceport-gate",
-    "alt": "Gate A03 through its arch: the boarding board and plate, travellers waiting beneath them and the neck to the docked coach.",
+    "alt": "Gate A03 and its round neck: the boarding board and plate, travellers waiting beside them and the long neck out to the docked coach.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
