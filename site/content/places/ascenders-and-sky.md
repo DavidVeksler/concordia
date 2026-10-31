@@ -26,7 +26,7 @@ The cabin is 26 m long and 7.6 m wide, with window seats, rails and a glass floo
 
 {% shot "pl-ascender-250m" "From 250 m the neighbourhood is still familiar and the horizon is beginning to curve upward." %}
 
-At about 450 m the cabin reaches the sky. The artificial sky is a ceiling of luminous panels hung on hoops and stay cables, and from below it looks like a clear day. Each ascender tower passes through a permanent opening, roughly 154 m by 210 m. The cabin slides through it and the other half of the world appears: panel frames, maintenance paths, and the city on the far side of the rotor, hanging upside down in the distance.
+At about 450 m the cabin reaches the sky. The artificial sky is a ceiling of luminous panels hung on hoops and stay cables, and from below it looks like a clear day. Each ascender tower passes through a permanent round opening, 140 m across, with a lit drum standing on its rim. The cabin slides through it and the other half of the world appears: panel frames, maintenance paths, and the city on the far side of the rotor, hanging upside down in the distance.
 
 {% shot "pl-ascender-cabin" "The panoramic cabin with its glass floor gallery and the city curving up beyond the glass." %}
 

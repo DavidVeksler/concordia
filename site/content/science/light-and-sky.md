@@ -59,7 +59,7 @@ The sky has five weather types: clear, fair-weather cumulus, broken cloud, overc
 
 At noon one rotor's sky draws 1.5 GW. Because the four rotors run their days 6 hours apart, the total averages 2.2 GW and never goes above 2.6 GW. All of it ends as heat, and the sky's share is rejected by about 1.2 km² of radiator at 450 K (see [power and heat](/science/power-and-heat/)). Against a station built for 20 to 25 GW of average demand at first, lighting a world is about a tenth of its power. {% basis "design" %}
 
-Four apertures, each about 154 by 210 m, pass the ascender towers through the membrane. That is where you break through the sky and see the machinery behind it.
+Four round openings, each 140 m across, pass the ascender towers through the membrane, and every pier crosses it through a fitted 57 m eye. That is where you break through the sky and see the machinery behind it.
 
 {% deeper "Where the numbers come from" basis="physics" %}
 One rotor's membrane is 31.8 km², and 1.5 GW over that area is 47 W/m² of electrical input. The emitters are 25 mm apart, so 31.8 × 10⁶ m² ÷ (0.025 m)² = 5.1 × 10¹⁰ of them.

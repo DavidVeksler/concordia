@@ -67,7 +67,7 @@
   {"id":"farm-harvest-line","href":"/explore/?viewpoint=farm-harvest-line","section":"rotor-1","x":2342,"y":1753,"s":842,"u":297,"heightM":1004,"g":0.598},
   {"id":"farm-packaging-dispatch","href":"/explore/?viewpoint=farm-packaging-dispatch","section":"rotor-1","x":2317,"y":1769,"s":817,"u":281,"heightM":1003,"g":0.598},
   {"id":"ascender-250m","href":"/explore/?viewpoint=ascender-250m","section":"rotor-1","x":1500,"y":1836,"s":0,"u":214,"heightM":250,"g":0.899},
-  {"id":"artificial-sky-breakthrough","href":"/explore/?viewpoint=artificial-sky-breakthrough","section":"rotor-1","x":1500,"y":1836,"s":0,"u":214,"heightM":800,"g":0.679},
+  {"id":"artificial-sky-breakthrough","href":"/explore/?viewpoint=artificial-sky-breakthrough","section":"rotor-1","x":1604,"y":1851,"s":104,"u":199,"heightM":618,"g":0.752},
   {"id":"ascender-cabin","href":"/explore/?viewpoint=ascender-cabin","section":"rotor-1","x":1500,"y":1836,"s":0,"u":214,"heightM":650,"g":0.739},
   {"id":"ascender-tower","href":"/explore/?viewpoint=ascender-tower","section":"rotor-1","x":1641,"y":1746,"s":141,"u":304,"heightM":807,"g":0.676},
   {"id":"ascender-hub","href":"/explore/?viewpoint=ascender-hub","section":"rotor-1","x":2659,"y":1540,"s":1159,"u":510,"heightM":2142,"g":0.143},

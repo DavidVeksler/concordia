@@ -32,7 +32,7 @@ Open the breakthrough view. The cabin has just passed through a permanent openin
 
 ## Explain
 
-The sky is a ceiling of lit panels at 450 m, built to look like open air from the street. From below it is opaque, so from the street you cannot see past it. Each ascender tower passes through a permanent opening, about 154 m by 210 m, and the cabin slides through. {% basis "design" %}
+The sky is a ceiling of lit panels at 450 m, built to look like open air from the street. From below it is opaque, so from the street you cannot see past it. Each ascender tower passes through a permanent round opening, 140 m across, ringed by a lit drum, and the cabin slides through. {% basis "design" %}
 
 Above the panels the picture changes. You see frames, maintenance paths and stay cables, then the rest of the cylinder. The air above the sky is the same air as the air below it, because the sky is a ceiling and not a seal. The far side of the rotor is 4,550 m from the sky and 2,500 m from the axis, a second city whose floor faces yours. It reads as upside down because its down points away from you, toward the outer wall behind it. {% basis "physics" %}
 

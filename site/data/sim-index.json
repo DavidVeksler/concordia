@@ -234,7 +234,7 @@
       "id": "artificial-sky-breakthrough",
       "name": "Ascender — Artificial Sky Breakthrough",
       "group": "Ground to Axis",
-      "purpose": "Signature reveal of the engineered sky, opposite city, and open interior.",
+      "purpose": "Signature reveal of the engineered sky: the lit oculus of an ascender seen from 60 m above its lip, the lamp rings of the drum, the tower rising through it and the city far below (docs/specs/sky-openings-spec.md; recomposed 2026-10-30, it was a view up at the opposite city from 800 m).",
       "location": "inside",
       "chapter": "ascender",
       "learnMore": "/places/ascenders-and-sky/#what-you-see",
