@@ -115,6 +115,62 @@ for ra, L in ((2050, 100), (2050, 500), (500, 300)):
     Ts, _ = sim_pendulum(ra, L, t_end=max(900, 6 * Ta), dt=2e-3)
     print(f"{ra:6.0f} {L:6.0f} {Ta:15.2f} {Ts:16.2f} {100*(Ts-Ta)/Ta:8.2f} {Tn:12.2f}")
 
+def sim_pendulum3d(ra, L, phi0=0.0, th0=0.0, m=1000.0, k=2e6, c=200.0, t_end=300.0, dt=3e-3):
+    """Inertial-frame 3-D check. Pivot on a circle of radius ra in the x-y plane, spin axis z. Load starts at
+    rest in the rotating frame, displaced by phi0 along the circumference (in-plane) or th0 along the spin
+    axis (axial). Stiff spring-rope with the rest length set so the static stretch is zero, light damping
+    along the rope. Returns the sway period of the displaced axis plus (phi, phidot, tension) samples."""
+    T0 = m * W * W * (ra + L)                        # static tension of the hanging load
+    l0 = L - T0 / k
+    def acc(t, s):
+        px, py = ra * math.cos(W * t), ra * math.sin(W * t)
+        pvx, pvy = -ra * W * math.sin(W * t), ra * W * math.cos(W * t)
+        dx, dy, dz = s[0] - px, s[1] - py, s[2]
+        d = math.sqrt(dx * dx + dy * dy + dz * dz)
+        rv = ((s[3] - pvx) * dx + (s[4] - pvy) * dy + s[5] * dz) / d
+        f = k * (d - l0) + c * rv
+        return np.array([s[3], s[4], s[5], -f * dx / d / m, -f * dy / d / m, -f * dz / d / m]), f
+    x0, y0, z0 = ra + L * math.cos(phi0 + th0), L * math.sin(phi0), L * math.sin(th0)
+    s = np.array([x0, y0, z0, -W * y0, W * x0, 0.0])
+    t, ts, zs, ph, ten = 0.0, [], [], [], []
+    for i in range(int(t_end / dt)):
+        k1, f1 = acc(t, s); k2, _ = acc(t + dt / 2, s + dt / 2 * k1); k3, _ = acc(t + dt / 2, s + dt / 2 * k2); k4, _ = acc(t + dt, s + dt * k3)
+        if i % 10 == 0:
+            ux, uy = s[0] - ra * math.cos(W * t), s[1] - ra * math.sin(W * t)
+            rx, ry = ux * math.cos(W * t) + uy * math.sin(W * t), -ux * math.sin(W * t) + uy * math.cos(W * t)
+            ts.append(t); zs.append(s[2]); ph.append(math.atan2(ry, rx)); ten.append(f1)
+        s = s + dt / 6 * (k1 + 2 * k2 + 2 * k3 + k4); t += dt
+    ts, zs, ph, ten = map(np.array, (ts, zs, ph, ten))
+    q = zs if th0 else ph
+    zc = [ts[i] - q[i] * (ts[i+1] - ts[i]) / (q[i+1] - q[i]) for i in range(len(ts) - 1) if q[i] > 0 >= q[i+1]]
+    per = float(np.mean(np.diff(zc))) if len(zc) > 2 else float('nan')
+    return per, ts, ph, ten
+
+hdr("3b. Axial sway (along the spin axis) and tension of the in-plane swing")
+print("Axial sway: centrifugal potential -(1/2) m W^2 (r_a + L cos th)^2, Coriolis zero to first order  ->  th'' = -(W^2 (r_a+L)/L) th")
+print("  => w_axial = W sqrt((r_a+L)/L) = sqrt(g_load/L): the ordinary formula, gravity at the LOAD. In-plane (circumferential) sway keeps W sqrt(r_a/L).")
+print(f"{'r_a':>6} {'L':>6} {'T_inplane (s)':>14} {'T_axial analytic':>17} {'T_axial simulated':>18} {'error %':>8} {'(Tin-Tax)/Tax %':>16}")
+for ra, L in ((2050, 100), (2050, 500), (500, 300)):
+    Tin = 2 * math.pi / (W * math.sqrt(ra / L)); Tax = 2 * math.pi / (W * math.sqrt((ra + L) / L))
+    Ts, *_ = sim_pendulum3d(ra, L, th0=0.05, t_end=max(300.0, 10 * Tax))
+    print(f"{ra:6.0f} {L:6.0f} {Tin:14.2f} {Tax:17.2f} {Ts:18.2f} {100*(Ts-Tax)/Tax:8.2f} {100*(Tin-Tax)/Tax:16.2f}")
+print("A 0.25 m pendulum on a 1 g floor (r_a = 2,500 m) swung east-west vs along the axis: period ratio sqrt(1 + L/r_a) -> "
+      f"{86400*(1-1/math.sqrt(1+0.25/2500.0)):.1f} s/day slower in-plane than a clock swinging along the axis")
+
+print("\nTension of the in-plane swing: T = m [ W^2 r_a cos(phi) + L (W + phi')^2 ]  (phi' > 0: swinging with the rotation, heavier)")
+ra, L, phi0 = 2050, 100, 0.3
+per, ts, ph, ten = sim_pendulum3d(ra, L, phi0=phi0, t_end=90.0)
+dtp = ts[1] - ts[0]
+phd = np.gradient(ph, dtp)
+Tform = 1000.0 * (W * W * ra * np.cos(ph) + L * (W + phd) ** 2)
+sel = slice(int(15 / dtp), len(ts) - 2)        # skip the first 15 s of rope ringing
+rel = np.abs(ten[sel] - Tform[sel]) / Tform[sel]
+T0 = 1000.0 * W * W * (ra + L)
+print(f"  r_a={ra}, L={L}, amplitude {phi0} rad: static tension {T0/1e3:.2f} kN; simulated range {ten[sel].min()/1e3:.2f} to {ten[sel].max()/1e3:.2f} kN "
+      f"({ten[sel].min()/T0:.2f} to {ten[sel].max()/T0:.2f} of static); formula range {Tform[sel].min()/1e3:.2f} to {Tform[sel].max()/1e3:.2f} kN; "
+      f"max pointwise difference {100*rel.max():.1f} %")
+print(f"  Minimum is {Tform[sel].min()/T0:.2f} of static, so the rope never goes slack for |phi| < 90 deg: the load is not weightless at the swing's west end.")
+
 print("\nSteady Coriolis lean of a cargo lowered/raised radially at v on a free cable: tan(alpha) = 2v/(W r)")
 for r in (500, 1000, 1500, 2050):
     print(f"  r={r:5d}: " + "   ".join(f"v={v} m/s -> {math.degrees(math.atan(2*v/(W*r))):5.1f} deg" for v in (0.5, 1, 2, 5, 10)))

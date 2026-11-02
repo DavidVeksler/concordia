@@ -67,6 +67,21 @@ Validation (inertial-frame Cartesian simulation, stiff rope k=2e6 N/m, 1 t mass,
   2050    500           49.57            49.58     0.02        44.44
    500    300           77.75            77.76     0.02        61.46
 
+====================================================================================================
+3b. Axial sway (along the spin axis) and tension of the in-plane swing
+====================================================================================================
+Axial sway: centrifugal potential -(1/2) m W^2 (r_a + L cos th)^2, Coriolis zero to first order  ->  th'' = -(W^2 (r_a+L)/L) th
+  => w_axial = W sqrt((r_a+L)/L) = sqrt(g_load/L): the ordinary formula, gravity at the LOAD. In-plane (circumferential) sway keeps W sqrt(r_a/L).
+   r_a      L  T_inplane (s)  T_axial analytic  T_axial simulated  error %  (Tin-Tax)/Tax %
+  2050    100          22.17             21.65              21.65     0.01             2.41
+  2050    500          49.57             44.44              44.45     0.01            11.53
+   500    300          77.75             61.46              61.47     0.01            26.49
+A 0.25 m pendulum on a 1 g floor (r_a = 2,500 m) swung east-west vs along the axis: period ratio sqrt(1 + L/r_a) -> 4.3 s/day slower in-plane than a clock swinging along the axis
+
+Tension of the in-plane swing: T = m [ W^2 r_a cos(phi) + L (W + phi')^2 ]  (phi' > 0: swinging with the rotation, heavier)
+  r_a=2050, L=100, amplitude 0.3 rad: static tension 8.43 kN; simulated range 7.77 to 10.27 kN (0.92 to 1.22 of static); formula range 7.81 to 10.20 kN; max pointwise difference 0.8 %
+  Minimum is 0.93 of static, so the rope never goes slack for |phi| < 90 deg: the load is not weightless at the swing's west end.
+
 Steady Coriolis lean of a cargo lowered/raised radially at v on a free cable: tan(alpha) = 2v/(W r)
   r=  500: v=0.5 m/s ->   1.8 deg   v=1 m/s ->   3.7 deg   v=2 m/s ->   7.3 deg   v=5 m/s ->  17.7 deg   v=10 m/s ->  32.6 deg
   r= 1000: v=0.5 m/s ->   0.9 deg   v=1 m/s ->   1.8 deg   v=2 m/s ->   3.7 deg   v=5 m/s ->   9.1 deg   v=10 m/s ->  17.7 deg

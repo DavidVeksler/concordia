@@ -47,7 +47,7 @@ Cable suspension survives in one place: **short outboard drops (about 20 to 100 
 
 Three results that would be surprising to a terrestrial engineer, all validated numerically:
 
-1. **Sway frequency is set by gravity at the pivot, not at the load.** A cable of length L hung outboard of a pivot at radius r_a swings at w = W sqrt(r_a / L), not sqrt(g_load / L). Inertial-frame simulation matches to 0.02 %; the naive formula is off by 3 % to 12 % for hangs of 100 to 500 m at R = 2,050 m and by up to a factor of two for 1.5 km hangs from low radii.
+1. **Circumferential sway frequency is set by gravity at the pivot, not at the load; axial sway is not.** A cable of length L hung outboard of a pivot at radius r_a swings along the direction of rotation at w = W sqrt(r_a / L), not sqrt(g_load / L). Swung along the spin axis it does follow the load's gravity, w = W sqrt((r_a + L) / L), so a hanging load has two sway frequencies (section 2.3). Inertial-frame simulation matches to 0.02 %; the naive formula is off by 3 % to 12 % for hangs of 100 to 500 m at R = 2,050 m and by up to a factor of two for 1.5 km hangs from low radii.
 2. **A circumferential move changes apparent weight by (1 + v / (W r))^2.** At 20 m/s prograde on R = 1,875 m cargo weighs 1.37 times as much; retrograde 0.69 times.
 3. **A hoist rope bows sideways from Coriolis force.** A 10 t car at 4 m/s over a 1,000 m span bows the rope 5.2 m; an 8 m riser shaft cannot hold that, so spans between rope guides must be 300 to 500 m (0.6 to 1.5 m of bow).
 
@@ -101,7 +101,7 @@ Cargo tension T = m g(r_load) plus cable self-weight, which integrates to lambda
 
 ### 2.3 Sway dynamics [E, validated]
 
-Pendulum of length L hung outboard from a pivot fixed in the rotating frame at radius r_a, angle phi from the radial. The inertial-frame Lagrangian is
+Pendulum of length L hung outboard from a pivot fixed in the rotating frame at radius r_a, angle phi from the radial, swinging in the plane of rotation (circumferentially). The inertial-frame Lagrangian is
 
 L = ½ m L² phidot² + m W (r_a L cos phi + L²) phidot + m W² r_a L cos phi + const,
 
@@ -117,9 +117,21 @@ and the Coriolis cross terms cancel, leaving **phi'' = -(W² r_a / L) sin phi**,
 
 Selected sway periods (s) for the pivot at r_a: R = 2,050: L = 10 m 7.0, 100 m 22.2, 500 m 49.6, 1,500 m 85.9. R = 1,500: 8.2, 25.9, 57.9, 100.4. R = 500: 14.2, 44.9, 100.4 (at L = 500), 173.8 (at L = 1,500). A 1.5 km cable hung from R = 500 m swings slower than the rotor turns.
 
+**Axial sway follows the load's gravity.** Swung along the spin axis (a carriage accelerating on an axial girder), the Coriolis force is zero to first order and the restoring term comes from the centrifugal potential -½ m W² (r_a + L cos th)², giving th'' = -(W² (r_a + L) / L) th, so w_a = W sqrt((r_a + L) / L) = sqrt(g_load / L): the ordinary formula. A hanging load therefore has two sway frequencies, circumferential below axial, and a diagonal swing is an ellipse whose axes turn slowly. The same inertial-frame simulation with a z axis added:
+
+| r_a (m) | L (m) | Circumferential period (s) | Axial analytic (s) | Axial simulated (s) | Error |
+| --- | --- | --- | --- | --- | --- |
+| 2,050 | 100 | 22.17 | 21.65 | 21.65 | 0.01 % |
+| 2,050 | 500 | 49.57 | 44.44 | 44.45 | 0.01 % |
+| 500 | 300 | 77.75 | 61.46 | 61.47 | 0.01 % |
+
+The two periods differ by 2.4 %, 11.5 % and 26 % in these cases. A 0.25 m pendulum on a 1 g floor (r_a = 2,500 m) swung east-west runs about 4.3 s per day slow against one swung along the axis.
+
+**Tension is asymmetric, the period is not.** For the circumferential swing the rope tension is T = m [W² r_a cos phi + L (W + phi')²]: swinging with the rotation (phi' > 0) loads the rope more, swinging against it less. For r_a = 2,050 m, L = 100 m and a 0.3 rad swing the static tension is 8.43 kN and the formula gives 7.81 to 10.20 kN (0.93 to 1.21 of static); the simulation gives 7.77 to 10.27 kN, within 0.8 % pointwise. The rope stays taut for |phi| < 90 degrees, so the load is never weightless at the west end of the swing.
+
 Consequences:
 
-- **Anti-sway is needed at every length.** Industrial crane input shaping (ZV, ZVD, UMZV shapers, 1 t to 10 t cranes, 65 to 88 % sway reduction in published trials) is directly applicable once the pendulum frequency is set from r_a, not g_load. Shaper and feedback design is established practice [X].
+- **Anti-sway is needed at every length.** Industrial crane input shaping (ZV, ZVD, UMZV shapers, 1 t to 10 t cranes, 65 to 88 % sway reduction in published trials) is directly applicable once the two pendulum frequencies are set correctly: from r_a for circumferential moves, from r_a + L (the load's gravity) for moves along the axis. A shaper tuned to one frequency does nothing for the other. Shaper and feedback design is established practice [X].
 - **Variable-length pendulum.** L phi'' + 2 L' phi' + W² r_a phi = 0. Paying out (L' > 0) damps; reeling in (L' < 0) pumps energy into the sway. Hoisting is the risky direction, as on Earth. Avoid modulating length at twice the sway frequency (for L = 100 m at R = 2,050 m that is a period of about 11 s).
 - **Coriolis lean on a freely hanging load** moved radially at v: tan(alpha) = 2v / (W r):
 
@@ -267,7 +279,7 @@ Scores 1 (poor) to 5 (best), then notes. Quantities from sections 4 and 6.
 Notes:
 
 - **A is the baseline for flexibility, not for freight.** 26x to 141x the electricity of rails on horizontal routes, 1 MW-class continuous loads for container tugs, no regeneration, uncontained failure. Keep for construction, emergency and 100 kg-class deliveries.
-- **B fails on its premise.** The cargo is outboard of the anchor, it swings at W sqrt(r_a / L) with 50 to 170 s periods for hangs of 500 to 1,500 m from low radii, and it leans 6 to 18 degrees at 5 m/s. The retained piece is the short outboard drop from a rail.
+- **B fails on its premise.** The cargo is outboard of the anchor, it swings circumferentially at W sqrt(r_a / L) (and axially a few percent to a quarter faster) with 50 to 170 s periods for hangs of 500 to 1,500 m from low radii, and it leans 6 to 18 degrees at 5 m/s. The retained piece is the short outboard drop from a rail.
 - **D (CDPR) is a local tool, because of frame and tension margin, not because cables cannot pull inboard.** A redundant layout works anywhere an anchor frame surrounds the load. Published large systems (CoGiRo, 15 x 11 x 6 m, above 300 kg payload; FASTKIT as a mobile logistics variant) are far below 10 t at hall scale. Use inside farm halls, depots and shipyards.
 - **E (maglev, linear motors) is an upgrade path for the grid, not a different architecture.** At 5 to 20 m/s the energy case for contactless propulsion is weak (the total is 2.4 kWh for 10 t over 11.8 km); the case is maintenance (no wheel wear) and high-frequency headways. Retain as a track-technology option. Rolling-resistance and rope-wear data for wheeled systems are better known [X].
 - **F saves structure and loses the point.** It leaves every horizontal and sky move to tugs.
@@ -435,6 +447,6 @@ Sources checked for this draft. Most are secondary or vendor sources; the note a
 
 Two items use no source and are treated as extrapolation [X]: rack-and-pinion or linear-motor self-climbing cars at 50 t (no vendor data at that payload are used), and linear synchronous motor or maglev freight (no operating system at this scale was found, so option E in section 5 is scored on reasoning, not field data).
 
-Independently reproducible: [`scripts/analysis/freight_trade_study.py`](https://github.com/DavidVeksler/concordia/blob/main/scripts/analysis/freight_trade_study.py) and its [saved output](https://github.com/DavidVeksler/concordia/blob/main/docs/specs/freight-trade-study-output.txt). The inertial-frame pendulum check and the rotating-frame fall integrator agree with the analytic results (0.02 % and 0.1 s respectively).
+Independently reproducible: [`scripts/analysis/freight_trade_study.py`](https://github.com/DavidVeksler/concordia/blob/main/scripts/analysis/freight_trade_study.py) and its [saved output](https://github.com/DavidVeksler/concordia/blob/main/docs/specs/freight-trade-study-output.txt). The inertial-frame pendulum checks (circumferential and axial sway, and rope tension) and the rotating-frame fall integrator agree with the analytic results (0.02 %, 0.01 %, 0.8 % and 0.1 s respectively).
 
 Project design documents used: the engineering specification (sections 16, 20, 22 to 25) and the design notes on the upper city, the ascender, the megaframe, the artificial sky, the upper farm and counter-rotation, plus the simulation's physics constants.
