@@ -332,19 +332,6 @@
       "height": 941
     },
     {
-      "id": "P17",
-      "title": "The last metre",
-      "slug": "the-last-metre",
-      "group": "engineering",
-      "place": "/places/shipyard/",
-      "caption": "An inspector sweeps a light along the ribs of an open crew drum beside the shipyard gantry.",
-      "alt": "An inspector sweeps a light along the ribs of an open crew drum beside the shipyard gantry.",
-      "full": "/site/art/the-last-metre-8f2f90a66d-1536.avif",
-      "preview": "/site/art/the-last-metre-8f2f90a66d-800.avif",
-      "width": 1536,
-      "height": 1024
-    },
-    {
       "id": "P18",
       "title": "Welcome to weightlessness",
       "slug": "welcome-to-weightlessness",
@@ -393,19 +380,6 @@
       "alt": "A traveller drifts at the rail of the glazed promenade and watches the spaceport wheels turn.",
       "full": "/site/art/the-wheels-from-the-promenade-ba229c990a-1536.avif",
       "preview": "/site/art/the-wheels-from-the-promenade-ba229c990a-800.avif",
-      "width": 1536,
-      "height": 1024
-    },
-    {
-      "id": "P20",
-      "title": "Alongside",
-      "slug": "alongside",
-      "group": "engineering",
-      "place": "/places/spaceport/",
-      "caption": "A docking officer follows the work along the external pier.",
-      "alt": "A docking officer follows the work along the external pier.",
-      "full": "/site/art/alongside-645570aecb-1536.avif",
-      "preview": "/site/art/alongside-645570aecb-800.avif",
       "width": 1536,
       "height": 1024
     },
@@ -488,19 +462,6 @@
       "height": 1024
     },
     {
-      "id": "P24",
-      "title": "In the radiator's shadow",
-      "slug": "in-the-radiator-s-shadow",
-      "group": "engineering",
-      "place": "/places/exterior/",
-      "caption": "An inspector floats at the hull-edge rail and looks up the radiator tower.",
-      "alt": "An inspector floats at the hull-edge rail and looks up the radiator tower.",
-      "full": "/site/art/in-the-radiator-s-shadow-e5bbb2458f-1536.avif",
-      "preview": "/site/art/in-the-radiator-s-shadow-e5bbb2458f-800.avif",
-      "width": 1536,
-      "height": 1024
-    },
-    {
       "id": "P24b",
       "title": "Clipping on",
       "slug": "clipping-on",
@@ -510,19 +471,6 @@
       "alt": "An inspector clips her tether to a hull anchor beneath the radiator tower.",
       "full": "/site/art/clipping-on-d58be57d52-1536.avif",
       "preview": "/site/art/clipping-on-d58be57d52-800.avif",
-      "width": 1536,
-      "height": 1024
-    },
-    {
-      "id": "P25",
-      "title": "A whole world through the glass",
-      "slug": "a-whole-world-through-the-glass",
-      "group": "travel",
-      "place": "/places/exterior/",
-      "caption": "A pilot sees the whole inhabited world through the glass.",
-      "alt": "A pilot sees the whole inhabited world through the glass.",
-      "full": "/site/art/a-whole-world-through-the-glass-4c9721733b-1536.avif",
-      "preview": "/site/art/a-whole-world-through-the-glass-4c9721733b-800.avif",
       "width": 1536,
       "height": 1024
     },
