@@ -28,7 +28,7 @@ Morning light comes through the glass wall onto an ordinary street. The family s
 {% endchapter %}
 
 {% chapter "neighborhood" %}
-The neighbor leads the family along the street past a tram shelter. Trees line the path and children cross toward a park. Look ahead and the street does not stop at the horizon. It keeps rising: lawns, rooftops and towers climb away along the ring until they meet a bright sky. After a few steps nobody notices. They have seen it all their lives.
+The neighbor leads the family along the street past a tram shelter. Trees line the path and children cross toward a park. Look ahead and the street does not stop at the horizon. It keeps rising: lawns, rooftops and towers climb away along the ring until they meet a bright sky. After a few steps nobody notices.
 
 **The idea:** you live on the inside of a cylinder, so the ground curves up in front of you instead of falling away.
 
@@ -100,9 +100,9 @@ A very large dark space opens beside the spine, and in the middle of it a ship i
 {% endchapter %}
 
 {% chapter "spaceport" %}
-Concourse A is a long glazed hall full of passengers, shop pods and glide rails along the floor. Through the glass wall, gate pods and docked craft hang in the sunlight. The family follows the signs past the arrival face and the screening ranks toward their gate. The people around them are bound for the Moon, for Earth orbit, for the shipyards and farther out. It feels more like an airport than a launch pad.
+The wait for the boat is spent at full Earth weight. Two wheels on one axle turn against each other, and wheel D is the departures lounge: a street that curves up into its own vault, small enough that the spin shows. The people around the family are bound for the Moon, for Earth orbit, for the shipyards and farther out. Past the lounge, the gates sit on the axis in a weightless hall, with coach berths radiating from it.
 
-**The idea:** the port is stationary and weightless, so traffic between orbits needs no rotating frame to match.
+**The idea:** the wait is spent in weight, and the departure is made in none. The wheels turn for the passengers, and the gates sit on the axis, where nothing spins.
 
 {% shot "jr-spaceport" %}
 {% endchapter %}
@@ -116,7 +116,7 @@ In the cabin the countdown reads T minus 60 seconds. Harnesses click, and a wind
 {% endchapter %}
 
 {% chapter "exterior" %}
-From 29 km out the whole station fits in one window. It is a grey mountain 21 km long, with radiator banks standing off its flanks like open books and the launch track running along its side. The family has never seen it from outside. There is no sign of the rotors turning, no sign of the streets, no sign of the sky. A home that large looks like a small piece of the dark.
+From 29 km out the whole station fits in one window. It is a grey mountain 21 km long, with radiator banks standing off its flanks like open books and the launch track running along its side. There is no sign of the rotors turning, no sign of the streets, no sign of the sky. A home that large looks like a small piece of the dark.
 
 **The idea:** scale. Concordia is 6.2 km across, and the launch is only the first leg of the trip.
 
@@ -124,7 +124,7 @@ From 29 km out the whole station fits in one window. It is a grey mountain 21 km
 {% endchapter %}
 
 {% chapter "lunarSwingby" %}
-Two days out, halfway down. The shuttle is falling straight toward Earth on the shortest path there is, and the Moon hangs far off, no bigger than it looks from home. A 20 m/s trim fires for a few seconds and the family feels the couches press, the only push between the launch and the capture.
+Two and a half days out, halfway down. The shuttle is falling straight toward Earth on the shortest path there is, and the Moon hangs far off, no bigger than it looks from home. A 20 m/s trim fires for a few seconds and the family feels the couches press, the only push since the departure burn.
 
 **The idea:** the cheapest way down is half an ellipse, and it takes 5 days.
 
@@ -140,7 +140,7 @@ Earth is a small blue disc, about ten degrees wide, and it grows every hour. The
 {% endchapter %}
 
 {% chapter "transferStation" %}
-The Concordia shuttle docks at a station in a high Earth orbit, 950 km at its lowest and 47,527 km at its highest, and goes no lower. It carries no heat shield and never enters an atmosphere. At the next port a spaceplane waits: a lifting body that never climbs to L5, with no long-haul engines. The passengers walk across, and each vehicle goes home. Earth hangs behind the truss.
+The Concordia shuttle docks at a station in a high Earth orbit, 950 km at its lowest and 47,527 km at its highest, and goes no lower. It carries no heat shield and never enters an atmosphere. At the next port a spaceplane waits: a lifting body that never climbs to L5, with no long-haul engines. The passengers cross over, and each vehicle goes home. Earth hangs behind the truss.
 
 **The idea:** one vehicle for the vacuum, one for the air. Each is built for half the trip, so neither carries the other's weight.
 {% endchapter %}
