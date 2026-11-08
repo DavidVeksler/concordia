@@ -7,7 +7,7 @@ hero: pl-megaframe-plate
 nav: places
 order: 3
 group: ground
-updated: 2026-11-07
+updated: 2026-11-08
 related:
   - /places/arbor-quarter/
   - /places/ascenders-and-sky/
@@ -41,7 +41,7 @@ The frame is a load path. Every building rests on its bay structure, the bay on 
 
 {% shot "sc-low-g-atrium" "The frame thins as weight falls. At about 0.32 g the bays are long-span and sparse, and process facilities replace housing." %}
 
-The last metre of freight is flown. Goods come down sealed shafts inside the piers, and from a dock on each pier small battery drones carry parcels to nearby roofs: up to 12 per dock, about 1,200 in the air over a rotor, cruising 70 to 100 m up, above the roofs and clear of the streets, and holding 10 s over a roof before they return. None crosses the sky.
+The last metre of freight is flown. Goods come down sealed shafts inside the piers, and from a dock on each pier small battery drones carry parcels to nearby roofs: up to 9 per dock, about 900 in the air over a rotor, cruising 70 to 100 m up, above the roofs and clear of the streets, and holding 10 s over a roof before they return. None crosses the sky.
 
 Because the frame was built while the rotor stood still but was designed for full spin, the city could be filled in over time. Try the overlay: {% explore viewpoint="megaframe-plate-district" overlay="structural" label="Structural overlay" %}
 
