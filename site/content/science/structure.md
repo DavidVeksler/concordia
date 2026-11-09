@@ -18,7 +18,7 @@ related:
 
 Blow up a balloon and the rubber stretches. The air pushes outward on every patch of skin, and the skin pulls back along its own surface. A barrel works the same way: hoops around the staves stay in tension so the staves cannot spring apart. Engineers call that tension {% term "hoop stress" %}, and any vessel that holds pressure carries it.
 
-At sea-level pressure every square metre of wall holds back about 10 tonnes of force. A rotor floor covers 39 km², and the air pushes on it with the force of 400 million tonnes. {% basis "physics" %} The {% term "pressure vessel" %} that holds this is not a thin metal can. It is a composite tension structure: a gas-tight membrane, a ring of high-strength tension bands, axial members that tie the ends together, and pressure end caps. Airtightness and strength are separate jobs. If one band fails, the others take the load and the failure does not spread. {% basis "challenge" %}
+At sea-level pressure every square metre of wall holds back about 10 tonnes of force. A rotor floor covers 39 km², and the air pushes on it with the force of 400 million tonnes. {% basis "physics" %} The {% term "pressure vessel" %} that holds this uses a composite tension structure: a gas-tight membrane, a ring of high-strength tension bands, axial members that tie the ends together, and pressure end caps. The membrane seals the air while the other members carry the structural loads. If one band fails, the others take the load and the failure does not spread. {% basis "challenge" %}
 
 The vessel sits hundreds of metres inside the outer skin of the station. A hit on the skin never reaches the air.
 
@@ -35,11 +35,11 @@ The vessel sits hundreds of metres inside the outer skin of the station. A hit o
 
 The air is only part of the load. Everything standing on the ground also pushes outward, because in a rotor weight is centrifugal force. The ground, the buildings, the lakes and the trees add up to a few hundred billion kg per rotor, and each kilogram presses on the wall with a full Earth gravity. {% basis "physics" %}
 
-Nothing rests on wheels. The centrifugal loads are all internal to the spinning rotor. The stationary structure around it only aligns the rotor, damps its wobble and passes utilities across the gaps. The rotors are not bolted to the hull; they float on {% term "magnetic bearing" "magnetic bearings" %}. {% basis "challenge" %}
+The centrifugal loads are internal to the spinning rotor. The stationary structure around it only aligns the rotor, damps its wobble and passes utilities across the gaps. The rotors float on {% term "magnetic bearing" "magnetic bearings" %}. {% basis "challenge" %}
 
 ## The megaframe
 
-Above the ground, the city does not hang from the sky. A three-dimensional lattice called the {% term "megaframe" %} rises from the ground as far as 1,500 m up. Its ribs, ring beams at 625, 1,000 and 1,500 m, and axial members divide each rotor into 24 cells. Bays are 654 m around and 480 m long. Streets, plates and bridges fill the spaces between. {% basis "design" %}
+A three-dimensional lattice called the {% term "megaframe" %} rises from the ground as far as 1,500 m up. Its ribs, ring beams at 625, 1,000 and 1,500 m, and axial members divide each rotor into 24 cells. Bays are 654 m around and 480 m long. Streets, plates and bridges fill the spaces between. {% basis "design" %}
 
 The frame is built before the city, while the rotor is stationary and gravity is low, and is engineered for full operating loads. Every permanent building load passes from the building to a bay structure, to the megaframe, to the rotor's tension bands.
 
@@ -59,7 +59,7 @@ The frame thins as it climbs because weight does. A tonne at the ground weighs 9
 
 Each rotor ends in a wall that is also a place to live. From the ground at 2,500 m radius to the 64 m bore at the axis, an end wall is an inhabited {% term "end wall" "cliff" %} 2,436 m tall. Gravity on the wall follows the same line as everywhere else: 1 g at the foot, 0.6 g at 1,000 m, almost nothing at the top. The 24 cells are 654 m wide at the rim and 131 m wide at 2,000 m up. Most of the wall is near the ground: 64 percent of its area lies in the first 1,000 m. {% basis "design" %}
 
-An end wall also has a job. It holds back the air. At sea-level pressure, the push on one end of one rotor is about 2 trillion newtons, equal to the weight of 200 million tonnes. {% basis "physics" %}
+Each end wall also holds back the air. At sea-level pressure, the push on one end of one rotor is about 2 trillion newtons, equal to the weight of 200 million tonnes. {% basis "physics" %}
 
 {% shots "sci-st-end-wall" "The end wall of Tsiolkovsky (Rotor 1) from its foot, a cliff of terraces and lit viaducts curving up into the sky." "sc-end-wall-axis" "The same wall from 2,150 m on the axis side, where weight is 0.14 g: the terraces have become concentric ledge rings, with halls and gardens set into them." %}
 {% explore viewpoint="end-wall-foot" %}
@@ -75,7 +75,7 @@ The stationary spine along the axis is the exception. It is a 120 m tube at one 
 
 ## What it feels like
 
-You almost never see the structure. The shell is opaque and the rotor wall lies under the city. What you see is the megaframe: pale ribs of sintered regolith composite rise from the neighbourhoods, big, regular and a little monumental. Newer buildings fill the gaps in many styles. At the end walls the structure becomes the landscape. A cliff of terraces climbs into the air until it narrows to the axis.
+You almost never see the structure. The shell is opaque and the rotor wall lies under the city. What you see is the megaframe, with regularly spaced pale ribs of sintered regolith composite rising from the neighbourhoods. Newer buildings fill the gaps in many styles. At the end walls the structure becomes the landscape. A cliff of terraces climbs into the air until it narrows to the axis.
 
 Each rotor was brought to speed in small steps over days to weeks, pausing at each one to look for resonances. {% basis "fiction" %} [Building Concordia](/station/building-concordia/) tells that story.
 

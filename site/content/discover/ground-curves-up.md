@@ -24,7 +24,7 @@ Yes. The ring is 15.7 km around, so 8 km carries you just past halfway: your fee
 
 ## Observe
 
-Open the park view and face down the long lawn. The far end of the ground does not drop away to a horizon. It climbs.
+Open the park view and face down the long lawn. The ground curves upward in the distance.
 
 {% explore viewpoint="groundside-park" %}
 
@@ -34,7 +34,7 @@ Open the park view and face down the long lawn. The far end of the ground does n
 
 On Earth the ground falls away at the horizon because you stand on the outside of a ball. In Concordia you stand on the inside of a cylinder, so the ground curves up instead. The street never feels like a hill, because down always points away from the spin axis, 2,500 m from your feet. Your head points at the axis, and the floor pushes on you with the same force at every point of the ring. {% basis "physics" %}
 
-Keep walking and the circle closes. The ring is 15.7 km around at the ground, so 8 km is 183 degrees of arc: half a turn and a little more. There the floor under you faces the floor you started on, across 5 km of air. Nobody can feel that, because the push of the floor is the only up there is.
+Following the ring eventually brings you back to the start. The ring is 15.7 km around at the ground, so 8 km is 183 degrees of arc: half a turn and a little more. There the floor under you faces the floor you started on, across 5 km of air. The floor still supports you toward the axis, so apparent weight stays the same around the ring.
 
 The same shape gives the view. Along the ring the street climbs away until the bright sky closes it off. Along the axis the street runs level to the end wall. {% basis "design" %}
 

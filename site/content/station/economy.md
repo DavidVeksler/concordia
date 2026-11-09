@@ -3,7 +3,7 @@ title: "Who pays for a space city? Concordia's economy"
 h1: "Who pays for Concordia"
 crumb: Economy
 description: "No trend line from the 2020s builds a two-billion-tonne city by 2045. Here is what changed, who paid, what Concordia sells, why it sits at L5 and who lives here."
-lead: "Nothing in the old trend lines builds a city of two billion tonnes in ten years. Two breaks did: machines that build more machines, and the wealth that followed when most work on Earth was automated. Concordia is not a company town. Its industry needs few hands, and the wealth it makes stays in orbit."
+lead: "Concordia's two billion tonnes took ten years to build using self-replicating industry, financed by the wealth of an automated Earth. Its factories need few workers. Residents own shares in the station and receive part of its energy revenue."
 nav: station
 order: 6
 hero: st-solar-infrastructure
@@ -16,9 +16,9 @@ related:
   - /station/by-the-numbers/
 ---
 
-## The trend line could not get here
+## Why the construction needs different assumptions
 
-Extend the launch prices, construction rates and workforces of the 2020s and you get no city in space by 2045, or by 2100.
+The launch prices, construction rates and workforces of the 2020s cannot support this construction schedule, whether completed by 2045 or by 2100.
 
 <!-- facts: section 16 -->
 
@@ -26,13 +26,13 @@ Concordia weighs about two billion tonnes. That is about as much material as all
 
 Launched from Earth, even at the 2030s price of about $100 per kg delivered to L5, that mass costs about $200 trillion ([the arithmetic](/station/building-concordia/)). Built by hand, it needs hundreds of thousands of workers in space before there is anywhere for them to live.
 
-## Two breaks
+## The technologies and financing assumed
 
-**Machines that build machines.** Artificial general intelligence arrived in 2030. About three years later a seed factory of about a thousand tonnes reached L5. Its first product was more factory. A plant that copies itself grows like a colony: twenty-one doublings take a thousand tonnes to two billion. In about ten years that means doubling every five months or so, a pace no human-designed industry ever came near. It came from AI-designed {% term "self-replicating factory" "self-replicating factories" %} that build and repair their own successors. {% basis "fiction" %}
+**Machines that build machines.** Artificial general intelligence arrived in 2030. About three years later a seed factory of about a thousand tonnes reached L5. Its first products expanded its manufacturing capacity. Twenty-one doublings take a thousand tonnes to two billion. In about ten years that requires doubling every five months or so. The story assumes AI-designed {% term "self-replicating factory" "self-replicating factories" %} that build and repair their successors at this rate. {% basis "fiction" %}
 
 Once machines make machines, a kilogram in space costs about what the energy to make it costs. Assume about 30 MJ to dig, refine and shape a kilogram of mixed regolith and asteroid metal. That is about 8 kWh, under 10 cents at a cent per kWh of space solar. {% basis "design" %} The construction years drew about 200 GW on average, roughly eight times what the finished city uses today. Building Concordia was the biggest power customer it ever had.
 
-**Wealth looking for a place to go.** When most work on Earth was automated, income moved from wages to whoever owned the machines, the energy and the land. The companies that built artificial intelligence and their founders held more capital than any group before them, and their own industry was limited by one thing: electricity. On Earth, power plants take years of permits and grid connections, and nuclear plants a decade to build. In space the sun never sets on a panel. {% basis "fiction" %}
+**Capital from automation.** When most work on Earth was automated, income moved from wages to the owners of machines, energy and land. The companies that built artificial intelligence and their founders accumulated unprecedented capital. Expanding their computing capacity required more electricity. On Earth, permitting and grid connections take years, and nuclear plants a decade to build. Space-based panels offer continuous sunlight. {% basis "fiction" %}
 
 So Concordia began as a chartered, for-profit venture with no fixed payback date. Its founders bought a power base off Earth, the way aluminium smelters once built their own dams.
 
@@ -45,7 +45,7 @@ So Concordia began as a chartered, for-profit venture with no fixed payback date
 3. **Land.** The builder owns the ground and floor space it creates and leases it, a version of {% term "land value capture" %}: the way some cities pay for a railway by owning the land around its stations.
 4. **Ships and propellant.** The shipyard and the tank farm serve traffic across cislunar space and beyond ([why space](/why-space/)).
 
-**Watts leave as bits.** Beaming power to Earth needs a receiving field kilometres across and loses energy at both ends. Running the computation here and sending the answers down a laser moves the value of the energy almost for free. NASA's lunar laser test sent 622 megabits per second from lunar orbit in 2013, and its TBIRD cubesat reached 200 gigabits per second from low orbit in 2022. {% basis "physics" %} Training, rendering and long simulations do not mind a few seconds of delay.
+**Computation is sold over data links.** Beaming power to Earth needs a receiving field kilometres across and loses energy at both ends. Running computations here and sending the results by laser uses little transmission energy. NASA's lunar laser test sent 622 megabits per second from lunar orbit in 2013, and its TBIRD cubesat reached 200 gigabits per second from low orbit in 2022. {% basis "physics" %} Training, rendering and long simulations can tolerate a few seconds of delay.
 
 {% explore viewpoint="solar-infrastructure" label="See the solar platforms" %} {% explore viewpoint="radiator-field" %}
 
@@ -53,7 +53,7 @@ So Concordia began as a chartered, for-profit venture with no fixed payback date
 
 {% shot "st-earth-moon-context" "Concordia at L5 with Earth and the Moon in view. Every message to Earth takes 1.28 seconds each way." %}
 
-Each orbit near Earth is best for something. Only one suits a city that keeps growing.
+The design selects this region for its access to lunar material and room for expanding infrastructure. The alternatives have different advantages and constraints.
 
 | Orbit | Good for | Why not the city |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ The cost is delay: 2.56 seconds for a round trip, so a live call to Earth feels 
 
 ## Who lives here
 
-Industry needs hundreds of people, not a million. The fabrication lines, mines and yards run themselves, and robots maintain them. So the 400,000 people who live here today did not come for factory jobs. {% basis "fiction" %}
+The automated fabrication lines, mines and yards need hundreds of people to direct and maintain them. Most of the 400,000 residents live here for reasons beyond factory employment. {% basis "fiction" %}
 
 They are owners, the people who direct fleets of AI systems for them, their families, and people who moved for the life. Every resident also holds a share: part of the energy revenue is paid to each of them as a dividend, the way Alaska shares its oil money. {% basis "fiction" %} Two rotors carry the money: Noordung (Rotor 2) is the capital quarter, with the [Exchange, Charter Hall and the Court](/places/capital-quarter/), and O'Neill (Rotor 4) holds the estates. On a habitat the scarcest luxury is open ground under the sky, so the richest districts are lakeside streets with large plots, while the megaframe carries density overhead.
 

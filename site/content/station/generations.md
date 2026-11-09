@@ -3,7 +3,7 @@ title: "Space habitats from Salyut 1 to a space city"
 h1: "Five generations of space habitats"
 crumb: Generations
 description: "From Salyut 1 in 1971 to Concordia in 2041, five generations of space habitat each proved one thing. See how the Stanford torus and O'Neill cylinder led to the first space city built from the Moon."
-lead: Every space habitat has proved one new thing. The first showed people can live in orbit. The second showed someone will pay for it. Concordia, the fifth, is the first built as a city from material that was never on Earth.
+lead: Each generation of space habitat develops a capability used by its successors. Early stations established long-duration orbital living, followed by commercial operations. Concordia is the first city built from material sourced in space.
 nav: station
 order: 2
 hero: st-megaframe-base
@@ -15,9 +15,9 @@ related:
   - /why-space/
 ---
 
-## The ladder
+## How the generations developed
 
-Each generation stands on the one before it. None replaced the last overnight, and several still operate.
+Each generation uses capabilities developed by its predecessors. Their periods of operation overlap, and several still operate.
 
 | Gen | Name | Era | What it proved |
 | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ Each generation stands on the one before it. None replaced the last overnight, a
 
 The first space station, Salyut 1, launched on 19 April 1971. Skylab followed in 1973 and was crewed for 171 days across three visits. Mir flew from 1986 to 2001 and weighed about 130 tonnes. The International Space Station, at 419,725 kg and 1,005 m3 of pressurized volume, has been continuously occupied since November 2000. China's Tiangong was complete in November 2022.
 
-All of them were assembled from parts launched from Earth. All of them are in {% term "microgravity" %}, and a crew stays for months, not years. They proved that people can live and work in orbit. They also set the scale problem: even the largest is the size of a large house.
+These stations were assembled from parts launched from Earth and operate in {% term "microgravity" %}. Crew visits typically last months. They established that people can live and work in orbit, but even the largest has habitable volume comparable to a large house.
 
 ## Generation 2: commercial orbital stations
 
@@ -76,7 +76,7 @@ Three shapes anchor the design history of the space colony. The {% term "Stanfor
 {% deeper "Where the shape comes from" %}
 Concordia descends from the {% term "O'Neill cylinder" %}, the rotating-cylinder settlement that Gerard O'Neill proposed in the 1970s and that NASA's 1975 summer study worked up as a design in 1977. The cylinder fixes a simple rule: a big radius gives gravity at a slow, comfortable spin. A radius of 2,500 m needs only 0.6 rpm for 1 g.
 
-Concordia keeps the cylinder and changes the rest. It has four rotors instead of one, a stationary shell instead of a rotating one, and an industrial rotor, Ehricke, that spins against the cities. Most of those changes answer one question: what happens when part of it breaks? [Safety](/science/safety/) goes through them.
+Concordia uses four cylinders within a stationary shell, with an industrial rotor, Ehricke, spinning against the cities. These changes help contain failures and keep essential services operating when a component breaks. [Safety](/science/safety/) explains the arrangements.
 {% enddeeper %}
 
 <!-- facts: sections 2, 3, 6, 10 -->

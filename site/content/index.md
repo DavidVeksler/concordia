@@ -12,11 +12,11 @@ updated: 2026-10-13
 
 ## What is Concordia
 
-Concordia is a city that spins. Its four habitation rotors each turn once every 100 seconds, which presses the ground under your feet with the same pull as Earth. Streets, parks, lakes and farms run along the inside of each rotor, and the sky is a lit ceiling 450 m up.
+Concordia uses rotation to provide artificial gravity. Its four habitation rotors each turn once every 100 seconds, which presses the ground under your feet with the same pull as Earth. Streets, parks, lakes and farms run along the inside of each rotor, and the sky is a lit ceiling 450 m up.
 
-About 400,000 people live here today. The station is built for 1.0 to 1.2 million. Factories, a shipyard and a spaceport share the same axis, so what the city makes leaves the station by the same road that brings visitors in.
+About 400,000 people live here today. The station is built for 1.0 to 1.2 million. Factories, a shipyard and a spaceport share the same axis, with shared transport for cargo and passengers.
 
-Concordia sits in the Earth-Moon L5 region, 384,400 km from home. It was not launched from Earth. Its walls are sintered lunar regolith, its air and water come from the Moon and from captured asteroids, and its power is sunlight, collected around the clock.
+Concordia sits in the Earth-Moon L5 region, 384,400 km from Earth. It is built mainly from materials found in space. Its walls are sintered lunar regolith, its air and water come from the Moon and from captured asteroids, and its power is sunlight, collected around the clock.
 
 {% facts %}
 21 km | long, end to end
@@ -33,7 +33,7 @@ Concordia sits in the Earth-Moon L5 region, 384,400 km from home. It was not lau
 
 ## A space colony built as a city
 
-A space colony is a settlement in orbit that people live in for good, not a station they visit for a tour of duty. Gerard O'Neill proposed the rotating-cylinder version in the 1970s. Concordia carries that idea through: four O'Neill-style cylinder cities with a stationary shield around them, an industrial rotor, Ehricke, beside them and room for a million people. [How it differs from the 1970s design](/station/#oneill-cylinder) is on the station page.
+A space colony is an orbital settlement intended for permanent residence. Gerard O'Neill proposed the rotating-cylinder version in the 1970s. Concordia develops that design with four O'Neill-style cylinder cities with a stationary shield around them, an industrial rotor, Ehricke, beside them and room for a million people. [How it differs from the 1970s design](/station/#oneill-cylinder) is on the station page.
 
 ## Start here
 

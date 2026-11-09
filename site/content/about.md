@@ -12,13 +12,13 @@ related:
   - /station/
 ---
 
-## The one note out of universe
+## The setting and its scientific basis
 
-Everything else on this site is written as if Concordia were built and inhabited in 2045. That is the design brief. It is a way to make the engineering concrete: when the station exists, you can ask what it sounds like, what it weighs and what it costs to run. The real science runs underneath. The station's numbers are chosen values from its engineering specification, and the story of how it came to be is invented.
+Everything else on this site is written as if Concordia were built and inhabited in 2045. The setting gives the engineering a practical context: when the station exists, you can ask what it sounds like, what it weighs and what it costs to run. The explanations use established scientific principles. The station's numbers are chosen values from its engineering specification, and the story of how it came to be is invented.
 
 ## The model in numbers {#numbers}
 
-Concordia is simulated end to end at full scale, from the aft radiators to the spaceport, with the Earth, Moon and Sun where they would really be. Nothing below is a mock-up: every building is generated, placed and drawn by the simulation you can open from any page.
+Concordia is simulated end to end at full scale, from the aft radiators to the spaceport, with Earth, Moon and Sun shown at their apparent sizes. The simulation generates and draws each building; the model statistics below describe that scene.
 
 ### What the simulation holds
 
@@ -59,7 +59,7 @@ Five editorial images are image-to-image artistic studies made with ChatGPT Imag
 
 ## How a 21 km station runs in a browser {#performance}
 
-The question we hear most is how the whole station fits in a browser tab. Like the note above, this section is out of universe. The short answer: almost nothing is drawn, downloaded or computed until you can see it, and most of the detail you see is painted by the graphics card instead of stored as geometry. The figures below were measured on the development desktops (an RTX 3060 and a Radeon AI PRO R9700) in October 2026.
+The simulation reduces browser load by deferring downloads, construction and drawing until they are needed. Shaders generate much of the visible detail without storing it as geometry. This section describes the implementation outside the fictional setting. The figures below were measured on the development desktops (an RTX 3060 and a Radeon AI PRO R9700) in October 2026.
 
 <!-- sources: docs/18_qa_performance.md, docs/performance/street-2026-10-25.md, docs/performance/viewpoint-sweep-2026-10-29.md, docs/specs/asset-streaming-spec.md, docs/specs/lean-mode-spec.md, docs/specs/graphics-settings-spec.md -->
 
@@ -82,7 +82,7 @@ A street view at High quality submits about 800 draw calls and 3.7 million trian
 
 ### Do not draw what you cannot see
 
-- **Only your rotor exists while you stand in it.** From a street, the other habitation rotors, Ehricke (the industrial rotor), the shipyard, the spaceport and the axial spine are skipped in the colour, shadow and ambient-occlusion passes. In one canyon view in O'Neill, rotor 4, that took the frame from 29.7 ms to 13.6 ms.
+- **Only the occupied rotor is rendered from an interior street view.** From a street, the other habitation rotors, Ehricke (the industrial rotor), the shipyard, the spaceport and the axial spine are skipped in the colour, shadow and ambient-occlusion passes. In one canyon view in O'Neill, rotor 4, that took the frame from 29.7 ms to 13.6 ms.
 - **The city is 144 cells per rotor, each with its own level of detail.** Detailed buildings switch to one box per block between 700 m and 1.6 km, depending on quality, with a margin so they do not flicker at the boundary.
 - **Hidden objects skip the scene-graph update.** At a street view about 7,800 of 9,600 scene nodes are hidden. Updating only the visible ones saved 8 to 9 ms a frame.
 - **Lights are a pool of eight.** Only four point lights and four spotlights are ever real, given to whichever fixtures are nearest. Lighting that never moves, like the floodlights on the end walls, is computed once into a texture.
@@ -114,9 +114,9 @@ On a touch-only device a lean mode starts on its own. It caps textures at 1024 p
 
 Every check runs on a real graphics card; the test harness refuses software rendering. A sweep times all 107 viewpoints, and each optimization ships behind a URL switch so its before and after can be compared on the same machine. Plenty of ideas failed that test and were dropped: redrawing shadows every other frame (geometry slid out of its shadow), splitting the sky hardware into spatial tiles (draws rose from 422 to 658), simplifying sky frame meshes (0.9 percent fewer triangles, a bigger file), and holding the frame while a jump compiles (the jump got slower).
 
-## What is real and what is styled {#styled}
+## What is simplified for display and interaction {#styled}
 
-The station is drawn at full scale: 21 km long, 100 m per scene unit, every street at its modelled width. Where looks or playability beat accuracy, this is the list. Like the note above, it is out of universe.
+The station is drawn at full scale: 21 km long, 100 m per scene unit, every street at its modelled width. The following changes support rendering and interaction. This section describes the simulation outside the fictional setting.
 
 <!-- facts: section 17 -->
 
@@ -130,7 +130,7 @@ The station is drawn at full scale: 21 km long, 100 m per scene unit, every stre
 
 ## What the basis tags mean {#basis}
 
-Numbers and claims across the site carry a small tag that says what kind of claim they are. This section is out of universe, like the note above. The tags do not hedge the text. They say where each claim comes from, so you can tell a measured fact from a design choice. Turn them off with "Show basis" at the top of any page that has them.
+Numbers and claims across the site carry a small tag that says what kind of claim they are. The tags distinguish scientific principles, design choices, engineering challenges, fictional details and law. Turn them off with "Show basis" at the top of any page that has them.
 
 | Tag | What it means |
 | --- | --- |

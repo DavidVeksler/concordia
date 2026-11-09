@@ -30,7 +30,7 @@ Three halls stand out. Each has a name board over its portico, set in capitals, 
 
 ## The Exchange
 
-A domed market hall behind a portico, with a colonnade on its own plaza. Energy and compute for the whole station are priced and traded here. Those two things are what Concordia sells: solar platforms with computers behind them, whose answers travel to Earth as light. The [economy page](/station/economy/#what-concordia-sells) has the numbers and the reason the watts leave as bits.
+A domed market hall behind a portico, with a colonnade on its own plaza. Energy and compute for the whole station are priced and traded here. Concordia sells energy and computing capacity from its solar platforms, transmitting results to Earth as light. The [economy page](/station/economy/#what-concordia-sells) explains the output and revenue from these services.
 
 {% shot "pl-capital-exchange" "The Exchange: a domed market hall behind a columned portico, across its plaza." %}
 
@@ -54,7 +54,7 @@ A clock-roofed hall with a columned portico and pediment, and a monument column 
 
 ## Why a capital rotor
 
-The station puts its money in one rotor and its estates in another. Noordung carries the Exchange, the Charter Hall and the Court, and O'Neill (Rotor 4) holds the large lakeside plots, because on a habitat the scarcest luxury is open ground under the sky. [Who lives here](/station/economy/#who-lives-here) covers the owners, the dividend every resident receives and why 400,000 people live on a station that needs only hundreds to run it.
+The financial and civic institutions occupy a different rotor from the largest residential estates. Noordung carries the Exchange, the Charter Hall and the Court, and O'Neill (Rotor 4) holds the large lakeside plots, because on a habitat the scarcest luxury is open ground under the sky. [Who lives here](/station/economy/#who-lives-here) covers the owners, the dividend every resident receives and why 400,000 people live on a station that needs only hundreds to run it.
 
 {% shot "sc-rotor2-crowned-towers" "Noordung from 120 m up: copper-crowned towers and spires with the megaframe rising between them." %}
 

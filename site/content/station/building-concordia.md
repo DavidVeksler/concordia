@@ -3,7 +3,7 @@ title: "How Concordia was built from the Moon and asteroids"
 h1: "How Concordia was built"
 crumb: Building Concordia
 description: Why a city of a million could not be launched from Earth, and how the Moon and captured asteroids supplied it. Factory first, then the shell, then four rotors spun up in small steps.
-lead: "A city weighs about two billion tonnes. No rocket fleet carries that. Concordia was built the other way round: first a factory at L5, fed by lunar rock and captured asteroids, then the city that the factory made."
+lead: "Concordia weighs about two billion tonnes. Transporting that mass from Earth would cost too much, so construction began with a factory at L5. It processed lunar rock and captured asteroids into the station's structure."
 nav: station
 order: 3
 hero: st-industrial-rotor-wide
@@ -19,9 +19,9 @@ related:
 
 The station's finished mass is about 2.05 x 10^12 kg, two billion tonnes: four rotors at 300 million tonnes each, Ehricke (the industrial rotor) at 100 million, and about 750 million tonnes of shielding. The International Space Station weighs 419,725 kg. Concordia is about 4.9 million of them. {% basis "design" %}
 
-Launch got cheap, and it was not enough. In 2018 NASA's Harry Jones put the Space Shuttle at $54,500 per kg to low Earth orbit and Falcon 9 at about $2,720. {% basis "physics" %} By the 2030s fully reusable heavy launchers carry more than 100 tonnes a flight for about $2 million, refuelled in orbit by tankers: about $20 per kg to low orbit and about $100 per kg delivered to L5. At that price two billion tonnes is 20 million full loads and about $200 trillion. {% basis "fiction" %}
+Even with lower launch costs, transporting the station's full mass would be prohibitively expensive. In 2018 NASA's Harry Jones put the Space Shuttle at $54,500 per kg to low Earth orbit and Falcon 9 at about $2,720. {% basis "physics" %} By the 2030s fully reusable heavy launchers carry more than 100 tonnes a flight for about $2 million, refuelled in orbit by tankers: about $20 per kg to low orbit and about $100 per kg delivered to L5. At that price two billion tonnes is 20 million full loads and about $200 trillion. {% basis "fiction" %}
 
-So cheap launch carried the start, not the bulk. The haulers, the first mining machines, the seed factory and the construction crews all flew up from Earth, and Earth still sends what only it makes well: electronics, medicines and specialist parts. Everything bulky is made from material that is already in space. {% explore viewpoint="exterior-25km-silhouette" label="See the 21 km silhouette" %}
+Launch therefore supplied the initial equipment and crews. The haulers, the first mining machines, the seed factory and the construction crews all flew up from Earth, and Earth still supplies electronics, medicines and specialist parts. Bulk construction uses material already in space. {% explore viewpoint="exterior-25km-silhouette" label="See the 21 km silhouette" %}
 
 {% shot "sc-exterior-25km-silhouette" "The finished station: about two billion tonnes, 4.9 million International Space Stations, and 21 km long. Almost all of it was made from material already in space." %}
 
@@ -37,7 +37,7 @@ Two streams of raw material start arriving at L5 in the mid 2030s.
 
 {% shot "sci-ov-material-flow" "The material-flow overlay: lunar feedstock and asteroid volatiles arrive at the stores in Ehricke, then flow on to the city, the yard and the hull." %}
 
-**From asteroids, first.** The first metal arrives without a single landing. Small metal-rich near-Earth asteroids, tens of metres across, are bagged whole and hauled into the L5 region, where their iron-nickel goes to the yard without smelting. The Moon lacks carbon, nitrogen and hydrogen, so small carbonaceous asteroids follow the same route. The captured carbonaceous bodies run roughly 10 percent water and a few percent carbon by mass. That is a 2045 measurement, not a theory. {% basis "fiction" %} How the haulers work is on [Mining the Moon and asteroids](/science/mining/).
+**From asteroids, first.** Small metal-rich near-Earth asteroids, tens of metres across, are bagged whole and hauled into the L5 region without a landing. Their iron-nickel goes directly to the yard without smelting. The Moon lacks carbon, nitrogen and hydrogen, so small carbonaceous asteroids follow the same route. Measurements in 2045 put the captured carbonaceous bodies at roughly 10 percent water and a few percent carbon by mass. {% basis "fiction" %} How the haulers work is on [Mining the Moon and asteroids](/science/mining/).
 
 **From the Moon, at scale.** Lunar mining and refining, and an electromagnetic {% term "mass driver" %}, come up behind the asteroid haulers and soon carry most of the tonnage. The Moon has 1/6 of Earth's surface gravity (1.62 m/s2 against 9.80) and an escape velocity of 2.38 km/s against Earth's 11.2 km/s. It supplies most of the oxygen, silicon, aluminium, iron, glass and shielding mass.
 
@@ -47,7 +47,7 @@ Prospecting in the 2030s found water ice at a few percent by mass through the up
 
 ## Step 2: the station is its own factory
 
-The first thing built is not a home. It is a factory: the zero-g construction yard, power and radiators, and the first industrial plant. Today those are Ehricke (the industrial rotor) and the shipyard. The seed factory's first product was more factory: AI-designed machines that build the next machines, so output doubled every few months ([who paid for it, and why](/station/economy/)).
+Construction began with the zero-g yard, power supply, radiators and first industrial plant. Those facilities form Ehricke (the industrial rotor) and the shipyard. The seed factory first produced more manufacturing equipment: AI-designed machines built the next machines, doubling output every few months ([who paid for it, and why](/station/economy/)).
 
 {% shot "sc-zero-g-shipyard" "The zero-g yard, one of the first parts built. The factory comes before the homes: it makes the girders, tanks and cassettes the city is made from." %}
 
@@ -57,7 +57,7 @@ Workers live in small rotating construction rings, a few hundred metres across. 
 
 ## Step 3: the superstructure and the shield
 
-The 21 km stationary truss goes up around the yard. It is a deep spatial truss, not a pressure vessel. Shielding cassettes of compacted regolith and slag are fixed to its outside. For scale, one metre of regolith at 1.6 t/m3 over the 470 km2 of hull is roughly 750 million tonnes. Mass on that scale has to come from the Moon.
+The 21 km stationary truss goes up around the yard. This deep spatial truss supports the station's external systems without containing its atmosphere. Shielding cassettes of compacted regolith and slag are fixed to its outside. One metre of regolith at 1.6 t/m3 over the 470 km2 of hull is roughly 750 million tonnes, supplied from the Moon.
 
 {% shot "sci-ext-1km-patchwork" "The truss is the frame and the cassettes are the shield. From 1 km the hull reads as a patchwork of pale tiles, each one replaceable." %}
 

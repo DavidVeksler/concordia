@@ -15,7 +15,7 @@ related:
 
 ## The gyroscope problem
 
-Hold a spinning bicycle wheel by its axle and try to tilt it. The wheel pushes back sideways. The faster it spins and the heavier it is, the stronger the push. That stubbornness is {% term "angular momentum" %}, and the total of it in a closed system never changes. {% basis "physics" %}
+Hold a spinning bicycle wheel by its axle and try to tilt it. The wheel pushes back sideways. The faster it spins and the heavier it is, the stronger the push. That response comes from {% term "angular momentum" %}, and the total of it in a closed system never changes. {% basis "physics" %}
 
 Helicopters show the same law at work. The big rotor spins one way, so the body wants to spin the other way. A small tail rotor pushes against it. Without the tail rotor, the cabin would turn in circles.
 
@@ -25,7 +25,7 @@ Now scale up. Each Concordia rotor has a mass of about 300 billion kg and turns 
 
 ## Spin pairs
 
-Concordia cancels the problem instead of fighting it. Seen from the spaceport end, Tsiolkovsky and Noordung (Rotors 1 and 2) turn one way (retrograde) and Bernal and O'Neill (Rotors 3 and 4) turn the other (prograde). Each {% term "spin pair" %} holds half the total, one negative and one positive, so the habitation rotors add up to zero by construction. {% basis "design" %}
+Concordia pairs rotors with opposite angular momentum. Seen from the spaceport end, Tsiolkovsky and Noordung (Rotors 1 and 2) turn one way (retrograde) and Bernal and O'Neill (Rotors 3 and 4) turn the other (prograde). Each {% term "spin pair" %} holds half the total, one negative and one positive, so the habitation rotors add up to zero by construction. {% basis "design" %}
 
 {% diagram "spin-pairs" "Rotors 1 and 2 hold minus 50 percent, rotors 3 and 4 plus 50 percent. The small remainder of Ehricke (the industrial rotor) is cancelled in the momentum bay." %}
 
@@ -45,7 +45,7 @@ One more spinning body breaks the balance. The industrial rotor is 2,300 m in ra
 
 That 4 percent is cancelled by two {% term "momentum ring" "momentum rings" %} in a stationary vacuum bay between rotor 4 and the industrial rotor. Each is a carbon-fibre-class loop 3,000 m in radius, spinning in the opposite sense to the industrial rotor with its rim moving at 1 km/s. Together the rings weigh about 7 million tonnes, about 0.35 percent of the station. {% basis "challenge" %}
 
-The rings speed up and slow down as the industrial mass changes. Cargo arrives, ships leave, rotor inventories shift, and the control system trades momentum between the rings and the rotors. It holds the net total within 0.1 percent of the four-rotor total. Nothing is thrown away. Momentum moves from one machine to another and the cost is electricity, not propellant. {% basis "design" %}
+The rings speed up and slow down as the industrial mass changes. Cargo arrives, ships leave, rotor inventories shift, and the control system trades momentum between the rings and the rotors. It holds the net total within 0.1 percent of the four-rotor total. Momentum transfers between the machines use electricity without expelling propellant. {% basis "design" %}
 
 {% shot "sci-cr-momentum-bay" "The momentum control bay between rotor 4 and the industrial rotor, with the ring machines in their vacuum housings." %}
 
@@ -59,7 +59,7 @@ Between rotors 2 and 3 the end walls move past each other at 157 m/s in opposite
 
 ## What a resident notices
 
-On the ground, nothing. Momentum is a bookkeeping problem for the axis. You meet it in three places: the closed end walls signed COUNTER-ROTATING, the bearing gallery with its two hubs turning opposite ways, and the momentum bay where the rings turn in their housings. The station still re-points slowly. Launches wait for scheduled windows rather than turning the station to suit one ship.
+Momentum control has little effect on daily life at ground level. Its machinery is visible in three places: the closed end walls signed COUNTER-ROTATING, the bearing gallery with its two hubs turning opposite ways, and the momentum bay where the rings turn in their housings. The station still re-points slowly. Launches wait for scheduled windows rather than turning the station to suit one ship.
 
 {% shot "sc-counter-rotating-interface" "The gap between Noordung and Bernal: two walls moving 313 m/s apart, a stationary service frame between them, and no bridge. Passengers cross through the spine." %}
 
@@ -101,7 +101,7 @@ Force at each end of a 21 km hull: F = τ / 21,000 m = 4.5 MN
 Paired, net held well inside 0.1%: F ≈ 4 kN
 {% endeq %}
 
-Pairing cuts the force by a factor of 1,000. The remaining 4 kN is a tiny push for the station's thrusters and momentum rings.
+Pairing cuts the force by a factor of 1,000. The station's thrusters and momentum rings handle the remaining 4 kN.
 
 An ascender also moves momentum. Each ascent hands the rotor about 2.1 × 10¹⁰ N·m·s, roughly 2 parts in 10 million of one rotor's total. A climbing cabin's partner descends on the same tower and takes the momentum straight back.
 {% enddeeper %}

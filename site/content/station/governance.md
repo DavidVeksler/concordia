@@ -3,7 +3,7 @@ title: "Who runs a space city? Concordia's charter and law"
 h1: "Who runs Concordia"
 crumb: Governance
 description: "No country can own space, so Concordia is a British-registered object with a privately owned city inside. Who owns it, who decides, who judges, and what nobody can sign away."
-lead: "No country can own space, so Concordia is not a country. It is a British-registered object with a privately owned city inside. Everyone aboard owns a share or holds a contract, Earth's law sets the floor, and the few rules nobody can sign away are the ones that keep everyone breathing."
+lead: "Concordia is a British-registered space object containing a privately owned city. Everyone aboard owns a share or holds a contract. Earth law governs its licensing, jurisdiction and courts, while the station's Covenant protects essential services and residents' rights."
 nav: station
 order: 7
 hero: pl-capital-charter-hall
@@ -17,11 +17,11 @@ related:
 
 This page mixes two kinds of claim, and each is tagged. Treaties, statutes and court decisions are real and in force today; they carry the {% basis "law" %} tag and a source. How Concordia itself is run is the 2045 story; it carries the {% basis "fiction" %} tag. [What the tags mean](/about/#basis).
 
-## Nobody owns the sky
+## Ownership and jurisdiction in space
 
 The Outer Space Treaty of 1967 says space "is not subject to national appropriation by claim of sovereignty, by means of use or occupation, or by any other means". {% basis "law" %} So no flag can be planted at L5, and the station cannot be anyone's territory. It can be someone's property. The same treaty says that a state keeps jurisdiction over objects on its registry and over the people aboard, and that ownership of an object is not affected by being in space. {% basis "law" %}
 
-That is the opening the whole design uses. In law Concordia is a very large registered object, closer to a ship than to a piece of land. A ship flies one flag, has a genuine link to its flag state, and answers to that state's law wherever it sails. {% basis "law" %} Property can be governed by its owners.
+The design applies this distinction between territorial sovereignty and ownership of a registered object. A ship provides an analogy: it flies one flag, has a genuine link to its flag state, and answers to that state's law wherever it sails. {% basis "law" %} Concordia's owners govern the property within the applicable law.
 
 <!-- facts: section 19 -->
 {% facts %}
@@ -35,17 +35,17 @@ That is the opening the whole design uses. In law Concordia is a very large regi
 
 The treaty makes each state answer for its nationals' activities in space, private ones included, and requires "authorization and continuing supervision". {% basis "law" %} Concordia's owners are a Bermuda company, so the United Kingdom answers for them. The 1986 Outer Space Act, extended to Bermuda in 2006, makes the Governor the licensing authority, and a Bermuda licensee indemnifies the UK government, not Bermuda: the money follows the treaty liability. {% basis "law" %} Bermuda is already in orbit through the UK's satellite filings, including a Bermuda slot at 96.2 degrees west operated since 2013. {% basis "law" %} For why Bermuda, see [Charter and law](/station/economy/#charter-and-law).
 
-One gap is real. The Registration Convention covers objects "launched into Earth orbit or beyond", and scholars list as open whether a structure built in space from lunar and asteroid material counts, and who its launching state would be. {% basis "law" %} In the story the United Kingdom closed that gap on purpose, before the seed factory left Earth, by registering Concordia as a British space object. A registry is what carries jurisdiction, and an unregistered object would invite every state to claim a say. {% basis "fiction" %}
+The Registration Convention covers objects "launched into Earth orbit or beyond". Whether this includes structures built in space from lunar and asteroid material, and which state would qualify as their launching state, remain open legal questions. {% basis "law" %} The story assumes that the United Kingdom resolves this before the seed factory leaves Earth by registering Concordia as a British space object, establishing registry-based jurisdiction. {% basis "fiction" %}
 
 {% diagram "governance-stack" "The chain of authority. The top four layers are the floor the state requires; everything below is contract between the owners." %}
 
-The floor is short: a licence, a registry, criminal law and a final court of appeal. Everything else aboard is contract.
+The state's required framework covers licensing, registration, criminal law and a final court of appeal. Contracts govern the remaining activities aboard.
 
-## Owners, not voters {#owners-not-voters}
+## Share classes and voting rights {#owners-not-voters}
 
 {% shot "sc-rotor2-civic-street" "A paved civic street in Noordung, where the owners' institutions stand." %}
 
-From here the page leaves real law and describes the story. In Concordia's 2045, the station is governed the way a company is, not the way a country is. {% basis "fiction" %} There are two share classes. Founders' shares are the consortium's capital and vote by stake. Resident shares are one per resident: they are never diluted, never sold to an outsider, and they carry the energy dividend. A resident qualifies after a full year living aboard under a residence contract, and the same test gives the share, its vote and its dividend.
+In Concordia's 2045 setting, the station uses corporate governance with two share classes. {% basis "fiction" %} Founders' shares represent the consortium's capital and vote by stake. Resident shares are one per resident: they are never diluted, never sold to an outsider, and they carry the energy dividend. A resident qualifies after a full year living aboard under a residence contract, and the same test gives the share, its vote and its dividend.
 
 The **Proprietors' Council** is the board, elected by all shares. It runs industry, leases, the compute and energy sold through the Exchange, and the next station. It cannot change the Covenant alone. Residents, meeting as a class, elect the **residents' authority** that runs air, water, pressure, heat, fire and spin on separate verified controllers ([safety](/science/safety/)). The **Concordia Charter Authority** in Charter Hall holds the licence and acts as the owners' agent for common services: the register of plots and volumes, the rulebook of the Exchange, the text of the Covenant. It levies no taxes.
 
@@ -69,7 +69,7 @@ Everything in this section is the story. Concordia's markets run on top of a str
 | C6 The line to Earth stays open | The operator cannot cut a resident's link to lawyers, consulates, press, family or other employers. |
 | C7 Every resident owns | One Resident share each, on the same terms, never diluted, paying the energy dividend. Property, not a benefit. |
 
-On Concordia, breath is not collateral. In an emergency over pressure, fire or spin, the residents' authority acts first and asks later. Its orders lapse unless the Resident class renews them, and the Court reviews each one.
+The residents' authority can issue immediate orders during emergencies involving pressure, fire or spin. Its orders lapse unless the Resident class renews them, and the Court reviews each one.
 
 ## Courts and security by contract {#courts-and-security-by-contract}
 
@@ -87,7 +87,7 @@ The floor is real law. Bermuda's criminal law applies aboard, and a sitting divi
 
 In the story, homes are long leases of plots and volumes inside a registered object, recorded in the Charter Authority's register and held under the Covenant. Millions of people on Earth already live under recorded covenants and service charges in owners' associations and condominiums, so private covenant government is ordinary. {% basis "law" %} Mortgages work like ship mortgages. The builder owns the ground and floor space it created and leases it, the {% term "land value capture" %} model, which is why ground rent is enough to run a city. {% basis "fiction" %}
 
-## Rent, not taxes; passports; the way home
+## Funding, nationality and return passage
 
 In the story, Concordia levies no taxes inside. The Charter Authority is paid by ground rent and by fees for services people choose to buy, and life support by the service charge in every lease. {% basis "fiction" %} The taxes that do apply are real, and come from Earth. Bermuda charges no personal income tax and, from 2025, taxes the Bermuda entities of multinational groups with revenue of at least EUR 750 million at 15 percent. {% basis "law" %} A United States citizen is taxed wherever they live, and income from space activity is US-source. {% basis "law" %}
 
@@ -111,13 +111,13 @@ Most stories about governing a settlement are failure stories, and most failures
 
 On the last row: every autonomous system aboard has a registered principal who answers for it in contract and in court. Machines hold no share and have no legal personhood.
 
-**Where this can fail.** The United Kingdom could revoke the licence or tighten its conditions. The registration gap is untested. Re-flagging needs a willing state. The founders' class can block anything outside the Covenant. Private security is only as accountable as its contracts and the Court. And a company that owns the homes, the jobs and the courthouse is the Pullman risk, the company town a US court unwound in 1898. {% basis "law" %} The answers are the residents' shares, independent courts and an open door.
+**Where this can fail.** The United Kingdom could revoke the licence or tighten its conditions. The registration gap is untested. Re-flagging needs a willing state. The founders' class can block anything outside the Covenant. Accountability for private security depends on its contracts and the Court. Concentrated ownership of homes, jobs and courts also creates risks illustrated by Pullman, the company town a US court unwound in 1898. {% basis "law" %} The design addresses these risks through resident shares, independent courts and funded return passage, without eliminating them.
 
-## Why Concordia is not a country, and does not want to be
+## Statehood and changing registry
 
-A state needs a permanent population, a defined territory, a government and the capacity to deal with other states. {% basis "law" %} The treaty forbids the territory. A German court held in 1978 that Sealand, a platform with people and a government, was not a state. {% basis "law" %} Concordia wants a light state it can change, not a state of its own.
+A state needs a permanent population, a defined territory, a government and the capacity to deal with other states. {% basis "law" %} The treaty prevents a national territorial claim in space. A German court held in 1978 that Sealand, a platform with people and a government, was not a state. {% basis "law" %} Concordia therefore uses a licensing state, with a process for changing its registry.
 
-One company has tried the other route. Starlink's 2020 beta terms said Earth governments had no authority on Mars, and space lawyers called the clause void under the treaty. {% basis "law" %} Concordia is the opposite design: inside the law, with contract doing the rest.
+Starlink's 2020 beta terms said Earth governments had no authority on Mars, and space lawyers called the clause void under the treaty. {% basis "law" %} Concordia's design retains state jurisdiction while assigning other functions through contract.
 
 In the story, instead of secession, both share classes, each by two thirds, may ask to move the station's registry to another treaty state that accepts it, as ships change flag. {% basis "fiction" %} Open registries compete for ships, and that competition keeps a licensing state's demands modest. {% basis "law" %} Distance helps too. At 1.28 seconds each way, an Earth court is practical in a way it would not be at Mars, where the delay runs to many minutes.
 
@@ -162,7 +162,7 @@ In the story, instead of secession, both share classes, each by two thirds, may 
 
 ## Stories and ideas
 
-Fiction is cited for the failures it dramatised, not as evidence. The books below are cited for one idea each, never as proof.
+The fiction below illustrates governance failures. The other books supply the stated ideas; the legal claims use the sources listed above.
 
 **Stories.** Robert A. Heinlein, *The Moon Is a Harsh Mistress* (1966); *Outland* (1981); James S. A. Corey, *The Expanse* (2011 on); *Elysium* (2013); Kim Stanley Robinson, *Red Mars* (1993).
 

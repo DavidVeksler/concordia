@@ -20,7 +20,7 @@ Use any of these as written.
 
 **Short.** Concordia is a walkable simulation of a 21 km rotating space city at Earth-Moon L5. Four cities spin at Earth gravity, and the whole station opens in a browser.
 
-**Medium.** Concordia is an interactive simulation of a rotating space city built at the Earth-Moon L5 region. Its four habitation rotors each turn once every 100 seconds to give 1 g, and visitors can walk its streets, ride the lift to weightlessness and follow a family from a kitchen to a launch track, free in a browser. The physics is real. The 2045 history is a speculative design.
+**Medium.** Concordia is an interactive simulation of a rotating space city built at the Earth-Moon L5 region. Its four habitation rotors each turn once every 100 seconds to give 1 g, and visitors can walk its streets, ride the lift to weightlessness and follow a family from a kitchen to a launch track, free in a browser. It uses established physics within a fictional 2045 setting.
 
 **Long.** Concordia is an interactive simulation of a rotating space city, 21 km long, at the Earth-Moon L5 region. Four habitation rotors, each 2.5 km in radius, turn once every 100 seconds to give the ground Earth's gravity. Tsiolkovsky (Rotor 1) and Noordung (Rotor 2) spin opposite to Bernal (Rotor 3) and O'Neill (Rotor 4), so the station nets close to zero angular momentum and does not wobble. Visitors walk the streets, ride a lift from 1 g to weightlessness, tour the shipyard and spaceport, and follow a family from a kitchen to a 10 km electromagnetic launch track. The whole station is modelled at full scale and runs in a desktop browser at [concordia.davidveksler.com](/), with a guide of plain-language science pages that works on any phone. It was made by David Veksler. The design descends from Gerard K. O'Neill's 1970s space settlements.
 
@@ -45,7 +45,7 @@ Use any of these as written.
 
 ## What is real and what is invented {#invented}
 
-Real: spin gravity, counter-rotation and angular momentum, radiation and debris shielding, air loss through a breach, orbital mechanics at L5, and the engineering limits on each. Invented: the 2045 history, the economy that pays for it, the families and the names. The [about page](/about/) says the same in more words, and every number on the site is labelled with which kind it is.
+Real: spin gravity, counter-rotation and angular momentum, radiation and debris shielding, air loss through a breach, orbital mechanics at L5, and the engineering limits on each. Invented: the 2045 history, the economy that pays for it, the families and the names. The [about page](/about/) explains these distinctions and the basis labels used for numbers across the site.
 
 The design started from Isaac Arthur's episode "The O'Neill Cylinder Space Habitat: Islands In The Sky" (2025-04-24), credited on the site. Concordia differs from the 1970s designs in using four sealed rotor cities instead of one or two and a shield that stands still.
 
@@ -86,6 +86,6 @@ A link to the site is welcome. The full list of sources and licences is on the [
 
 ## Contact {#contact}
 
-David Veksler: [contact@davidveksler.com](mailto:contact@davidveksler.com). Interviews, a walkthrough of the station, a screen-share demo, a question about a number or a clip that is not here: write.
+David Veksler: [contact@davidveksler.com](mailto:contact@davidveksler.com). Contact him for interviews, walkthroughs, screen-share demos, questions about the calculations or additional footage.
 
-If you find something that is wrong, write that too. Every number on the site is labelled with its [basis](/about/#basis).
+Corrections are welcome at the same address. Every number on the site is labelled with its [basis](/about/#basis).

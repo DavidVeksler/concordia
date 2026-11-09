@@ -35,17 +35,17 @@ Ordinary food leaves on freight pods from the dock: crates of salad, trays of lo
 
 ## Why farm at 0.6 g {#why-up-here}
 
-Partial gravity is preferred to none for growing, and a food factory does not need to be near the streets. Putting farms at 0.4 to 0.6 g keeps the 1 g ground for parks, schools and homes. Above about 800 m the frame is an atmospheric service district, not housing: utilities, crop galleries and process halls.
+Partial gravity is preferred to none for growing, and a food factory does not need to be near the streets. Putting farms at 0.4 to 0.6 g keeps the 1 g ground for parks, schools and homes. Above about 800 m, the frame holds an atmospheric service district with utilities, crop galleries and process halls.
 
 {% shot "sc-facility-1000m-exterior" "The 1,000 m service tier from the open fringe: glazed grow galleries lit white and magenta, with vessels and air handlers. Weight here is 0.60 g." %}
 
-The air in the farm is the shared habitat air, so there are no airlocks and no separate farm vessel. Water and nutrients circulate in a {% term "closed-loop life support" "recycling loop" %}, with continuous recovery rather than a perfect seal. The science is in [Air, water and food](/science/air-water-food/), and the gravity story is in [Artificial gravity](/science/artificial-gravity/).
+The air in the farm is the shared habitat air, so there are no airlocks and no separate farm vessel. Water and nutrients circulate in a {% term "closed-loop life support" "recycling loop" %}, with continuous recovery rather than a perfect seal. The life-support processes are described in [Air, water and food](/science/air-water-food/), and the gravity story is in [Artificial gravity](/science/artificial-gravity/).
 
 {% callout "In 2045" %}
 Children and routine healthcare stay near 1 g, so the farms are workplaces first ([why](/station/building-concordia/)).
 {% endcallout %}
 
-Water is the other loop. The farms recover it continuously, and what slips away is topped up from the asteroid ice held in Ehricke, [the industrial rotor](/places/industrial-rotor/).
+The farms recover water continuously. Losses are topped up from the asteroid ice held in Ehricke, [the industrial rotor](/places/industrial-rotor/).
 
 ## The food loop {#food-loop}
 
@@ -68,7 +68,7 @@ Three levels of the frame carry service uses. At 625 m (0.75 g), one slot in fou
 
 The farms use {% term "hydroponics" %}, aeroponics, stacked crops, fungi, algae, precision fermentation, microbial protein, insect larvae, fish tanks and hen barns. The grow hall's twelve decks give about 500,000 m² of growing area.
 
-Every flow is tracked by element. There is no landfill: water, carbon, nitrogen, phosphorus, metals, glass and polymers are all recovered.
+Material flows are tracked by element and recovered without landfill: water, carbon, nitrogen, phosphorus, metals, glass and polymers are all recovered.
 {% enddeeper %}
 
 <!-- facts: section 6 -->

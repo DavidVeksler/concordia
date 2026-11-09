@@ -18,11 +18,11 @@ map: "#industrial"
 
 ## What you see
 
-There is no shell and no roof. Seven rim rings carry the hoop load, 24 axial girders tie them together, and radial spokes at four stations reach down to hub collars at the axis. About three quarters of the volume is empty vacuum, which is how you read the scale. Equipment hangs on lattice cradles between the rings, with its floor toward the rim, because outward is down.
+There is no shell and no roof. Seven rim rings carry the hoop load, 24 axial girders tie them together, and radial spokes at four stations reach down to hub collars at the axis. About three quarters of the volume is empty vacuum, leaving clear views through the structure. Equipment hangs on lattice cradles between the rings, with its floor toward the rim, because outward is down.
 
 The bay has three zones from the hub end to the shipyard end. The first is processing: spherical tanks of the water and volatile farm, with refining and chemical units behind. The second is utility and fabrication, with recycling lines, fabrication cells and the power plant. The third is logistics: container racks, a cargo rail yard and gantries, assembly trusses and tug berths. Machinery thins toward the shipyard end, and tugs and containers get bigger.
 
-The light is hard. A single sun casts black shadows with no haze to soften them, so work-light strings along the rim chords and gantries do the rest: white on the rings, amber on maintenance routes, cool white on process units and red hazard beacons on the rim and exclusion edges. A green glow marks the control module. Walkways, railings, ladders and stencilled bay numbers give the eye something human-sized, so containers, tugs and process vessels read at their true size.
+Direct sunlight casts sharp shadows with no haze to soften them, so work-light strings along the rim chords and gantries light the shaded areas: white on the rings, amber on maintenance routes, cool white on process units and red hazard beacons on the rim and exclusion edges. A green glow marks the control module. Walkways, railings, ladders and stencilled bay numbers give the eye something human-sized, so containers, tugs and process vessels read at their true size.
 
 Everything is robotic. Tugs about 25 m long run on cargo rails at about 8 m/s. Arms, crawlers and drones do the maintenance. When a person does go in, it is in a pressurized capsule.
 

@@ -41,7 +41,7 @@ A tether turning end over end is a lever in orbit. The hub sits in a circular or
 
 A spaceplane arriving from the station falls onto the upper terminal on an orbit whose lowest point is exactly that tip, so it meets the tip tangentially. A spaceplane climbing from Earth coasts up onto the lower terminal the same way. Both are caught at the same moment, one at each end. Eight minutes and half a turn later the tether lets go. The family's craft leaves the bottom at 5.34 km/s, 4.60 km/s slower than it arrived. The other leaves the top at 9.94 km/s, 4.60 km/s faster. {% basis "physics" %}
 
-This is conservation of momentum, nothing else. The two craft weigh about the same, so one gives and the other takes, and the hub's orbit barely moves.
+The exchange conserves momentum. The two craft weigh about the same, so one gives and the other takes, and the hub's orbit barely moves.
 
 ## Keeping the hub in its orbit {#reboost}
 
@@ -57,9 +57,9 @@ Traffic is not always balanced. When more mass leaves Earth than arrives, the te
 
 ## What the skyhook is for {#purpose}
 
-The skyhook is an orbital power bank. Every arriving craft deposits its extra speed in the tether, and every departing craft withdraws it, so the same momentum is spent again and again. Only the difference between what comes in and what goes out has to be paid for, and it is paid in sunlight and a little ion propellant. {% basis "design" %}
+The skyhook transfers momentum from arriving craft to departing craft. Its reboost system replaces any net loss using solar power and a small amount of ion-thruster propellant. {% basis "design" %}
 
-That is the trade: expensive rocket propellant for cheap solar power. Giving or taking 4.6 km/s with a methane and oxygen rocket costs about 2.6 tonnes of propellant for every tonne of spaceplane, and all of it has to be lifted out of Earth's gravity first. The tether hands over the same 4.6 km/s with no propellant at all, and its solar arrays and ion thrusters cover the imbalance. {% basis "physics" %}
+This reduces rocket-propellant use by supplying reboost energy from solar arrays. Giving or taking 4.6 km/s with a methane and oxygen rocket costs about 2.6 tonnes of propellant for every tonne of spaceplane, and all of it has to be lifted out of Earth's gravity first. The tether hands over the same 4.6 km/s with no propellant at all, and its solar arrays and ion thrusters cover the imbalance. {% basis "physics" %}
 
 {% facts basis="design" %}
 450 km | Hub orbit, 7.644 km/s
@@ -80,7 +80,7 @@ In the widget, the family's craft is amber and the one from Earth is teal. Drag 
 
 Captured passengers feel 1.87 g at the top of the swing, 1.76 g when the tether is level and 1.88 g at the bottom, for the full 8 minutes. The pull points away from the hub, toward the belly and the cabin floor, so riders sit pressed into their seats the whole way. Concordia residents live at 1 g, so 1.87 g for 8 minutes, seated, is tolerable. {% basis "design" %}
 
-The catch itself is gentle by geometry. At contact the tip moves almost straight up or down relative to the arriving craft: 9 m of separation one second before contact, 37 m at two seconds, 229 m at five. A grapple head on a short free-running line follows the spaceplane's path, latches its dorsal fixture, and the line brakes over about 5 seconds, so the load rises smoothly from nothing to 1.87 g. {% basis "design" %}
+The capture geometry limits the relative motion near contact. At contact the tip moves almost straight up or down relative to the arriving craft: 9 m of separation one second before contact, 37 m at two seconds, 229 m at five. A grapple head on a short free-running line follows the spaceplane's path, latches its dorsal fixture, and the line brakes over about 5 seconds, so the load rises smoothly from nothing to 1.87 g. {% basis "design" %}
 
 {% shot "sci-skyhook-capture" "Twenty seconds after capture, the spaceplane hangs under the upper terminal on a fan of strands, belly out. Near the craft the tether is drawn as an open net; farther away it merges into one line." %}
 
@@ -96,7 +96,7 @@ Without the skyhook, a craft from lunar distance meets the air at 11.0 km/s. The
 
 The 150 km tip is chosen for this angle. A tip at 200 km gives a 9.4 degree entry and a 12.7 g bound, steep for passengers. The bottom of the swing is the shallowest release available: letting go earlier or later steepens the path. {% basis "design" %}
 
-The final burn in the story is not a deorbit burn, since the path already meets the air. It is an entry trim burn of about 30 m/s at 40 seconds after release, 0.5 g for 6 seconds, which moves the entry point downrange onto the runway's approach corridor. The tip rises off the spaceplane by itself, 9 m after one second and 15 km after forty, so no burn is needed for clearance. {% basis "design" %}
+The final burn in the story trims an entry path that already meets the air. The entry trim burn provides about 30 m/s at 40 seconds after release, 0.5 g for 6 seconds, which moves the entry point downrange onto the runway's approach corridor. The tip rises off the spaceplane by itself, 9 m after one second and 15 km after forty, so no burn is needed for clearance. {% basis "design" %}
 
 {% shot "sci-skyhook-release-cine" "The release at the lower tip: the spaceplane lets go and the strands fall away behind it. From here it is on a suborbital path." %}
 
@@ -104,7 +104,7 @@ The final burn in the story is not a deorbit burn, since the path already meets 
 
 ## What is not settled {#open}
 
-**The ascent from the ground.** The spaceplane from Earth must reach the lower tip at 5.34 km/s and 150 km. That needs a booster stage or a hypersonic carrier aircraft of the kind HASTOL proposed, and Concordia does not choose between them. This page covers the arrival, not the climb. {% basis "challenge" %}
+**The ascent from the ground.** The spaceplane from Earth must reach the lower tip at 5.34 km/s and 150 km. That needs a booster stage or a hypersonic carrier aircraft of the kind HASTOL proposed, and Concordia does not choose between them. The arrival design leaves this ascent method unresolved. {% basis "challenge" %}
 
 **Simultaneous catches.** HASTOL does not propose catching a payload going up while another comes down; its authors handled the two on adjacent orbits (Grant et al. 2001, PDF p. 25). Concordia keeps the paired catch, because a symmetric tether makes the swap clean and the momentum exchange visible. If one catch is missed, the other is a single catch, which is the case HASTOL designed for. HASTOL also arranged its throw so that a craft that misses its catch still re-enters. {% basis "challenge" %}
 

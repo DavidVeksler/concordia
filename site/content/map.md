@@ -32,7 +32,7 @@ z = (1 - cos(k s)) / k
 
 At t = 1 the curvature is zero and the point sits at (s, 0), so the circumference 2 π R = 15,708 m becomes the width of the map. Up is toward the axis, because gravity points outward: a pin at 625 m stands a quarter of the way in, where the weight is 0.75 g. The stalks in the animation stay perpendicular to the floor all the way down.
 
-A habitation rotor turns once every 100 seconds, in the sense given by its spin pair. The industrial rotor has no floor, so its three gravity bands unroll as three separate cylinders of different radius: the strips come apart, and their different widths are the point.
+A habitation rotor turns once every 100 seconds, in the sense given by its spin pair. The industrial rotor has no floor, so its three gravity bands unroll as three separate cylinders of different radius: the strip widths show the different circumferences.
 {% enddeeper %}
 
 ## The rotors {#rotors}
@@ -62,7 +62,7 @@ Bernal turns the opposite way from the first two rotors, prograde seen from the 
 {% mapsection "rotor-4" %}
 O'Neill is the forward rotor and the last one built; it reached full spin in 2044. Beyond its forward wall lie the momentum bay and the bearing gallery, where its hub faces the industrial rotor's and the two turn against each other. Its day is 12 hours.
 
-{% shot "sc-rotor4-tower-field" "O'Neill from 120 m up: a field of crowned towers and spires. Same generator as the other rotors, a different seed and a different city." %}
+{% shot "sc-rotor4-tower-field" "O'Neill from 120 m up: a field of crowned towers and spires. The city generator uses a different seed for each rotor." %}
 {% endmapsection %}
 
 {% mapsection "industrial" %}

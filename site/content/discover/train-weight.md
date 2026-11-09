@@ -24,7 +24,7 @@ Less. Standing on the platform you weigh 0.98 g. Against the spin at 100 km/h yo
 
 ## Observe
 
-Open the viaduct view on the ring line, where the metro runs 45 m above the street. In the story the family rides the axial line instead, which runs along the spin axis, and their weight does not change. This page is about the ring.
+Open the viaduct view on the ring line, where the metro runs 45 m above the street. In the story the family rides the axial line instead, which runs along the spin axis, and their weight does not change. The ring line demonstrates the change in apparent weight.
 
 {% explore viewpoint="metro-viaduct-street" %}
 
@@ -32,11 +32,11 @@ Open the viaduct view on the ring line, where the metro runs 45 m above the stre
 
 ## Explain
 
-Weight is the push of the floor, and the floor pushes you around a circle. How hard it pushes depends on how fast you go around that circle, measured from outside. The metro rail turns with the station at 153 m/s. A train running against the spin at 100 km/h (27.8 m/s) moves through space at only 126 m/s. It makes the same circle more slowly, so the floor pushes less. Run with the spin and the same sum goes the other way. {% basis "physics" %}
+Weight is the push of the floor, and the floor pushes you around a circle. How hard it pushes depends on how fast you go around that circle, measured from outside. The metro rail turns with the station at 153 m/s. A train running against the spin at 100 km/h (27.8 m/s) moves through space at only 126 m/s. It makes the same circle more slowly, so the floor pushes less. Running with the spin increases the speed around the axis and the force from the floor. {% basis "physics" %}
 
 The effect has a name, the {% term "Coriolis effect" %}, and a size: 2ωv, which is 3.5 m/s² or 0.36 g at 100 km/h. A small term in v²/r gives some of it back. The axial lines run along the spin axis instead of around it, so they do not change your speed around the circle and you weigh 0.98 g on all of them. {% basis "design" %}
 
-The metro is built for this. Rings run 100 km/h antispinward and 90 km/h spinward, so riders get a lighter ride one way and a heavier one the other, never more than a third off. {% basis "design" %}
+The chosen speeds limit the change in apparent weight. Rings run 100 km/h antispinward and 90 km/h spinward, so riders get a lighter ride one way and a heavier one the other, never more than a third off. {% basis "design" %}
 
 {% deeper "The weight equation" %}
 A rider at rail radius r moves at v along the ring, with the floor turning at ω.

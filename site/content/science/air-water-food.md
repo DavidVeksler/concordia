@@ -2,7 +2,7 @@
 title: "Air, water and food in a space habitat"
 h1: "Air, water and food"
 description: "A space habitat breathes sea-level air, drinks recycled water and eats food grown in the upper city. Follow sewage to fertiliser, crop waste to larvae, fish and hens, and see why 2% comes from Earth."
-lead: "Concordia breathes air at Earth sea-level pressure, drinks water it has used many times and eats food grown in the upper city: greens and grain, fish, eggs and chicken. The loops are almost closed. About 2 percent of the food comes from Earth, and it is the good stuff."
+lead: "Concordia breathes air at Earth sea-level pressure, drinks water it has used many times and eats food grown in the upper city: greens and grain, fish, eggs and chicken. The loops are almost closed. About 2 percent of the food comes from Earth, including speciality foods and supplements."
 hero: sci-awf-farm
 nav: science
 order: 5
@@ -28,7 +28,7 @@ Because the air spins with the rotor, it thins slightly toward the axis, the way
 
 ## Water
 
-Water does more than quench thirst. In Concordia it is shielding, ballast, fire protection and scenery, and it is stored everywhere: in lakes, in structural tanks, in the shielding layers, on the farms, in the reservoirs that balance each rotor, and in the shelters. The inventory is tens of millions of tonnes.
+Concordia uses water for drinking, shielding, ballast, fire protection and scenery. It is stored throughout the station: in lakes, in structural tanks, in the shielding layers, on the farms, in the reservoirs that balance each rotor, and in the shelters. The inventory is tens of millions of tonnes.
 
 Each rotor holds between 72 and 114 lakes, with the largest about 300 m on a side. Open space takes about a third of the ground in Tsiolkovsky (Rotor 1). The lakes are the visible part of a system that runs continuously: water is collected, cleaned and returned. {% basis "design" %}
 
@@ -42,17 +42,17 @@ The recovery rate matters more than the volume. The first benchmark was set in 2
 
 ## Waste is inventory
 
-There is no landfill. Every kind of waste is a stock of elements, tracked by inventory: water, carbon, nitrogen, phosphorus, metals, glass, polymers and biological nutrients. Recycling lines in Ehricke (the industrial rotor) sort and refine what households and factories send back. This is {% term "closed-loop life support" %} on the scale of a city, and the books balance the way a company's do, element by element. {% basis "challenge" %}
+There is no landfill. Every kind of waste is a stock of elements, tracked by inventory: water, carbon, nitrogen, phosphorus, metals, glass, polymers and biological nutrients. Recycling lines in Ehricke (the industrial rotor) sort and refine what households and factories send back. This is {% term "closed-loop life support" %} on the scale of a city, with an inventory for each element. {% basis "challenge" %}
 
 A station that recovers 99 percent still loses 1 percent a cycle, so imports never reach zero. The Moon supplies oxygen, silicon, aluminium and iron without strain. The scarce items are carbon, hydrogen and nitrogen, and the {% term "volatiles" %} that carry them come from {% term "carbonaceous asteroid" "carbonaceous asteroids" %}.
 
 ## From sewer to supper
 
-The food loop runs as three streams that never mix raw: the sewer, crop residue and the animal tanks. The rule is simple. Nothing from the sewer reaches a plant or an animal until heat has turned it into mineral salts, nitrate and carbon dioxide. {% basis "design" %}
+The food loop runs as three streams that never mix raw: the sewer, crop residue and the animal tanks. Sewer material reaches a plant or an animal only after heat has turned it into mineral salts, nitrate and carbon dioxide. {% basis "design" %}
 
 {% diagram "food-loop" "Two lanes: the sewer lane ends in nitrate, salts and CO2 for the crop decks; the food lane turns crops, residue, larvae and air protein into meals." %}
 
-**The sewer.** Toilets flush by vacuum and split urine from solids at the bowl. Urine is under 1 percent of the flow but carries 85 to 90 percent of the nitrogen, 50 to 80 percent of the phosphorus and 80 to 90 percent of the potassium. {% basis "physics" %} Bacteria turn its ammonia into nitrate, the form crops take up best, and it goes to the crop decks as liquid fertiliser. The solids, plate scraps and animal manure go to digesters held at 55 °C, the temperature ESA's MELiSSA life-support loop uses for its first stage, which kills pathogens and yields biogas. The digestate is then burned to a sterile ash. Fire destroys whatever biology survived, along with drug residues and hormones. Acid washes the phosphorus out of the ash, the route Swiss waste law now sets for the country's sewage sludge. {% basis "physics" %} The carbon dioxide goes to the crops and the air-protein vats. Nitrogen that escapes as gas joins the air, which is mostly nitrogen already, so in a sealed city it is stored, not lost.
+**The sewer.** Toilets flush by vacuum and split urine from solids at the bowl. Urine is under 1 percent of the flow but carries 85 to 90 percent of the nitrogen, 50 to 80 percent of the phosphorus and 80 to 90 percent of the potassium. {% basis "physics" %} Bacteria turn its ammonia into nitrate, the form crops take up best, and it goes to the crop decks as liquid fertiliser. The solids, plate scraps and animal manure go to digesters held at 55 °C, the temperature ESA's MELiSSA life-support loop uses for its first stage, which kills pathogens and yields biogas. The digestate is then burned to a sterile ash. Fire destroys whatever biology survived, along with drug residues and hormones. Acid washes the phosphorus out of the ash, the route Swiss waste law now sets for the country's sewage sludge. {% basis "physics" %} The carbon dioxide goes to the crops and the air-protein vats. Nitrogen that escapes as gas joins the air, which is mostly nitrogen already, so it remains in the sealed city's inventory.
 
 **Crop residue to larvae.** About half of what a crop grows is not food: stalks, roots, husks and leaves. Some of it grows mushrooms first. The rest, with the trimmings from the process wing, feeds black soldier fly larvae. Dried, the larvae are about 40 percent protein and a third fat, and they turn a fifth to a quarter of their feed's dry matter into body mass. {% basis "physics" %} They are pressed into meal and oil for the fish and the hens. Their frass, the spent bedding and droppings, goes to the parks and gardens. Larvae never eat sewage or plate waste. The European Union bars manure and catering waste as insect feed, and Concordia keeps the same line.
 
@@ -62,7 +62,7 @@ The food loop runs as three streams that never mix raw: the sewer, crop residue 
 
 ## What comes from Earth
 
-About 2 percent of the food by mass is shipped from Earth, roughly 40 g per person a day: what no deck or vat can copy, plus supplements. Wine from named vineyards, whisky aged in Scotland, single-estate coffee and chocolate, aged cheeses and dry-aged beef. Freight to L5 runs about $100 a kilogram, so a bottle of Burgundy arrives carrying $130 of shipping. Across the city that is about 16 tonnes a day and $580 million a year, some $1,500 per resident. {% basis "design" %} For a city of the well-off it is a line item, not a hardship, and every bottle adds a little carbon and nitrogen to the inventory.
+About 2 percent of the food by mass is shipped from Earth, roughly 40 g per person a day: what no deck or vat can copy, plus supplements. Wine from named vineyards, whisky aged in Scotland, single-estate coffee and chocolate, aged cheeses and dry-aged beef. Freight to L5 runs about $100 a kilogram, so a bottle of Burgundy arrives carrying $130 of shipping. Across the city that is about 16 tonnes a day and $580 million a year, some $1,500 per resident. {% basis "design" %} The city's wealthy residents can afford that freight cost, and every bottle adds a little carbon and nitrogen to the inventory.
 
 ## Food in the upper city
 
@@ -79,7 +79,7 @@ Partial gravity is preferred to zero gravity for crops and for the workers who t
 
 ## What it feels like
 
-The smell of basil on a grow deck. A gallery window onto racks of lettuce rising 96 m. At the dispatch dock, crates of salad, trays of loaves and wrapped pallets leave on freight. Food looks like food: tilapia on ice, trays of eggs, wheels of cheese from the fermentation halls. Back at street level, no one thinks about the loop. A tap runs, a lake sits flat under the sky, and a market stall sells salad that was grown a ride up the ascender. At dinner the fish came from the upper fringe and the wine came from France, and the wine cost more to ship than to make. {% basis "fiction" %}
+A grow deck smells of basil. Its visitor gallery overlooks racks of lettuce rising 96 m. At the dispatch dock, crates of salad, trays of loaves and wrapped pallets leave on freight. The dispatch includes tilapia on ice, trays of eggs and wheels of cheese from the fermentation halls. At street level, residents use the recovered water and locally grown food. A tap runs, a lake sits flat under the sky, and a market stall sells salad that was grown a ride up the ascender. At dinner the fish came from the upper fringe and the wine came from France, and the wine cost more to ship than to make. {% basis "fiction" %}
 
 {% deeper "Pressure up and down the rotor" basis="physics" %}
 The air co-rotates with the rotor. For air at a constant temperature T with specific gas constant R, pressure rises toward the rim by the same exponential rule as the barometric formula, with the centrifugal potential ω² r² / 2 in place of g × h:
@@ -123,7 +123,7 @@ area = 12 × 288 × 124 = 4.3 × 10⁵ m²
 at 60 kg/m²/year of lettuce-type crop: 2.6 × 10⁴ t/year
 {% endeq %}
 
-Spread over a quarter of a million people that is about 100 kg of leafy greens each per year. This is a scale check, not a nutritional plan: calories come from the grain, legume and tuber decks, the vats and the animal loop, and imports are about 2 percent. A fermenter of 150 m³ makes about 2 tonnes of product an hour.
+Spread over a quarter of a million people that is about 100 kg of leafy greens each per year. This checks the scale of leafy-green production; calories come from the grain, legume and tuber decks, the vats and the animal loop, and imports are about 2 percent. A fermenter of 150 m³ makes about 2 tonnes of product an hour.
 {% enddeeper %}
 
 {% deeper "The protein budget" basis="design" %}

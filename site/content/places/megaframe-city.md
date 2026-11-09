@@ -27,7 +27,7 @@ The oldest parts of the frame are monumental and repetitive, with large joints a
 
 ## The end walls
 
-Each rotor ends in a disc, and the disc is a city face. The {% term "end wall" %} is an inhabited cliff 2,436 m tall, from the ground to the 64 m bore at the axis. Its 24 cells are 654 m wide at the rim and narrow to 131 m at 2,000 m of height. Ledges, viaducts and terraces step up the face, with trains on the track strips.
+Buildings and terraces occupy the disc-shaped end of each rotor. The {% term "end wall" %} is an inhabited cliff 2,436 m tall, from the ground to the 64 m bore at the axis. Its 24 cells are 654 m wide at the rim and narrow to 131 m at 2,000 m of height. Ledges, viaducts and terraces step up the face, with trains on the track strips.
 
 {% shot "pl-end-wall-terrace" "A viaduct terrace on the end wall with a train, planters and terraced blocks above the city." %}
 
@@ -37,7 +37,7 @@ Gravity follows the same rule as everywhere: it falls in a straight line with he
 
 ## How it works in brief
 
-The frame is a load path. Every building rests on its bay structure, the bay on the primary frame, and the frame on the rotor's outer tension structure. All permanent loads go outward, because outward is down. [Structure](/science/structure/) explains the pressure vessel, {% term "hoop stress" %} and the frame in detail.
+The frame transfers building loads to the rotor structure. Every building rests on its bay structure, the bay on the primary frame, and the frame on the rotor's outer tension structure. All permanent loads go outward, because outward is down. [Structure](/science/structure/) explains the pressure vessel, {% term "hoop stress" %} and the frame in detail.
 
 {% shot "sc-low-g-atrium" "The frame thins as weight falls. At about 0.32 g the bays are long-span and sparse, and process facilities replace housing." %}
 

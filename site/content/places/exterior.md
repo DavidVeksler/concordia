@@ -2,7 +2,7 @@
 title: "Exterior of a 21 km space habitat"
 h1: "The exterior"
 description: 'Seen from outside, Concordia is a 21 km mountain of cassette-covered truss, radiator banks, launch tracks, defence batteries and a fleet of satellites.'
-lead: 'From outside, Concordia is a grey cylinder 21 km long and 6.2 km wide. Its skin is a shielding truss, not a pressure vessel, and around it hang radiators, dishes, launch tracks, defence batteries and seven free-flying satellites.'
+lead: 'From outside, Concordia is a grey cylinder 21 km long and 6.2 km wide. Its outer shielding covers a truss, and around it hang radiators, dishes, launch tracks, defence batteries and seven free-flying satellites.'
 hero: film-habitat-pullback
 nav: places
 order: 11
@@ -18,11 +18,11 @@ map: "#vp-exterior-industrial-open-bay"
 
 ## The hull
 
-The outer shell is a deep open truss with removable shielding cassettes on its surface. It is not the pressure vessel: the habitat's air is held hundreds of metres inward, so a punctured panel does not open a home to space. The cassettes are compacted regolith and slag in 32 m tiles, 609 around the ring, between ribs every 128 m along the axis and every 96 m around it.
+The outer shell is a deep open truss with removable shielding cassettes on its surface. The habitat's pressure vessels sit hundreds of metres inside this shell, so puncturing a shielding panel does not vent a home. The cassettes are compacted regolith and slag in 32 m tiles, 609 around the ring, between ribs every 128 m along the axis and every 96 m around it.
 
 {% shot "pl-exterior-hull" "Close on the hull: shielding cassettes, repair seams, a maintenance rail and the service robot at an open slot." %}
 
-The skin looks patched because it is. Cassettes come in four types, fitted over the years and replaced as they wear, so some panels are years older than others. Rails run along the hull for crawlers that swap them. The shielding is broken in two places: over the open industrial bay, and from the shipyard to the port, where an open cage lets finished ships leave. See [Radiation and debris](/science/radiation-and-debris/) for how the stack works.
+The surface contains shielding cassettes from different periods of construction and maintenance. Cassettes come in four types, fitted over the years and replaced as they wear, so some panels are years older than others. Rails run along the hull for crawlers that swap them. The shielding is broken in two places: over the open industrial bay, and from the shipyard to the port, where an open cage lets finished ships leave. See [Radiation and debris](/science/radiation-and-debris/) for how the stack works.
 
 ## Radiators, dishes and arrays
 
@@ -36,7 +36,7 @@ The launch track for passenger craft runs 10 km along the hull, and two cargo ma
 
 ### Defence
 
-Four sites guard the station: two forward and two aft. Radar fences, an 85 m tracking dish, survey telescopes and lidar masts watch for debris, and heavy and rapid interceptors, point-defence guns and capture-net launchers answer it. Layered detection and interception cover each end, and [radiation and debris](/science/radiation-and-debris/) explains where shielding stops and interception starts. Directed energy is left out. Cargo from the Moon and the asteroids is caught tens or hundreds of kilometres away and towed in, never aimed at the habitat.
+Four sites guard the station: two forward and two aft. Radar fences, an 85 m tracking dish, survey telescopes and lidar masts watch for debris, and heavy and rapid interceptors, point-defence guns and capture-net launchers answer it. Layered detection and interception cover each end, and [radiation and debris](/science/radiation-and-debris/) explains how shielding and interception provide complementary protection. Directed energy is left out. Cargo from the Moon and the asteroids is caught tens or hundreds of kilometres away and towed in, never aimed at the habitat.
 
 {% shot "pl-exterior-defence" "A forward defence battery with armoured housing, reload magazine, interceptor cells and a blast wall." %}
 

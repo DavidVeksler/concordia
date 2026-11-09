@@ -2,7 +2,7 @@
 title: "Artificial gravity: how spin makes 1 g in space"
 h1: "Artificial gravity"
 description: "Spin makes weight. See how a rotor 5 km wide gives a space habitat a full 1 g at the ground, how weight fades to zero at the axis, and what the Coriolis effect does to a dropped coin."
-lead: "Concordia makes gravity by turning. Each city rotor is a cylinder 5 km wide that spins once every 100 seconds, and the floor is the inside of its outer wall. Climb toward the axis and your weight drains away until you float."
+lead: "Concordia makes gravity by turning. Each city rotor is a cylinder 5 km wide that spins once every 100 seconds, and the floor is the inside of its outer wall. Climb toward the axis and your weight decreases until you float."
 hero: sky-breakthrough
 nav: science
 order: 1
@@ -26,7 +26,7 @@ Want the numbers first? [Jump to the calculators](#try-it).
 
 ## How artificial gravity works: weight from motion {#weight-from-motion}
 
-Ride in a car through a sharp bend and you slide toward the door. Nothing pulled you sideways. The car turned, you tried to go straight, and the door pushed you back into the curve. That push is all weight is. On Earth the ground pushes up against gravity. In a rotor the floor pushes you around the circle, and the push feels the same.
+Ride in a car through a sharp bend and you slide toward the door. The car turns while your body tends to continue straight, and the door pushes you into the curve. That contact force is what you feel as weight. On Earth the ground pushes up against gravity. In a rotor the floor pushes you around the circle, and the push feels the same.
 
 Swing a bucket of water over your head and the water stays in. The bucket bottom is the "floor" and the water presses on it. A rotor is the same bucket with a city inside. Your {% term "apparent weight" %} is the push of the floor, set by how fast the floor moves in its circle. Physicists call the sideways-turning acceleration {% term "centripetal acceleration" %}, and it is the only gravity Concordia has.
 
@@ -65,7 +65,7 @@ This line decides where things go. Houses, schools, parks and hospitals sit near
 
 ## What it feels like
 
-Mostly nothing. Gravity is steady, down is down, and stairs are stairs. The differences show up in small ways.
+The steady weight makes ordinary activities feel familiar. Motion introduces several differences.
 
 - **Dropped things curve.** Let go of a coin at head height and it lands about 5 cm to one side, against the direction of spin. The coin keeps its sideways speed while the floor swings away.
 - **Walking changes your weight a little.** Walk in the direction of spin and you weigh about 2 percent more. Walk against it and you weigh about 2 percent less. On an 80 kg person that is about 1.4 kg, a bag of groceries.
@@ -138,7 +138,7 @@ The radius for 1 g at a given rate is r = g / ω².
 | 2 | 224 m |
 | 4 | 56 m |
 
-The 1975 NASA study set the comfort limit at 1 turn per minute, which forces a radius near 900 m. Globus and Hall recommend up to 2 turns per minute with little adaptation for visitors (a radius near 225 m) and up to 4 with some training for visitors, which would allow a 56 m radius. Concordia chooses the slow end on purpose. A million people include children, the elderly and the unwell, so the design stays under the lowest published limit. {% basis "design" %} The published comfort limits, with the rim speed, gravity gradient and Coriolis figure for any radius, are laid out in the [spin tolerance table of the CheatSheets artificial gravity calculator](https://cheatsheets.davidveksler.com/artificial-gravity-calculator.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=science-artificial-gravity#tolerance).
+The 1975 NASA study set the comfort limit at 1 turn per minute, which forces a radius near 900 m. Globus and Hall recommend up to 2 turns per minute with little adaptation for visitors (a radius near 225 m) and up to 4 with some training for visitors, which would allow a 56 m radius. Concordia uses the lower spin rate for comfort. A million people include children, the elderly and the unwell, so the design stays under the lowest published limit. {% basis "design" %} The published comfort limits, with the rim speed, gravity gradient and Coriolis figure for any radius, are laid out in the [spin tolerance table of the CheatSheets artificial gravity calculator](https://cheatsheets.davidveksler.com/artificial-gravity-calculator.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=science-artificial-gravity#tolerance).
 {% enddeeper %}
 
 {% sources %}

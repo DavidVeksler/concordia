@@ -18,7 +18,7 @@ map: "#vp-spine-interior"
 
 ## What you see
 
-The ascender ends at a hub: a drum 66 to 140 m in radius and 150 m long, turning with the rotor, with four tower portals marked by bronze sunbursts. Beyond a bearing collar is the {% term "spine" %}, which never rotates. From the spine's windows the city turns past you once every 100 seconds, while the spine stays still.
+The ascender ends at a hub: a drum 66 to 140 m in radius and 150 m long, turning with the rotor, with four tower portals marked by bronze sunbursts. Beyond a bearing collar is the {% term "spine" %}, which remains stationary. From the spine's windows the city turns past you once every 100 seconds, while the spine stays still.
 
 {% shot "pl-spine-interior" "Inside the spine: ring lamps every 25 m, the express guideway, crew galleries and utility trunks." %}
 
@@ -32,7 +32,7 @@ Inside a car, restraint couches line the four wall quarters, with grab rails and
 
 ## Changing frames
 
-You cannot step from a rotating floor onto a still platform. The hub has a **spin-decoupling lock**: eight chambers, each 90 m long, on a magnetic-bearing carousel. A chamber fills with passengers, spins down over 96 seconds, latches to the spine, and opens into zero g. For the other direction it spins up. A full cycle takes about ten minutes.
+Passengers transfer between the rotating hub and stationary spine through a **spin-decoupling lock**: eight chambers, each 90 m long, on a magnetic-bearing carousel. A chamber fills with passengers, spins down over 96 seconds, latches to the spine, and opens into zero g. For the other direction it spins up. A full cycle takes about ten minutes.
 
 {% shot "sci-spine-observation" "From a gallery beside the spine the whole rotor turns past the window, once every 100 seconds, while the spine itself stays still." %}
 

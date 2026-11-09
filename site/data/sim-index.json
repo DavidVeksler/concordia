@@ -1478,7 +1478,7 @@
     {
       "index": 0,
       "key": "home",
-      "title": "A world in motion."
+      "title": "Morning in Arbor Quarter."
     },
     {
       "index": 1,
@@ -1503,7 +1503,7 @@
     {
       "index": 5,
       "key": "ascender",
-      "title": "The sky is machinery."
+      "title": "Through the artificial sky."
     },
     {
       "index": 6,
@@ -1523,7 +1523,7 @@
     {
       "index": 9,
       "key": "shipyard",
-      "title": "A different kind of world."
+      "title": "The zero-g shipyard."
     },
     {
       "index": 10,
@@ -1533,12 +1533,12 @@
     {
       "index": 11,
       "key": "launch",
-      "title": "A departure made of momentum."
+      "title": "The electromagnetic launch track."
     },
     {
       "index": 12,
       "key": "exterior",
-      "title": "A mountain built by people."
+      "title": "The station from outside."
     },
     {
       "index": 13,
@@ -1685,7 +1685,7 @@
     {
       "slug": "electrical",
       "name": "Electrical",
-      "summary": "Solar platforms far aft supply about 40 GW, sent in over direct-current lines at plus and minus 1.2 MV. Two fission plants of 250 MWe each can restart the grid from nothing.",
+      "summary": "Solar platforms far aft supply about 40 GW, sent in over direct-current lines at plus and minus 1.2 MV. Two fission plants of 250 MWe each provide black-start power to restart the grid.",
       "learnMore": "/science/power-and-heat/",
       "callouts": [
         {

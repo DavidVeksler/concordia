@@ -2,7 +2,7 @@
 title: "Metros, lifts and trains in a rotating habitat"
 h1: "Moving around a spinning world"
 description: Walking, metros, radial lifts and the zero-g express all behave differently inside a rotor. See why a train can weigh you 0.66 g or 1.33 g, and how you cross from a spinning city to a still spine.
-lead: In Concordia you walk, ride the metro, take a lift to the axis and cross to other rotors by train. Each trip feels a different piece of the spin. Going along the axis costs nothing, going around the circle changes your weight, and going up makes gravity fade.
+lead: In Concordia you walk, ride the metro, take a lift to the axis and cross to other rotors by train. Motion along the axis adds no Coriolis effect. Motion around the circle changes your weight, and moving toward the axis reduces it.
 nav: science
 order: 8
 updated: 2026-10-10
@@ -18,7 +18,7 @@ related:
 
 Walking in a rotor feels like walking on Earth, with one small difference. Because the floor turns, a step in the direction of spin makes you a little heavier and a step against it a little lighter. At a walking pace of 1.5 m/s the change is about 2 percent, which nobody notices ([why the spin is so gentle](/science/artificial-gravity/)). At train speeds it matters. {% basis "physics" %}
 
-The metro runs on viaducts 45 m above the street, not underground. Its ring line circles the rotor at 2,455 m from the axis, where a standing rider weighs 0.98 g. {% basis "design" %} What you weigh is set by your speed through space, which is the speed of the floor plus or minus the train's own speed. The {% term "Coriolis effect" %} is that difference.
+The metro runs on viaducts 45 m above the street. Its ring line circles the rotor at 2,455 m from the axis, where a standing rider weighs 0.98 g. {% basis "design" %} What you weigh is set by your speed through space, which is the speed of the floor plus or minus the train's own speed. The {% term "Coriolis effect" %} is that difference.
 
 {% facts %}
 0.98 g | standing on the ring line | physics
@@ -39,7 +39,7 @@ Riding against the spin you are lighter, with the spin you are heavier. That is 
 
 Four ascender towers per rotor lift people from the ground to the axis. A cabin holds about 150 people, 64 seated and 86 standing, and the 2,380 m climb takes 595 seconds, cruising at 5.5 m/s. {% basis "design" %} Gravity falls steadily as you rise: 0.98 g at the boarding deck, about 0.8 g where the cabin passes through the sky, 0.60 g at 1,000 m and 0.40 g at 1,500 m. At the hub terminal it is 0.028 g. {% basis "physics" %}
 
-Two more things change as you climb. The cabin turns with the rotor all the way, so its sideways speed falls from 153 m/s at the deck to 4.4 m/s at the hub, and the guide rails supply the push that makes it slow down. And because the cabin moves toward the axis, the Coriolis effect shoves everything inside sideways, so the apparent vertical leans. The cabin rolls to follow it: 4 degrees 150 m above the deck, 6.7 degrees at 1,000 m, 15 degrees close to the axis, in the opposite sense in the two spin pairs. {% basis "physics" %}
+The climb changes both the cabin's tangential speed and its apparent vertical. The cabin turns with the rotor all the way, so its sideways speed falls from 153 m/s at the deck to 4.4 m/s at the hub, and the guide rails supply the push that makes it slow down. And because the cabin moves toward the axis, the Coriolis effect shoves everything inside sideways, so the apparent vertical leans. The cabin rolls to follow it: 4 degrees 150 m above the deck, 6.7 degrees at 1,000 m, 15 degrees close to the axis, in the opposite sense in the two spin pairs. {% basis "physics" %}
 
 {% diagram "ascender-ride" "Gravity falls and the cabin leans as it climbs. A second cabin descends on a parallel track." %}
 

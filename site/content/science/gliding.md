@@ -3,7 +3,7 @@ title: "Flying inside a rotating space habitat"
 h1: "Flying in a spinning world"
 crumb: Flying
 description: Fly backward fast enough inside a Concordia rotor and your wing needs no lift at all. Test it, see why it happens, and watch what a released object really does near the axis.
-lead: "Inside a rotor, weight is not a pull. It is the push it takes to bend your path into a circle. Fly against the spin at the speed the floor turns and there is no circle left to bend: your wing needs no lift, and you hang still against the stars while the city turns around you."
+lead: "Inside a rotor, the inward force needed for circular motion produces apparent weight. Fly against the spin at the speed the floor turns and there is no circle left to bend: your wing needs no lift, and you hang still against the stars while the city turns around you."
 nav: science
 order: 9
 hero: sci-sky-from-above
@@ -49,7 +49,7 @@ Pick a height, then slide the airspeed. The dot is the lift your wing needs, the
 
 {% widget "flying-backward" "A chart of the lift a wing needs to fly level inside the rotor, against antispinward airspeed. At 2,200 m the lift needed falls from 0.12 g at rest to zero at 18.8 m/s, then rises again, back to 0.12 g at 37.6 m/s. At the ground the zero is at 156.5 m/s, 563 km/h." %}
 
-Three things to notice:
+The result changes with height and airspeed:
 
 - **The zero moves with height.** The floor turns at 0.0626 rad/s everywhere, so its speed is that rate times your distance from the axis. At the ground that is 156.5 m/s, at the sky 128 m/s, at 2,200 m only 18.8 m/s. The cancellation speed shrinks in the same proportion.
 - **Past the zero, lift comes back.** Fly faster than the floor and you circle the axis backwards. At twice the floor speed you need exactly your standing weight again.
@@ -81,13 +81,13 @@ Cut the motor and the headwind slows the glider through the air. It drifts spinw
 
 The glider is a light electric hang glider: 120 kg with its pilot, a 16 m² wing and a 4 kW motor. {% basis "design" %} Pick a height, a heading and an airspeed, press Fly, and the autopilot holds them. Try **Cancel your weight**, then **What happens if the motor stops?** The inset in the corner draws the three velocities: the air, the glider through the air, and their sum, the glider against the stars.
 
-The full simulation has the same glider in the city. Start with {% explore viewpoint="glider-take-off" label="a take-off run on the road" %} or {% explore viewpoint="glider-over-city" label="a flight 300 m above the city" %}; both are in the atlas under Glider. or in Explore mode, inside a habitation rotor, press B to board it, fly it between the towers, and drop the ball over a street.
+The full simulation has the same glider in the city. Start with {% explore viewpoint="glider-take-off" label="a take-off run on the road" %} or {% explore viewpoint="glider-over-city" label="a flight 300 m above the city" %}; both are in the atlas under Glider. In Explore mode, inside a habitation rotor, press B to board it, fly it between the towers, and drop the ball over a street.
 
 In the full simulation the glider flies like a small aircraft. The nose sits above the flight path by the angle of attack, so the horizon drops as you slow down, and close to the floor the wing floats on its own ground effect. Shift in the air is the airbrake, Q and E are the rudder, and a red yaw string on the windscreen shows when the air is coming from the side. Hold C below 60 m and the autopilot flies the approach, keeps the airbrakes out, rounds out and touches down at under half a metre a second. The air moves too: a drift of up to 3 m/s along the axis, with gusts, and some days none. Across it the glider crabs, 12 degrees at 14 m/s in a 3 m/s drift, and the autopilot straightens the nose just before the wheels touch. {% basis "design" %}
 
 {% widget "glider" "A glider flown inside the rotor, with a ball you can drop and a motor you can cut. At the ground, at 14 m/s, the glider needs 1.19 g of lift flying with the spin and 0.83 g against it. At 2,200 m, flying antispinward at 18.8 m/s, it needs none and hangs still against the stars." %}
 
-Switch between the two views. In the Outside view the rotor turns once every 100 seconds and the ball flies a straight line. In the Resident view the floor holds still and the same ball curves backward. That curve is the {% term "Coriolis effect" %}: the price of describing a straight line from a turning point of view.
+Switch between the two views. In the Outside view the rotor turns once every 100 seconds and the ball flies a straight line. In the Resident view the floor holds still and the same ball curves backward. That curve is the {% term "Coriolis effect" %}, seen when straight motion is described in rotating coordinates.
 
 {% shot "sci-glider-over-city" "The view from the hang glider, 300 m above the floor. The ground of the rotor curves up ahead and overhead, and the glider flies along the same curve, bent into it by its wing." %}
 
@@ -97,12 +97,12 @@ Nothing in a rotor pulls things toward the floor. Let go of something and the on
 
 - **At the exact axis, a still object stays put.** The air there does not move, so nothing pushes it, with air or without.
 - **Anywhere else, it keeps the speed it had.** Let go from a tower and it moves at the floor's speed at that height, sideways, in a straight line. The floor curves up to meet it. A resident sees it fall and curve backward.
-- **Near the axis that straight line is slow and long.** Cargo let go 50 m from the axis moves at only 3.1 m/s. In vacuum it coasts for 13 minutes, then the floor sweeps into it almost sideways at 156 m/s. It barely falls at all: the floor catches it.
+- **Near the axis that straight line is slow and long.** Cargo let go 50 m from the axis moves at only 3.1 m/s. In vacuum it coasts for 13 minutes, then the floor sweeps into it almost sideways at 156 m/s. It moves nearly tangentially until the rotating floor reaches it.
 - **The air changes that.** The air turns faster than the drifting cargo, so the headwind pushes it spinward and spins it up. More spin carries it outward faster, and drag caps its speed. The same parcel in air lands in under 4 minutes at 38 m/s.
 
 {% widget "release-lab" "Two views of an object let go inside the rotor, from outside and from the floor, with air or in vacuum. A steel ball let go at the 450 m sky lands 221 m antispinward of the spot below after 11.4 s. Cargo let go 50 m from the axis takes 13 minutes in vacuum and is hit sideways at 156 m/s; with air it lands after 220 s at 38 m/s." %}
 
-Where do the spin and the energy come from? From the air, and the air gets them from the rotor. Drag pushes the object toward the air's own motion, so it hands over angular momentum. The rotor's air holds 45 million tonnes and is kept turning by the floor and the walls, so the share one parcel takes is far too small to measure. {% basis "physics" %}
+The air supplies the angular momentum and energy, which it receives from the rotor. Drag pushes the object toward the air's own motion, so it hands over angular momentum. The rotor's air holds 45 million tonnes and is kept turning by the floor and the walls, so the share one parcel takes is far too small to measure. {% basis "physics" %}
 
 ## Heading and height
 
@@ -140,7 +140,7 @@ V_stall (with the spin) = ω r / (√(C_Lmax / K) − 1)
 V_stall (against) = ω r / (√(C_Lmax / K) + 1)
 {% endeq %}
 
-**Gliding with the motor off.** In the frame turning with the air, lift and the Coriolis force are perpendicular to the motion and do no work, so energy changes only by drag and the centrifugal term: d/dt(½ w² − ½ ω² r²) = −D w / m. Holding airspeed then needs a sink rate of D w / (m ω² r). The standing weight sets the glide, not the lift needed.
+**Gliding with the motor off.** In the frame turning with the air, lift and the Coriolis force are perpendicular to the motion and do no work, so energy changes only by drag and the centrifugal term: d/dt(½ w² − ½ ω² r²) = −D w / m. Holding airspeed then needs a sink rate of D w / (m ω² r). The standing weight determines this glide relation; the required lift is a separate quantity.
 
 **Release.** In vacuum a body let go while turning with the floor at r₀ flies a straight line at ω r₀. It reaches the floor after t = √(R² − r₀²) / (ω r₀) and meets it at ω √(R² − r₀²) relative to the floor, almost all of it sideways when r₀ is small. Its angular momentum per kilogram, r₀ × ω r₀, never changes, so its share of the floor's spin falls to (r₀ / R)² by the time it lands. In air, drag is quadratic against the local air:
 
@@ -175,7 +175,7 @@ with R = 2,500 m, ω = 0.0626 rad/s, R_gas = 287 J/(kg K), T = 293 K and ρ_grou
 | Cargo parcel, 30 cm cube | 10 kg | 0.095 m² |
 | Person, spread flat | 80 kg | 0.5 m² |
 
-These are design values for the widgets, not measurements of real craft. {% basis "design" %} What the widgets leave out: flight along the axis (no Coriolis effect there, the glider behaves as on Earth with less weight), turbulence, wind, buildings, ground effect, a tumbling body's changing drag, and any slowing of the rotor's air by what it pushes. The 3D simulation adds a light wind with gusts, ground effect, airbrakes, sideslip and a rudder; it still leaves out thermals and the wakes of buildings. The air is assumed to turn exactly with the floor; real air near the axis lags the floor slightly.
+The widgets use assumed design values rather than measurements of real craft. {% basis "design" %} What the widgets leave out: flight along the axis (no Coriolis effect there, the glider behaves as on Earth with less weight), turbulence, wind, buildings, ground effect, a tumbling body's changing drag, and any slowing of the rotor's air by what it pushes. The 3D simulation adds a light wind with gusts, ground effect, airbrakes, sideslip and a rudder; it still leaves out thermals and the wakes of buildings. The air is assumed to turn exactly with the floor; real air near the axis lags the floor slightly.
 
 <!-- facts: section 2 (gravity versus height, atmosphere), section 13 (glider model, cancelling weight, release lab) -->
 {% enddeeper %}

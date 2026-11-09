@@ -14,7 +14,7 @@ related:
 
 ## What the Moon gives
 
-The Moon's surface is covered in {% term "regolith" %}, a fine broken rock. About 43 percent of it is oxygen by mass, locked into minerals along with silicon, aluminium, iron and some titanium. That one fact does a lot of work. A tonne of moon dirt holds over 400 kg of oxygen for air and rocket oxidiser, plus the metal and stone to build with. {% basis "physics" %}
+The Moon's surface is covered in {% term "regolith" %}, a fine broken rock. About 43 percent of it is oxygen by mass, locked into minerals along with silicon, aluminium, iron and some titanium. The oxygen content makes regolith useful for several products. A tonne of moon dirt holds over 400 kg of oxygen for air and rocket oxidiser, plus the metal and stone to build with. {% basis "physics" %}
 
 From regolith the station makes aluminium alloys and steel, glass, basalt-like mineral fibres, glass-ceramics and ceramics. Heated until the grains fuse, it becomes {% term "sintered regolith" %}, the pale warm-grey stone that city blocks and the megaframe are made of. Compacted regolith and slag fill the cartridges of the hull shield. This is {% term "in-situ resource utilization" %} at city scale: almost all bulk material is extraterrestrial, and Earth launch is kept for high-value, low-mass items. {% basis "design" %}
 
@@ -24,19 +24,19 @@ From regolith the station makes aluminium alloys and steel, glass, basalt-like m
 
 Three things the city needs are scarce on the Moon: carbon, hydrogen and nitrogen. Without them there is no water, no plastic, no food, and no inert gas to dilute the oxygen in the air.
 
-Prospecting in the 2030s found the first partial answer. Water ice sits at a few percent by mass in the upper metres of {% term "permanently shadowed region" "permanently shadowed" %} regolith across several hundred square kilometres of the lunar poles. {% basis "fiction" %} It agrees with the first hard measurement: when NASA's LCROSS probe struck the crater Cabeus in 2009, Colaprete and colleagues estimated the ejecta was 5.6 percent water ice by mass. {% basis "physics" %} The ice is enough for propellant and for early life support. It is not enough for a million people's air and water, so most of the volatiles come from asteroids.
+Prospecting in the 2030s found the first partial answer. Water ice sits at a few percent by mass in the upper metres of {% term "permanently shadowed region" "permanently shadowed" %} regolith across several hundred square kilometres of the lunar poles. {% basis "fiction" %} This is consistent with the earlier measurement: when NASA's LCROSS probe struck the crater Cabeus in 2009, Colaprete and colleagues estimated the ejecta was 5.6 percent water ice by mass. {% basis "physics" %} The ice is enough for propellant and for early life support. It is not enough for a million people's air and water, so most of the volatiles come from asteroids.
 
 ## What asteroids bring
 
 The first asteroids hauled to L5 were metal-rich: almost pure iron-nickel that went to the yard without smelting, before the lunar mass driver ran at scale ([how the haulers work](/science/mining/)). The volatiles came next. A {% term "carbonaceous asteroid" %} is a dark, primitive body that never melted. The ones Concordia's haulers capture are small, tens of metres across, and measure roughly 10 percent water and a few percent carbon by mass, like the CI and CM meteorites. They also carry nitrogen compounds and metals. {% basis "fiction" %}
 
-The {% term "volatiles" %} they hold are the missing pieces. Water gives drinking water, farm water and hydrogen. Carbon gives plastics, fibre and the CO₂ plants breathe. Nitrogen fills the atmosphere and feeds the farms. A small asteroid cannot arrive on its own. A hauler bags it whole and pushes it, slowly and steadily, into the L5 region, where it is processed far from the station. The 2012 Keck Institute study for asteroid retrieval found that a roughly 7 m body of 250 to 1,000 tonnes is within reach of a robotic mission with a solar-electric tug. {% basis "physics" %} Concordia's captures are larger, tens of metres across.
+Their {% term "volatiles" %} supply elements scarce on the Moon. Water gives drinking water, farm water and hydrogen. Carbon gives plastics, fibre and the CO₂ plants breathe. Nitrogen fills the atmosphere and feeds the farms. A small asteroid cannot arrive on its own. A hauler bags it whole and pushes it, slowly and steadily, into the L5 region, where it is processed far from the station. The 2012 Keck Institute study for asteroid retrieval found that a roughly 7 m body of 250 to 1,000 tonnes is within reach of a robotic mission with a solar-electric tug. {% basis "physics" %} Concordia's captures are larger, tens of metres across.
 
 {% shot "sci-depot-dock" "A volatiles depot: a white water tank, a tug port for the tugs that bring in captured material, and a mesh dish. Water, carbon and nitrogen wait here until the farms and the air plant ask for them." %}
 
 This chain was running before anyone lived on the station. The first asteroid captures came in the mid 2030s, metal-rich bodies first, with lunar mining and an electromagnetic mass driver close behind. The station started as its own factory. How the rock is found, bagged and mined is on [Mining the Moon and asteroids](/science/mining/); the full build is on [Building Concordia](/station/building-concordia/). {% basis "fiction" %}
 
-## Catching cargo, not receiving it
+## Remote cargo capture {#catching-cargo-not-receiving-it}
 
 A {% term "mass driver" %} is an electromagnetic catapult. On the Moon it reaches the 2.4 km/s escape speed with no propellant, so packaged feedstock leaves the surface on electricity alone and arrives fast. {% basis "challenge" %} So the station never receives cargo directly. Capture facilities tens or even hundreds of kilometres away catch each shipment, slow it, and hand it to tugs that bring it in gently. Nothing high-speed is ever aimed at the habitat.
 

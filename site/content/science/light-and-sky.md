@@ -14,7 +14,7 @@ related:
 
 ## Why there are no windows
 
-The hull is thick on purpose. Its outer layers are regolith and slag cassettes, because that mass is what stops radiation and debris. A window big enough to light a city would be a hole in that shield. It would also face a Sun that sweeps around the rotor once every 100 seconds, flashing across the floor instead of lighting it. {% basis "physics" %}
+The hull needs thick shielding. Its outer layers are regolith and slag cassettes, because that mass is what stops radiation and debris. A window big enough to light a city would be a hole in that shield. It would also face a Sun that sweeps around the rotor once every 100 seconds, flashing across the floor instead of lighting it. {% basis "physics" %}
 
 So the shell stays opaque, and the city is lit from inside. The {% term "artificial sky" %} hangs about 450 m above the ground, give or take 100 m, as a light, segmented, replaceable structure. It is not a pressure boundary: the air above it is the same air as below. At that height your {% term "apparent weight" %} is about 82 percent of what it is on the ground.
 
@@ -22,7 +22,7 @@ So the shell stays opaque, and the city is lit from inside. The {% term "artific
 
 ## A ceiling that glows
 
-From the street, the sky looks like a plain blue sky. From above it is a membrane of 8 m cassettes with a light emitter every 25 mm, about 51 billion emitters per rotor, over 31.8 km² of surface. It is a display, not a mirror and not a window, so the operators choose the colour, brightness and time of day. {% basis "challenge" %}
+From the street, the sky looks like a plain blue sky. From above it is a membrane of 8 m cassettes with a light emitter every 25 mm, about 51 billion emitters per rotor, over 31.8 km² of surface. As a display, it lets operators choose the colour, brightness and time of day. {% basis "challenge" %}
 
 {% facts %}
 900 cd/m² | average sky brightness | design
@@ -31,9 +31,9 @@ From the street, the sky looks like a plain blue sky. From above it is a membran
 2.2 GW | average power, all four rotors | design
 {% endfacts %}
 
-3,000 lux is bright, and it is meant to be. An overcast day is about 1,000 lux outdoors and full daylight in the shade about 10,000. Good office lighting is 500. {% basis "physics" %} Your street sits between the two outdoor figures, with a sky that is brightest at the horizon (about 1,300 cd/m²) and dimmer overhead (about 700).
+The design illuminance is 3,000 lux. An overcast day is about 1,000 lux outdoors and full daylight in the shade about 10,000. Good office lighting is 500. {% basis "physics" %} Your street sits between the two outdoor figures, with a sky that is brightest at the horizon (about 1,300 cd/m²) and dimmer overhead (about 700).
 
-The Sun is the hard part. A true-size Sun, half a degree wide, drawn at the membrane's brightness would add only 7 lux. So the sun is a broad patch instead: 18 degrees wide and 143 m across on the membrane. It reads as the Sun. {% basis "design" %}
+Representing the Sun requires a different scale. A true-size Sun, half a degree wide, drawn at the membrane's brightness would add only 7 lux. So the sun is a broad patch instead: 18 degrees wide and 143 m across on the membrane. This patch represents the Sun in the displayed sky. {% basis "design" %}
 
 {% shots "sci-park-noon" "The same lawn at noon. The sky is a display, so the operators choose its colour and brightness." "sci-sky-evening" "And in the evening. Nothing in the park moved: only the light from the ceiling changed." %}
 
@@ -57,7 +57,7 @@ The sky has five weather types: clear, fair-weather cumulus, broken cloud, overc
 
 ## What it costs
 
-At noon one rotor's sky draws 1.5 GW. Because the four rotors run their days 6 hours apart, the total averages 2.2 GW and never goes above 2.6 GW. All of it ends as heat, and the sky's share is rejected by about 1.2 km² of radiator at 450 K (see [power and heat](/science/power-and-heat/)). Against a station built for 20 to 25 GW of average demand at first, lighting a world is about a tenth of its power. {% basis "design" %}
+At noon one rotor's sky draws 1.5 GW. Because the four rotors run their days 6 hours apart, the total averages 2.2 GW and never goes above 2.6 GW. All of it ends as heat, and the sky's share is rejected by about 1.2 km² of radiator at 450 K (see [power and heat](/science/power-and-heat/)). Against a station built for 20 to 25 GW of average demand at first, the sky uses about a tenth of its power. {% basis "design" %}
 
 Four round openings, each 140 m across, pass the ascender towers through the membrane, and every pier crosses it through a fitted 57 m eye. That is where you break through the sky and see the machinery behind it.
 

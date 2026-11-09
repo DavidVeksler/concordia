@@ -2,7 +2,7 @@
 title: "Earth to L5 travel: launcher, shuttle, skyhook"
 h1: "Getting there from L5"
 description: Concordia sits at Earth-Moon L5. A 10 km launcher gives the first 540 m/s, then the shuttle falls for 5 days to a transfer station. A skyhook then cuts the entry to 5.4 km/s.
-lead: Concordia floats in the Earth-Moon L5 region, 384,400 km from Earth. A passenger leaves on a 10 km electromagnetic launcher, which gives the first push for free, falls for 5 days to a transfer station in Earth orbit, and rides a spaceplane down. The launcher is only the first leg.
+lead: Concordia floats in the Earth-Moon L5 region, 384,400 km from Earth. A passenger leaves on a 10 km electromagnetic launcher, which provides the first push without onboard propellant, falls for 5 days to a transfer station in Earth orbit, and rides a spaceplane down. The launcher is only the first leg.
 nav: science
 order: 12
 updated: 2026-10-18
@@ -18,7 +18,7 @@ related:
 
 A {% term "Lagrange point" %} is a spot where the pull of two bodies and the motion of the orbit balance. {% term "L5" %} trails the Moon by 60 degrees on its orbit, at the same 384,400 km from Earth, forming an equilateral triangle with Earth and Moon. In the idealised picture, with Earth and Moon on circular orbits and nothing else pulling, L4 and L5 are stable: a small push sends an object into a slow loop around the point instead of carrying it away. The other three points are not. L4 and L5 stay stable only because Earth is more than 25 times heavier than the Moon; it is 81 times heavier. {% basis "physics" %}
 
-The real world is messier. The Sun pulls, the Moon's orbit is not circular, and ship traffic and cargo launches all push on a station of this size. So Concordia is station-kept: continuous navigation, and low-level correction by high-efficiency electric thrusters. Twelve thruster pods ring the aft face, with a combined power around 108 MW and a {% term "specific impulse" %} near 3,000 s. Large manoeuvres take days or weeks. {% basis "challenge" %}
+Additional forces change this idealised picture. The Sun pulls, the Moon's orbit is not circular, and ship traffic and cargo launches all push on a station of this size. So Concordia is station-kept: continuous navigation, and low-level correction by high-efficiency electric thrusters. Twelve thruster pods ring the aft face, with a combined power around 108 MW and a {% term "specific impulse" %} near 3,000 s. Large manoeuvres take days or weeks. {% basis "challenge" %}
 
 L5 was chosen for five reasons: low-energy access to lunar material, access to Earth and the cislunar network, no planet below, a huge volume for construction, and a staging point for travel onward. The station moves around Earth at 1.018 km/s. {% basis "physics" %}
 
@@ -38,7 +38,7 @@ It costs 24 GJ per launch, 0.65 GW on average and 1.31 GW at the peak, a few per
 
 ## The delta-v budget
 
-{% term "delta-v" "Delta-v" %} is the change in speed a ship can make, the standard currency of spaceflight. After the launcher, the shuttle spends about 847 m/s on a one-way trip to capture at the transfer station.
+{% term "delta-v" "Delta-v" %} is the change in velocity a ship can produce. After the launcher, the shuttle spends about 847 m/s on a one-way trip to capture at the transfer station.
 
 {% diagram "transfer-orbit" "Half an ellipse from L5 to capture on day 5, with the Moon far off the whole way. Not to scale." %}
 
@@ -71,7 +71,7 @@ The Concordia shuttle never enters an atmosphere. It is a 64 m stack of two part
 
 The shuttle docks at a transfer station, a bare truss about 420 m long that does not spin, and the passengers cross to a spaceplane. The spaceplane is a lifting body that lands on a runway and never goes farther from Earth than the station. {% basis "design" %}
 
-Its way down is a skyhook: a 600 km tether turning end over end, its centre in a 450 km orbit, its tips sweeping from 150 to 750 km up. The upper tip catches the spaceplane at 9.9 km/s while the lower tip catches one coming up from Earth. Eight minutes later, half a turn on, the tether lets go. The Earth-bound spaceplane leaves the lower tip at 5.3 km/s, 4.6 km/s slower than it arrived, and the spaceplane going up leaves 4.6 km/s faster. What one loses the other gains. {% basis "design" %} The [skyhook page](/science/skyhook/) goes through the swap, what riders feel and what is not settled, with a half-turn you can scrub.
+Its way down is a skyhook: a 600 km tether turning end over end, its centre in a 450 km orbit, its tips sweeping from 150 to 750 km up. The upper tip catches the spaceplane at 9.9 km/s while the lower tip catches one coming up from Earth. Eight minutes later, half a turn on, the tether lets go. The Earth-bound spaceplane leaves the lower tip at 5.3 km/s, 4.6 km/s slower than it arrived, and the spaceplane going up leaves 4.6 km/s faster. The paired transfer exchanges momentum between the craft. {% basis "design" %} The [skyhook page](/science/skyhook/) goes through the swap, what riders feel and what is not settled, with a half-turn you can scrub.
 
 The released spaceplane reaches the 120 km entry interface 110 seconds later at 5.4 km/s, 5.8 degrees below horizontal. Without the skyhook, the same trip from lunar distance meets the air at 11 km/s, almost Earth's escape speed, with about four times the heating. {% basis "physics" %}
 

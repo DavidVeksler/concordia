@@ -21,7 +21,7 @@ Every kilogram that leaves Earth has to be lifted out of a deep gravity well. Es
 
 Launch is cheap by the standards of the 2010s. Fully reusable heavy launchers carry more than 100 tonnes to low orbit for about $2 million a flight, and tanker flights refuel them in orbit. That is about $20 a kilogram to low orbit. L5 costs more, about $100 a kilogram, because every load bound there needs four tanker flights to fill the ship for the climb. Cheap launch is what made Concordia possible: the haulers, the first mining machines, the seed factory and the crews all flew up from Earth. {% basis "fiction" %}
 
-It is still far too dear for bulk. Two billion tonnes is 20 million full loads, about $200 trillion delivered to L5. So the rule on Concordia is simple: Earth sends the machines that make things, and things that are light, rare and hard to make. Everything heavy is dug up in space. {% basis "design" %}
+It is still far too dear for bulk. Two billion tonnes is 20 million full loads, about $200 trillion delivered to L5. Concordia therefore limits Earth imports: Earth sends the machines that make things, and things that are light, rare and hard to make. Everything heavy is dug up in space. {% basis "design" %}
 
 {% facts %}
 62.7 MJ/kg | Energy to escape Earth | physics
@@ -49,7 +49,7 @@ Earth, the Moon and the asteroids are made of the same elements in very differen
 
 {% diagram "element-sources" "Where the elements are. Earth's crust, lunar soil, carbonaceous asteroids and metal-rich asteroids, shaded by share of mass. Sources are listed at the foot of the page." %}
 
-Earth has everything, but at the bottom of the deepest well. That is why Concordia mines the Moon for bulk, carbonaceous asteroids for {% term "volatiles" %}, and metal-rich asteroids for the alloy it needed first.
+Earth supplies all these elements at a much higher escape-energy cost. That is why Concordia mines the Moon for bulk, carbonaceous asteroids for {% term "volatiles" %}, and metal-rich asteroids for the alloy it needed first.
 
 ## First: metal-rich asteroids, bagged and hauled to L5
 
@@ -59,7 +59,7 @@ Metal-rich bodies were worth going for first, even though they are uncommon: in 
 
 {% shot "sci-hauler-capture" "A bag hauler at a rubble-pile asteroid, its 40 m mouth open, closing over a loose metal-rich boulder. Inflatable ribs and hoops hold the net open until the cinch lines close." %}
 
-The machine that does the work is the bag hauler, and it is built to be cheap per tonne, not to be clever. The 2012 Keck Institute study sized a robotic tug with a 15 m bag and 40 kW of solar-electric power to bring back one 500 tonne asteroid. The hauler is the industrial version: 25 times the power, 60 times the cargo, and it goes back for more. It is a solar-electric tug about 110 m long. Two solar wings, 60 m each, give about 1 MW. Seven electric thrusters at the stern run at a {% term "specific impulse" %} near 3,000 s, the same class as the station's own station-keeping thrusters. At the bow is the bag: a woven net of high-strength fibre with a thin liner, 40 m across at the mouth, held open by inflatable ribs. {% basis "challenge" %}
+The machine that does the work is the bag hauler, and its design minimises transport cost per tonne. The 2012 Keck Institute study sized a robotic tug with a 15 m bag and 40 kW of solar-electric power to bring back one 500 tonne asteroid. The hauler is the industrial version: 25 times the power, 60 times the cargo, and it goes back for more. It is a solar-electric tug about 110 m long. Two solar wings, 60 m each, give about 1 MW. Seven electric thrusters at the stern run at a {% term "specific impulse" %} near 3,000 s, the same class as the station's own station-keeping thrusters. At the bow is the bag: a woven net of high-strength fibre with a thin liner, 40 m across at the mouth, held open by inflatable ribs. {% basis "challenge" %}
 
 A capture goes in four steps. The hauler matches the rock's spin. It slides the open bag over the rock, or over a loose boulder on a bigger rubble pile, and the arms guide it in. Cinch lines draw the net tight, so the rock and every chip it sheds stay inside. Then the thrusters take out the spin and start the long push home.
 
@@ -75,7 +75,7 @@ At L5 the bagged rocks are parked well away from the station and cut up in vacuu
 
 ## Then: the Moon, at industrial scale
 
-Haulers cannot build a city. One metre of regolith shielding over the 470 km² hull weighs about 750 million tonnes. At 30,000 tonnes a trip that is 25,000 hauls. The bulk had to come from the Moon, days away instead of years, where the rock is already crushed and lying on the surface. {% basis "design" %}
+Hauling asteroid material cannot meet the bulk shielding demand at this scale. One metre of regolith shielding over the 470 km² hull weighs about 750 million tonnes. At 30,000 tonnes a trip that is 25,000 hauls. The bulk had to come from the Moon, days away instead of years, where the rock is already crushed and lying on the surface. {% basis "design" %}
 
 Lunar {% term "regolith" %} needs no blasting. Refuelled heavy landers set down the first excavators, furnaces and power plants. Scrapers skim the top metres. Magnets pull out the grains of native iron that meteorite impacts have scattered through the soil, and electrostatic sorters separate the minerals. Plants on the surface split oxygen out of the rock, about 43 percent of it by mass, and leave metals and slag behind. Then an electromagnetic {% term "mass driver" %} throws the packaged product off the Moon at the 2.4 km/s escape speed, using only electricity. The idea is old: a 1977 NASA Ames summer study sketched a lunar launcher throwing 10.5 kg loads four times a second, 650,000 tonnes a year. {% basis "challenge" %} Capture facilities far from Concordia catch each load and hand it to tugs (see [materials](/science/materials/)).
 
@@ -89,9 +89,9 @@ Lunar {% term "regolith" %} needs no blasting. Refuelled heavy landers set down 
 
 Lunar dust is the Moon's worst hazard. It is not weathered like sand on Earth. Micrometeorites have broken it into sharp, glassy shards, and sunlight charges it so it clings to everything. On the Apollo missions it wore through the outer layers of spacesuits, made seals leak, and irritated eyes and lungs; Harrison Schmitt complained of hay fever. After two moonwalks, about 8 hours on the surface, Pete Conrad said the Apollo 12 suits were more worn than their training suits after 100 hours. Rocket exhaust is worse: it throws surface grains at hundreds of metres per second or faster. {% basis "physics" %}
 
-The answer is to stop the dust from being dust. A {% term "solar furnace" %} is a field of mirrors that focuses sunlight on one small spot, hot enough to fuse rock. In 2017 the German Aerospace Center (DLR), working for the European Space Agency, used one at Cologne: 147 curved mirrors baked simulated moondust at 1,000 °C in layers 0.1 mm thick, and finished a 20 × 10 × 3 cm brick in about five hours. NASA engineers at Kennedy had already shown in 2008 that a solar concentrator melts and sinters simulant to about 6 mm deep in two to three minutes, and proposed it for lunar landing pads. On the Moon the same trick paves the ground: landing pads, roads and the mass driver apron are sintered into glassy crust so rocket exhaust and wheels cannot raise a cloud. Mobile solar ovens melt regolith into blocks for berms and blast walls. {% basis "physics" %}
+Fusing the loose grains reduces the dust hazard. A {% term "solar furnace" %} is a field of mirrors that focuses sunlight on one small spot, hot enough to fuse rock. In 2017 the German Aerospace Center (DLR), working for the European Space Agency, used one at Cologne: 147 curved mirrors baked simulated moondust at 1,000 °C in layers 0.1 mm thick, and finished a 20 × 10 × 3 cm brick in about five hours. NASA engineers at Kennedy had already shown in 2008 that a solar concentrator melts and sinters simulant to about 6 mm deep in two to three minutes, and proposed it for lunar landing pads. On the Moon the same trick paves the ground: landing pads, roads and the mass driver apron are sintered into glassy crust so rocket exhaust and wheels cannot raise a cloud. Mobile solar ovens melt regolith into blocks for berms and blast walls. {% basis "physics" %}
 
-The cargo is treated the same way. Loose dust never rides the mass driver. Regolith leaves the Moon fused into {% term "sintered regolith" %} billets, cast basalt and glass, so nothing sheds in flight or at the catcher. The pale billets stacked in Ehricke's stores are, in a sense, the solution to the dust problem. {% basis "design" %}
+The cargo is treated the same way. Loose dust never rides the mass driver. Regolith leaves the Moon fused into {% term "sintered regolith" %} billets, cast basalt and glass, so nothing sheds in flight or at the catcher. The pale billets in Ehricke's stores retain this fused form during storage and handling. {% basis "design" %}
 
 {% shot "sci-hull-cartridges" "Shielding cartridges of compacted regolith on the hull: Moon rock that left the surface as packaged, fused stock, not loose dust." %}
 

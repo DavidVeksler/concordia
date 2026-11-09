@@ -18,7 +18,7 @@ map: "#vp-spaceport-hero"
 
 ## A passenger’s next stop
 
-The whole port is one straight line on the station axis. The express from the city ends at a terminus drum. Beyond it come a zero-g hall, two counter-rotating lounge wheels on one axle, a second zero-g hall of gates, a small-craft apron and the passenger pier. The picture is the classic one: two wheels on an axle, a flower of docked ships in front, the city cylinder behind.
+The whole port is one straight line on the station axis. The express from the city ends at a terminus drum. Beyond it come a zero-g hall, two counter-rotating lounge wheels on one axle, a second zero-g hall of gates, a small-craft apron and the passenger pier. The lounge wheels share an axle, with docked ships ahead and the city cylinder behind.
 
 {% shot "pl-spaceport-hero" "The spaceport from outside: a lounge wheel on its axle with the gate hall and its berth frames in front of it, and the P1 trunk running off to the right." %}
 
@@ -40,7 +40,7 @@ You enter by a **carousel**. A chamber at the stationary end is boarded at rest 
 
 ### The street that curves up
 
-The deck is a street 1.4 km round, inside a tube 24 m high. Because you are inside a wheel, the street does not run away from you. It rises. Fifty metres ahead the floor is 5.6 m above your feet, and a hundred metres ahead it is 22 m up, so the street climbs into the vault in front of you and the people walking it seem to hang above. Shops, restaurants, a family area, security and the boarding hall line the deck. Sleeping cabins sit below it in the keel.
+The deck is a street 1.4 km round, inside a tube 24 m high. The street follows the inside of the wheel and curves upward ahead. Fifty metres ahead the floor is 5.6 m above your feet, and a hundred metres ahead it is 22 m up, so the street climbs into the vault in front of you and the people walking it seem to hang above. Shops, restaurants, a family area, security and the boarding hall line the deck. Sleeping cabins sit below it in the keel.
 
 {% shot "sc-spaceport-rim-street" "Wheel D's deck looking spinward: the street rising into the vault, with travellers walking in 1 g." %}
 
@@ -54,7 +54,7 @@ A few glazed bays in the floor of the departures wheel look straight down into s
 
 ### The gap
 
-The two wheels turn against each other 50 m apart, at a relative 96 m/s at their rims, so nothing ever crosses between them. A stationary catwalk in the gap gives the odd view of the whole port: two hub drums face each other, with chevrons on their end plates pointing the opposite ways they turn.
+The two wheels turn against each other 50 m apart, at a relative 96 m/s at their rims, so nothing ever crosses between them. A stationary catwalk in the gap provides a view of both wheels: two hub drums face each other, with chevrons on their end plates pointing the opposite ways they turn.
 
 {% shot "sc-spaceport-wheel-gap" "The 50 m gap between the wheels from a catwalk: the hub drums face each other, their end plates marked with chevrons." %}
 

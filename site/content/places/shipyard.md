@@ -2,7 +2,7 @@
 title: "Zero-g shipyard: building ships in space"
 h1: "The zero-g shipyard"
 description: 'In a vacuum yard 3.5 km long, spacecraft are built without gravity. Meridian 04, a 700 m crew and cargo ship, floats on tension lines among robots, tugs and tanks.'
-lead: 'The shipyard is a stationary vacuum yard about 3.5 km long, with no floor and no up. Ships are built here because a 700 m hull weighs nothing, so it needs no cradle and no crane, only soft hands and a lot of patience.'
+lead: 'The shipyard is a stationary vacuum yard about 3.5 km long, with no floor and no up. Ships are built here because a 700 m hull weighs nothing, so it needs no cradle and no crane, only equipment to position and restrain it.'
 hero: pl-shipyard-hero
 nav: places
 order: 8
@@ -30,7 +30,7 @@ At its centre floats **Meridian 04**, the fourth hull of a long-haul crew and ca
 
 ## How a ship is held
 
-Nothing carries her weight. Three open lattice rings, each with eight padded capture arms, touch the hull only at structural frames. Each ring hangs from the yard ribs on 8 to 12 pre-tensioned lines, 1.8 m thick and 2 to 2.5 km long, spread like a web. Nine small tugs fire short pulses to hold her still when a delivered tank shifts the centre of mass.
+Capture rings restrain the ship without supporting a gravitational load. Three open lattice rings, each with eight padded capture arms, touch the hull only at structural frames. Each ring hangs from the yard ribs on 8 to 12 pre-tensioned lines, 1.8 m thick and 2 to 2.5 km long, spread like a web. Nine small tugs fire short pulses to hold her still when a delivered tank shifts the centre of mass.
 
 Tanks, drums, truss lengths and cabin pods arrive from the industrial rotor's logistics end on cargo movers, then cross a straight lane to the ship at 20 to 40 m/s, braking over the last 200 m.
 
@@ -40,7 +40,7 @@ About 40 drones carry fasteners and inspection cameras. Eight heavy manipulators
 
 ## Why zero g
 
-Gravity makes big structures expensive. A very large tank, a truss kilometres long or a telescope mirror needs no extra strength to hold itself up in the yard, only to survive its working loads. The yard is reserved for jobs that gain from weightlessness or hard vacuum: spacecraft assembly, very large tanks, telescope assembly, truss fabrication, vacuum metallurgy and oversized additive manufacturing. Finished ships leave radially through the open cage.
+In zero gravity, assembly equipment does not need to support the weight of large structures. A very large tank, a truss kilometres long or a telescope mirror needs no extra strength to hold itself up in the yard, only to survive its working loads. The yard is reserved for jobs that gain from weightlessness or hard vacuum: spacecraft assembly, very large tanks, telescope assembly, truss fabrication, vacuum metallurgy and oversized additive manufacturing. Finished ships leave radially through the open cage.
 
 {% shot "sc-exterior-yard-through-cage" "Meridian 04 seen from outside through the open cage: hanging in the middle of the yard with no floor and no cradle under her. Nothing carries her weight." %}
 

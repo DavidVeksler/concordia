@@ -3,7 +3,7 @@ title: Why doesn't the whole station spin?
 question: Why doesn't the whole station spin?
 discover: true
 description: "Concordia's four city rotors spin, yet the station holds still. Their spins cancel in pairs, which spares it a gyroscope's resistance. See what turning the station would cost without that."
-lead: "Four rotors turn at the heart of Concordia, but the station as a whole does not. The rotors spin in opposite pairs so their angular momentum cancels, and the station stays pointed where it is pointed."
+lead: "Four rotors turn at the heart of Concordia, but the station as a whole does not. The rotors spin in opposite pairs so their angular momentum cancels, reducing the torque needed to change the station's orientation."
 hero: sci-cr-momentum-bay
 order: 4
 updated: 2026-10-13
@@ -34,9 +34,9 @@ Open the momentum overlay on the whole station. Tsiolkovsky and Noordung carry o
 
 A spinning rotor is a gyroscope. Push on it to turn it and it pushes back at a right angle. Each rotor holds 1.17 × 10¹⁷ N·m·s of angular momentum, so four spinning the same way would hold 4.7 × 10¹⁷ and resist every turn. {% basis "physics" %}
 
-Concordia avoids that by pairing. Tsiolkovsky and Noordung turn one way and Bernal and O'Neill the other, so the habitation rotors sum to zero. The industrial rotor turns against rotor four and holds about 4 percent of the total. Momentum rings trim whatever is left, to within 0.1 percent. {% basis "design" %} The pairs spin against each other at the spine, so the spine, hull and ports sit still between them.
+Concordia pairs rotors with opposing angular momenta. Tsiolkovsky and Noordung turn one way and Bernal and O'Neill the other, so the habitation rotors sum to zero. The industrial rotor turns against rotor four and holds about 4 percent of the total. Momentum rings trim whatever is left, to within 0.1 percent. {% basis "design" %} The pairs spin against each other at the spine, so the spine, hull and ports sit still between them.
 
-That is the answer to the title. The rotors do spin, once every 100 seconds. The station frame does not, and it can turn on a few kilonewtons of electric thrust. Momentum is traded between rotors and rings, not thrown away, so turning costs electricity and not propellant.
+The rotors turn once every 100 seconds. The station frame does not, and it can turn on a few kilonewtons of electric thrust. Momentum is transferred between rotors and rings. This transfer uses electricity without consuming propellant.
 
 {% deeper "The thrust arithmetic" %}
 Turning a body with angular momentum L at rate W takes a torque L × W. A couple across the 21 km hull supplies it.

@@ -37,7 +37,7 @@ Behind the masts the spine holds the converter hall, rows of valve halls, breake
 
 ## Starting from nothing
 
-If the solar link ever fails, the station needs a way to restart without it. Fission is the conservative baseline for this {% term "black start" %}. Two reactors stand on masts at the aft rim, 250 MWe each, behind shadow shields. Each makes about 700 MW of heat and rejects 450 MW of it through radiator petals held edge-on to the Sun. They are the lifeboat for the power system, not its main supply. {% basis "challenge" %}
+If the solar link ever fails, the station needs a way to restart without it. Fission is the conservative baseline for this {% term "black start" %}. Two reactors stand on masts at the aft rim, 250 MWe each, behind shadow shields. Each makes about 700 MW of heat and rejects 450 MW of it through radiator petals held edge-on to the Sun. They provide emergency restart power. {% basis "challenge" %}
 
 {% shot "sci-reactor-mast" "A black-start reactor on its mast, behind the shadow shield." %}
 
@@ -45,7 +45,7 @@ If the solar link ever fails, the station needs a way to restart without it. Fis
 
 Almost every watt the station uses becomes {% term "waste heat" %}: lights, motors, computers, kettles, and the body heat of 400,000 people. A station that uses 40 GW must reject about 40 GW. In vacuum, the only way to do it is to glow. A hot surface sheds energy as infrared light, and a {% term "radiator" %} is a large flat panel made to do exactly that.
 
-The {% term "Stefan-Boltzmann law" %} sets the price. Emitted power per square metre rises with the fourth power of temperature, so a hotter radiator needs far less area. At 450 K, typical for the station's banks, one face sheds about 2.1 kW per square metre. For 40 GW that is about 19 km² of panel. {% basis "physics" %} The station carries eight banks, 248 panel modules of 400 by 200 m, close to that figure. {% basis "design" %}
+The {% term "Stefan-Boltzmann law" %} determines the required area. Emitted power per square metre rises with the fourth power of temperature, so a hotter radiator needs far less area. At 450 K, typical for the station's banks, one face sheds about 2.1 kW per square metre. For 40 GW that is about 19 km² of panel. {% basis "physics" %} The station carries eight banks, 248 panel modules of 400 by 200 m, close to that figure. {% basis "design" %}
 
 {% diagram "radiator-balance" "Hotter radiators need less area, because power grows with temperature to the fourth power." %}
 
@@ -57,7 +57,7 @@ Radiators run at 380 to 500 K. Heat from homes and farms is low-grade, so heat p
 
 ## Heat out of a spinning city
 
-The hard part is the hand-off. Heat is collected inside rotors that turn once every 100 seconds, and the radiators are stationary. Each rotor gathers its heat locally and passes it through large, redundant rotary fluid joints at its axial hubs into stationary loops. These couplings are the one piece of the thermal system that still counts as a technology-development program. {% basis "challenge" %}
+Transferring heat between rotating and stationary systems requires specialised couplings. Heat is collected inside rotors that turn once every 100 seconds, and the radiators are stationary. Each rotor gathers its heat locally and passes it through large, redundant rotary fluid joints at its axial hubs into stationary loops. These couplings are the one piece of the thermal system that still counts as a technology-development program. {% basis "challenge" %}
 
 {% shot "sci-radiator-field" "The whole station with the thermal overlay on: radiator banks stand off the hull and reject the heat of everything inside." %}
 

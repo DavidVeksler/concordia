@@ -3,7 +3,7 @@ title: How does a city cool itself in vacuum?
 question: How does a city cool itself in vacuum?
 discover: true
 description: "A city of a million people makes about 40 GW of waste heat, and space has no air to carry it away. Concordia sheds it as light from radiators. See why hotter panels need far less area."
-lead: "A city of a million people and its machines make about 40 GW of heat, and space is a thermos with no air to carry it off. The only way out is light, and the hotter the radiator, the less of it you need."
+lead: "A city of a million people and its machines make about 40 GW of heat, and vacuum provides no air to carry it away. Radiators reject this heat as light; hotter panels need less area."
 hero: st-radiator-field
 order: 5
 updated: 2026-10-13
@@ -24,7 +24,7 @@ Smaller, by about a third. Heat radiated rises with the fourth power of temperat
 
 ## Observe
 
-Open the thermal overlay on the whole station. The radiator banks stand off the hull on long masts, so their light has somewhere to go.
+Open the thermal overlay on the whole station. The radiator banks stand off the hull on long masts to give them a clear view of space.
 
 {% explore viewpoint="complete-habitat" overlay="thermal" %}
 
@@ -39,7 +39,7 @@ The temperature is a choice. Hotter panels shed more per square metre and need f
 How radiators are sized, saturate and get dust-covered on real stations and surface bases is in the [thermal section of the CheatSheets space habitat guide](https://cheatsheets.davidveksler.com/space-habitats-life-support.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=discover-cooling-in-vacuum#thermal-power). The calculator leaves out sunlight on the panels, the work the heat pumps do, and the rotary joints that pass heat out of the spinning rotors. Each of those needs development work before anyone builds it at this scale. {% basis "challenge" %}
 
 {% deeper "The radiator equation" %}
-Radiated power per square metre is set by temperature alone.
+For a fixed emissivity, radiated power per square metre depends on temperature.
 
 {% eq %}
 flux = ε × σ × T⁴, σ = 5.67 × 10⁻⁸ W/m²/K⁴

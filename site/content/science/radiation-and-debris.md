@@ -24,17 +24,17 @@ A {% term "solar particle event" %} is a storm. The Sun throws out a burst of pr
 
 ## Mass is the shield
 
-The best shield is a lot of stuff. Earth wears one: the air above your head is about 1,000 grams of material over every square centimetre. A spacecraft has a few grams. NASA recommends at least 20 g/cm² for missions longer than six months. {% basis "physics" %}
+Shielding requires mass. On Earth, the air above your head is about 1,000 grams of material over every square centimetre. A spacecraft has a few grams. NASA recommends at least 20 g/cm² for missions longer than six months. {% basis "physics" %}
 
-Concordia has the Moon. A layer of {% term "regolith" %} one metre thick at 1.6 tonnes per cubic metre is 160 g/cm², eight times NASA's guideline for a long mission. Covering the 470 km² of the station's surface at that thickness takes about 750 million tonnes. {% basis "design" %} For the same hazards at the scale of a crewed vehicle or a lunar base, see the [radiation and shielding table of the CheatSheets space habitat guide](https://cheatsheets.davidveksler.com/space-habitats-life-support.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=science-radiation-and-debris#radiation-shielding). That is why the station was built factory-first: asteroid haulers brought the first metal, and lunar mining and a mass driver were running at scale ahead of the first rotor (see [how Concordia was built](/station/building-concordia/)). {% basis "fiction" %}
+Concordia uses lunar material for bulk shielding. A layer of {% term "regolith" %} one metre thick at 1.6 tonnes per cubic metre is 160 g/cm², eight times NASA's guideline for a long mission. Covering the 470 km² of the station's surface at that thickness takes about 750 million tonnes. {% basis "design" %} For the same hazards at the scale of a crewed vehicle or a lunar base, see the [radiation and shielding table of the CheatSheets space habitat guide](https://cheatsheets.davidveksler.com/space-habitats-life-support.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=science-radiation-and-debris#radiation-shielding). That is why the station was built factory-first: asteroid haulers brought the first metal, and lunar mining and a mass driver were running at scale ahead of the first rotor (see [how Concordia was built](/station/building-concordia/)). {% basis "fiction" %}
 
 {% diagram "shield-stack" "Seven layers from space to the air: impact layer, vacuum, regolith cassettes, structural shell, service vacuum, water, pressure vessel." %}
 
 The stack has seven layers. A sacrificial layer on the outside breaks up small debris. A vacuum gap lets the fragments spread. The thick regolith and slag cassettes stop what is left and thin the radiation. A structural shell carries the load. Behind it lies a service vacuum for robots and plumbing, then a layer of water and other hydrogen-rich material, which stops particles well. The rotating pressure vessel with the air is the last layer, hundreds of metres inward. {% basis "design" %}
 
-The thickness is not one number. Particle-transport calculations set it, and the shield is thickest where people sleep or heal: over bedrooms, hospitals, command centres and shelters. The 1 m example gives the scale.
+Particle-transport calculations set the thickness for each location, and the shield is thickest where people sleep or heal: over bedrooms, hospitals, command centres and shelters. The 1 m example gives the scale.
 
-The shield has gaps by design. The open industrial bay and the shipyard cage are not shielded, because robots do most of the work there and people go in pressurised capsules. And there are no large windows to space anywhere in a rotor. A window is a hole in the shield. The sky overhead is a display. {% basis "design" %}
+The shield has gaps by design. The open industrial bay and the shipyard cage are not shielded, because robots do most of the work there and people go in pressurised capsules. And there are no large windows to space anywhere in a rotor. Large windows would interrupt the shielding. The sky overhead is a display. {% basis "design" %}
 
 {% shots "sci-rad-hull" "Up close the shield is a mosaic of regolith and slag cassettes, with repair seams and a rail for the crawlers that swap them." "sci-ov-shielding" "From 5 km with the shielding overlay: the same cassettes form the outer layer, with a standoff vacuum behind. The open industrial bay is one of the shield's two planned gaps." %}
 {% explore viewpoint="exterior-hull-close" %}
@@ -42,11 +42,11 @@ The shield has gaps by design. The open industrial bay and the shipyard cage are
 
 ## Storm shelters
 
-A solar storm is stopped by shelter, not by thickness everywhere. People who are away from the thickest shielding go to a dedicated storm shelter when the alert sounds. Concordia has them in the shielded lounge wheels and at the roots of the piers. Pressure refuges along the stationary spine cover a different emergency, a loss of air. [Safety](/science/safety/) shows how the refuges, pressure districts and shield fit together. {% basis "design" %}
+Dedicated shelters provide additional shielding during solar storms. People who are away from the thickest shielding go to a dedicated storm shelter when the alert sounds. Concordia has them in the shielded lounge wheels and at the roots of the piers. Pressure refuges along the stationary spine cover a different emergency, a loss of air. [Safety](/science/safety/) shows how the refuges, pressure districts and shield fit together. {% basis "design" %}
 
 NASA's rule of thumb gives the scale. A vehicle with 20 g/cm² of aluminium keeps a once-in-a-decade storm under the limit. For a storm that comes once in a century, add a shelter with 10 cm of water or its equivalent. For one in a thousand years, add 20 cm. About 95 percent of storms never approach dose limits. {% basis "physics" %}
 
-The numbers on the other side matter too. NASA limits an astronaut's whole career to 600 millisieverts and a single storm to 250. The 1975 NASA settlement study set a design target of 0.5 rem a year, 5 millisieverts, for the general population of a settlement. A city of children has a stricter standard than a mission. {% basis "design" %}
+Radiation dose limits provide another design constraint. NASA limits an astronaut's whole career to 600 millisieverts and a single storm to 250. The 1975 NASA settlement study set a design target of 0.5 rem a year, 5 millisieverts, for the general population of a settlement. A city of children has a stricter standard than a mission. {% basis "design" %}
 
 {% shot "sci-rad-pier" "A freighter alongside a spaceport pier at the forward end of the station. Storm shelters sit at the pier roots." %}
 {% explore viewpoint="spaceport-pier" %}
@@ -54,11 +54,11 @@ The numbers on the other side matter too. NASA limits an astronaut's whole caree
 
 ## Debris
 
-Small rocks are rarely a surprise. The engineering question is how big. Around Earth, radar tracks objects larger than about 10 cm. Between 1 and 10 cm, objects are numerous and not individually tracked. Below 1 cm, shielding handles them. The International Space Station withstands impacts up to about 1 cm on its critical parts. {% basis "physics" %}
+Debris protection depends on object size and whether tracking systems can detect it. Around Earth, radar tracks objects larger than about 10 cm. Between 1 and 10 cm, objects are numerous and not individually tracked. Below 1 cm, shielding handles them. The International Space Station withstands impacts up to about 1 cm on its critical parts. {% basis "physics" %}
 
 The trick behind that shielding is the {% term "Whipple shield" %}: a thin outer bumper spaced out from the wall. The bumper breaks a fast projectile into a cloud, and the cloud spreads its energy over a wide patch of the wall behind. Concordia's thick stack works this way. The 1 to 10 cm range, which a catalogue cannot see and a thin shield cannot stop, is covered by metres of sintered regolith with bumper layers in front.
 
-Anything larger than 10 cm gets a watch. Four defence sites, two at each end of the station, carry radar fences, an 85 m tracking dish, survey telescopes and lidar masts. Launcher batteries behind them hold heavy interceptors, rapid interceptors, point-defence guns and net launchers. The logic is layered detection and intercept, not shooting every particle. Directed-energy weapons are left out on purpose. The cargo mass drivers stay separate from defence, and incoming shipments from the Moon and asteroids are caught tens to hundreds of kilometres away, never aimed at the habitat. {% basis "challenge" %}
+Anything larger than 10 cm gets a watch. Four defence sites, two at each end of the station, carry radar fences, an 85 m tracking dish, survey telescopes and lidar masts. Launcher batteries behind them hold heavy interceptors, rapid interceptors, point-defence guns and net launchers. The system detects and intercepts larger threats in successive layers. Directed-energy weapons are left out on purpose. The cargo mass drivers stay separate from defence, and incoming shipments from the Moon and asteroids are caught tens to hundreds of kilometres away, never aimed at the habitat. {% basis "challenge" %}
 
 {% shot "sci-rad-battery" "The forward defence battery: armoured housing, reload magazine and interceptor cells on the hull." %}
 {% explore viewpoint="defence-forward-battery" %}
@@ -66,7 +66,7 @@ Anything larger than 10 cm gets a watch. Four defence sites, two at each end of 
 
 ## What it feels like
 
-Nothing. That is the point. The sky is a display, the shell is opaque and the air feels like air. You meet the shield in small ways: a shelter hatch in a terminal, a serial number stencilled on a cassette on a hull tour. A resident thinks about radiation about as often as anyone on Earth thinks about cosmic rays. {% basis "fiction" %}
+Shielding has little effect on daily activities. The sky is a display, the shell is opaque and the air feels familiar. You meet the shield in small ways: a shelter hatch in a terminal, a serial number stencilled on a cassette on a hull tour. A resident thinks about radiation about as often as anyone on Earth thinks about cosmic rays. {% basis "fiction" %}
 
 {% deeper "Shielding arithmetic" basis="physics" %}
 Shielding is measured in areal density, mass per unit area: ρ × t.

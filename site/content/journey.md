@@ -20,7 +20,7 @@ At a reading pace, the seventeen stops take about {{tourMinutes}} minutes. Linge
 {% diagram "passenger-routes" "Use the route map to connect the city, the lifts and the shared spine. Distances are simplified." %}
 
 {% chapter "home" %}
-Morning light comes through the glass wall onto an ordinary street. The family sits at breakfast: bowls, a pot of tea, a teenager who would rather sleep. Nothing here feels unusual. The floor is firm, the cups sit flat and a dropped spoon falls straight down. Outside, the street runs away in both directions and the city rises gently as it goes. It is a normal morning in a place that turns once every hundred seconds.
+Morning light comes through the glass wall onto an ordinary street. The family sits at breakfast: bowls, a pot of tea, a teenager who would rather sleep. The floor is firm, the cups sit flat and a dropped spoon falls straight down. Outside, the street runs away in both directions and the city rises gently as it goes. The rotor turns once every hundred seconds.
 
 **The idea:** the floor is the rotor wall, 2,500 m from the axis, and its turning supplies exactly 1 g.
 
@@ -28,7 +28,7 @@ Morning light comes through the glass wall onto an ordinary street. The family s
 {% endchapter %}
 
 {% chapter "neighborhood" %}
-The neighbor leads the family along the street past a tram shelter. Trees line the path and children cross toward a park. Look ahead and the street does not stop at the horizon. It keeps rising: lawns, rooftops and towers climb away along the ring until they meet a bright sky. After a few steps nobody notices.
+The neighbor leads the family along the street past a tram shelter. Trees line the path and children cross toward a park. Look ahead and the street does not stop at the horizon. It keeps rising: lawns, rooftops and towers climb away along the ring until they meet a bright sky. The upward curve follows the rotor's inner surface.
 
 **The idea:** you live on the inside of a cylinder, so the ground curves up in front of you instead of falling away.
 
@@ -76,7 +76,7 @@ Above the sky, a grow gallery fills the glass wall. Racks of lettuce, basil and 
 {% endchapter %}
 
 {% chapter "axisTransfer" %}
-The ascender enters the hub drum and the world goes quiet. Weight is almost gone. The family drifts a little off the floor, hands on the rail, the youngest laughing. Beyond the glass is a stationary tube 120 m wide that does not turn at all. To reach it, a spin-decoupling lock slows the family's carriage over 96 seconds until it matches the spine. Then the doors open on a place without up.
+The ascender enters the hub drum and the world goes quiet. Weight is almost gone. The family drifts a little off the floor, hands on the rail, the youngest laughing. Beyond the glass is a stationary tube 120 m wide that does not turn at all. To reach it, a spin-decoupling lock slows the family's carriage over 96 seconds until it matches the spine. The doors then open onto the weightless spine.
 
 **The idea:** there is no direct doorway from a turning world to a still one, so a lock brings the car to rest first.
 
@@ -84,7 +84,7 @@ The ascender enters the hub drum and the world goes quiet. Weight is almost gone
 {% endchapter %}
 
 {% chapter "counterRotation" %}
-The express passes a bearing gallery where two great hubs face each other across a narrow gap. One turns one way and the other turns the other way. Further along, momentum rings spin in their housings behind glass, and a ledger shows the sums holding near zero. The family watches in silence. A station this size with net spin would fight every attempt to turn it.
+The express passes a bearing gallery where two great hubs face each other across a narrow gap. One turns one way and the other turns the other way. Further along, momentum rings spin in their housings behind glass, and a ledger shows the sums holding near zero. Net angular momentum would make changes to the station's orientation harder.
 
 **The idea:** Tsiolkovsky and Noordung (Rotors 1 and 2) turn one way and Bernal and O'Neill (Rotors 3 and 4) the other, so the net angular momentum is close to zero.
 
@@ -92,7 +92,7 @@ The express passes a bearing gallery where two great hubs face each other across
 {% endchapter %}
 
 {% chapter "shipyard" %}
-A very large dark space opens beside the spine, and in the middle of it a ship is being built. It is 700 m long, held by tension lines and tugs, with its tanks open and robot arms working along its flank. Nothing supports it from below, because below does not exist here. Lamps pick out cranes, framing and a crew drum. The family watches from a gallery and nobody speaks for a while.
+A very large dark space opens beside the spine, and in the middle of it a ship is being built. It is 700 m long, held by tension lines and tugs, with its tanks open and robot arms working along its flank. It needs no support against weight in this zero-g construction bay. Lamps pick out cranes, framing and a crew drum. The family watches from a viewing gallery.
 
 **The idea:** in zero gravity you can build very large things without a floor, because nothing sags.
 
@@ -102,7 +102,7 @@ A very large dark space opens beside the spine, and in the middle of it a ship i
 {% chapter "spaceport" %}
 The wait for the boat is spent at full Earth weight. Two wheels on one axle turn against each other, and wheel D is the departures lounge: a street that curves up into its own vault, small enough that the spin shows. The people around the family are bound for the Moon, for Earth orbit, for the shipyards and farther out. Past the lounge, the gates sit on the axis in a weightless hall, with coach berths radiating from it.
 
-**The idea:** the wait is spent in weight, and the departure is made in none. The wheels turn for the passengers, and the gates sit on the axis, where nothing spins.
+**The idea:** the rotating lounges provide apparent gravity while the boarding gates remain stationary on the weightless axis.
 
 {% shot "jr-spaceport" %}
 {% endchapter %}
@@ -116,7 +116,7 @@ In the cabin the countdown reads T minus 60 seconds. Harnesses click, and a wind
 {% endchapter %}
 
 {% chapter "exterior" %}
-From 29 km out the whole station fits in one window. It is a grey mountain 21 km long, with radiator banks standing off its flanks like open books and the launch track running along its side. There is no sign of the rotors turning, no sign of the streets, no sign of the sky. A home that large looks like a small piece of the dark.
+From 29 km out the whole station fits in one window. Its hull is 21 km long, with radiator banks standing off its sides and the launch track alongside. The stationary shielding conceals the rotating cities and artificial sky.
 
 **The idea:** scale. Concordia is 6.2 km across, and the launch is only the first leg of the trip.
 
@@ -132,7 +132,7 @@ Two and a half days out, halfway down. The shuttle is falling straight toward Ea
 {% endchapter %}
 
 {% chapter "earthTransfer" %}
-Earth is a small blue disc, about ten degrees wide, and it grows every hour. The stars around it are fixed and sharp. The days are compressed, so the readout counts them off against the 5 of the trip. For the first time, the old world looks like a place they can reach.
+Earth is a small blue disc, about ten degrees wide, and it grows every hour. The stars around it are fixed and sharp. The days are compressed, so the readout counts them off against the 5 of the trip.
 
 **The idea:** a transfer needs three burns: departure, a small midcourse correction and the capture burn at the far end.
 
@@ -142,7 +142,7 @@ Earth is a small blue disc, about ten degrees wide, and it grows every hour. The
 {% chapter "transferStation" %}
 The Concordia shuttle docks at a station in a high Earth orbit, 950 km at its lowest and 47,527 km at its highest, and goes no lower. It carries no heat shield and never enters an atmosphere. At the next port a spaceplane waits: a lifting body that never climbs to L5, with no long-haul engines. The passengers cross over, and each vehicle goes home. Earth hangs behind the truss.
 
-**The idea:** one vehicle for the vacuum, one for the air. Each is built for half the trip, so neither carries the other's weight.
+**The idea:** the shuttle handles the vacuum transfer and the spaceplane handles atmospheric entry. Each carries the equipment needed for its own part of the trip.
 {% endchapter %}
 
 {% chapter "earthArrival" %}

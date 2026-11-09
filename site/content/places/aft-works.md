@@ -31,7 +31,7 @@ Around the face sits a ring of twelve thruster pods, canted outward and wrapped 
 
 ## Inside the aft end
 
-The spine ends here, 120 m wide, at a flat glazed wall with a boarding platform marked AFT TERMINUS. Beyond it the station is an engine room.
+The spine ends here, 120 m wide, at a flat glazed wall with a boarding platform marked AFT TERMINUS. The converter hall and service bay lie beyond it.
 
 The converter hall is a row of twelve 50 m bays: HVDC valve halls in four towers, breaker bays, capacitor banks and cooling headers. Behind it are the control blister, a glazed dome on the tube, and two black-start switchgear halls. Last comes the vacuum service bay, with berths for tugs, a servicing craft and a tender, and a 350 m lined bore to the blast iris. Just ahead of the converter hall is the aft bearing gallery of Tsiolkovsky (Rotor 1).
 

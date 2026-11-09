@@ -3,7 +3,7 @@ title: "Rocket racing in space: why each turn costs fuel"
 h1: "Racing where there is no air"
 crumb: Racing
 description: "Concordia's two-seat rocket racer has no top speed and no grip. Every turn is paid for in propellant, so a space race is a fuel budget flown under a 3 g limit. Watch it, then fly it."
-lead: "Out past the hull there is no air to lean on and no road to grip. The racer can go as fast as it likes, but every change of direction burns propellant it cannot get back. A race here is not won on the straight. It is won by spending the tanks better than the other crew."
+lead: "Out past the hull there is no air to lean on and no road to grip. The racer can go as fast as it likes, but every change of direction burns propellant it cannot get back. Efficient use of propellant determines how fast a crew can complete the course."
 nav: science
 order: 9.5
 hero: sci-racer-hull
@@ -28,7 +28,7 @@ related:
 
 ## What does a corner cost?
 
-On Earth a race car turns by pushing on the road, and a plane by pushing on the air. The racer has neither. To turn, it points its engine sideways and burns. Changing direction is a velocity change, and a velocity change is paid for in propellant, the same currency as going faster. {% basis "physics" %}
+On Earth a race car turns by pushing on the road, and a plane by pushing on the air. The racer has neither. To turn, it points its engine sideways and burns. Changing direction requires a change in velocity and consumes propellant, just as acceleration does. {% basis "physics" %}
 
 {% predict "The racer coasts at 100 m/s and must turn 150 degrees at the next gate. Which way of turning uses the least propellant?" correct=2 %}
 Brake to a stop, turn the nose, then speed back up
@@ -39,7 +39,7 @@ All three cost the same
 The single kick: 193 m/s of velocity change. Braking and starting again costs 200 m/s, and the smooth curve costs 262 m/s. In space a gentle racing line is the most expensive way round a corner.
 {% endpredict %}
 
-A kick that turns a velocity v through an angle θ costs 2v sin(θ/2). A steady curve through the same angle costs vθ, which is always more. Stopping and starting costs 2v whatever the angle. So the rules of driving turn upside down: {% basis "physics" %}
+A kick that turns a velocity v through an angle θ costs 2v sin(θ/2). A steady curve through the same angle costs vθ, which is always more. Stopping and starting costs 2v whatever the angle. These turn costs favour the following strategy: {% basis "physics" %}
 
 - **Coast straight, then kick hard at the gate.** There is no racing line in the aircraft sense.
 - **Never brake for a corner.** Turning at speed costs at most 2v. Slowing first never saves anything.
@@ -54,7 +54,7 @@ A kick that turns a velocity v through an angle θ costs 2v sin(θ/2). A steady 
 
 ## Speed comes from the tanks
 
-With no drag there is no top speed. What limits a lap is how much velocity change is left. If a course turns through a total cost of C times your speed per lap, you fly N laps, and you spend one v getting up to speed and one stopping, the fastest you can go is v = B / (N C + 2), where B is the budget. Double the propellant and the lap time halves. The engine does not set the pace; the tanks do. {% basis "physics" %}
+With no drag there is no top speed. What limits a lap is how much velocity change is left. If a course turns through a total cost of C times your speed per lap, you fly N laps, and you spend one v getting up to speed and one stopping, the fastest you can go is v = B / (N C + 2), where B is the budget. Double the propellant and the lap time halves. In this budget model, the propellant determines the achievable speed. {% basis "physics" %}
 
 The class rules fix the {% term "delta-v" %} budget at 2,300 m/s for every crew: 85 to launch, 150 held in reserve and 2,065 to race. {% basis "design" %} The cockpit shows it as a tape, worked out live from the rocket equation at the craft's current mass: red for the reserve, blue for the kicks the remaining gates will cost at the current speed, amber for the final stop, and green for what is left to spend on going faster. Beside the speed it shows one number, "can afford 92 m/s", that turns the budget into a strategy.
 
@@ -62,7 +62,7 @@ The class rules fix the {% term "delta-v" %} budget at 2,300 m/s for every crew:
 
 Propellant is not the only limit. A kick takes time. At 3 g, the crew limit, a kick of 100 m/s takes 3.4 s, and the nose has to swing onto the new direction first. Gates closer together than the distance covered in that time cannot be made cleanly. {% basis "physics" %}
 
-On the sprint this, not propellant, sets the speed. The budget alone would allow 358 m/s through its slalom. At 175 m/s the kicks start to miss gates, and at 191 m/s each kick lasts 6 s and outlasts the 1,500 m between gates. The clean speed is about 166 m/s, 12.9 km in about 100 s. {% basis "design" %}
+On the sprint, the time needed for each turn sets the speed before the propellant limit does. The budget alone would allow 358 m/s through its slalom. At 175 m/s the kicks start to miss gates, and at 191 m/s each kick lasts 6 s and outlasts the 1,500 m between gates. The clean speed is about 166 m/s, 12.9 km in about 100 s. {% basis "design" %}
 
 Stopping is not instant either. From 100 m/s the racer needs 440 m to flip and brake at 3 g. That is why the lanes run parallel to the hull and never at it: 500 m out, 110 m/s is the most a racer can close on the hull and still stop. {% basis "physics" %}
 
@@ -72,7 +72,7 @@ Stopping is not instant either. From 100 m/s the racer needs 440 m to flip and b
 
 The racer is a wide, flat craft 5.4 m long, 4.4 m wide and 1.9 m tall, with two seats side by side under a large canopy. The pilot sits on the left and flies. The navigator sits on the right, as in a rally, and runs the budget: which kick, how big, how much margin to the stop. {% basis "design" %}
 
-Its shape comes from where the mass sits, not from air. The oxygen tanks sit in the two side pods, level with the crew, and the methane tanks sit in pairs fore and aft of them. As the tanks drain the centre of mass stays put to within 3 cm, so a pitch command never drags a yaw with it. Racing near structure is flown by eye, so the canopy is big. {% basis "design" %}
+The placement of tanks and crew determines its shape. The oxygen tanks sit in the two side pods, level with the crew, and the methane tanks sit in pairs fore and aft of them. As the tanks drain the centre of mass stays put to within 3 cm, so a pitch command never drags a yaw with it. Racing near structure is flown by eye, so the canopy is big. {% basis "design" %}
 
 {% shot "sci-racer-plan" "The same moment from above: two pods, the crew bubble between them and the engine at the tail, over the number 02 painted on the hull." %}
 
@@ -89,7 +89,7 @@ Walk round it, nose first: {% basis "design" %}
 - **Mass:** 2,749 kg full, half of it propellant.
 - **Crew:** the cabin holds station air, so there is nothing to prebreathe. The crew still race in pressure suits with visors down, the way a driver wears a helmet.
 
-Why methane and not hydrogen? Hydrogen gives the same mass but needs almost twice the tank volume, a chilldown to 20 K before each of 100 restarts and a second cold temperature. Methane and oxygen both stay between 90 and 112 K, so one insulation design covers both. Carbon is scarce at Concordia, but a race burns about 310 kg of it, a rounding error against one asteroid delivery. {% basis "design" %}
+Why methane and not hydrogen? Hydrogen gives the same mass but needs almost twice the tank volume, a chilldown to 20 K before each of 100 restarts and a second cold temperature. Methane and oxygen both stay between 90 and 112 K, so one insulation design covers both. Carbon is scarce at Concordia, but a race burns about 310 kg of it, a small amount compared with one asteroid delivery. {% basis "design" %}
 
 ## Leaving the dock
 

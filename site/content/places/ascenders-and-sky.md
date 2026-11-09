@@ -26,13 +26,13 @@ The cabin is 26 m long and 7.6 m wide, with window seats, rails and a glass floo
 
 {% shot "pl-ascender-250m" "From 250 m the neighbourhood is still familiar and the horizon is beginning to curve upward." %}
 
-At about 450 m the cabin reaches the sky. The artificial sky is a ceiling of luminous panels hung on hoops and stay cables, and from below it looks like a clear day. Each ascender tower passes through a permanent round opening, 140 m across, with a lit drum standing on its rim. The cabin slides through it and the other half of the world appears: panel frames, maintenance paths, and the city on the far side of the rotor, hanging upside down in the distance.
+At about 450 m the cabin reaches the sky. The artificial sky is a ceiling of luminous panels hung on hoops and stay cables, and from below it looks like a clear day. Each ascender tower passes through a permanent round opening, 140 m across, with a lit drum standing on its rim. As the cabin passes through, the view opens onto panel frames, maintenance paths, and the city on the far side of the rotor, hanging upside down in the distance.
 
 {% shot "pl-ascender-cabin" "The panoramic cabin with its glass floor gallery and the city curving up beyond the glass." %}
 
 Above the sky you cross the megaframe at 0.75 g, 0.60 g and 0.40 g, then reach the hub terminal, where the lift meets the [axis and the spine](/places/axis-and-spine/).
 
-The ride has three acts. Up to the sky you are in your own neighbourhood and the street is still the street. Through the sky you enter the engine room of the world: bronze trusses, stay cables and the frame of the megaframe. Above 1,000 m the city thins out, gravity drops below 0.6 g and the cabin feels lighter with every hundred metres.
+Below the sky, the view is of the neighbourhood. Passing through the panels brings bronze trusses, stay cables and the megaframe into view. Above 1,000 m the city thins out, gravity drops below 0.6 g and the cabin feels lighter with every hundred metres.
 
 ## How it works in brief
 

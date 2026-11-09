@@ -19,7 +19,7 @@ related:
 
 ## What it is and where it sits
 
-Concordia is a stationary mountain with rotating cities inside it. The mountain carries the shielding, the radiators, the launcher and the docks. The cities turn so the people inside feel weight. About 400,000 people live here, in a station built for 1.0 to 1.2 million.
+Concordia has rotating cities inside a stationary shielded structure. The structure carries the shielding, radiators, launcher and docks. The cities turn to produce artificial gravity. About 400,000 people live here, in a station built for 1.0 to 1.2 million.
 
 It rides the Earth-Moon {% term "L5" %} region at lunar distance, 384,400 km from Earth, on a path kept in place by constant small corrections ({% term "station-keeping" %}). The Moon is the quarry and Earth is the market. L5 gives low-energy access to lunar material and room to build. A chartered consortium of companies runs the station, which earns its keep by selling energy and computation, structural materials, propellant and ships across {% term "cislunar space" %} ([who pays for it](/station/economy/)).
 
@@ -27,7 +27,7 @@ It rides the Earth-Moon {% term "L5" %} region at lunar distance, 384,400 km fro
 
 An O'Neill cylinder is a rotating tube that makes gravity from spin, with the inside of its hull as the ground. Concordia keeps that rule and changes four things.
 
-- **Four rotors, not one.** Two turn one way and two the other, so the station has no net spin ([counter-rotation](/science/counter-rotation/)).
+- **Four rotors.** Two turn one way and two the other, so the station has no net spin ([counter-rotation](/science/counter-rotation/)).
 - **A stationary shell.** The shield, radiators and docks stand still around the turning cities.
 - **An industrial rotor.** Ehricke turns against its neighbour and holds the factories.
 - **Sea-level air.** The 1975 designs breathed about half an atmosphere. Concordia breathes a full one ([safety](/science/safety/)).
@@ -62,7 +62,7 @@ Distances run from -10.5 km at the aft face to +10.5 km at the forward port fram
 
 Concordia is one machine with five parts that depend on each other.
 
-- **The stationary mountain.** A 21 km truss with shielding, radiators, the launcher, communications and docks. It does not spin.
+- **The stationary structure.** A 21 km truss with shielding, radiators, the launcher, communications and docks. It does not spin.
 - **The rotating cities.** Four independent habitation rotors, each 5 km across, each at 1 g on its ground. See [artificial gravity](/science/artificial-gravity/).
 - **The industrial machine.** A counter-rotating industrial rotor and partial-gravity farms that make food, water and building stock. See [the industrial rotor](/places/industrial-rotor/).
 - **The zero-g harbor.** The shipyard and the spaceport, where ships are built, docked and fitted out. See [the shipyard](/places/shipyard/).

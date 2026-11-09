@@ -9,13 +9,13 @@ order: 1
 updated: 2026-10-10
 ---
 
-Concordia is real engineering applied at city scale. Each system below is built from physics you can check, and each page shows the work.
+These pages explain the physics and engineering of Concordia's systems at city scale, with calculations for each.
 
 ## How the pages work
 
 Every page opens with the idea in everyday terms: a bucket swung overhead, a bicycle wheel, a barrel hoop. Then it shows how Concordia applies the idea, with numbers, and what it feels like to live with. A Go deeper block holds the equations and a worked example using Concordia's own figures. Real-world claims carry a source at the bottom of the page.
 
-Nothing needs math to follow. The deeper blocks are there for students and engineers who want to check the arithmetic.
+The main explanations need no math. The deeper blocks include the arithmetic for readers who want to check it.
 
 {% shot "sci-hub-hero" "The complete habitat in cislunar space: four rotors, Ehricke (the industrial rotor), the shipyard cage and the spaceport on one axis." %}
 

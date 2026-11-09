@@ -19,7 +19,7 @@ related:
 
 The 1970s asked whether a city in space could be built and pay its way. Gerard O'Neill and the 1975 NASA summer study answered yes, and Concordia keeps most of their answer.
 
-Concordia adds a second question: what happens when part of it breaks? A million people cannot be evacuated, so the station shuts trouble in one place. The rule: rock is cheap, and a failure that hits everything at once is the expensive thing.
+Concordia adds a second question: what happens when part of it breaks? A million people cannot be evacuated, so the station shuts trouble in one place. Bulk shielding is inexpensive, and the design prioritises containment to prevent one failure from affecting everyone.
 
 | Topic | 1970s | Concordia |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Island Three is half window. Its wall alternates three strips of land with three
 
 The stationary shield is not new. The 1975 torus already had one, "separated by only a meter or two" from the tube. Concordia stretches it. The stationary shell stands hundreds of metres outside the air, an open truss of removable cassettes that crawlers swap like roof tiles. The space inside is a service vacuum where robots work, so nobody in a suit has to. Island Three's cosmic-ray shield is its own air: O'Neill's 1974 design counted on the depth of the atmosphere. A hit on Concordia's skin costs shield, never air. {% basis "design" %}
 
-The risk was always small and slow: the 1975 study put a 1 m meteoroid hole at once in 10 million years, and a day or more to lose most of the air through it. {% basis "physics" %} Concordia makes the outer layer replaceable and the inner layer unreachable.
+The risk was always small and slow: the 1975 study put a 1 m meteoroid hole at once in 10 million years, and a day or more to lose most of the air through it. {% basis "physics" %} Concordia uses replaceable outer shielding and keeps impacts there from reaching the pressure vessel.
 
 {% shots "sci-safe-cassettes" "The hull from 200 m: shielding cassettes set between ribs, swapped one at a time." "sci-sky-from-above" "The back of the artificial sky: the window is a display." %}
 {% explore viewpoint="exterior-hull-close" %}
@@ -68,7 +68,7 @@ The air is different too. The 1975 torus breathed about half sea-level pressure 
 
 ## Parts that fail one at a time
 
-Each of these failures stays small.
+The systems respond locally to each of these failures.
 
 | If this fails | What happens |
 | --- | --- |
@@ -95,13 +95,13 @@ Each rotor is brought to speed once, empty, in small steps. The rotors then fill
 
 ## Nothing aimed at the city
 
-The 1975 study already named the payload stream of a mass driver as a hazard, "the danger of damage if any of the payloads strike a colony or a spacecraft". Concordia answers by geometry. Cargo is caught tens to hundreds of kilometres out and never aimed at the habitat. Anything over about 10 cm is watched for and intercepted in layers. {% basis "design" %} See [radiation and debris](/science/radiation-and-debris/#debris).
+The 1975 study already named the payload stream of a mass driver as a hazard, "the danger of damage if any of the payloads strike a colony or a spacecraft". Concordia separates the cargo-capture area from the habitat. Cargo is caught tens to hundreds of kilometres out and never aimed at the habitat. Anything over about 10 cm is watched for and intercepted in layers. {% basis "design" %} See [radiation and debris](/science/radiation-and-debris/#debris).
 
 {% explore viewpoint="complete-habitat" overlay="defence" label="Defence overlay" %}
 
 ## What Concordia kept
 
-The 1970s designers got the big things right:
+Concordia retains these features of the 1970s designs:
 
 - **Moon rock and mass drivers.**
 - **The Earth-Moon L5 region.**

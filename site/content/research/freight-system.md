@@ -2,7 +2,7 @@
 title: Upper-habitat freight system study
 crumb: Freight system
 description: "A trade study of how cargo moves inside Concordia's rotors: rails, sealed shafts, cables and tugs compared on energy, Coriolis physics, failure and safety. Open for outside review."
-lead: "How should freight move through the upper volume of a spinning city? The obvious answer, cargo hanging on cables inward of a rail, fails on rotating-frame physics. Rails on the existing frame, sealed paired shafts through the sky and short cable drops at the ends work. This is a design review draft, open for feedback."
+lead: "This study compares freight systems for the upper volume of a spinning city. It recommends rails on the existing frame, sealed paired shafts through the sky and short cable drops at the ends. Cables cannot suspend cargo inward of their anchors. The proposed system remains a design review draft."
 nav: science
 order: 51
 updated: 2026-11-08
@@ -14,7 +14,7 @@ related:
 ---
 
 {% callout "Draft for review" %}
-This is a research draft, not canon, and it changes nothing in the simulation. Every number comes from [a script you can run](https://github.com/DavidVeksler/concordia/blob/main/scripts/analysis/freight_trade_study.py). To report an error or suggest a source, open an [issue on GitHub](https://github.com/DavidVeksler/concordia/issues/new/choose) naming the section.
+This research draft proposes changes for review; the simulation retains its existing design. Every number comes from [a script you can run](https://github.com/DavidVeksler/concordia/blob/main/scripts/analysis/freight_trade_study.py). To report an error or suggest a source, open an [issue on GitHub](https://github.com/DavidVeksler/concordia/issues/new/choose) naming the section.
 {% endcallout %}
 
 Evidence tags used throughout: **[E]** established physics, **[X]** engineering extrapolation from existing industrial practice, **[S]** speculative future technology, **[F]** fictional design choice for Concordia.
@@ -25,7 +25,7 @@ Consistency base (taken from the Concordia design, not redesigned here): rotor r
 
 ## 1. Executive recommendation
 
-**Verdict on the hypothesis.** Rails, carriages and regenerative drives beat continuously powered free flight by a wide margin (section 5: 26x to 141x less electricity on horizontal routes, 4x to 8x on radial routes). But the specific proposal "cargo hangs on cables inward of its track, in the low-g zone" fails on physics, and a long roped radial hoist has a Coriolis problem that Earth elevators never meet. The recommended system keeps the useful half of the hypothesis and replaces the rest.
+**Comparison result.** Rails, carriages and regenerative drives use less electricity than continuously powered free flight (section 5: 26x to 141x less electricity on horizontal routes, 4x to 8x on radial routes). The proposed cable suspension inward of a track cannot support the load, and long radial hoist ropes need guides to control Coriolis bow. The recommended system uses rail-supported carriages and guided shafts, with cables reserved for suitable local tasks.
 
 **Recommended architecture: a three-layer hybrid ("Grid, Shaft, Last Metre").**
 
@@ -37,15 +37,15 @@ Cable suspension survives in one place: **short outboard drops (about 20 to 100 
 
 {% shot "fr-shaft-tower" "The nearest thing the simulation builds to a freight shaft: cabins on parallel guided tracks inside a pier lattice. The study pairs freight cars so one rises as the other descends, and they pass near R = 1,750 m." %}
 
-**Why this and not the original:**
+**Reasons for the recommendation:**
 
 - A cable can only pull toward its anchor. A **suspended** load (cables anchored on one side, gravity as the pretension) is held only when it sits **outboard** (higher radius, heavier) than the anchors. A load "inward of its supporting track" would need compression members (a post), not a cable. Suspension therefore never lowers apparent weight; it raises it (section 2.1). Low apparent weight comes only from where the cargo is, and a track at R_t holds cargo at R_t or higher, so it always feels at least the track's gravity.
 - The outboard rule does not bound a **redundant, fully constrained** cable-driven parallel robot (more cables than degrees of freedom, directions that positively span all wrenches). Cables anchored inboard and outboard of the load pull against each other, so it can be held or moved anywhere inside its anchor hull and can apply any force and torque within the tension limits (M. Gouttefarde, LIRMM, personal communication, 2026-10-26). What bounds such a robot here is the rigid frame that must surround the workspace, and a tension envelope that covers the centrifugal load plus Coriolis and Euler forces from motion. That is why it stays a hall-scale tool (section 5, D).
-- Structure is not the constraint. A 50 t module at 0.75 g is 0.37 MN, which is 0.02 % of a pier's 2 GN design load and about 0.05 % of one developed 1e8 kg slot. The megaframe absorbs rails and carriages as a rounding error. Interference, fatigue, fire containment and sky protection are the real design drivers.
+- A 50 t module at 0.75 g is 0.37 MN, which is 0.02 % of a pier's 2 GN design load and about 0.05 % of one developed 1e8 kg slot. Static freight loads are therefore small relative to the megaframe's design loads. Interference, fatigue, fire containment and sky protection require closer study.
 - Energy is dominated by one number, the centrifugal potential, and it is modest: **3.27 kWh per tonne** between R = 500 m and the floor (section 4). Lifting a tonne 2,000 m on Earth costs 5.45 kWh. Horizontal moves cost 0.02 to 0.2 kWh per tonne-kilometre.
 - The binding hazards are kinetic. A released 10 t container releases 118 MJ (28 kg TNT equivalent) over a full-depth drop (section 6), and it does not "fall" radially: it flies on a tangent and lands up to 158 degrees (about 6.9 km) away. That is why the sky crossing must be a closed shaft with a catch, and why passive reliance on drag is rejected (terminal speeds of 60 to 173 m/s).
 
-Three results that would be surprising to a terrestrial engineer, all validated numerically:
+Three rotating-frame effects, checked numerically:
 
 1. **Circumferential sway frequency is set by gravity at the pivot, not at the load; axial sway is not.** A cable of length L hung outboard of a pivot at radius r_a swings along the direction of rotation at w = W sqrt(r_a / L), not sqrt(g_load / L). Swung along the spin axis it does follow the load's gravity, w = W sqrt((r_a + L) / L), so a hanging load has two sway frequencies (section 2.3). Inertial-frame simulation matches to 0.02 %; the naive formula is off by 3 % to 12 % for hangs of 100 to 500 m at R = 2,050 m and by up to a factor of two for 1.5 km hangs from low radii.
 2. **A circumferential move changes apparent weight by (1 + v / (W r))^2.** At 20 m/s prograde on R = 1,875 m cargo weighs 1.37 times as much; retrograde 0.69 times.
@@ -70,9 +70,9 @@ All symbols: W = 0.0626 rad/s, r radius from the axis, g(r) = W² r, m cargo mas
 | 2,050 (sky) | 450 | 8.033 | 0.819 | 0.953 | 128.3 | 0.89° |
 | 2,500 (floor) | 0 | 9.797 | 0.999 | 1.000 | 156.5 | 0.73° |
 
-**Low weight is not low mass.** Weight scales with g(r); inertia does not. A 1 t pallet at R = 500 m weighs 1.96 kN but still needs 1 kN to accelerate at 1 m/s², and feels the same Coriolis acceleration 2Wv = 0.125 m/s² per m/s of radial speed as it would anywhere. Lateral forces during acceleration, swing and impact scale with m, not with g. So lower g cuts rolling loss, lift power and structural dead load, but does not cut collision energy, side loads or braking forces that are inertial.
+**Weight and inertia.** Weight scales with g(r); inertia is independent of it. A 1 t pallet at R = 500 m weighs 1.96 kN but still needs 1 kN to accelerate at 1 m/s², and feels the same Coriolis acceleration 2Wv = 0.125 m/s² per m/s of radial speed as it would anywhere. Lateral forces during acceleration, swing and impact scale with m. Lower g reduces rolling loss, lift power and structural dead load while leaving inertial collision energy, side loads and braking forces unchanged.
 
-**Cargo hangs outboard (key correction).** In the rotating frame the net body force on cargo points away from the axis. A cable can only transmit tension, so it must run from the load to an anchor at lower radius (inward of the load). Equivalent to hanging a weight below a ceiling. Thus cable-suspended cargo is always at larger radius than its anchor, and its apparent weight is larger than at the anchor. Cable-hung loads in the 0.2 g zone must be anchored at an even lower radius, near the axis. A load located inboard of the track requires a rigid mast or platform in compression.
+**Suspended cargo hangs outboard.** In the rotating frame the net body force on cargo points away from the axis. A cable can only transmit tension, so it must run from the load to an anchor at lower radius (inward of the load), like a weight hanging below a ceiling. Thus cable-suspended cargo is at larger radius than its anchor, and its apparent weight is larger than at the anchor. Cable-hung loads in the 0.2 g zone must be anchored at an even lower radius, near the axis. A load located inboard of the track requires a rigid mast or platform in compression.
 
 **Circumferential motion changes weight.** Cargo moving at v around the ring (+ with rotation) has inertial speed W r + v and needs centripetal acceleration (W r + v)² / r. Apparent weight multiplier (1 + v / (W r))²:
 
@@ -87,7 +87,7 @@ Retrograde at W r = 117.4 m/s (R = 1,875 m) the cargo is inertially stationary a
 
 ### 2.2 Cable tension [E, X for rope data]
 
-Cargo tension T = m g(r_load) plus cable self-weight, which integrates to lambda W² (r2² - r1²) / 2. A steel cable at one fifth of 1,770 MPa has taper ratio exp(W² (r2² - r1²) / 2 / (sigma/rho)) = 1.19 from R = 500 to 2,050 m, so **cable strength is not the limiting issue for a long span, dynamics are.** Sizing (6x36 grade 1770 rope, design factor 8 with one of four ropes lost; the formula used is conservative by about 8 % against a vendor figure of about 100 kN for a 12 mm 6x36WS rope):
+Cargo tension T = m g(r_load) plus cable self-weight, which integrates to lambda W² (r2² - r1²) / 2. A steel cable at one fifth of 1,770 MPa has taper ratio exp(W² (r2² - r1²) / 2 / (sigma/rho)) = 1.19 from R = 500 to 2,050 m. This allows a long span on strength grounds, while its motion requires additional control. Sizing (6x36 grade 1770 rope, design factor 8 with one of four ropes lost; the formula used is conservative by about 8 % against a vendor figure of about 100 kN for a 12 mm 6x36WS rope):
 
 | Cargo | Anchor / load radius | T at load (kN) | Rope diameter (mm) | Rope (kg/m, 4 ropes) | Self-weight add (kN) | T at anchor (kN) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -127,7 +127,7 @@ Selected sway periods (s) for the pivot at r_a: R = 2,050: L = 10 m 7.0, 100 m 2
 
 The two periods differ by 2.4 %, 11.5 % and 26 % in these cases. A 0.25 m pendulum on a 1 g floor (r_a = 2,500 m) swung east-west runs about 4.3 s per day slow against one swung along the axis.
 
-**Tension is asymmetric, the period is not.** For the circumferential swing the rope tension is T = m [W² r_a cos phi + L (W + phi')²]: swinging with the rotation (phi' > 0) loads the rope more, swinging against it less. For r_a = 2,050 m, L = 100 m and a 0.3 rad swing the static tension is 8.43 kN and the formula gives 7.81 to 10.20 kN (0.93 to 1.21 of static); the simulation gives 7.77 to 10.27 kN, within 0.8 % pointwise. The rope stays taut for |phi| < 90 degrees, so the load is never weightless at the west end of the swing.
+**Directional tension variation.** For the circumferential swing the rope tension is T = m [W² r_a cos phi + L (W + phi')²]: swinging with the rotation (phi' > 0) loads the rope more, swinging against it less, without changing the period. For r_a = 2,050 m, L = 100 m and a 0.3 rad swing the static tension is 8.43 kN and the formula gives 7.81 to 10.20 kN (0.93 to 1.21 of static); the simulation gives 7.77 to 10.27 kN, within 0.8 % pointwise. The rope stays taut for |phi| < 90 degrees, so the load retains weight at the west end of the swing.
 
 Consequences:
 
@@ -181,7 +181,7 @@ Frontal areas and drag coefficients used: 100 kg tool 0.3 m² x Cd 1.0; 1 t pall
 
 ### 3.2 Can a suspended carriage reach everywhere?
 
-No, and it should not need to. A carriage hung from a rail reaches only the volume outboard of the rail down to the next structural level, because the next ring beam and girder at a different radius occupy the same cells. Moving the rail inward does not reach inboard cargo with a cable; it reaches only outboard cargo. The 654.5 x 480 m bays are open at the middle but the piers, the ascender towers, the farm hall (X -170 to 118, 96 m high on the 1,000 m ring beam) and the link bridge occupy fixed places. The workable pattern is **rail-to-dock**: every producer or consumer is a facility with a dock on a rail or shaft, and last-metre devices (layer 3) move cargo from the dock only. This matches the farm design, which already has a freight dock and pods on a rail.
+A carriage hung from a rail reaches the volume outboard of the rail down to the next structural level, where ring beams and girders obstruct further travel. Moving the rail inward extends its outboard reach; a cable still cannot suspend cargo inboard of it. The 654.5 x 480 m bays are open at the middle but the piers, the ascender towers, the farm hall (X -170 to 118, 96 m high on the 1,000 m ring beam) and the link bridge occupy fixed places. The recommended pattern is **rail-to-dock**: every producer or consumer is a facility with a dock on a rail or shaft, and last-metre devices (layer 3) move cargo from the dock only. This matches the farm design, which already has a freight dock and pods on a rail.
 
 ---
 
@@ -278,13 +278,13 @@ Scores 1 (poor) to 5 (best), then notes. Quantities from sections 4 and 6.
 
 Notes:
 
-- **A is the baseline for flexibility, not for freight.** 26x to 141x the electricity of rails on horizontal routes, 1 MW-class continuous loads for container tugs, no regeneration, uncontained failure. Keep for construction, emergency and 100 kg-class deliveries.
+- **A offers flexibility at high energy cost.** 26x to 141x the electricity of rails on horizontal routes, 1 MW-class continuous loads for container tugs, no regeneration, uncontained failure. Keep for construction, emergency and 100 kg-class deliveries.
 - **B fails on its premise.** The cargo is outboard of the anchor, it swings circumferentially at W sqrt(r_a / L) (and axially a few percent to a quarter faster) with 50 to 170 s periods for hangs of 500 to 1,500 m from low radii, and it leans 6 to 18 degrees at 5 m/s. The retained piece is the short outboard drop from a rail.
-- **D (CDPR) is a local tool, because of frame and tension margin, not because cables cannot pull inboard.** A redundant layout works anywhere an anchor frame surrounds the load. Published large systems (CoGiRo, 15 x 11 x 6 m, above 300 kg payload; FASTKIT as a mobile logistics variant) are far below 10 t at hall scale. Use inside farm halls, depots and shipyards.
-- **E (maglev, linear motors) is an upgrade path for the grid, not a different architecture.** At 5 to 20 m/s the energy case for contactless propulsion is weak (the total is 2.4 kWh for 10 t over 11.8 km); the case is maintenance (no wheel wear) and high-frequency headways. Retain as a track-technology option. Rolling-resistance and rope-wear data for wheeled systems are better known [X].
-- **F saves structure and loses the point.** It leaves every horizontal and sky move to tugs.
+- **D (CDPR) is limited by its surrounding frame and tension margin.** A redundant layout works anywhere an anchor frame surrounds the load, including inboard of some anchors. Published large systems (CoGiRo, 15 x 11 x 6 m, above 300 kg payload; FASTKIT as a mobile logistics variant) are far below 10 t at hall scale. Use inside farm halls, depots and shipyards.
+- **E (maglev, linear motors) is a track-technology option within the grid architecture.** At 5 to 20 m/s the energy case for contactless propulsion is weak (the total is 2.4 kWh for 10 t over 11.8 km). Its potential advantages are reduced wheel wear and high-frequency headways. Rolling-resistance and rope-wear data for wheeled systems are better known [X].
+- **F reduces fixed structure while retaining tug dependence.** It leaves every horizontal and sky move to tugs.
 
-A hybrid, C, wins on safety and energy; its cost is mechanical complexity and the capital to put 12 to 16 sealed shafts in a rotor.
+Hybrid C performs best on the study's safety and energy criteria. It requires more mechanical complexity and the capital to install 12 to 16 sealed shafts in a rotor.
 
 ---
 
@@ -311,7 +311,7 @@ With co-rotating atmospheric drag (the fall is shorter in speed, not in time):
 | 10 t container, sky to floor | 11.5 s | 81 | 32.9 | 7.9 kg |
 | 50 t module, 500 m to floor | 82.5 s | 104 | 269 | 64 kg |
 
-Drag cuts the energy by two thirds but leaves it in the "armour-piercing" class. A released cargo does not land where it started: it travels most of the way round the rotor during its flight, so **exclusion zones under the sky do not work**. Containment must be at the source: closed shafts, catch rails, tethers that cannot be released.
+Drag cuts the energy by two thirds, leaving impacts capable of severe structural damage. Released cargo travels far around the rotor during its flight, so **exclusion zones under the release point are insufficient**. Containment must be at the source: closed shafts, catch rails and tethers that cannot be released.
 
 ### 6.2 Failure table
 
@@ -379,7 +379,7 @@ Total time from the warehouse door to the depot door is about 8 to 12 minutes wi
 
 ## 8. Visual design brief [F, constrained by physics]
 
-What the freight system looks like if it expresses the physics rather than copying Earth industry.
+The proposed visual design shows the mechanisms required by rotation and variable gravity.
 
 **Above the sky (upper service volume).**
 
