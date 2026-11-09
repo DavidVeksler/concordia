@@ -5,7 +5,7 @@ description: "A trade study of how cargo moves inside Concordia's rotors: rails,
 lead: "This study compares freight systems for the upper volume of a spinning city. It recommends rails on the existing frame, sealed paired shafts through the sky and short cable drops at the ends. Cables cannot suspend cargo inward of their anchors. The proposed system remains a design review draft."
 nav: science
 order: 51
-updated: 2026-11-08
+updated: 2026-11-09
 schema: TechArticle
 related:
   - /research/
@@ -31,7 +31,7 @@ Consistency base (taken from the Concordia design, not redesigned here): rotor r
 
 1. **Horizontal layer: guided carriages on a rail grid built into the existing megaframe.** Rails run on the ring-beam gallery decks at R = 1,875 m (625 m level, freight level F1) and R = 1,500 m (1,000 m level, F2), and on the axial girders between them. The carriage rides on the rail (load above or beside the wheels, never inboard on a cable), and is driven by onboard motors with regeneration. This is the established-technology part of the system.
 2. **Vertical layer: sealed, paired, rail-guided freight shafts inside selected piers.** They carry cargo between the upper volume and the floor through a closed pier sleeve that crosses the sky at the pier girdle, so freight never passes the sky through an open aperture. Cars are paired on one rope loop for balance, with intermediate rope guides (Coriolis bow), overspeed governors and progressive safety gear on rail. A rack-and-pinion or linear-motor self-climbing car is the alternative for 50 t modules and for any span longer than about 500 m.
-3. **Last-metre layer: short suspended or tethered devices, used only at the end of a shaft or rail.** Cable robots and gantries inside halls and depots, and battery drones for loads of 100 kg or less. Free-flying heavy tugs are demoted to emergency and construction roles. The simulation draws this layer: about 900 small carrier drones in the air over each rotor, every one flying a hop of at most 450 m between a dock on a pier and a roof, and none crossing the sky.
+3. **Last-metre layer: short suspended or tethered devices, used only at the end of a shaft or rail.** Cable robots and gantries inside halls and depots, and battery drones for loads of 100 kg or less. Free-flying heavy tugs are demoted to emergency and construction roles. The simulation draws this layer: about 200 small carrier drones in the air over each rotor, every one flying a hop of at most 450 m between a dock on a pier and a roof, and none crossing the sky.
 
 Cable suspension survives in one place: **short outboard drops (about 20 to 100 m) from a rail carriage to a platform below it**, where weight and tension are well understood. Winches are for those drops and for the shaft rope loop, not for a general-purpose "cargo cloud".
 
