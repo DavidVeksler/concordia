@@ -332,6 +332,11 @@ ul.updates li { padding: 0.45rem 0; border-bottom: 1px solid var(--rule); margin
 .site-footer__links { list-style: none; display: flex; flex-wrap: wrap; gap: 0.2rem 1.2rem; padding: 0; margin: 0 0 1rem; }
 .site-footer__links li { margin: 0; }
 .site-footer__links a { color: var(--text); display: inline-flex; align-items: center; min-height: 32px; }
+.site-footer .series { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; margin: 0 0 1.2rem; }
+.site-footer .series a { display: block; border: 1px solid var(--rule); border-radius: 4px; padding: 10px 14px; text-decoration: none; color: var(--text); background: var(--bg); font-weight: 600; }
+.site-footer .series a:hover, .site-footer .series a[aria-current] { border-color: var(--accent); }
+.site-footer .series small { display: block; font: 500 11px var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+.site-footer .series span { display: block; font-weight: 400; font-size: 0.85rem; color: var(--muted); }
 .site-footer__line { margin: 0; font: 500 0.85rem var(--font-mono); letter-spacing: 0.04em; }
 
 @media (max-width: 520px) {
