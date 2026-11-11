@@ -69,6 +69,7 @@ The simulation reduces browser load by deferring downloads, construction and dra
 - **Textures stay compressed on the graphics card.** Every texture with mipmaps ships as KTX2 (Basis Universal), so it is never unpacked to raw pixels. Uncompressed, the same maps would need about 2 GB of video memory.
 - **Models are meshopt-compressed, then brotli on top.** The models are served with a content type Cloudflare compresses, which took one hardware kit from 2.56 MB to 1.74 MB.
 - **Every file has a byte ceiling.** A git hook refuses a push that makes any model bigger than its budget. Shrink passes then halved normal maps, stripped unused texture coordinates and moved maps to smaller formats; together they took the first-view set from 16 MB to 9 MB on disk. Each swap had to pass a side-by-side image comparison first.
+- **The Blender models drop data nothing reads.** Blender's glTF export writes a texture-coordinate set for every material, even when the shader works in object-space metres and ignores it. A build step removes that set from every hardware kit, keeping it only on the display and sign faces, which cut those files by 19 to 40 percent. The same hook fails a push if a kit ships with it again.
 
 ### Draw calls: thousands of things, a few hundred draws
 
