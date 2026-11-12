@@ -759,7 +759,7 @@
       "id": "passenger-launcher-interior",
       "name": "Passenger Launcher Interior",
       "group": "Spaceport",
-      "purpose": "Verify the 98-couch passenger cabin, its window band, aisle lighting and shelter bulkhead, seen standing in the starboard aisle.",
+      "purpose": "Verify the 98-couch passenger cabin, its window band and aisle lighting, seen standing in the starboard aisle at row 13 looking forward to the front bulkhead and its forward-camera display.",
       "location": "space",
       "chapter": "launch",
       "learnMore": "/science/getting-there/#the-launcher-first-leg-only",
