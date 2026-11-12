@@ -60,7 +60,7 @@ The two wheels turn against each other 50 m apart, at a relative 96 m/s at their
 
 ### Gates and coaches
 
-After the lounge you ride the lift up, cross to the amber passage by a second carousel and float into the gate hall, a 200 m tube 40 m across, no wider than the spindle you left. The airside checkpoint ring sets that width. Four coach berths, A01 to A04, sit at the points of a cross, each reached by a 31 m round neck out to a telescoping boarding bridge and a berth frame. A coach docks nose-in at its berth: it comes in through the open port, stops over the berth and slides radially in for the last 263 m. Four small ports, S1 to S4, take couriers. Crews reach cargo and tug bays by their own route, so freight never shares a bridge with passengers. Passengers for Earth board a coach here, and a tug tows the loaded stack round the port to the staging guideway on the hull, where it rides to the launcher. Flights to the Moon leave the gate under their own thrusters.
+After the lounge you ride the lift up, cross to the amber passage by a second carousel and float into the gate hall, a 200 m tube 40 m across, no wider than the spindle you left. The airside checkpoint ring sets that width. Four coach berths, A01 to A04, sit at the points of a cross, each reached by a 31 m round neck out to a telescoping boarding bridge and a berth frame. A coach docks nose-in at its berth: it comes in through the open port, stops over the berth and slides radially in for the last 263 m. Four small ports, S1 to S4, take couriers. Crews reach cargo and tug bays by their own route, so freight never shares a bridge with passengers. Passengers for Earth board a coach here, and a tug tows the loaded stack round the port and sets it down on the launch sled at the spaceport end of the guideway on the hull. Flights to the Moon leave the gate under their own thrusters.
 
 {% shot "sc-spaceport-gate" "Gate A03: the boarding board and plate beside the arch, and the neck to the docked coach." %}
 
@@ -80,7 +80,7 @@ Beyond the piers, outside the station body, is the propellant farm: two liquid h
 
 The port is stationary and weightless where ships dock, and rotating only where people wait. That keeps docking simple, because craft meet a fixed frame, and keeps waiting comfortable, because gravity sits in two small wheels instead of the whole terminal. The wheels sit in full sunlight, clear of the shadow of the sun skirt. The express that brings you here is described in [The axis and the spine](/places/axis-and-spine/), and the ride that follows a coach to Earth is in [Getting there](/science/getting-there/).
 
-{% shot "sci-launch-track" "The launcher track outside the hull: a 10 km bed and its gantries, where a carrier takes passengers to 540 m/s in 37 seconds." %}
+{% shot "sci-launch-track" "The launcher track outside the hull: a 14.7 km bed and its gantries, where a carrier takes passengers to 540 m/s in 55 seconds." %}
 
 ## Key numbers
 
@@ -105,7 +105,7 @@ The deck circles 1,405 m, with six spokes, inside a tube whose vault crown is 24
 
 The carousel has eight chambers of 24 people. A 60 s ramp keeps the sideways push to 0.0078 g, and the eight chambers move about 2,300 people an hour each way. The lift takes 88 s with a stop at the Mars landing and tilts at most 25 degrees.
 
-The port runs along the axis from the terminus drum at x 9,400 m to the end of the passenger trunk at x 10,490 m: axis hall 9,560 to 9,760, wheel rims 9,870 to 9,980, gate hall 10,040 to 10,240. A tow from gate A01 to the staging guideway at x 9,728 m covers 4.7 km at 10 m/s. A coach approaches along a corridor 400 m from the axis, then closes radially to the berth frame mouth at 137 m. A berth collar sits 52 m from the axis.
+The port runs along the axis from the terminus drum at x 9,400 m to the end of the passenger trunk at x 10,490 m: axis hall 9,560 to 9,760, wheel rims 9,870 to 9,980, gate hall 10,040 to 10,240. A tow from gate A01 to the launch sled at the guideway's spaceport end, x 9,728 m, covers 4.7 km at 10 m/s. A coach approaches along a corridor 400 m from the axis, then closes radially to the berth frame mouth at 137 m. A berth collar sits 52 m from the axis.
 
 The propellant farm begins about 11,420 m along the station, at least 355 m outside the 1,500 m approach cylinder and about 1.4 km beyond the nearest defence battery. The farm holds spheres of 16 m radius (hydrogen) and 12 m radius (oxygen), and cylinders of 6 m radius.
 {% enddeeper %}

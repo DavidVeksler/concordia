@@ -140,7 +140,7 @@ The finished station is about 2.05 x 10^12 kg, about two billion tonnes. The tab
 | Ascender | 2,380 m in about 595 s; 150 passengers | {% basis "design" %} | Ground to hub | avg 4.0 m/s |
 | Hub spin transfer | about 602 s per cycle | {% basis "challenge" %} | De-spin, couple, spin up |  |
 | Spine express | 140 m/s | {% basis "design" %} | Hub to spaceport in minutes |  |
-| Launch track | about 10 km at 1.5 g for about 37 s | {% basis "challenge" %} | Cuts the propellant for departure | v = a t = 544 m/s (derived) |
+| Launch track | about 14.7 km at 1 g for about 55 s | {% basis "challenge" %} | Cuts the propellant for departure | v = a t = 9.94 x 54.5 = 542 m/s (derived) |
 | Exit speed | about 540 m/s | {% basis "design" %} | First leg of the trip |  |
 | Launch energy | about 146 MJ per tonne | {% basis "physics" %} | Kinetic energy at exit | 0.5 m v^2 (derived) |
 | Earth transfer | about 5 days | {% basis "physics" %} | Direct fall, one midcourse trim on day 2 |  |

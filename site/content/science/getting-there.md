@@ -1,8 +1,8 @@
 ---
 title: "Earth to L5 travel: launcher, shuttle, skyhook"
 h1: "Getting there from L5"
-description: Concordia sits at Earth-Moon L5. A 10 km launcher gives the first 540 m/s, then the shuttle falls for 5 days to a transfer station. A skyhook then cuts the entry to 5.4 km/s.
-lead: Concordia floats in the Earth-Moon L5 region, 384,400 km from Earth. A passenger leaves on a 10 km electromagnetic launcher, which provides the first push without onboard propellant, falls for 5 days to a transfer station in Earth orbit, and rides a spaceplane down. The launcher is only the first leg.
+description: Concordia sits at Earth-Moon L5. A 14.7 km launcher gives the first 540 m/s, then the shuttle falls for 5 days to a transfer station. A skyhook then cuts the entry to 5.4 km/s.
+lead: Concordia floats in the Earth-Moon L5 region, 384,400 km from Earth. A passenger leaves on a 14.7 km electromagnetic launcher, which provides the first push without onboard propellant, falls for 5 days to a transfer station in Earth orbit, and rides a spaceplane down. The launcher is only the first leg.
 nav: science
 order: 12
 updated: 2026-10-18
@@ -26,13 +26,13 @@ L5 was chosen for five reasons: low-energy access to lunar material, access to E
 
 ## The launcher: first leg only
 
-The passenger launcher is a track about 10 km long on the outside of the hull. A carrier on a levitated keel accelerates at 1.5 g for 37 seconds and leaves the end at about 540 m/s. Nothing touches the track at speed. {% basis "challenge" %}
+The passenger launcher is a track about 14.7 km long on the outside of the hull. A carrier on a levitated keel starts at rest at the spaceport end, accelerates at about 1 g for 55 seconds and leaves the end at about 540 m/s. Nothing touches the track at speed. {% basis "challenge" %}
 
-It costs 24 GJ per launch, 0.65 GW on average and 1.31 GW at the peak, a few percent of the station's power. In return the shuttle saves about 28 tonnes of propellant. It does not reach Earth by itself. 540 m/s is two thirds of the push the trip needs, and the rest comes from the shuttle's own engines. The station does not turn quickly, so launches go in scheduled windows. {% basis "design" %}
+It costs 24 GJ per launch, 0.44 GW on average and 0.89 GW at the peak, a few percent of the station's power. In return the shuttle saves about 28 tonnes of propellant. It does not reach Earth by itself. 540 m/s is two thirds of the push the trip needs, and the rest comes from the shuttle's own engines. The station does not turn quickly, so launches go in scheduled windows. {% basis "design" %}
 
-{% shots "sci-launch-track" "The track from outside: gantries and a levitated keel run 10 km along the hull. Nothing touches the track at speed." "sci-launcher-cabin" "The ride from inside: 98 couches, a window band and a shelter bulkhead, held at 1.5 g for 37 seconds." %}
+{% shots "sci-launch-track" "The track from outside: gantries and a levitated keel run 14.7 km along the hull. Nothing touches the track at speed." "sci-launcher-cabin" "The ride from inside: 98 couches, a window band and a shelter bulkhead, held at about 1 g for 55 seconds." %}
 
-{% widget "launch-calculator" "Set a track length and an acceleration to see launch time and exit speed. At 10 km and 1.5 g the answer is 37 seconds and about 540 m/s." %}
+{% widget "launch-calculator" "Set a track length and an acceleration to see launch time and exit speed. At 14.7 km and 1.01 g the answer is 54.5 seconds and about 540 m/s." %}
 
 {% explore chapter="launch" label="Ride the launch" %} {% explore viewpoint="launcher-track-external" %} {% explore chapter="exterior" label="See the whole habitat" %}
 
@@ -82,7 +82,7 @@ The released spaceplane reaches the 120 km entry interface 110 seconds later at 
 {% explore chapter="transferStation" label="Dock at the transfer station" %} {% explore chapter="earthArrival" label="Arrive at Earth" %}
 
 {% deeper "Worked example: launch, capture and the skyhook" basis="physics" %}
-Launcher: a = 1.5 × 9.807 = 14.7 m/s². Over L = 10 km, v = √(2aL) = √(2 × 14.7 × 10,000) = 542 m/s, in t = v ÷ a = 36.9 s. The energy for a 165 t stack is ½mv² = 0.5 × 165,000 × 542² = 24.2 GJ, in line with 24 GJ over 37 s, an average of 0.65 GW.
+Launcher: a = 9.94 m/s², which is 1.01 g. Over L = 14,668 m, v = √(2aL) = √(2 × 9.94 × 14,668) = 540 m/s, in t = v ÷ a = 54.3 s (54.5 s with a half-second ramp at the start). The energy for a 165 t stack is ½mv² = 0.5 × 165,000 × 540² = 24.1 GJ, in line with 24 GJ over 54.5 s, an average of 0.44 GW. The peak is at release: m a v = 165,000 × 9.94 × 540 = 0.89 GW.
 
 Departure: the station moves round Earth at √(μ ÷ 384,400) = 1.018 km/s. At the top of an ellipse from 384,400 km down to r = 7,321 km (a = 195,861 km) the speed is √(μ × (2 ÷ 384,400 − 1 ÷ 195,861)) = 0.197 km/s, so the launcher and the departure burn must take off 1.018 − 0.197 = 0.821 km/s: 540 m/s from the track, 281 m/s from the engines. Half the ellipse takes π × √(a³ ÷ μ) = 431,000 s, 4.99 days.
 

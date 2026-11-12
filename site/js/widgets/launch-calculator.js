@@ -20,10 +20,10 @@ function curve(accelG, lengthM) {
 }
 
 export function mount(el) {
-  const accel = field({ label: 'Acceleration along the track', unit: 'g', min: 0.5, max: 3, step: 0.1, value: 1.5, digits: 1, onChange: update });
-  const length = field({ label: 'Track length', unit: 'km', min: 1, max: 20, step: 0.5, value: 10, digits: 1, onChange: update });
+  const accel = field({ label: 'Acceleration along the track', unit: 'g', min: 0.5, max: 3, step: 0.01, value: 1.01, digits: 2, onChange: update });
+  const length = field({ label: 'Track length', unit: 'km', min: 1, max: 20, step: 0.1, value: 14.7, digits: 1, onChange: update });
   const st = bindState('launch-calculator', { a: accel, l: length }, () => update());
-  const concordia = button('Concordia: 1.5 g, 10 km', () => { accel.set(1.5, true); length.set(10, true); update(); });
+  const concordia = button('Concordia: 1 g, 14.7 km', () => { accel.set(1.01, true); length.set(14.7, true); update(); });
 
   const out = outputs([
     { key: 'time', label: 'Time on the track', big: true },
@@ -47,7 +47,7 @@ export function mount(el) {
     widgetHeader({ explore: EXPLORE, state: st }),
     h('div', { class: 'w-grid' },
       h('div', { class: 'w-controls' }, accel.el, length.el,
-        h('p', { class: 'w-ref-line' }, 'Concordia: 1.5 g over 10 km, 37 s, 540 m/s. ', concordia)),
+        h('p', { class: 'w-ref-line' }, 'Concordia: 1 g over 14.7 km, 55 s, 540 m/s. ', concordia)),
       h('div', { class: 'w-results' }, out.el)),
     svg,
     h('p', { class: 'w-hint' }, 'Constant acceleration: time = √(2d / a), speed = √(2ad). The dashed curve is Concordia’s track. The launcher supplies part of the speed a ship needs; the rest comes from its own engines.'));

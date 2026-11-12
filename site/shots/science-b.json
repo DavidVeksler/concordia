@@ -184,7 +184,7 @@
   {
     "id": "sci-ov-transport",
     "viewpoint": "complete-habitat",
-    "alt": "The whole station with the transportation overlay: ascenders, the spine express, the metro ring and the 10 km launcher marked.",
+    "alt": "The whole station with the transportation overlay: ascenders, the spine express, the metro ring and the 14.7 km launcher marked.",
     "overlay": "transportation",
     "ui": "clean",
     "settleMs": 4000,

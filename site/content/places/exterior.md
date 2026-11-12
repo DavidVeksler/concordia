@@ -30,7 +30,7 @@ Nearly all of the station's electricity and body heat ends up as heat, and in sp
 
 {% shot "pl-exterior-radiators" "A bank of radiator panels on pylons and a spine, with the habitat for scale." %}
 
-The launch track for passenger craft runs 10 km along the hull, and two cargo mass drivers 15 to 16 km long run on opposite sides. See [Power and heat](/science/power-and-heat/) for the radiator physics and [Getting there](/science/getting-there/) for the track.
+The launch track for passenger craft runs 14.7 km along the hull, and two cargo mass drivers 15 to 16 km long run on opposite sides. See [Power and heat](/science/power-and-heat/) for the radiator physics and [Getting there](/science/getting-there/) for the track.
 
 ## Defence and satellites
 

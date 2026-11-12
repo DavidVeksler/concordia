@@ -108,9 +108,9 @@ The wait for the boat is spent at full Earth weight. Two wheels on one axle turn
 {% endchapter %}
 
 {% chapter "launch" %}
-In the cabin the countdown reads T minus 60 seconds. Harnesses click, and a window band shows the long track running out ahead. The last ten seconds are quiet. Then the push begins: 1.5 g, steady for 37 seconds, a long pressure on the chest with the track sliding past the glass. At 540 m/s the cabin lets go, and the family is free of the station.
+In the cabin the countdown reads T minus 60 seconds. Harnesses click, and a window band shows the long track running out ahead. The last ten seconds are quiet. Then the push begins: about 1 g, steady for 55 seconds, your own weight pressing you into the couch with the track sliding past the glass. At 540 m/s the cabin lets go, and the family is free of the station.
 
-**The idea:** a 10 km track gives the shuttle its first 540 m/s with electricity instead of propellant.
+**The idea:** a 14.7 km track gives the shuttle its first 540 m/s with electricity instead of propellant.
 
 {% shot "jr-launch" %}
 {% endchapter %}
@@ -163,7 +163,7 @@ The guided tour takes about {{tourMinutes}} minutes at a reading pace, with a sh
 | Metro, Arbor to Axis West | about 70 s | 20 s on the axial line, plus waits and lifts |
 | Ascender | 16 s | 595 s, average 4.0 m/s, cruise 5.5 m/s |
 | Spine express | 9 s | 140 m/s along the tube |
-| Launch | 43 s | 37 s at 1.5 g to 540 m/s |
+| Launch | 61 s | 55 s at 1 g to 540 m/s |
 | Earth transfer | under a minute | 5 days, one trim burn at day 2 |
 | Dock at the transfer station | 14 s | the last 30 minutes of the approach |
 | Skyhook catch and release | 76 s | about 7.4 hours of fall, then the 8 minute half-turn |

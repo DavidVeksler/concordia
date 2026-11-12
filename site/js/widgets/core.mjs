@@ -14,8 +14,8 @@ export const CONCORDIA = {
   ringCapL: 2.1e16, // N m s: 6.3 Mt holds 1.9e16, about 7 Mt with trim headroom
   netBand: 0.001, // PHY MOMENTUM_NET_BAND, fraction of the four-rotor magnitude
   radiatorPanelsM2: 248 * 400 * 200, // 248 panel modules of 400 x 200 m
-  launchAccelG: 1.5,
-  launchLengthM: 10000,
+  launchAccelG: 1.01, // 9.94 m/s2 plateau (docs/19 section 7)
+  launchLengthM: 14700, // guideway 14.7 km, run from rest at the spaceport end
 };
 
 export const PITCH_M2 = 105 * 68; // a football pitch

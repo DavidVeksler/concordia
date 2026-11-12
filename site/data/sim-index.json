@@ -1705,7 +1705,7 @@
     {
       "slug": "transportation",
       "name": "Transportation",
-      "summary": "A metro ring runs 45 m above the ground in every rotor. Ascenders climb 2,380 m to the hub in about 10 minutes. The spine express covers the long way at 140 m/s, and the launcher on top throws craft toward Earth at 1.5 g.",
+      "summary": "A metro ring runs 45 m above the ground in every rotor. Ascenders climb 2,380 m to the hub in about 10 minutes. The spine express covers the long way at 140 m/s, and the launcher on top throws craft toward Earth at 1 g.",
       "learnMore": "/science/moving-around/",
       "callouts": [
         {
@@ -1721,7 +1721,7 @@
           "href": "/science/moving-around/#the-spine-and-the-express"
         },
         {
-          "text": "Launcher 10 km, 1.5 g",
+          "text": "Launcher 14.7 km, 1 g",
           "href": "/science/getting-there/#the-launcher-first-leg-only"
         }
       ]
