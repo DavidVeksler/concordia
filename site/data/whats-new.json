@@ -3,7 +3,8 @@
     "date": "2026-10-23",
     "title": "Race a rocket round the hull",
     "blurb": "No air, no grip, no top speed: every corner costs fuel. Watch the racer trailer, then fly the sprint yourself.",
-    "href": "/science/racing/"
+    "href": "/science/racing/",
+    "pinned": true
   },
   {
     "date": "2026-10-16",
@@ -27,7 +28,8 @@
     "date": "2026-10-12",
     "title": "Fly the hang glider",
     "blurb": "Take a small electric glider over the city and feel the same wing carry more weight with the spin than against it.",
-    "href": "/science/gliding/"
+    "href": "/science/gliding/",
+    "pinned": true
   },
   {
     "date": "2026-10-12",
