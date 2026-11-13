@@ -85,11 +85,11 @@ The racer and the shuttle share one layout. The glider flies like a small aircra
 | Key | Glider | Racer and shuttle |
 | --- | --- | --- |
 | Mouse | look around | point the nose |
-| W / S | nose down / up | burn / brake |
+| W / S | nose up / down | burn / brake |
 | A / D | turn | slide left / right |
 | Space / C | power up / down; hold Space on the road to take off | slide up / down |
 | Q / E | rudder | roll |
-| Arrows | nose and turn | pitch and yaw |
+| Arrows | nose (up is up) and turn | pitch and yaw |
 | Shift | airbrakes, wheel brake | double the turn rate |
 | X | | space brake: turn round and stop |
 | F | flare | racer: flare; shuttle: arrays |
