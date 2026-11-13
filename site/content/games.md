@@ -34,7 +34,7 @@ Each vehicle is a different lesson in the same physics. The glider flies in air 
 
 Take off from a street in the Arbor quarter, climb over the rooftops and fly the length of a city that curls up into the sky on both sides. The floor turns at 157 m/s, and the air turns with it, so flying with the spin makes you heavier and flying against it makes you lighter. Climb to 2,200 m, fly backward at 18.8 m/s and your wing needs no lift at all. {% basis "physics" %}
 
-{% shots "gm-glider-takeoff" "The take-off run down the street: hold W to roll, Space to lift off." "gm-glider-high" "300 m up. From here the rotor is a 5 km tube with the city on its inside, and you feel 1.07 g." %}
+{% shots "gm-glider-takeoff" "The take-off run down the street: hold Space for power and it lifts off by itself." "gm-glider-high" "300 m up. From here the rotor is a 5 km tube with the city on its inside, and you feel 1.07 g." %}
 
 What to try:
 
@@ -87,7 +87,7 @@ The racer and the shuttle share one layout. The glider flies like a small aircra
 | Mouse | look around | point the nose |
 | W / S | nose down / up | burn / brake |
 | A / D | turn | slide left / right |
-| Space / C | power up / down | slide up / down |
+| Space / C | power up / down; hold Space on the road to take off | slide up / down |
 | Q / E | rudder | roll |
 | Arrows | nose and turn | pitch and yaw |
 | Shift | airbrakes, wheel brake | double the turn rate |
