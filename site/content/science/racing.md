@@ -15,6 +15,7 @@ related:
   - /science/moving-around/
   - /places/spaceport/
   - /places/exterior/
+  - /games/
 ---
 
 {% facts %}

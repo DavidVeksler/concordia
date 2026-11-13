@@ -168,6 +168,13 @@ code { background: var(--surface-2); padding: 0.1em 0.35em; border-radius: 4px; 
 .content > .art-section, .content > .art-feature, .content > .art-index { grid-column: wide; }
 .art-index { display: flex; flex-wrap: wrap; gap: 0.65rem 1.5rem; padding-block: 0.75rem; border-block: 1px solid var(--rule); }
 .art-index a { font-size: 0.9rem; }
+
+/* /games/: vehicle jump links and the fly / learn button row under each vehicle. */
+.content > .games-index { grid-column: wide; }
+.games-index { display: flex; flex-wrap: wrap; gap: 0.65rem 1.5rem; padding-block: 0.75rem; border-block: 1px solid var(--rule); }
+.games-index a { font-size: 0.9rem; }
+.content > h2[id] { scroll-margin-top: 5rem; }
+.game-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.6rem 0 0.4rem; }
 .art-section { margin-top: 2rem; scroll-margin-top: 5rem; }
 .art-section > h2 { font-family: Georgia, serif; font-weight: 400; font-size: clamp(1.7rem, 3vw, 2.5rem); }
 .art-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 1.5rem; }

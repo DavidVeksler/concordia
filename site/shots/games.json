@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gm-glider-cockpit",
+    "static": true,
+    "alt": "The glider cockpit in a banked turn, round instruments below a windscreen filled by a lattice tower and the city curving overhead.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py (page hero, with -og.jpg)"
+  },
+  {
+    "id": "gm-glider-chase",
+    "static": true,
+    "alt": "Chase view of the electric hang glider flying past a lattice tower over the first rotor, with parks, lakes and the curving city.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-glider-takeoff",
+    "static": true,
+    "alt": "The hang glider on its take-off run down a tree-lined street, houses on both sides and the city rising beyond.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-glider-high",
+    "static": true,
+    "alt": "The hang glider 300 m over the rotor floor, parks, lakes and towers spreading ahead and curving up on both sides.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-racer-hull",
+    "static": true,
+    "alt": "Chase view of the cream two-seat rocket racer flying beside the station's lattice hull truss in black space, its flight display below.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-racer-launch",
+    "static": true,
+    "alt": "The rocket racer lifting off its launch table at the spaceport, gate rings floating ahead in black space.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-racer-cockpit",
+    "static": true,
+    "alt": "The view from the racer cockpit: a bronze canopy bow framing the station hull, with speed and the delta-v tape below.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-racer-flare",
+    "static": true,
+    "alt": "The rocket racer close beside the hull truss while a red flare it struck drifts away to the right.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-shuttle-flight",
+    "static": true,
+    "alt": "Chase view of the long white Concordia shuttle flying past the station's domed end cap against a field of stars.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-shuttle-rail",
+    "static": true,
+    "alt": "The Concordia shuttle on its sled on the launch rail along the grey station hull, beneath a lattice tower.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-shuttle-arrays",
+    "static": true,
+    "alt": "The Concordia shuttle in flight with its solar arrays unfolded, a satellite and more panels nearby against black space.",
+    "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  }
+]

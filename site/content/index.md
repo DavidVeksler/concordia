@@ -65,7 +65,7 @@ Why does the ground curve up? Does a train change your weight? What happens in a
 
 ## Step inside
 
-The simulation runs in your browser. Start in the family's house, ride the ascender through the artificial sky, float through the shipyard, or fly the whole 21 km yourself. In Story mode the guided tour takes about {{tourMinutes}} minutes. In Explore mode you go where you like, and in Engineer mode overlays show the gravity, momentum, power and heat behind what you see.
+The simulation runs in your browser. Start in the family's house, ride the ascender through the artificial sky, float through the shipyard, or fly the whole 21 km yourself in [a glider, a rocket racer or the shuttle](/games/). In Story mode the guided tour takes about {{tourMinutes}} minutes. In Explore mode you go where you like, and in Engineer mode overlays show the gravity, momentum, power and heat behind what you see.
 
 {% explore chapter="home" label="Step inside the family's home" %} {% explore viewpoint="complete-habitat" label="See the whole station" %}
 

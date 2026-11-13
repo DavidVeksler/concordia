@@ -15,6 +15,7 @@ related:
   - /science/moving-around/
   - /science/air-water-food/
   - /science/racing/
+  - /games/
 ---
 
 {% facts %}

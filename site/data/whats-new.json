@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-13",
+    "title": "Fly the glider, the racer and the shuttle",
+    "blurb": "Three vehicles on real physics, in the browser: a glider in a spinning city, a rocket on a fuel budget, a 155 t ship.",
+    "href": "/games/"
+  },
+  {
     "date": "2026-10-23",
     "title": "Race a rocket round the hull",
     "blurb": "No air, no grip, no top speed: every corner costs fuel. Watch the racer trailer, then fly the sprint yourself.",
