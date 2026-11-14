@@ -118,7 +118,7 @@ In the cabin the countdown reads T minus 60 seconds. Harnesses click, and a wind
 {% chapter "exterior" %}
 From 29 km out the whole station fits in one window. Its hull is 21 km long, with radiator banks standing off its sides and the launch track alongside. The stationary shielding conceals the rotating cities and artificial sky.
 
-**The idea:** scale. Concordia is 6.2 km across, and the launch is only the first leg of the trip.
+**The idea:** scale. Concordia is 5.2 km across, and the launch is only the first leg of the trip.
 
 {% shot "film-habitat-pullback" %}
 {% endchapter %}

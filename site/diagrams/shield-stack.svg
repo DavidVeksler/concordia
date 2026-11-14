@@ -35,7 +35,7 @@
     <text x="410" y="270" font-weight="600">4. Structural shell</text><text x="410" y="288" font-size="14" opacity="0.8">Carries the load</text>
     <text x="410" y="318" font-weight="600">5. Service vacuum</text><text x="410" y="336" font-size="14" opacity="0.8">Room for robots and plumbing</text>
     <text x="410" y="368" font-weight="600">6. Hydrogen-rich water</text><text x="410" y="386" font-size="14" opacity="0.8">Thickest over beds, clinics, shelters</text>
-    <text x="410" y="448" font-weight="600">7. Rotating pressure vessel</text><text x="410" y="466" font-size="14" opacity="0.8">Holds the air; hundreds of metres inward</text>
+    <text x="410" y="448" font-weight="600">7. Rotating pressure vessel</text><text x="410" y="466" font-size="14" opacity="0.8">Holds the air; behind a 20 m gap and the rotor wall</text>
     <text x="40" y="510" font-size="14" opacity="0.75">Not to scale. Thickness is set by particle-transport analysis; 1 m is the scale example.</text>
   </g>
 </svg>

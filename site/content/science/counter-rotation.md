@@ -43,7 +43,7 @@ All four rotors turn at the same rate and give the same 1 g. The only difference
 
 One more spinning body breaks the balance. The industrial rotor is 2,300 m in radius and 3,500 m long, and it turns once every 143 seconds. It spins the same way as rotors 1 and 2 and holds about 4 percent of the four-rotor total, 1.9 × 10¹⁶ newton-metre-seconds. Its outer edge has 0.45 g. {% basis "design" %}
 
-That 4 percent is cancelled by two {% term "momentum ring" "momentum rings" %} in a stationary vacuum bay between rotor 4 and the industrial rotor. Each is a carbon-fibre-class loop 3,000 m in radius, spinning in the opposite sense to the industrial rotor with its rim moving at 1 km/s. Together the rings weigh about 7 million tonnes, about 0.35 percent of the station. {% basis "challenge" %}
+That 4 percent is cancelled by two {% term "momentum ring" "momentum rings" %} in a stationary vacuum bay between rotor 4 and the industrial rotor. Each is a carbon-fibre-class loop 2,400 m in radius, spinning in the opposite sense to the industrial rotor with its rim moving at 1 km/s. Together the rings weigh about 8.75 million tonnes, about 0.46 percent of the station. {% basis "challenge" %}
 
 The rings speed up and slow down as the industrial mass changes. Cargo arrives, ships leave, rotor inventories shift, and the control system trades momentum between the rings and the rotors. It holds the net total within 0.1 percent of the four-rotor total. Momentum transfers between the machines use electricity without expelling propellant. {% basis "design" %}
 
@@ -107,14 +107,14 @@ An ascender also moves momentum. Each ascent hands the rotor about 2.1 × 10¹�
 {% enddeeper %}
 
 {% deeper "Sizing a momentum ring" basis="physics" %}
-A ring of mass m, radius r and rim speed v holds L = m × v × r. To hold 1.9 × 10¹⁶ N·m·s at r = 3,000 m and v = 1,000 m/s:
+A ring of mass m, radius r and rim speed v holds L = m × v × r. To hold 1.9 × 10¹⁶ N·m·s at r = 2,400 m and v = 1,000 m/s:
 
 {% eq %}
-m = L / (v × r) = 1.9 × 10¹⁶ / (1,000 × 3,000) = 6.3 × 10⁹ kg
+m = L / (v × r) = 1.9 × 10¹⁶ / (1,000 × 2,400) = 7.9 × 10⁹ kg
 σ = ρ × v² = 1,600 kg/m³ × (1,000 m/s)² = 1.6 GPa
 {% endeq %}
 
-That is 6.3 million tonnes, or about 7 million tonnes with trim headroom, split between two rings of about 3.5 million tonnes each. Against the station's 2.05 billion tonnes, 7 million tonnes is 0.34 percent, about 0.35. The hoop stress ρv² sets the speed limit, because a faster rim would need a stronger material than carbon fibre.
+That is 7.9 million tonnes, or about 8.75 million tonnes with trim headroom, split between two rings of 4.38 million tonnes each. Against the station's 1.92 billion tonnes, 8.75 million tonnes is 0.46 percent. The hoop stress ρv² sets the speed limit, because a faster rim would need a stronger material than carbon fibre.
 {% enddeeper %}
 
 {% sources %}

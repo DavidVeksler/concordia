@@ -24,7 +24,7 @@ Concordia adds a second question: what happens when part of it breaks? A million
 | Topic | 1970s | Concordia |
 | --- | --- | --- |
 | Daylight | Windows and hinged mirrors (Island Three) | An opaque shell and a display sky |
-| Shield | A separate ring 1 to 2 m out (torus) | A stationary truss hundreds of metres out |
+| Shield | A separate ring 1 to 2 m out (torus) | A stationary truss 20 m out, 64 m deep |
 | Air | One room per cylinder (Island Three) | Four rotors, each split into districts |
 | Atmosphere | About half sea-level pressure (torus) | Earth sea-level air |
 | Spin machinery | Counter-rotating pairs | Independent rotors with backup catchers |
@@ -43,7 +43,7 @@ hundreds of m | gap between Concordia's air and its shield | design
 
 Island Three is half window. Its wall alternates three strips of land with three of glass, and three hinged mirrors outside swing open to make day and shut to make night. Concordia has no exterior windows. Residents get a display sky 450 m up, powered by solar platforms far from the hull. Nothing transparent holds air, and no moving mirror can fail and end daylight. {% basis "design" %}
 
-The stationary shield is not new. The 1975 torus already had one, "separated by only a meter or two" from the tube. Concordia stretches it. The stationary shell stands hundreds of metres outside the air, an open truss of removable cassettes that crawlers swap like roof tiles. The space inside is a service vacuum where robots work, so nobody in a suit has to. Island Three's cosmic-ray shield is its own air: O'Neill's 1974 design counted on the depth of the atmosphere. A hit on Concordia's skin costs shield, never air. {% basis "design" %}
+The stationary shield is not new. The 1975 torus already had one, "separated by only a meter or two" from the tube. Concordia keeps the idea and gives it depth. The stationary shell is an open truss 64 m thick, of removable cassettes that crawlers swap like roof tiles, standing 20 m outside the rotor's outer skin. The air is sealed inside the rotor wall, behind that gap. The gap is a service vacuum where robots work, so nobody in a suit has to. Island Three's cosmic-ray shield is its own air: O'Neill's 1974 design counted on the depth of the atmosphere. A hit on Concordia's skin costs shield, never air. {% basis "design" %}
 
 The risk was always small and slow: the 1975 study put a 1 m meteoroid hole at once in 10 million years, and a day or more to lose most of the air through it. {% basis "physics" %} Concordia uses replaceable outer shielding and keeps impacts there from reaching the pressure vessel.
 

@@ -2,7 +2,7 @@
 title: "Exterior of a 21 km space habitat"
 h1: "The exterior"
 description: 'Seen from outside, Concordia is a 21 km mountain of cassette-covered truss, radiator banks, launch tracks, defence batteries and a fleet of satellites.'
-lead: 'From outside, Concordia is a grey cylinder 21 km long and 6.2 km wide. Its outer shielding covers a truss, and around it hang radiators, dishes, launch tracks, defence batteries and seven free-flying satellites.'
+lead: 'From outside, Concordia is a grey cylinder 21 km long and 5.2 km wide. Its outer shielding covers a truss, and around it hang radiators, dishes, launch tracks, defence batteries and seven free-flying satellites.'
 hero: film-habitat-pullback
 nav: places
 order: 11
@@ -18,7 +18,7 @@ map: "#vp-exterior-industrial-open-bay"
 
 ## The hull
 
-The outer shell is a deep open truss with removable shielding cassettes on its surface. The habitat's pressure vessels sit hundreds of metres inside this shell, so puncturing a shielding panel does not vent a home. The cassettes are compacted regolith and slag in 32 m tiles, 609 around the ring, between ribs every 128 m along the axis and every 96 m around it.
+The outer shell is a deep open truss, 64 m thick, with removable shielding cassettes on its surface. The habitat's pressure vessels sit inside the rotor walls, behind a 20 m vacuum gap and the whole shell, so puncturing a shielding panel does not vent a home. The cassettes are compacted regolith and slag in 32 m tiles, 504 around the ring, between ribs every 128 m along the axis and every 98 m around it.
 
 {% shot "pl-exterior-hull" "Close on the hull: shielding cassettes, repair seams, a maintenance rail and the service robot at an open slot." %}
 
@@ -50,14 +50,14 @@ Seven craft fly free of the hull. P1 is a tethered solar farm 7 km aft. P2 and P
 
 {% facts %}
 21 km | length
-6.2 km | diameter
-470 km² | outer surface
+5.23 km | diameter
+388 km² | outer surface
 8 | radiator banks
 7 | free-flying satellites
 {% endfacts %}
 
 {% deeper "Hull stack and fleet" %}
-The layers from outside in: sacrificial impact layer, standoff vacuum, regolith or slag cassette layer, structural shell, service vacuum, hydrogen-rich local shielding, then the rotating pressure vessel. Thickness varies with what lies behind it. For scale, 1 m of regolith at 1.6 t/m³ over the whole 470 km² is about 750 million tonnes.
+The layers from outside in: a 0.1 m sacrificial bumper, 5 m of standoff vacuum, 1 m of regolith or slag cassettes, a 1 m outer deck, a 55 m truss and a 2 m absorber face, then the 20 m service vacuum and the rotor wall with its hydrogen-rich local shielding and pressure vessel. The shell adds 2,100 kg/m² above the rotor wall's own mass, and a ray from below the ground crosses 4,914 kg/m² in all. For scale, 1 m of regolith at 1.6 t/m³ over the whole 388 km² is about 621 million tonnes.
 
 Radiator banks: the top and bottom banks are fields of 2,200 × 1,000 m on 1,100 m stand-offs, and the side banks are 3,100 × 1,500 m on 1,600 m. At 450 K a single-sided radiator rejects about 2.1 kW/m².
 

@@ -86,16 +86,16 @@ The 1967 Outer Space Treaty makes each state answer for its nationals' activitie
 Construction rate, from the canon schedule (material from the mid 2030s, fourth rotor at full spin in 2044):
 
 {% eq %}
-2.05 × 10^12 kg / 10 years ≈ 2 × 10^11 kg a year
-≈ 560,000 t a day
-2.05 × 10^9 t / 1.88 × 10^9 t ≈ 1.1 years
+1.92 × 10^12 kg / 10 years ≈ 1.9 × 10^11 kg a year
+≈ 526,000 t a day
+1.92 × 10^9 t / 1.88 × 10^9 t ≈ 1.0 years
 of world crude steel (2024)
 {% endeq %}
 
 Doublings from a 1,000 t seed:
 
 {% eq %}
-2.05 × 10^12 kg / 10^6 kg ≈ 2^21
+1.92 × 10^12 kg / 10^6 kg ≈ 2^21
 10 years / 21 ≈ 5.7 months a doubling
 (4.6 months over 8 years)
 {% endeq %}
@@ -104,8 +104,8 @@ Energy, assuming 30 MJ per kg:
 
 {% eq %}
 30 MJ = 8.3 kWh ≈ $0.08 at $0.01/kWh
-2.05 × 10^12 kg × 3 × 10^7 J/kg
-/ 3.16 × 10^8 s ≈ 195 GW for ten years
+1.92 × 10^12 kg × 3 × 10^7 J/kg
+/ 3.16 × 10^8 s ≈ 182 GW for ten years
 {% endeq %}
 
 Compute field at 200 GW, at the station's 340 W/m² delivered:

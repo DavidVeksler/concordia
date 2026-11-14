@@ -28,11 +28,11 @@ These are the station's design values, plus quantities worked out from them. Row
 | Orbit | Earth-Moon L5 region, 384,400 km from Earth | {% basis "design" %} | Low-energy access to lunar material, room to build, a market within reach |  |
 | Orbital speed | 1.018 km/s | {% basis "physics" %} | Same as the Moon's |  |
 | Length | 21 km | {% basis "design" %} | Four rotors, industry, yard and port on one axis |  |
-| Maximum diameter | 6.2 km (radius 3,100 m) | {% basis "design" %} | Shell sits outside 2,500 m rotors with room for shielding |  |
-| Hull surface | about 470 km2 | {% basis "design" %} | Sets the shielding and radiator areas | 2 pi r L + 2 pi r^2 = 469 km2 (derived) |
+| Maximum diameter | 5.23 km (radius 2,615.8 m) | {% basis "design" %} | Shell inner face 20 m outside the rotor skin, then a 64.1 m deep shell with its shielding | 2 x 2,615.8 m (derived) |
+| Hull surface | about 388 km2 | {% basis "design" %} | Sets the shielding and radiator areas | 2 pi r L + 2 pi r^2 = 388 km2 (derived) |
 | Population now | about 400,000 | {% basis "fiction" %} | Rotors fill one at a time |  |
 | Design population | 1.0 to 1.2 million | {% basis "design" %} | Four rotors with elevated building |  |
-| Finished mass | about 2.05 x 10^12 kg, two billion tonnes | {% basis "design" %} | Why Earth launch cannot supply it | sum of the mass budget below (derived) |
+| Finished mass | about 1.92 x 10^12 kg, two billion tonnes | {% basis "design" %} | Why Earth launch cannot supply it | sum of the mass budget below (derived) |
 
 <!-- facts: sections 1, 4 -->
 
@@ -68,7 +68,7 @@ These are the station's design values, plus quantities worked out from them. Row
 | Rotor wall load, total | 383 MN per metre of length | {% basis "design" %} | Air, the weight of the rotor's contents and the carbon bands' own weight | 257 + 98 + 28 |
 | Megaframe | piers to 1,000 or 1,500 m, plates to 800 m; 120 spokes per rotor from the crowns to hub rings at the axis | {% basis "design" %} | The prebuilt lattice that holds the elevated city, with two load paths: out to the bands, in to the hub rings |  |
 | Megaframe mass | about 6 Mt per rotor (estimate) | {% basis "challenge" %} | About 150 kg per m2 of floor, about fifty times lighter than the same volume built solid | 300 Mt / 6 Mt = 50 (derived) |
-| Shield example | 1 m at 1.6 t/m3 = about 750 Mt | {% basis "design" %} | Order of magnitude for regolith cover | 1 m x 1.6 t/m3 x 470 km2 |
+| Shield example | 1 m at 1.6 t/m3 = about 621 Mt | {% basis "design" %} | Order of magnitude for regolith cover | 1 m x 1.6 t/m3 x 388 km2 |
 | End wall | 2,436 m tall, 24 cells | {% basis "design" %} | An inhabited cliff at each rotor end | 2,500 m - 64 m bore |
 | Spine | 120 m diameter, never rotates | {% basis "design" %} | Zero-g transport and utility core |  |
 | Bridge | 300 m between end walls, 45 m above ground | {% basis "design" %} | Links same-spin neighbours |  |
@@ -79,16 +79,16 @@ These are the station's design values, plus quantities worked out from them. Row
 
 ## Mass budget
 
-The finished station is about 2.05 x 10^12 kg, about two billion tonnes. The table lists what is included: the four habitation rotors with their air, Ehricke (the industrial rotor), and the shielding example. The spine, ports, radiators and yards are small next to these rows and are not itemised.
+The finished station is about 1.92 x 10^12 kg, about two billion tonnes. The table lists what is included: the four habitation rotors with their air, Ehricke (the industrial rotor), and the shielding example. The spine, ports, radiators and yards are small next to these rows and are not itemised.
 
 | Part | Mass | Basis | Why | Formula |
 | --- | --- | --- | --- | --- |
 | Four habitation rotors, air included | 1.2 x 10^12 kg | {% basis "design" %} | Each rotor is planned at 3 x 10^11 kg, about 45 Mt of it air | 4 x 3 x 10^11 kg |
 | Ehricke (the industrial rotor) | 1 x 10^11 kg | {% basis "design" %} | The rotating mass of the industrial rotor |  |
-| Stationary shielding | about 7.5 x 10^11 kg | {% basis "design" %} | One metre of regolith at 1.6 t/m3 over the hull | 1 m x 1,600 kg/m3 x 470 km2 (derived) |
-| **Total** | **about 2.05 x 10^12 kg** | {% basis "design" %} | Still of the order of 10^12 kg | 1.2 + 0.1 + 0.75 = 2.05 x 10^12 kg (derived) |
-| In International Space Stations | about 4.9 million | {% basis "design" %} | One ISS is 419,725 kg | 2.05 x 10^12 / 419,725 (derived) |
-| Momentum rings, share of the total | about 0.35 percent | {% basis "design" %} | About 7 Mt of rim | 7 x 10^9 / 2.05 x 10^12 = 0.34 percent (derived) |
+| Stationary shielding | about 6.2 x 10^11 kg | {% basis "design" %} | One metre of regolith at 1.6 t/m3 over the hull | 1 m x 1,600 kg/m3 x 388 km2 (derived) |
+| **Total** | **about 1.92 x 10^12 kg** | {% basis "design" %} | Still of the order of 10^12 kg | 1.2 + 0.1 + 0.621 = 1.92 x 10^12 kg (derived) |
+| In International Space Stations | about 4.6 million | {% basis "design" %} | One ISS is 419,725 kg | 1.92 x 10^12 / 419,725 (derived) |
+| Momentum rings, share of the total | about 0.46 percent | {% basis "design" %} | About 8.75 Mt of rim | 8.75 x 10^9 / 1.92 x 10^12 = 0.46 percent (derived) |
 
 <!-- facts: section 4 -->
 
@@ -102,7 +102,7 @@ The finished station is about 2.05 x 10^12 kg, about two billion tonnes. The tab
 | Industrial spin | 0.044 rad/s, period 142.8 s | {% basis "design" %} | Opposes O'Neill (Rotor 4) | T = 2 pi / w (derived) |
 | Industrial gravity | about 0.45 g | {% basis "physics" %} | Lower than the cities | w^2 r / 9.80665 = 0.454 g (derived) |
 | Industrial momentum | 1.9 x 10^16 N m s, about 4 percent | {% basis "physics" %} | Cancelled by the momentum rings |  |
-| Momentum rings | about 7 Mt total | {% basis "design" %} | Store what the pairs cannot cancel | m = L / (v r) at 1 km/s, 3,000 m |
+| Momentum rings | about 8.75 Mt total | {% basis "design" %} | Store what the pairs cannot cancel | m = L / (v r) at 1 km/s, 2,400 m |
 | Net hold | within 0.1 percent | {% basis "design" %} | Cargo and launches move it |  |
 | Shipyard | about 3,500 m long, zero g | {% basis "design" %} | Build without a floor |  |
 | Example ship | 700 m long | {% basis "design" %} | Scale of the hero vessel |  |

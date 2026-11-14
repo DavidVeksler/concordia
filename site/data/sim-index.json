@@ -364,6 +364,14 @@
       "chapter": "axisTransfer"
     },
     {
+      "id": "shell-gap-edge",
+      "name": "Shell QA: the 20 m gap at the rotor rim",
+      "group": "Ground to Axis",
+      "purpose": "Stationary shell spec B7: from the 2-3 gap, look along the rim of rotor 3 where its outer skin (r 2,531.7 m) passes 20 m under the inner face of the shell (r 2,551.7 m).",
+      "location": "inside",
+      "chapter": "axisTransfer"
+    },
+    {
       "id": "counter-rotating-interface",
       "name": "Counter-Rotating Interface, Noordung and Bernal",
       "group": "Ground to Axis",

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1110" role="img" aria-labelledby="hs-title hs-desc" font-family="DM Sans, system-ui, sans-serif" font-size="17">
   <title id="hs-title">Three habitats in cross-section: Island Three, the Stanford torus and Concordia</title>
-  <desc id="hs-desc">Three end-on cross-sections, one above the other, each drawn to its own scale and schematic. Top, O'Neill's Island Three of the 1970s: a cylinder whose wall alternates three land strips with three windows, with a hinged mirror outside each window, and one room of air. Middle, the 1975 NASA Stanford torus: a rotating tube with a separate shield that does not rotate, separated from it by only a meter or two (the gap is exaggerated here). Bottom, Concordia: a rotor of 2,500 m radius with an artificial sky 450 m up, inside a stationary polygonal shell at 3,100 m radius, with no windows. The shield stands still, hundreds of metres from the air, and each of the four rotors is sealed and split into districts.</desc>
+  <desc id="hs-desc">Three end-on cross-sections, one above the other, each drawn to its own scale and schematic. Top, O'Neill's Island Three of the 1970s: a cylinder whose wall alternates three land strips with three windows, with a hinged mirror outside each window, and one room of air. Middle, the 1975 NASA Stanford torus: a rotating tube with a separate shield that does not rotate, separated from it by only a meter or two (the gap is exaggerated here). Bottom, Concordia: a rotor of 2,500 m radius with an artificial sky 450 m up, inside a stationary polygonal shell 64 m thick, its inner face 20 m outside the rotor, with no windows. The shield stands still, a 20 m vacuum gap from the rotor's outer skin, and each of the four rotors is sealed and split into districts.</desc>
   <text x="310" y="100" font-weight="700" font-size="19" fill="currentColor">Island Three, 1970s</text>
   <text x="310" y="124" font-size="15" fill="var(--muted)">O'Neill's cylinder</text>
   <circle cx="150" cy="200" r="85" fill="var(--surface-2)"/>
@@ -31,14 +31,14 @@
   <text x="310" y="592" fill="currentColor" font-weight="600">1 to 2 m gap</text><text x="310" y="613" font-size="15" fill="var(--muted)">exaggerated in this drawing</text>
   <text x="310" y="644" fill="currentColor" font-weight="600">4.5 t/m² shield, half sea-level air</text><text x="310" y="665" font-size="15" fill="var(--muted)">the study's own figures</text>
   <text x="310" y="840" font-weight="700" font-size="19" fill="currentColor">Concordia, 2041</text>
-  <text x="310" y="864" font-size="15" fill="var(--muted)">radius to scale, 2,500 m rotor in a 3,100 m shell</text>
-  <polygon points="267.0,955.4 259.0,985.2 243.6,1011.8 221.8,1033.6 195.2,1049.0 165.4,1057.0 134.6,1057.0 104.8,1049.0 78.2,1033.6 56.4,1011.8 41.0,985.2 33.0,955.4 33.0,924.6 41.0,894.8 56.4,868.2 78.2,846.4 104.8,831.0 134.6,823.0 165.4,823.0 195.2,831.0 221.8,846.4 243.6,868.2 259.0,894.8 267.0,924.6" fill="var(--surface-2)" stroke="var(--muted)" stroke-width="9" stroke-linejoin="round"/>
+  <text x="310" y="864" font-size="15" fill="var(--muted)">radius to scale: the shell stands 20 m off the rotor skin</text>
+  <polygon points="250.1,953.2 243.3,978.7 230.1,1001.5 211.5,1020.1 188.7,1033.3 163.2,1040.1 136.8,1040.1 111.3,1033.3 88.5,1020.1 69.9,1001.5 56.7,978.7 49.9,953.2 49.9,926.8 56.7,901.3 69.9,878.5 88.5,859.9 111.3,846.7 136.8,839.9 163.2,839.9 188.7,846.7 211.5,859.9 230.1,878.5 243.3,901.3 250.1,926.8" fill="var(--surface-2)" stroke="var(--muted)" stroke-width="5" stroke-linejoin="round"/>
   <circle cx="150" cy="940" r="95" fill="var(--bg)" stroke="var(--accent-2)" stroke-width="6"/>
   <circle cx="150" cy="940" r="78" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-dasharray="6 5"/>
 <path d="M116.2 927.7 A36 36 0 0 1 181.2 922.0" fill="none" stroke="var(--accent-2)" stroke-width="2.5"/><polygon points="181.2,922.0 172.3,916.7 181.0,911.7" fill="var(--accent-2)"/>
   <circle cx="150" cy="940" r="3" fill="currentColor"/>
   <text x="310" y="910" fill="currentColor" font-weight="600">No windows</text><text x="310" y="931" font-size="15" fill="var(--muted)">the sky is a display, 450 m up</text>
-  <text x="310" y="962" fill="currentColor" font-weight="600">Shield stands still</text><text x="310" y="983" font-size="15" fill="var(--muted)">hundreds of metres from the air</text>
+  <text x="310" y="962" fill="currentColor" font-weight="600">Shield stands still</text><text x="310" y="983" font-size="15" fill="var(--muted)">20 m gap, 64 m deep shell</text>
   <text x="310" y="1014" fill="currentColor" font-weight="600">Four sealed rotors</text><text x="310" y="1035" font-size="15" fill="var(--muted)">each split into districts</text>
   <line x1="30" y1="385" x2="770" y2="385" stroke="currentColor" stroke-width="1" opacity="0.2"/>
   <line x1="30" y1="760" x2="770" y2="760" stroke="currentColor" stroke-width="1" opacity="0.2"/>

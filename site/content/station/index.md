@@ -42,7 +42,7 @@ The design lineage runs through [five generations of space habitats](/station/ge
 
 ## The layout along the axis
 
-Everything lines up on one axis, 21 km long and 6.2 km across at its widest. The aft end holds the power landing and thrusters. Forward of it are four rotors, a momentum bay, the industrial rotor, the zero-g shipyard and the spaceport. The rotors are named Tsiolkovsky, Noordung, Bernal and O'Neill from aft to forward, and the industrial rotor is Ehricke; the [station map](/map/#names) says who they honour.
+Everything lines up on one axis, 21 km long and 5.2 km across at its widest. The aft end holds the power landing and thrusters. Forward of it are four rotors, a momentum bay, the industrial rotor, the zero-g shipyard and the spaceport. The rotors are named Tsiolkovsky, Noordung, Bernal and O'Neill from aft to forward, and the industrial rotor is Ehricke; the [station map](/map/#names) says who they honour.
 
 {% diagram "station-layout" "Concordia to scale, aft on the left. Tsiolkovsky and Noordung (Rotors 1 and 2) turn one way, Bernal and O'Neill (Rotors 3 and 4) the other." %}
 
@@ -74,7 +74,7 @@ Concordia is one machine with five parts that depend on each other.
 
 {% facts %}
 21 km | length
-6.2 km | maximum diameter
+5.23 km | maximum diameter
 2,500 m | rotor radius
 100 s | one turn
 157 m/s | rim speed

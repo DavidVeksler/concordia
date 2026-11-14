@@ -26,11 +26,11 @@ A {% term "solar particle event" %} is a storm. The Sun throws out a burst of pr
 
 Shielding requires mass. On Earth, the air above your head is about 1,000 grams of material over every square centimetre. A spacecraft has a few grams. NASA recommends at least 20 g/cm² for missions longer than six months. {% basis "physics" %}
 
-Concordia uses lunar material for bulk shielding. A layer of {% term "regolith" %} one metre thick at 1.6 tonnes per cubic metre is 160 g/cm², eight times NASA's guideline for a long mission. Covering the 470 km² of the station's surface at that thickness takes about 750 million tonnes. {% basis "design" %} For the same hazards at the scale of a crewed vehicle or a lunar base, see the [radiation and shielding table of the CheatSheets space habitat guide](https://cheatsheets.davidveksler.com/space-habitats-life-support.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=science-radiation-and-debris#radiation-shielding). That is why the station was built factory-first: asteroid haulers brought the first metal, and lunar mining and a mass driver were running at scale ahead of the first rotor (see [how Concordia was built](/station/building-concordia/)). {% basis "fiction" %}
+Concordia uses lunar material for bulk shielding. A layer of {% term "regolith" %} one metre thick at 1.6 tonnes per cubic metre is 160 g/cm², eight times NASA's guideline for a long mission. Covering the 388 km² of the station's surface at that thickness takes about 621 million tonnes. {% basis "design" %} For the same hazards at the scale of a crewed vehicle or a lunar base, see the [radiation and shielding table of the CheatSheets space habitat guide](https://cheatsheets.davidveksler.com/space-habitats-life-support.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=science-radiation-and-debris#radiation-shielding). That is why the station was built factory-first: asteroid haulers brought the first metal, and lunar mining and a mass driver were running at scale ahead of the first rotor (see [how Concordia was built](/station/building-concordia/)). {% basis "fiction" %}
 
 {% diagram "shield-stack" "Seven layers from space to the air: impact layer, vacuum, regolith cassettes, structural shell, service vacuum, water, pressure vessel." %}
 
-The stack has seven layers. A sacrificial layer on the outside breaks up small debris. A vacuum gap lets the fragments spread. The thick regolith and slag cassettes stop what is left and thin the radiation. A structural shell carries the load. Behind it lies a service vacuum for robots and plumbing, then a layer of water and other hydrogen-rich material, which stops particles well. The rotating pressure vessel with the air is the last layer, hundreds of metres inward. {% basis "design" %}
+The stack has seven layers. A sacrificial layer on the outside breaks up small debris. A vacuum gap lets the fragments spread. The thick regolith and slag cassettes stop what is left and thin the radiation. A structural shell carries the load. Behind it lies a service vacuum for robots and plumbing, then a layer of water and other hydrogen-rich material, which stops particles well. The rotating pressure vessel with the air is the last layer, 20 m of vacuum and the whole rotor wall inward of the shell. From below the ground, a ray crosses 4,914 kg/m² of rotor wall and shell, more than the 4,500 kg/m² of the 1975 torus. {% basis "design" %}
 
 Particle-transport calculations set the thickness for each location, and the shield is thickest where people sleep or heal: over bedrooms, hospitals, command centres and shelters. The 1 m example gives the scale.
 
@@ -73,8 +73,8 @@ Shielding is measured in areal density, mass per unit area: ρ × t.
 
 {% eq %}
 Regolith: 1,600 kg/m³ × 1 m = 1,600 kg/m² = 160 g/cm²
-Station surface: A ≈ 470 km² = 4.7 × 10⁸ m²
-Mass: 1,600 × 4.7 × 10⁸ = 7.5 × 10¹¹ kg = 750 million tonnes
+Station surface: A ≈ 388 km² = 3.88 × 10⁸ m²
+Mass: 1,600 × 3.88 × 10⁸ = 6.2 × 10¹¹ kg = 621 million tonnes
 {% endeq %}
 
 For scale, a column of sea-level air is P / g:

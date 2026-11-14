@@ -75,7 +75,7 @@ At L5 the bagged rocks are parked well away from the station and cut up in vacuu
 
 ## Then: the Moon, at industrial scale
 
-Hauling asteroid material cannot meet the bulk shielding demand at this scale. One metre of regolith shielding over the 470 km² hull weighs about 750 million tonnes. At 30,000 tonnes a trip that is 25,000 hauls. The bulk had to come from the Moon, days away instead of years, where the rock is already crushed and lying on the surface. {% basis "design" %}
+Hauling asteroid material cannot meet the bulk shielding demand at this scale. One metre of regolith shielding over the 388 km² hull weighs about 621 million tonnes. At 30,000 tonnes a trip that is about 20,700 hauls. The bulk had to come from the Moon, days away instead of years, where the rock is already crushed and lying on the surface. {% basis "design" %}
 
 Lunar {% term "regolith" %} needs no blasting. Refuelled heavy landers set down the first excavators, furnaces and power plants. Scrapers skim the top metres. Magnets pull out the grains of native iron that meteorite impacts have scattered through the soil, and electrostatic sorters separate the minerals. Plants on the surface split oxygen out of the rock, about 43 percent of it by mass, and leave metals and slag behind. Then an electromagnetic {% term "mass driver" %} throws the packaged product off the Moon at the 2.4 km/s escape speed, using only electricity. The idea is old: a 1977 NASA Ames summer study sketched a lunar launcher throwing 10.5 kg loads four times a second, 650,000 tonnes a year. {% basis "challenge" %} Capture facilities far from Concordia catch each load and hand it to tugs (see [materials](/science/materials/)).
 
