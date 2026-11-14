@@ -85,7 +85,7 @@ Ties and wall members stretch together, so both caps stay plane and the rotor gr
 
 At the rim, the outer lobe leaves the wall at 25.5 degrees. Its pull has 39.4 MN/m along the axis, taken by the wall's axial members, and 82.8 MN/m inward, which squeezes the corner and which bands cannot take. A rim compression ring of 580 m² of carbon carries it, 174 GN. {% basis "challenge" %}
 
-The two caps of a rotor weigh 85.6 Mt. They bring a rotor's estimated mass to about 341 Mt, and the station's 300 Mt planning figure is under review. {% basis "design" %}
+The two caps of a rotor weigh 85.6 Mt. With them a rotor's mass comes to about 341 Mt, which is the figure the station now plans for each rotor. {% basis "design" %}
 
 {% explore viewpoint="low-g-atrium" %}
 

@@ -1785,7 +1785,7 @@
     {
       "slug": "momentum",
       "name": "Momentum",
-      "summary": "Tsiolkovsky and Noordung spin one way and Bernal and O'Neill the other, so the station carries no net spin. Ehricke, the industrial rotor, holds about 4 percent of the total, and the momentum rings cancel it. The net is zero.",
+      "summary": "Tsiolkovsky and Noordung spin one way and Bernal and O'Neill the other, so the station carries no net spin. Ehricke, the industrial rotor, holds about 3.5 percent of the total, and the momentum rings cancel it. The net is zero.",
       "learnMore": "/science/counter-rotation/",
       "callouts": [
         {
@@ -1797,7 +1797,7 @@
           "href": "/science/counter-rotation/#spin-pairs"
         },
         {
-          "text": "Ehricke about 4%, cancelled by momentum rings",
+          "text": "Ehricke about 3.5%, cancelled by momentum rings",
           "href": "/science/counter-rotation/#the-industrial-rotor-and-the-momentum-rings"
         },
         {

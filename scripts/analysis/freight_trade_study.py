@@ -18,7 +18,7 @@ ROTOR_LEN = 2500.0
 G0 = 9.80665
 RT_M = 287.05 * 293.15   # J/kg, isothermal atmosphere at 20 C
 P0, RHO0 = 101325.0, 1.204
-L_ROTOR = 3e11 * R_FLOOR**2 * W   # N m s, ~1.2e17 (docs say about 1e17)
+L_ROTOR = 3.41e11 * R_FLOOR**2 * W   # N m s, ~1.3e17 (src/physics.ts habitationRotorMassKg)
 
 def g(r): return W * W * r
 def gg(r): return g(r) / G0
@@ -254,7 +254,7 @@ print("Round-trip efficiency of a regenerated radial cycle with no counterweight
 
 # ---- 5. Angular momentum bookkeeping --------------------------------------------------------------
 hdr("5. Angular momentum and the rotor ledger")
-print(f"Rotor angular momentum L = {L_ROTOR:.3e} N m s (3e11 kg at 2500 m).")
+print(f"Rotor angular momentum L = {L_ROTOR:.3e} N m s (3.41e11 kg at 2500 m).")
 for name, m in loads:
     dL = m * W * (R_FLOOR**2 - 500.0**2)
     print(f"  {name:16}: lowering 500 -> 2500 m takes dL = {dL:.3e} N m s from the rotor ({dL/L_ROTOR:.2e} of L); energy ledger: rotor gives m W^2 (r2^2-r1^2) = {m*W*W*(R_FLOOR**2-500.0**2)*J2KWH:.2f} kWh, of which the winch can recover half ({0.5*m*W*W*(R_FLOOR**2-500.0**2)*J2KWH:.2f}) and the cargo's inertial KE is the other half.")

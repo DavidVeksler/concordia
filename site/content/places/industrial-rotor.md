@@ -59,7 +59,7 @@ The rotor turns at 0.044 rad/s, a turn every 143 seconds, in the direction oppos
 {% deeper "Gravity zones and momentum" %}
 Gravity falls in a straight line toward the axis, so the bay has three bands. The outer band, 0.35 to 0.45 g, holds the water and volatile tank farm, the recycling line, bulk tanks and the container racks. The middle band, 0.2 to 0.3 g, holds refining units, fabrication cells, the power plant and assembly trusses. The inner band, under 0.15 g, holds the transfer hub, light storage, cargo staging and tug berths.
 
-Rim speed is about 101 m/s. The rotor carries about 1.9 × 10¹⁶ N m s, roughly 4 percent of the four city rotors' total. Opposing the city rotors with an industrial rotor alone would need one heavier than the whole station, about 2.5 billion tonnes against the station's two, which is why the city rotors are paired against each other instead.
+Rim speed is about 101 m/s. The rotor carries about 1.9 × 10¹⁶ N m s, roughly 3.5 percent of the four city rotors' total. Opposing the city rotors with an industrial rotor alone would need one heavier than the whole station, about 2.8 billion tonnes against the station's two, which is why the city rotors are paired against each other instead.
 
 The vacuum bay runs from x = 2,750 m to 6,250 m along the station and is open to space with no shielding shell.
 {% enddeeper %}

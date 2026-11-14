@@ -17,13 +17,13 @@ related:
 
 ## Why you cannot launch a city
 
-The station's finished mass is about 1.92 x 10^12 kg, two billion tonnes: four rotors at 300 million tonnes each, Ehricke (the industrial rotor) at 100 million, and about 621 million tonnes of shielding. The International Space Station weighs 419,725 kg. Concordia is about 4.6 million of them. {% basis "design" %}
+The station's finished mass is about 2.09 x 10^12 kg, two billion tonnes: four rotors at 341 million tonnes each, Ehricke (the industrial rotor) at 100 million, and about 621 million tonnes of shielding. The International Space Station weighs 419,725 kg. Concordia is about 5 million of them. {% basis "design" %}
 
 Even with lower launch costs, transporting the station's full mass would be prohibitively expensive. In 2018 NASA's Harry Jones put the Space Shuttle at $54,500 per kg to low Earth orbit and Falcon 9 at about $2,720. {% basis "physics" %} By the 2030s fully reusable heavy launchers carry more than 100 tonnes a flight for about $2 million, refuelled in orbit by tankers: about $20 per kg to low orbit and about $100 per kg delivered to L5. At that price two billion tonnes is 20 million full loads and about $200 trillion. {% basis "fiction" %}
 
 Launch therefore supplied the initial equipment and crews. The haulers, the first mining machines, the seed factory and the construction crews all flew up from Earth, and Earth still supplies electronics, medicines and specialist parts. Bulk construction uses material already in space. {% explore viewpoint="exterior-25km-silhouette" label="See the 21 km silhouette" %}
 
-{% shot "sc-exterior-25km-silhouette" "The finished station: about two billion tonnes, 4.6 million International Space Stations, and 21 km long. Almost all of it was made from material already in space." %}
+{% shot "sc-exterior-25km-silhouette" "The finished station: about two billion tonnes, 5 million International Space Stations, and 21 km long. Almost all of it was made from material already in space." %}
 
 ## Watch the city grow
 
@@ -84,10 +84,10 @@ You can still see the stage Concordia went through. The next station is going up
 {% shot "st-next-station-yard" "The next station under construction, 200 km from Concordia: a closed rotor with a part-placed shield, hoop frames for the next rotor, and three construction rings. Concordia passed through this stage." %}
 
 {% deeper "The numbers behind the build" %}
-- Finished station: about 1.92 x 10^12 kg. Four rotors at 3 x 10^11 kg each (about 45 Mt of air included in each) make 1.2 x 10^12 kg, the industrial rotor 1 x 10^11 kg, and the shielding example 6.2 x 10^11 kg. The full table is on [Concordia by the numbers](/station/by-the-numbers/).
+- Finished station: about 2.09 x 10^12 kg. Four rotors at 3.41 x 10^11 kg each (about 45 Mt of air included in each) make 1.36 x 10^12 kg, the industrial rotor 1 x 10^11 kg, and the shielding example 6.2 x 10^11 kg. The full table is on [Concordia by the numbers](/station/by-the-numbers/).
 - Atmosphere for all four rotors: 150 to 200 million tonnes, in almost 200 km3.
 - Shield example: 1 m of regolith at 1.6 t/m3 over 388 km2, about 621 million tonnes.
-- Launch price: about $2 million a flight for 100 t is $20/kg to low orbit; four tanker flights per load bound for L5 make it about $100/kg there. 1.92 x 10^12 kg / 100 t = 1.9 x 10^7 loads; x $100/kg = $1.9 x 10^14, about $200 trillion. At the 2018 Falcon 9 price it would have been $5.2 x 10^15.
+- Launch price: about $2 million a flight for 100 t is $20/kg to low orbit; four tanker flights per load bound for L5 make it about $100/kg there. 2.09 x 10^12 kg / 100 t = 2.1 x 10^7 loads; x $100/kg = $2.1 x 10^14, about $200 trillion. At the 2018 Falcon 9 price it would have been $5.7 x 10^15.
 - Escape energy per kg: Earth 0.5 x (11.2 km/s)2 = 62.7 MJ; Moon 0.5 x (2.38 km/s)2 = 2.8 MJ, about 22 times less.
 - Partial gravity: long-term data on living at 0.2 to 0.6 g is still being gathered. {% basis "challenge" %} Children, pregnancy and routine healthcare stay near 1 g in the rotor cities. {% basis "design" %}
 {% enddeeper %}

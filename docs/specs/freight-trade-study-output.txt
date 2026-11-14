@@ -154,13 +154,13 @@ Round-trip efficiency of a regenerated radial cycle with no counterweight: eta_D
 ====================================================================================================
 5. Angular momentum and the rotor ledger
 ====================================================================================================
-Rotor angular momentum L = 1.174e+17 N m s (3e11 kg at 2500 m).
-  100 kg tool     : lowering 500 -> 2500 m takes dL = 3.756e+07 N m s from the rotor (3.20e-10 of L); energy ledger: rotor gives m W^2 (r2^2-r1^2) = 0.65 kWh, of which the winch can recover half (0.33) and the cargo's inertial KE is the other half.
-  1 t pallet      : lowering 500 -> 2500 m takes dL = 3.756e+08 N m s from the rotor (3.20e-09 of L); energy ledger: rotor gives m W^2 (r2^2-r1^2) = 6.53 kWh, of which the winch can recover half (3.27) and the cargo's inertial KE is the other half.
-  10 t container  : lowering 500 -> 2500 m takes dL = 3.756e+09 N m s from the rotor (3.20e-08 of L); energy ledger: rotor gives m W^2 (r2^2-r1^2) = 65.31 kWh, of which the winch can recover half (32.66) and the cargo's inertial KE is the other half.
-  50 t module     : lowering 500 -> 2500 m takes dL = 1.878e+10 N m s from the rotor (1.60e-07 of L); energy ledger: rotor gives m W^2 (r2^2-r1^2) = 326.56 kWh, of which the winch can recover half (163.28) and the cargo's inertial KE is the other half.
+Rotor angular momentum L = 1.334e+17 N m s (3.41e11 kg at 2500 m).
+  100 kg tool     : lowering 500 -> 2500 m takes dL = 3.756e+07 N m s from the rotor (2.82e-10 of L); energy ledger: rotor gives m W^2 (r2^2-r1^2) = 0.65 kWh, of which the winch can recover half (0.33) and the cargo's inertial KE is the other half.
+  1 t pallet      : lowering 500 -> 2500 m takes dL = 3.756e+08 N m s from the rotor (2.82e-09 of L); energy ledger: rotor gives m W^2 (r2^2-r1^2) = 6.53 kWh, of which the winch can recover half (3.27) and the cargo's inertial KE is the other half.
+  10 t container  : lowering 500 -> 2500 m takes dL = 3.756e+09 N m s from the rotor (2.82e-08 of L); energy ledger: rotor gives m W^2 (r2^2-r1^2) = 65.31 kWh, of which the winch can recover half (32.66) and the cargo's inertial KE is the other half.
+  50 t module     : lowering 500 -> 2500 m takes dL = 1.878e+10 N m s from the rotor (1.41e-07 of L); energy ledger: rotor gives m W^2 (r2^2-r1^2) = 326.56 kWh, of which the winch can recover half (163.28) and the cargo's inertial KE is the other half.
 Net transfer: 1 Mt/yr moved from r=500 to the floor shifts the rotor by
-  dL = 3.76e+14 N m s per year = 0.320 % of L per year; opposite-spin pairs and the momentum rings trim this (docs/15).
+  dL = 3.76e+14 N m s per year = 0.282 % of L per year; opposite-spin pairs and the momentum rings trim this (docs/15).
 Tangential force the guideway must supply to change the cargo's angular momentum (= Coriolis force) for v_r = 4 m/s, 10 t: 5.01 kN
 
 ====================================================================================================

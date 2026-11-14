@@ -68,7 +68,7 @@ export function mount(el) {
         h('div', { class: 'w-btns' }, asBuilt, allOne),
         h('div', { class: 'w-segs' }, rotorCtl.map((c) => c.el)),
         ind.el, rings.el,
-        h('p', { class: 'w-ref-line' }, 'Concordia: rotors 1 and 2 retrograde, 3 and 4 prograde, net zero. Each rotor holds about 1.17e17 N·m·s; the industrial rotor 1.9e16.')),
+        h('p', { class: 'w-ref-line' }, 'Concordia: rotors 1 and 2 retrograde, 3 and 4 prograde, net zero. Each rotor holds about 1.33e17 N·m·s; the industrial rotor 1.9e16.')),
       h('div', { class: 'w-results' }, svg, out.el)));
 
   function update() {

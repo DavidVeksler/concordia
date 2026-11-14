@@ -151,7 +151,7 @@ Radial speed on an unguided cable is therefore limited to about 1 to 2 m/s. At 1
 
 **Inertial-frame bookkeeping (what the rotor sees).** A body moving from r1 to r2 changes angular momentum by m W (r2² - r1²). The rotor supplies it as a torque through the guideway (the Coriolis side force). The rotor's energy cost is W x delta L = m W² (r2² - r1²), exactly twice the potential. Half becomes the cargo's inertial kinetic energy, half is recoverable at the winch. Check: 1 t from R = 500 to 2,500 m, rotor gives 6.53 kWh, winch can recover 3.27 kWh, cargo gains 3.27 kWh of rotating-frame-invisible kinetic energy.
 
-**Energy per unit cargo, full height (R = 500 to 2,500 m):** 3.27 kWh/t. For comparison the same tonne lifted 2,000 m on Earth is 5.45 kWh. **Rotor ledger.** 1 t lowered 500 to 2,500 m takes 3.76e8 N m s from the rotor, 3.2e-9 of its angular momentum. For a 50 t module that is 1.6e-7. A sustained net flow of 1 Mt/yr to the floor changes the rotor by 0.32 % per year, which the counter-rotating pair and momentum rings absorb ([counter-rotation](/science/counter-rotation/)). The freight system must therefore report its net radial mass flow to the ledger (section 7).
+**Energy per unit cargo, full height (R = 500 to 2,500 m):** 3.27 kWh/t. For comparison the same tonne lifted 2,000 m on Earth is 5.45 kWh. **Rotor ledger.** 1 t lowered 500 to 2,500 m takes 3.76e8 N m s from the rotor, 2.8e-9 of its angular momentum. For a 50 t module that is 1.4e-7. A sustained net flow of 1 Mt/yr to the floor changes the rotor by 0.28 % per year, which the counter-rotating pair and momentum rings absorb ([counter-rotation](/science/counter-rotation/)). The freight system must therefore report its net radial mass flow to the ledger (section 7).
 
 **Circumferential and axial moves.** Moving along the rotating frame at v needs only ½ m v² plus friction. The big inertial term m W r v is paid by the rotor through the wheel-rail reaction, and returns when braking. Net electricity is therefore small (section 4). Axial motion has zero Coriolis force because the velocity is parallel to the rotation axis.
 
@@ -372,7 +372,7 @@ Total time from the warehouse door to the depot door is about 8 to 12 minutes wi
 ### 7.5 Regeneration, ledger and growth
 
 - Net mass flow is downward in the 500 to 2,500 m band (food, goods) and upward in the return flow (waste, recycling, raw material). Pair the cars to move return freight on the up stroke.
-- Report net radial mass flow per rotor to the momentum controller ([counter-rotation](/science/counter-rotation/)): 1 Mt/yr down is 0.32 % of rotor angular momentum per year.
+- Report net radial mass flow per rotor to the momentum controller ([counter-rotation](/science/counter-rotation/)): 1 Mt/yr down is 0.28 % of rotor angular momentum per year.
 - Growth: the grid adds branches at nodes, shafts are added in new piers. Rails are standardised so a segment can be replaced on one night.
 
 ---

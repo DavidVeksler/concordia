@@ -19,7 +19,7 @@ Hold a spinning bicycle wheel by its axle and try to tilt it. The wheel pushes b
 
 Helicopters show the same law at work. The big rotor spins one way, so the body wants to spin the other way. A small tail rotor pushes against it. Without the tail rotor, the cabin would turn in circles.
 
-Now scale up. Each Concordia rotor has a mass of about 300 billion kg and turns once every 100 seconds at a radius of 2,500 m. One rotor holds about 1.2 × 10¹⁷ newton-metre-seconds of angular momentum. Four rotors spinning the same way would hold 4.7 × 10¹⁷. A station with that much spin cannot simply turn to face a new direction. Pointing it at anything would take a continuous push of 4.5 million newtons at each end of the hull, for every degree per day. {% basis "physics" %}
+Now scale up. Each Concordia rotor has a mass of about 341 billion kg and turns once every 100 seconds at a radius of 2,500 m. One rotor holds about 1.3 × 10¹⁷ newton-metre-seconds of angular momentum. Four rotors spinning the same way would hold 5.3 × 10¹⁷. A station with that much spin cannot simply turn to face a new direction. Pointing it at anything would take a continuous push of 5.1 million newtons at each end of the hull, for every degree per day. {% basis "physics" %}
 
 {% shot "sci-ov-rotational" "The rotational-frame overlay: each rotor turns once in 100 seconds, with a rim speed of 157 m/s. The labels already show the way out: two rotors turn one way and two the other." %}
 
@@ -41,9 +41,9 @@ All four rotors turn at the same rate and give the same 1 g. The only difference
 
 ## The industrial rotor and the momentum rings
 
-One more spinning body breaks the balance. The industrial rotor is 2,300 m in radius and 3,500 m long, and it turns once every 143 seconds. It spins the same way as rotors 1 and 2 and holds about 4 percent of the four-rotor total, 1.9 × 10¹⁶ newton-metre-seconds. Its outer edge has 0.45 g. {% basis "design" %}
+One more spinning body breaks the balance. The industrial rotor is 2,300 m in radius and 3,500 m long, and it turns once every 143 seconds. It spins the same way as rotors 1 and 2 and holds about 3.5 percent of the four-rotor total, 1.9 × 10¹⁶ newton-metre-seconds. Its outer edge has 0.45 g. {% basis "design" %}
 
-That 4 percent is cancelled by two {% term "momentum ring" "momentum rings" %} in a stationary vacuum bay between rotor 4 and the industrial rotor. Each is a carbon-fibre-class loop 2,400 m in radius, spinning in the opposite sense to the industrial rotor with its rim moving at 1 km/s. Together the rings weigh about 8.75 million tonnes, about 0.46 percent of the station. {% basis "challenge" %}
+That 3.5 percent is cancelled by two {% term "momentum ring" "momentum rings" %} in a stationary vacuum bay between rotor 4 and the industrial rotor. Each is a carbon-fibre-class loop 2,400 m in radius, spinning in the opposite sense to the industrial rotor with its rim moving at 1 km/s. Together the rings weigh about 8.75 million tonnes, about 0.42 percent of the station. {% basis "challenge" %}
 
 The rings speed up and slow down as the industrial mass changes. Cargo arrives, ships leave, rotor inventories shift, and the control system trades momentum between the rings and the rotors. It holds the net total within 0.1 percent of the four-rotor total. Momentum transfers between the machines use electricity without expelling propellant. {% basis "design" %}
 
@@ -67,15 +67,15 @@ Momentum control has little effect on daily life at ground level. Its machinery 
 
 Move cargo, launch a ship or fill a rotor, and watch the ledger balance.
 
-{% widget "momentum-ledger" "A ledger of angular momentum: rotors 1 and 2 at minus 50 percent, rotors 3 and 4 at plus 50 percent, the industrial rotor at about 4 percent, cancelled by the momentum rings, so the net is zero." %}
+{% widget "momentum-ledger" "A ledger of angular momentum: rotors 1 and 2 at minus 50 percent, rotors 3 and 4 at plus 50 percent, the industrial rotor at about 3.5 percent, cancelled by the momentum rings, so the net is zero." %}
 
 {% deeper "The numbers" basis="physics" %}
 Angular momentum of a spinning body is its moment of inertia times its spin rate. For a rotor with most of its mass near the rim:
 
 {% eq %}
 L = I × ω ≈ m × r² × ω
-Rotor: L = 3 × 10¹¹ kg × (2,500 m)² × 0.0626 rad/s = 1.17 × 10¹⁷ N·m·s
-Four rotors, by magnitude: 4.7 × 10¹⁷ N·m·s
+Rotor: L = 3.41 × 10¹¹ kg × (2,500 m)² × 0.0626 rad/s = 1.33 × 10¹⁷ N·m·s
+Four rotors, by magnitude: 5.3 × 10¹⁷ N·m·s
 Industrial: L ≈ 1 × 10¹¹ kg × (2,070 m)² × 0.044 rad/s = 1.9 × 10¹⁶ N·m·s
 {% endeq %}
 
@@ -83,11 +83,11 @@ Industrial: L ≈ 1 × 10¹¹ kg × (2,070 m)² × 0.044 rad/s = 1.9 × 10¹⁶ 
 | --- | --- | --- |
 | Rotors 1 and 2 | retrograde, 0.0626 rad/s | minus 50% |
 | Rotors 3 and 4 | prograde, 0.0626 rad/s | plus 50% |
-| Industrial rotor | retrograde, 0.044 rad/s | minus 4% |
-| Momentum rings | prograde | plus 4% |
+| Industrial rotor | retrograde, 0.044 rad/s | minus 3.5% |
+| Momentum rings | prograde | plus 3.5% |
 | Net | | 0 (within 0.1%) |
 
-The rotor mass is a planning value. The industrial rotor's effective radius is 0.9 of its 2,300 m outer radius because its mass is not all at the rim.
+The rotor mass is a planning value: the 341 million tonnes of the itemised rotor, end caps included, with the whole mass taken at the 2,500 m rim. The industrial rotor's effective radius is 0.9 of its 2,300 m outer radius because its mass is not all at the rim.
 
 <!-- facts: section 3 (counter-rotation and momentum), section 2 (rotors) -->
 {% enddeeper %}
@@ -96,14 +96,14 @@ The rotor mass is a planning value. The industrial rotor's effective radius is 0
 Turning a body with angular momentum L at a rate Ω needs a torque of Ω × L. Steering at 1 degree per day is Ω = 0.01745 rad / 86,400 s = 2.02 × 10⁻⁷ rad/s.
 
 {% eq %}
-Unpaired: τ = 2.02 × 10⁻⁷ × 4.7 × 10¹⁷ = 9.5 × 10¹⁰ N·m
-Force at each end of a 21 km hull: F = τ / 21,000 m = 4.5 MN
-Paired, net held well inside 0.1%: F ≈ 4 kN
+Unpaired: τ = 2.02 × 10⁻⁷ × 5.3 × 10¹⁷ = 1.1 × 10¹¹ N·m
+Force at each end of a 21 km hull: F = τ / 21,000 m = 5.1 MN
+Paired, net held inside 0.1%: F ≤ 5.1 kN
 {% endeq %}
 
-Pairing cuts the force by a factor of 1,000. The station's thrusters and momentum rings handle the remaining 4 kN.
+Pairing cuts the force by a factor of 1,000. The station's thrusters and momentum rings handle the remaining 5 kN or less.
 
-An ascender also moves momentum. Each ascent hands the rotor about 2.1 × 10¹⁰ N·m·s, roughly 2 parts in 10 million of one rotor's total. A climbing cabin's partner descends on the same tower and takes the momentum straight back.
+An ascender also moves momentum. Each ascent hands the rotor about 2.1 × 10¹⁰ N·m·s, roughly 1.6 parts in 10 million of one rotor's total. A climbing cabin's partner descends on the same tower and takes the momentum straight back.
 {% enddeeper %}
 
 {% deeper "Sizing a momentum ring" basis="physics" %}
@@ -114,7 +114,7 @@ m = L / (v × r) = 1.9 × 10¹⁶ / (1,000 × 2,400) = 7.9 × 10⁹ kg
 σ = ρ × v² = 1,600 kg/m³ × (1,000 m/s)² = 1.6 GPa
 {% endeq %}
 
-That is 7.9 million tonnes, or about 8.75 million tonnes with trim headroom, split between two rings of 4.38 million tonnes each. Against the station's 1.92 billion tonnes, 8.75 million tonnes is 0.46 percent. The hoop stress ρv² sets the speed limit, because a faster rim would need a stronger material than carbon fibre.
+That is 7.9 million tonnes, or about 8.75 million tonnes with trim headroom, split between two rings of 4.38 million tonnes each. Against the station's 2.09 billion tonnes, 8.75 million tonnes is 0.42 percent. The hoop stress ρv² sets the speed limit, because a faster rim would need a stronger material than carbon fibre.
 {% enddeeper %}
 
 {% sources %}

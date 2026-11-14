@@ -15,11 +15,11 @@ related:
 ## Predict
 
 {% predict "Suppose all four city rotors spun the same way. How hard would each end of the station have to push to turn it 1 degree a day?" correct=3 %}
-About 4 thousand newtons
-About 400 thousand newtons
-About 4 million newtons
+About 5 thousand newtons
+About 500 thousand newtons
+About 5 million newtons
 ---
-About 4 million newtons at each end, continuously: 4.1 MN with the industrial rotor, Ehricke, and the rings already working against it. The station as built needs at most 4.5 kN. The difference is a factor of about a thousand.
+About 5 million newtons at each end, continuously: 4.7 MN with the industrial rotor, Ehricke, and the rings already working against it. The station as built needs at most 5.1 kN. The difference is a factor of about a thousand.
 {% endpredict %}
 
 ## Observe
@@ -32,9 +32,9 @@ Open the momentum overlay on the whole station. Tsiolkovsky and Noordung carry o
 
 ## Explain
 
-A spinning rotor is a gyroscope. Push on it to turn it and it pushes back at a right angle. Each rotor holds 1.17 × 10¹⁷ N·m·s of angular momentum, so four spinning the same way would hold 4.7 × 10¹⁷ and resist every turn. {% basis "physics" %}
+A spinning rotor is a gyroscope. Push on it to turn it and it pushes back at a right angle. Each rotor holds 1.33 × 10¹⁷ N·m·s of angular momentum, so four spinning the same way would hold 5.3 × 10¹⁷ and resist every turn. {% basis "physics" %}
 
-Concordia pairs rotors with opposing angular momenta. Tsiolkovsky and Noordung turn one way and Bernal and O'Neill the other, so the habitation rotors sum to zero. The industrial rotor turns against rotor four and holds about 4 percent of the total. Momentum rings trim whatever is left, to within 0.1 percent. {% basis "design" %} The pairs spin against each other at the spine, so the spine, hull and ports sit still between them.
+Concordia pairs rotors with opposing angular momenta. Tsiolkovsky and Noordung turn one way and Bernal and O'Neill the other, so the habitation rotors sum to zero. The industrial rotor turns against rotor four and holds about 3.5 percent of the total. Momentum rings trim whatever is left, to within 0.1 percent. {% basis "design" %} The pairs spin against each other at the spine, so the spine, hull and ports sit still between them.
 
 The rotors turn once every 100 seconds. The station frame does not, and it can turn on a few kilonewtons of electric thrust. Momentum is transferred between rotors and rings. This transfer uses electricity without consuming propellant.
 
@@ -43,10 +43,10 @@ Turning a body with angular momentum L at rate W takes a torque L × W. A couple
 
 {% eq %}
 W = 1° / day = 2.02 × 10⁻⁷ rad/s
-all four one way (net 4.28 × 10¹⁷ N·m·s):
-torque = 4.28 × 10¹⁷ × 2.02 × 10⁻⁷ = 8.6 × 10¹⁰ N·m
-force at each end = 8.6 × 10¹⁰ / 21,000 m = 4.1 MN
-as built (inside the 0.1 percent band): 4.5 kN
+all four one way (net 4.94 × 10¹⁷ N·m·s):
+torque = 4.94 × 10¹⁷ × 2.02 × 10⁻⁷ = 1.0 × 10¹¹ N·m
+force at each end = 1.0 × 10¹¹ / 21,000 m = 4.7 MN
+as built (inside the 0.1 percent band): 5.1 kN
 {% endeq %}
 
 [Counter-rotation](/science/counter-rotation/) has the full ledger, including the rings.
@@ -56,4 +56,4 @@ as built (inside the 0.1 percent band): 4.5 kN
 
 Press All four spin one way in the ledger and read the thrust. Then press Concordia as built and watch it fall to a few kilonewtons.
 
-{% widget "momentum-ledger" "A ledger of angular momentum for the four rotors, the industrial rotor and the rings. As built the net is zero; with all four rotors spinning one way the thrust to turn the station is 4.1 MN at each end." %}
+{% widget "momentum-ledger" "A ledger of angular momentum for the four rotors, the industrial rotor and the rings. As built the net is zero; with all four rotors spinning one way the thrust to turn the station is 4.7 MN at each end." %}

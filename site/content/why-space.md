@@ -72,11 +72,11 @@ Launch cost for the whole station with fully reusable heavy launchers (about $2 
 {% eq %}
 $2 million / 100,000 kg = $20 per kg to low orbit
 5 flights x $2 million / 100,000 kg = $100 per kg to L5
-$100 per kg x 1.92 x 10^12 kg = $1.9 x 10^14
-1.92 x 10^12 kg / 100,000 kg per load = 1.9 x 10^7 loads
+$100 per kg x 2.09 x 10^12 kg = $2.1 x 10^14
+2.09 x 10^12 kg / 100,000 kg per load = 2.1 x 10^7 loads
 {% endeq %}
 
-At the 2018 Falcon 9 price the same mass would have cost $2,720 x 1.92 x 10^12 = $5.2 x 10^15.
+At the 2018 Falcon 9 price the same mass would have cost $2,720 x 2.09 x 10^12 = $5.7 x 10^15.
 
 Solar area for 40 GW at 340 W/m2 delivered: 40 x 10^9 / 340 = 1.18 x 10^8 m2, or 118 km2.
 

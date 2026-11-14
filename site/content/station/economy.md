@@ -22,7 +22,7 @@ The launch prices, construction rates and workforces of the 2020s cannot support
 
 <!-- facts: section 16 -->
 
-Concordia weighs about two billion tonnes. That is about as much material as all the world's steelworks poured in 2024, 1.88 billion tonnes. {% basis "physics" %} Material started arriving at L5 in the mid 2030s and the fourth rotor reached full spin in 2044, so the station went up in about ten years: about 200 million tonnes a year, more than half a million tonnes a day, in vacuum, 384,400 km from the nearest steelworks. {% basis "fiction" %}
+Concordia weighs about two billion tonnes. That is about 1.1 times what all the world's steelworks poured in 2024, 1.88 billion tonnes. {% basis "physics" %} Material started arriving at L5 in the mid 2030s and the fourth rotor reached full spin in 2044, so the station went up in about ten years: about 200 million tonnes a year, more than half a million tonnes a day, in vacuum, 384,400 km from the nearest steelworks. {% basis "fiction" %}
 
 Launched from Earth, even at the 2030s price of about $100 per kg delivered to L5, that mass costs about $200 trillion ([the arithmetic](/station/building-concordia/)). Built by hand, it needs hundreds of thousands of workers in space before there is anywhere for them to live.
 
@@ -86,16 +86,16 @@ The 1967 Outer Space Treaty makes each state answer for its nationals' activitie
 Construction rate, from the canon schedule (material from the mid 2030s, fourth rotor at full spin in 2044):
 
 {% eq %}
-1.92 × 10^12 kg / 10 years ≈ 1.9 × 10^11 kg a year
-≈ 526,000 t a day
-1.92 × 10^9 t / 1.88 × 10^9 t ≈ 1.0 years
+2.09 × 10^12 kg / 10 years ≈ 2.1 × 10^11 kg a year
+≈ 571,000 t a day
+2.09 × 10^9 t / 1.88 × 10^9 t ≈ 1.1 years
 of world crude steel (2024)
 {% endeq %}
 
 Doublings from a 1,000 t seed:
 
 {% eq %}
-1.92 × 10^12 kg / 10^6 kg ≈ 2^21
+2.09 × 10^12 kg / 10^6 kg ≈ 2^21
 10 years / 21 ≈ 5.7 months a doubling
 (4.6 months over 8 years)
 {% endeq %}
@@ -104,8 +104,8 @@ Energy, assuming 30 MJ per kg:
 
 {% eq %}
 30 MJ = 8.3 kWh ≈ $0.08 at $0.01/kWh
-1.92 × 10^12 kg × 3 × 10^7 J/kg
-/ 3.16 × 10^8 s ≈ 182 GW for ten years
+2.09 × 10^12 kg × 3 × 10^7 J/kg
+/ 3.16 × 10^8 s ≈ 198 GW for ten years
 {% endeq %}
 
 Compute field at 200 GW, at the station's 340 W/m² delivered:

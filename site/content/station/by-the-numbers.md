@@ -32,7 +32,7 @@ These are the station's design values, plus quantities worked out from them. Row
 | Hull surface | about 388 km2 | {% basis "design" %} | Sets the shielding and radiator areas | 2 pi r L + 2 pi r^2 = 388 km2 (derived) |
 | Population now | about 400,000 | {% basis "fiction" %} | Rotors fill one at a time |  |
 | Design population | 1.0 to 1.2 million | {% basis "design" %} | Four rotors with elevated building |  |
-| Finished mass | about 1.92 x 10^12 kg, two billion tonnes | {% basis "design" %} | Why Earth launch cannot supply it | sum of the mass budget below (derived) |
+| Finished mass | about 2.09 x 10^12 kg, two billion tonnes | {% basis "design" %} | Why Earth launch cannot supply it | sum of the mass budget below (derived) |
 
 <!-- facts: sections 1, 4 -->
 
@@ -79,16 +79,16 @@ These are the station's design values, plus quantities worked out from them. Row
 
 ## Mass budget
 
-The finished station is about 1.92 x 10^12 kg, about two billion tonnes. The table lists what is included: the four habitation rotors with their air, Ehricke (the industrial rotor), and the shielding example. The spine, ports, radiators and yards are small next to these rows and are not itemised.
+The finished station is about 2.09 x 10^12 kg, about two billion tonnes. The table lists what is included: the four habitation rotors with their air, Ehricke (the industrial rotor), and the shielding example. The spine, ports, radiators and yards are small next to these rows and are not itemised.
 
 | Part | Mass | Basis | Why | Formula |
 | --- | --- | --- | --- | --- |
-| Four habitation rotors, air included | 1.2 x 10^12 kg | {% basis "design" %} | Each rotor is planned at 3 x 10^11 kg, about 45 Mt of it air | 4 x 3 x 10^11 kg |
+| Four habitation rotors, air included | 1.36 x 10^12 kg | {% basis "design" %} | Each rotor is planned at 3.41 x 10^11 kg, end caps included, about 45 Mt of it air | 4 x 3.41 x 10^11 kg |
 | Ehricke (the industrial rotor) | 1 x 10^11 kg | {% basis "design" %} | The rotating mass of the industrial rotor |  |
 | Stationary shielding | about 6.2 x 10^11 kg | {% basis "design" %} | One metre of regolith at 1.6 t/m3 over the hull | 1 m x 1,600 kg/m3 x 388 km2 (derived) |
-| **Total** | **about 1.92 x 10^12 kg** | {% basis "design" %} | Still of the order of 10^12 kg | 1.2 + 0.1 + 0.621 = 1.92 x 10^12 kg (derived) |
-| In International Space Stations | about 4.6 million | {% basis "design" %} | One ISS is 419,725 kg | 1.92 x 10^12 / 419,725 (derived) |
-| Momentum rings, share of the total | about 0.46 percent | {% basis "design" %} | About 8.75 Mt of rim | 8.75 x 10^9 / 1.92 x 10^12 = 0.46 percent (derived) |
+| **Total** | **about 2.09 x 10^12 kg** | {% basis "design" %} | Still of the order of 10^12 kg | 1.364 + 0.1 + 0.621 = 2.085 x 10^12 kg (derived) |
+| In International Space Stations | about 5 million | {% basis "design" %} | One ISS is 419,725 kg | 2.085 x 10^12 / 419,725 = 4.97 x 10^6 (derived) |
+| Momentum rings, share of the total | about 0.42 percent | {% basis "design" %} | About 8.75 Mt of rim | 8.75 x 10^9 / 2.085 x 10^12 = 0.42 percent (derived) |
 
 <!-- facts: section 4 -->
 
@@ -97,11 +97,11 @@ The finished station is about 1.92 x 10^12 kg, about two billion tonnes. The tab
 | Quantity | Value | Basis | Why | Formula |
 | --- | --- | --- | --- | --- |
 | Net angular momentum | zero by construction | {% basis "physics" %} | A steerable station | Tsiolkovsky and Noordung (Rotors 1+2) = -50 percent, Bernal and O'Neill (Rotors 3+4) = +50 percent |
-| Rotor angular momentum | 1.2 x 10^17 N m s each | {% basis "physics" %} | Cancelled in pairs | L = m r^2 w, with m = 3 x 10^11 kg |
+| Rotor angular momentum | 1.3 x 10^17 N m s each | {% basis "physics" %} | Cancelled in pairs | L = m r^2 w, with m = 3.41 x 10^11 kg = 1.33 x 10^17 |
 | Ehricke (the industrial rotor) | radius 2,300 m, 3,500 m long | {% basis "design" %} | Heavy industry at partial gravity |  |
 | Industrial spin | 0.044 rad/s, period 142.8 s | {% basis "design" %} | Opposes O'Neill (Rotor 4) | T = 2 pi / w (derived) |
 | Industrial gravity | about 0.45 g | {% basis "physics" %} | Lower than the cities | w^2 r / 9.80665 = 0.454 g (derived) |
-| Industrial momentum | 1.9 x 10^16 N m s, about 4 percent | {% basis "physics" %} | Cancelled by the momentum rings |  |
+| Industrial momentum | 1.9 x 10^16 N m s, about 3.5 percent | {% basis "physics" %} | Cancelled by the momentum rings |  |
 | Momentum rings | about 8.75 Mt total | {% basis "design" %} | Store what the pairs cannot cancel | m = L / (v r) at 1 km/s, 2,400 m |
 | Net hold | within 0.1 percent | {% basis "design" %} | Cargo and launches move it |  |
 | Shipyard | about 3,500 m long, zero g | {% basis "design" %} | Build without a floor |  |

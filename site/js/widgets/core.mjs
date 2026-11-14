@@ -9,9 +9,9 @@ export const CONCORDIA = {
   omega: 0.0626, // rad/s, habitation rotors
   metroRadiusM: 2455, // metro rail head
   hullLengthM: 21000, // lever arm between the two hull ends
-  rotorL: 1.17e17, // N m s per rotor: 3e11 kg x 2,500 m squared x 0.0626 rad/s
+  rotorL: 1.334e17, // N m s per rotor: 3.41e11 kg x 2,500 m squared x 0.0626 rad/s (1.33e17)
   industrialL: 1.9e16, // N m s, retrograde
-  ringCapL: 2.1e16, // N m s: 6.3 Mt holds 1.9e16, about 7 Mt with trim headroom
+  ringCapL: 2.1e16, // N m s: the two momentum rings, 8.75 Mt at r 2,400 m and 1 km/s, hold 1.9e16 plus trim headroom
   netBand: 0.001, // PHY MOMENTUM_NET_BAND, fraction of the four-rotor magnitude
   radiatorPanelsM2: 248 * 400 * 200, // 248 panel modules of 400 x 200 m
   launchAccelG: 1.01, // 9.94 m/s2 plateau (docs/19 section 7)
