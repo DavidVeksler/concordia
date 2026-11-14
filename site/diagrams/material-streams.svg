@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="ms-title ms-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
-  <title id="ms-title">Two material streams into the industrial rotor</title>
-  <desc id="ms-desc">Two streams run toward the industrial rotor. The lunar stream: mining and refining on the Moon, an electromagnetic mass driver, and a capture facility far from the station. The asteroid stream, which came first: small metal-rich and carbonaceous asteroids, bagged by haulers and hauled into the L5 region, then cut up and processed far from the station. Both end in the industrial rotor's stores of semi-processed stock, which feed shielding, city structure, air and water, propellant and ships.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="ms-title ms-desc" font-family="DM Sans, system-ui, sans-serif" font-size="16">
+  <title id="ms-title">Material streams into the industrial rotor</title>
+  <desc id="ms-desc">Two streams run toward the industrial rotor, and a third source supplies the air's nitrogen. The lunar stream: mining and refining on the Moon, an electromagnetic mass driver, and a capture facility far from the station. The asteroid stream, which came first: small metal-rich and carbonaceous asteroids, bagged by haulers and hauled into the L5 region, then cut up and processed far from the station. The third source, for the air only: liquid nitrogen skimmed from Earth's upper atmosphere and brought by electric tugs. All end in the industrial rotor's stores of semi-processed stock, which feed shielding, city structure, air and water, propellant and ships.</desc>
   <defs>
     <marker id="ms-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="currentColor"/></marker>
   </defs>
   <g fill="currentColor" font-size="15" opacity="0.85">
     <text x="20" y="28">The Moon: oxygen, metals, glass</text>
-    <text x="20" y="248">Asteroids (first): iron-nickel, water, carbon, nitrogen</text>
+    <text x="20" y="248">Asteroids (first): iron-nickel, water, carbon, fixed nitrogen</text>
   </g>
   <g stroke="currentColor" stroke-width="1.5">
     <rect x="20" y="44" width="150" height="70" rx="6" fill="var(--surface-2)"/>
@@ -47,5 +47,6 @@
     <text x="420" y="372">Asteroid stock: water ice, carbon</text>
     <text x="420" y="394">feedstock, nitrogen compounds,</text>
     <text x="420" y="416">metal concentrates.</text>
+    <text x="20" y="460" font-weight="600">Third source, air only: liquid nitrogen from Earth's upper atmosphere, by electric tug.</text>
   </g>
 </svg>

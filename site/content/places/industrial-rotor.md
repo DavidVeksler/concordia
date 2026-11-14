@@ -34,7 +34,7 @@ The rotor holds stores of semi-processed material from two sources.
 
 **Lunar feedstock** arrives from the Moon by mass driver: sintered regolith billets, aluminium and iron ingots, glass and basalt fibre, and oxygen. It is the bulk of what the city is made from.
 
-**Asteroid stock** comes from small asteroids bagged and hauled into the L5 region: metal-rich bodies first, for iron-nickel, then carbonaceous ones for water ice, carbon feedstock, nitrogen compounds and metal concentrates. The Moon has little carbon, hydrogen or nitrogen, so these stores are what the farms, the air and the chemical plants draw on.
+**Asteroid stock** comes from small asteroids bagged and hauled into the L5 region: metal-rich bodies first, for iron-nickel, then carbonaceous ones for water ice, carbon feedstock, nitrogen compounds and metal concentrates. The Moon has little carbon, hydrogen or nitrogen, so these stores are what the farms and the chemical plants draw on. The air's nitrogen is the exception: it arrives as a liquid skimmed from Earth's upper atmosphere ([how](/science/materials/#nitrogen)).
 
 {% shot "pl-industrial-material-flow" "The industrial rotor with the material flow overlay marking the lunar and asteroid streams." %}
 

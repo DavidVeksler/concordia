@@ -45,7 +45,7 @@ The left column is light and expensive per kilogram. The right column is heavy a
 
 ## Where the elements are
 
-Earth, the Moon and the asteroids are made of the same elements in very different proportions. The Moon's surface is rich in oxygen, silicon, aluminium, iron, calcium and titanium, but it holds only traces of hydrogen, carbon and nitrogen, mostly implanted by the solar wind. Carbonaceous asteroids are the opposite: primitive rock that never melted, with water, carbon and nitrogen locked in its minerals. Metal-rich asteroids are pieces of the cores of shattered small worlds: almost pure iron-nickel alloy with cobalt and the platinum-group metals dissolved in it.
+Earth, the Moon and the asteroids are made of the same elements in very different proportions. The Moon's surface is rich in oxygen, silicon, aluminium, iron, calcium and titanium, but it holds only traces of hydrogen, carbon and nitrogen, mostly implanted by the solar wind. Carbonaceous asteroids are the opposite: primitive rock that never melted, with water, carbon and nitrogen locked in its minerals. Metal-rich asteroids are pieces of the cores of shattered small worlds: almost pure iron-nickel alloy with cobalt and the platinum-group metals dissolved in it. The air's nitrogen is too much for rock to carry, a rotor's worth being 193 Bennus, so it is skimmed from Earth's upper atmosphere ([Nitrogen from Earth's sky](/science/materials/#nitrogen)).
 
 {% diagram "element-sources" "Where the elements are. Earth's crust, lunar soil, carbonaceous asteroids and metal-rich asteroids, shaded by share of mass. Sources are listed at the foot of the page." %}
 

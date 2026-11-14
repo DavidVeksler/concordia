@@ -17,7 +17,7 @@ related:
 
 The air in Concordia is Earth's air. The pressure is 101 kPa, the same as sea level, and the gas is oxygen plus an inert diluent, as on Earth. Nitrogen is the natural diluent. NASA's reference sea-level air is 78 percent nitrogen and 21 percent oxygen, and the International Space Station keeps the same pressure and oxygen share. NASA's standard allows crews to live indefinitely anywhere from 34.5 to 103 kPa with at least 30 percent diluent. {% basis "physics" %} Concordia sits near the top of that range. {% basis "design" %} How a station holds that atmosphere, with oxygen generation, CO₂ removal and the diluent-gas rule, is in the [atmosphere loop of the CheatSheets space habitat guide](https://cheatsheets.davidveksler.com/space-habitats-life-support.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=science-air-water-food#atmosphere-loop).
 
-That air fills about 200 km³ across four rotors. It adds up to some 150 to 200 million tonnes. Oxygen is easy to get, because the Moon's rock is full of it. Nitrogen is scarce on the Moon, and carbonaceous asteroids supply it. (See [how Concordia was built](/station/building-concordia/).)
+That air fills about 200 km³ across four rotors. It adds up to some 150 to 200 million tonnes. Oxygen is easy to get, because the Moon's rock is full of it. Nitrogen is scarce on the Moon and too dilute in asteroids to fill four rotors, so the air's nitrogen is skimmed from Earth's upper atmosphere ([how](/science/materials/#nitrogen)). (See also [how Concordia was built](/station/building-concordia/).)
 
 The air above the artificial sky is the same air as the air below, and the sky is not a pressure boundary. There is no weather except what the sky schedules ([light and sky](/science/light-and-sky/)), and it never rains. Air movement is engineered, and fire protection is built in: low-flammability materials, smoke detection, suppression drones, water mist, mostly electric cooking, and independent refuge zones in large buildings.
 
@@ -44,7 +44,7 @@ The recovery rate matters more than the volume. The first benchmark was set in 2
 
 There is no landfill. Every kind of waste is a stock of elements, tracked by inventory: water, carbon, nitrogen, phosphorus, metals, glass, polymers and biological nutrients. Recycling lines in Ehricke (the industrial rotor) sort and refine what households and factories send back. This is {% term "closed-loop life support" %} on the scale of a city, with an inventory for each element. {% basis "challenge" %}
 
-A station that recovers 99 percent still loses 1 percent a cycle, so imports never reach zero. The Moon supplies oxygen, silicon, aluminium and iron without strain. The scarce items are carbon, hydrogen and nitrogen, and the {% term "volatiles" %} that carry them come from {% term "carbonaceous asteroid" "carbonaceous asteroids" %}.
+A station that recovers 99 percent still loses 1 percent a cycle, so imports never reach zero. The Moon supplies oxygen, silicon, aluminium and iron without strain. The scarce items are carbon, hydrogen and nitrogen. The {% term "volatiles" %} that carry carbon, hydrogen and fixed nitrogen come from {% term "carbonaceous asteroid" "carbonaceous asteroids" %}, and the air's nitrogen comes from [Earth's upper atmosphere](/science/materials/#nitrogen).
 
 ## From sewer to supper
 

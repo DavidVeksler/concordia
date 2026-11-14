@@ -37,12 +37,12 @@ Two streams of raw material start arriving at L5 in the mid 2030s.
 
 {% shot "sci-ov-material-flow" "The material-flow overlay: lunar feedstock and asteroid volatiles arrive at the stores in Ehricke, then flow on to the city, the yard and the hull." %}
 
-**From asteroids, first.** Small metal-rich near-Earth asteroids, tens of metres across, are bagged whole and hauled into the L5 region without a landing. Their iron-nickel goes directly to the yard without smelting. The Moon lacks carbon, nitrogen and hydrogen, so small carbonaceous asteroids follow the same route. Measurements in 2045 put the captured carbonaceous bodies at roughly 10 percent water and a few percent carbon by mass. {% basis "fiction" %} How the haulers work is on [Mining the Moon and asteroids](/science/mining/).
+**From asteroids, first.** Small metal-rich near-Earth asteroids, tens of metres across, are bagged whole and hauled into the L5 region without a landing. Their iron-nickel goes directly to the yard without smelting. The Moon lacks carbon, nitrogen and hydrogen, so small carbonaceous asteroids follow the same route for carbon, hydrogen, water and fixed nitrogen. The air's bulk nitrogen is skimmed from Earth's upper atmosphere ([how](/science/materials/#nitrogen)). Measurements in 2045 put the captured carbonaceous bodies at roughly 10 percent water and a few percent carbon by mass. {% basis "fiction" %} How the haulers work is on [Mining the Moon and asteroids](/science/mining/).
 
 **From the Moon, at scale.** Lunar mining and refining, and an electromagnetic {% term "mass driver" %}, come up behind the asteroid haulers and soon carry most of the tonnage. The Moon has 1/6 of Earth's surface gravity (1.62 m/s2 against 9.80) and an escape velocity of 2.38 km/s against Earth's 11.2 km/s. It supplies most of the oxygen, silicon, aluminium, iron, glass and shielding mass.
 
 {% callout "In 2045" %}
-Prospecting in the 2030s found water ice at a few percent by mass through the upper metres of {% term "permanently shadowed region" "permanently shadowed" %} regolith, across several hundred square kilometres of the lunar poles. It is enough for propellant and early life support. It is not enough for the air and water of a million people, which is why asteroids supply most of the {% term "volatiles" %}. {% basis "fiction" %}
+Prospecting in the 2030s found water ice at a few percent by mass through the upper metres of {% term "permanently shadowed region" "permanently shadowed" %} regolith, across several hundred square kilometres of the lunar poles. It is enough for propellant and early life support. It is not enough for the air and water of a million people, which is why asteroids supply most of the {% term "volatiles" %}. The exception is the air's nitrogen, which is skimmed from Earth's upper atmosphere. {% basis "fiction" %}
 {% endcallout %}
 
 ## Step 2: the station is its own factory
@@ -51,7 +51,7 @@ Construction began with the zero-g yard, power supply, radiators and first indus
 
 {% shot "sc-zero-g-shipyard" "The zero-g yard, one of the first parts built. The factory comes before the homes: it makes the girders, tanks and cassettes the city is made from." %}
 
-Workers live in small rotating construction rings, a few hundred metres across. The factory turns incoming feedstock into girders, glass, fibre, tanks and cassettes, so that later steps draw on stock held in the station, not on Earth. The industrial rotor still holds stores from both sources: sintered regolith billets, aluminium and iron ingots, glass and basalt fibre and oxygen from the Moon; water ice, carbon feedstock, nitrogen compounds and metal concentrates from asteroids.
+Workers live in small rotating construction rings, a few hundred metres across. The factory turns incoming feedstock into girders, glass, fibre, tanks and cassettes, so that later steps draw on stock held in the station, not on Earth. The industrial rotor still holds stores from both sources: sintered regolith billets, aluminium and iron ingots, glass and basalt fibre and oxygen from the Moon; water ice, carbon feedstock, nitrogen compounds and metal concentrates from asteroids; liquid nitrogen for the air from Earth's upper atmosphere.
 
 {% explore viewpoint="industrial-rotor-wide" %} {% explore viewpoint="zero-g-shipyard" %}
 
@@ -69,7 +69,7 @@ Tsiolkovsky is built stationary. The prebuilt megaframe goes in while the rotor 
 
 Spin-up is slow on purpose. The first full-speed turn of a structure this large is one of the riskiest events in construction. Speed rises in small increments and dwells at each step to expose resonances. The next increment starts only when the structure behaves as the model says. Temporary construction equipment comes out before full gravity. The campaign takes days to weeks. {% basis "fiction" %}
 
-The air for one rotor is about 45 million tonnes. Most of its nitrogen comes from asteroids. The first residents arrive in 2041.
+The air for one rotor is about 45 million tonnes. Its nitrogen, 34 million tonnes, is skimmed from Earth's upper atmosphere between 2034 and 2044 ([how](/science/materials/#nitrogen)). The first residents arrive in 2041.
 
 ## Step 5: Noordung, Bernal and O'Neill
 

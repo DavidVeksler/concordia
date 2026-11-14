@@ -1737,7 +1737,7 @@
     {
       "slug": "material-flow",
       "name": "Material flow",
-      "summary": "Regolith, metals, glass and oxygen arrive from the Moon. Iron-nickel, water, carbon and nitrogen arrive from asteroids bagged and hauled to L5, which came first. The industrial rotor stores both, then sends water, air and building stock to the city and hull and tank stock to the yard.",
+      "summary": "Regolith, metals, glass and oxygen arrive from the Moon. Iron-nickel, water, carbon and fixed nitrogen arrive from asteroids bagged and hauled to L5, which came first. The nitrogen in the air is skimmed from the upper atmosphere of Earth. The industrial rotor stores both, then sends water, air and building stock to the city and hull and tank stock to the yard.",
       "learnMore": "/science/materials/",
       "callouts": [
         {
@@ -1745,7 +1745,7 @@
           "href": "/science/materials/#what-the-moon-gives"
         },
         {
-          "text": "ASTEROID VOLATILES: water, carbon, nitrogen",
+          "text": "ASTEROID VOLATILES: water, carbon, fixed nitrogen",
           "href": "/science/materials/#what-asteroids-bring"
         },
         {
