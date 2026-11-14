@@ -65,11 +65,29 @@ So the frame has two load paths, outward to the bands and inward to the hub ring
 
 Each rotor ends in an inhabited {% term "end wall" "cliff" %} 2,436 m tall, from the ground to the 64 m bore at the axis. Gravity on it falls from 1 g at the foot to 0.6 g at 1,000 m and almost nothing at the top, and 64 percent of its area lies in the first 1,000 m. {% basis "design" %}
 
-The air pushes on one end of one rotor with about 2 trillion newtons, the weight of 200 million tonnes. {% basis "physics" %} How the rotor wall turns the corner into the end wall is the next design problem.
+The air pushes on one end of one rotor with about 2 trillion newtons, the weight of 200 million tonnes. {% basis "physics" %} A flat plate 2.2 m thick would be stressed to 160 GPa, 294 times what carbon carries; one thick enough would be 38 m of carbon, 1,186 Mt per end. {% basis "physics" %} So the face stays flat for the city, and a separate cap behind it holds the air.
 
 {% shots "sci-st-end-wall" "The end wall of Tsiolkovsky (Rotor 1) from its foot, a cliff of terraces and lit viaducts curving up into the sky." "sc-end-wall-axis" "The same wall from 2,150 m on the axis side, where weight is 0.14 g: the terraces have become concentric ledge rings, with halls and gardens set into them." %}
 {% explore viewpoint="end-wall-foot" %}
 {% explore viewpoint="end-wall-axis" %}
+
+## The end cap {#the-end-cap}
+
+Behind each face, an {% term "end cap" %} holds the air in tension, like the wall's bands: a carbon membrane bulging into the gap in five shallow arcs called {% term "lobe" "lobes" %}, 96, 29, 6, 7 and 13 m deep from the rim inward. Each pulls 100 to 212 MN on every metre at its crown, in carbon 19 to 39 cm thick. {% basis "design" %} Lobes meet on {% term "tie ring" "tie rings" %}, ring girders 850, 1,355, 1,610 and 1,900 m above the ground, with a hub ring 140 m from the axis. The sags balance the sideways pulls on each ring. {% basis "design" %}
+
+{% diagram "end-cap-section" "One cap in section, hub to rim, drawn loaded and four times deeper than wide: the flat face, five lobes with their sags, the tie rings and ties, the rim ring, the cap rooms and the gap with the facing cap." %}
+
+The rings pass that pull to 240 {% term "axial tie" "axial ties" %}, carbon bundles 2,495 m long from one cap to the other above the artificial sky. The rings avoid the megaframe's levels, where the upper city is built: each sits in a corridor no building, pier, spoke or ring beam crosses, with its ties half a pitch off the megaframe's lines. {% basis "design" %} Each tie carries 1.8 to 7.8 GN, where a spoke carries 2 GN. Short struts to the nearest megaframe member hold each at the five rib lines. {% basis "design" %}
+
+{% diagram "end-cap-axial" "The cap seen along the axis, to scale: the rim ring, four tie rings and the hub ring with a dot at every tie anchor, and the radial ribs, with the count, load and section of the ties on each ring." %}
+
+Ties and wall members stretch together, so both caps stay plane and the rotor grows 7.0 m in length under pressure, leaving 102 m clear between facing lobes in the 300 m gap. {% basis "physics" %} If one tie fails, its neighbours carry 1.4 to 1.5 times their load, within the short-term limit. {% basis "challenge" %} Between face and lobes lie the {% term "cap rooms" %}, 0.82 km³ of the city's air per cap. {% basis "design" %}
+
+At the rim, the outer lobe leaves the wall at 25.5 degrees. Its pull has 39.4 MN/m along the axis, taken by the wall's axial members, and 82.8 MN/m inward, which squeezes the corner and which bands cannot take. A rim compression ring of 580 m² of carbon carries it, 174 GN. {% basis "challenge" %}
+
+The two caps of a rotor weigh 85.6 Mt. They bring a rotor's estimated mass to about 341 Mt, and the station's 300 Mt planning figure is under review. {% basis "design" %}
+
+{% explore viewpoint="low-g-atrium" %}
 
 ## The gap and the stationary shell {#the-stationary-shell}
 
@@ -130,6 +148,23 @@ A plate reaches 40 m from a pier at 1 g and 100 m at 0.4 g, so piers shrink from
 {% eq %}
 F = P × π × r² = 101,325 × π × 2,500² = 1.99 × 10¹² N
 {% endeq %}
+{% enddeeper %}
+
+{% deeper "How the end cap holds the air" basis="physics" %}
+For an arc of radius R with its crown at radius r_c, the pull is largest at the inner edge, and half as much around it:
+
+{% eq %}
+N(r) = P × R × (r_c + r) / (2r)
+N_hoop = P × R / 2
+lobe 1: N_crown = 101,325 Pa × 988.8 m = 100.2 MN/m
+thickness = 100.2 MN/m / 550 MPa = 18.7 cm
+F = P × π × (2,500² − 64²) = 1,988 GN, shared by the rings
+{% endeq %}
+
+{% enddeeper %}
+
+{% deeper "The corner in numbers" basis="physics" %}
+A rounded knuckle needs 351 m of depth along the axis; keeping 100 m clear between facing caps leaves 1 m per cap. Letting the wall bend moves its end 49 m inward and strains the bands 1.9 percent. So the ring takes 69.6 of the 82.8 MN/m at 300 MPa. It is built 12.8 m oversize: the wall grows 8.2 m under load and the ring shortens 4.6 m.
 {% enddeeper %}
 
 {% deeper "Why a vacuum" basis="physics" %}

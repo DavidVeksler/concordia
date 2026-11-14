@@ -1,8 +1,8 @@
 ---
 title: "Space habitat glossary"
 h1: "Glossary"
-description: 75 terms used across the Concordia guide, from aeroponics and angular momentum to Whipple shield, each in one or two plain sentences and each linked to the page that explains it.
-lead: 75 terms from physics, space flight and station design, each in a sentence or two. Each entry links to the page that explains it best.
+description: 80 terms used across the Concordia guide, from aeroponics and angular momentum to Whipple shield, each in one or two plain sentences and each linked to the page that explains it.
+lead: 80 terms from physics, space flight and station design, each in a sentence or two. Each entry links to the page that explains it best.
 nav: station
 order: 99
 updated: 2026-11-13
@@ -29,11 +29,17 @@ A lit ceiling about 450 m above the ground of each rotor, built to look like ope
 ### Ascender
 A radial lift that carries about 150 people between the ground and the hub in roughly 10 minutes. Its cabin tilts to match the changing apparent vertical. See [ascenders and sky](/places/ascenders-and-sky/).
 
+### Axial tie
+A carbon-rod bundle that runs the length of a rotor, 2,495 m, from a tie ring on one end cap to the same place on the other, above the artificial sky. A rotor has 240 of them, each carrying 1.8 to 7.8 GN. See [structure](/science/structure/#the-end-cap).
+
 ### Axis station
 The station at the foot of an ascender tower, where passengers board the lift to the hub. Each rotor has four. See [axis and spine](/places/axis-and-spine/).
 
 ### Black start
 Restarting a power grid from nothing, with no outside power. Concordia keeps two 250 MWe fission reactors on the aft rim for this. See [power and heat](/science/power-and-heat/).
+
+### Cap rooms
+The air-filled space between a rotor's flat end face and the lobes of its end cap, 0.82 km³ per cap and up to 96 m deep. See [structure](/science/structure/#the-end-cap).
 
 ### Carbonaceous asteroid
 A dark asteroid rich in carbon, water and nitrogen compounds, the elements the Moon lacks. Concordia's captured bodies run roughly 10 percent water. See [materials](/science/materials/).
@@ -65,8 +71,11 @@ The change in speed a ship can make, the real budget of any trip. Concordia's Ea
 ### Dzhanibekov effect
 A spinning body turning about its middle axis, the one between its easiest and hardest to spin, does not stay put: it flips end over end on its own, again and again. It is named for Vladimir Dzhanibekov, who saw it on Salyut 7 in 1985. The racer's assisted flight never lets it start. See [racing](/science/racing/).
 
+### End cap
+The pressure closure behind each end wall: five lobes of carbon membrane bulging into the gap, held by tie rings, axial ties and a rim compression ring. It carries the 2 trillion newtons of the air on the end of a rotor. See [structure](/science/structure/#the-end-cap).
+
 ### End wall
-The disc that closes each end of a rotor. Its inner face is an inhabited cliff 2,436 m tall. See [structure](/science/structure/).
+The flat disc that closes each end of a rotor. Its inner face is an inhabited cliff 2,436 m tall, and the {% term "end cap" %} behind it holds the air. See [structure](/science/structure/).
 
 ### Express
 The train in the spine that runs the length of the station at 140 m/s in zero g. See [axis and spine](/places/axis-and-spine/).
@@ -115,6 +124,9 @@ The state that launches a space object, or from whose territory or facility it i
 
 ### Liner
 The thin, corrugated metal sheet that keeps a rotor's air in. It bears on the tension bands, which carry the load, and nothing is allowed to pierce it. See [structure](/science/structure/).
+
+### Lobe
+One of the five curved rings of membrane that make up an end cap, bulging out of the flat face into the gap. The deepest sags 96 m. See [structure](/science/structure/#the-end-cap).
 
 ### Magnetic bearing
 A bearing that holds a rotor with magnetic fields so nothing touches. Concordia's rotors turn on them at both ends. See [counter-rotation](/science/counter-rotation/).
@@ -223,6 +235,9 @@ Heat radiated per square metre grows with the fourth power of temperature. It se
 
 ### Tension band
 One of the bundles of carbon rods around a rotor that carry the pull of its air and its weight, 383 MN on every metre of the rotor's length. Any one band can go slack and the rest take its share. See [structure](/science/structure/).
+
+### Tie ring
+A ring girder where two lobes of an end cap meet, at 850, 1,355, 1,610 and 1,900 m above the ground. It passes the lobes' pull along the axis into the axial ties. See [structure](/science/structure/#the-end-cap).
 
 ### Transfer orbit
 The path a ship follows to move from one orbit to another. Concordia's Earth transfer takes about 5 days. See [getting there](/science/getting-there/).

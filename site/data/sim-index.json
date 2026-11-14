@@ -4526,12 +4526,20 @@
       "slug": "ascender"
     },
     {
+      "term": "axial tie",
+      "slug": "axial-tie"
+    },
+    {
       "term": "axis station",
       "slug": "axis-station"
     },
     {
       "term": "black start",
       "slug": "black-start"
+    },
+    {
+      "term": "cap rooms",
+      "slug": "cap-rooms"
     },
     {
       "term": "carbonaceous asteroid",
@@ -4564,6 +4572,10 @@
     {
       "term": "Dzhanibekov effect",
       "slug": "dzhanibekov-effect"
+    },
+    {
+      "term": "end cap",
+      "slug": "end-cap"
     },
     {
       "term": "end wall",
@@ -4616,6 +4628,10 @@
     {
       "term": "land value capture",
       "slug": "land-value-capture"
+    },
+    {
+      "term": "lobe",
+      "slug": "lobe"
     },
     {
       "term": "magnetic bearing",
@@ -4728,6 +4744,10 @@
     {
       "term": "Stefan-Boltzmann law",
       "slug": "stefan-boltzmann-law"
+    },
+    {
+      "term": "tie ring",
+      "slug": "tie-ring"
     },
     {
       "term": "transfer orbit",
