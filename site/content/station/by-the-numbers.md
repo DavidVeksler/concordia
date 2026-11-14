@@ -64,8 +64,9 @@ These are the station's design values, plus quantities worked out from them. Row
 | Atmosphere | about 1 atm (101 kPa) | {% basis "design" %} | Earth-like air in the rotors, spine and above the sky |  |
 | Air volume | almost 200 km3 | {% basis "design" %} | Four rotors | pi r^2 L x 4 = 196 km3 (derived) |
 | Air mass | 150 to 200 Mt; about 45 Mt per rotor | {% basis "physics" %} | Why volatiles are an industry |  |
-| Rotor wall load from the air | about 250 MN per metre of length | {% basis "physics" %} | Tension bands carry the pressure, not a thin can | P x r = 101,325 x 2,500 = 253 MN/m (derived) |
-| Megaframe | extends to 1,500 m, plates to 800 m | {% basis "design" %} | The prebuilt lattice that holds the elevated city |  |
+| Rotor wall load from the air | 257 MN per metre of length | {% basis "physics" %} | Tension bands carry the pressure, not a thin can | P x r = 101,682 Pa x 2,530 m at the liner = 257 MN/m |
+| Rotor wall load, total | 383 MN per metre of length | {% basis "design" %} | Air, the weight of the rotor's contents and the carbon bands' own weight | 257 + 98 + 28 |
+| Megaframe | piers to 1,000 or 1,500 m, plates to 800 m; 120 spokes per rotor from the crowns to hub rings at the axis | {% basis "design" %} | The prebuilt lattice that holds the elevated city, with two load paths: out to the bands, in to the hub rings |  |
 | Megaframe mass | about 6 Mt per rotor (estimate) | {% basis "challenge" %} | About 150 kg per m2 of floor, about fifty times lighter than the same volume built solid | 300 Mt / 6 Mt = 50 (derived) |
 | Shield example | 1 m at 1.6 t/m3 = about 750 Mt | {% basis "design" %} | Order of magnitude for regolith cover | 1 m x 1.6 t/m3 x 470 km2 |
 | End wall | 2,436 m tall, 24 cells | {% basis "design" %} | An inhabited cliff at each rotor end | 2,500 m - 64 m bore |

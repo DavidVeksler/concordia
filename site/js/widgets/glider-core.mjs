@@ -17,7 +17,7 @@ export function airDensity(rM) {
   return AIR.rhoGround * Math.exp((-OMEGA * OMEGA * (R * R - rM * rM)) / (2 * AIR.gasJ * AIR.tempK));
 }
 
-/** A light electric hang glider: pilot 75 kg, wing, motor and battery 45 kg. */
+/** A light electric glider: pilot 75 kg, wing, motor and battery 45 kg. */
 export const GLIDER = {
   massKg: 120,
   areaM2: 16,

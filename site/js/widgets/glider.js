@@ -1,4 +1,4 @@
-// Glider in the rotor: a small electric hang glider flown inside a Concordia rotor. The physics runs in the inertial frame
+// Glider in the rotor: a small electric glider flown inside a Concordia rotor. The physics runs in the inertial frame
 // (glider-core.mjs); the Resident view is the rotating frame, the Outside view is the inertial one.
 import { G0, clamp } from './core.mjs';
 import {

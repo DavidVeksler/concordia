@@ -8,19 +8,19 @@
   {
     "id": "gm-glider-chase",
     "static": true,
-    "alt": "Chase view of the electric hang glider flying past a lattice tower over the first rotor, with parks, lakes and the curving city.",
+    "alt": "Chase view of the electric glider flying past a lattice tower over the first rotor, with parks, lakes and the curving city.",
     "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
   },
   {
     "id": "gm-glider-takeoff",
     "static": true,
-    "alt": "The hang glider on its take-off run down a tree-lined street, houses on both sides and the city rising beyond.",
+    "alt": "The glider on its take-off run down a tree-lined street, houses on both sides and the city rising beyond.",
     "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
   },
   {
     "id": "gm-glider-high",
     "static": true,
-    "alt": "The hang glider 300 m over the rotor floor, parks, lakes and towers spreading ahead and curving up on both sides.",
+    "alt": "The glider 300 m over the rotor floor, parks, lakes and towers spreading ahead and curving up on both sides.",
     "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
   },
   {

@@ -2,8 +2,8 @@
 title: "Games: fly a glider, a racer and a shuttle"
 h1: "Three ways to fly Concordia"
 crumb: Games
-description: "Fly a hang glider inside a spinning city, race a rocket round the hull on a fixed fuel budget, or take the 155 t Concordia shuttle off its berth. Free in the browser, real physics."
-lead: "Concordia is a place to fly as well as to walk. A hang glider over the city, a two-seat rocket racer outside the hull and the 64 m Earth shuttle all fly on the same physics the station is built on, in your browser, with no install."
+description: "Fly a glider inside a spinning city, race a rocket round the hull on a fixed fuel budget, or take the 155 t Concordia shuttle off its berth. Free in the browser, real physics."
+lead: "Concordia is a place to fly as well as to walk. A glider over the city, a two-seat rocket racer outside the hull and the 64 m Earth shuttle all fly on the same physics the station is built on, in your browser, with no install."
 nav: games
 hero: gm-glider-cockpit
 ctaViewpoint: glider-take-off
@@ -17,7 +17,7 @@ related:
   - /places/spaceport/
 ---
 
-<nav class="games-index" aria-label="Vehicles"><a href="#glider">Hang glider</a><a href="#racer">Rocket racer</a><a href="#shuttle">Concordia shuttle</a><a href="#controls">Controls</a></nav>
+<nav class="games-index" aria-label="Vehicles"><a href="#glider">Glider</a><a href="#racer">Rocket racer</a><a href="#shuttle">Concordia shuttle</a><a href="#controls">Controls</a></nav>
 
 {% facts %}
 120 kg | the glider with its pilot, on a 16 m² wing | design
@@ -28,7 +28,7 @@ related:
 
 Each vehicle is a different lesson in the same physics. The glider flies in air that turns with the floor, so which way you point changes how much you weigh. The racer has no air at all, so every corner is paid for in propellant. The shuttle has the racer's physics at 56 times the mass, so it handles like a ship and plans its stops kilometres ahead.
 
-## Hang glider: flying inside a spinning city {#glider}
+## Glider: flying inside a spinning city {#glider}
 
 {% shot "gm-glider-chase" "Chase view over Tsiolkovsky, the first rotor, 220 m up. The floor curves up ahead and overhead, and the glider follows that curve, held on it by its wing." %}
 

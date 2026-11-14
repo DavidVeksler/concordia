@@ -34,7 +34,7 @@
       "id": "glider-take-off",
       "name": "Glider: Take-off Run",
       "group": "Glider",
-      "purpose": "The hang glider waits on the residential street 16 m short of the lift plaza, facing back along the hero street with 470 m of clear road ahead. Hold W to roll and press Space to lift off.",
+      "purpose": "The glider waits on the residential street 16 m short of the lift plaza, facing back along the hero street with 470 m of clear road ahead. Hold Space for power: it rolls, lifts off by itself and climbs out until you let go.",
       "location": "inside",
       "chapter": "home",
       "science": "/science/gliding/#fly-it"
@@ -1757,15 +1757,15 @@
     {
       "slug": "structural",
       "name": "Structural",
-      "summary": "Each rotor is an airtight skin held round by tension bands that carry about 410 MN per metre: 253 from the air, the rest from the weight of the city. Inside, the megaframe rises to 1,500 m above the ground and carries the city. The stationary truss runs the full 21 km.",
+      "summary": "Each rotor is an airtight skin held round by tension bands that carry about 383 MN per metre: 257 from the air at the liner, 98 from weight and 28 from the bands themselves. Inside, the megaframe rises to 1,500 m above the ground and carries the city, and its piers continue as spokes to hub rings at the axis. The stationary truss runs the full 21 km.",
       "learnMore": "/science/structure/",
       "callouts": [
         {
-          "text": "Rotor tension bands, about 410 MN per metre",
+          "text": "Rotor tension bands, about 383 MN per metre",
           "href": "/science/structure/#holding-in-the-air"
         },
         {
-          "text": "Megaframe to 1,500 m",
+          "text": "Megaframe to 1,500 m, spokes to the axis",
           "href": "/science/structure/#the-megaframe"
         },
         {

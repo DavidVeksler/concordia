@@ -12,7 +12,7 @@
   {
     "id": "sci-glider-over-city",
     "viewpoint": "glider-over-city",
-    "alt": "A hang glider in flight above the rotor floor, with the city and lakes curving up ahead and overhead.",
+    "alt": "A glider in flight above the rotor floor, with the city and lakes curving up ahead and overhead.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
@@ -80,6 +80,12 @@
     "ui": "clean",
     "settleMs": 4000,
     "note": "for /science/structure/"
+  },
+  {
+    "id": "sci-st-wall-cutaway",
+    "static": true,
+    "alt": "A cut-away block of the rotor wall: lawn, tree and building on the ground deck, three decks of underframe, liner, bands and outer skin.",
+    "note": "for /science/structure/: poster of the wall-cutaway widget and a figure, a still of /explore/?scene=rotor-wall at the Wall stop (structure-page-spec 3.3), rendered from the scene itself after card C4; not captured by capture-shots.mjs"
   },
   {
     "id": "sci-rad-hull",

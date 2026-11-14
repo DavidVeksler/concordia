@@ -80,7 +80,7 @@ Cut the motor and the headwind slows the glider through the air. It drifts spinw
 
 ## Fly it
 
-The glider is a light electric hang glider: 120 kg with its pilot, a 16 m² wing and a 4 kW motor. {% basis "design" %} Pick a height, a heading and an airspeed, press Fly, and the autopilot holds them. Try **Cancel your weight**, then **What happens if the motor stops?** The inset in the corner draws the three velocities: the air, the glider through the air, and their sum, the glider against the stars.
+The glider is a light electric glider: 120 kg with its pilot, a 16 m² wing and a 4 kW motor. {% basis "design" %} Pick a height, a heading and an airspeed, press Fly, and the autopilot holds them. Try **Cancel your weight**, then **What happens if the motor stops?** The inset in the corner draws the three velocities: the air, the glider through the air, and their sum, the glider against the stars.
 
 The full simulation has the same glider in the city. Start with {% explore viewpoint="glider-take-off" label="a take-off run on the road" %} or {% explore viewpoint="glider-over-city" label="a flight 300 m above the city" %}; both are in the atlas under Glider. In Explore mode, inside a habitation rotor, press B to board it, fly it between the towers, and drop the ball over a street.
 
@@ -90,7 +90,7 @@ In the full simulation the glider flies like a small aircraft. The nose sits abo
 
 Switch between the two views. In the Outside view the rotor turns once every 100 seconds and the ball flies a straight line. In the Resident view the floor holds still and the same ball curves backward. That curve is the {% term "Coriolis effect" %}, seen when straight motion is described in rotating coordinates.
 
-{% shot "sci-glider-over-city" "The view from the hang glider, 300 m above the floor. The ground of the rotor curves up ahead and overhead, and the glider flies along the same curve, bent into it by its wing." %}
+{% shot "sci-glider-over-city" "The view from the glider, 300 m above the floor. The ground of the rotor curves up ahead and overhead, and the glider flies along the same curve, bent into it by its wing." %}
 
 ## What happens when you let go
 

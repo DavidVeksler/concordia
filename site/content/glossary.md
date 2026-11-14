@@ -1,11 +1,11 @@
 ---
 title: "Space habitat glossary"
 h1: "Glossary"
-description: 67 terms used across the Concordia guide, from aeroponics and angular momentum to Whipple shield, each in one or two plain sentences and each linked to the page that explains it.
-lead: 67 terms from physics, space flight and station design, each in a sentence or two. Each entry links to the page that explains it best.
+description: 75 terms used across the Concordia guide, from aeroponics and angular momentum to Whipple shield, each in one or two plain sentences and each linked to the page that explains it.
+lead: 75 terms from physics, space flight and station design, each in a sentence or two. Each entry links to the page that explains it best.
 nav: station
 order: 99
-updated: 2026-10-10
+updated: 2026-11-13
 related:
   - /science/
   - /station/by-the-numbers/
@@ -77,6 +77,9 @@ The country whose registry a ship is on, and whose law applies aboard wherever i
 ### Galactic cosmic rays
 Fast atomic nuclei from outside the solar system. They are hard to stop, so the station relies on sheer mass: metres of regolith, plus water near where people sleep. See [radiation and debris](/science/radiation-and-debris/).
 
+### Gap
+The vacuum between a rotor's outer skin and the stationary shell, 20 m wide with the rotor pressurised and spinning. It is kept empty because air there would cost more power than the station makes; heat crosses it as infrared light. See [structure](/science/structure/#the-stationary-shell).
+
 ### Gravity assist
 Using a planet or moon's gravity to bend or speed a path for free. Concordia's Earth transfer used to swing past the Moon; the return to L5 still does. See [getting there](/science/getting-there/).
 
@@ -84,7 +87,10 @@ Using a planet or moon's gravity to bend or speed a path for free. Concordia's E
 How much gravity changes across a distance. Across a standing person in a Concordia rotor it is 0.07 percent of 1 g, too small to feel. See [artificial gravity](/science/artificial-gravity/).
 
 ### Hoop stress
-The tension in the wall of a pressurized or spinning ring, pulling it around the circle. Air pressure alone loads each rotor's tension bands with about 250 MN per metre of length. See [structure](/science/structure/).
+The tension in the wall of a pressurized or spinning ring, pulling it around the circle. Air pressure alone loads each rotor's tension bands with about 257 MN per metre of length. See [structure](/science/structure/).
+
+### Hub ring
+A ring at the axis, about 140 m in radius, that turns with its rotor and holds the inner ends of the spokes of one wheel plane. Each rotor has five. See [structure](/science/structure/).
 
 ### HVDC
 High-voltage direct current, used for low-loss power transmission. Concordia's main power line is sized for 40 GW at plus and minus 1.2 MV. See [power and heat](/science/power-and-heat/).
@@ -107,6 +113,9 @@ Paying for new infrastructure from the rise in value of the land it serves: the 
 ### Launching state
 The state that launches a space object, or from whose territory or facility it is launched. It carries international liability for damage the object causes. See [governance](/station/governance/#a-british-charter-at-l5).
 
+### Liner
+The thin, corrugated metal sheet that keeps a rotor's air in. It bears on the tension bands, which carry the load, and nothing is allowed to pierce it. See [structure](/science/structure/).
+
 ### Magnetic bearing
 A bearing that holds a rotor with magnetic fields so nothing touches. Concordia's rotors turn on them at both ends. See [counter-rotation](/science/counter-rotation/).
 
@@ -114,13 +123,16 @@ A bearing that holds a rotor with magnetic fields so nothing touches. Concordia'
 An electromagnetic launcher that throws payloads at high speed. On the Moon it ships feedstock to L5. See [materials](/science/materials/).
 
 ### Megaframe
-The prebuilt lattice of ribs, rings and nodes that holds the elevated city, reaching 1,500 m up from the ground. See [structure](/science/structure/).
+The prebuilt lattice of ribs, rings and nodes that holds the elevated city, reaching 1,500 m up from the ground. Its piers root in the {% term "underframe" %} below the ground, and from each pier's crown a {% term "spoke" %} runs on to a {% term "hub ring" %} at the axis. See [structure](/science/structure/).
 
 ### Microgravity
 Near-weightlessness, as in orbit or at the station's axis. Concordia's shipyard and spine are in it. See [artificial gravity](/science/artificial-gravity/).
 
 ### Momentum ring
 One of two heavy rings spinning in a stationary vacuum bay. Together they cancel the spin of Ehricke (the industrial rotor) and absorb the shifts that cargo and launches cause. See [counter-rotation](/science/counter-rotation/).
+
+### Movement joint
+A gap built into a structure so it can stretch without tearing. A rotor's wall grows 8.5 m in radius as it fills with air and spins up, so the ground and everything under it has a joint on every bay line. See [structure](/science/structure/).
 
 ### Near-Earth asteroid
 An asteroid whose orbit brings it close to Earth's. The few that pass slowly enough can be steered into the Earth-Moon system for a small push. Concordia's first metal came from them. See [mining](/science/mining/).
@@ -161,8 +173,14 @@ Turning opposite to a reference spin. Tsiolkovsky and Noordung (Rotors 1 and 2) 
 ### Rim speed
 How fast the ground moves along the circle. In a Concordia rotor it is about 157 m/s. See [artificial gravity](/science/artificial-gravity/).
 
+### Root vessel
+The tank a city tree grows in, about 30 cubic metres, hung under the ground deck and fed and drained from below. No tree in Concordia grows in open ground. See [structure](/science/structure/).
+
 ### Rotating frame
 A point of view that turns with the rotor. Inside it, loose things drift sideways and feel weight. See [artificial gravity](/science/artificial-gravity/).
+
+### Rotor wall
+Everything between a rotor's ground and the vacuum outside it: the ground deck, the underframe, the liner, the tension bands, insulation and the outer skin. It is about 32 m thick. See [structure](/science/structure/).
 
 ### Self-replicating factory
 A factory whose main product is more of itself: machines that mine, refine and build the next machines. Its output grows by doubling, which is how two billion tonnes went up in about ten years. See [who pays for Concordia](/station/economy/).
@@ -188,6 +206,9 @@ Two rotors turning the same way, locked in step and joined by bridges. Tsiolkovs
 ### Spine
 The stationary tube, 120 m across, that runs down the axis and carries transport, power and utilities. It never rotates. See [axis and spine](/places/axis-and-spine/).
 
+### Spoke
+A tension cable from the top of a megaframe pier to a hub ring on the axis. Each rotor has 120, about 3 m across; they hang part of the city's weight from the hub, a second path besides the tension bands. See [structure](/science/structure/).
+
 ### Stanford torus
 A wheel-shaped settlement for 10,000 people designed in the 1975 NASA and Stanford summer study. Its radiation shield was a separate ring that turned slowly or not at all. See [safety](/science/safety/).
 
@@ -200,8 +221,14 @@ Small, continuous corrections that hold a station on its intended path. Concordi
 ### Stefan-Boltzmann law
 Heat radiated per square metre grows with the fourth power of temperature. It sets how big the radiators must be. See [power and heat](/science/power-and-heat/).
 
+### Tension band
+One of the bundles of carbon rods around a rotor that carry the pull of its air and its weight, 383 MN on every metre of the rotor's length. Any one band can go slack and the rest take its share. See [structure](/science/structure/).
+
 ### Transfer orbit
 The path a ship follows to move from one orbit to another. Concordia's Earth transfer takes about 5 days. See [getting there](/science/getting-there/).
+
+### Underframe
+The structure under a rotor's ground, about 30 m deep in three decks: utilities, freight and service ways, and the roots of the megaframe piers. It is in the city's air, and crews work in it. See [structure](/science/structure/).
 
 ### Volatiles
 Light elements and compounds that boil off easily: water, carbon, nitrogen and hydrogen. They are scarce on the Moon and plentiful in carbonaceous asteroids. See [materials](/science/materials/).

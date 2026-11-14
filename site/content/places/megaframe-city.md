@@ -17,7 +17,7 @@ map: "#vp-megaframe-plate-district"
 
 ## What you see
 
-The frame is pale sintered regolith and steel. Primary piers stand on the ground, 45 m square at the base, and rise toward the axis in three stages, with ring beams at 625 m, 1,000 m and 1,500 m. Between them, bays 654 m around and 480 m along the rotor hold plates, atria and inhabited bridges.
+The frame is pale sintered regolith and steel. Primary piers rise through the ground from roots in the underframe below it, 45 m square at the base, and climb toward the axis in three stages, with ring beams at 625 m, 1,000 m and 1,500 m. From each pier's crown, at 1,000 or 1,500 m, a tension {% term "spoke" %} runs on to a {% term "hub ring" %} at the axis: 120 spokes per rotor, merging in pairs 2,000 m above the ground. Between them, bays 654 m around and 480 m along the rotor hold plates, atria and inhabited bridges.
 
 On a plate at 625 m you weigh about three quarters of your ground weight. Housing, offices, universities and hotels fill the plates up to about 800 m. Higher up, the frame turns to service halls, farms and process vaults, covered in [Upper city farms](/places/upper-city-farms/). Balconies reach further as gravity drops: 40 m at 1 g, 100 m at 0.4 g.
 
@@ -37,7 +37,7 @@ Gravity follows the same rule as everywhere: it falls in a straight line with he
 
 ## How it works in brief
 
-The frame transfers building loads to the rotor structure. Every building rests on its bay structure, the bay on the primary frame, and the frame on the rotor's outer tension structure. All permanent loads go outward, because outward is down. [Structure](/science/structure/) explains the pressure vessel, {% term "hoop stress" %} and the frame in detail.
+The frame transfers building loads to the rotor structure. Every building rests on its bay structure and the bay on the primary frame. The frame has two load paths: outward through the pier roots to the rotor's tension bands, because outward is down, and inward through the spokes to the hub rings. [Structure](/science/structure/) explains the pressure vessel, {% term "hoop stress" %} and the frame in detail.
 
 {% shot "sc-low-g-atrium" "The frame thins as weight falls. At about 0.32 g the bays are long-span and sparse, and process facilities replace housing." %}
 
@@ -48,11 +48,12 @@ Because the frame was built while the rotor stood still but was designed for ful
 ## Key numbers
 
 {% facts %}
-1,500 m | where the frame ends
+1,500 m | highest pier crowns
 800 m | top of the housing plates
 24 | cells around each end wall
 2,436 m | height of the end wall cliff
 3 | ring beams, at 625, 1,000 and 1,500 m
+120 | spokes per rotor, crowns to the axis
 {% endfacts %}
 
 {% deeper "Piers, beams and gravity" %}

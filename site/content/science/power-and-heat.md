@@ -5,7 +5,7 @@ description: Concordia draws 20 to 25 GW from solar platforms parked far from th
 lead: Concordia gets its power from the Sun, through solar platforms kilometres behind the station, and sheds all of it as heat through radiators. In space there is no air or water to carry heat away, so the radiator area sets how much power a city can use.
 nav: science
 order: 7
-updated: 2026-10-10
+updated: 2026-11-13
 related:
   - /science/light-and-sky/
   - /science/artificial-gravity/
@@ -57,7 +57,11 @@ Radiators run at 380 to 500 K. Heat from homes and farms is low-grade, so heat p
 
 ## Heat out of a spinning city
 
-Transferring heat between rotating and stationary systems requires specialised couplings. Heat is collected inside rotors that turn once every 100 seconds, and the radiators are stationary. Each rotor gathers its heat locally and passes it through large, redundant rotary fluid joints at its axial hubs into stationary loops. These couplings are the one piece of the thermal system that still counts as a technology-development program. {% basis "challenge" %}
+Heat is collected inside rotors that turn once every 100 seconds, and the station's radiators are stationary. Each rotor sheds about 7.1 GW: 1.5 GW of sky and a quarter of the city's 22.5 GW. {% basis "design" %}
+
+Most of it leaves as light. The rotor's outer skin is its primary radiator. Coolant loops in the {% term "underframe" %} feed panels on the skin, and they shine it across the vacuum gap at a cooled absorber on the stationary shell's inner face. The heat crosses the rotating interface as light. With panels at 350 K facing an absorber at 320 K, each square metre moves about 210 W, and the load needs 85 percent of the skin; with 360 K panels and a 300 K absorber it needs 44 percent. {% basis "physics" %} [Structure](/science/structure/) shows the panels on the rotor wall.
+
+The second path is a set of large, redundant rotary fluid joints at each rotor's axial hubs, passing coolant into stationary loops. These couplings are the one piece of the thermal system that still counts as a technology-development program. {% basis "challenge" %}
 
 {% shot "sci-radiator-field" "The whole station with the thermal overlay on: radiator banks stand off the hull and reject the heat of everything inside." %}
 
