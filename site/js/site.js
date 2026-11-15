@@ -75,6 +75,20 @@
     }
   }
 
+  // Floating "Jump to the calculator" button: shown until the calculator itself is on screen, then hidden (and kept out of the tab order).
+  var calcJump = document.querySelector('[data-calc-jump]');
+  if (calcJump) {
+    var calcAnchor = document.getElementById(calcJump.getAttribute('data-calc-jump'));
+    var calcBox = calcAnchor && calcAnchor.parentNode.querySelector('#' + calcAnchor.id + ' ~ .widget');
+    if (calcBox && 'IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        var seen = entries[entries.length - 1].isIntersecting;
+        calcJump.classList.toggle('is-hidden', seen);
+        if (seen) calcJump.setAttribute('tabindex', '-1'); else calcJump.removeAttribute('tabindex');
+      }, { rootMargin: '-140px 0px -140px 0px' }).observe(calcBox);
+    }
+  }
+
   // Widgets (card 5): each exports mount(el) from /site/js/widgets/<name>.js; the static fallback paragraph stays if loading fails.
   var widgets = document.querySelectorAll('[data-widget]');
   Array.prototype.forEach.call(widgets, function (el) {

@@ -709,6 +709,30 @@ td .basis { margin-left: 0; }
 .w-toast { min-width: 5.5em; font: 600 0.85rem/1.2 var(--font-mono); color: var(--accent-2); }
 
 /* ------------------------------------------------------------------------------------------------ orbit-compute calculator */
+/* Calculator look: a heavier frame, a banner that says what it is, inputs and a result panel as two labelled halves, and the result held in view
+   while the inputs are edited. clip (not hidden) keeps position: sticky working. */
+.widget--calc { overflow: clip; padding-top: 0; border: 2px solid var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 14%, transparent), 0 10px 30px rgba(0, 0, 0, 0.18); }
+.oc-banner { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.9rem; margin: 0 calc(-1 * clamp(1rem, 3vw, 1.6rem)) 1rem; padding: 0.65rem clamp(1rem, 3vw, 1.6rem); background: var(--accent); color: var(--on-accent); }
+.oc-badge { display: inline-flex; align-items: center; gap: 0.45em; font: 700 0.8rem/1.2 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; }
+.oc-banner__text { font-size: 0.92rem; font-weight: 500; }
+.oc-panel-label { margin: 0 0 0.5rem; font: 700 0.75rem/1.2 var(--font-mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.widget--calc .w-controls { padding: 0.9rem; background: var(--surface-2); border-radius: 10px; }
+.widget--calc .oc-group { background: var(--surface); }
+.widget--calc .oc-group > summary { list-style: none; gap: 0.7em; }
+.widget--calc .oc-group > summary::-webkit-details-marker { display: none; }
+.widget--calc .oc-group > summary::before { content: ''; flex: 0 0 auto; width: 0.5em; height: 0.5em; border: solid var(--accent); border-width: 0 2px 2px 0; transform: rotate(-45deg); transition: transform 0.12s; }
+.widget--calc .oc-group[open] > summary::before { transform: rotate(45deg); }
+.oc-display { padding: 0.9rem; border: 1px solid var(--accent); border-radius: 10px; background: color-mix(in srgb, var(--accent) 7%, var(--surface)); }
+.oc-display .w-out dd.w-out__big { font-size: 2rem; font-weight: 700; line-height: 1.1; }
+.oc-presets .oc-reset { border-color: var(--rule); color: var(--muted); }
+@media (min-width: 900px) { .oc-display { position: sticky; top: 4.5rem; } }
+
+/* "Jump to the calculator" floating button (templates.mjs calcJumpHtml; site.js hides it while the calculator is in view) */
+.calc-jump { position: fixed; right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, env(safe-area-inset-bottom)); z-index: 40; display: inline-flex; align-items: center; gap: 0.5em; min-height: 44px; padding: 0.55em 1.1em; font: 700 0.92rem/1.2 var(--font-body); color: var(--on-accent); background: var(--accent); border-radius: 999px; text-decoration: none; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35); transition: opacity 0.15s, transform 0.15s; }
+.calc-jump:hover { text-decoration: none; filter: brightness(1.08); }
+.calc-jump.is-hidden { opacity: 0; transform: translateY(0.6rem); pointer-events: none; visibility: hidden; }
+@media (max-width: 520px) { .calc-jump { left: 1rem; right: 1rem; justify-content: center; } }
+@media print { .calc-jump { display: none !important; } }
 .oc-lede { margin: 0.6rem 0 0; }
 .oc-presets .oc-preset[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
 .oc-preset-note { margin-top: 0.4rem; }
@@ -717,7 +741,9 @@ td .basis { margin-left: 0; }
 .oc-group[open] > summary { border-bottom: 1px solid var(--rule); }
 .oc-group__body, .oc-group > :not(summary) { padding: 0 0.9rem 0.8rem; }
 .oc-input { position: relative; padding-top: 0.2rem; }
-.oc-input--idle { opacity: 0.55; }
+/* Idle (unused at these inputs): a dashed rule and a note instead of fading, which fails contrast now the group opens by default. */
+.oc-input--idle { border-left: 3px dashed var(--muted); padding-left: 0.6rem; }
+.oc-input--idle::after { content: 'Not used while the share made in space is 0'; display: block; font-size: 0.8rem; color: var(--muted); }
 .oc-src-btn { font: 500 0.78rem/1 var(--font-body); color: var(--accent); background: transparent; border: 0; padding: 0.35rem 0; min-height: 32px; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
 .oc-src { margin-top: 0.1rem; }
 .oc-binding { margin: 0.9rem 0 0; padding: 0.7rem 0.9rem; border-left: 3px solid var(--accent-2); background: var(--surface-2); border-radius: 4px; font-weight: 500; }

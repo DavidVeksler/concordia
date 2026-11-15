@@ -24,7 +24,7 @@ related:
 ---
 
 {% callout "How to read this page" %}
-The analysis is present-day and sourced; the numbered sources (SD1 and on) are listed in [the method section](#method). Cost ratios are outputs of the page's model for stated inputs, not measured costs. Boxes marked **Fiction** are excerpts from Concordia, a space city set in 2045, and every number in them comes from the calculator's Concordia preset.
+The analysis is present-day and sourced; the numbered sources (SD1 and on) are listed in [the method section](#method). Cost ratios are outputs of the page's model for stated inputs, not measured costs. Boxes marked **Fiction** are excerpts from Concordia, a space city set in 2045, and every number in them comes from the calculator's Concordia preset. To test the numbers yourself, [jump to the calculator](#calculator).
 {% endcallout %}
 
 ## Do data centers in space make sense? {#short-answer}

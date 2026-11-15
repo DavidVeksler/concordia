@@ -58,7 +58,12 @@ const money = (n) => (Number.isFinite(n) ? `$${sig(n, 3)}` : 'n/a');
 const perKwYr = (n) => `${money(n)} per kW-year`;
 const yearText = (y) => (Number.isFinite(y) ? String(Math.round(y)) : 'never at these inputs');
 
+const calcIcon = () => s('svg', { viewBox: '0 0 24 24', width: 16, height: 16, 'aria-hidden': 'true', fill: 'none', stroke: 'currentColor', 'stroke-width': 2, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' },
+  s('rect', { x: 5, y: 2.5, width: 14, height: 19, rx: 2.5 }), s('rect', { x: 8, y: 5.5, width: 8, height: 3.5, rx: 0.8 }),
+  s('path', { d: 'M8.5 13h.01M12 13h.01M15.5 13h.01M8.5 16.5h.01M12 16.5h.01M15.5 16.5h.01' }));
+
 export function mount(el) {
+  el.classList.add('widget--calc');
   let presetKey = 'today';
   let v = { ...PRESETS.today.v };
   const controls = {};
@@ -90,7 +95,9 @@ export function mount(el) {
     b.addEventListener('click', () => applyPreset(k));
     return [k, b];
   });
-  const presetRow = h('div', { class: 'w-btns oc-presets', role: 'group', 'aria-label': 'Presets' }, presetBtns.map(([, b]) => b));
+  const resetBtn = h('button', { type: 'button', class: 'w-btn oc-reset' }, 'Reset');
+  resetBtn.addEventListener('click', () => applyPreset(presetKey));
+  const presetRow = h('div', { class: 'w-btns oc-presets', role: 'group', 'aria-label': 'Presets' }, ...presetBtns.map(([, b]) => b), resetBtn);
   const presetNote = h('p', { class: 'w-hint oc-preset-note' });
 
   // ---- inputs
@@ -123,7 +130,7 @@ export function mount(el) {
     notes[inp.key] = note;
     groupBodies[inp.group].append(wrap);
   }
-  const groups = GROUPS.map((g) => h('details', { class: 'oc-group' }, h('summary', null, g.title), groupBodies[g.id]));
+  const groups = GROUPS.map((g) => h('details', { class: 'oc-group', open: g.id === 'economy' || g.id === 'orbit' }, h('summary', null, g.title), groupBodies[g.id]));
 
   // ---- outputs
   const out = outputs([
@@ -158,12 +165,15 @@ export function mount(el) {
   const cite = h('p', { class: 'w-hint oc-cite' });
 
   frame(el, 'Orbital compute cost calculator',
+    h('div', { class: 'oc-banner' },
+      h('span', { class: 'oc-badge' }, calcIcon(), 'Interactive calculator'),
+      h('span', { class: 'oc-banner__text' }, 'Change any number. The answer on the right updates as you type or drag.')),
     widgetHeader({ explore: EXPLORE, state }),
-    h('p', { class: 'oc-lede' }, 'Pick a preset, then open a group to change any input.'),
+    h('p', { class: 'oc-lede' }, h('strong', null, '1. Start from a preset. '), '2. Edit the inputs below to test your own assumptions.'),
     presetRow, presetNote,
     h('div', { class: 'w-grid' },
-      h('div', { class: 'w-controls' }, groups),
-      h('div', { class: 'w-results' }, out.el, binding)),
+      h('div', { class: 'w-controls' }, h('p', { class: 'oc-panel-label' }, 'Inputs'), groups),
+      h('div', { class: 'w-results oc-display' }, h('p', { class: 'oc-panel-label' }, 'Result'), out.el, binding)),
     svg, legend,
     h('h3', { class: 'oc-sub' }, 'At the chosen scale'),
     totals.el,
