@@ -9,9 +9,12 @@
   },
   {
     "id": "art-station-city",
-    "static": true,
-    "alt": "Artistic study of a sunlit park beneath the habitat’s rising city, steel megaframe and pale civic buildings.",
-    "note": "Artistic reinterpretation with reworked foreground planting and background detail; not an exact geometry record. ChatGPT Images image-to-image from district-skyline. Prompts: assets/site-art-briefs.json."
+    "viewpoint": "district-skyline",
+    "alt": "A complete Three.js view of the inhabited city, with pale apartment blocks, mature trees, elevated decks and the megaframe beneath the artificial sky.",
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 8000,
+    "note": "Actual Three.js city for the inside/outside station pair. Restored 2026-11-14 after the image-to-image study proved inaccurate."
   },
   {
     "id": "art-shipyard-scene",

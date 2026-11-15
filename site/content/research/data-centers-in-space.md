@@ -38,7 +38,7 @@ The orbital case rests on a property of some computing work. A steel mill or a c
 Status on 14 November 2026. This block is dated and is refreshed as the field moves.
 
 - **Starcloud** (formerly Lumen Orbit) launched the 60 kg Starcloud-1 on 2 November 2025 carrying an Nvidia H100, which Nvidia called the first data-center-class GPU in space (SD13, SD14). In February 2026 it applied to the FCC for up to 88,000 satellites in sun-synchronous orbit (SD15).
-- **SpaceX** applied to the FCC on 30 January 2026 for an orbital data center system of up to one million satellites at 500 to 2,000 km (SD16). SpaceX says the system could deliver on the order of 100 kW of power per tonne allocated to computing (SD17).
+- **SpaceX** applied to the FCC on 30 January 2026 for an orbital data center system of up to one million satellites at 500 to 2,000 km (SD16). SpaceX says the system could deliver on the order of 100 kW of power per tonne allocated to computing (SD17). The satellite bus SpaceX flies today, generation by generation, is in the [Starlink satellite anatomy sheet](https://cheatsheets.davidveksler.com/starlink-satellite-anatomy.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-state-of-play#v3-size).
 - **Google's Project Suncatcher** plans two prototype satellites with Planet by early 2027. Google estimates that a panel in the right orbit collects up to eight times the energy of one at mid-latitudes on Earth (SD18, SD19).
 - **The critics** argue from today's costs. Engineer Andrew McCalip's public model put a 1 GW orbital facility at about three times the ground cost over five years: $51 billion against $16 billion in the version IEEE Spectrum reported in February 2026, chips excluded (SD22, SD23). Others point to radiator area, radiation, and chips that are obsolete before a satellite pays back (CA1 to CA5).
 
@@ -46,9 +46,9 @@ The funded players argue that low Earth orbit works this decade. The critics sho
 
 ## How do you power and cool a data center in space? {#physics}
 
-**Power is easy.** Above the atmosphere sunlight delivers 1,361 W/m² with no cloud or night (SD7). A dawn-dusk sun-synchronous orbit keeps panels lit almost all year; a high orbit or a Lagrange point keeps them lit almost all the time.
+**Power is easy.** Above the atmosphere sunlight delivers 1,361 W/m² with no cloud or night (SD7). A dawn-dusk sun-synchronous orbit keeps panels lit almost all year; a high orbit or a Lagrange point keeps them lit almost all the time. How a flight satellite's arrays, batteries and power distribution fit together is in the [power section of the Starlink anatomy sheet](https://cheatsheets.davidveksler.com/starlink-satellite-anatomy.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-physics-power#power).
 
-**Cooling is the hard part.** A ground data center dumps heat into air or water. In vacuum there is nothing to carry it away, so every watt the chips use must leave as infrared light from a {% term "radiator" %}. Radiated power follows the Stefan-Boltzmann law:
+**Cooling is the hard part.** A ground data center dumps heat into air or water, and the point at which air stops working is in the [cooling thresholds sheet](https://cheatsheets.davidveksler.com/datacenter-cooling-thresholds.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-physics-cooling#regimes). In vacuum there is nothing to carry it away, so every watt the chips use must leave as infrared light from a {% term "radiator" %}. Radiated power follows the Stefan-Boltzmann law:
 
 {% eq %}
 P / A = 2 × ε × σ × T⁴     (two faces, σ = 5.67 × 10⁻⁸ W/m²/K⁴)
@@ -60,7 +60,7 @@ Space is cold, but it is also empty, and emptiness insulates. The 3 K background
 
 ### How big is the radiator for a megawatt? {#radiator-size}
 
-At 330 K the radiator for 1 MW of chips is about 826 m², an eighth of a football pitch; a gigawatt needs 0.83 km². At 5 kg/m², an aggressive figure for flight radiators, that is 4.1 kg per kW; at the 14 to 17 kg/m² of ISS panels it is about 12 kg per kW (SD28, SD29). Only the electrical power delivered to the chips needs radiating: solar arrays shed their own waste heat.
+At 330 K the radiator for 1 MW of chips is about 826 m², an eighth of a football pitch; a gigawatt needs 0.83 km². At 5 kg/m², an aggressive figure for flight radiators, that is 4.1 kg per kW; at the 14 to 17 kg/m² of ISS panels it is about 12 kg per kW (SD28, SD29). How radiators are sized and fouled on real stations is in the [thermal section of the CheatSheets space habitat guide](https://cheatsheets.davidveksler.com/space-habitats-life-support.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-radiator-size#thermal-power). Only the electrical power delivered to the chips needs radiating: solar arrays shed their own waste heat.
 
 Running the radiator hotter shrinks it with the fourth power of temperature: 400 K needs less than half the area of 330 K. The catch is the chips. A 400 K radiator puts the chip junctions near 425 K (152 °C). The H100 is qualified at 87 °C (SD41), and wear-out follows the Arrhenius law: near 350 K each 10 K of extra heat roughly halves a chip's life (SD40).
 
@@ -71,7 +71,7 @@ Running the radiator hotter shrinks it with the fourth power of temperature: 400
 Six near-term conditions and three longer-range levers, each testable in the [calculator](#calculator). The near-term conditions need cheaper versions of hardware that exists; the levers need technology or infrastructure that does not exist yet.
 
 1. **Cheap launch.** Launch falls to a few hundred dollars per kilogram.
-2. **Cheaper chips.** Once launch is cheap, buying the chips is most of the orbital bill, and space qualification marks them up further.
+2. **Cheaper chips.** Once launch is cheap, buying the chips is most of the orbital bill, and space qualification marks them up further. What today's accelerators draw and cost is compared in the [AI accelerator comparison](https://cheatsheets.davidveksler.com/ai-accelerator-comparison.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-conditions-chips#comparison).
 3. **Chips in orbit retire on the ground's schedule.** A longer chip life helps both sides, so by itself it barely moves the ratio: in the model, going from 5 to 12 years takes the Today preset from 2.87 to 3.17 times the ground, and the $200-per-kilogram case from 1.20 to 1.17. What hurts orbit is a shorter life than the ground's, because every replacement chip is launched and heat or radiation can retire chips early. With 12-year chips and $200 launch, running the radiator at 350 K instead of 330 K cuts chip life to 3.6 years and raises the ratio from 1.17 to 2.31. Samir Varma argues that the orbital bet is a bet that efficiency gains slow down (CA1); in this model slower gains lengthen chip life on both sides, so they matter mainly through the ground ceiling below.
 4. **Radiation tolerance.** Shielding, error correction and spares must keep failure rates near ground levels without a large price premium.
 5. **Workloads that tolerate delay and return little data.** Training, batch inference, rendering and simulation can wait a fraction of a second or a few seconds. Interactive serving stays near its users, and work that moves large datasets needs a link budget the model does not include.
@@ -87,11 +87,11 @@ The calculator's Today preset shows how the near-term conditions stack in the mo
 
 ### What launch price per kilogram is the threshold? {#launch-threshold}
 
-It depends on the chips. In the model, at today's chip and hardware prices no launch price makes orbit cheaper: with free launch, the space-qualified accelerators, power hardware and servicing still cost about $12,800 per kW-year against $11,800 for a whole ground kilowatt. If ground capacity runs out and prices rise 50 percent, today's designs break even at about $700 per kilogram and lighter SpaceX-style satellites at about $2,000. Google projects launch prices below about $200 per kilogram by the mid-2030s (SD21); Falcon 9 costs about $3,000 to $3,600 per kilogram today (SD25).
+It depends on the chips. In the model, at today's chip and hardware prices no launch price makes orbit cheaper: with free launch, the space-qualified accelerators, power hardware and servicing still cost about $12,800 per kW-year against $11,800 for a whole ground kilowatt. If ground capacity runs out and prices rise 50 percent, today's designs break even at about $700 per kilogram and lighter SpaceX-style satellites at about $2,000. Google projects launch prices below about $200 per kilogram by the mid-2030s (SD21); Falcon 9 costs about $3,000 to $3,600 per kilogram today (SD25). The launch vehicles that set those prices are compared side by side in the [orbital rocket specifications table](https://cheatsheets.davidveksler.com/orbital-rockets-comparison.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-launch-threshold#specs).
 
 ## How much computing can Earth support? {#ceiling}
 
-Data centers used about 415 TWh of electricity in 2024, about 1.5 percent of the world's total and an average load near 47 GW (SD1). The International Energy Agency's base case more than doubles that to about 945 TWh by 2030, about 15 percent a year; it projects 30 percent a year for AI servers (SD2 to SD4). At that pace 2026 starts near 60 GW.
+Data centers used about 415 TWh of electricity in 2024, about 1.5 percent of the world's total and an average load near 47 GW (SD1). The International Energy Agency's base case more than doubles that to about 945 TWh by 2030, about 15 percent a year; it projects 30 percent a year for AI servers (SD2 to SD4). At that pace 2026 starts near 60 GW. The per-rack, per-GPU and per-megawatt figures behind these totals are in the [AI infrastructure numbers sheet](https://cheatsheets.davidveksler.com/ai-infrastructure-numbers.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-ceiling-numbers#numbers).
 
 The table below is a scenario, not a forecast. It shows when demand would reach each ceiling if growth held at a constant rate, and growth may slow long before any of these dates. What the arithmetic does show is that under sustained exponential growth the size of the ceiling barely moves the date:
 
@@ -106,7 +106,7 @@ A ceiling 9,600 times larger buys 35 more years at 30 percent growth. The land f
 
 {% diagram "oc-ceiling" "Years until data center demand would reach each ceiling if growth held constant, starting from 60 GW in 2026." %}
 
-The binding constraint on the ground is not sunlight. It is the rate at which grid connections, land, permits and cooling water can be found. Large data centers in Northern Virginia wait up to seven years for a grid connection, and London's queue runs 7 to 13 years (SD37). Heat is local before it is global: all human energy use adds about 0.03 W/m² averaged over the planet, but 0.4 to 0.7 W/m² over the United States and western Europe (SD12). If anything limits data center power on the ground, these local limits will bind long before any physical one. Whether they harden into a cap is a policy question this page does not forecast; the calculator lets you set one and see what follows.
+The binding constraint on the ground is not sunlight. It is the rate at which grid connections, land, permits and cooling water can be found. Large data centers in Northern Virginia wait up to seven years for a grid connection, and London's queue runs 7 to 13 years (SD37). The steps between the grid and a rack are in the [data center power chain](https://cheatsheets.davidveksler.com/datacenter-power-chain.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-ceiling-grid#chain), and the evidence on interconnection queues is in the [grid-interconnection ledger at Who Pays for AI](https://whopaysforai.org/resources/interconnection?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-ceiling-queue). Heat is local before it is global: all human energy use adds about 0.03 W/m² averaged over the planet, but 0.4 to 0.7 W/m² over the United States and western Europe (SD12). If anything limits data center power on the ground, these local limits will bind long before any physical one. Whether they harden into a cap is a policy question this page does not forecast; the calculator lets you set one and see what follows.
 
 ## What does a kW-year of compute cost on Earth and in orbit? {#calculator}
 
@@ -120,7 +120,7 @@ The calculator compares the levelized cost of one kilowatt of IT power for one y
 
 The case against orbit, at full strength:
 
-- **Ground power is cheaper.** New solar and wind contracts in North America cost about 5 to 6 cents per kWh (SD36). Orbital panels collect more light, but every kilogram of panel has to be launched.
+- **Ground power is cheaper.** New solar and wind contracts in North America cost about 5 to 6 cents per kWh (SD36). Orbital panels collect more light, but every kilogram of panel has to be launched. The whole ground stack, from chip to cooling to grid, is mapped in the [AI data center infrastructure guide](https://cheatsheets.davidveksler.com/ai-datacenter-infrastructure.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-counter-case#stack).
 - **Radiators are heavy.** At chip-friendly temperatures a radiator weighs about 4 kg per kilowatt even at an aggressive 5 kg/m², 40 percent of the mass of today's solar arrays, and 12 kg at ISS areal density (CA5).
 - **There are no radiation-hardened GPUs.** Commercial accelerators were never designed for cosmic rays. Shielding adds mass and spares add cost (CA3, CA4).
 - **Refresh cycles force relaunch.** A ground operator swaps a rack in an afternoon. An orbital operator launches a new satellite.
