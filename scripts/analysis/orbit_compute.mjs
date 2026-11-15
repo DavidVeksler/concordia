@@ -88,6 +88,18 @@ for (const [label, d] of variants) {
 }
 out('');
 
+out('6b. Chip retirement schedule: same economic life on both sides, then orbit forced to retire early');
+for (const P of [3000, 200]) {
+  const a = oc.evaluate({ ...t, launch: P, econLife: 5 });
+  const b = oc.evaluate({ ...t, launch: P, econLife: 12 });
+  out(`   launch $${P}/kg: econ life 5 y ratio ${n2(a.ratio)}; 12 y ratio ${n2(b.ratio)}`);
+}
+for (const T of [330, 340, 350, 370]) {
+  const r = oc.evaluate({ ...t, launch: 200, econLife: 12, radTemp: T });
+  out(`   launch $200/kg, econ life 12 y, radiator ${T} K: physical life ${n1(r.orbit.physLife)} y, orbit life ${n1(r.orbit.orbitLife)} y, ratio ${n2(r.ratio)}`);
+}
+out('');
+
 out('7. Latency and location');
 for (const [k, l] of Object.entries(oc.LOCATIONS)) out(`   ${l.label}: round trip ${l.roundTripS} s, illumination ${l.illumination}, launch multiplier ${n2(oc.locationMultiplier(k))} (delta-v ${l.deltaVms} m/s at Isp ${oc.ROCKET_ISP_S} s)`);
 out(`   Earth-Moon: 384,400 km / 299,792.458 km/s = ${n2(384400 / 299792.458)} s one way`);

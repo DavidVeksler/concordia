@@ -2,8 +2,8 @@
 title: "Data centers in space: when do they pay off?"
 h1: "Why build data centers in space?"
 crumb: Data centers in space
-description: "Data centers in space beat the ground only when launch cost, radiator mass and chip life cross clear thresholds. A sourced essay and calculator show where, and why an L5 city exports compute."
-lead: "Computing is the one heavy industry whose product ships for free. It needs electricity, a way to reject heat and a data link. This page sets out the physics and the costs, names the conditions under which orbit beats the ground, and gives a calculator to test them."
+description: "Data centers in space beat the ground only when launch cost, chip prices and the ground's power limits cross clear thresholds. A sourced cost model and calculator show where."
+lead: "For training, rendering and simulation, the results of a computation are small next to the energy used to make them. That makes computing a candidate export from space: it needs electricity, a way to reject heat and a data link. This page sets out the physics and the costs, names the conditions under which orbit beats the ground in one cost model, and gives a calculator to test them."
 nav: science
 order: 52
 updated: 2026-11-14
@@ -11,7 +11,7 @@ schema: TechArticle
 about: Space-based data centers
 faq: faq
 ogImage: /site/og/data-centers-in-space.jpg
-ogImageAlt: "2.9 times: what a kilowatt-year of computing costs in orbit today against the same kilowatt-year on the ground."
+ogImageAlt: "2.9 times: the baseline model's cost of a kilowatt-year of computing in orbit at 2026 prices, against the same kilowatt-year on the ground."
 webApp:
   name: Orbital compute cost calculator
   anchor: calculator
@@ -24,14 +24,14 @@ related:
 ---
 
 {% callout "How to read this page" %}
-The analysis is present-day and sourced; the numbered sources (SD1 and on) are listed in [the method section](#method). Boxes marked **Fiction** are excerpts from Concordia, a space city set in 2045, and every number in them comes from the calculator's Concordia preset.
+The analysis is present-day and sourced; the numbered sources (SD1 and on) are listed in [the method section](#method). Cost ratios are outputs of the page's model for stated inputs, not measured costs. Boxes marked **Fiction** are excerpts from Concordia, a space city set in 2045, and every number in them comes from the calculator's Concordia preset.
 {% endcallout %}
 
 ## Do data centers in space make sense? {#short-answer}
 
-Not yet. Today a kilowatt-year of computing costs about 2.9 times as much in orbit as on the ground. Orbit can compete when three things are true: launch falls to a few hundred dollars per kilogram, chips stay in service for a decade or more, and the ground runs short of sites and power. The third condition decides when the other two matter.
+Not yet. In this page's baseline model, built from 2026 prices, a kilowatt-year of computing costs about 2.9 times as much in orbit as on the ground. That is a modelled ratio, not a measured one: nobody runs an orbital data center at scale, and the model leaves out communications, insurance and radiation-driven failures. In the model, orbit competes when launch falls to a few hundred dollars per kilogram, chips get cheaper, chips in orbit last as long as chips on the ground, and the ground runs short of sites and power. The last condition decides when the others matter.
 
-The orbital case rests on one property of computing. A steel mill or a chip fab ships tonnes of product. A data center ships bits, and bits cost almost nothing to move through a laser link. Its inputs are electricity, heat rejection and a link. Space supplies the first and makes the second hard.
+The orbital case rests on a property of some computing work. A steel mill or a chip fab ships tonnes of product. A training run, a render or a simulation returns results that are small next to the energy used to compute them, and a laser link can carry them. Not every workload fits: uploading training data, moving model checkpoints and serving interactive users need far more bandwidth, and the model does not price the link. The inputs are electricity, heat rejection and a link. Space supplies the first and makes the second hard.
 
 ## Who is building data centers in space in 2026? {#state-of-play}
 
@@ -68,29 +68,34 @@ Running the radiator hotter shrinks it with the fourth power of temperature: 400
 
 ## What would make orbital data centers cheaper than the ground? {#conditions}
 
-Seven conditions, each testable in the [calculator](#calculator):
+Six near-term conditions and three longer-range levers, each testable in the [calculator](#calculator). The near-term conditions need cheaper versions of hardware that exists; the levers need technology or infrastructure that does not exist yet.
 
-1. **Cheap mass in orbit.** Launch falls to a few hundred dollars per kilogram, or the heavy parts (arrays, radiators, structure, shielding) are made in space from lunar or asteroid material.
-2. **Long chip life.** On the ground an accelerator is written off in about five years because newer chips do more work per watt. In orbit every replacement chip is relaunched, so orbit pays only once chips earn for a decade or more. Samir Varma reaches the same conclusion: the orbital bet is a bet that efficiency gains slow down (CA1).
-3. **High-temperature electronics.** Silicon carbide power switches are rated to a 175 °C junction (SD42). Logic chips that ran reliably that hot would let radiators run hotter and lighter.
+1. **Cheap launch.** Launch falls to a few hundred dollars per kilogram.
+2. **Cheaper chips.** Once launch is cheap, buying the chips is most of the orbital bill, and space qualification marks them up further.
+3. **Chips in orbit retire on the ground's schedule.** A longer chip life helps both sides, so by itself it barely moves the ratio: in the model, going from 5 to 12 years takes the Today preset from 2.87 to 3.17 times the ground, and the $200-per-kilogram case from 1.20 to 1.17. What hurts orbit is a shorter life than the ground's, because every replacement chip is launched and heat or radiation can retire chips early. With 12-year chips and $200 launch, running the radiator at 350 K instead of 330 K cuts chip life to 3.6 years and raises the ratio from 1.17 to 2.31. Samir Varma argues that the orbital bet is a bet that efficiency gains slow down (CA1); in this model slower gains lengthen chip life on both sides, so they matter mainly through the ground ceiling below.
 4. **Radiation tolerance.** Shielding, error correction and spares must keep failure rates near ground levels without a large price premium.
-5. **Latency-tolerant work.** Training, batch inference, rendering and simulation can wait a fraction of a second or a few seconds. Interactive serving stays near its users.
-6. **Servicing.** Something has to replace failed boards: robots, or people living nearby.
-7. **A terrestrial constraint.** Orbit does not need to be cheaper than the ground. It needs to be within about a factor of two and able to keep growing when the ground cannot.
+5. **Workloads that tolerate delay and return little data.** Training, batch inference, rendering and simulation can wait a fraction of a second or a few seconds. Interactive serving stays near its users, and work that moves large datasets needs a link budget the model does not include.
+6. **A terrestrial constraint.** Orbit does not need to be cheaper than the ground. It needs to be within the premium the ground would charge if it ran short of sites and power, and able to keep growing if the ground cannot.
 
-The calculator's Today preset shows how the conditions stack. At today's prices orbit costs 2.9 times the ground. Cut launch to $200 per kilogram and the ratio falls to 1.2, with the chips now 78 percent of the orbital bill. Keeping the chips for 12 years helps both sides equally and leaves it at 1.2. Add $10-per-watt chips and orbit reaches parity; add a five-cent siting surcharge on ground power and orbit is 12 percent cheaper.
+Longer-range levers:
+
+7. **Space-made mass.** The heavy parts (arrays, radiators, structure, shielding) are made in space from lunar or asteroid material instead of launched.
+8. **High-temperature electronics.** Silicon carbide power switches are rated to a 175 °C junction (SD42). Logic chips that ran reliably that hot would let radiators run hotter and lighter. None exist today.
+9. **Servicing.** Something has to replace failed boards: robots, or people living nearby. Nothing services satellites at this scale yet.
+
+The calculator's Today preset shows how the near-term conditions stack in the model. At 2026 prices orbit costs 2.9 times the ground. Cut launch to $200 per kilogram and the ratio falls to 1.2, with the chips now 78 percent of the orbital bill. Keeping the chips for 12 years on both sides leaves it at 1.2. Add $10-per-watt chips and orbit reaches parity; add a five-cent siting surcharge on ground power and orbit is 12 percent cheaper. These are model outputs for one sequence of assumptions, not forecasts.
 
 ### What launch price per kilogram is the threshold? {#launch-threshold}
 
-It depends on the chips. At today's prices no launch price makes orbit cheaper: with free launch, the space-qualified accelerators, power hardware and servicing still cost about $12,800 per kW-year against $11,800 for a whole ground kilowatt. If ground capacity runs out and prices rise 50 percent, today's designs break even at about $700 per kilogram and lighter SpaceX-style satellites at about $2,000. Google projects launch prices below about $200 per kilogram by the mid-2030s (SD21); Falcon 9 costs about $3,000 to $3,600 per kilogram today (SD25).
+It depends on the chips. In the model, at today's chip and hardware prices no launch price makes orbit cheaper: with free launch, the space-qualified accelerators, power hardware and servicing still cost about $12,800 per kW-year against $11,800 for a whole ground kilowatt. If ground capacity runs out and prices rise 50 percent, today's designs break even at about $700 per kilogram and lighter SpaceX-style satellites at about $2,000. Google projects launch prices below about $200 per kilogram by the mid-2030s (SD21); Falcon 9 costs about $3,000 to $3,600 per kilogram today (SD25).
 
 ## How much computing can Earth support? {#ceiling}
 
 Data centers used about 415 TWh of electricity in 2024, about 1.5 percent of the world's total and an average load near 47 GW (SD1). The International Energy Agency's base case more than doubles that to about 945 TWh by 2030, about 15 percent a year; it projects 30 percent a year for AI servers (SD2 to SD4). At that pace 2026 starts near 60 GW.
 
-Sustained exponential growth reaches any finite ceiling within decades, and the size of the ceiling barely moves the date:
+The table below is a scenario, not a forecast. It shows when demand would reach each ceiling if growth held at a constant rate, and growth may slow long before any of these dates. What the arithmetic does show is that under sustained exponential growth the size of the ceiling barely moves the date:
 
-| Ceiling on data center power | Size | At 15 % a year | At 30 % a year |
+| Ceiling on data center power | Size | If growth holds at 15 % a year | At 30 % a year |
 | --- | --- | --- | --- |
 | A political cap | 1 TW | 2046 | 2037 |
 | 1 % of Earth's land in solar | 18 TW | 2067 | 2048 |
@@ -99,9 +104,9 @@ Sustained exponential growth reaches any finite ceiling within decades, and the 
 
 A ceiling 9,600 times larger buys 35 more years at 30 percent growth. The land figures use about 12 W of average output per m² of solar farm, the median of recent US plants (SD10, SD11).
 
-{% diagram "oc-ceiling" "Years until data center demand reaches each ceiling, starting from 60 GW in 2026." %}
+{% diagram "oc-ceiling" "Years until data center demand would reach each ceiling if growth held constant, starting from 60 GW in 2026." %}
 
-The binding constraint on the ground is not sunlight. It is the rate at which grid connections, land, permits and cooling water can be found. Large data centers in Northern Virginia wait up to seven years for a grid connection, and London's queue runs 7 to 13 years (SD37). Heat is local before it is global: all human energy use adds about 0.03 W/m² averaged over the planet, but 0.4 to 0.7 W/m² over the United States and western Europe (SD12). A political cap arrives first.
+The binding constraint on the ground is not sunlight. It is the rate at which grid connections, land, permits and cooling water can be found. Large data centers in Northern Virginia wait up to seven years for a grid connection, and London's queue runs 7 to 13 years (SD37). Heat is local before it is global: all human energy use adds about 0.03 W/m² averaged over the planet, but 0.4 to 0.7 W/m² over the United States and western Europe (SD12). If anything limits data center power on the ground, these local limits will bind long before any physical one. Whether they harden into a cap is a policy question this page does not forecast; the calculator lets you set one and see what follows.
 
 ## What does a kW-year of compute cost on Earth and in orbit? {#calculator}
 
@@ -120,6 +125,7 @@ The case against orbit, at full strength:
 - **There are no radiation-hardened GPUs.** Commercial accelerators were never designed for cosmic rays. Shielding adds mass and spares add cost (CA3, CA4).
 - **Refresh cycles force relaunch.** A ground operator swaps a rack in an afternoon. An orbital operator launches a new satellite.
 - **Cadence, debris and servicing.** A million satellites at 60 per Starship flight is about 16,700 launches, against SpaceX's record of 165 orbital launches in 2025 (CA7). Nothing services satellites in orbit yet.
+- **Links cost money.** Optical downlinks need clear sky at the receiving station, so a working system needs several ground stations. Uploading training data and moving checkpoints takes far more bandwidth than returning results. This page's model prices none of it.
 
 What answers each objection:
 
@@ -128,12 +134,13 @@ What answers each objection:
 | Ground power is cheaper | A terrestrial constraint: orbit only needs to be within about 2× | Open: depends on how fast siting runs out |
 | Radiators are heavy | Space-made radiators, or hotter chips | Open: needs in-space manufacturing or new semiconductors |
 | No rad-hard GPUs | Shielding, error tolerance, spares | Partly answered: a Google TPU survived 15 krad in a proton beam (SD20); no on-orbit data yet |
-| Refresh cycles | Chips that stay useful for 10 years or more | Open: needs efficiency gains to slow |
+| Refresh cycles | Cheap relaunch, and chips in orbit that last as long as chips on the ground | Open: depends on radiator temperature and radiation |
 | Cadence, debris, servicing | High orbits or Lagrange points; material made in space; resident technicians | Open: none of it exists |
+| Links cost money | Workloads that return little data; several ground stations | Open: not in this model |
 
 ### Should space beam power down or send bits? {#power-or-bits}
 
-Gerard O'Neill's 1970s space colonies paid for themselves by building solar power satellites that beamed energy to Earth. Beaming power needs a receiving antenna kilometres across and loses energy at both ends. Sending the results of a computation needs a laser terminal: NASA sent 622 megabits per second from lunar orbit in 2013, and its TBIRD cubesat reached 200 gigabits per second from low orbit in 2022. Shipping bits instead of watts removes the hardest part of space solar power.
+Gerard O'Neill's 1970s space colonies paid for themselves by building solar power satellites that beamed energy to Earth. Beaming power needs a receiving antenna kilometres across and loses energy at both ends. Sending the results of a computation needs a laser terminal: NASA sent 622 megabits per second from lunar orbit in 2013, and its TBIRD cubesat reached 200 gigabits per second from low orbit in 2022, in short passes over a ground station. For workloads that return little data, shipping bits instead of watts removes the hardest part of space solar power. The link is still a real cost, with clear-sky ground stations and capacity for any data sent up, and this page's model leaves it out.
 
 ## Why does Concordia export compute? {#concordia}
 
@@ -167,11 +174,11 @@ About 830 m² at 330 K and emissivity 0.9, radiating from both faces: about 4 to
 
 ### What launch cost would make space data centers economical?
 
-It depends on the chips. At today's chip prices and five-year refresh cycles no launch price makes orbit cheaper than the ground. If ground capacity runs short and prices rise 50 percent, today's designs break even near $700 per kilogram and lighter satellite designs near $2,000.
+It depends on the chips. In this page's cost model, at today's chip prices no launch price makes orbit cheaper than the ground. If ground capacity runs short and prices rise 50 percent, today's designs break even near $700 per kilogram and lighter satellite designs near $2,000.
 
 ### Why do critics say space data centers won't work?
 
-Ground power is cheaper, radiators are heavy, commercial GPUs are not radiation-hardened, chips go obsolete in about five years and must be relaunched, and no rocket fleet can yet launch a million satellites. At 2026 prices those objections hold: orbit costs about 2.9 times the ground.
+Ground power is cheaper, radiators are heavy, commercial GPUs are not radiation-hardened, chips go obsolete in about five years and must be relaunched, and no rocket fleet can yet launch a million satellites. At 2026 prices those objections hold: this page's baseline model puts orbit at about 2.9 times the ground.
 
 ### Does radiation destroy GPUs in orbit?
 
@@ -179,19 +186,19 @@ Not quickly, as far as tests show. Google exposed a Trillium TPU to a proton bea
 
 ### How would a space data center send its results back to Earth?
 
-By laser. NASA's TBIRD reached 200 gigabits per second from low Earth orbit in 2022, and a lunar laser link sent 622 megabits per second in 2013. Results are small compared with the energy used to compute them.
+By laser. NASA's TBIRD reached 200 gigabits per second from low Earth orbit in 2022, and a lunar laser link sent 622 megabits per second in 2013. For training, rendering and simulation the results are small next to the energy used to make them. Work that moves large datasets needs far more capacity, and optical links need several ground stations to work around cloud.
 
 ### Is it better to beam solar power to Earth or put the computers in orbit?
 
-Putting the computers in orbit avoids the kilometre-wide receiving antennas and the conversion losses of power beaming. It sends bits, which need only a laser terminal. That is why the case for orbital computing is stronger than the old case for space solar power.
+Putting the computers in orbit avoids the kilometre-wide receiving antennas and the conversion losses of power beaming. It sends bits, which need a laser terminal and clear-sky ground stations. For work that returns little data, that makes the case for orbital computing stronger than the old case for space solar power.
 
 ### What would a space colony export?
 
-Computation. It needs energy, heat rejection and a data link, all of which a colony has, and its product weighs nothing. In Concordia's fictional economy a 200 GW compute field is the anchor tenant that pays for the habitat.
+Computation. It needs energy, heat rejection and a data link, all of which a colony has, and for work such as training and rendering its results weigh nothing and need little bandwidth. In Concordia's fictional economy a 200 GW compute field is the anchor tenant that pays for the habitat.
 
 ## Where do these numbers come from? {#method}
 
-The calculator and this page run the same model, `site/js/widgets/orbit-compute-core.mjs`. A script, [orbit_compute.mjs](https://github.com/DavidVeksler/concordia/blob/main/scripts/analysis/orbit_compute.mjs), prints every number on the page and regenerates the three diagrams, and an automated test checks the model against hand-worked values on every push. It is an order-of-magnitude model. It leaves out heat pumps, eclipse storage, debris, insurance, radiation-driven failure rates, communications cost and ground stations.
+The calculator and this page run the same model, `site/js/widgets/orbit-compute-core.mjs`. A script, [orbit_compute.mjs](https://github.com/DavidVeksler/concordia/blob/main/scripts/analysis/orbit_compute.mjs), prints every number on the page and regenerates the three diagrams, and an automated test checks the model against hand-worked values on every push. It is an order-of-magnitude model, and the ratios it prints are scenario outputs, not measured costs. It leaves out heat pumps, eclipse storage, debris, insurance, radiation-driven failure rates, communications cost and ground stations.
 
 {% deeper "Model equations" %}
 Capital recovery factor, the yearly payment that repays one dollar over n years at rate r:
@@ -215,7 +222,7 @@ Ceiling: energy growth = (1 + demand growth) / (1 + efficiency gain) − 1; year
 1 % of land in solar: 1.49 × 10¹⁴ m² of land × 1 % × 12 W/m² of average output = 18 TW. Sunlight intercepted: π × (6,371 km)² × 1,361 W/m² = 173,500 TW. Data center load in 2024: 415 TWh / 8,760 h = 47 GW.
 {% enddeeper %}
 
-Changelog: 14 November 2026, first version.
+Changelog: 14 November 2026, first version. 14 November 2026, revised: chip life restated as a retirement-schedule condition (a longer life helps both sides; a shorter life in orbit hurts orbit), link and bandwidth assumptions qualified, ratios and growth dates labelled as model outputs and scenarios, longer-range levers moved after the near-term conditions.
 
 {% sources %}
 - SD1 to SD4. IEA, "Energy and AI", 2025, chapter "Energy demand from AI" (415 TWh and 1.5 % in 2024; 945 TWh by 2030; 12 % a year over five years; AI servers 30 % a year to 2030), accessed 14 November 2026: [iea.org](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai).
