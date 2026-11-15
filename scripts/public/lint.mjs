@@ -52,9 +52,11 @@ for (const file of walk(content, (p) => p.endsWith('.md'))) {
   pages.set(segs.length ? `/${segs.join('/')}/` : '/', file);
 }
 const generated = new Set(['/explore/', '/updates/', '/llms.txt', '/llms-full.txt', '/sitemap.xml', '/robots.txt', '/']);
+// Built at site build time, not from site/content: /see/ and /see/<viewpoint>/ (scripts/site/share-pages.mjs).
+const generatedPrefixes = ['/see/'];
 const linkOk = (href) => {
   const path = href.split('#')[0].split('?')[0];
-  if (!path || generated.has(path) || pages.has(path.endsWith('/') ? path : `${path}/`)) return true;
+  if (!path || generated.has(path) || generatedPrefixes.some((p) => path.startsWith(p)) || pages.has(path.endsWith('/') ? path : `${path}/`)) return true;
   return existsSync(join(root, 'public', path.slice(1)));
 };
 
