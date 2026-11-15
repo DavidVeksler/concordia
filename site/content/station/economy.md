@@ -45,7 +45,7 @@ So Concordia began as a chartered, for-profit venture with no fixed payback date
 3. **Land.** The builder owns the ground and floor space it creates and leases it, a version of {% term "land value capture" %}: the way some cities pay for a railway by owning the land around its stations.
 4. **Ships and propellant.** The shipyard and the tank farm serve traffic across cislunar space and beyond ([why space](/why-space/)).
 
-**Computation is sold over data links.** Beaming power to Earth needs a receiving field kilometres across and loses energy at both ends. Running computations here and sending the results by laser uses little transmission energy. NASA's lunar laser test sent 622 megabits per second from lunar orbit in 2013, and its TBIRD cubesat reached 200 gigabits per second from low orbit in 2022. {% basis "physics" %} Training, rendering and long simulations can tolerate a few seconds of delay.
+**Computation is sold over data links.** Beaming power to Earth needs a receiving field kilometres across and loses energy at both ends. Running computations here and sending the results by laser uses little transmission energy. NASA's lunar laser test sent 622 megabits per second from lunar orbit in 2013, and its TBIRD cubesat reached 200 gigabits per second from low orbit in 2022. {% basis "physics" %} Training, rendering and long simulations can tolerate a few seconds of delay. [Why build data centers in space](/research/data-centers-in-space/) works through the costs, with a calculator.
 
 {% explore viewpoint="solar-infrastructure" label="See the solar platforms" %} {% explore viewpoint="radiator-field" %}
 

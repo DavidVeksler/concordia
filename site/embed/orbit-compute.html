@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orbital compute cost calculator | Concordia</title>
+<meta name="description" content="Embeddable calculator: the levelized cost of a kW-year of computing on the ground and in orbit, with launch price, radiator mass, chip life and the terrestrial power ceiling as inputs.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="{{origin}}/research/data-centers-in-space/">
+<link rel="stylesheet" href="/site/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Orbital compute cost calculator","url":"{{origin}}/research/data-centers-in-space/#calculator","applicationCategory":"EducationalApplication","operatingSystem":"Any (runs in the browser)","isAccessibleForFree":true}</script>
+<style>body { margin: 0; padding: 12px var(--gutter); background: var(--bg); color: var(--text); font-family: var(--font-body); } .embed-foot { font-size: 0.85rem; color: var(--muted); }</style>
+</head>
+<body>
+<main>
+<div class="widget" data-widget="orbit-compute"><p class="widget__fallback">This calculator needs JavaScript. The model and its equations are on <a href="{{origin}}/research/data-centers-in-space/#method" target="_top">the full page</a>.</p></div>
+<p class="embed-foot">From <a href="{{origin}}/research/data-centers-in-space/" target="_top">Why build data centers in space</a>, Concordia.</p>
+</main>
+<script type="module">
+const el = document.querySelector('[data-widget]');
+import('/site/js/widgets/orbit-compute.js').then((m) => { el.innerHTML = ''; m.mount(el); });
+</script>
+</body>
+</html>

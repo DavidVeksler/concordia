@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" role="img" aria-labelledby="occ-title occ-desc" font-family="DM Sans, system-ui, sans-serif" font-size="15">
+  <title id="occ-title">When sustained growth reaches each terrestrial ceiling</title>
+  <desc id="occ-desc">For four ceilings on terrestrial data center power, the year demand reaches them when growth starts from 60 gigawatts in 2026. At 30 percent a year: Political cap, 1 TW in 2037; 1 % of land in solar, 18 TW in 2048; 10 % of land in solar, 180 TW in 2057; All sunlight reaching Earth, 173,000 TW in 2083. At 15 percent a year: Political cap, 1 TW in 2046; 1 % of land in solar, 18 TW in 2067; 10 % of land in solar, 180 TW in 2083; All sunlight reaching Earth, 173,000 TW in 2132. A ceiling 9,600 times larger buys 35 more years at 30 percent growth.</desc>
+  <text x="20" y="30" fill="currentColor" font-size="18" font-weight="600">A ceiling 9,600 times bigger buys 35 years</text>
+  <text x="20" y="54" fill="currentColor" opacity="0.8">Year data center demand reaches each ceiling, from 60 GW in 2026</text>
+  <circle cx="310" cy="76" r="6" style="fill:var(--accent-2, #8a5a14)"/><text x="322" y="81" fill="currentColor">30 % a year</text>
+  <circle cx="440" cy="76" r="6" style="fill:var(--accent, #1f6f86)"/><text x="452" y="81" fill="currentColor">15 % a year</text>
+  <text x="286" y="125" text-anchor="end" fill="currentColor">Political cap, 1 TW</text>
+  <line x1="300" y1="120" x2="770" y2="120" stroke="currentColor" opacity="0.12"/>
+  <line x1="344.21009648487654" y1="120" x2="382.9921883537944" y2="120" stroke="currentColor" stroke-width="2" opacity="0.4"/>
+  <circle cx="344.21009648487654" cy="120" r="7" style="fill:var(--accent-2, #8a5a14)"/><text x="344.21009648487654" y="108" text-anchor="middle" fill="currentColor" font-size="13">2037</text>
+  <circle cx="382.9921883537944" cy="120" r="7" style="fill:var(--accent, #1f6f86)"/><text x="382.9921883537944" y="108" text-anchor="middle" fill="currentColor" font-size="13">2046</text>
+  <text x="286" y="171" text-anchor="end" fill="currentColor">1 % of land in solar, 18 TW</text>
+  <line x1="300" y1="166" x2="770" y2="166" stroke="currentColor" opacity="0.12"/>
+  <line x1="389.62956316015385" y1="166" x2="468.2546336536608" y2="166" stroke="currentColor" stroke-width="2" opacity="0.4"/>
+  <circle cx="389.62956316015385" cy="166" r="7" style="fill:var(--accent-2, #8a5a14)"/><text x="389.62956316015385" y="154" text-anchor="middle" fill="currentColor" font-size="13">2048</text>
+  <circle cx="468.2546336536608" cy="166" r="7" style="fill:var(--accent, #1f6f86)"/><text x="468.2546336536608" y="154" text-anchor="middle" fill="currentColor" font-size="13">2067</text>
+  <text x="286" y="217" text-anchor="end" fill="currentColor">10 % of land in solar, 180 TW</text>
+  <line x1="300" y1="212" x2="770" y2="212" stroke="currentColor" opacity="0.12"/>
+  <line x1="425.8125166548137" y1="212" x2="536.1780884837708" y2="212" stroke="currentColor" stroke-width="2" opacity="0.4"/>
+  <circle cx="425.8125166548137" cy="212" r="7" style="fill:var(--accent-2, #8a5a14)"/><text x="425.8125166548137" y="200" text-anchor="middle" fill="currentColor" font-size="13">2057</text>
+  <circle cx="536.1780884837708" cy="212" r="7" style="fill:var(--accent, #1f6f86)"/><text x="536.1780884837708" y="200" text-anchor="middle" fill="currentColor" font-size="13">2083</text>
+  <text x="286" y="263" text-anchor="end" fill="currentColor">All sunlight reaching Earth, 173,000 TW</text>
+  <line x1="300" y1="258" x2="770" y2="258" stroke="currentColor" opacity="0.12"/>
+  <line x1="533.7380750372665" y1="258" x2="738.778376237706" y2="258" stroke="currentColor" stroke-width="2" opacity="0.4"/>
+  <circle cx="533.7380750372665" cy="258" r="7" style="fill:var(--accent-2, #8a5a14)"/><text x="533.7380750372665" y="246" text-anchor="middle" fill="currentColor" font-size="13">2083</text>
+  <circle cx="738.778376237706" cy="258" r="7" style="fill:var(--accent, #1f6f86)"/><text x="738.778376237706" y="246" text-anchor="middle" fill="currentColor" font-size="13">2132</text>
+  <text x="300" y="314" text-anchor="middle" fill="currentColor" opacity="0.75">2026</text>
+  <text x="398.9473684210526" y="314" text-anchor="middle" fill="currentColor" opacity="0.75">2050</text>
+  <text x="502.0175438596491" y="314" text-anchor="middle" fill="currentColor" opacity="0.75">2075</text>
+  <text x="605.0877192982457" y="314" text-anchor="middle" fill="currentColor" opacity="0.75">2100</text>
+  <text x="708.1578947368421" y="314" text-anchor="middle" fill="currentColor" opacity="0.75">2125</text>
+</svg>

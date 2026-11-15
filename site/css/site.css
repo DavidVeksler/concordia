@@ -707,3 +707,30 @@ td .basis { margin-left: 0; }
 .w-copy { font: 600 0.88rem/1.2 var(--font-body); min-height: 44px; padding: 0.4em 0.9em; color: var(--accent); background: transparent; border: 1px solid var(--rule); border-radius: 999px; cursor: pointer; }
 .w-copy:hover { border-color: var(--accent); background: var(--surface-2); }
 .w-toast { min-width: 5.5em; font: 600 0.85rem/1.2 var(--font-mono); color: var(--accent-2); }
+
+/* ------------------------------------------------------------------------------------------------ orbit-compute calculator */
+.oc-lede { margin: 0.6rem 0 0; }
+.oc-presets .oc-preset[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
+.oc-preset-note { margin-top: 0.4rem; }
+.oc-group { margin: 0.6rem 0 0; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); }
+.oc-group > summary { cursor: pointer; padding: 0.7rem 0.9rem; min-height: 44px; font-weight: 600; display: flex; align-items: center; }
+.oc-group[open] > summary { border-bottom: 1px solid var(--rule); }
+.oc-group__body, .oc-group > :not(summary) { padding: 0 0.9rem 0.8rem; }
+.oc-input { position: relative; padding-top: 0.2rem; }
+.oc-input--idle { opacity: 0.55; }
+.oc-src-btn { font: 500 0.78rem/1 var(--font-body); color: var(--accent); background: transparent; border: 0; padding: 0.35rem 0; min-height: 32px; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.oc-src { margin-top: 0.1rem; }
+.oc-binding { margin: 0.9rem 0 0; padding: 0.7rem 0.9rem; border-left: 3px solid var(--accent-2); background: var(--surface-2); border-radius: 4px; font-weight: 500; }
+.oc-sub { font-size: 1rem; margin: 1.4rem 0 0; }
+.oc-bars .oc-seg { stroke: var(--surface); stroke-width: 1; }
+.oc-o0, .oc-g0 { fill: var(--accent-2); background: var(--accent-2); }
+.oc-o1 { fill: color-mix(in srgb, var(--accent-2) 50%, var(--surface)); background: color-mix(in srgb, var(--accent-2) 50%, var(--surface)); }
+.oc-o2, .oc-g2 { fill: var(--accent); background: var(--accent); }
+.oc-o3, .oc-g1 { fill: color-mix(in srgb, var(--accent) 50%, var(--surface)); background: color-mix(in srgb, var(--accent) 50%, var(--surface)); }
+.oc-o4 { fill: var(--muted); background: var(--muted); }
+.oc-legend { list-style: none; margin: 0.6rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 0.2rem 1rem; font-size: 0.86rem; color: var(--muted); }
+.oc-swatch { display: inline-block; width: 0.8em; height: 0.8em; border-radius: 2px; margin-right: 0.45em; vertical-align: -0.05em; }
+.oc-embed { width: 100%; font: 0.8rem/1.4 var(--font-mono); color: var(--text); background: var(--surface-2); border: 1px solid var(--rule); border-radius: 6px; padding: 0.5rem; resize: vertical; }
+/* In-universe excerpts on present-day pages: a document set apart from the analysis. */
+.callout--story { background: var(--surface-2); border: 1px dashed color-mix(in srgb, var(--accent-2) 70%, transparent); border-left: 4px solid var(--accent-2); font-family: var(--font-head); }
+.callout--story .callout__fiction { padding: 0.1em 0.45em; border-radius: 3px; background: var(--accent-2); color: var(--on-accent); }

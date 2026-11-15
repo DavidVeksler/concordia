@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-14",
+    "title": "Should data centers go to space?",
+    "blurb": "Today orbit costs 2.9 times the ground. A sourced calculator shows what launch price, chip life and power ceiling flip that.",
+    "href": "/research/data-centers-in-space/"
+  },
+  {
     "date": "2026-11-13",
     "title": "Fly the glider, the racer and the shuttle",
     "blurb": "Three vehicles on real physics, in the browser: a glider in a spinning city, a rocket on a fuel budget, a 155 t ship.",
