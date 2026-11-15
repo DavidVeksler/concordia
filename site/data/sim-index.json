@@ -193,6 +193,14 @@
       "map": "/map/#vp-end-wall-sky-balcony"
     },
     {
+      "id": "end-wall-hung-capture",
+      "name": "End Wall: Looking Down the Wall (review pose)",
+      "group": "Upper Habitat",
+      "purpose": "QA pose of the 2026-11-14 review (docs/specs/end-wall-structure-look-spec.md): the upper city of rotor 1 about 850 m up, 400 m off the +X end wall, looking down the wall at the tiers, the hangers and the tie rings.",
+      "location": "inside",
+      "chapter": "ascender"
+    },
+    {
       "id": "end-wall-axis",
       "name": "End Wall: Upper Wall from the Axis Side",
       "group": "Upper Habitat",
