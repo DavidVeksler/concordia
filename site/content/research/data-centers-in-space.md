@@ -6,16 +6,16 @@ description: "Data centers in space beat the ground only when launch cost, chip 
 lead: "For training, rendering and simulation, the results of a computation are small next to the energy used to make them. That makes computing a candidate export from space: it needs electricity, a way to reject heat and a data link. This page sets out the physics and the costs, names the conditions under which orbit beats the ground in one cost model, and gives a calculator to test them."
 nav: science
 order: 52
-updated: 2026-11-14
+updated: 2026-11-15
 schema: TechArticle
 about: Space-based data centers
 faq: faq
 ogImage: /site/og/data-centers-in-space.jpg
-ogImageAlt: "2.9 times: the baseline model's cost of a kilowatt-year of computing in orbit at 2026 prices, against the same kilowatt-year on the ground."
+ogImageAlt: "3.3 times: the baseline model's cost of a kilowatt-year of computing in orbit at 2026 prices, against the same kilowatt-year on the ground."
 webApp:
   name: Orbital compute cost calculator
   anchor: calculator
-  description: "Compares the levelized cost of one kW-year of IT power on the ground and in orbit. Inputs include launch price, radiator temperature, chip life, space-made mass and a terrestrial power ceiling."
+  description: "Compares the levelized cost of one kW-year of computing on the ground and in orbit, with chip retirement ages computed on both sides. Inputs include launch price, radiator temperature, efficiency gains, space-made mass and a terrestrial power ceiling."
 related:
   - /station/economy/
   - /science/power-and-heat/
@@ -29,7 +29,7 @@ The analysis is present-day and sourced; the numbered sources (SD1 and on) are l
 
 ## Do data centers in space make sense? {#short-answer}
 
-Not yet. In this page's baseline model, built from 2026 prices, a kilowatt-year of computing costs about 2.9 times as much in orbit as on the ground. That is a modelled ratio, not a measured one: nobody runs an orbital data center at scale, and the model leaves out communications, insurance and radiation-driven failures. In the model, orbit competes when launch falls to a few hundred dollars per kilogram, chips get cheaper, chips in orbit last as long as chips on the ground, and the ground runs short of sites and power. The last condition decides when the others matter.
+Not yet. In this page's baseline model, built from 2026 prices, a kilowatt-year of computing costs about 3.3 times as much in orbit as on the ground. That is a modelled ratio, not a measured one: nobody runs an orbital data center at scale, and the model leaves out communications, insurance and radiation damage beyond what heat does. In the model, orbit competes when launch falls to a few hundred dollars per kilogram, chips get cheaper, chips in orbit stay in service about as long as chips on the ground, and the ground runs short of sites and power. The last condition decides when the others matter.
 
 The orbital case rests on a property of some computing work. A steel mill or a chip fab ships tonnes of product. A training run, a render or a simulation returns results that are small next to the energy used to compute them, and a laser link can carry them. Not every workload fits: uploading training data, moving model checkpoints and serving interactive users need far more bandwidth, and the model does not price the link. The inputs are electricity, heat rejection and a link. Space supplies the first and makes the second hard.
 
@@ -72,7 +72,9 @@ Six near-term conditions and three longer-range levers, each testable in the [ca
 
 1. **Cheap launch.** Launch falls to a few hundred dollars per kilogram.
 2. **Cheaper chips.** Once launch is cheap, buying the chips is most of the orbital bill, and space qualification marks them up further. What today's accelerators draw and cost is compared in the [AI accelerator comparison](https://cheatsheets.davidveksler.com/ai-accelerator-comparison.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-conditions-chips#comparison).
-3. **Chips in orbit retire on the ground's schedule.** A longer chip life helps both sides, so by itself it barely moves the ratio: in the model, going from 5 to 12 years takes the Today preset from 2.87 to 3.17 times the ground, and the $200-per-kilogram case from 1.20 to 1.17. What hurts orbit is a shorter life than the ground's, because every replacement chip is launched and heat or radiation can retire chips early. With 12-year chips and $200 launch, running the radiator at 350 K instead of 330 K cuts chip life to 3.6 years and raises the ratio from 1.17 to 2.31. Samir Varma argues that the orbital bet is a bet that efficiency gains slow down (CA1); in this model slower gains lengthen chip life on both sides, so they matter mainly through the ground ceiling below.
+3. **Chips in orbit earn about as long as chips on the ground.** An old chip still computes, but it does less work per watt than a new one, so the model prices a kilowatt-year of new-chip work and computes each side's retirement age from one rule, following Samir Varma (CA1): retire a chip when hosting it costs as much per unit of work as a fresh cycle does on average. A dearer swap keeps chips longer; dearer hosting retires them sooner. At the Today inputs the ground retires its chips at 6.4 years, close to the 5 to 6 years hyperscalers book (SD48), and orbit at 5.6, because hosting in orbit is so expensive. At $200 launch orbit keeps them 8.2 years. What cuts orbital life short is heat: at $200 launch, a 350 K radiator instead of 330 K wears chips out in 3.6 years and raises the ratio from 1.30 to 1.72.
+
+   Varma argues that the orbital bet is a bet that efficiency gains slow down. In the model, slower gains move the weight from the chips, where orbit pays more, to hosting, where orbit can pay less. They help orbit only if its yearly hosting undercuts the ground's by more than the capital charge on its dearer chips, about 9.5 percent of the difference a year at a 10 percent discount rate. The Cheap launch preset misses that (about $1,940 a kW-year against a $1,730 threshold), so stopping efficiency gains raises its ratio from 1.20 to 1.36. The Concordia preset, with locally made hardware, clears it: its ratio is 0.77 at today's pace and 0.66 at the slower 5 percent a year.
 4. **Radiation tolerance.** Shielding, error correction and spares must keep failure rates near ground levels without a large price premium.
 5. **Workloads that tolerate delay and return little data.** Training, batch inference, rendering and simulation can wait a fraction of a second or a few seconds. Interactive serving stays near its users, and work that moves large datasets needs a link budget the model does not include.
 6. **A terrestrial constraint.** Orbit does not need to be cheaper than the ground. It needs to be within the premium the ground would charge if it ran short of sites and power, and able to keep growing if the ground cannot.
@@ -83,11 +85,11 @@ Longer-range levers:
 8. **High-temperature electronics.** Silicon carbide power switches are rated to a 175 °C junction (SD42). Logic chips that ran reliably that hot would let radiators run hotter and lighter. None exist today.
 9. **Servicing.** Something has to replace failed boards: robots, or people living nearby. Nothing services satellites at this scale yet.
 
-The calculator's Today preset shows how the near-term conditions stack in the model. At 2026 prices orbit costs 2.9 times the ground. Cut launch to $200 per kilogram and the ratio falls to 1.2, with the chips now 78 percent of the orbital bill. Keeping the chips for 12 years on both sides leaves it at 1.2. Add $10-per-watt chips and orbit reaches parity; add a five-cent siting surcharge on ground power and orbit is 12 percent cheaper. These are model outputs for one sequence of assumptions, not forecasts.
+The calculator's Today preset shows how the near-term conditions stack in the model. At 2026 prices orbit costs 3.3 times the ground. Cut launch to $200 per kilogram and the ratio falls to 1.3, with the chips now 72 percent of the orbital bill. Add $10-per-watt chips and it is 1.22: cheaper chips help the ground too, which now retires them after 3.8 years. Add a five-cent siting surcharge on ground power and orbit is still 11 percent dearer. In this model the near-term conditions bring orbit within reach of the ground but not below it; a terrestrial constraint does the rest. These are model outputs for one sequence of assumptions, not forecasts.
 
 ### What launch price per kilogram is the threshold? {#launch-threshold}
 
-It depends on the chips. In the model, at today's chip and hardware prices no launch price makes orbit cheaper: with free launch, the space-qualified accelerators, power hardware and servicing still cost about $12,800 per kW-year against $11,800 for a whole ground kilowatt. If ground capacity runs out and prices rise 50 percent, today's designs break even at about $700 per kilogram and lighter SpaceX-style satellites at about $2,000. Google projects launch prices below about $200 per kilogram by the mid-2030s (SD21); Falcon 9 costs about $3,000 to $3,600 per kilogram today (SD25). The launch vehicles that set those prices are compared side by side in the [orbital rocket specifications table](https://cheatsheets.davidveksler.com/orbital-rockets-comparison.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-launch-threshold#specs).
+It depends on the chips. In the model, at today's chip and hardware prices no launch price makes orbit cheaper: with free launch, the space-qualified accelerators, power hardware and servicing still cost about $20,000 per kW-year against $17,300 for a whole ground kilowatt. If ground capacity runs out and prices rise 50 percent, today's designs break even at about $470 per kilogram and lighter SpaceX-style satellites at about $1,400. Google projects launch prices below about $200 per kilogram by the mid-2030s (SD21); Falcon 9 costs about $3,000 to $3,600 per kilogram today (SD25). The launch vehicles that set those prices are compared side by side in the [orbital rocket specifications table](https://cheatsheets.davidveksler.com/orbital-rockets-comparison.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-launch-threshold#specs).
 
 ## How much computing can Earth support? {#ceiling}
 
@@ -149,11 +151,11 @@ Concordia is a fictional space city at the Earth-Moon L5 point, explorable in [t
 {% callout "From the Concordia prospectus, 2045" story="1" %}
 The compute field around the station draws 200 GW from 588 km² of locally made arrays and rejects its heat from 165 km² of radiators at 330 K. Earth sends the chips, about 5 kg per kW, and a small share of the specialised hardware. Concordia makes everything heavy: 98 percent of the arrays, radiators, structure and shielding, 91 percent of the field's whole mass, is lunar regolith, glass and metal delivered at about $3 per kilogram.
 
-A kW-year from the field costs about $1,500 against about $3,000 on Earth, where siting levies add three cents to every kWh. Power in the field costs about a cent per kWh. Chips earn for 12 years because efficiency gains slowed in the 2040s, and at a 355 K junction they physically last that long. Resident technicians cut servicing to 40 percent of what an uncrewed field would need.
+A kW-year from the field costs about $2,500 against about $3,700 on Earth, where siting levies add three cents to every kWh. Power in the field costs about a cent per kWh. Since efficiency gains slowed in the 2040s, chips earn until they wear out, after about 12 years at a 355 K junction; ground operators retire theirs a year sooner. Resident technicians fit spare boards and cut servicing to 40 percent of what an uncrewed field would need.
 {% endcallout %}
 
 {% callout "From the residents' authority annual report, 2045" story="1" %}
-Terrestrial data center power was capped at 1 TW. Demand growing 30 percent a year reached the cap in 2037. Prices doubled to about $6,000 per kW-year, about $6 billion per GW-year, and the field's 200 GW earns about $1.2 trillion a year. A new kilowatt in the field pays back its build cost in about two years.
+Terrestrial data center power was capped at 1 TW. Demand growing 30 percent a year reached the cap in 2037. Prices doubled to about $7,400 per kW-year, about $7.4 billion per GW-year, and the field's 200 GW earns about $1.5 trillion a year. A new kilowatt in the field pays back its build cost in about two years.
 {% endcallout %}
 
 Every number in these boxes reproduces with the calculator's **Concordia era** preset. Where Concordia's canon is silent, the preset uses proposals flagged in each input's source note: a regulatory cap of 1 TW, efficiency gains plateauing in the 2040s, $10-per-watt chips and automated ground construction at $11 per watt.
@@ -174,11 +176,11 @@ About 830 m² at 330 K and emissivity 0.9, radiating from both faces: about 4 to
 
 ### What launch cost would make space data centers economical?
 
-It depends on the chips. In this page's cost model, at today's chip prices no launch price makes orbit cheaper than the ground. If ground capacity runs short and prices rise 50 percent, today's designs break even near $700 per kilogram and lighter satellite designs near $2,000.
+It depends on the chips. In this page's cost model, at today's chip prices no launch price makes orbit cheaper than the ground. If ground capacity runs short and prices rise 50 percent, today's designs break even near $470 per kilogram and lighter satellite designs near $1,400.
 
 ### Why do critics say space data centers won't work?
 
-Ground power is cheaper, radiators are heavy, commercial GPUs are not radiation-hardened, chips go obsolete in about five years and must be relaunched, and no rocket fleet can yet launch a million satellites. At 2026 prices those objections hold: this page's baseline model puts orbit at about 2.9 times the ground.
+Ground power is cheaper, radiators are heavy, commercial GPUs are not radiation-hardened, chips go obsolete in about five years and must be relaunched, and no rocket fleet can yet launch a million satellites. At 2026 prices those objections hold: this page's baseline model puts orbit at about 3.3 times the ground.
 
 ### Does radiation destroy GPUs in orbit?
 
@@ -198,7 +200,7 @@ Computation. It needs energy, heat rejection and a data link, all of which a col
 
 ## Where do these numbers come from? {#method}
 
-The calculator and this page run the same model, `site/js/widgets/orbit-compute-core.mjs`. A script, [orbit_compute.mjs](https://github.com/DavidVeksler/concordia/blob/main/scripts/analysis/orbit_compute.mjs), prints every number on the page and regenerates the three diagrams, and an automated test checks the model against hand-worked values on every push. It is an order-of-magnitude model, and the ratios it prints are scenario outputs, not measured costs. It leaves out heat pumps, eclipse storage, debris, insurance, radiation-driven failure rates, communications cost and ground stations.
+The calculator and this page run the same model, `site/js/widgets/orbit-compute-core.mjs`. A script, [orbit_compute.mjs](https://github.com/DavidVeksler/concordia/blob/main/scripts/analysis/orbit_compute.mjs), prints every number on the page and regenerates the three diagrams, and an automated test checks the model against hand-worked values on every push. It is an order-of-magnitude model, and the ratios it prints are scenario outputs, not measured costs. It leaves out heat pumps, eclipse storage, debris, insurance, radiation damage beyond the temperature model, communications cost and ground stations.
 
 {% deeper "Model equations" %}
 Capital recovery factor, the yearly payment that repays one dollar over n years at rate r:
@@ -207,22 +209,32 @@ Capital recovery factor, the yearly payment that repays one dollar over n years 
 CRF(r, n) = r (1 + r)ⁿ / ((1 + r)ⁿ − 1)        CRF(10 %, 5) = 0.2638
 {% endeq %}
 
-Ground, per kW-year: chips CRF(r, L) × chip cost; facility CRF(r, 20) × facility capex; energy 8,760 h × PUE × (price + siting surcharge). Today preset: $35 per watt of chips over 5 years, a $17.6 per watt facility, $0.05 per kWh and a PUE of 1.2 at 10 percent give 9,233 + 2,067 + 526 = $11,826.
+Costs run as continuous flows, discounted at ρ = ln(1 + r), so capital is annualised as CRF_c(r, n) = ρ / (1 − (1 + r)⁻ⁿ): 0.1120 for 20 years at 10 percent.
 
-Orbit, per kW-year: chips CRF(r, L_orbit) × chip cost × qualification multiplier; chip launch CRF(r, L_orbit) × compute mass × launch price × location multiplier, repeated every refresh; array, radiator and structure mass CRF(r, L_infra) × mass × blended cost per kg, where blended = space share × space cost + (1 − space share) × launch price × location multiplier; power and thermal hardware CRF(r, L_infra) × hardware cost; servicing a percentage of capex per year.
+Retirement, after Samir Varma (CA1). In one kW slot a swap costs K, hosting costs h a year whatever chip sits in it, and a chip of age t does e^(−at) of a new chip's work per watt, with a = ln(1 + efficiency gain). Over a cycle of length R the slot's cost per kW-year of new-chip work is
+
+{% eq %}
+c(R) = [K − S e^(−(a + ρ)R) + h (1 − e^(−ρR)) / ρ] / [(1 − e^(−(ρ + a + λ)R)) / (ρ + a + λ)]
+{% endeq %}
+
+where S is the resale value of a new chip, λ the rate at which failed boards stay dead, and spare boards add to h. Each side retires its chips at the R that minimises c, up to their wear-out life. With no discounting, resale or failures this reduces to Varma's rule, e^x − 1 − x = (ln 2 / D)(K / h) with x = R ln 2 / D and D the doubling time of work per watt; the test suite checks that the two agree.
+
+Ground: K = chip cost; h = CRF_c(r, 20) × facility capex + 8,760 h × PUE × (price + siting surcharge); a used chip sells for the resale share × chip cost × e^(−at), and failed boards are replaced at that used price. Today preset: K = $35,000 and h = 1,970 + 526 = $2,496 a year per kW, with efficiency doubling every 3.0 years (SD45); the cost is lowest at 6.4 years, $17,321 per kW-year of new-chip work.
+
+Orbit: K = chip cost × qualification multiplier + compute mass × launch price × location multiplier + a per-swap charge; h = CRF_c(r, L_infra) × (array, radiator and structure mass × blended cost per kg + power and thermal hardware) + servicing × capex, where blended = space share × space cost + (1 − space share) × launch price × location multiplier. Orbital chips have no resale. Without resident technicians failed boards stay dead until the next swap; with them, spares are launched and fitted.
 
 Radiator: flux = 2 ε σ T⁴ per m² of two-sided panel; area per kW = 1,000 W / flux; mass = area × areal density. Array area per kW = 1,000 / (1,361 × efficiency × illumination fraction).
 
-Chip life in orbit is the lesser of the economic life and the physical life. Physical life follows Arrhenius: L = L₀ exp((Eₐ / k)(1/T_j − 1/T₀)) with Eₐ = 0.7 eV, L₀ = 10 years at T₀ = 358 K (85 °C) and the junction 25 K above the radiator. Near 350 K that halves life every 10.5 K, which is where the rule of thumb of halving per 10 degrees comes from.
+Wear-out follows Arrhenius: L = L₀ exp((Eₐ / k)(1/T_j − 1/T₀)) with Eₐ = 0.7 eV and L₀ = 10 years at T₀ = 358 K (85 °C); the junction runs 25 K above the radiator in orbit and at 353 K (80 °C) on the ground. Near 350 K that halves life every 10.5 K, which is where the rule of thumb of halving per 10 degrees comes from. The board failure rate, 5 percent a year at 85 °C (SD46), scales by the same factor, L₀ / L.
 
 Location multiplier on the low-orbit launch price: exp(Δv / (450 s × 9.81 m/s²)), with Δv 4.2 km/s to geostationary orbit (2.59×) and 3.9 km/s to L5 (2.42×).
 
-Ceiling: energy growth = (1 + demand growth) / (1 + efficiency gain) − 1; years to ceiling = ln(ceiling / 60 GW) / ln(1 + energy growth). The market price is the ground cost below the ceiling and the ground cost times (1 + scarcity premium) after it. Orbital cost is linear in launch price, so the break-even launch price has a closed form.
+Ceiling: energy growth = (1 + demand growth) / (1 + efficiency gain) − 1; years to ceiling = ln(ceiling / 60 GW) / ln(1 + energy growth). The market price is the ground cost below the ceiling and the ground cost times (1 + scarcity premium) after it. Orbital cost rises with launch price, so the break-even launch price is found by bisection.
 
 1 % of land in solar: 1.49 × 10¹⁴ m² of land × 1 % × 12 W/m² of average output = 18 TW. Sunlight intercepted: π × (6,371 km)² × 1,361 W/m² = 173,500 TW. Data center load in 2024: 415 TWh / 8,760 h = 47 GW.
 {% enddeeper %}
 
-Changelog: 14 November 2026, first version. 14 November 2026, revised: chip life restated as a retirement-schedule condition (a longer life helps both sides; a shorter life in orbit hurts orbit), link and bandwidth assumptions qualified, ratios and growth dates labelled as model outputs and scenarios, longer-range levers moved after the near-term conditions.
+Changelog: 14 November 2026, first version. 14 November 2026, revised: chip life restated as a retirement-schedule condition (a longer life helps both sides; a shorter life in orbit hurts orbit), link and bandwidth assumptions qualified, ratios and growth dates labelled as model outputs and scenarios, longer-range levers moved after the near-term conditions. 15 November 2026: chip retirement ages are computed on both sides from one efficiency clock instead of typed in, following Samir Varma's rule (CA1), with discounting, ground resale, annual servicing separate from a per-swap charge, and board failures as cash flows; costs are now per kW-year of new-chip work. The Today ratio moved from 2.87 to 3.25, the Cheap launch preset from 1.13 to 1.20 and the Concordia preset from 0.51 to 0.66, and cheaper chips no longer bring orbit to parity on their own.
 
 {% sources %}
 - SD1 to SD4. IEA, "Energy and AI", 2025, chapter "Energy demand from AI" (415 TWh and 1.5 % in 2024; 945 TWh by 2030; 12 % a year over five years; AI servers 30 % a year to 2030), accessed 14 November 2026: [iea.org](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai).

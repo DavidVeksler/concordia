@@ -17,6 +17,8 @@ export const CHIP_EA_EV = 0.7; // activation energy for the Arrhenius life model
 export const CHIP_REF_JUNCTION_K = 358; // 85 C: physical life is quoted at this junction temperature
 export const CHIP_REF_JUNCTION_HOT_K = 423; // 150 C with the high-temperature semiconductor toggle (speculative)
 export const JUNCTION_RISE_K = 25; // junction runs about 25 K above the radiator
+export const GROUND_JUNCTION_K = 353; // 80 C: liquid-cooled accelerators on the ground [EST: typical 60 to 85 C under load]
+export const MAX_RETIREMENT_Y = 30; // the retirement scan never looks past this age
 
 /** Where the orbital plant sits. Delta-v is from low Earth orbit; the multiplier is the rocket equation at ROCKET_ISP_S. */
 export const LOCATIONS = {
@@ -41,6 +43,88 @@ export function crf(r, n) {
   if (r === 0) return 1 / n;
   const f = (1 + r) ** n;
   return (r * f) / (f - 1);
+}
+
+/** Continuous discount rate equivalent to an annual rate r: e^(-rho t) = (1 + r)^-t. */
+export const contRate = (r) => Math.log(1 + r);
+/** Capital recovery as a continuous flow: the yearly flow that repays 1 unit over n years at annual rate r. */
+export function crfc(r, n) {
+  if (n <= 0) return Infinity;
+  const p = contRate(r);
+  if (p === 0) return 1 / n;
+  return p / (1 - Math.exp(-p * n));
+}
+/** Present value of a unit yearly flow over [0, R] at continuous rate k. */
+export const pvFlow = (k, R) => (Math.abs(k * R) < 1e-12 ? R : (1 - Math.exp(-k * R)) / k);
+/** Obsolescence rate a: a chip of age t delivers e^(-a t) of the frontier's useful work per watt. */
+export const obsolescenceRate = (efficiencyGain) => Math.log(1 + efficiencyGain);
+/** Doubling time of useful work per watt, years (Infinity with no gain). */
+export const doublingYears = (efficiencyGain) => (efficiencyGain > 0 ? Math.LN2 / Math.log(1 + efficiencyGain) : Infinity);
+
+/**
+ * Samir Varma's benchmark (2026-11-15): no discounting, resale or failures. A kW slot costs h a year whatever chip sits in it,
+ * a swap costs K, and a chip of age t delivers 2^(-t/D) of the frontier. Minimising (K + h R) over the work delivered gives
+ * e^x - 1 - x = (ln 2 / D)(K / h) with x = R ln 2 / D. Returns R in years (Infinity when D is infinite).
+ */
+export function varmaRetirementAge(K, h, D) {
+  if (!Number.isFinite(D)) return Infinity;
+  const rhs = (Math.LN2 / D) * (K / h);
+  let lo = 0;
+  let hi = 1;
+  while (Math.exp(hi) - 1 - hi < rhs) hi *= 2;
+  for (let i = 0; i < 100; i++) {
+    const x = (lo + hi) / 2;
+    if (Math.exp(x) - 1 - x < rhs) lo = x; else hi = x;
+  }
+  return ((lo + hi) / 2) * D / Math.LN2;
+}
+
+/**
+ * Levelized cost of a kW slot per frontier-equivalent kW-year (a kW-year of work by a new chip), for retirement age R.
+ * Cycle of length R, repeated forever (the repeat factor cancels): a swap costs sum(swap) at the start, resale earns
+ * resale0 e^(-a R) at the end, flows run at sum(flow) a year (hosting, servicing, repairs), and the slot delivers work
+ * e^(-(a + deadRate) t) at age t, where deadRate is the rate at which failed boards stay dead. Everything discounted at rate.
+ * Returns the total and its parts by key.
+ */
+export function slotCost(slot, R, rate) {
+  const rho = contRate(rate);
+  const disc = Math.exp(-rho * R);
+  const work = pvFlow(rho + slot.a + slot.deadRate, R);
+  const flowPv = pvFlow(rho, R);
+  const parts = {};
+  let total = 0;
+  const add = (key, pv) => { parts[key] = (parts[key] ?? 0) + pv / work; total += pv / work; };
+  for (const [key, amount] of Object.entries(slot.swap)) add(key, amount);
+  for (const [key, perYear] of Object.entries(slot.flow)) add(key, perYear * flowPv);
+  for (const [key, ratePv] of Object.entries(slot.agedFlow ?? {})) add(key, ratePv * pvFlow(rho + slot.a, R)); // flows that fall with the chip's value
+  if (slot.resale0) add(slot.resaleKey ?? 'chips', -slot.resale0 * Math.exp(-slot.a * R) * disc);
+  return { total, parts, work };
+}
+
+/** The retirement age that minimises slotCost on (0, cap]: a grid scan, then golden-section refinement around the best point. */
+export function optimalRetirement(slot, rate, cap) {
+  const hi = Math.min(cap, MAX_RETIREMENT_Y);
+  const lo = Math.min(0.1, hi);
+  const N = 240;
+  let best = hi;
+  let bestC = slotCost(slot, hi, rate).total;
+  for (let i = 0; i <= N; i++) {
+    const R = lo + ((hi - lo) * i) / N;
+    const c = slotCost(slot, R, rate).total;
+    if (c < bestC) { bestC = c; best = R; }
+  }
+  const step = (hi - lo) / N;
+  let a = Math.max(lo, best - step);
+  let b = Math.min(hi, best + step);
+  const phi = (Math.sqrt(5) - 1) / 2;
+  for (let i = 0; i < 40 && b - a > 1e-6; i++) {
+    const c1 = b - phi * (b - a);
+    const c2 = a + phi * (b - a);
+    if (slotCost(slot, c1, rate).total < slotCost(slot, c2, rate).total) b = c2; else a = c1;
+  }
+  let R = (a + b) / 2;
+  if (slotCost(slot, hi, rate).total <= slotCost(slot, R, rate).total) R = hi; // a monotone cost sits on the cap
+  return { R, ...slotCost(slot, R, rate), capped: R >= hi - 1e-6 };
 }
 
 /** Two-sided panel flux, W/m2: 2 e sigma (T^4 - Tsink^4). */
@@ -71,9 +155,9 @@ export const INPUTS = [
   // Economy
   { key: 'rate', group: 'economy', label: 'Discount rate', unit: '%', pct: true, min: 0, max: 20, step: 0.5 },
   { key: 'chipCost', group: 'economy', label: 'Chip cost per watt of IT power', unit: '$/W', min: 1, max: 80, step: 0.5 },
-  { key: 'econLife', group: 'economy', label: 'Chip economic life (obsolescence)', unit: 'years', min: 1, max: 25, step: 0.5 },
   { key: 'demandGrowth', group: 'economy', label: 'Compute demand growth', unit: '%/yr', pct: true, min: 0, max: 100, step: 1 },
-  { key: 'efficiencyGain', group: 'economy', label: 'Efficiency gain (work per watt)', unit: '%/yr', pct: true, min: 0, max: 60, step: 1 },
+  { key: 'efficiencyGain', group: 'economy', label: 'Efficiency gain of new chips (work per watt)', unit: '%/yr', pct: true, min: 0, max: 60, step: 1 },
+  { key: 'failRate', group: 'economy', label: 'Board failure rate at 85 °C junction', unit: '%/yr', pct: true, min: 0, max: 30, step: 0.5 },
   { key: 'ceiling', group: 'economy', label: 'Terrestrial ceiling', kind: 'choice', options: Object.keys(CEILINGS) },
   { key: 'capTW', group: 'economy', label: 'Political cap', unit: 'TW', min: 0.1, max: 100, step: 0.1, log: true },
   { key: 'premium', group: 'economy', label: 'Scarcity premium once the ceiling binds', unit: '%', pct: true, min: 0, max: 500, step: 5 },
@@ -82,6 +166,7 @@ export const INPUTS = [
   { key: 'price', group: 'ground', label: 'Electricity price', unit: '$/kWh', min: 0.01, max: 0.3, step: 0.005 },
   { key: 'surcharge', group: 'ground', label: 'Siting surcharge or tax', unit: '$/kWh', min: 0, max: 0.5, step: 0.005 },
   { key: 'pue', group: 'ground', label: 'PUE', unit: '', min: 1, max: 2, step: 0.01 },
+  { key: 'resale', group: 'ground', label: 'Used-chip price per unit of remaining work', unit: '% of new', pct: true, min: 0, max: 150, step: 5 },
   // Orbit
   { key: 'location', group: 'orbit', label: 'Location', kind: 'choice', options: Object.keys(LOCATIONS) },
   { key: 'launch', group: 'orbit', label: 'Launch price to LEO', unit: '$/kg', min: 10, max: 10000, step: 10, log: true },
@@ -96,10 +181,11 @@ export const INPUTS = [
   { key: 'cellEff', group: 'orbit', label: 'Solar array efficiency (system)', unit: '%', pct: true, min: 10, max: 50, step: 0.5 },
   { key: 'hwCost', group: 'orbit', label: 'Power and thermal hardware', unit: '$/W', min: 0.1, max: 100, step: 0.1, log: true },
   { key: 'qual', group: 'orbit', label: 'Space-qualification multiplier on chips', unit: '×', min: 1, max: 5, step: 0.05 },
-  { key: 'refLife', group: 'orbit', label: 'Chip physical life at 85 °C junction', unit: 'years', min: 1, max: 30, step: 0.5 },
+  { key: 'refLife', group: 'orbit', label: 'Chip wear-out life at 85 °C junction (both sides)', unit: 'years', min: 1, max: 30, step: 0.5 },
   { key: 'hotChips', group: 'orbit', label: 'High-temperature semiconductors (rated to 150 °C)', kind: 'bool' },
   { key: 'infraLife', group: 'orbit', label: 'Power, thermal and structure life', unit: 'years', min: 3, max: 50, step: 1 },
   { key: 'servicing', group: 'orbit', label: 'Annual servicing', unit: '% of capex', pct: true, min: 0, max: 20, step: 0.25 },
+  { key: 'swapCharge', group: 'orbit', label: 'Per-swap charge (install, disposal)', unit: '% of chip block', pct: true, min: 0, max: 100, step: 1 },
   { key: 'residents', group: 'orbit', label: 'Resident technicians', kind: 'bool' },
   // Scale
   { key: 'scaleGW', group: 'scale', label: 'Installed IT power', unit: 'GW', min: 0.01, max: 1000, step: 0.01, log: true },
@@ -111,31 +197,31 @@ export const PRESETS = {
   today: {
     label: 'Today (2026)',
     v: {
-      rate: 0.10, chipCost: 35, econLife: 5, demandGrowth: 0.15, efficiencyGain: 0, ceiling: 'land1', capTW: 1, premium: 0.5,
-      facility: 17.6, price: 0.05, surcharge: 0, pue: 1.2,
+      rate: 0.10, chipCost: 35, demandGrowth: 0.45, efficiencyGain: 0.26, failRate: 0.05, ceiling: 'land1', capTW: 1, premium: 0.5,
+      facility: 17.6, price: 0.05, surcharge: 0, pue: 1.2, resale: 0.5,
       location: 'sso', launch: 3000, spaceShare: 0, spaceCost: 1000,
       mArray: 10, mCompute: 13, mStruct: 4, radTemp: 330, emissivity: 0.9, radDensity: 5, cellEff: 0.25,
-      hwCost: 5, qual: 1.2, refLife: 10, hotChips: false, infraLife: 10, servicing: 0.02, residents: false, scaleGW: 1,
+      hwCost: 5, qual: 1.2, refLife: 10, hotChips: false, infraLife: 10, servicing: 0.02, swapCharge: 0, residents: false, scaleGW: 1,
     },
   },
   cheap: {
     label: 'Cheap launch',
     v: {
-      rate: 0.10, chipCost: 35, econLife: 5, demandGrowth: 0.15, efficiencyGain: 0, ceiling: 'land1', capTW: 1, premium: 0.5,
-      facility: 17.6, price: 0.05, surcharge: 0, pue: 1.2,
+      rate: 0.10, chipCost: 35, demandGrowth: 0.45, efficiencyGain: 0.26, failRate: 0.05, ceiling: 'land1', capTW: 1, premium: 0.5,
+      facility: 17.6, price: 0.05, surcharge: 0, pue: 1.2, resale: 0.5,
       location: 'sso', launch: 200, spaceShare: 0, spaceCost: 1000,
       mArray: 3, mCompute: 5, mStruct: 1, radTemp: 330, emissivity: 0.9, radDensity: 2, cellEff: 0.25,
-      hwCost: 5, qual: 1.2, refLife: 10, hotChips: false, infraLife: 10, servicing: 0.02, residents: false, scaleGW: 1,
+      hwCost: 5, qual: 1.2, refLife: 10, hotChips: false, infraLife: 10, servicing: 0.02, swapCharge: 0, residents: false, scaleGW: 1,
     },
   },
   concordia: {
     label: 'Concordia era',
     v: {
-      rate: 0.06, chipCost: 10, econLife: 12, demandGrowth: 0.365, efficiencyGain: 0.05, ceiling: 'cap', capTW: 1, premium: 1,
-      facility: 11, price: 0.05, surcharge: 0.03, pue: 1.2,
+      rate: 0.06, chipCost: 10, demandGrowth: 0.365, efficiencyGain: 0.05, failRate: 0.05, ceiling: 'cap', capTW: 1, premium: 1,
+      facility: 11, price: 0.05, surcharge: 0.03, pue: 1.2, resale: 0.5,
       location: 'l5', launch: 100, spaceShare: 0.98, spaceCost: 3,
       mArray: 10, mCompute: 5, mStruct: 50, radTemp: 330, emissivity: 0.9, radDensity: 5, cellEff: 0.25,
-      hwCost: 0.6, qual: 1, refLife: 10, hotChips: false, infraLife: 30, servicing: 0.02, residents: true, scaleGW: 200,
+      hwCost: 0.6, qual: 1, refLife: 10, hotChips: false, infraLife: 30, servicing: 0.02, swapCharge: 0, residents: true, scaleGW: 200,
     },
   },
 };
@@ -156,68 +242,158 @@ export const COMPONENTS = {
   ],
 };
 
-export function groundCost(v) {
-  const chips = crf(v.rate, v.econLife) * v.chipCost * 1000;
-  const facility = crf(v.rate, 20) * v.facility * 1000;
-  const energy = HOURS_PER_YEAR * v.pue * (v.price + v.surcharge);
-  return { parts: { chips, facility, energy }, total: chips + facility + energy };
+/** Ground wear-out life: Arrhenius at the ground junction (the high-temperature toggle is orbit-only). */
+export const groundPhysLife = (v) => chipPhysicalLife(v.refLife, GROUND_JUNCTION_K, CHIP_REF_JUNCTION_K);
+
+/**
+ * The ground slot: chips swapped every R years and resold at the used price for their remaining work, failed boards
+ * replaced from the used market (a like-for-like board of the same age), facility and energy as hosting.
+ * Ground chips run at GROUND_JUNCTION_K; wear-out caps the age and Arrhenius scales the failure rate, as in orbit.
+ */
+export function groundSlot(v) {
+  const chipCapex = v.chipCost * 1000;
+  return {
+    a: obsolescenceRate(v.efficiencyGain),
+    deadRate: 0,
+    swap: { chips: chipCapex },
+    flow: {
+      facility: crfc(v.rate, 20) * v.facility * 1000,
+      energy: HOURS_PER_YEAR * v.pue * (v.price + v.surcharge),
+    },
+    agedFlow: { chips: (v.failRate ?? 0) * (v.refLife / groundPhysLife(v)) * (v.resale ?? 0) * chipCapex },
+    resale0: (v.resale ?? 0) * chipCapex,
+    cap: groundPhysLife(v),
+  };
 }
 
-/** Orbit cost as a function of launch price P (linear: total = a + b P). Returns parts at v.launch plus a and b. */
-export function orbitCost(v) {
-  const mult = locationMultiplier(v.location);
+/** Levelized ground cost per frontier-equivalent kW-year, at its own optimal retirement age. */
+export function groundCost(v) {
+  const slot = groundSlot(v);
+  const opt = optimalRetirement(slot, v.rate, slot.cap);
+  const parts = { chips: opt.parts.chips ?? 0, facility: opt.parts.facility ?? 0, energy: opt.parts.energy ?? 0 };
+  return {
+    parts,
+    total: opt.total,
+    retireAge: opt.R,
+    capped: opt.capped,
+    chipCapex: slot.swap.chips,
+    hostingPerYear: slot.flow.facility + slot.flow.energy,
+    workShare: opt.work / pvFlow(contRate(v.rate), opt.R), // discounted work delivered relative to always-new chips
+  };
+}
+
+/** Orbital physical constants for a parameter set (independent of launch price). */
+function orbitGeometry(v) {
   const loc = LOCATIONS[v.location];
   const radAreaKw = radiatorAreaPerKw(v.radTemp, v.emissivity);
   const mRad = radAreaKw * v.radDensity;
   const mArrayAvg = v.mArray / loc.illumination; // the array is sized for average output
   const mInfra = mArrayAvg + mRad + v.mStruct;
   const junctionK = v.radTemp + JUNCTION_RISE_K;
-  const physLife = chipPhysicalLife(v.refLife, junctionK, v.hotChips ? CHIP_REF_JUNCTION_HOT_K : CHIP_REF_JUNCTION_K);
-  const orbitLife = Math.min(v.econLife, physLife);
-  const crfChip = crf(v.rate, orbitLife);
-  const crfInfra = crf(v.rate, v.infraLife);
-  const servRate = v.servicing * (v.residents ? RESIDENT_SERVICING_FACTOR : 1);
+  const refJ = v.hotChips ? CHIP_REF_JUNCTION_HOT_K : CHIP_REF_JUNCTION_K;
+  const physLife = chipPhysicalLife(v.refLife, junctionK, refJ);
+  // Arrhenius as a reliability input: the random failure rate scales by the same acceleration factor as wear-out.
+  const accel = v.refLife / physLife;
+  return { loc, radAreaKw, mRad, mInfra, junctionK, physLife, accel, mult: locationMultiplier(v.location) };
+}
 
-  // Capex per kW, split into the launch-independent part and the per-($/kg) part.
+/**
+ * The orbital slot at launch price P. A swap buys and launches the chips (plus the per-swap charge); resale is zero.
+ * Hosting is the array, radiator, structure and hardware, annualised over their life, plus annual servicing.
+ * Without resident technicians failed boards stay dead until the next swap; with them, spares are launched and fitted.
+ */
+export function orbitSlot(v, P, geo = orbitGeometry(v)) {
   const chipCapex = v.chipCost * 1000 * v.qual;
+  const chipLaunch = v.mCompute * geo.mult * P;
+  const infraCapex = geo.mInfra * v.spaceShare * v.spaceCost + geo.mInfra * (1 - v.spaceShare) * geo.mult * P;
   const hwCapex = v.hwCost * 1000;
-  const computeKgPerP = v.mCompute * mult; // $ per kW per ($/kg of launch price)
-  const infraSpace = mInfra * v.spaceShare * v.spaceCost;
-  const infraKgPerP = mInfra * (1 - v.spaceShare) * mult;
-
-  const lin = (P) => {
-    const chips = crfChip * chipCapex;
-    const computeLaunch = crfChip * computeKgPerP * P;
-    const infraMass = crfInfra * (infraSpace + infraKgPerP * P);
-    const hardware = crfInfra * hwCapex;
-    const capex = chipCapex + computeKgPerP * P + infraSpace + infraKgPerP * P + hwCapex;
-    const servicing = servRate * capex;
-    // Power cost: what the array, radiator, structure and their hardware cost per kWh delivered, servicing included.
-    const powerPerKwYear = infraMass + hardware + servRate * (infraSpace + infraKgPerP * P + hwCapex);
-    // The two blocks of capital that recur: chips with their launch every chip life, the rest every infrastructure life.
-    const chipBlock = chipCapex + computeKgPerP * P;
-    const infraBlock = infraSpace + infraKgPerP * P + hwCapex;
-    return { parts: { chips, computeLaunch, infraMass, hardware, servicing }, capex, chipBlock, infraBlock, powerPerKwh: powerPerKwYear / HOURS_PER_YEAR, total: chips + computeLaunch + infraMass + hardware + servicing };
-  };
-  const at0 = lin(0);
-  const at1 = lin(1);
-  const res = lin(v.launch);
+  const servRate = v.servicing * (v.residents ? RESIDENT_SERVICING_FACTOR : 1);
+  const crfInfra = crfc(v.rate, v.infraLife);
+  const capex = chipCapex + chipLaunch + infraCapex + hwCapex;
+  const fail = (v.failRate ?? 0) * geo.accel;
+  const swapCharge = (v.swapCharge ?? 0) * (chipCapex + chipLaunch);
   return {
-    ...res,
-    a: at0.total,
-    b: at1.total - at0.total,
-    mult,
-    radAreaKw,
-    arrayAreaKw: arrayAreaPerKw(v.cellEff, loc.illumination),
-    mRad,
-    mInfra,
-    massKw: mInfra + v.mCompute,
-    junctionK,
-    physLife,
-    orbitLife,
+    a: obsolescenceRate(v.efficiencyGain),
+    deadRate: v.residents ? 0 : fail,
+    swap: { chips: chipCapex, computeLaunch: chipLaunch, servicing: swapCharge },
+    flow: {
+      infraMass: crfInfra * infraCapex,
+      hardware: crfInfra * hwCapex,
+      servicing: servRate * capex,
+      chips: v.residents ? fail * chipCapex : 0,
+      computeLaunch: v.residents ? fail * chipLaunch : 0,
+    },
+    resale0: 0,
+    cap: Math.min(geo.physLife, MAX_RETIREMENT_Y),
+    chipBlock: chipCapex + chipLaunch + swapCharge,
+    infraBlock: infraCapex + hwCapex,
+    capex,
     servRate,
-    roundTripS: loc.roundTripS,
+    fail,
+    // Power cost: what the array, radiator, structure and their hardware cost per kWh delivered, servicing included.
+    powerPerKwh: (crfInfra * (infraCapex + hwCapex) + servRate * (infraCapex + hwCapex)) / HOURS_PER_YEAR,
   };
+}
+
+/** Levelized orbital cost per frontier-equivalent kW-year at launch price P, at its own optimal retirement age. */
+export function orbitTotalAt(v, P, geo = orbitGeometry(v)) {
+  const slot = orbitSlot(v, P, geo);
+  return optimalRetirement(slot, v.rate, slot.cap).total;
+}
+
+/** Orbit cost at v.launch, with parts, the retirement age, and the cost at free launch (a). */
+export function orbitCost(v) {
+  const geo = orbitGeometry(v);
+  const slot = orbitSlot(v, v.launch, geo);
+  const opt = optimalRetirement(slot, v.rate, slot.cap);
+  const keys = ['chips', 'computeLaunch', 'infraMass', 'hardware', 'servicing'];
+  const parts = Object.fromEntries(keys.map((k) => [k, opt.parts[k] ?? 0]));
+  return {
+    parts,
+    total: opt.total,
+    a: orbitTotalAt(v, 0, geo),
+    capex: slot.capex,
+    chipBlock: slot.chipBlock,
+    infraBlock: slot.infraBlock,
+    powerPerKwh: slot.powerPerKwh,
+    mult: geo.mult,
+    radAreaKw: geo.radAreaKw,
+    arrayAreaKw: arrayAreaPerKw(v.cellEff, geo.loc.illumination),
+    mRad: geo.mRad,
+    mInfra: geo.mInfra,
+    massKw: geo.mInfra + v.mCompute,
+    junctionK: geo.junctionK,
+    physLife: geo.physLife,
+    orbitLife: opt.R,
+    capped: opt.capped,
+    failRate: slot.fail,
+    servRate: slot.servRate,
+    hostingPerYear: slot.flow.infraMass + slot.flow.hardware + slot.flow.servicing,
+    roundTripS: geo.loc.roundTripS,
+    slot,
+  };
+}
+
+/**
+ * Undiscounted payback of an orbital build at a market price per frontier-equivalent kW-year, counting replacements:
+ * revenue falls with the chips' relative work (and dead boards), chips with their launch are re-bought every retirement
+ * age and the infrastructure every infrastructure life; servicing and spares run as yearly flows. Infinity if never.
+ */
+export function orbitPayback(price, slot, retireAge, infraLife, horizonY = 100, dt = 0.005) {
+  const flow = slot.flow.servicing + slot.flow.chips + slot.flow.computeLaunch;
+  const k = slot.a + slot.deadRate;
+  let cash = 0;
+  let nextChip = 0;
+  let nextInfra = 0;
+  for (let t = 0; t < horizonY; t += dt) {
+    if (t >= nextChip - 1e-9) { cash -= slot.chipBlock; nextChip += retireAge; }
+    if (t >= nextInfra - 1e-9) { cash -= slot.infraBlock; nextInfra += infraLife; }
+    const age = t - (nextChip - retireAge);
+    const step = (price * Math.exp(-k * (age + dt / 2)) - flow) * dt;
+    if (cash < 0 && cash + step >= 0) return t + (dt * -cash) / step;
+    cash += step;
+  }
+  return Infinity;
 }
 
 /** First year cumulative cash (net income per year, minus each block re-bought at the start of its every life) is >= 0; Infinity if never. */
@@ -250,17 +426,26 @@ export function evaluate(v) {
   const marketNow = g.total;
   const marketAfter = g.total * (1 + v.premium);
   const ratio = o.total / g.total;
-  // Break-even launch price: a + b P = target. b > 0 always (launch adds cost).
-  const breakEven = (target) => (o.b > 0 ? (target - o.a) / o.b : Infinity);
+  // Break-even launch price: orbit cost rises with launch price, so bisect. Below zero when free launch is still too dear.
+  const breakEven = (target) => {
+    if (o.a > target) return -Infinity;
+    let lo = 0;
+    let hi = 1e6;
+    if (orbitTotalAt(v, hi) < target) return Infinity;
+    for (let i = 0; i < 80; i++) {
+      const mid = (lo + hi) / 2;
+      if (orbitTotalAt(v, mid) < target) lo = mid; else hi = mid;
+    }
+    return (lo + hi) / 2;
+  };
   const beNow = breakEven(marketNow);
   const beAfter = breakEven(marketAfter);
   let breakEvenYear;
   if (o.total <= marketNow) breakEvenYear = START_YEAR;
   else if (o.total <= marketAfter && Number.isFinite(ceilingYear)) breakEvenYear = ceilingYear;
   else breakEvenYear = Infinity;
-  // Undiscounted payback at a market price, counting replacements: the first time cumulative cash turns non-negative,
-  // with the chip block re-bought every chip life and the infrastructure block every infrastructure life.
-  const payback = (price) => paybackYears(price - o.parts.servicing, o.chipBlock, o.orbitLife, o.infraBlock, v.infraLife);
+  // Undiscounted payback at a market price, counting replacements (orbitPayback).
+  const payback = (price) => orbitPayback(price, o.slot, o.orbitLife, v.infraLife);
   // Binding constraint: the largest orbital component.
   const entries = Object.entries(o.parts).sort((x, y) => y[1] - x[1]);
   const [topKey, topVal] = entries[0];

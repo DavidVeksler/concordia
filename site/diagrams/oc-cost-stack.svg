@@ -1,47 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 486" role="img" aria-labelledby="ocs-title ocs-desc" font-family="DM Sans, system-ui, sans-serif" font-size="15">
-  <title id="ocs-title">Levelized cost per kW-year of compute on the ground and in orbit for three presets</title>
-  <desc id="ocs-desc">Stacked bars by cost component. Today (2026): ground $11,826, orbit $33,953 per kW-year, 2.87 times. Cheap launch: ground $11,826, orbit $13,326 per kW-year, 1.13 times. Concordia era: ground $2,993, orbit $1,515 per kW-year, 0.51 times. Chips dominate every bar once launch is cheap.</desc>
+  <title id="ocs-title">Levelized cost per kW-year of new-chip work on the ground and in orbit for three presets</title>
+  <desc id="ocs-desc">Stacked bars by cost component. Today (2026): ground $17,321, orbit $56,318 per kW-year, 3.25 times. Cheap launch: ground $17,321, orbit $20,871 per kW-year, 1.20 times. Concordia era: ground $3,717, orbit $2,469 per kW-year, 0.66 times. Chips dominate every bar once launch is cheap.</desc>
   <text x="20" y="30" fill="currentColor" font-size="18" font-weight="600">Once launch is cheap, the chips are the bill</text>
-  <text x="20" y="54" fill="currentColor" opacity="0.8">Levelized cost per kW-year of IT power, the calculator’s three presets</text>
+  <text x="20" y="54" fill="currentColor" opacity="0.8">Levelized cost per kW-year of new-chip work, the calculator’s three presets</text>
   <text x="20" y="90" fill="currentColor" font-weight="600">Today (2026)</text>
   <text x="100" y="117" text-anchor="end" fill="currentColor">Ground</text>
-  <rect x="110.0" y="102" width="144.1" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Ground, Chips: $9,233</title></rect>
-  <rect x="254.1" y="102" width="32.3" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Ground, Facility: $2,067</title></rect>
-  <rect x="286.4" y="102" width="8.2" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Ground, Energy and siting: $526</title></rect>
-  <text x="302.59775359438544" y="118" fill="currentColor" font-size="13">$11,826</text>
+  <rect x="110.0" y="102" width="121.1" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Ground, Chips: $12,864</title></rect>
+  <rect x="231.1" y="102" width="33.1" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Ground, Facility: $3,519</title></rect>
+  <rect x="264.2" y="102" width="8.8" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Ground, Energy and siting: $939</title></rect>
+  <text x="281.00823209235233" y="118" fill="currentColor" font-size="13">$17,321</text>
   <text x="100" y="157" text-anchor="end" fill="currentColor">Orbit</text>
-  <rect x="110.0" y="142" width="172.9" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Orbit, Buying the chips: $11,079</title></rect>
-  <rect x="282.9" y="142" width="160.6" height="22" style="fill:color-mix(in srgb, var(--accent-2, #8a5a14) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Launching the chips: $10,288</title></rect>
-  <rect x="443.5" y="142" width="139.7" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Orbit, Delivering the array, radiator and structure: $8,952</title></rect>
-  <rect x="583.3" y="142" width="12.7" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Building the power and thermal hardware: $814</title></rect>
-  <rect x="596.0" y="142" width="44.0" height="22" style="fill:var(--muted, #55635f);stroke:var(--surface, #fff)"><title>Orbit, Servicing: $2,820</title></rect>
-  <text x="647.9999999999999" y="158" fill="currentColor" font-size="13">$33,953 (2.87×)</text>
+  <rect x="110.0" y="142" width="166.3" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Orbit, Buying the chips: $17,666</title></rect>
+  <rect x="276.3" y="142" width="154.4" height="22" style="fill:color-mix(in srgb, var(--accent-2, #8a5a14) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Launching the chips: $16,404</title></rect>
+  <rect x="430.6" y="142" width="147.3" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Orbit, Delivering the array, radiator and structure: $15,651</title></rect>
+  <rect x="577.9" y="142" width="13.4" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Building the power and thermal hardware: $1,423</title></rect>
+  <rect x="591.3" y="142" width="48.7" height="22" style="fill:var(--muted, #55635f);stroke:var(--surface, #fff)"><title>Orbit, Servicing: $5,173</title></rect>
+  <text x="647.9999999999999" y="158" fill="currentColor" font-size="13">$56,318 (3.25×)</text>
   <text x="20" y="196" fill="currentColor" font-weight="600">Cheap launch</text>
   <text x="100" y="223" text-anchor="end" fill="currentColor">Ground</text>
-  <rect x="110.0" y="208" width="144.1" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Ground, Chips: $9,233</title></rect>
-  <rect x="254.1" y="208" width="32.3" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Ground, Facility: $2,067</title></rect>
-  <rect x="286.4" y="208" width="8.2" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Ground, Energy and siting: $526</title></rect>
-  <text x="302.59775359438544" y="224" fill="currentColor" font-size="13">$11,826</text>
+  <rect x="110.0" y="208" width="121.1" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Ground, Chips: $12,864</title></rect>
+  <rect x="231.1" y="208" width="33.1" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Ground, Facility: $3,519</title></rect>
+  <rect x="264.2" y="208" width="8.8" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Ground, Energy and siting: $939</title></rect>
+  <text x="281.00823209235233" y="224" fill="currentColor" font-size="13">$17,321</text>
   <text x="100" y="263" text-anchor="end" fill="currentColor">Orbit</text>
-  <rect x="110.0" y="248" width="172.9" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Orbit, Buying the chips: $11,079</title></rect>
-  <rect x="282.9" y="248" width="4.1" height="22" style="fill:color-mix(in srgb, var(--accent-2, #8a5a14) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Launching the chips: $264</title></rect>
-  <rect x="287.1" y="248" width="2.9" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Orbit, Delivering the array, radiator and structure: $186</title></rect>
-  <rect x="290.0" y="248" width="12.7" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Building the power and thermal hardware: $814</title></rect>
-  <rect x="302.7" y="248" width="15.3" height="22" style="fill:var(--muted, #55635f);stroke:var(--surface, #fff)"><title>Orbit, Servicing: $983</title></rect>
-  <text x="326.01302259697303" y="264" fill="currentColor" font-size="13">$13,326 (1.13×)</text>
+  <rect x="110.0" y="248" width="151.4" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Orbit, Buying the chips: $16,093</title></rect>
+  <rect x="261.4" y="248" width="3.6" height="22" style="fill:color-mix(in srgb, var(--accent-2, #8a5a14) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Launching the chips: $383</title></rect>
+  <rect x="265.1" y="248" width="3.8" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Orbit, Delivering the array, radiator and structure: $402</title></rect>
+  <rect x="268.8" y="248" width="16.6" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Building the power and thermal hardware: $1,761</title></rect>
+  <rect x="285.4" y="248" width="21.0" height="22" style="fill:var(--muted, #55635f);stroke:var(--surface, #fff)"><title>Orbit, Servicing: $2,232</title></rect>
+  <text x="314.4169604358096" y="264" fill="currentColor" font-size="13">$20,871 (1.20×)</text>
   <text x="20" y="302" fill="currentColor" font-weight="600">Concordia era</text>
   <text x="100" y="329" text-anchor="end" fill="currentColor">Ground</text>
-  <rect x="110.0" y="314" width="18.6" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Ground, Chips: $1,193</title></rect>
-  <rect x="128.6" y="314" width="15.0" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Ground, Facility: $959</title></rect>
-  <rect x="143.6" y="314" width="13.1" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Ground, Energy and siting: $841</title></rect>
-  <text x="164.71623006546392" y="330" fill="currentColor" font-size="13">$2,993</text>
+  <rect x="110.0" y="314" width="14.1" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Ground, Chips: $1,498</title></rect>
+  <rect x="124.1" y="314" width="11.0" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Ground, Facility: $1,166</title></rect>
+  <rect x="135.1" y="314" width="9.9" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Ground, Energy and siting: $1,053</title></rect>
+  <text x="152.97789202256018" y="330" fill="currentColor" font-size="13">$3,717</text>
   <text x="100" y="369" text-anchor="end" fill="currentColor">Orbit</text>
-  <rect x="110.0" y="354" width="18.6" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Orbit, Buying the chips: $1,193</title></rect>
-  <rect x="128.6" y="354" width="2.3" height="22" style="fill:color-mix(in srgb, var(--accent-2, #8a5a14) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Launching the chips: $144</title></rect>
-  <rect x="130.9" y="354" width="0.6" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Orbit, Delivering the array, radiator and structure: $36</title></rect>
-  <rect x="131.4" y="354" width="0.7" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Building the power and thermal hardware: $44</title></rect>
-  <rect x="132.1" y="354" width="1.5" height="22" style="fill:var(--muted, #55635f);stroke:var(--surface, #fff)"><title>Orbit, Servicing: $98</title></rect>
-  <text x="141.65512562398527" y="370" fill="currentColor" font-size="13">$1,515 (0.51×)</text>
+  <rect x="110.0" y="354" width="18.8" height="22" style="fill:var(--accent-2, #8a5a14);stroke:var(--surface, #fff)"><title>Orbit, Buying the chips: $2,002</title></rect>
+  <rect x="128.8" y="354" width="2.3" height="22" style="fill:color-mix(in srgb, var(--accent-2, #8a5a14) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Launching the chips: $242</title></rect>
+  <rect x="131.1" y="354" width="0.4" height="22" style="fill:var(--accent, #1f6f86);stroke:var(--surface, #fff)"><title>Orbit, Delivering the array, radiator and structure: $45</title></rect>
+  <rect x="131.5" y="354" width="0.5" height="22" style="fill:color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff));stroke:var(--surface, #fff)"><title>Orbit, Building the power and thermal hardware: $54</title></rect>
+  <rect x="132.1" y="354" width="1.2" height="22" style="fill:var(--muted, #55635f);stroke:var(--surface, #fff)"><title>Orbit, Servicing: $126</title></rect>
+  <text x="141.23900372842334" y="370" fill="currentColor" font-size="13">$2,469 (0.66×)</text>
   <rect x="20" y="395" width="13" height="13" style="fill:var(--accent-2, #8a5a14)"/><text x="39" y="406" fill="currentColor" font-size="13">Chips</text>
   <rect x="410" y="395" width="13" height="13" style="fill:color-mix(in srgb, var(--accent-2, #8a5a14) 50%, var(--surface, #fff))"/><text x="429" y="406" fill="currentColor" font-size="13">Launching chips</text>
   <rect x="20" y="419" width="13" height="13" style="fill:var(--accent, #1f6f86)"/><text x="39" y="430" fill="currentColor" font-size="13">Array, radiator, structure (orbit); energy (ground)</text>

@@ -14,12 +14,14 @@ const EMBED = '/site/embed/orbit-compute.html';
 const SRC = {
   rate: { d: 'Assumption: a 10 % cost of capital for a risky new asset class.', p: { concordia: 'Concordia proposal: patient owners with no fixed payback date, 6 %.' } },
   chipCost: { d: 'About $35 of every watt of capacity goes to Nvidia hardware, out of $50 to 60 billion per GW all in (Huang, August 2025; SD32, SD33).', p: { concordia: 'Concordia proposal: chip margins fall once efficiency gains stall, $10 per watt.' } },
-  econLife: { d: 'Accelerators are written off over about 5 years because newer chips do more work per watt.', p: { concordia: 'Concordia proposal: efficiency gains plateau in the 2040s and chips earn for 12 years.' } },
-  demandGrowth: { d: 'IEA: data center electricity grew 12 % a year over the five years to 2024 and reaches about 945 TWh by 2030, about 15 % a year (SD1 to SD3). Split growth between demand and efficiency as you like.', p: { concordia: 'Concordia proposal: 36.5 % demand growth and 5 % efficiency gain give 30 % energy growth, the IEA projection for AI servers to 2030 (SD4).' } },
-  efficiencyGain: { d: 'Set to 0 so the energy growth equals the IEA figure; raise both to keep it constant.' },
+  demandGrowth: { d: 'IEA: data center electricity grew 12 % a year over the five years to 2024 and reaches about 945 TWh by 2030, about 15 % a year (SD1 to SD3). 45 % demand growth with 26 % efficiency gain gives that 15 % energy growth.', p: { concordia: 'Concordia proposal: 36.5 % demand growth and 5 % efficiency gain give 30 % energy growth, the IEA projection for AI servers to 2030 (SD4).' } },
+  efficiencyGain: { d: 'Epoch AI: energy efficiency of ML GPUs doubles about every 3.0 years, 26 % a year (SD45). One clock: it sets both the energy growth and how fast a chip falls behind new ones, so it decides the retirement age on both sides.', p: { concordia: 'Concordia proposal: efficiency gains slow to 5 % a year in the 2040s (doubling in 14 years), so chips earn until they wear out.' } },
+  failRate: { d: 'Assumption: 5 % of boards a year fail for good at an 85 °C junction; Meta’s Llama 3 run implies about 6 % of H100s a year (SD46). Arrhenius scales it with junction temperature. On the ground a failed board is replaced from the used market; in orbit it stays dead until the next swap, unless residents fit spares.' },
+  // Ground retirement checks against operators: hyperscalers book servers over 5 to 6 years (SD48); the Today inputs give 6.4.
+  resale: { d: 'Assumption: a used chip sells for half a new chip’s price per unit of the work it still does relative to new ones, which puts a 5-year-old chip near 16 % of its price, inside the 11 to 19 % band an appraiser gives H100s in 2027 (SD47). Orbital chips have no resale.' },
   ceiling: { d: '1 % of Earth’s 149 million km² of land at about 12 W of average output per m² of array land is about 18 TW (SD9 to SD11).', p: { concordia: 'Concordia proposal: a regulatory cap on data center power, 1 TW, long before any physical limit.' } },
   capTW: { d: 'A political cap is your number. World electricity use averages about 3.4 TW.' },
-  premium: { d: 'Assumption: what buyers pay above today’s cost once new ground capacity cannot be sited.', p: { concordia: 'Concordia proposal: prices double, which reproduces the station’s revenue of about $6 billion per GW-year (facts section 16).' } },
+  premium: { d: 'Assumption: what buyers pay above today’s cost once new ground capacity cannot be sited.', p: { concordia: 'Concordia proposal: prices double once the cap binds.' } },
   facility: { d: '$17.6 million per MW excluding chips, the US and Canada average (Cushman & Wakefield, 2026; SD26).', p: { concordia: 'Concordia proposal: automated construction brings it back to $11 per watt.' } },
   price: { d: 'New North American solar and wind power purchase agreements run about $0.05 to $0.06 per kWh (LevelTen, Q2 2026; SD36).' },
   surcharge: { d: 'Set to 0 today. Use it for a heat, land or carbon tax, or the cost of years of permitting delay.', p: { concordia: 'Concordia proposal: $0.03 per kWh of siting and heat levies by the 2040s.' } },
@@ -37,10 +39,11 @@ const SRC = {
   cellEff: { d: 'System efficiency: about 30 % cells less losses, about 25 % overall. Canon for Concordia: 340 W/m² delivered (facts section 6).' },
   hwCost: { d: 'Assumption: mass-produced satellite power and thermal hardware at about $5 per watt.', p: { concordia: 'Concordia proposal: locally built, $0.60 per watt, about a cent per kWh with the mass (economy page).' } },
   qual: { d: 'Assumption: commercial chips with spot shielding and spares, 1.2 times the price.', p: { concordia: 'Concordia proposal: regolith shielding makes commercial chips adequate.' } },
-  refLife: { d: 'Assumption: 10 years at an 85 °C junction; the H100 is qualified at 87 °C (SD41). Life follows Arrhenius at 0.7 eV, about a halving per 10 K near 350 K (SD40).' },
+  refLife: { d: 'Assumption: 10 years at an 85 °C junction; the H100 is qualified at 87 °C (SD41). Life follows Arrhenius at 0.7 eV, about a halving per 10 K near 350 K (SD40). It caps the retirement age on both sides: ground chips run at an 80 °C junction (assumption), orbital chips 25 K above the radiator.' },
   hotChips: { d: 'Silicon carbide power switches are rated to a 175 °C junction (SD42); no data center logic is. The toggle moves the 10-year rating to 150 °C.' },
   infraLife: { d: 'Assumption: 10 years in low orbit (drag, debris, degradation).', p: { concordia: 'Concordia proposal: 30 years at L5 with resident repair.' } },
-  servicing: { d: 'Assumption: 2 % of capex a year for spares and replacement flights.' },
+  servicing: { d: 'Assumption: 2 % of capex a year for spares and replacement flights. It is hosting: it is paid whatever chip sits in the slot.' },
+  swapCharge: { d: 'Assumption: 0. A charge paid at each chip swap (robotic install, disposal of the old boards). It keeps chips longer, where annual servicing retires them sooner.' },
   residents: { d: `Resident technicians cut servicing to ${RESIDENT_SERVICING_FACTOR * 100} % of the uncrewed figure (assumption).`, p: { concordia: 'Canon: Concordia’s residents service the field.' } },
   scaleGW: { d: 'Drives the totals only.', p: { concordia: 'Canon: the compute field draws 200 GW (facts section 16).' } },
 };
@@ -135,15 +138,16 @@ export function mount(el) {
   // ---- outputs
   const out = outputs([
     { key: 'ratio', label: 'Orbit as a multiple of ground', big: true },
-    { key: 'ground', label: 'Ground' },
-    { key: 'orbit', label: 'Orbit' },
+    { key: 'ground', label: 'Ground, per kW-year of new-chip work' },
+    { key: 'orbit', label: 'Orbit, per kW-year of new-chip work' },
+    { key: 'retire', label: 'Retirement age, computed' },
     { key: 'power', label: 'Power in orbit (array, radiator, structure)' },
     { key: 'beNow', label: 'Break-even launch price, today’s market' },
     { key: 'beAfter', label: 'Break-even launch price, once the ceiling binds' },
     { key: 'ceilingYear', label: 'Year the terrestrial ceiling binds' },
     { key: 'beYear', label: 'Year orbit breaks even' },
     { key: 'payback', label: 'Payback of an orbital build (undiscounted, with replacements)' },
-    { key: 'life', label: 'Chip life in orbit' },
+    { key: 'life', label: 'Chip wear-out life in orbit' },
     { key: 'latency', label: 'Round trip to Earth' },
   ]);
   const totals = outputs([
@@ -178,7 +182,7 @@ export function mount(el) {
     h('h3', { class: 'oc-sub' }, 'At the chosen scale'),
     totals.el,
     h('details', { class: 'oc-group oc-omits' }, h('summary', null, 'What this model leaves out'),
-      h('p', { class: 'w-hint' }, 'An order-of-magnitude model. It omits heat pumps, eclipse storage, orbital debris, insurance, radiation-driven failure rates, communications cost and ground stations. Ground sites pay no servicing line; their upkeep sits inside facility capex and PUE.')),
+      h('p', { class: 'w-hint' }, 'An order-of-magnitude model. Costs are per kW-year of work by a new chip: an old chip still computes, but less per watt than the latest one, and each side retires its chips at the age that minimises that cost. It omits heat pumps, eclipse storage, orbital debris, insurance, radiation-driven failures beyond the temperature model, communications cost and ground stations. Ground sites pay no servicing line; their upkeep sits inside facility capex and PUE.')),
     h('details', { class: 'oc-group' }, h('summary', null, 'Embed or cite this calculator'),
       h('p', { class: 'w-hint' }, 'Paste this into a page to embed the calculator with the current inputs:'), embedBox, cite));
 
@@ -226,7 +230,8 @@ export function mount(el) {
       payback: Number.isFinite(r.paybackAfter)
         ? `${Number.isFinite(r.paybackNow) ? fixed(r.paybackNow, 1) : 'never'} years at today’s price, ${fixed(r.paybackAfter, 1)} after the ceiling`
         : 'never: replacements cost more than the revenue',
-      life: `${fixed(r.orbit.orbitLife, 1)} years (physical ${fixed(r.orbit.physLife, 1)} at a ${Math.round(r.orbit.junctionK)} K junction)`,
+      retire: `ground ${fixed(r.ground.retireAge, 1)} years${r.ground.capped ? ' (worn out)' : ''}, orbit ${fixed(r.orbit.orbitLife, 1)} years${r.orbit.capped ? ' (worn out)' : ''}`,
+      life: `${fixed(r.orbit.physLife, 1)} years at a ${Math.round(r.orbit.junctionK)} K junction; boards fail at ${fixed(r.orbit.failRate * 100, 1)} % a year`,
       latency: `${loc.roundTripS < 0.1 ? 'about 0.02' : fixed(loc.roundTripS, 2)} s (${loc.label}; launch ${fixed(locationMultiplier(v.location), 2)} × the LEO price)`,
     });
     totals.update({

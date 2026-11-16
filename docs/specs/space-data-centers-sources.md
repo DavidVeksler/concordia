@@ -1,6 +1,6 @@
 # Space data centers: source ledger
 
-Fact check for the public page "Why build data centers in space". Every figure the page prints must trace to a row here. Access date for every row: 2026-11-14.
+Fact check for the public page "Why build data centers in space". Every figure the page prints must trace to a row here. Access date for every row: 2026-11-14 (SD45 to SD48: 2026-11-15).
 
 Status key:
 
@@ -60,6 +60,10 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 | SD42 | SiC power devices rated to 175 C junction | VERIFIED-PRIMARY |
 | SD43 | GaN operating range | UNVERIFIED |
 | SD44 | Published TID/SEE results for the H100 on Starcloud-1 | UNVERIFIED (none published) |
+| SD45 | ML GPU energy efficiency doubles about every 3.0 years | VERIFIED-SECONDARY |
+| SD46 | Permanent GPU failures about 6 % a year (Llama 3 run) | VERIFIED-SECONDARY (derived) |
+| SD47 | H100 residual value 11 to 19 % of list in 2027 (conservative) | VERIFIED-SECONDARY (vendor appraisal) |
+| SD48 | Hyperscaler server lives 5 to 6 years | VERIFIED-SECONDARY |
 
 ## Demand and energy
 
@@ -403,6 +407,34 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 - **Value found:** no published TID or SEE results from Starcloud-1. One blog reports beam-test numbers (no SEL or SEFI above LET 80 MeV cm2/mg, TID above 120 krad(Si)) without citing a test report. IEEE Spectrum (CA7) says Starcloud-1's radiator was too weak to let the H100 run at full power.
 - **Status:** UNVERIFIED. Print only "Starcloud has not published radiation data from Starcloud-1." For TPUs use SD20.
 
+### SD45. Efficiency clock (Epoch AI)
+
+- **Print:** energy efficiency (FLOP/s per watt) of ML GPUs doubles about every 3.0 years (5th to 95th percentile 2.7 to 3.3), 26 % a year; general-purpose GPUs 2.7 years. Peak spec-sheet figures, not realised work.
+- **Source:** Epoch AI, "Trends in machine learning hardware" (2023, updated 2025). https://epoch.ai/blog/trends-in-machine-learning-hardware
+- **Use:** the Today and Cheap launch efficiency gain (26 %/yr), which sets both energy growth and obsolescence.
+- **Status:** VERIFIED-SECONDARY (read through search summaries of Epoch's own pages; reopen the page before quoting the interval).
+
+### SD46. Permanent GPU failure rate
+
+- **Print:** in Meta's Llama 3 405B run, 148 of 419 unplanned interruptions over 54 days on 16,384 H100s were faulty GPUs: 148 / 16,384 / 54 x 365 = 6.1 % a year. Counting HBM3 failures too gives about 9 %. These are interruptions, not confirmed replacements, over one 54-day window that includes burn-in.
+- **Source:** Meta, "The Llama 3 Herd of Models" (2024), section on reliability; Tom's Hardware summary, 2024-07-28.
+- **Use:** the 5 %/yr failure-rate default at an 85 C junction [EST], the lower end because burn-in inflates the run's rate.
+- **Status:** VERIFIED-SECONDARY (derived from the reported counts).
+
+### SD47. Used-accelerator value
+
+- **Print:** American Compute's H100 appraisal: conservative band 11 to 19 % of original list price in 2027, 5 to 7 % in 2028; moderate band 19 to 42 % in 2027; typical realised sale about $14,250 for a used H100 SXM in 2026. 2026 listings run about half to three quarters of new, inflated by scarcity.
+- **Source:** American Compute, H100 appraisal. https://www.amcompute.com/appraisals/h100
+- **Use:** the ground resale default: a used chip sells for 50 % of a new chip's price per unit of its remaining relative work, so a 5-year-old chip fetches about 16 % of its price at a 3-year efficiency doubling.
+- **Status:** VERIFIED-SECONDARY (vendor appraisal, not audited transactions).
+
+### SD48. Operator retirement practice
+
+- **Print:** Amazon cut the useful life of a subset of servers from six to five years from 2025-01-01, citing the pace of AI development; Meta lengthened servers to 5.5 years from 2025-01-01; Microsoft and Alphabet use six years. Critics argue AI accelerators earn for two to three years.
+- **Source:** CNBC, "AI GPU depreciation: CoreWeave, Nvidia and Michael Burry", 2025-11-14; company 10-K filings (not reopened).
+- **Use:** the check on the computed ground retirement age (Samir Varma's fifth point): the model gives 6.4 years at the Today inputs.
+- **Status:** VERIFIED-SECONDARY.
+
 ## Competing analyses
 
 ### CA1. Samir Varma
@@ -411,6 +443,7 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 - **Author, date:** Samir Varma, 2026-06-15.
 - **Thesis:** The case for orbital data centers turns less on cooling or launch than on how slowly accelerator work-per-watt improves, since slow improvement lets orbital hardware earn its launch cost before it is obsolete.
 - **Key numbers:** about 30 t/MW best orbit, 41 t/MW generic; radiator 5 kg/m2 two-sided at 75 C rejecting about 750 W/m2 to deep space; solar 150 W/kg; Falcon 9 about $2,700/kg; Starship hypothetical $100 to 300/kg; ground $11.3M/MW shell and core, up to $25M/MW with AI fit-out. Chip purchase cost excluded.
+- **Correspondence (2026-11-15, attribution allowed):** the retirement-age rule e^x - 1 - x = (ln 2 / D)(K / h) and five changes the calculator now carries; he narrows his article's nine-year optimum to a launch-only model and its three-year ground cadence to an assumption. Summary: `space-data-centers-spec.md` section 11.
 
 ### CA2. Angadh Nanjangud (two posts)
 
@@ -459,12 +492,12 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 
 ## Status counts
 
-Figures SD1 to SD44:
+Figures SD1 to SD48:
 
 | Status | Count | IDs |
 | --- | --- | --- |
 | VERIFIED-PRIMARY | 22 | SD1, SD2, SD3, SD5, SD6, SD7, SD8, SD12, SD15, SD16, SD18, SD19, SD20, SD21, SD23, SD27, SD29, SD31, SD34, SD38, SD39, SD42 |
-| VERIFIED-SECONDARY | 11 | SD9, SD13, SD14, SD17, SD24, SD28, SD32, SD33, SD35, SD40, SD41 |
+| VERIFIED-SECONDARY | 15 | SD9, SD13, SD14, SD17, SD24, SD28, SD32, SD33, SD35, SD40, SD41, SD45, SD46, SD47, SD48 |
 | CORRECTED | 9 | SD4, SD10, SD11, SD22, SD25, SD26, SD30, SD36, SD37 |
 | UNVERIFIED | 2 | SD43, SD44 |
 | CUT | 0 | none |

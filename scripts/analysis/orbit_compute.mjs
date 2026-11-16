@@ -64,7 +64,9 @@ for (const [k, p] of Object.entries(oc.PRESETS)) {
   out(`     ground $/kW-yr: chips ${n0(r.ground.parts.chips)}, facility ${n0(r.ground.parts.facility)}, energy ${n0(r.ground.parts.energy)}; total ${n0(r.ground.total)}`);
   out(`     orbit $/kW-yr: chips ${n0(r.orbit.parts.chips)}, chip launch ${n0(r.orbit.parts.computeLaunch)}, infrastructure mass ${n0(r.orbit.parts.infraMass)}, hardware ${n0(r.orbit.parts.hardware)}, servicing ${n0(r.orbit.parts.servicing)}; total ${n0(r.orbit.total)}`);
   out(`     ratio ${n2(r.ratio)}; ${oc.bindingSentence(r)}`);
-  out(`     mass ${n1(r.orbit.massKw)} kg/kW (radiator ${n2(r.orbit.mRad)}); launch multiplier ${n2(r.orbit.mult)}; chip life ${n1(r.orbit.orbitLife)} y (physical ${n1(r.orbit.physLife)} y)`);
+  out(`     retirement age (computed): ground ${n1(r.ground.retireAge)} y${r.ground.capped ? ' (worn out)' : ''}, orbit ${n1(r.orbit.orbitLife)} y${r.orbit.capped ? ' (worn out)' : ''}; orbital wear-out ${n1(r.orbit.physLife)} y, ground ${n1(oc.groundPhysLife(p.v))} y; orbital failures ${n2(r.orbit.failRate * 100)} %/yr`);
+  out(`     K/h (swap cost over yearly hosting): ground ${n1(r.ground.chipCapex / r.ground.hostingPerYear)}, orbit ${n1(r.orbit.chipBlock / r.orbit.hostingPerYear)}; efficiency doubling ${n1(oc.doublingYears(p.v.efficiencyGain))} y`);
+  out(`     mass ${n1(r.orbit.massKw)} kg/kW (radiator ${n2(r.orbit.mRad)}); launch multiplier ${n2(r.orbit.mult)}`);
   out(`     power in orbit $${n3(r.orbit.powerPerKwh)}/kWh; capex $${n0(r.orbit.capex)}/kW`);
   out(`     break-even launch $/kg: today's market ${r.breakEvenLaunchNow > 0 ? n0(r.breakEvenLaunchNow) : 'none'}; after the ceiling ${r.breakEvenLaunchAfter > 0 ? n0(r.breakEvenLaunchAfter) : 'none'}`);
   out(`     ceiling ${r.ceilingTW} TW at ${n1(r.energyGrowth * 100)} %: ${Number.isFinite(r.ceilingYear) ? r.ceilingYear.toFixed(1) : 'never'}; orbit breaks even ${Number.isFinite(r.breakEvenYear) ? r.breakEvenYear.toFixed(1) : 'never'}`);
@@ -73,30 +75,53 @@ for (const [k, p] of Object.entries(oc.PRESETS)) {
 }
 out('');
 
-out('6. Today preset with one condition changed at a time');
+out('6. Today preset with one condition changed at a time (retirement ages computed on both sides)');
 const t = oc.PRESETS.today.v;
+const ages = (r) => `ages ground ${n1(r.ground.retireAge)} y, orbit ${n1(r.orbit.orbitLife)} y`;
 const variants = [
   ['launch $200/kg', { launch: 200 }],
-  ['chips last 12 years (and physically do)', { econLife: 12 }],
-  ['launch $200/kg and chips 12 years', { launch: 200, econLife: 12 }],
-  ['launch $200/kg, chips 12 years, $10/W chips', { launch: 200, econLife: 12, chipCost: 10 }],
-  ['as above plus ground siting surcharge $0.05/kWh', { launch: 200, econLife: 12, chipCost: 10, surcharge: 0.05 }],
+  ['launch $200/kg, $10/W chips', { launch: 200, chipCost: 10 }],
+  ['as above plus ground siting surcharge $0.05/kWh', { launch: 200, chipCost: 10, surcharge: 0.05 }],
 ];
 for (const [label, d] of variants) {
   const r = oc.evaluate({ ...t, ...d });
-  out(`   ${label}: ground ${n0(r.ground.total)}, orbit ${n0(r.orbit.total)}, ratio ${n2(r.ratio)}; ${oc.bindingSentence(r)}`);
+  out(`   ${label}: ground ${n0(r.ground.total)}, orbit ${n0(r.orbit.total)}, ratio ${n2(r.ratio)}; ${ages(r)}; ${oc.bindingSentence(r)}`);
 }
 out('');
 
-out('6b. Chip retirement schedule: same economic life on both sides, then orbit forced to retire early');
+out('6b. Efficiency clock: the gain that sets energy growth also sets obsolescence (demand growth held so energy growth stays 15 %)');
 for (const P of [3000, 200]) {
-  const a = oc.evaluate({ ...t, launch: P, econLife: 5 });
-  const b = oc.evaluate({ ...t, launch: P, econLife: 12 });
-  out(`   launch $${P}/kg: econ life 5 y ratio ${n2(a.ratio)}; 12 y ratio ${n2(b.ratio)}`);
+  for (const g of [0.41, 0.26, 0.10, 0.05, 0]) {
+    const r = oc.evaluate({ ...t, launch: P, efficiencyGain: g, demandGrowth: 1.15 * (1 + g) - 1 });
+    const d = oc.doublingYears(g);
+    out(`   launch $${P}/kg, gain ${n0(g * 100)} %/yr (doubling ${Number.isFinite(d) ? n1(d) + ' y' : 'never'}): ground ${n0(r.ground.total)}, orbit ${n0(r.orbit.total)}, ratio ${n2(r.ratio)}; ${ages(r)}`);
+  }
 }
-for (const T of [330, 340, 350, 370]) {
-  const r = oc.evaluate({ ...t, launch: 200, econLife: 12, radTemp: T });
-  out(`   launch $200/kg, econ life 12 y, radiator ${T} K: physical life ${n1(r.orbit.physLife)} y, orbit life ${n1(r.orbit.orbitLife)} y, ratio ${n2(r.ratio)}`);
+out('');
+
+out('6c. Radiator temperature at $200/kg: wear-out and failures shorten orbital chip life');
+for (const T of [320, 330, 340, 350, 370]) {
+  const r = oc.evaluate({ ...t, launch: 200, radTemp: T });
+  out(`   radiator ${T} K: wear-out ${n1(r.orbit.physLife)} y, failures ${n1(r.orbit.failRate * 100)} %/yr, orbit retires at ${n1(r.orbit.orbitLife)} y, ratio ${n2(r.ratio)}`);
+}
+out('');
+
+out("6d. Samir Varma's benchmark (no discounting, resale or failures): e^x - 1 - x = (ln 2 / D)(K / h), x = R ln 2 / D");
+out(`   K $35,000, h $2,500, D 2: R ${n2(oc.varmaRetirementAge(35000, 2500, 2))} y; K + $1,280 launch: ${n2(oc.varmaRetirementAge(36280, 2500, 2))} y`);
+{
+  const zero = { ...oc.PRESETS.cheap.v, rate: 0, failRate: 0, resale: 0, efficiencyGain: 2 ** (1 / 3) - 1 };
+  const r = oc.evaluate(zero);
+  const D = oc.doublingYears(zero.efficiencyGain);
+  const gs = oc.groundSlot(zero);
+  out(`   Cheap launch preset with rate 0, no failures, no resale, D 3: full model ground ${n2(r.ground.retireAge)} y, orbit ${n2(r.orbit.orbitLife)} y; closed form ground ${n2(oc.varmaRetirementAge(r.ground.chipCapex, gs.flow.facility + gs.flow.energy, D))} y, orbit ${n2(oc.varmaRetirementAge(r.orbit.chipBlock, r.orbit.hostingPerYear, D))} y`);
+}
+{
+  // Slow-progress limit: no obsolescence, so the chips carry only their capital charge rho K a year.
+  const g = oc.groundCost(oc.PRESETS.cheap.v);
+  const o = oc.orbitCost(oc.PRESETS.cheap.v);
+  const rho = oc.contRate(0.1);
+  const breakEvenH = g.hostingPerYear + rho * (g.chipCapex - o.chipBlock);
+  out(`   slow-progress limit at 10 %: capital charge ${n2(rho * 100)} % of K a year; orbit hosting must be under ${n0(breakEvenH)} $/kW-yr (Cheap launch orbit hosting ${n0(o.hostingPerYear)})`);
 }
 out('');
 
@@ -174,9 +199,9 @@ function costDiagram() {
   const sc = (X1 - X0) / max;
   const COLORS = { chips: 'var(--accent-2, #8a5a14)', computeLaunch: 'color-mix(in srgb, var(--accent-2, #8a5a14) 50%, var(--surface, #fff))', infraMass: 'var(--accent, #1f6f86)', hardware: 'color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff))', servicing: 'var(--muted, #55635f)', facility: 'color-mix(in srgb, var(--accent, #1f6f86) 50%, var(--surface, #fff))', energy: 'var(--accent, #1f6f86)' };
   const descParts = Object.entries(oc.PRESETS).map(([k, p]) => `${p.label}: ground $${n0(rows[k].ground.total)}, orbit $${n0(rows[k].orbit.total)} per kW-year, ${n2(rows[k].ratio)} times`);
-  let s = head('ocs', 800, '__H__', 'Levelized cost per kW-year of compute on the ground and in orbit for three presets', `Stacked bars by cost component. ${descParts.join('. ')}. Chips dominate every bar once launch is cheap.`);
+  let s = head('ocs', 800, '__H__', 'Levelized cost per kW-year of new-chip work on the ground and in orbit for three presets', `Stacked bars by cost component. ${descParts.join('. ')}. Chips dominate every bar once launch is cheap.`);
   s += `  <text x="20" y="30" fill="currentColor" font-size="18" font-weight="600">Once launch is cheap, the chips are the bill</text>\n`;
-  s += `  <text x="20" y="54" fill="currentColor" opacity="0.8">Levelized cost per kW-year of IT power, the calculator’s three presets</text>\n`;
+  s += `  <text x="20" y="54" fill="currentColor" opacity="0.8">Levelized cost per kW-year of new-chip work, the calculator’s three presets</text>\n`;
   let y = 84;
   for (const [k, p] of Object.entries(oc.PRESETS)) {
     const r = rows[k];
