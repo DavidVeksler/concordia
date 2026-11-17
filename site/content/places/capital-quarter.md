@@ -7,6 +7,10 @@ hero: pl-capital-exchange
 nav: places
 order: 2
 group: ground
+spec:
+  - "weight at the street"
+  - "Exchange to Court"
+  - "the ring that the three halls stand on"
 updated: 2026-10-16
 related:
   - /station/economy/

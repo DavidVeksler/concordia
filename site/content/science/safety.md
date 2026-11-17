@@ -7,7 +7,7 @@ lead: "Gerard O'Neill and NASA's 1975 summer study showed that a city in space c
 nav: science
 order: 13
 hero: sci-safe-hero
-updated: 2026-10-13
+updated: 2026-11-15
 related:
   - /science/structure/
   - /science/radiation-and-debris/
@@ -72,7 +72,7 @@ The systems respond locally to each of these failures.
 
 | If this fails | What happens |
 | --- | --- |
-| One tension band | Its neighbours carry the load; the tear does not spread |
+| One tension band | The two bands beside it take most of its load and the shock; they must survive three times their working stress, a requirement the design does not meet yet {% basis "challenge" %} |
 | A magnetic bearing's control | Catchers hold the rotor while it is slowed |
 | One rotary coolant coupling | The others carry on; thermal storage rides through {% basis "challenge" %} |
 | A radiator panel is punctured | The loop isolates it; routine maintenance |

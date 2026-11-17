@@ -7,6 +7,10 @@ hero: film-habitat-pullback
 nav: places
 order: 11
 group: outside
+spec:
+  - "length"
+  - "diameter"
+  - "radiator banks"
 updated: 2026-10-10
 related:
   - /places/aft-works/

@@ -7,6 +7,10 @@ hero: pl-spaceport-hero
 nav: places
 order: 9
 group: works
+spec:
+  - "counter-rotating lounge wheels at 2 rpm"
+  - "wheel deck, 223.6 m from the axis"
+  - "coach berths, A01 to A04"
 updated: 2026-10-30
 related:
   - /places/shipyard/

@@ -6,7 +6,7 @@ lead: "A rotor is a pressure vessel 5 km across and 2.5 km long. Carbon bands ho
 hero: sci-st-midg
 nav: science
 order: 3
-updated: 2026-11-13
+updated: 2026-11-15
 related:
   - /science/artificial-gravity/
   - /science/radiation-and-debris/
@@ -18,7 +18,11 @@ related:
 
 A balloon's skin and a barrel's hoops hold in what pushes outward by pulling along their own length. Engineers call that {% term "hoop stress" %}, and every {% term "pressure vessel" %} carries it.
 
-A rotor's air pulls 257 MN on every metre of its length. The weight of everything inside adds 98 MN and the bands' own weight 28 MN, so the {% term "tension band" "tension bands" %} carry 383 MN per metre. {% basis "physics" %} A {% term "liner" %} of corrugated metal 1.2 mm thick, as in the tanks of LNG ships, keeps the air in. Bundles of carbon rods outside it carry the pull at 550 MPa, about a fifth of their breaking stress. Each bundle is anchored on its own: if one band in ten goes slack, its neighbours rise to 611 MPa. {% basis "challenge" %}
+A rotor's air pulls 257 MN on every metre of its length. The weight of everything inside adds 98 MN and the bands' own weight 28 MN, so the {% term "tension band" "tension bands" %} carry 383 MN per metre. {% basis "physics" %} A {% term "liner" %} of corrugated metal 1.2 mm thick, as in the tanks of LNG ships, keeps the air in. Bundles of carbon rods outside it carry the pull at 550 MPa, about a fifth of their breaking stress. {% basis "design" %}
+
+Each bundle is anchored on its own, so a failed band leaves the liner whole. Its load goes mostly to the two bands beside it, about half each, which raises them from 550 to 825 MPa. The failure is sudden, and the shock roughly doubles that for a moment, to about 1,650 MPa, three times the working stress. In normal operation, with the spokes carrying their share, the same steps run from 533 to 800 and 1,600 MPa.
+
+So the requirement is this: each band and its joints survive about three times their working stress through that transient, or the design adds a feature that slows the release. The present design does not meet it yet. The rods break at 2,723 MPa, 1.65 times the peak, so they survive it. The short-term limit used elsewhere in the structure, a quarter of breaking stress or 681 MPa, is passed before the shock arrives, and the joints and anchors are not yet sized. Bands thick enough to keep the peak under that limit would weigh 121 Mt per rotor instead of 44. Still open is an energy balance between the strain energy a failing band releases and what the laminate can absorb, which shows whether a failure stops or runs on. Building each band in layers would make failure more stable. {% basis "challenge" %} This analysis follows expert comments by correspondence, November 2026.
 
 Filled and spinning, a rotor is 8.5 m larger in radius than empty, and every bay line has a {% term "movement joint" %} to take it up. {% basis "design" %}
 
@@ -81,7 +85,7 @@ The rings pass that pull to 240 {% term "axial tie" "axial ties" %}, carbon bund
 
 {% diagram "end-cap-axial" "The cap seen along the axis, to scale: the rim ring, four tie rings and the hub ring with a dot at every tie anchor, and the radial ribs, with the count, load and section of the ties on each ring." %}
 
-Ties and wall members stretch together, so both caps stay plane and the rotor grows 7.0 m in length under pressure, leaving 102 m clear between facing lobes in the 300 m gap. {% basis "physics" %} If one tie fails, its neighbours carry 1.4 to 1.5 times their load, within the short-term limit. {% basis "challenge" %} Between face and lobes lie the {% term "cap rooms" %}, 0.82 km³ of the city's air per cap. {% basis "design" %}
+Ties and wall members stretch together, so both caps stay plane and the rotor grows 7.0 m in length under pressure, leaving 102 m clear between facing lobes in the 300 m gap. {% basis "physics" %} If one tie fails, its neighbours settle at 1.4 to 1.5 times their load, just within the short-term limit. The failure is sudden, so the shock roughly doubles that for a moment, to as much as 1,361 MPa, twice the short-term limit. The ties survive it on breaking strength, with a factor of two to spare, so the caps share the bands' open requirement. Keeping the shock under the limit takes ties working at 232 MPa and adds about 20 Mt to each rotor. {% basis "challenge" %} Between face and lobes lie the {% term "cap rooms" %}, 0.82 km³ of the city's air per cap. {% basis "design" %}
 
 At the rim, the outer lobe leaves the wall at 25.5 degrees. Its pull has 39.4 MN/m along the axis, taken by the wall's axial members, and 82.8 MN/m inward, which squeezes the corner and which bands cannot take. A rim compression ring of 580 m² of carbon carries it, 174 GN. {% basis "challenge" %}
 

@@ -215,7 +215,7 @@ export function mount(el) {
       notes[key].textContent = text;
       toggle.title = text;
       if (key === 'capTW') wrap.hidden = v.ceiling !== 'cap';
-      if (key === 'spaceCost') wrap.classList.toggle('oc-input--idle', v.spaceShare === 0);
+      if (key === 'spaceCost') wrap.hidden = v.spaceShare === 0;
     }
     const loc = LOCATIONS[v.location];
     out.update({

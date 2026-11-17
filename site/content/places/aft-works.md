@@ -7,6 +7,10 @@ hero: pl-aft-far
 nav: places
 order: 10
 group: outside
+spec:
+  - "landing capacity"
+  - "masts, 500 m tall"
+  - "tether run to the solar farm"
 updated: 2026-10-10
 related:
   - /places/axis-and-spine/

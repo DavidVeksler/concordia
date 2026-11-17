@@ -7,6 +7,11 @@ hero: pl-arbor-street
 nav: places
 order: 1
 group: ground
+spec:
+  - "weight at the ground"
+  - "ground area per rotor"
+  - "districts per rotor"
+cardLead: painting
 updated: 2026-10-20
 related:
   - /places/megaframe-city/

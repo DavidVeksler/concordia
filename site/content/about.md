@@ -5,7 +5,7 @@ description: Concordia is a speculative design built as an interactive simulatio
 lead: Concordia is a speculative design, built as an interactive simulation. The physics is real, the numbers come from the station's engineering specification, and the 2045 history is fiction.
 nav: station
 order: 98
-updated: 2026-10-31
+updated: 2026-11-15
 related:
   - /guide/
   - /glossary/
@@ -141,9 +141,9 @@ Numbers and claims across the site carry a small tag that says what kind of clai
 | {% basis "fiction" %} | The 2045 setting: history, people and events |
 | {% basis "law" %} | Real treaties, statutes and court decisions in force in 2026, with a source |
 
-## Author
+## Author {#author}
 
-Concordia is designed and built by [David Veksler](https://davidveksler.com). The source of this site and the issue tracker are public: [concordia on GitHub](https://github.com/DavidVeksler/concordia). Corrections and questions go there as issues.
+Concordia is designed and built by [David Veksler](https://davidveksler.com). It is his personal project: it is unfunded, and no company or institution is behind it. The source of this site and the issue tracker are public: [concordia on GitHub](https://github.com/DavidVeksler/concordia). Corrections and questions go there as issues.
 
 ## Credits and licence
 

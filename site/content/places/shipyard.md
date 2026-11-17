@@ -7,6 +7,11 @@ hero: pl-shipyard-hero
 nav: places
 order: 8
 group: works
+spec:
+  - "length of the yard"
+  - "Meridian 04"
+  - "drones at work"
+cardLead: painting
 updated: 2026-10-10
 related:
   - /places/industrial-rotor/

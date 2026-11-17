@@ -7,6 +7,11 @@ hero: pl-sky-breakthrough
 nav: places
 order: 4
 group: climb
+spec:
+  - "climb from street to hub"
+  - "one ride"
+  - "people per cabin"
+cardLead: painting
 updated: 2026-10-10
 related:
   - /places/axis-and-spine/

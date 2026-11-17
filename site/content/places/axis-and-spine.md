@@ -7,6 +7,10 @@ hero: pl-axis-stationary
 nav: places
 order: 6
 group: climb
+spec:
+  - "spine diameter"
+  - "express speed"
+  - "weight at the hub terminal"
 updated: 2026-10-10
 related:
   - /places/ascenders-and-sky/

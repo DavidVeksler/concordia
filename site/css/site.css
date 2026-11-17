@@ -278,14 +278,27 @@ a.term:hover { color: var(--accent); }
   .gallery--1 > .gallery-card { grid-column: span 6; }
 }
 .content > .gallery-group { grid-column: wide; }
-.gallery-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; color: var(--text); text-decoration: none; transition: border-color 0.15s, box-shadow 0.15s; }
-.gallery-card:hover { border-color: var(--accent); text-decoration: none; box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28); }
-.gallery-card__media { display: block; overflow: hidden; aspect-ratio: 3 / 2; background: var(--surface-2); }
+.gallery-card { position: relative; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; color: var(--text); transition: border-color 0.15s, box-shadow 0.15s; }
+.gallery-card:hover, .gallery-card:focus-within { border-color: var(--accent); box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28); }
+.gallery-card__media { position: relative; display: block; overflow: hidden; aspect-ratio: 3 / 2; background: var(--surface-2); }
 .gallery-card__img { display: block; width: 100%; height: 100%; object-fit: cover; }
-@media (prefers-reduced-motion: no-preference) { .gallery-card__img { transition: transform 0.5s ease; } .gallery-card:hover .gallery-card__img { transform: scale(1.04); } }
-.gallery-card__body { display: flex; flex-direction: column; gap: 0.35rem; padding: 0.95rem 1.15rem 1.2rem; }
-.gallery-card__title { font: 700 1.15rem/1.3 var(--font-head); color: var(--accent); }
-.gallery-card__text { color: var(--muted); font-size: 0.93rem; line-height: 1.5; }
+.gallery-card__alt { position: absolute; inset: 0; opacity: 0; transition: opacity 0.35s ease; }
+.gallery-card:hover .gallery-card__alt, .gallery-card:focus-within .gallery-card__alt { opacity: 1; }
+@media (prefers-reduced-motion: no-preference) { .gallery-card__img:not(.gallery-card__alt) { transition: transform 0.5s ease; } .gallery-card:hover .gallery-card__img:not(.gallery-card__alt) { transform: scale(1.04); } }
+.gallery-card__body { display: flex; flex-direction: column; gap: 0.35rem; flex: 1; padding: 0.95rem 1.15rem 1.2rem; }
+.gallery-card__title { margin: 0; font: 700 1.15rem/1.3 var(--font-head); }
+.gallery-card__link { color: var(--accent); text-decoration: none; }
+.gallery-card__link::after { content: ''; position: absolute; inset: 0; z-index: 0; } /* the whole card is the page link; the sim link sits above it */
+.gallery-card__link:focus-visible { outline: none; }
+.gallery-card:has(.gallery-card__link:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+.gallery-card__text { margin: 0; color: var(--muted); font-size: 0.93rem; line-height: 1.5; }
+.gallery-card__spec, .card__spec, .see__spec { display: grid; grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr)); gap: 0.4rem 0.8rem; margin: 0.45rem 0 0; padding: 0.6rem 0 0; border-top: 1px solid var(--rule); list-style: none; }
+.gallery-card__spec li, .card__spec li, .see__spec li { display: flex; flex-direction: column; gap: 0.1rem; min-width: 0; }
+.gallery-card__spec strong, .card__spec strong, .see__spec strong { font: 700 0.98rem/1.25 var(--font-head); color: var(--text); font-variant-numeric: tabular-nums; }
+.gallery-card__spec span, .card__spec span, .see__spec span { color: var(--muted); font-size: 0.78rem; line-height: 1.35; }
+.gallery-card__sim { position: relative; z-index: 1; align-self: flex-start; margin-top: auto; padding-top: 0.7rem; font-weight: 600; font-size: 0.92rem; }
+.gallery-card__sim::after { content: ' \2192'; }
+.see__spec { max-width: 40rem; margin: 1rem auto 1.4rem; }
 
 /* ------------------------------------------------------------------------------------------------ chapters (journey) */
 .chapter { margin: 3rem 0; padding: 1.6rem clamp(1rem, 3vw, 2rem); background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); }
@@ -345,6 +358,7 @@ ul.updates li { padding: 0.45rem 0; border-bottom: 1px solid var(--rule); margin
 .site-footer .series small { display: block; font: 500 11px var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
 .site-footer .series span { display: block; font-weight: 400; font-size: 0.85rem; color: var(--muted); }
 .site-footer__line { margin: 0; font: 500 0.85rem var(--font-mono); letter-spacing: 0.04em; }
+.site-footer__who { margin: 0.5rem 0 0; font-size: 0.85rem; }
 
 @media (max-width: 520px) {
   .prevnext { grid-template-columns: 1fr; }
@@ -741,9 +755,6 @@ td .basis { margin-left: 0; }
 .oc-group[open] > summary { border-bottom: 1px solid var(--rule); }
 .oc-group__body, .oc-group > :not(summary) { padding: 0 0.9rem 0.8rem; }
 .oc-input { position: relative; padding-top: 0.2rem; }
-/* Idle (unused at these inputs): a dashed rule and a note instead of fading, which fails contrast now the group opens by default. */
-.oc-input--idle { border-left: 3px dashed var(--muted); padding-left: 0.6rem; }
-.oc-input--idle::after { content: 'Not used while the share made in space is 0'; display: block; font-size: 0.8rem; color: var(--muted); }
 .oc-src-btn { font: 500 0.78rem/1 var(--font-body); color: var(--accent); background: transparent; border: 0; padding: 0.35rem 0; min-height: 32px; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
 .oc-src { margin-top: 0.1rem; }
 .oc-binding { margin: 0.9rem 0 0; padding: 0.7rem 0.9rem; border-left: 3px solid var(--accent-2); background: var(--surface-2); border-radius: 4px; font-weight: 500; }

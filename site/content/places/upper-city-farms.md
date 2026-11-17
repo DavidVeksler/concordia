@@ -7,6 +7,10 @@ hero: pl-farm-grow-deck
 nav: places
 order: 5
 group: climb
+spec:
+  - "at the 1,000 m farm level"
+  - "length of the grow hall"
+  - "decks, each 8 m high"
 updated: 2026-10-20
 related:
   - /places/ascenders-and-sky/

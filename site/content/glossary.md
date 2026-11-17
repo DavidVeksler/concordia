@@ -234,7 +234,7 @@ Small, continuous corrections that hold a station on its intended path. Concordi
 Heat radiated per square metre grows with the fourth power of temperature. It sets how big the radiators must be. See [power and heat](/science/power-and-heat/).
 
 ### Tension band
-One of the bundles of carbon rods around a rotor that carry the pull of its air and its weight, 383 MN on every metre of the rotor's length. Any one band can go slack and the rest take its share. See [structure](/science/structure/).
+One of the bundles of carbon rods around a rotor that carry the pull of its air and its weight, 383 MN on every metre of the rotor's length. Each is anchored on its own. If one fails, the two beside it take most of its load and the shock, and they and their joints must be built to survive about three times their working stress. See [structure](/science/structure/).
 
 ### Tie ring
 A ring girder where two lobes of an end cap meet, at 850, 1,355, 1,610 and 1,900 m above the ground. It passes the lobes' pull along the axis into the axial ties. See [structure](/science/structure/#the-end-cap).

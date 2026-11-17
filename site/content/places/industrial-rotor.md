@@ -7,6 +7,11 @@ hero: pl-industrial-wide
 nav: places
 order: 7
 group: works
+spec:
+  - "length of the rotor"
+  - "at the rim"
+  - "open vacuum"
+ctaViewpoint: industrial-rotor-wide
 updated: 2026-10-10
 related:
   - /places/shipyard/

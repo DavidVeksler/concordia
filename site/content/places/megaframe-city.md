@@ -7,6 +7,10 @@ hero: pl-megaframe-plate
 nav: places
 order: 3
 group: ground
+spec:
+  - "highest pier crowns"
+  - "spokes per rotor, crowns to the axis"
+  - "height of the end wall cliff"
 updated: 2026-11-09
 related:
   - /places/arbor-quarter/
