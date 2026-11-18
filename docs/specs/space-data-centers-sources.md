@@ -444,6 +444,7 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 - **Thesis:** The case for orbital data centers turns less on cooling or launch than on how slowly accelerator work-per-watt improves, since slow improvement lets orbital hardware earn its launch cost before it is obsolete.
 - **Key numbers:** about 30 t/MW best orbit, 41 t/MW generic; radiator 5 kg/m2 two-sided at 75 C rejecting about 750 W/m2 to deep space; solar 150 W/kg; Falcon 9 about $2,700/kg; Starship hypothetical $100 to 300/kg; ground $11.3M/MW shell and core, up to $25M/MW with AI fit-out. Chip purchase cost excluded.
 - **Correspondence (2026-11-15, attribution allowed):** the retirement-age rule e^x - 1 - x = (ln 2 / D)(K / h) and five changes the calculator now carries; he narrows his article's nine-year optimum to a launch-only model and its three-year ground cadence to an assumption. Summary: `space-data-centers-spec.md` section 11.
+- **Second note (2026-11-16):** reproduces the 6.4-year ground age at a 0.5 resale share independently; asks to source the share or show its sensitivity (8.4 years at none, 5.2 at 0.7). Done 2026-11-18 (spec section 11.2).
 
 ### CA2. Angadh Nanjangud (two posts)
 

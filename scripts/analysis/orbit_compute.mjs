@@ -106,6 +106,20 @@ for (const T of [320, 330, 340, 350, 370]) {
 }
 out('');
 
+out('6e. Resale share (Today): moves the ground age, barely the ground cost');
+{
+  const oAge = oc.orbitCost(t).orbitLife;
+  for (const s of [0, 0.25, 0.35, 0.5, 0.6, 0.7]) {
+    const g = oc.groundCost({ ...t, resale: s });
+    const o = oc.orbitCost({ ...t, resale: s });
+    out(`   resale ${n2(s)}: 5-year-old chip at ${n1(100 * s * Math.exp(-5 * Math.log(1 + t.efficiencyGain)))} % of price, ground retires at ${n2(g.retireAge)} y, ground $${n0(g.total)}, ratio ${n3(o.total / g.total)}`);
+  }
+  let lo = 0, hi = 1;
+  for (let i = 0; i < 50; i++) { const mid = (lo + hi) / 2; if (oc.groundCost({ ...t, resale: mid }).retireAge > oAge) lo = mid; else hi = mid; }
+  out(`   orbit retires at ${n2(oAge)} y; the ground retires sooner above a resale share of ${n3(lo)} (5-year-old chip at ${n1(100 * lo * Math.exp(-5 * Math.log(1 + t.efficiencyGain)))} % of price)`);
+}
+out('');
+
 out("6d. Samir Varma's benchmark (no discounting, resale or failures): e^x - 1 - x = (ln 2 / D)(K / h), x = R ln 2 / D");
 out(`   K $35,000, h $2,500, D 2: R ${n2(oc.varmaRetirementAge(35000, 2500, 2))} y; K + $1,280 launch: ${n2(oc.varmaRetirementAge(36280, 2500, 2))} y`);
 {
