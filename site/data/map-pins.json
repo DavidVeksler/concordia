@@ -121,7 +121,7 @@
   {"id":"exterior-propellant-farm","href":"/explore/?viewpoint=exterior-propellant-farm","section":"off","edge":"forward","xM":13300,"radiusM":2667},
   {"id":"radiator-field","href":"/explore/?viewpoint=radiator-field","section":"side","x":364.8,"y":72.6,"xM":-200,"yM":2908,"heightM":0,"g":0},
   {"id":"comms-dish-station","href":"/explore/?viewpoint=comms-dish-station","section":"side","x":130.5,"y":73,"xM":-7200,"yM":2898,"heightM":0,"g":0},
-  {"id":"defence-forward-battery","href":"/explore/?viewpoint=defence-forward-battery","section":"side","x":708.3,"y":122.1,"xM":10058,"yM":1429,"heightM":0,"g":0},
+  {"id":"defence-forward-battery","href":"/explore/?viewpoint=defence-forward-battery","section":"side","x":707.3,"y":149.7,"xM":10028,"yM":606,"heightM":0,"g":0},
   {"id":"solar-infrastructure","href":"/explore/?viewpoint=solar-infrastructure","section":"off","edge":"aft","xM":-18300,"radiusM":4407},
   {"id":"sat-night-side","href":"/explore/?viewpoint=sat-night-side","section":"off","edge":"aft","xM":-15769,"radiusM":2209},
   {"id":"hauler-tow","href":"/explore/?viewpoint=hauler-tow","section":"off","edge":"out","xM":4258,"radiusM":9703},

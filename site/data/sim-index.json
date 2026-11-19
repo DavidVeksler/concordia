@@ -1023,7 +1023,7 @@
       "id": "defence-forward-battery",
       "name": "Forward Defence Battery",
       "group": "Exterior",
-      "purpose": "Show the forward launcher battery: armoured housing, reload magazine, rapid-interceptor cells, net launcher, blast wall, hazard apron, Whipple skirt and the sensor group beyond (docs/33).",
+      "purpose": "Stand 450 m over the forward launcher battery (zoomed in 2026-11-18, gap 1.43): the armoured housing with its shutters, the point-defence turrets, rapid-interceptor cells, net launcher and reload magazine read individually, the sensor group beyond. Press K for the intercept drill: the site tracks a drill target down its pinned safe ray, breaks it up and reloads (docs/33 section 5.1).",
       "location": "space",
       "chapter": "exterior",
       "learnMore": "/places/exterior/#defence-and-satellites",
