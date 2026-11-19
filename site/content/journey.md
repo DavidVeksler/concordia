@@ -44,7 +44,7 @@ A glass lift carries the family 46 m up to the Arbor platform, where the viaduct
 {% endchapter %}
 
 {% chapter "plaza" %}
-The Axis Station plaza is a wide, quiet square at the foot of the ascender. A ring sculpture stands in the middle of it. Commuters cross with bags and coffee, and a group of schoolchildren waits at the base of a tower that rises out of sight. The family follows the signs to a glass lift that carries them up to the boarding deck. Nobody hurries, because the next cabin is never far away.
+The Axis Station plaza is a wide, quiet square at the foot of the ascender. A bronze of a mother lifting her child onto her shoulders stands in the middle of it. Commuters cross with bags and coffee, and a group of schoolchildren waits at the base of a tower that rises out of sight. The family follows the signs to a glass lift that carries them up to the boarding deck. Nobody hurries, because the next cabin is never far away.
 
 **The idea:** at the foot of the tower you still weigh a full 1 g, and every metre of the climb ahead takes a little of it away.
 
