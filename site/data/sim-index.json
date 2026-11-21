@@ -1230,6 +1230,14 @@
       "chapter": "exterior"
     },
     {
+      "id": "aft-port-threshold",
+      "name": "Aft Works — Service Port Threshold",
+      "group": "Exterior",
+      "purpose": "Come in on the service port as a tender would: berth S1 and its sign line in the foreground, the lit crown deck, the guide arms and the 120 m blast iris beyond (docs/38 section 9a).",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
       "id": "aft-power-landing",
       "name": "Aft Works — Power Landing",
       "group": "Exterior",
