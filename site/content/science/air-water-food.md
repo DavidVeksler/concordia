@@ -6,7 +6,7 @@ lead: "Concordia breathes air at Earth sea-level pressure, drinks water it has u
 hero: sci-awf-farm
 nav: science
 order: 5
-updated: 2026-10-20
+updated: 2026-11-21
 related:
   - /science/structure/
   - /science/radiation-and-debris/
@@ -76,6 +76,14 @@ Crops grow without soil, in water ({% term "hydroponics" %}) or in a mist around
 {% explore chapter="agriculture" %}
 
 Partial gravity is preferred to zero gravity for crops and for the workers who tend them. Children and routine healthcare stay in the 1 g cities, so the farm is a workplace, a short ride up the ascender. {% basis "design" %}
+
+## Soil from Moon rock
+
+The crop decks grow without soil, but the ground level does not. Rotor 1 alone has about 88,000 street and park trees, and every lawn, garden bed and planter needs real soil. The Moon supplies the mineral part: {% term "regolith" %} is the one material Concordia has in unlimited tonnage. Crop residue and the larva frass supply the organic part. {% basis "design" %}
+
+Fresh regolith is a poor soil on its own. In November 2026 Oregon State University researchers reported what fixes it. They grew Modoc potatoes in five lunar regolith simulants, mare and highland types, against a control of Earth soil from Hermiston, Oregon. Potatoes in pure simulant were stunted with barely any roots, and tubers from one mare simulant accumulated extra copper. A mix of 70 percent simulant and 30 percent worm compost produced plants that grew as well as the control. Mixes with 5 to 15 percent compost recovered only part of the way. The tubers kept their nutritional profile and showed no significant rise in glycoalkaloids, the toxins potatoes make under stress. The team's explanation is that the organic matter binds the heavy metals so the roots take up less. {% basis "physics" %}
+
+Simulants are made on Earth to copy Moon rock, so the result carries one caveat the study states: it is not real lunar material. Concordia's soil lines use the same ratio, 30 percent compost to 70 percent crushed regolith, with worm beds fed from the crop residue stream. Each batch is tested for copper, zinc and aluminium before it goes into a bed that grows food. {% basis "design" %}
 
 ## What it feels like
 
@@ -158,6 +166,7 @@ Imports at 2 percent of 2 kg of food a day are 40 g per person, 16 t a day for t
 - Commission Regulation (EU) 2017/893, recitals: [eur-lex.europa.eu](https://eur-lex.europa.eu/eli/reg/2017/893/oj/eng). Manure and catering waste prohibited as insect feed; insect protein allowed in fish feed, extended to poultry and pigs by Regulation (EU) 2021/1372.
 - Claude E. Boyd, "Feed efficiency indicators for responsible aquaculture", Global Aquaculture Advocate, December 2005: [globalseafood.org](https://www.globalseafood.org/advocate/feed-efficiency-indicators-for-responsible-aquaculture/). Warm-water fish and shrimp farms typically reach FCR 1.5 to 2.5.
 - Solar Foods, "What is Solein's nutritional composition?": [solarfoods.com](https://solarfoods.com/qa/what-is-soleins-nutritional-composition/). 78 percent protein by dry weight. Factory 01 in Vantaa, 20,000 litre reactor, running since April 2024: [european-biotechnology.com](https://european-biotechnology.com/latest-news/solar-foods-starts-factory01/).
+- Handy et al., "Growth and molecular responses of potato to lunar regolith simulants", npj Microgravity 12, 100, 2026: [doi.org/10.1038/s41526-026-00668-z](https://doi.org/10.1038/s41526-026-00668-z). Modoc potatoes in five regolith simulants, 30 percent worm compost matching Earth soil. Summarised from the Oregon State release, [eurekalert.org](https://www.eurekalert.org/news-releases/1151844), and [sci.news](https://sci.news/biology/moon-potatoes-15211.html).
 - Protein budget and imports: `scripts/analysis/protein_loop.py` in the source repository.
 - Concordia engineering specification, sections 9, 10, 26, 33, 39 and 40, and the upper-city farm design note.
 {% endsources %}
