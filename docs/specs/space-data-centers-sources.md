@@ -1,6 +1,6 @@
 # Space data centers: source ledger
 
-Fact check for the public page "Why build data centers in space". Every figure the page prints must trace to a row here. Access date for every row: 2026-11-14 (SD45 to SD48: 2026-11-15).
+Fact check for the public page "Why build data centers in space". Every figure the page prints must trace to a row here. Access date for every row: 2026-11-14 (SD45 to SD48: 2026-11-15; SD49 to SD51 and CA8: 2026-11-20).
 
 Status key:
 
@@ -64,6 +64,9 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 | SD46 | Permanent GPU failures about 6 % a year (Llama 3 run) | VERIFIED-SECONDARY (derived) |
 | SD47 | H100 residual value 11 to 19 % of list in 2027 (conservative) | VERIFIED-SECONDARY (vendor appraisal) |
 | SD48 | Hyperscaler server lives 5 to 6 years | VERIFIED-SECONDARY |
+| SD49 | SpaceX AI1: 120 kW average, 150 kW peak, 110 m2 of radiators | VERIFIED-SECONDARY |
+| SD50 | Gallup: 71 % oppose a local AI data center; more than 100 moratoria proposed | VERIFIED-PRIMARY (poll), VERIFIED-SECONDARY (count) |
+| SD51 | Blue Origin Project Sunrise, up to 51,600 satellites | VERIFIED-PRIMARY |
 
 ## Demand and energy
 
@@ -158,6 +161,15 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 - **Source:** Flanner, M. G., "Integrating anthropogenic heat flux with global climate models", *Geophys. Res. Lett.* 36, L02801, doi:10.1029/2008GL036465 (published 2009-01-16). UCAR/NCAR library record with abstract: https://ckanprod.data-commons.k8s.ucar.edu/dataset/251dce25-af33-4e20-9325-e0b49d30e840
 - **Status:** VERIFIED-PRIMARY (arithmetic and abstract). The AGU page returned 403; the abstract was read on the NCAR library record.
 
+### SD50. US opposition to new data centers
+
+- **Print:** In a Gallup poll published in May 2026, 71 percent of Americans opposed building an AI data center in their area; by June 2026 more than 100 moratoria on data centers had been proposed at local, county, state and national level.
+- **Value found (poll):** Gallup, "Americans Oppose AI Data Centers in Their Area", Jeffrey M. Jones, 2026-05-13: "Seven in 10 Americans oppose constructing data centers for artificial intelligence in their local area", 48 % strongly; body text "71% opposed". Fieldwork 2 to 18 March 2026, telephone, 1,000 adults, +/-4 points. https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx
+- **Value found (moratoria):** CNBC, Bob Woods, "No one wants AI data centers on Earth. Do they make sense in space?", 2026-06-21: the backlash "has prompted more than 100 proposed moratoriums at the local, county, state and national level". https://www.cnbc.com/2026/06/21/do-space-based-ai-data-centers-make-economic-sense.html
+- **Status:** poll VERIFIED-PRIMARY; moratoria count VERIFIED-SECONDARY (CNBC cites an Interconnected Capital page, not opened). Both are also in CA8, Opening essay p. 4.
+- **Not printed:** CA8's claim that the governors of New York and Texas "have each imposed moratoria on data center construction". Its cited source (the CNBC article above) does not say so. UNVERIFIED until the orders themselves are found.
+- **Access date:** 2026-11-20.
+
 ## Orbital state of play
 
 ### SD13. Starcloud-1
@@ -251,6 +263,22 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 - **Value found:** org-chart sites list him as Head of R&D at Varda Space Industries; a later post reports him leaving Varda for an entrepreneur-in-residence role at Paradigm. TechCrunch calls him "a space engineer" and does not mention Varda.
 - **Sources:** https://theorg.com/org/varda/org-chart/andrew-mccalip (search result, not opened); TechCrunch as SD22.
 - **Status:** VERIFIED-SECONDARY. Print "engineer Andrew McCalip, formerly head of R&D at Varda" only after a primary check, otherwise just "engineer Andrew McCalip".
+
+### SD49. SpaceX AI1
+
+- **Print:** SpaceX's first orbital data center satellite, AI1, is designed to average 120 kW of computing with a 150 kW peak and carries 110 m2 of liquid radiators; prototypes are due to fly in early 2027.
+- **Value found:** Notebookcheck, Daniel Zlatev, "SpaceX lists AI1 satellite cooling specs for Starmind data center in space", 2026-07-11: "designed to average 120 kW of AI computing power", "with a peak of up to 150 kW", "liquid radiators of 110 m²", "an altitude of around 600 km", "a fully unfolded wingspan of 70 meters", first prototypes "slated to fly in early 2027". It attributes the specs to SpaceX's Starmind page. https://www.notebookcheck.net/SpaceX-details-AI1-satellite-specs-and-cooling-for-Starmind-data-center-in-space.1340218.0.html . Tom's Hardware's headline gives the same 120 and 150 kW (body not readable). CA8 p. 1.3-3 and Box 1.3 agree (110 m2, 70 m, 150 kW peak).
+- **Derived:** 120 kW / 110 m2 = 1,090 W/m2; 150 kW / 110 m2 = 1,360 W/m2 (CA8 computes 1,360 W/m2 and puts the radiator at 76 to 82 C). The page's design point, 1,210 W/m2 at 330 K, sits between.
+- **Source not read:** https://www.spacex.com/spacexai/starmind renders no text without scripts.
+- **Status:** VERIFIED-SECONDARY. SpaceX has not published AI1's mass; a "70 kW per ton" figure in search snippets was not found on a page and is not printed.
+- **Access date:** 2026-11-20.
+
+### SD51. Blue Origin FCC application
+
+- **Print:** Blue Origin applied to the FCC on 19 March 2026 for Project Sunrise, up to 51,600 data center satellites in sun-synchronous orbit at 500 to 1,800 km.
+- **Value found:** "SAT-LOA-20260310-00118 S00830 Blue Origin, LLC / Date filed: 2026-03-19"; "Blue Origin requests authority to deploy and operate a constellation of up to 51,600 satellites ("Project Sunrise") to operate as a data center in space ... in circular, sun-synchronous orbit at altitudes between 500 km and 1,800 km, with each orbital plane containing approximately 300 to 1,000 satellites."
+- **Source:** FCC, Report No. SAT-01992, Applications Accepted for Filing, 2026-04-17. https://docs.fcc.gov/public/attachments/DOC-420864A1.pdf
+- **Status:** VERIFIED-PRIMARY. Access date 2026-11-20.
 
 ## Mass and cost
 
@@ -487,20 +515,38 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 - **Thesis:** Launch cadence, manufacturing rate and cooling math do not support claims that orbit will soon be the cheapest place for AI compute.
 - **Key numbers:** one million satellites at 60 per Starship launch is 16,666 launches, against SpaceX's record 165 orbital launches in 2025; Starlink builds about 4,000 satellites a year; Starcloud-1's radiator could not let its H100 run at full power.
 
+### CA8. ICEF Innovation Roadmap (Sandalow and others)
+
+- **Title:** "Space-Based Data Centers Roadmap: The Case for Caution", ICEF Innovation Roadmap Project (METI and NEDO, Japan), working paper dated November 2026, prepared for the 13th Innovation for Cool Earth Forum (October 2026); 218 pages; not peer reviewed. https://icef.go.jp/wp-content/themes/icef_new/pdf/roadmap/2026/ICEF%20Space-Based%20Data%20Centers%20Roadmap%20Nov%202026.pdf (index https://www.icef.go.jp/roadmap/). Read 2026-11-20.
+- **Authors:** David Sandalow (Columbia Center on Global Energy Policy, lead), Colin McCormick, Alexis Abramson, Roger Aines, Kathleen Curlee, Julio Friedmann, Hari Osofsky, with Theiija Bala, Anne-Amélie Campant and Alp Kucukelbir.
+- **Thesis:** Orbital data centers look technically feasible and cost may not stop early deployment, but constellations at the proposed scale carry serious launch-capacity, debris, ozone, climate and astronomy risks; regulators should license in phases. It has no levelized cost model and no ratio to the ground.
+- **Key numbers used on the page:**
+  - Reference satellite: 100 kW of compute, 2.5 t, 5-year life, dawn-dusk sun-synchronous orbit at 500 to 800 km (Text Box 1-1). A 1 GW constellation is 10,000 satellites and "would require roughly one launch of a Starship-sized rocket each week for as long as the constellation is operational" (ch. 1.5, p. 1.5-1 to 1.5-2: 250 launches of 100 t to deploy, 50 a year).
+  - Batteries: "A 100-kW SBDC with 30 minutes of eclipse time and a 40% depth of discharge limit would need a minimum of 125 kWh", about 0.5 t at 250 Wh/kg (ch. 1.2), so about 5 kg per kW. Derived: about a sixth of the Today preset's 31.3 kg/kW.
+  - Developer mass claims: "The weights claimed by leading developers appear to be highly optimistic and beyond currently-proven technology" (Findings, p. i). The page's Cheap launch preset is 10.7 kg/kW (`orbit_compute.mjs`).
+  - Ozone: scaling Vliex et al. (2026), whose 2022 inventory of about 5,000 t of re-entering mass cost about 0.03 % of the ozone column a year, "1 million 2.5-tonne SBDCs with 5-year lives" returning 200,000 satellites a year would imply "a loss of roughly 2.5-3% of the atmosphere's ozone column annually from nitrogen oxides alone" (ch. 2.3). A model scaling, not a measurement.
+- **Do not reuse:**
+  - Falcon 9 "approximately $2600/kg" (Opening essay, citing a 2022 source) is outdated; see SD25.
+  - The 8 C chip-to-radiator drop (ch. 1.3 Box, ref. 18) rests on a paper about telescope detector readout electronics; the page keeps its 25 K.
+  - The launch-cost projection ($300/kg by 2040, ch. 1.1) does not follow from the learning rate and doubling time the chapter states.
+  - The 2.5 t reference mass is below its own subsystem estimates (power system at least 2.16 t per 100 kW), so its launch, ozone and CO2 totals are lower bounds.
+  - Greenhouse-gas chapter (2.4): the text and its table disagree on orbit against clean-powered ground data centers.
+  - The New York and Texas moratoria (see SD50).
+
 ### Also relevant
 
 - Tim Fernholz, "Why the economics of orbital AI are so brutal", TechCrunch, 2026-02-11. https://techcrunch.com/2026/02/11/why-the-economics-of-orbital-ai-are-so-brutal . Falcon 9 about $3,600/kg; ground power $570 to $3,000 per kW-year; Starlink-class orbital power about $14,700 per kW-year.
 
 ## Status counts
 
-Figures SD1 to SD48:
+Figures SD1 to SD51 (SD50 counted once, as VERIFIED-PRIMARY):
 
 | Status | Count | IDs |
 | --- | --- | --- |
-| VERIFIED-PRIMARY | 22 | SD1, SD2, SD3, SD5, SD6, SD7, SD8, SD12, SD15, SD16, SD18, SD19, SD20, SD21, SD23, SD27, SD29, SD31, SD34, SD38, SD39, SD42 |
-| VERIFIED-SECONDARY | 15 | SD9, SD13, SD14, SD17, SD24, SD28, SD32, SD33, SD35, SD40, SD41, SD45, SD46, SD47, SD48 |
+| VERIFIED-PRIMARY | 24 | SD1, SD2, SD3, SD5, SD6, SD7, SD8, SD12, SD15, SD16, SD18, SD19, SD20, SD21, SD23, SD27, SD29, SD31, SD34, SD38, SD39, SD42, SD50, SD51 |
+| VERIFIED-SECONDARY | 16 | SD9, SD13, SD14, SD17, SD24, SD28, SD32, SD33, SD35, SD40, SD41, SD45, SD46, SD47, SD48, SD49 |
 | CORRECTED | 9 | SD4, SD10, SD11, SD22, SD25, SD26, SD30, SD36, SD37 |
 | UNVERIFIED | 2 | SD43, SD44 |
 | CUT | 0 | none |
 
-Competing analyses CA1 to CA7: all located and read.
+Competing analyses CA1 to CA8: all located and read.

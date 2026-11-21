@@ -1,12 +1,48 @@
 {
-  "_": "Atlas rows with no site scene: viewpoint -> shot id (site/shots/views.json). make-atlas-thumbs.mjs cuts public/site/atlas/<viewpoint>.avif from the shot; src/main.ts shows a thumbnail for these rows instead of the glyph tile.",
+  "_": "Atlas rows with no site scene: viewpoint -> shot id (site/shots/views.json). make-atlas-thumbs.mjs cuts public/site/atlas/<viewpoint>.avif from the shot; src/main.ts shows a thumbnail for these rows instead of the glyph tile. Every atlas row needs one: npm run atlas-thumbs:check (gap 1.38).",
   "thumbs": {
-    "spaceport-terminus": "th-spaceport-terminus",
-    "spaceport-rim-street-a": "th-spaceport-rim-street-a",
-    "spaceport-apron": "th-spaceport-apron",
+    "compute-downlink": "th-compute-downlink",
+    "compute-field": "th-compute-field",
+    "earth-skyhook-hub": "th-earth-skyhook-hub",
+    "earth-skyhook-lower": "th-earth-skyhook-lower",
+    "earth-skyhook-upper": "th-earth-skyhook-upper",
+    "earth-station-berth": "th-earth-station-berth",
+    "earth-transfer-station": "th-earth-transfer-station",
+    "glider-over-city": "th-glider-over-city",
+    "glider-take-off": "th-glider-take-off",
+    "next-station-yard": "th-next-station-yard",
     "racer-pit": "th-racer-pit",
-    "spaceport-spoke-lift": "th-spaceport-spoke-lift",
+    "shuttle-a03": "th-shuttle-a03",
+    "shuttle-rail": "th-shuttle-rail",
+    "skyhook-wide": "th-skyhook-wide",
+    "spaceport-apron": "th-spaceport-apron",
+    "spaceport-carousel": "th-spaceport-carousel",
+    "spaceport-gate-hall": "th-spaceport-gate-hall",
     "spaceport-mars-landing": "th-spaceport-mars-landing",
-    "spaceport-carousel": "th-spaceport-carousel"
+    "spaceport-rim-street-a": "th-spaceport-rim-street-a",
+    "spaceport-spoke-lift": "th-spaceport-spoke-lift",
+    "spaceport-terminus": "th-spaceport-terminus",
+    "spine-shelter": "th-spine-shelter",
+    "walk-in-lobby": "th-walk-in-lobby"
+  },
+  "crops": {
+    "compute-field": [
+      0.469,
+      0.278,
+      0.25,
+      0.267
+    ],
+    "earth-transfer-station": [
+      0.375,
+      0.389,
+      0.25,
+      0.267
+    ],
+    "sat-night-side": [
+      0.3125,
+      0.444,
+      0.25,
+      0.267
+    ]
   }
 }

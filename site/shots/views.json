@@ -223,5 +223,149 @@
     "ui": "clean",
     "settleMs": 4000,
     "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-walk-in-lobby",
+    "viewpoint": "walk-in-lobby",
+    "alt": "The street door of a stone apartment building from eight metres away, a resident walking up to it.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-glider-take-off",
+    "viewpoint": "glider-take-off",
+    "alt": "From the glider cockpit on the residential street: the instrument panel, a tree-lined road ahead and the megaframe plates overhead.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 8000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-glider-over-city",
+    "viewpoint": "glider-over-city",
+    "alt": "From the glider cockpit 300 m up: the instrument panel against the city, its lakes and towers, with the rotor curving away.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 8000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-spine-shelter",
+    "viewpoint": "spine-shelter",
+    "alt": "A refuge capsule in the axial spine: a white drum on the green spine wall with amber markings and the tether rails beside it.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-spaceport-gate-hall",
+    "viewpoint": "spaceport-gate-hall",
+    "alt": "The zero-g gate hall: a ribbed tube with GATE A04 boards, handlines and net rings, and people floating along it.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-compute-field",
+    "viewpoint": "compute-field",
+    "alt": "Rafts of dark blue compute platforms staggered across the dark, 100 km out, the Moon beyond them.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 8000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-compute-downlink",
+    "viewpoint": "compute-downlink",
+    "alt": "The optical downlink at the compute field: telescopes on a relay bus between two long solar wings, the Sun flaring behind.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 8000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-next-station-yard",
+    "viewpoint": "next-station-yard",
+    "alt": "The second station under construction 200 km out: a lit rotor vessel in its hoop frames against the dark.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 12000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-shuttle-a03",
+    "viewpoint": "shuttle-a03",
+    "alt": "The Concordia shuttle at gate A03: the berth truss and engine bells of the stack against the spaceport structure.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 8000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-shuttle-rail",
+    "viewpoint": "shuttle-rail",
+    "alt": "The Concordia shuttle on the mass-driver sled, the launch rail running away to the horizon.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 8000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-earth-transfer-station",
+    "viewpoint": "earth-transfer-station",
+    "alt": "The 420 m transfer station in high Earth orbit, its long truss lit against the dark.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 12000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-earth-station-berth",
+    "viewpoint": "earth-station-berth",
+    "alt": "The spaceplane berth under the transfer station spine, the truss and its arrays above.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 12000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-earth-skyhook-hub",
+    "viewpoint": "earth-skyhook-hub",
+    "alt": "The skyhook hub from 400 m, the tether running both ways out of the frame over a blue Earth.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 12000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-earth-skyhook-lower",
+    "viewpoint": "earth-skyhook-lower",
+    "alt": "The skyhook lower terminal: the grapple head at the end of the tether against the Earth below.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 12000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-earth-skyhook-upper",
+    "viewpoint": "earth-skyhook-upper",
+    "alt": "The skyhook upper terminal, looking down the tether toward the Earth.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 12000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "th-skyhook-wide",
+    "viewpoint": "skyhook-wide",
+    "alt": "The whole 600 km tether as a thin line beside the limb of Earth, 1,200 km off.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 12000,
+    "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
   }
 ]
