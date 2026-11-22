@@ -552,6 +552,12 @@
     "shot": "sc-hauler-stern"
   },
   {
+    "viewpoint": "compute-cluster",
+    "title": "A compute cluster",
+    "blurb": "One cluster of a compute platform in the field 60 to 115 km aft: 13 pods of 25 MW in a frame 50 by 80 m on the spine. Its coolant headers run 440 m out to a black radiator wall, and the sunlit blanket lies on the other side.",
+    "shot": "sc-compute-cluster"
+  },
+  {
     "viewpoint": "aft-end-far",
     "title": "Aft works from 25 km",
     "blurb": "The aft face from far off: ribbed, red rim lights, a central tower, four landing masts with marker lights and two reactor masts.",

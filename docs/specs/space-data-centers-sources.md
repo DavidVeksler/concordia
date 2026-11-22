@@ -1,6 +1,6 @@
 # Space data centers: source ledger
 
-Fact check for the public page "Why build data centers in space". Every figure the page prints must trace to a row here. Access date for every row: 2026-11-14 (SD45 to SD48: 2026-11-15; SD49 to SD51 and CA8: 2026-11-20).
+Fact check for the public page "Why build data centers in space". Every figure the page prints must trace to a row here. Access date for every row: 2026-11-14 (SD45 to SD48: 2026-11-15; SD49 to SD51 and CA8: 2026-11-20; SD52 to SD56: 2026-11-21).
 
 Status key:
 
@@ -67,6 +67,11 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 | SD49 | SpaceX AI1: 120 kW average, 150 kW peak, 110 m2 of radiators | VERIFIED-SECONDARY |
 | SD50 | Gallup: 71 % oppose a local AI data center; more than 100 moratoria proposed | VERIFIED-PRIMARY (poll), VERIFIED-SECONDARY (count) |
 | SD51 | Blue Origin Project Sunrise, up to 51,600 satellites | VERIFIED-PRIMARY |
+| SD52 | GB200 NVL72 rack: 72 Blackwell GPUs, about 120 kW | VERIFIED-PRIMARY |
+| SD53 | NVLink 5: 1.8 TB/s of GPU-to-GPU interconnect per GPU | VERIFIED-PRIMARY |
+| SD54 | A radiator of independent segments loses only the punctured segment (NASA Glenn) | VERIFIED-PRIMARY |
+| SD55 | Grun et al. 1985 interplanetary meteoroid flux, constants of the cumulative form | VERIFIED-SECONDARY (constants), VERIFIED-PRIMARY (citation) |
+| SD56 | Cour-Palais thin-plate limit: 19/18 size scaling, 2/3 velocity scaling, perforation at 1.8 crater depths | VERIFIED-PRIMARY (scalings, 1.8), VERIFIED-SECONDARY (5.24 and hardness term) |
 
 ## Demand and energy
 
@@ -537,14 +542,52 @@ Derived numbers (arithmetic on sourced inputs) are marked "derived" in the note 
 
 - Tim Fernholz, "Why the economics of orbital AI are so brutal", TechCrunch, 2026-02-11. https://techcrunch.com/2026/02/11/why-the-economics-of-orbital-ai-are-so-brutal . Falcon 9 about $3,600/kg; ground power $570 to $3,000 per kW-year; Starlink-class orbital power about $14,700 per kW-year.
 
+## Compute platform (card CP4 of `docs/specs/compute-campus-spec.md`)
+
+Rows for the section "Inside a compute platform" on `/station/economy/`. Access date for every row: 2026-11-21.
+
+### SD52. GB200 NVL72 rack
+
+- **Print:** The rack equivalent of the compute platform (120 kW, 72 accelerators) is anchored to the largest liquid-cooled accelerator rack on sale in 2024 to 2026, which holds 72 GPUs and draws about 120 kW. The site never names the product for 2045 hardware.
+- **Value found:** "The rack power consumption is approximately 120kW." Each NVL72 rack has 18 compute trays of "2 Grace CPUs and 4 Blackwell GPUs", so 72 GPUs; "The compute trays are cooled by liquid that runs up and down the rack through manifolds." NVIDIA, *DGX GB Rack Scale Systems User Guide*, "Hardware". https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html . NVIDIA's product page: the rack "connects 36 Grace CPUs and 72 Blackwell GPUs in a rack-scale, liquid-cooled design". https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- **Range:** integrators quote 120 to 140 kW (Supermicro 125 to 135 kW, Gigabyte up to 130 kW); SemiAnalysis estimates 123.6 kW at the wall. The page uses NVIDIA's nominal 120 kW.
+- **Status:** VERIFIED-PRIMARY.
+
+### SD53. NVLink bandwidth per GPU
+
+- **Print:** Tightly coupled accelerators talk to each other at terabytes per second per chip, which is why a cluster's pods sit in one compact core.
+- **Value found:** the fifth-generation NVLink "provides 1.8 TB/s of GPU-to-GPU interconnect"; the NVLink Switch System "provides 130 terabytes per second (TB/s) of low-latency GPU communications" across the 72-GPU domain. https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- **Status:** VERIFIED-PRIMARY. 1.8 TB/s is the sum of both directions as NVIDIA states it.
+
+### SD54. Segmented radiators and micrometeoroid puncture
+
+- **Print:** A radiator split into many independent segments loses only the punctured segment, and the redundancy lets each segment's wall be thinner.
+- **Value found:** A. J. Juhasz, *Mathematical Analysis of Space Radiator Segmenting for Increased Reliability and Reduced Mass*, NASA/TM-2001-210949, June 2001 (SAE 2001-01-2340): "a random micrometeoroid puncture will result only in the loss of the punctured segment"; "the wall thickness and consequently the weight of such segments can be drastically reduced"; "Probability theory is used to estimate the magnitude of such weight reductions". https://ntrs.nasa.gov/citations/20010069503 . Also Juhasz, NASA/TP-1998-207427/REV1 (2002), which argues the same for heat-pipe segments and notes that fins over the condenser improve survivability. https://ntrs.nasa.gov/citations/20020082957
+- **Not claimed:** both studies concern heat-pipe segments, not pumped ammonia loops with isolating valves; the campus uses isolated pumped panel loops, which is the design the page describes, not a design the studies test.
+- **Status:** VERIFIED-PRIMARY.
+
+### SD55. Gruen interplanetary meteoroid flux
+
+- **Print:** Not printed as a rate. The page says only that panels are isolated one at a time and repaired by robots. The service rate in `compute-campus-output.txt` is a ceiling and stays out of the page text.
+- **Value found:** E. Grun, H. A. Zook, H. Fechtig, R. H. Giese, "Collisional balance of the meteoritic complex", Icarus 62 (2), 244 to 272, May 1985, doi 10.1016/0019-1035(85)90121-6 (NTRS 19850056135). The cumulative flux form (Eq. A3 of the paper, reproduced as Eqs. 12 to 15 of "Micrometeoroid Impact Rate Analysis for an Artemis-Era Lunar Base", https://arxiv.org/html/2511.04740v1) is F(>m) = (c4 m^g4 + c5)^g5 + c6 (m + c7 m^g6 + c8 m^g7)^g8 + c9 (m + c10 m^g9)^g10, m in grams, with c4 = 2.2e3, g4 = 0.306, c5 = 15, g5 = -4.38, c6 = 1.3e-9, c7 = 1e11, g6 = 2, c8 = 1e27, g7 = 4, g8 = -0.36, c9 = 1.3e-16, c10 = 1e6, g9 = 2, g10 = -0.85. The ESA space-environment archive lists the same c-constants and states the model assumes a mean speed of 20 km/s.
+- **Check of CP0:** the constants in `gruen()` of `scripts/analysis/compute_campus.py` match every one of these. The flux is per m2 per s; the script applies it to both faces of the panel. One secondary source describes the Grun curve as the flux onto one side of a randomly tumbling plate. If that reading is right, counting two faces is correct; if the curve already includes both sides, the 4.25 isolations per panel per year are twice too high. The primary was not read in full (Icarus is paywalled), so this stays open and the rate stays out of the page.
+- **Status:** the citation VERIFIED-PRIMARY, the constants VERIFIED-SECONDARY (one independent reproduction, ESA partial).
+
+### SD56. Cour-Palais penetration limit
+
+- **Print:** Not printed. It sets the vulnerable wall in the service-rate ceiling.
+- **Value found:** B. G. Cour-Palais, "Hypervelocity impact in metals, glass and composites", Int. J. Impact Engineering 5 (1 to 4), 221 to 237, 1987 (scan at http://ciar.org/~ttk/mbt/papers/ijie02/armor.x.ijie.vol05.pp221-237.hypervelocity_impact_in_metals_glass_and_composites.cour_palais.1987.pdf): penetration depth scales as the 19/18 power of projectile diameter (Fig. 3, exponent 1.056), velocity scaling to the 2/3 power is the one the highest-speed gun data favour, and a plate perforates at 1.8 times the crater depth (Gehring's factor, 7.4 km/s aluminium on 2024-T3), with spall at 2.3 to 3 times. The coefficient form P = 5.24 d^(19/18) H^-0.25 (rho_p/rho_t)^0.5 (V cos(theta) / C)^(2/3), with P and d in cm, H the Brinell hardness, C the target sound speed, is the "modified Cour-Palais equation" as written in the NASA meteoroid-model paper https://arxiv.org/pdf/1909.05947 (valid for rho_p / rho_t below 1.5; the campus case is 2.5 / 2.7). The scan's text layer does not carry the 5.24 equation itself.
+- **Check of CP0:** `compute_campus.py` uses exactly these constants (5.24, 19/18, H^-0.25, 0.5, 2/3, 1.8). Its inputs are a 3 mm aluminium wall, Brinell 95, sound speed 5.1 km/s, 20 km/s at 45 degrees. The 1.8 factor was measured at 7.4 km/s, so applying it at 20 km/s is an extrapolation, which is why the script's rate is a ceiling.
+- **Status:** the scalings and 1.8 VERIFIED-PRIMARY; the 5.24 coefficient and hardness term VERIFIED-SECONDARY.
+
 ## Status counts
 
-Figures SD1 to SD51 (SD50 counted once, as VERIFIED-PRIMARY):
+Figures SD1 to SD56 (SD50 counted once, as VERIFIED-PRIMARY):
 
 | Status | Count | IDs |
 | --- | --- | --- |
-| VERIFIED-PRIMARY | 24 | SD1, SD2, SD3, SD5, SD6, SD7, SD8, SD12, SD15, SD16, SD18, SD19, SD20, SD21, SD23, SD27, SD29, SD31, SD34, SD38, SD39, SD42, SD50, SD51 |
-| VERIFIED-SECONDARY | 16 | SD9, SD13, SD14, SD17, SD24, SD28, SD32, SD33, SD35, SD40, SD41, SD45, SD46, SD47, SD48, SD49 |
+| VERIFIED-PRIMARY | 28 | SD1, SD2, SD3, SD5, SD6, SD7, SD8, SD12, SD15, SD16, SD18, SD19, SD20, SD21, SD23, SD27, SD29, SD31, SD34, SD38, SD39, SD42, SD50, SD51, SD52, SD53, SD54, SD56 |
+| VERIFIED-SECONDARY | 17 | SD9, SD13, SD14, SD17, SD24, SD28, SD32, SD33, SD35, SD40, SD41, SD45, SD46, SD47, SD48, SD49, SD55 |
 | CORRECTED | 9 | SD4, SD10, SD11, SD22, SD25, SD26, SD30, SD36, SD37 |
 | UNVERIFIED | 2 | SD43, SD44 |
 | CUT | 0 | none |

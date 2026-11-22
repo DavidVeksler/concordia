@@ -126,6 +126,7 @@
   {"id":"sat-night-side","href":"/explore/?viewpoint=sat-night-side","section":"off","edge":"aft","xM":-15769,"radiusM":2209},
   {"id":"hauler-tow","href":"/explore/?viewpoint=hauler-tow","section":"off","edge":"out","xM":4258,"radiusM":9703},
   {"id":"hauler-stern","href":"/explore/?viewpoint=hauler-stern","section":"off","edge":"out","xM":4185,"radiusM":9951},
+  {"id":"compute-cluster","href":"/explore/?viewpoint=compute-cluster","section":"off","edge":"aft","xM":-73166,"radiusM":40648},
   {"id":"aft-end-far","href":"/explore/?viewpoint=aft-end-far","section":"off","edge":"aft","xM":-32500,"radiusM":12542},
   {"id":"aft-power-landing","href":"/explore/?viewpoint=aft-power-landing","section":"off","edge":"aft","xM":-12500,"radiusM":3547},
   {"id":"aft-reactor-mast","href":"/explore/?viewpoint=aft-reactor-mast","section":"off","edge":"aft","xM":-11310,"radiusM":3867},

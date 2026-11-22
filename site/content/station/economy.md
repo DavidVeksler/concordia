@@ -7,7 +7,7 @@ lead: "Concordia's two billion tonnes took ten years to build using self-replica
 nav: station
 order: 6
 hero: st-solar-infrastructure
-updated: 2026-10-14
+updated: 2026-11-21
 related:
   - /why-space/
   - /places/capital-quarter/
@@ -48,6 +48,28 @@ So Concordia began as a chartered, for-profit venture with no fixed payback date
 **Computation is sold over data links.** Beaming power to Earth needs a receiving field kilometres across and loses energy at both ends. Running computations here and sending the results by laser uses little transmission energy. NASA's lunar laser test sent 622 megabits per second from lunar orbit in 2013, and its TBIRD cubesat reached 200 gigabits per second from low orbit in 2022. {% basis "physics" %} Training, rendering and long simulations can tolerate a few seconds of delay. [Why build data centers in space](/research/data-centers-in-space/) works through the costs, with a calculator.
 
 {% explore viewpoint="solar-infrastructure" label="See the solar platforms" %} {% explore viewpoint="radiator-field" %}
+
+## Inside a compute platform
+
+<!-- facts: section 16 (compute platform rows) -->
+
+Each of the 140 platforms is a 4.2 km² solar blanket with its computers and radiators attached, and every watt follows one path. Sunlight becomes 1.43 GW of electricity at 340 W/m². The pods turn it into computation, and the computation ends as heat. Ammonia loops carry the heat to the radiator wings, which shed it as infrared at 330 K, 1,210 W/m² of panel. {% basis "physics" %} A vacuum has no other exit, so the radiators size a platform as much as the arrays do: 1.2 km² of panel, 1.25 km² once the wall's view of the blanket is paid for. {% basis "design" %}
+
+{% diagram "compute-platform" "Four levels from platform to rack equivalent, and the path every watt takes from sunlight to space. Schematic, not to scale." %}
+
+**The hierarchy.** A platform holds 4 clusters. A cluster holds 13 pods of 25 MW, so 325 MW. A pod holds 208 rack equivalents of 120 kW each. A rack equivalent is a unit of power and volume, about 1.7 m³ with 72 accelerators in it, and the unit a cartridge swap handles. The field holds 109 million accelerators. {% basis "design" %}
+
+**Why pods are small.** Today's fastest accelerator links move 1.8 terabytes per second per chip, a rate that only metres of copper or fibre can carry. {% basis "physics" %} So the 13 pods of a cluster sit together in one frame 50 by 80 m, and no pod is more than 35 m from its centre. Each pod is 10 × 10 × 14 m inside, behind 0.56 m of regolith shielding on every face. Computation takes little room; power and heat take the rest. Clusters link by fibre along the spine and platforms link by laser. {% basis "design" %}
+
+**Why radiators are many and segmented.** A cluster owns two wings of 20 panels, and every panel is its own sealed loop: 160 panels on a platform. A micrometeoroid that punctures one closes that loop and costs 2.5 percent of its cluster's cooling, not the cluster. A robot on a rail patches the panel. NASA Glenn's analysis of heat-pipe radiators finds the same for segments: a puncture costs only the punctured segment, and the redundancy lets each wall be thinner. {% basis "physics" %} The wings stand in one wall 440 m off the compute spine, edge-on to the Sun, so they see little of the blanket and look black in sunlight. {% basis "design" %}
+
+{% shot "sc-compute-cluster" "One cluster from 400 m: 13 pods of 25 MW in a frame 50 by 80 m on the spine, the coolant headers running 440 m out to the black radiator wall, the sunlit blanket on the other side." %}
+
+{% explore viewpoint="compute-cluster" label="Go to a cluster" %}
+
+**Why 330 K.** Hotter chips shrink the radiator. At 360 K the flux is 1,714 W/m² and a platform needs 0.83 km² of panel instead of 1.18. But a chip lasts 12.1 years at 330 K and 2.0 years at 360 K. A field that replaced its chips every two years would spend its output on shipments from Earth, so the field runs at 330 K. {% basis "design" %}
+
+**What it does.** The field sits at L5, 2.56 seconds from Earth there and back. It trains models in batches and does work that belongs in space; a live conversation with Earth is not its job. {% basis "design" %}
 
 ## Why L5
 
@@ -123,6 +145,8 @@ Radiator at 330 K, ε 0.9, two faces:
 - worldsteel, "December 2024 crude steel production and 2024 global crude steel production totals", 2025 (1,882.6 million tonnes in 2024): [worldsteel.org](https://worldsteel.org/media/press-releases/2025/december-2024-crude-steel-production-and-2024-global-totals/).
 - NASA, Lunar Laser Communications Demonstration (up to 622 Mbps from lunar orbit, 2013): [nasa.gov](https://www.nasa.gov/mission/lunar-laser-communications-demonstration-llcd/).
 - MIT Lincoln Laboratory and NASA, "Operations and Results from the 200 Gbps TBIRD Laser Communication Mission", 2023: [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20230007959).
+- NVIDIA, GB200 NVL72 (72 GPUs per liquid-cooled rack; fifth-generation NVLink at 1.8 TB/s per GPU): [nvidia.com](https://www.nvidia.com/en-us/data-center/gb200-nvl72/). The DGX user guide gives the rack power, about 120 kW: [docs.nvidia.com](https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html).
+- A. J. Juhasz, NASA Glenn, "Mathematical Analysis of Space Radiator Segmenting for Increased Reliability and Reduced Mass", NASA/TM-2001-210949, 2001: [ntrs.nasa.gov](https://ntrs.nasa.gov/citations/20010069503).
 - Treaty on Principles Governing the Activities of States in the Exploration and Use of Outer Space, 1967, Article VI (NASA history copy): [nasa.gov](https://www.nasa.gov/history/SP-4225/documentation/cooperation/treaty.htm).
 - The Outer Space Act 1986 (Bermuda) Order 2006, S.I. 2006/2959: [legislation.gov.uk](https://www.legislation.gov.uk/uksi/2006/2959/made).
 - Alaska Department of Revenue, Permanent Fund Dividend Division: [pfd.alaska.gov](https://pfd.alaska.gov/).

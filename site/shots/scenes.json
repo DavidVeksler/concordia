@@ -675,6 +675,15 @@
     "note": "scene atlas"
   },
   {
+    "id": "sc-compute-cluster",
+    "viewpoint": "compute-cluster",
+    "alt": "A lattice frame of grey pods on a truss, coolant pipes running to a dark radiator wall, a blue solar blanket beside it.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "scene atlas, /station/economy/ (Inside a compute platform), /see/compute-cluster/"
+  },
+  {
     "id": "sc-hauler-stern",
     "viewpoint": "hauler-stern",
     "alt": "The hauler's thruster plate and propellant tanks in the foreground, the truss and solar wings running away toward the bag.",

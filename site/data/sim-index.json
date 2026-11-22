@@ -1212,6 +1212,16 @@
       "chapter": "exterior"
     },
     {
+      "id": "compute-cluster",
+      "name": "Compute Field: Cluster Core",
+      "group": "Exterior",
+      "purpose": "One cluster of a compute platform from 400 m: thirteen 25 MW pods in a 50 by 80 m frame on the spine, the truss and coolant headers running 440 m out to the black radiator wall, the sunlit blanket on the other side, a rail robot on the truss (compute-campus-spec section 6).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/station/economy/#inside-a-compute-platform",
+      "map": "/map/#vp-compute-cluster"
+    },
+    {
       "id": "next-station-yard",
       "name": "The Next Station — Yard",
       "group": "Exterior",

@@ -161,7 +161,7 @@ A kW-year from the field costs about $2,500 against about $3,700 on Earth, where
 Terrestrial data center power was capped at 1 TW. Demand growing 30 percent a year reached the cap in 2037. Prices doubled to about $7,400 per kW-year, about $7.4 billion per GW-year, and the field's 200 GW earns about $1.5 trillion a year. A new kilowatt in the field pays back its build cost in about two years.
 {% endcallout %}
 
-Every number in these boxes reproduces with the calculator's **Concordia era** preset. Where Concordia's canon is silent, the preset uses proposals flagged in each input's source note: a regulatory cap of 1 TW, efficiency gains plateauing in the 2040s, $10-per-watt chips and automated ground construction at $11 per watt.
+Every number in these boxes reproduces with the calculator's **Concordia era** preset. Where Concordia's canon is silent, the preset uses proposals flagged in each input's source note: a regulatory cap of 1 TW, efficiency gains plateauing in the 2040s, $10-per-watt chips and automated ground construction at $11 per watt. How one platform of the field is laid out inside, from pods to radiator wings, is in [Inside a compute platform](/station/economy/#inside-a-compute-platform).
 
 ### Why at L5 and not low Earth orbit? {#why-l5}
 
