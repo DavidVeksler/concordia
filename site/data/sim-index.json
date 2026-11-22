@@ -1010,6 +1010,14 @@
       "chapter": "exterior"
     },
     {
+      "id": "power-receiver",
+      "name": "Power Receiver (P2 rectenna)",
+      "group": "Exterior",
+      "purpose": "Gap 1.13: the 460 m rectenna on the shell over rotor 3 that receives power platform P2's microwave beam, seen from the beam side half a year from reference time, when the Sun lights the -z side of the shell; ?powerReceivers=off is the before view.",
+      "location": "space",
+      "chapter": "exterior"
+    },
+    {
       "id": "comms-dish-station",
       "name": "RF Dish Station",
       "group": "Exterior",

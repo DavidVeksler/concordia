@@ -31,6 +31,7 @@ The main explanations need no math. The deeper blocks include the arithmetic for
 - [Moving around](/science/moving-around/): metro, ascenders, spin transfer and the spine express.
 - [Flying in a spinning world](/science/gliding/): fly a glider in a rotor, drop a ball and stand still in space.
 - [Racing where there is no air](/science/racing/): a two-seat rocket racer, and why every turn in space costs fuel.
+- [Driving on a spinning floor](/science/driving/): a car weighs 2.7 g spinward and 0.1 g the other way, and what that does to grip.
 - [Materials](/science/materials/): regolith, asteroid volatiles and the stores.
 - [Mining the Moon and asteroids](/science/mining/): what still comes from Earth, the bag haulers, and lunar rock at scale.
 - [Getting there](/science/getting-there/): L5, the launcher, the 5 day Earth transfer and the transfer station.
