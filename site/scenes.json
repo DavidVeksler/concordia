@@ -640,5 +640,35 @@
     "title": "Earth and Moon",
     "blurb": "The station sits at L5 with Earth and the Moon above it, shown at their true apparent sizes. Earth is 1.9 degrees across, the Moon half a degree.",
     "shot": "sc-earth-moon-context"
+  },
+  {
+    "viewpoint": "look-market-gardens",
+    "title": "Market gardens in Bernal",
+    "blurb": "Crop strips, orchards and glasshouse edges fill whole columns of the rotor floor in Bernal, with a park belt and its lakes behind them. The farm hall above the sky still grows most of the food; the gardens supply the neighbourhoods fresh.",
+    "shot": "sc-look-market-gardens"
+  },
+  {
+    "viewpoint": "look-lake-boats",
+    "title": "A lake and its sails in Noordung",
+    "blurb": "A large lake in the park belt of Noordung seen from the lawn at its shore. Sailboats and a ferry cross it, the ring road runs over a causeway, and the city climbs the curve of the ring behind.",
+    "shot": "sc-look-lake-boats"
+  },
+  {
+    "viewpoint": "look-airship",
+    "title": "An airship over the parks of Tsiolkovsky",
+    "blurb": "A passenger airship drifts about 280 m above the park quarters of Tsiolkovsky at 5 to 10 m/s and turns on the spot at each end of its leg. Airships are sightseeing craft that fly below the sky.",
+    "shot": "sc-look-airship"
+  },
+  {
+    "viewpoint": "look-forest-edge",
+    "title": "The forest edge in O'Neill",
+    "blurb": "Where the city of O'Neill meets its forest: a full column of canopy crosses the rotor floor behind the last blocks, with lakes and the upper city climbing away beyond it.",
+    "shot": "sc-look-forest-edge"
+  },
+  {
+    "viewpoint": "look-tower-core",
+    "title": "The formed towers of Tsiolkovsky",
+    "blurb": "The core of Tsiolkovsky from 160 m up: glass slabs, twin towers with a skybridge, tapered stone towers and lantern blocks, with the park belt and two lakes opening behind them.",
+    "shot": "sc-look-tower-core"
   }
 ]

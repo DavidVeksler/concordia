@@ -367,5 +367,50 @@
     "ui": "clean",
     "settleMs": 12000,
     "note": "atlas thumbnail only (site/data/atlas-thumbs.json), not placed on a page"
+  },
+  {
+    "id": "sc-look-market-gardens",
+    "viewpoint": "look-market-gardens",
+    "alt": "Crop strips and glasshouse edges on the rotor floor, a park belt with lakes beyond, and the ground rising along the ring.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 6000,
+    "note": "scene atlas, station map pin, share row (look pass 2 LK14)"
+  },
+  {
+    "id": "sc-look-lake-boats",
+    "viewpoint": "look-lake-boats",
+    "alt": "A wide lake with sailboats, a lawn in the foreground and trees and towers climbing the curve of the ring behind it.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 6000,
+    "note": "scene atlas, station map pin, share row (look pass 2 LK14)"
+  },
+  {
+    "id": "sc-look-airship",
+    "viewpoint": "look-airship",
+    "alt": "A cream and yellow airship in the air above parks, lakes and the megaframe piers of the first rotor.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 6000,
+    "note": "scene atlas, station map pin, share row (look pass 2 LK14)"
+  },
+  {
+    "id": "sc-look-forest-edge",
+    "viewpoint": "look-forest-edge",
+    "alt": "A dense band of forest canopy behind low blocks and small lakes, with the megaframe and upper city rising beyond.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 6000,
+    "note": "scene atlas, station map pin, share row (look pass 2 LK14)"
+  },
+  {
+    "id": "sc-look-tower-core",
+    "viewpoint": "look-tower-core",
+    "alt": "A cluster of glass and stone towers in front of a green park belt with two lakes.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 6000,
+    "note": "scene atlas, station map pin, share row (look pass 2 LK14)"
   }
 ]

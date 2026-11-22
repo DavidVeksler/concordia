@@ -1390,6 +1390,56 @@
       "chapter": "exterior"
     },
     {
+      "id": "look-market-gardens",
+      "name": "Bernal: Market Gardens",
+      "group": "Residential",
+      "purpose": "The market gardens of Bernal from 250 m: crop strips, orchards and glasshouse edges on the rotor floor, a park belt with lakes behind them, and the ground climbing away along the ring.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-look-market-gardens"
+    },
+    {
+      "id": "look-lake-boats",
+      "name": "Noordung: Lake and Sails",
+      "group": "Residential",
+      "purpose": "A large lake in the park belt of Noordung from the lawn at its shore: sailboats and a ferry on the water, the belt's trees beyond and the city climbing the curve of the ring.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-look-lake-boats"
+    },
+    {
+      "id": "look-airship",
+      "name": "Tsiolkovsky: Airship Over the Parks",
+      "group": "Residential",
+      "purpose": "A passenger airship drifting 280 m over the park quarters of Tsiolkovsky, seen from 250 m up along the ring with the megaframe piers, lakes and the upper city beyond.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-look-airship"
+    },
+    {
+      "id": "look-forest-edge",
+      "name": "O'Neill: The Forest Edge",
+      "group": "Residential",
+      "purpose": "Where the city of O'Neill meets its forest: a full column of canopy across the rotor floor behind the last blocks, lakes and the upper city climbing away beyond it.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-look-forest-edge"
+    },
+    {
+      "id": "look-tower-core",
+      "name": "Tsiolkovsky: The Tower Core",
+      "group": "Residential",
+      "purpose": "The formed towers of the Tsiolkovsky core, glass slabs, twins and stone lanterns, from 160 m up with the park belt and its two lakes opening behind them.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/megaframe-city/#what-you-see",
+      "map": "/map/#vp-look-tower-core"
+    },
+    {
       "id": "rotor2-civic-street",
       "name": "Noordung: Civic Street",
       "group": "Residential",
