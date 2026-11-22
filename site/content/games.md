@@ -96,9 +96,9 @@ What to try:
 - **Use the launch mode.** Hold Shift to pre-load the motors, then release for a standing start.
 - **Crash it.** Hit something hard and the body dents, then breaks into tiers of damage. Hold R to recover.
 
-<p class="game-actions"><a class="btn btn--primary" href="/explore/?viewpoint=complete-habitat">Take the Roadster out · 3D</a><a class="btn btn--ghost" href="/science/driving/">Why speed changes your weight</a></p>
+<p class="game-actions"><a class="btn btn--primary" href="/explore/?mode=explore&roadster=drive">Take the Roadster out · 3D</a><a class="btn btn--ghost" href="/science/driving/">Why speed changes your weight</a></p>
 
-Four bays hold two cars each, on the hero street, at Brook Park and on two points of the ring arterials, and more are parked along the streets. Walk up to one and press G to get in; G again below 2 m/s gets you out. In Space mode, B opens the vehicle picker and 5 puts you in the car.
+Four bays hold two cars each, on the hero street, at Brook Park and on two points of the ring arterials, and more are parked along the streets. Walk up to one and press G to get in; G again when nearly stopped gets you out. From anywhere, B opens the vehicle picker and 5 puts you in the nearest car.
 
 ## Controls {#controls}
 

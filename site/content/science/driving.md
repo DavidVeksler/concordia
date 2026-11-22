@@ -54,9 +54,9 @@ A moving object in a rotating frame is pushed sideways by the Coriolis force. A 
 
 The five ring arterials, 36 m wide, run the full 15.7 km ring through a 30 m pier gateway every 654 m. They are the top-speed route. The Brook Park lawns and gravel paths are drivable too, at a fraction of the grip, and the brook has a shallow ford. Lakes, deep water and planting beds block the car. {% basis "design" %}
 
-{% explore viewpoint="complete-habitat" label="Take the Roadster out" %}
+<p class="game-actions"><a class="btn btn--primary" href="/explore/?mode=explore&roadster=drive">Take the Roadster out · 3D</a></p>
 
-Four bays, two cars each, wait on the hero street, at Brook Park and on two points of the ring arterials. Walk up to a car and press G.
+Four bays, two cars each, wait on the hero street, at Brook Park and on two points of the ring arterials. Walk up to a car and press G, or press B anywhere and then 5 for the nearest one.
 
 {% sources %}
 - The felt-weight table, launch and braking figures, thruster endurance and crest radii are printed by `scripts/analysis/roadster_table.py` in the Concordia repository (`docs/specs/roadster-output.txt`); design note `docs/specs/roadster-spec.md`.
