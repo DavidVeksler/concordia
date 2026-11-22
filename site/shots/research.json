@@ -18,5 +18,77 @@
     "ui": "clean",
     "settleMs": 4000,
     "note": "for /research/freight-system/ section 1: paired cars on guided shafts, the closest thing the sim builds today"
+  },
+  {
+    "id": "dc-field",
+    "viewpoint": "compute-field",
+    "alt": "Rafts of dark-blue compute platforms stand in staggered groups across the dark band, the station small in the far corner.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "for /research/data-centers-in-space/ hero and #concordia: the 200 GW field"
+  },
+  {
+    "id": "dc-platform",
+    "viewpoint": "compute-platform",
+    "alt": "One compute platform from 11 km: a blanket of dark-blue solar tiles, the compute spine along it and the radiator wall edge-on.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "for /research/data-centers-in-space/ #concordia: one 1.43 GW platform"
+  },
+  {
+    "id": "dc-pods",
+    "viewpoint": "compute-pods",
+    "alt": "Grey shielded compute pods packed in a lattice frame, red and blue coolant pipes and a yellow rail running between them.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "for /research/data-centers-in-space/ #physics: what a 25 MW pod looks like"
+  },
+  {
+    "id": "dc-rail-robot",
+    "viewpoint": "compute-rail-robot",
+    "alt": "A boxy rail robot clamped to a truss between a red and a yellow coolant pipe, stopped at an inspection point.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "for /research/data-centers-in-space/ #counter-case: servicing by robot"
+  },
+  {
+    "id": "dc-terminal",
+    "viewpoint": "compute-optical-terminal",
+    "alt": "A white gimballed laser telescope on a lattice mast at the end of a platform, aimed at the next platform.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "for /research/data-centers-in-space/ #power-or-bits: platform-to-platform optical link"
+  },
+  {
+    "id": "dc-downlink",
+    "viewpoint": "compute-downlink",
+    "alt": "The optical downlink: rows of telescopes on a relay bus between two long solar wings, all aimed at Earth.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "for /research/data-centers-in-space/ #power-or-bits: the downlink to Earth"
+  },
+  {
+    "id": "dc-tug",
+    "viewpoint": "compute-cargo-tug",
+    "alt": "A small cartridge tug with solar wings and a rack of chip cartridges, flying out from the depot to a cluster.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "for /research/data-centers-in-space/ #counter-case: chip replacement logistics"
+  },
+  {
+    "id": "dc-depot",
+    "viewpoint": "compute-depot",
+    "alt": "A small pressurised service depot on two solar wings, a cartridge store and a tug berth on its frame.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 9000,
+    "note": "for /research/data-centers-in-space/ #counter-case: the crew-tended depot"
   }
 ]

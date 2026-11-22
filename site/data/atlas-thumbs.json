@@ -26,6 +26,12 @@
     "walk-in-lobby": "th-walk-in-lobby"
   },
   "crops": {
+    "compute-cargo-tug": [
+      0.4,
+      0.37,
+      0.2,
+      0.2133
+    ],
     "compute-field": [
       0.469,
       0.278,

@@ -6,7 +6,10 @@ description: "Data centers in space beat the ground only when launch cost, chip 
 lead: "For training, rendering and simulation, the results of a computation are small next to the energy used to make them. That makes computing a candidate export from space: it needs electricity, a way to reject heat and a data link. This page sets out the physics and the costs, names the conditions under which orbit beats the ground in one cost model, and gives a calculator to test them."
 nav: science
 order: 52
-updated: 2026-11-20
+updated: 2026-11-22
+hero: dc-pods
+ctaViewpoint: compute-pods
+ctaLabel: Fly into a compute cluster
 schema: TechArticle
 about: Space-based data centers
 faq: faq
@@ -24,7 +27,7 @@ related:
 ---
 
 {% callout "How to read this page" %}
-The analysis is present-day and sourced; the numbered sources (SD1 and on) are listed in [the method section](#method). Cost ratios are outputs of the page's model for stated inputs, not measured costs. Boxes marked **Fiction** are excerpts from Concordia, a space city set in 2045, and every number in them comes from the calculator's Concordia preset. To test the numbers yourself, [jump to the calculator](#calculator).
+The analysis is present-day and sourced; the numbered sources (SD1 and on) are listed in [the method section](#method). Cost ratios are outputs of the page's model for stated inputs, not measured costs. Boxes marked **Fiction** are excerpts from Concordia, a space city set in 2045, and every number in them comes from the calculator's Concordia preset. To test the numbers yourself, [jump to the calculator](#calculator). The screenshots are Concordia's compute field as drawn in the simulation, and each one has a link that flies you to the same view, with the part's card open; [the tour](#see-it) lists them all.
 {% endcallout %}
 
 ## Do data centers in space make sense? {#short-answer}
@@ -62,6 +65,8 @@ Space is cold, but it is also empty, and emptiness insulates. The 3 K background
 ### How big is the radiator for a megawatt? {#radiator-size}
 
 At 330 K the radiator for 1 MW of chips is about 826 m², an eighth of a football pitch; a gigawatt needs 0.83 km². At 5 kg/m², an aggressive figure for flight radiators, that is 4.1 kg per kW; at the 14 to 17 kg/m² of ISS panels it is about 12 kg per kW (SD28, SD29). How radiators are sized and fouled on real stations is in the [thermal section of the CheatSheets space habitat guide](https://cheatsheets.davidveksler.com/space-habitats-life-support.html?utm_source=concordia&utm_medium=referral&utm_campaign=cheatsheets_crosslink&utm_content=dc-space-radiator-size#thermal-power). Only the electrical power delivered to the chips needs radiating: solar arrays shed their own waste heat.
+
+{% shot "dc-platform" "One platform of Concordia's compute field from 11 km: a 4.2 km² solar blanket delivering 1.43 GW, the compute spine along it and, edge-on beyond, a radiator wall of 1.25 km² at 330 K. The ratio is the one above: about 30 percent of the array's area." %}
 
 Running the radiator hotter shrinks it with the fourth power of temperature: 400 K needs less than half the area of 330 K. The catch is the chips. A 400 K radiator puts the chip junctions near 425 K (152 °C). The H100 is qualified at 87 °C (SD41), and wear-out follows the Arrhenius law: near 350 K each 10 K of extra heat roughly halves a chip's life (SD40).
 
@@ -143,9 +148,15 @@ What answers each objection:
 | The atmosphere pays | High orbits or L5, where hardware need not re-enter | Open: re-entry chemistry is barely measured |
 | Links cost money | Workloads that return little data; several ground stations | Open: not in this model |
 
+Concordia's field is a worked answer to the servicing and refresh rows. Each platform carries 14 rail robots that ride the spine, the trusses and the radiator wings, isolate a punctured panel and patch it. Chips arrive as cartridges: each raft of ten platforms has a crew-tended depot and a tug that carries four cartridges a trip, and the raft swaps about 24 a day, the rate a 12.1-year chip life implies. Nothing is relaunched to refresh it.
+
+{% shots "dc-rail-robot" "A 6 m rail robot stopped at an inspection point on a cluster truss, between the red supply and the yellow rail. Losing one radiator panel costs a cluster 2.5 percent of its cooling until a robot fixes it." "dc-tug" "Raft R01's cartridge tug, loaded and outbound to a cluster dock. One tug serves every cluster in the raft." "dc-depot" "The raft's service depot: a small pressurised shop with the cartridge store and a tug berth. Residents tend it; nobody lives on the platforms." %}
+
 ### Should space beam power down or send bits? {#power-or-bits}
 
 Gerard O'Neill's 1970s space colonies paid for themselves by building solar power satellites that beamed energy to Earth. Beaming power needs a receiving antenna kilometres across and loses energy at both ends. Sending the results of a computation needs a laser terminal: NASA sent 622 megabits per second from lunar orbit in 2013, and its TBIRD cubesat reached 200 gigabits per second from low orbit in 2022, in short passes over a ground station. For workloads that return little data, shipping bits instead of watts removes the hardest part of space solar power. The link is still a real cost, with clear-sky ground stations and capacity for any data sent up, and this page's model leaves it out.
+
+{% shots "dc-terminal" "Every platform carries two optical terminals, one at each end of its spine, that link it to the next platform in its raft." "dc-downlink" "The downlink D1 at the field's centre: sixteen 4 m telescopes on a relay bus, aimed at Earth, with the Sun behind. The field's 200 GW leave as bits through links like these; no beam of power goes down." %}
 
 ## Why does Concordia export compute? {#concordia}
 
@@ -163,9 +174,31 @@ Terrestrial data center power was capped at 1 TW. Demand growing 30 percent a ye
 
 Every number in these boxes reproduces with the calculator's **Concordia era** preset. Where Concordia's canon is silent, the preset uses proposals flagged in each input's source note: a regulatory cap of 1 TW, efficiency gains plateauing in the 2040s, $10-per-watt chips and automated ground construction at $11 per watt. How one platform of the field is laid out inside, from pods to radiator wings, is in [Inside a compute platform](/station/economy/#inside-a-compute-platform).
 
+{% shot "sc-compute-cluster" "One of the field's 560 clusters from 400 m: thirteen 25 MW pods in a frame 50 by 80 m, each shielded by 838 t of lunar regolith. The coolant headers run 440 m out to the black radiator wall; the sunlit blanket lies on the other side." %}
+
 ### Why at L5 and not low Earth orbit? {#why-l5}
 
 L5 trades latency for room and material. A round trip between Earth and L5 takes 2.56 seconds, against 0.24 s to geostationary orbit and a few milliseconds to low orbit (SD38, SD39). Training runs, rendering and simulation tolerate that delay; chat and search do not. In return L5 has no drag, almost no debris, nearly constant sunlight, and a short haul from the Moon, whose mass driver supplies the heavy material. The [economy page](/station/economy/) covers the rest of Concordia's business.
+
+## Can I see Concordia's compute field? {#see-it}
+
+Yes. The simulation draws the whole field: 140 platforms in 14 rafts, 60 to 115 km aft of the station. Every piece from a raft down to a single rail robot carries a label with its true distance; click one for a card with its size, its power or heat and what it is doing now, and the path its heat takes to space. Each link below opens the simulation at that view with the piece's card already open.
+
+{% shot "dc-field" "The field from 100 km: rafts of ten platforms in staggered groups across the band, the station small in the corner. Together they draw 200 GW, eight to ten times the city's own use." %}
+
+| From | View | What it shows |
+| --- | --- | --- |
+| 100 km | {% explore viewpoint="compute-field" label="The band" %} | 14 rafts, 200 GW, the station for scale |
+| 11 km | {% explore viewpoint="compute-platform" label="One platform" %} | 4.2 km² blanket, compute spine, radiator wall edge-on |
+| 400 m | {% explore viewpoint="compute-cluster" label="A cluster" %} | 13 pods, coolant headers, the radiator wall 440 m out |
+| 115 m | {% explore viewpoint="compute-pods" label="Inside the pod frame" %} | 25 MW pods, supply and return pipes, the robot rail |
+| 18 m | {% explore viewpoint="compute-rail-robot" label="A rail robot" %} | inspection and panel repair on the truss |
+| 20 m | {% explore viewpoint="compute-optical-terminal" label="A laser terminal" %} | platform-to-platform optical link |
+| 400 m | {% explore viewpoint="compute-downlink" label="The downlink" %} | sixteen telescopes aimed at Earth |
+| 60 m | {% explore viewpoint="compute-cargo-tug" label="The cartridge tug" %} | chip cartridges on their way to a cluster |
+| 180 m | {% explore viewpoint="compute-depot" label="The service depot" %} | the crew-tended shop that stores the cartridges |
+
+In the simulation, `T` steps through the labelled pieces nearest you and the card's **Go there** flies to the one you pick.
 
 ## What else do people ask about data centers in space? {#faq}
 
@@ -284,9 +317,3 @@ Changelog: 14 November 2026, first version. 14 November 2026, revised: chip life
 {% endsources %}
 
 The full verification ledger, with the corrected and unverified figures, is in the [repository](https://github.com/DavidVeksler/concordia/blob/main/docs/specs/space-data-centers-sources.md).
-
-## Can I see Concordia's compute field? {#see-it}
-
-Yes. The simulation draws the field as rafts of dark-blue solar platforms in a band around the station, with optical downlinks aimed at Earth.
-
-{% explore viewpoint="compute-field" label="Fly to the compute field" %} {% explore viewpoint="compute-downlink" label="See the optical downlink" %}

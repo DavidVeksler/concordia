@@ -558,6 +558,42 @@
     "shot": "sc-compute-cluster"
   },
   {
+    "viewpoint": "compute-platform",
+    "title": "One compute platform",
+    "blurb": "Platform C-R01-05 from 11 km: a 4.2 km² solar blanket delivering 1.43 GW, the compute spine with its four clusters along it, and the radiator wall edge-on beyond.",
+    "shot": "dc-platform"
+  },
+  {
+    "viewpoint": "compute-pods",
+    "title": "Inside a cluster",
+    "blurb": "The frame of one cluster from about 115 m: 25 MW pods in regolith shields, red supply and blue return coolant pipes, and the yellow rail the robots ride.",
+    "shot": "dc-pods"
+  },
+  {
+    "viewpoint": "compute-rail-robot",
+    "title": "A rail robot",
+    "blurb": "A 6 m robot stopped at an inspection point on a cluster truss. Fourteen ride each platform's spine, trusses and radiator wings, isolating and patching punctured panels.",
+    "shot": "dc-rail-robot"
+  },
+  {
+    "viewpoint": "compute-optical-terminal",
+    "title": "A platform's laser terminal",
+    "blurb": "The gimballed telescope at the aft end of a platform's spine, holding a laser link to the next platform in the raft.",
+    "shot": "dc-terminal"
+  },
+  {
+    "viewpoint": "compute-cargo-tug",
+    "title": "The cartridge tug",
+    "blurb": "Raft R01's tug, loaded with chip cartridges and outbound from the depot to a cluster dock. It carries four a trip.",
+    "shot": "dc-tug"
+  },
+  {
+    "viewpoint": "compute-depot",
+    "title": "The service depot",
+    "blurb": "Raft R01's crew-tended depot: a small pressurised shop with the cartridge store and a tug berth, on its own solar wings.",
+    "shot": "dc-depot"
+  },
+  {
     "viewpoint": "aft-end-far",
     "title": "Aft works from 25 km",
     "blurb": "The aft face from far off: ribbed, red rim lights, a central tower, four landing masts with marker lights and two reactor masts.",

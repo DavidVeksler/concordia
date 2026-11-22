@@ -1,23 +1,24 @@
 ---
-title: "Games: fly a glider, a racer and a shuttle"
-h1: "Three ways to fly Concordia"
+title: "Games: fly, race and drive in a space habitat"
+h1: "Four ways to move through Concordia"
 crumb: Games
-description: "Fly a glider inside a spinning city, race a rocket round the hull on a fixed fuel budget, or take the 155 t Concordia shuttle off its berth. Free in the browser, real physics."
-lead: "Concordia is a place to fly as well as to walk. A glider over the city, a two-seat rocket racer outside the hull and the 64 m Earth shuttle all fly on the same physics the station is built on, in your browser, with no install."
+description: "Fly a glider inside a spinning city, race a rocket round the hull, take the Concordia shuttle off its berth or drive the Roadster on a floor that weighs you by speed. Free in the browser."
+lead: "Concordia is a place to fly and drive as well as to walk. A glider over the city, a rocket racer outside the hull, the 64 m Earth shuttle and an electric sports car on the rotor floor all run on the same physics the station is built on, in your browser, with no install."
 nav: games
 hero: gm-glider-cockpit
 ctaViewpoint: glider-take-off
 ctaLabel: Start with the glider · 3D
 schema: WebPage
-updated: 2026-11-13
+updated: 2026-11-22
 related:
   - /science/gliding/
   - /science/racing/
+  - /science/driving/
   - /science/getting-there/
   - /places/spaceport/
 ---
 
-<nav class="games-index" aria-label="Vehicles"><a href="#glider">Glider</a><a href="#racer">Rocket racer</a><a href="#shuttle">Concordia shuttle</a><a href="#controls">Controls</a></nav>
+<nav class="games-index" aria-label="Vehicles"><a href="#glider">Glider</a><a href="#racer">Rocket racer</a><a href="#shuttle">Concordia shuttle</a><a href="#roadster">Roadster</a><a href="#controls">Controls</a></nav>
 
 {% facts %}
 120 kg | the glider with its pilot, on a 16 m² wing | design
@@ -26,7 +27,7 @@ related:
 157 m/s | speed of the rotor floor the glider flies over | physics
 {% endfacts %}
 
-Each vehicle is a different lesson in the same physics. The glider flies in air that turns with the floor, so which way you point changes how much you weigh. The racer has no air at all, so every corner is paid for in propellant. The shuttle has the racer's physics at 56 times the mass, so it handles like a ship and plans its stops kilometres ahead.
+Each vehicle is a different lesson in the same physics. The glider flies in air that turns with the floor, so which way you point changes how much you weigh. The racer has no air at all, so every corner is paid for in propellant. The shuttle has the racer's physics at 56 times the mass, so it handles like a ship and plans its stops kilometres ahead. The Roadster is the one that stays on the ground, and the spin still decides how much it weighs.
 
 ## Glider: flying inside a spinning city {#glider}
 
@@ -78,6 +79,27 @@ Two ways out:
 
 At the dock or the rail, press B to launch. From anywhere in Space mode, B opens the vehicle picker: 1 for the racer, 2 for the shuttle at the dock, 3 for the shuttle on the rail.
 
+## Roadster: a sports car on a spinning floor {#roadster}
+
+{% shot "gm-roadster-cockpit" "The Roadster's cockpit on an Arbor street. The right-hand dial reads effective tyre load, which is the number a driver here watches." %}
+
+The Roadster is an electric two-seat sports car that you board on any street. The floor of a rotor moves at 156 m/s, so a car driving spinward weighs more and a car driving the other way weighs less: 2.74 g at 370 km/h spinward, 0.12 g at the same speed antispinward. Tyre grip follows the weight, so it launches to 100 km/h in 2.47 s spinward and 3.27 s against the spin. {% basis "design" %}
+
+Cold-gas thrusters push the tyres down when the felt weight drops, for 2.1 s from the 40 kg store. Assisted mode keeps the felt weight between 0.5 g and 2.0 g by capping speed; manual mode removes the cap and lets the road run out under you.
+
+{% shot "gm-roadster-night" "At night the dials light up and street lamps pool along the road. Press O for headlights." %}
+
+What to try:
+
+- **Take it round the ring.** The five arterials run the full 15.7 km ring at the top-speed route. Drive both ways and watch the tyre-load dial.
+- **Go off road.** The Brook Park lawns and gravel paths are drivable at a fraction of the grip, and the brook has a shallow ford.
+- **Use the launch mode.** Hold Shift to pre-load the motors, then release for a standing start.
+- **Crash it.** Hit something hard and the body dents, then breaks into tiers of damage. Hold R to recover.
+
+<p class="game-actions"><a class="btn btn--primary" href="/explore/?viewpoint=complete-habitat">Take the Roadster out · 3D</a><a class="btn btn--ghost" href="/science/driving/">Why speed changes your weight</a></p>
+
+Four bays hold two cars each, on the hero street, at Brook Park and on two points of the ring arterials, and more are parked along the streets. Walk up to one and press G to get in; G again below 2 m/s gets you out. In Space mode, B opens the vehicle picker and 5 puts you in the car.
+
 ## Controls {#controls}
 
 The racer and the shuttle share one layout. The glider flies like a small aircraft. Press ? in the simulation for every key in every mode.
@@ -98,6 +120,8 @@ The racer and the shuttle share one layout. The glider flies like a small aircra
 | Y | cockpit / chase view | cockpit / chase view |
 | B | board or stow | launch, or open the picker |
 
+The Roadster uses W and S to accelerate and brake, A and D to steer, Space for the handbrake, Shift for launch mode, E for traction thrust, T for assisted or manual, Y to change view, O for headlights and G to get in or out.
+
 On a phone or tablet the simulation shows a thumb stick and buttons for each vehicle instead.
 
 ## How each one works
@@ -105,5 +129,6 @@ On a phone or tablet the simulation shows a thumb stick and buttons for each veh
 {% cards discover %}
 /science/gliding/ | Flying in a spinning world | Why flying backward fast enough makes your weight disappear, and where a dropped ball really goes. | sci-glider-over-city
 /science/racing/ | Racing where there is no air | What a corner costs, why the tanks set the top speed and how the racer is built. | sci-racer-closeup
+/science/driving/ | Driving on a spinning floor | Why a car weighs 2.74 g one way and 0.12 g the other, and how the thrusters hold the tyres down. | sci-grav-park
 /science/getting-there/ | Getting there from L5 | The launcher, the five-day fall to Earth orbit and the skyhook that the shuttle hands its passengers to. | sc-shuttle-bay-external
 {% endcards %}

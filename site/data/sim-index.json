@@ -1222,6 +1222,66 @@
       "map": "/map/#vp-compute-cluster"
     },
     {
+      "id": "compute-platform",
+      "name": "Compute Field: One Platform",
+      "group": "Exterior",
+      "purpose": "Platform C-R01-05 from 11 km: the 4.2 km² solar blanket in tiles, the compute spine along it with four clusters, the radiator wall edge-on beyond, 1.43 GW delivered (compute-campus-spec).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/research/data-centers-in-space/#radiator-size",
+      "map": "/map/#vp-compute-platform"
+    },
+    {
+      "id": "compute-pods",
+      "name": "Compute Field: Pods",
+      "group": "Exterior",
+      "purpose": "Inside the frame of cluster 2 from about 115 m: the 25 MW pods in their regolith shields, red supply and blue return coolant pipes, the yellow rail and the truss (compute-campus-spec).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/research/data-centers-in-space/#concordia",
+      "map": "/map/#vp-compute-pods"
+    },
+    {
+      "id": "compute-rail-robot",
+      "name": "Compute Field: Rail Robot",
+      "group": "Exterior",
+      "purpose": "A 6 m rail robot dwelling at an inspection stop on truss 2, the coolant headers either side, 18 m away: the machines that patch punctured radiator panels and swap boards (compute-campus-spec).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/research/data-centers-in-space/#counter-case",
+      "map": "/map/#vp-compute-rail-robot"
+    },
+    {
+      "id": "compute-optical-terminal",
+      "name": "Compute Field: Optical Terminal",
+      "group": "Exterior",
+      "purpose": "The aft optical terminal of platform C-R01-05 on its mast: a gimballed telescope holding a laser link to the next platform in the raft; the raft's traffic reaches Earth through the downlink (compute-campus-spec).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/research/data-centers-in-space/#power-or-bits",
+      "map": "/map/#vp-compute-optical-terminal"
+    },
+    {
+      "id": "compute-cargo-tug",
+      "name": "Compute Field: Cartridge Tug",
+      "group": "Exterior",
+      "purpose": "Raft R01's cartridge tug loaded with chip cartridges, outbound from the depot to a cluster dock, 60 m away (compute-campus-spec).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/research/data-centers-in-space/#counter-case",
+      "map": "/map/#vp-compute-cargo-tug"
+    },
+    {
+      "id": "compute-depot",
+      "name": "Compute Field: Service Depot",
+      "group": "Exterior",
+      "purpose": "Raft R01's crew-tended service depot from 180 m: a small pressurised shop with the cartridge store and a tug berth, on its own solar wings (compute-campus-spec).",
+      "location": "space",
+      "chapter": "exterior",
+      "learnMore": "/research/data-centers-in-space/#counter-case",
+      "map": "/map/#vp-compute-depot"
+    },
+    {
       "id": "next-station-yard",
       "name": "The Next Station — Yard",
       "group": "Exterior",

@@ -64,5 +64,17 @@
     "static": true,
     "alt": "The Concordia shuttle in flight with its solar arrays unfolded, a satellite and more panels nearby against black space.",
     "note": "for /games/: gameplay capture by scripts/site/capture-games.mjs (vehicle HUD on, no panels or notices), converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-roadster-cockpit",
+    "static": true,
+    "alt": "The Roadster cockpit parked on an Arbor street: round speed, power and tyre-load dials, a map screen, and a tower and cherry trees ahead with the city curving overhead.",
+    "note": "for /games/: in-game capture from docs/img/roadster/, converted with scripts/site/convert-shots.py"
+  },
+  {
+    "id": "gm-roadster-night",
+    "static": true,
+    "alt": "The Roadster cockpit at night, the dashboard dials lit and the street lamps ahead.",
+    "note": "for /games/: in-game capture from docs/img/roadster/, converted with scripts/site/convert-shots.py"
   }
 ]
