@@ -193,6 +193,14 @@
       "map": "/map/#vp-end-wall-sky-balcony"
     },
     {
+      "id": "end-wall-airstrip",
+      "name": "End Wall: Terrace Airstrip (glider)",
+      "group": "Upper Habitat",
+      "purpose": "Take off from the 246 m terrace of the +X end wall of rotor 1: a 188 m painted runway on the open deck (src/terrace-runway-layout.ts), the glider on its wheels at the take-off end, facing 188 m of runway. Hold Space to roll and lift off; land back on it from the far end with S and brake with Shift.",
+      "location": "inside",
+      "chapter": "ascender"
+    },
+    {
       "id": "end-wall-hung-capture",
       "name": "End Wall: Looking Down the Wall (review pose)",
       "group": "Upper Habitat",
