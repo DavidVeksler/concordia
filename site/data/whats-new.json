@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-22",
+    "title": "Tour a compute platform",
+    "blurb": "Thirteen 25 MW computers share one frame, and a black radiator wall 440 m away carries off their heat. Click any part.",
+    "href": "/see/compute-cluster/"
+  },
+  {
     "date": "2026-11-14",
     "title": "Should data centers go to space?",
     "blurb": "In a sourced cost model, orbit costs 3.3 times the ground at 2026 prices. A calculator shows what launch, chip prices and a power cap do.",
@@ -15,8 +21,7 @@
     "date": "2026-10-23",
     "title": "Race a rocket round the hull",
     "blurb": "No air, no grip, no top speed: every corner costs fuel. Watch the racer trailer, then fly the sprint yourself.",
-    "href": "/science/racing/",
-    "pinned": true
+    "href": "/science/racing/"
   },
   {
     "date": "2026-10-16",
@@ -40,8 +45,7 @@
     "date": "2026-10-12",
     "title": "Fly the glider",
     "blurb": "Take a small electric glider over the city and feel the same wing carry more weight with the spin than against it.",
-    "href": "/science/gliding/",
-    "pinned": true
+    "href": "/science/gliding/"
   },
   {
     "date": "2026-10-12",
