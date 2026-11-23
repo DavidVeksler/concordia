@@ -201,6 +201,14 @@
       "chapter": "ascender"
     },
     {
+      "id": "end-wall-helipad",
+      "name": "End Wall: Terrace Helipad",
+      "group": "Upper Habitat",
+      "purpose": "The quadcopter departs from the helipad beside the glider runway, 246 m up the end wall of rotor 1.",
+      "location": "inside",
+      "chapter": "ascender"
+    },
+    {
       "id": "end-wall-hung-capture",
       "name": "End Wall: Looking Down the Wall (review pose)",
       "group": "Upper Habitat",
