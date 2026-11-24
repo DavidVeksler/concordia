@@ -1444,6 +1444,22 @@
       "chapter": "neighborhood"
     },
     {
+      "id": "south-shore-beach-sand",
+      "name": "South Shore Beach sand close-up",
+      "group": "Residential",
+      "purpose": "A downward view of footprints and sand grains near the damp line.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "south-shore-beach-shallows",
+      "name": "South Shore Beach shallows",
+      "group": "Residential",
+      "purpose": "A close view of the swash, refracted sand, and small waves over the sandy shelf.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
       "id": "south-shore-beach-lake",
       "name": "South Shore Beach from across the lake",
       "group": "Residential",
