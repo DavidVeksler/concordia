@@ -143,6 +143,7 @@
   {"id":"earth-moon-context","href":"/explore/?viewpoint=earth-moon-context","section":"off","edge":"out","xM":-8730,"radiusM":33889},
   {"id":"look-market-gardens","href":"/explore/?viewpoint=look-market-gardens","section":"rotor-3","x":6300,"y":2050,"s":4800,"u":0,"heightM":250,"g":0.899},
   {"id":"look-lake-boats","href":"/explore/?viewpoint=look-lake-boats","section":"rotor-2","x":4150,"y":2200,"s":2650,"u":-150,"heightM":30,"g":0.987},
+  {"id":"south-shore-beach","href":"/explore/?viewpoint=south-shore-beach","section":"rotor-2","x":4026,"y":2304,"s":2526,"u":-254,"heightM":2,"g":0.998},
   {"id":"look-airship","href":"/explore/?viewpoint=look-airship","section":"rotor-1","x":15950,"y":1950,"s":14450,"u":100,"heightM":250,"g":0.899},
   {"id":"look-forest-edge","href":"/explore/?viewpoint=look-forest-edge","section":"rotor-4","x":14100,"y":2050,"s":12600,"u":0,"heightM":100,"g":0.959},
   {"id":"look-tower-core","href":"/explore/?viewpoint=look-tower-core","section":"rotor-1","x":6300,"y":2750,"s":4800,"u":-700,"heightM":160,"g":0.935}

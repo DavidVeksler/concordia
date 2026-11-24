@@ -1426,6 +1426,40 @@
       "map": "/map/#vp-look-lake-boats"
     },
     {
+      "id": "south-shore-beach",
+      "name": "Noordung: South Shore Beach",
+      "group": "Residential",
+      "purpose": "Walk from the park promenade onto South Shore Beach. Canvas parasols shelter loungers above the wet sand, with sailboats crossing the lake.",
+      "location": "inside",
+      "chapter": "neighborhood",
+      "learnMore": "/places/arbor-quarter/#what-you-see",
+      "map": "/map/#vp-south-shore-beach"
+    },
+    {
+      "id": "south-shore-beach-wash",
+      "name": "South Shore Beach waterline",
+      "group": "Residential",
+      "purpose": "Along the sand at the lake edge, with the swash and fine surface detail in the foreground.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "south-shore-beach-lake",
+      "name": "South Shore Beach from across the lake",
+      "group": "Residential",
+      "purpose": "The beach and its promenade from across the lake.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "south-shore-beach-air",
+      "name": "South Shore Beach from the air",
+      "group": "Residential",
+      "purpose": "The beach, promenade and boat routes from above the lake.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
       "id": "look-airship",
       "name": "Tsiolkovsky: Airship Over the Parks",
       "group": "Residential",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-24",
   "seed": 20261006,
   "cityHashes": {
     "rotor0": "45c2fda435b12b91",
@@ -22,16 +22,16 @@
     "rotor0_elevated": "861e52fcf6d12027",
     "rotor0_elevatedMembers": "5cdbeaa36de9c495",
     "rotor0_elevatedTrees": "7e2021d3097d2580",
-    "rotor1": "2dbbbd20adf871e4",
-    "rotor1_buildings": "54ea3012793d8cc9",
-    "rotor1_props": "502c1abb1c5e5a31",
+    "rotor1": "51e7707fa47b7f45",
+    "rotor1_buildings": "16ea00e9c74510a3",
+    "rotor1_props": "1a16fba04acbb491",
     "rotor1_frontage": "f96b2eedbd7f7e53",
-    "rotor1_greenery": "f4cb955f08ca1119",
-    "rotor1_water": "5122882b983d46e3",
-    "rotor1_planting": "126205cc3a2ee0d4",
-    "rotor1_activityVerts": "4f12e1e8881a0034",
-    "rotor1_activityRoutes": "9d50e593c22ff7c6",
-    "rotor1_activity": "95ebe490990b1260",
+    "rotor1_greenery": "0da352178d7e1077",
+    "rotor1_water": "17d78a9174cc23ab",
+    "rotor1_planting": "024a00056383f4d7",
+    "rotor1_activityVerts": "51a5c67abeef5015",
+    "rotor1_activityRoutes": "ff1ba756d0e638c5",
+    "rotor1_activity": "85717647883cbb9a",
     "rotor1_landmarks": "b162f33ec6bfc0b9",
     "rotor1_transit": "3dabbf00a94fe331",
     "rotor1_transitPiers": "c55d7360c65f5e04",
@@ -81,7 +81,7 @@
     "rotor3_elevatedTrees": "a696d6f442744425"
   },
   "buildings": 44043,
-  "groundTrees": 415363,
+  "groundTrees": 415400,
   "elevatedTrees": 40198,
-  "trees": 455561
+  "trees": 455598
 }

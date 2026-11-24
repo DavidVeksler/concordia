@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18708 3700" role="img" aria-labelledby="m2-t m2-d" font-family="DM Sans, system-ui, sans-serif">
 <title id="m2-t">Noordung (Rotor 2): unrolled ground plan</title>
 <desc id="m2-d">Plan of the floor of Noordung (Rotor 2) cut along one street and laid flat: 15.7 km around (left to right, the left and right edges are the same street) by 2.5 km along the axis (forward end wall at the top, aft end wall at the bottom). District colours, parks, lakes, plazas, arterial and collector streets, the metro ring and four axial lines, four ascender towers and the landmark towers. The rotor spins retrograde seen from the spaceport end. 1 viewBox unit is 1 m.</desc>
-<metadata id="m2-meta">{"kind":"rotor-plan","rotor":2,"planHash":"2dbbbd20adf871e4","landmarksHash":"379b9af7a7798e29","generator":"21c173cfaa22"}</metadata>
+<metadata id="m2-meta">{"kind":"rotor-plan","rotor":2,"planHash":"51e7707fa47b7f45","landmarksHash":"379b9af7a7798e29","generator":"21c173cfaa22"}</metadata>
 <!-- Coordinates: 1 unit = 1 m. Plan rectangle x 1500..17208, y 800..3300; x = 1500 + s, y = 2050 - u (forward up). See scripts/site/map/plan-coords.mjs. -->
 <defs><clipPath id="m2-clip"><rect x="1500" y="800" width="15708" height="2500"/></clipPath></defs>
 <rect width="18708" height="3700" fill="var(--map-bg, #20252b)"/>

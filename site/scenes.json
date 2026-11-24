@@ -654,6 +654,12 @@
     "shot": "sc-look-lake-boats"
   },
   {
+    "viewpoint": "south-shore-beach",
+    "title": "South Shore Beach in Noordung",
+    "blurb": "A sandy arc below the park promenade, with striped parasols, loungers and sailboats. Walk the shore to see the water run up over the wet sand.",
+    "shot": "sc-south-shore-beach"
+  },
+  {
     "viewpoint": "look-airship",
     "title": "An airship over the parks of Tsiolkovsky",
     "blurb": "A passenger airship drifts about 280 m above the park quarters of Tsiolkovsky at 5 to 10 m/s and turns on the spot at each end of its leg. Airships are sightseeing craft that fly below the sky.",

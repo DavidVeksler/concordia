@@ -387,6 +387,15 @@
     "note": "scene atlas, station map pin, share row (look pass 2 LK14)"
   },
   {
+    "id": "sc-south-shore-beach",
+    "viewpoint": "south-shore-beach",
+    "alt": "Striped parasols and loungers on a curved sandy beach with sailboats on Noordung’s park-belt lake.",
+    "overlay": null,
+    "ui": "clean",
+    "settleMs": 12000,
+    "note": "Explore atlas and scene gallery"
+  },
+  {
     "id": "sc-look-airship",
     "viewpoint": "look-airship",
     "alt": "A cream and yellow airship in the air above parks, lakes and the megaframe piers of the first rotor.",
