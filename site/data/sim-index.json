@@ -1506,6 +1506,46 @@
       "map": "/map/#vp-look-tower-core"
     },
     {
+      "id": "mansion-park-front",
+      "name": "Tsiolkovsky: Houses on the Park",
+      "group": "Residential",
+      "purpose": "A strip of detached houses facing a lawn in Tsiolkovsky, a public walk behind their garden hedge.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "mansion-lake-villas",
+      "name": "Noordung: Lake Villas",
+      "group": "Residential",
+      "purpose": "Villas along the shore of a belt lake in Noordung, each with its own timber jetty, seen from the water.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "mansion-crescent",
+      "name": "Tsiolkovsky: The Crescent",
+      "group": "Residential",
+      "purpose": "A curved terrace of pale stone town houses with mansard roofs facing a lawn in Tsiolkovsky.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "mansion-estate",
+      "name": "O'Neill: A Park Belt Estate",
+      "group": "Residential",
+      "purpose": "A three-storey estate house with wings behind a hedge and lawn, across the street from the park belt of O'Neill.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "mansion-forest-lodge",
+      "name": "O'Neill: A Forest Lodge",
+      "group": "Residential",
+      "purpose": "A stone lodge in a clearing of the O'Neill forest, reached by a private gravel drive.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
       "id": "rotor2-civic-street",
       "name": "Noordung: Civic Street",
       "group": "Residential",

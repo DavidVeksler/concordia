@@ -64,6 +64,26 @@ The brook also runs downhill toward a horizon that climbs. It falls 5.9 m over 3
 
 <!-- facts: section 5, Arbor Brook -->
 
+## Houses and estates
+
+Most families in Concordia live in apartments. About one household in eight on the ground lives in a house, and a house on 1 g ground marks a wealthy family. Across the four habitation rotors 12 percent of ground households are single-family, from 6 percent on Noordung to 23 percent on O'Neill, which holds 38 percent of all the station's houses and is the estates rotor.
+
+In Tsiolkovsky the houses stand in strips on the edge of the larger parks. Each row faces the lawn across a clipped hedge, and a public walk runs behind the gardens so the park stays open to everyone.
+
+{% shot "pl-houses-park" "A row of detached houses with steep roofs and chimneys behind a garden hedge, facing a park lawn." %}
+
+Each rotor has one crescent, a curved terrace of 16 to 20 pale stone houses with mansard roofs that bulges toward the street and opens onto a park. Noordung has four garden squares, each a lawn of 50 to 90 m ringed by terraced houses with a mews gap in each side.
+
+{% shot "pl-houses-crescent" "A curved terrace of three-storey pale stone houses with green mansard roofs and hedged front gardens facing a lawn." %}
+
+The belt lakes carry 67 lake villas in strips of four to eight, their gardens running down to the shore and a timber jetty at each. A public landing and beach stay open on every lake. On O'Neill five estates stand at the forest edge and along the park belt, a main block with a wing on each side round a front court, and three stone lodges sit in clearings of the forest at the end of private gravel drives.
+
+{% shot "pl-houses-estate" "An estate house of three storeys with a wing on each side, behind a hedge and a lawn, across the street from the park belt." %}
+
+{% explore viewpoint="mansion-park-front" %} {% explore viewpoint="mansion-crescent" %} {% explore viewpoint="mansion-lake-villas" %} {% explore viewpoint="mansion-estate" %} {% explore viewpoint="mansion-forest-lodge" %}
+
+<!-- facts: section 8, Houses and estates -->
+
 ## Key numbers
 
 {% facts %}

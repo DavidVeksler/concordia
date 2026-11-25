@@ -383,5 +383,35 @@
     "ui": "clean",
     "settleMs": 4000,
     "note": "for /places/arbor-quarter/ section Arbor Brook and the /see/brook-falls/ share page; skytime 15.5, at 17.5 the low sun burns out the left third of this view"
+  },
+  {
+    "id": "pl-houses-park",
+    "viewpoint": "mansion-park-front",
+    "alt": "Detached houses with steep roofs behind a garden hedge, facing a park lawn.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/arbor-quarter/ (Houses and estates)"
+  },
+  {
+    "id": "pl-houses-crescent",
+    "viewpoint": "mansion-crescent",
+    "alt": "A curved terrace of three-storey pale stone houses with mansard roofs facing a lawn.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/arbor-quarter/ (Houses and estates)"
+  },
+  {
+    "id": "pl-houses-estate",
+    "viewpoint": "mansion-estate",
+    "alt": "An estate house with a wing on each side behind a hedge and lawn, across the street from the park belt.",
+    "overlay": null,
+    "skytime": 10,
+    "ui": "clean",
+    "settleMs": 4000,
+    "note": "for /places/arbor-quarter/ (Houses and estates)"
   }
 ]
