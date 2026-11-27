@@ -1546,6 +1546,54 @@
       "chapter": "neighborhood"
     },
     {
+      "id": "style-park-axis",
+      "name": "Style: Park Axis",
+      "group": "Residential",
+      "purpose": "Down the park centre line to the obelisk, tree rows each side, towers beyond. Composed for the style pass (docs/specs/style-pass-spec.md SP4).",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "style-street",
+      "name": "Style: Blossom Avenue",
+      "group": "Residential",
+      "purpose": "A blossom avenue at eye level, three-quarter to the facade row, trunk and kerb in the foreground.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "style-landmark",
+      "name": "Style: Clock Tower",
+      "group": "Residential",
+      "purpose": "The clock-tower hall from the entrance axis, lower and further back, over a blossom avenue.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "style-lake",
+      "name": "Style: Lake Shore",
+      "group": "Residential",
+      "purpose": "The lake, shoreline, boats and bridge in the central third, from above the canopy.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "style-axis",
+      "name": "Style: Rotor Curve",
+      "group": "Residential",
+      "purpose": "Along the rotor axis at mid height, the curve of the land as the subject, piers off-centre.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
+      "id": "style-residential",
+      "name": "Style: Crescent Hedge",
+      "group": "Residential",
+      "purpose": "The crescent at a three-quarter angle with a hedge in the foreground.",
+      "location": "inside",
+      "chapter": "neighborhood"
+    },
+    {
       "id": "rotor2-civic-street",
       "name": "Noordung: Civic Street",
       "group": "Residential",
