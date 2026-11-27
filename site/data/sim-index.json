@@ -655,7 +655,7 @@
       "id": "spaceport-arrival",
       "name": "Spaceport Arrival Face",
       "group": "Spaceport",
-      "purpose": "The axial express, its side platform and the route to the departures wheel.",
+      "purpose": "The middle-car exit looking through the platform windows toward Wheel A and the port.",
       "location": "inside",
       "chapter": "spaceport",
       "learnMore": "/places/spaceport/#what-you-see",
