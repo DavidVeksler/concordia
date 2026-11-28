@@ -233,7 +233,7 @@
   {
     "id": "pl-spaceport-hero",
     "viewpoint": "spaceport-hero",
-    "alt": "The spaceport from outside: a lounge wheel on its axle, the gate hall in its berth frames before it, the P1 trunk running off right.",
+    "alt": "The lounge wheels, compact gate hall and short Pier P1 collar inside the station cage.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
@@ -242,7 +242,7 @@
   {
     "id": "pl-spaceport-terminal",
     "viewpoint": "passenger-terminal",
-    "alt": "The axis hall looking forward: ribbed walls, shops on the deck, handline riders overhead and the spindle opening at the far end.",
+    "alt": "The zero-g concourse looking toward the wheels, with the axial express visible through the side glazing.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,
@@ -260,7 +260,7 @@
   {
     "id": "pl-spaceport-pier",
     "viewpoint": "spaceport-pier",
-    "alt": "A freighter berthed at a long truss pier on the outer face of the port, with tugs and the axial aperture nearby.",
+    "alt": "A freighter berthed alongside the shorter Pier P1, with the forward cage behind it.",
     "overlay": null,
     "ui": "clean",
     "settleMs": 4000,

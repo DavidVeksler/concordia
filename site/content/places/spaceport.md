@@ -11,7 +11,7 @@ spec:
   - "counter-rotating lounge wheels at 2 rpm"
   - "wheel deck, 223.6 m from the axis"
   - "coach berths, A01 to A04"
-updated: 2026-10-30
+updated: 2026-11-28
 related:
   - /places/shipyard/
   - /places/axis-and-spine/
@@ -22,17 +22,15 @@ map: "#vp-spaceport-hero"
 
 ## A passenger’s next stop
 
-The whole port is one straight line on the station axis. The express from the city ends at a terminus drum. Beyond it come a zero-g hall, two counter-rotating lounge wheels on one axle, a second zero-g hall of gates, a small-craft apron and the passenger pier. The lounge wheels share an axle, with docked ships ahead and the city cylinder behind.
+The axial express ends beside the terminal. Step out of the middle car and float straight through the open emergency lock. The concourse runs through the hubs of both lounge wheels and on to the coach gates, courier docks and passenger pier.
 
-{% shot "pl-spaceport-hero" "The spaceport from outside: a lounge wheel on its axle with the gate hall and its berth frames in front of it, and the P1 trunk running off to the right." %}
+{% shot "pl-spaceport-hero" "The lounge wheels and compact gate hall meet Pier P1 through a short glazed collar." %}
 
 ## What you see
 
-Arrival starts in the axis hall, 200 m long and in zero g, in the same Art Deco language as the city: stone ribs, warm light coves and bronze-framed windows. A monumental arch stands under a lit panel reading WELCOME TO CONCORDIA. Nobody is ever more than 15 m from something to hold: lines of grab handles carry travellers along the hall at walking pace, a cable runs down the axis, and a catch net spans the hall every 60 m. The far end opens onto the spindle and the first lounge wheel.
+The round lock frames a view into the zero-g concourse. Windows show the station truss and the two wheels, while grab rails and light strips give passengers a reference as they float. The common hall connects local carousel doors for Wheel A and Wheel D. Follow the hall straight through if you're headed to a gate.
 
-{% shot "pl-spaceport-terminal" "The axis hall looking forward: ribbed walls, shops and benches on the deck, handline riders overhead and the round opening of the spindle at the far end." %}
-
-A narrow stationary spindle runs through the middle of the two wheels. It carries three sealed passages, so arriving and departing streams never meet: green for the landside, amber for departures bound for the gates, blue for arrivals coming in from them. This is the airport split of a sterile side and a public side, built into the axle.
+{% shot "pl-spaceport-terminal" "The zero-g concourse with the axial train visible through its curved side windows." %}
 
 ### Two wheels, one gravity ladder
 
@@ -64,15 +62,13 @@ The two wheels turn against each other 50 m apart, at a relative 96 m/s at their
 
 ### Gates and coaches
 
-After the lounge you ride the lift up, cross to the amber passage by a second carousel and float into the gate hall, a 200 m tube 40 m across, no wider than the spindle you left. The airside checkpoint ring sets that width. Four coach berths, A01 to A04, sit at the points of a cross, each reached by a 31 m round neck out to a telescoping boarding bridge and a berth frame. A coach docks nose-in at its berth: it comes in through the open port, stops over the berth and slides radially in for the last 263 m. Four small ports, S1 to S4, take couriers. Crews reach cargo and tug bays by their own route, so freight never shares a bridge with passengers. Passengers for Earth board a coach here, and a tug tows the loaded stack round the port and sets it down on the launch sled at the spaceport end of the guideway on the hull. Flights to the Moon leave the gate under their own thrusters.
-
-{% shot "sc-spaceport-gate" "Gate A03: the boarding board and plate beside the arch, and the neck to the docked coach." %}
+After the lounge you ride the lift up and transfer by carousel to the common hall. Its last 140 m serve four coach berths, A01 to A04, and four courier docks, S1 to S4. Round necks connect the hall to the berth frames. Coaches approach through the open port, stop over the berth and slide radially inward. A tug tows Earth-bound coaches to the launch sled on the hull. Moon flights depart on their own thrusters.
 
 ### Piers and the propellant farm
 
-Large ships do not dock inside. They berth at three piers on the outer face of the port, each a deep truss running 900 m. Articulated arms clamp a ship alongside, and freighters are 260 m long. Pier P1 is the passenger pier, with a pressurized trunk that runs straight on from the axis.
+A 50 m pressurized collar leads from the last gates to the Pier P1 boarding lock. P1's 288 m truss runs alongside its freighter. The two longer cargo piers have their own freight handling route.
 
-{% shot "pl-spaceport-pier" "A freighter alongside a truss pier on the outer face of the port, with tugs and the axial aperture." %}
+{% shot "pl-spaceport-pier" "A freighter alongside Pier P1 inside the station’s forward cage." %}
 
 {% shot "sci-shipyard-close" "Nearby, the zero-g shipyard: Meridian 04 held in her capture rings, with tension lines spread to the yard frame." %}
 
@@ -94,7 +90,7 @@ The port is stationary and weightless where ships dock, and rotating only where 
 0.38 g | Mars landing, 85 m out
 0.166 g | lunar hub ring, 37 m out
 4 | coach berths, A01 to A04
-3 | piers, each 900 m long
+50 m | pressure collar to the P1 boarding lock
 {% endfacts %}
 
 {% deeper "Wheels, carousel and docking" %}
@@ -109,7 +105,7 @@ The deck circles 1,405 m, with six spokes, inside a tube whose vault crown is 24
 
 The carousel has eight chambers of 24 people. A 60 s ramp keeps the sideways push to 0.0078 g, and the eight chambers move about 2,300 people an hour each way. The lift takes 88 s with a stop at the Mars landing and tilts at most 25 degrees.
 
-The port runs along the axis from the terminus drum at x 9,400 m to the end of the passenger trunk at x 10,490 m: axis hall 9,560 to 9,760, wheel rims 9,870 to 9,980, gate hall 10,040 to 10,240. A tow from gate A01 to the launch sled at the guideway's spaceport end, x 9,728 m, covers 4.7 km at 10 m/s. A coach approaches along a corridor 400 m from the axis, then closes radially to the berth frame mouth at 137 m. A berth collar sits 52 m from the axis.
+The express stops at station x 9,750 m. The coach bank sits at x 10,075 m and the courier bank at x 10,163 m. P1 begins at x 10,230 m. A coach approaches along a corridor 400 m from the axis, then closes radially to the berth frame mouth at 137 m. Its collar sits 52 m from the axis.
 
 The propellant farm begins about 11,420 m along the station, at least 355 m outside the 1,500 m approach cylinder and about 1.4 km beyond the nearest defence battery. The farm holds spheres of 16 m radius (hydrogen) and 12 m radius (oxygen), and cylinders of 6 m radius.
 {% enddeeper %}
